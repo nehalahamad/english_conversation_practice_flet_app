@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Conversation A",
+        "lines": [
+            "S1. Do you speak English?",
+            "S2. Only a little, and not very well.",
+            "S3. Do you know many words?",
+            "S4. No, I don't. Only the important words."
+        ]
+    },
+    {
+        "title": "Conversation B",
+        "lines": [
+            "S1. Does your brother speak English?",
+            "S2. Well, he speaks a little English.",
+            "S1. Do your sisters speak English?",
+            "S2. Yes, they do. They speak it very well."
+        ]
+    },
+    {
+        "title": "Conversation C",
+        "lines": [
+            "S1. Can I help you?",
+            "S2. Yes. I speak only French.",
+            "S1. I'm sorry, but I don't understand French.",
+            "S2. Please find someone who speaks French."
+        ]
+    },
+    {
+        "title": "Conversation D",
+        "lines": [
+            "S1. What's the matter?",
+            "S2. I don't speak English.",
+            "S3. Do you need some kind of help?",
+            "S4. Yes, but I can't explain it in English."
+        ]
+    },
+    {
+        "title": "Conversation E",
+        "lines": [
+            "S1. Do you think English is easy?",
+            "S2. No, I don't.",
+            "S1. Why don't you think so?",
+            "S2. Because I don't understand it."
+        ]
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "chapter": "1. MEETING / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Hello. How are you?",
+                    "S2. Pretty well, thanks. And you?",
+                    "S1. I'm fine, thanks.",
+                    "S2. It's good to see you again."
+                ]
+            },
+            {
+                "title": "",
+                "lines": [
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1/ Line A4 /",
+                "example_sentence": "It's good to see you again.",
+                "lines": [
+                    {
+                        "word": "nice",
+                        "sentence": "It's nice to see you again."
+                    },
+                    {
+                        "word": "wonderful",
+                        "sentence": "It's wonderful to see you again."
+                    }
+                    ,
+                    {
+                        "word": "delightful",
+                        "sentence": "It's delightful to see you again."
+                    }
+                    ,
+                    {
+                        "word": "marvelous",
+                        "sentence": "It's marvelous to see you again."
+                    },
+                    {
+                        "word": "exciting",
+                        "sentence": "It's exciting to see you again."
+                    }
+                ]
+            },
+            {
+                "title": "",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "",
+                        "sentence": ""
+                    },
+                    {
+                        "word": "",
+                        "sentence": ""
+                    },
+                    {
+                        "word": "",
+                        "sentence": ""
+                    },
+                    {
+                        "word": "",
+                        "sentence": ""
+                    },
+                    {
+                        "word": "",
+                        "sentence": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "",
+        "conversations": "",
+        "exercises": ""
+    }
+]

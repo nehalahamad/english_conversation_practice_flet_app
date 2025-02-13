@@ -1,0 +1,242 @@
+[
+    {
+        "title": "Exercise 1 / Lines A1 and B1 /",
+        "example_sentence": "Do you speak English?",
+        "lines": [
+            {
+                "word": "your brother",
+                "sentence": " Does your brother speak English?"
+            },
+            {
+                "word": "your sisters",
+                "sentence": " Do your sisters speak English?"
+            },
+            {
+                "word": "Mr. .Brown",
+                "sentence": " Does Mr. Brown speak English?"
+            },
+            {
+                "word": "the lawyers",
+                "sentence": " Do the lawyers speak English?"
+            },
+            {
+                "word": "the girl",
+                "sentence": " Does the girl speak English?"
+            }
+        ]
+    },
+    {
+        "title": "Exercise 2 / Lines A1 and B1 /",
+        "example_sentence": "Do you speak English?",
+        "lines": [
+            {
+                "word": "Greek",
+                "sentence": " Do you speak Greek?"
+            },
+            {
+                "word": "Spanish",
+                "sentence": " Do you speak Spanish?"
+            },
+            {
+                "word": "Italian",
+                "sentence": " Do you speak Italian?"
+            },
+            {
+                "word": "Portuguese",
+                "sentence": " Do you speak Portuguese?"
+            }
+        ]
+    },
+    {
+        "title": "Exercise 3 / Lines A1 and B4 /",
+        "example_sentence": "Do you speak English?",
+        "lines": [
+            {
+                "word": "fluently",
+                "sentence": " Do you speak English fluently?"
+            },
+            {
+                "word": "rapidly",
+                "sentence": " Do you speak English rapidly?"
+            },
+            {
+                "word": "very well",
+                "sentence": " Do you speak English very well?"
+            },
+            {
+                "word": "correctly",
+                "sentence": " Do you speak English correctly?"
+            }
+        ]
+    },
+    {
+        "title": "Exercise 4 / Lines A1, B1, B4 /",
+        "example_sentence": "Do you speak English?",
+        "lines": [
+            {
+                "word": "Japanese",
+                "sentence": " Do you speak Japanese?"
+            },
+            {
+                "word": "your brother",
+                "sentence": " Does your brother speak Japanese?"
+            },
+            {
+                "word": "fluently",
+                "sentence": " Does your brother speak Japanese fluently?"
+            },
+            {
+                "word": "Greek",
+                "sentence": " Does your brother speak Greek fluently?"
+            },
+            {
+                "word": "your sisters",
+                "sentence": " Do your sisters speak Greek fluently?"
+            }
+        ]
+    },
+    {
+        "title": "Exercise 5 / Line C1 /",
+        "example_sentence": "Can I help you?",
+        "lines": [
+            {
+                "word": "any of you",
+                "sentence": " Can I help any of you?"
+            },
+            {
+                "word": "We",
+                "sentence": " Can we help any of you?"
+            },
+            {
+                "word": "Assist",
+                "sentence": " Can we assist any of you?"
+            },
+            {
+                "word": "with anything",
+                "sentence": " Can we assist any of you with any thing?"
+            },
+            {
+                "word": "you two",
+                "sentence": " Can we assist you two with anything?"
+            }
+        ]
+    },
+    {
+        "title": "Exercise 6 / Line C4 /",
+        "example_sentence": "Please find someone who speaks French.",
+        "lines": [
+            {
+                "word": "get",
+                "sentence": " Please get someone who speaks French."
+            },
+            {
+                "word": "bring",
+                "sentence": " Please bring someone who speaks French."
+            },
+            {
+                "word": "ask for",
+                "sentence": " Please ask for someone who speaks French."
+            },
+            {
+                "word": "direct me to",
+                "sentence": " Please direct me to someone who speaks French."
+            },
+            {
+                "word": "take me to",
+                "sentence": " Please take me to someone who speaks French."
+            }
+        ]
+    },
+    {
+        "title": "Exercise 7 / Line C4 /",
+        "example_sentence": "Please find someone who speaks French.",
+        "lines": [
+            {
+                "word": "German",
+                "sentence": " Please find someone who speaks German."
+            },
+            {
+                "word": "Turkish",
+                "sentence": " Please find someone who speaks Turkish."
+            },
+            {
+                "word": "Arabic",
+                "sentence": " Please find someone who speaks Arabic."
+            },
+            {
+                "word": "Chinese",
+                "sentence": " Please find someone who speaks Chinese."
+            }
+        ]
+    },
+    {
+        "title": "Exercise 8 / Line C4 /Please find someone who speaks French.",
+        "example_sentence": "bring\t Please bring someone who speaks French.",
+        "lines": [
+            {
+                "word": "Arabic",
+                "sentence": " Please bring someone who speaks Arabic."
+            },
+            {
+                "word": "ask for",
+                "sentence": " Please ask for someone who speaks Arabic."
+            },
+            {
+                "word": "German",
+                "sentence": " Please ask for someone who speaks German."
+            },
+            {
+                "word": "take me to",
+                "sentence": " Please take me to someone who speaks German."
+            }
+        ]
+    },
+    {
+        "title": "Exercise 9 / Line E1 /",
+        "example_sentence": "Do you think English is easy?",
+        "lines": [
+            {
+                "word": "hard",
+                "sentence": " Do you think English is hard?"
+            },
+            {
+                "word": "difficult",
+                "sentence": " Do you think English is difficult?"
+            },
+            {
+                "word": "simple",
+                "sentence": " Do you think English is simple?"
+            },
+            {
+                "word": "complicated",
+                "sentence": " Do you think English is complicated?"
+            }
+        ]
+    },
+    {
+        "title": "Exercise 10 / Line D2 /",
+        "example_sentence": "I don't speak English.",
+        "lines": [
+            {
+                "word": "The man",
+                "sentence": " The man doesn't speak English."
+            },
+            {
+                "word": "fluently",
+                "sentence": " The man doesn't speak English fluently."
+            },
+            {
+                "word": "The boys",
+                "sentence": " The boys don't speak English fluently."
+            },
+            {
+                "word": "very well",
+                "sentence": " The boys don't speak English very well."
+            },
+            {
+                "word": "understand",
+                "sentence": " The boys don't understand English very well."
+            }
+        ]
+    }
+]
