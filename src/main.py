@@ -143,15 +143,13 @@ class MyApp:
         self.selected_index = 0
         self.selected_chapter = 0
 
-
-        self.current_conversations_list = english_conversation_practice[self.selected_chapter]["conversations"]
-        self.current_exercises_list = english_conversation_practice[self.selected_chapter]["exercises"]
-
-
         self.conversation_obj = Conversation()
         self.exercise_obj = Exercise()
 
         self.drawer = ft.NavigationDrawer(on_dismiss=self.handle_dismissal, on_change=self.handle_change, selected_index=0)
+        
+        self.current_conversations_list = english_conversation_practice[self.selected_chapter]["conversations"]
+        self.current_exercises_list = english_conversation_practice[self.selected_chapter]["exercises"]
 
         self.current_conversation_exercise = 0
         self.conversation_exercise_list = self.get_conversation_exercise_list(self.current_conversations_list, self.current_exercises_list)
@@ -170,11 +168,11 @@ class MyApp:
         self.appbar = ft.AppBar(
             leading=ft.IconButton(icon=ft.Icons.MENU, on_click=lambda e: self.page.open(self.drawer), data=0),
             leading_width=40,
-            title=ft.Text("English Conversation Practice", size=15),
+            title=ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15),
             center_title=False,
             bgcolor=ft.Colors.GREEN_100,
             actions=[
-
+                ft.IconButton(ft.Icons.ARROW_CIRCLE_RIGHT_OUTLINED, on_click=self.get_next_chapter)
             ]
         )
         self.page.appbar = self.appbar
@@ -199,10 +197,9 @@ class MyApp:
                 ]
             )
         )
-        page.add(ft.ElevatedButton("Next Chapter", on_click=self.get_next_chapter))
-        
+        # page.add(ft.ElevatedButton("Next Chapter", on_click=self.get_next_chapter))
+         
         page.update()
-
 
 
 
@@ -211,9 +208,6 @@ class MyApp:
         self.current_conversation_exercise += 1
         if self.current_conversation_exercise >= len(self.conversation_exercise_list):
             self.current_conversation_exercise = 0
-        # self.conversation_exercise_widget.content=self.conversation_obj.display(        self.conversation_exercise_list[self.current_conversation_exercise])
-
-        # print(self.current_conversations_list)
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
         self.page.update()
 
@@ -231,7 +225,10 @@ class MyApp:
         if self.selected_chapter >= len(english_conversation_practice):
             self.selected_chapter = 0
         self.current_conversations_list = english_conversation_practice[self.selected_chapter]["conversations"]
+        self.current_exercises_list = english_conversation_practice[self.selected_chapter]["exercises"]
+        
         self.current_conversation_exercise = 0
+        self.conversation_exercise_list = self.get_conversation_exercise_list(self.current_conversations_list, self.current_exercises_list)
 
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
         self.appbar.title = ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15)
