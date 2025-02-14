@@ -25,22 +25,29 @@ class Conversation:
             if 'S1.' in line:
                 column.controls.append(
                     ft.Container(
-                        content=ft.Text(line, size=12, color=ft.Colors.BLUE),
-                        bgcolor=ft.Colors.WHITE,
-                        alignment=ft.alignment.center_left,
-                        border_radius=5,
-                        padding=5,
-                
+                        content=ft.Container(
+                            content=ft.Text(line, size=12, color=ft.Colors.BLUE),
+                            bgcolor=ft.Colors.WHITE,
+                            # alignment=ft.alignment.center_left,
+                            border_radius=5,
+                            padding=5,
+                    
+                        ),
+                        # bgcolor=ft.Colors.RED,
+                        alignment=ft.alignment.center_left
                     )
                 )
             elif 'S2.' in line:
                 column.controls.append(
                     ft.Container(
-                        content=(ft.Text(line, size=12, color=ft.Colors.RED)),
-                        bgcolor=ft.Colors.WHITE,
+                        content=ft.Container(
+                            content=(ft.Text(line, size=12, color=ft.Colors.RED)),
+                            bgcolor=ft.Colors.WHITE,
+                            # alignment=ft.alignment.center_right,
+                            border_radius=5,
+                            padding=5
+                        ),
                         alignment=ft.alignment.center_right,
-                        border_radius=5,
-                        padding=5
                     )
                 )
         
@@ -89,20 +96,26 @@ class Exercise:
             sentence = line['sentence']
             column.controls.append(
                 ft.Container(
-                    content=ft.Text(word, size=12, color=ft.Colors.BLUE),
-                    bgcolor=ft.Colors.WHITE,
+                    content=ft.Container(
+                        content=ft.Text(word, size=12, color=ft.Colors.BLUE),
+                        bgcolor=ft.Colors.WHITE,
+                        # alignment=ft.alignment.center_left,
+                        border_radius=ft.border_radius.only(top_right=10, bottom_right=10),
+                        padding=5
+                    ),
                     alignment=ft.alignment.center_left,
-                    border_radius=ft.border_radius.only(top_right=5, bottom_right=5),
-                    padding=5
                 )
             )
             column.controls.append(
                 ft.Container(
-                    content=ft.Text(sentence, size=12, color=ft.Colors.RED),
-                    bgcolor=ft.Colors.WHITE,
-                    alignment=ft.alignment.center_right,
-                    border_radius=ft.border_radius.only(top_left=5, bottom_left=5),
-                    padding=5
+                    content=ft.Container(
+                        content=ft.Text(sentence, size=12, color=ft.Colors.RED),
+                        bgcolor=ft.Colors.WHITE,
+                        alignment=ft.alignment.center_right,
+                        border_radius=ft.border_radius.only(top_left=5, bottom_left=5),
+                        padding=5
+                    ),
+                    
                 )
             )
         return ft.Column(
@@ -120,7 +133,7 @@ class Exercise:
 
 # Load JSON data from a file
 def load_json_data(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 # Load chapters data from a JSON file
@@ -237,8 +250,14 @@ class MyApp:
 
     def handle_dismissal(self, e):
         self.selected_chapter = e.control.selected_index
-        chapter = english_conversation_practice[e.control.selected_index]["chapter"]
-        self.appbar.title = ft.Text(chapter, size=15)
+        self.current_conversations_list = english_conversation_practice[self.selected_chapter]["conversations"]
+        self.current_exercises_list = english_conversation_practice[self.selected_chapter]["exercises"]
+        
+        self.current_conversation_exercise = 0
+        self.conversation_exercise_list = self.get_conversation_exercise_list(self.current_conversations_list, self.current_exercises_list)
+
+        self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
+        self.appbar.title = ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15)
         self.page.update()
 
 
