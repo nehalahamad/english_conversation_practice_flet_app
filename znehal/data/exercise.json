@@ -1,241 +1,267 @@
 [
     {
-        "title": "Exercise 1 / Lines A1 and B1 /",
-        "example_sentence": "Do you speak English?",
+        "title": "Exercise1/ Line A1 /",
+        "example_sentence": "What time do you get up?",
         "lines": [
             {
-                "word": "your brother",
-                "sentence": " Does your brother speak English?"
+                "word": "have breakfast",
+                "sentence": " What time do you have breakfast?"
             },
             {
-                "word": "your sisters",
-                "sentence": " Do your sisters speak English?"
+                "word": "leave home",
+                "sentence": " What time do you leave home?"
             },
             {
-                "word": "Mr. .Brown",
-                "sentence": " Does Mr. Brown speak English?"
+                "word": "leave for work",
+                "sentence": " What time do you leave for work?"
             },
             {
-                "word": "the lawyers",
-                "sentence": " Do the lawyers speak English?"
+                "word": "return home",
+                "sentence": " What time do you return home?"
             },
             {
-                "word": "the girl",
-                "sentence": " Does the girl speak English?"
+                "word": "go to bed",
+                "sentence": " What time do you go to bed?"
             }
         ]
     },
     {
-        "title": "Exercise 2 / Lines A1 and B1 /",
-        "example_sentence": "Do you speak English?",
+        "title": "Exercise-2 / Lines Al and A2 /",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "Greek",
-                "sentence": " Do you speak Greek?"
+                "word": "I get up at seven fifteen.",
+                "sentence": " What time do you get up?"
             },
             {
-                "word": "Spanish",
-                "sentence": " Do you speak Spanish?"
+                "word": "I have breakfast about eight fifteen.",
+                "sentence": " What time do you have breakfast?"
             },
             {
-                "word": "Italian",
-                "sentence": " Do you speak Italian?"
+                "word": "I leave home at a quarter to nine.",
+                "sentence": " What time do you leave home?"
             },
             {
-                "word": "Portuguese",
-                "sentence": " Do you speak Portuguese?"
+                "word": "I go to bed about eleven o'clock.",
+                "sentence": " What time do you go for bed?"
             }
         ]
     },
     {
-        "title": "Exercise 3 / Lines A1 and B4 /",
-        "example_sentence": "Do you speak English?",
+        "title": "Exercise 3 / Lines Al and A3 /",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "fluently",
-                "sentence": " Do you speak English fluently?"
+                "word": "What time do you have breakfast?",
+                "sentence": " When do you have breakfast?"
             },
             {
-                "word": "rapidly",
-                "sentence": " Do you speak English rapidly?"
+                "word": "What time do you go to school?",
+                "sentence": " When do you go to school?"
             },
             {
-                "word": "very well",
-                "sentence": " Do you speak English very well?"
+                "word": "What time do you get to the office?",
+                "sentence": " When do you get to the office?"
             },
             {
-                "word": "correctly",
-                "sentence": " Do you speak English correctly?"
+                "word": "What time do you eat lunch?",
+                "sentence": " When do you eat lunch?"
+            },
+            {
+                "word": "What time do you leave for home?",
+                "sentence": " When do you leave for home?"
             }
         ]
     },
     {
-        "title": "Exercise 4 / Lines A1, B1, B4 /",
-        "example_sentence": "Do you speak English?",
+        "title": "Exercise 4 / Line D1 /",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "Japanese",
-                "sentence": " Do you speak Japanese?"
+                "word": "Do you watch television very often?",
+                "sentence": " Yes, I do."
             },
             {
-                "word": "your brother",
-                "sentence": " Does your brother speak Japanese?"
+                "word": "How often do you watch television?",
+                "sentence": " I watch it twice a week"
             },
             {
-                "word": "fluently",
-                "sentence": " Does your brother speak Japanese fluently?"
+                "word": "Does John watch television very often?",
+                "sentence": " Yes, he does."
             },
             {
-                "word": "Greek",
-                "sentence": " Does your brother speak Greek fluently?"
+                "word": "How often does John watch television?",
+                "sentence": " He watches it twice a week."
             },
             {
-                "word": "your sisters",
-                "sentence": " Do your sisters speak Greek fluently?"
+                "word": "Do the boys watch television very often?",
+                "sentence": " Yes, they do."
+            },
+            {
+                "word": "How often do the boys watch television?",
+                "sentence": " They watch it twice a week."
             }
         ]
     },
     {
-        "title": "Exercise 5 / Line C1 /",
-        "example_sentence": "Can I help you?",
+        "title": "Exercise 5 / Line D3",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "any of you",
-                "sentence": " Can I help any of you?"
+                "word": "Did you watch television last night?",
+                "sentence": " Yes, I did. I watched television last night."
             },
             {
-                "word": "We",
-                "sentence": " Can we help any of you?"
+                "word": "Did you listen to the radio last?",
+                "sentence": " Yes, I did. I listened to the radio last night."
             },
             {
-                "word": "Assist",
-                "sentence": " Can we assist any of you?"
+                "word": "Did you go to a movie last night?",
+                "sentence": " Yes, I did. I went to a movie last night."
             },
             {
-                "word": "with anything",
-                "sentence": " Can we assist any of you with any thing?"
+                "word": "Did you go to the library last night?",
+                "sentence": " Yes, I did. I went to the library last"
             },
             {
-                "word": "you two",
-                "sentence": " Can we assist you two with anything?"
+                "word": "Did you attend a concert last night?",
+                "sentence": " Yes, I did. I attended concert last"
+            },
+            {
+                "word": "Did you visit a museum last night?",
+                "sentence": " Yes, I did. I visited a museum last"
             }
         ]
     },
     {
-        "title": "Exercise 6 / Line C4 /",
-        "example_sentence": "Please find someone who speaks French.",
+        "title": "Exercise 6 / Line A4 /",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "get",
-                "sentence": " Please get someone who speaks French."
+                "word": "He's happy.",
+                "sentence": " He's usually happy"
             },
             {
-                "word": "bring",
-                "sentence": " Please bring someone who speaks French."
+                "word": "They're at home.",
+                "sentence": " They're usually at home"
             },
             {
-                "word": "ask for",
-                "sentence": " Please ask for someone who speaks French."
+                "word": "She's there.",
+                "sentence": " She's usually there."
             },
             {
-                "word": "direct me to",
-                "sentence": " Please direct me to someone who speaks French."
+                "word": "I'm very nervous.",
+                "sentence": " I'm usually very nervous"
             },
             {
-                "word": "take me to",
-                "sentence": " Please take me to someone who speaks French."
+                "word": "You're in your office.",
+                "sentence": " You're usually in your Office."
+            },
+            {
+                "word": "They're quite busy.",
+                "sentence": " They're usually quite busy."
+            },
+            {
+                "word": "We're serious about things.",
+                "sentence": " We're usually serious about things."
             }
         ]
     },
     {
-        "title": "Exercise 7 / Line C4 /",
-        "example_sentence": "Please find someone who speaks French.",
+        "title": "Exercise 7 / Lines B2 and B4 /",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "German",
-                "sentence": " Please find someone who speaks German."
+                "word": "He writes carefully.",
+                "sentence": " He usually writes carefully."
             },
             {
-                "word": "Turkish",
-                "sentence": " Please find someone who speaks Turkish."
+                "word": "They practice at home.",
+                "sentence": " They usually practice at home."
             },
             {
-                "word": "Arabic",
-                "sentence": " Please find someone who speaks Arabic."
+                "word": "She reads popular novels.",
+                "sentence": " She usually reads popular novels."
             },
             {
-                "word": "Chinese",
-                "sentence": " Please find someone who speaks Chinese."
+                "word": "I watch television here.",
+                "sentence": " I usually watch television here."
+            },
+            {
+                "word": "He enjoys seeing movies.",
+                "sentence": " He usually enjoys seeing movies."
+            },
+            {
+                "word": "They leave home early.",
+                "sentence": " They usually leave home early."
+            },
+            {
+                "word": "We get up before eight.",
+                "sentence": " We usually get up before eight."
             }
         ]
     },
     {
-        "title": "Exercise 8 / Line C4 /Please find someone who speaks French.",
-        "example_sentence": "bring\t Please bring someone who speaks French.",
+        "title": "Exercise 8 / Lines A4 and B2 /",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "Arabic",
-                "sentence": " Please bring someone who speaks Arabic."
+                "word": "He's kind to them.",
+                "sentence": " He's always kind to them."
             },
             {
-                "word": "ask for",
-                "sentence": " Please ask for someone who speaks Arabic."
+                "word": "They help her.",
+                "sentence": " They always help her."
             },
             {
-                "word": "German",
-                "sentence": " Please ask for someone who speaks German."
+                "word": "We're busy on Friday.",
+                "sentence": " We're always busy on Friday."
             },
             {
-                "word": "take me to",
-                "sentence": " Please take me to someone who speaks German."
+                "word": "I work extra hours.",
+                "sentence": " I always work extra hours."
+            },
+            {
+                "word": "They're polite to us.",
+                "sentence": " They're always polite to us.He drinks black coffee. He always drinks black coffee."
+            },
+            {
+                "word": "She's calm about things.",
+                "sentence": " She's always calm about things."
             }
         ]
     },
     {
-        "title": "Exercise 9 / Line E1 /",
-        "example_sentence": "Do you think English is easy?",
+        "title": "Exercise 9 / Lines A4 and B2 /",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "hard",
-                "sentence": " Do you think English is hard?"
+                "word": "He always works hard.",
+                "sentence": " Does he always work hard?"
             },
             {
-                "word": "difficult",
-                "sentence": " Do you think English is difficult?"
+                "word": "They're always late.",
+                "sentence": " Are they always late-?"
             },
             {
-                "word": "simple",
-                "sentence": " Do you think English is simple?"
+                "word": "She's always serious.",
+                "sentence": " Is she always serious?"
             },
             {
-                "word": "complicated",
-                "sentence": " Do you think English is complicated?"
-            }
-        ]
-    },
-    {
-        "title": "Exercise 10 / Line D2 /",
-        "example_sentence": "I don't speak English.",
-        "lines": [
-            {
-                "word": "The man",
-                "sentence": " The man doesn't speak English."
+                "word": "They always speak English.",
+                "sentence": " Do they always speak English?"
             },
             {
-                "word": "fluently",
-                "sentence": " The man doesn't speak English fluently."
+                "word": "He always writes carefully.",
+                "sentence": " Does he always write carefully?"
             },
             {
-                "word": "The boys",
-                "sentence": " The boys don't speak English fluently."
+                "word": "She's always patient with him.",
+                "sentence": " Is she always patient with him?"
             },
             {
-                "word": "very well",
-                "sentence": " The boys don't speak English very well."
-            },
-            {
-                "word": "understand",
-                "sentence": " The boys don't understand English very well."
+                "word": "They always wait for her.",
+                "sentence": " Do they always wait for her?"
             }
         ]
     }

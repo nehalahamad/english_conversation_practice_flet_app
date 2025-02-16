@@ -2,46 +2,46 @@
     {
         "title": "Conversation A",
         "lines": [
-            "S1. Do you speak English?",
-            "S2. Only a little, and not very well.",
-            "S3. Do you know many words?",
-            "S4. No, I don't. Only the important words."
+            "S1. What time do you get up? ,",
+            "S2. I get up about seven fifteen.",
+            "S1. What time is breakfast at your house?",
+            "S2. Breakfast is always at a quarter to eight."
         ]
     },
     {
         "title": "Conversation B",
         "lines": [
-            "S1. Does your brother speak English?",
-            "S2. Well, he speaks a little English.",
-            "S1. Do your sisters speak English?",
-            "S2. Yes, they do. They speak it very well."
+            "S1. What do you usually do in the afternoon?",
+            "S2. We usually study or read.",
+            "S1. What do you generally do over the weekend?",
+            "S2. We generally enjoy sports and visit friends."
         ]
     },
     {
         "title": "Conversation C",
         "lines": [
-            "S1. Can I help you?",
-            "S2. Yes. I speak only French.",
-            "S1. I'm sorry, but I don't understand French.",
-            "S2. Please find someone who speaks French."
+            "S1. Do you ever go to museums?",
+            "S2. I go every now and then.",
+            "S1. What kinds of things do you like to see?",
+            "S2. I enjoy seeing statues and old paintings."
         ]
     },
     {
         "title": "Conversation D",
         "lines": [
-            "S1. What's the matter?",
-            "S2. I don't speak English.",
-            "S3. Do you need some kind of help?",
-            "S4. Yes, but I can't explain it in English."
+            "S1.Do you watch television very often?",
+            "S2. Well, I sometimes watch it in the evening.",
+            "S1. Did you watch television last night?",
+            "S2. Yes, I did. I saw several good programs."
         ]
     },
     {
         "title": "Conversation E",
         "lines": [
-            "S1. Do you think English is easy?",
-            "S2. No, I don't.",
-            "S1. Why don't you think so?",
-            "S2. Because I don't understand it."
+            "S1. Do you ever listen to the radio?",
+            "S2.Certainly. In fact, I listen practically every night.",
+            "Sl. What's your favorite program?",
+            "S2.I like the Eleven O'clock Theater best of all."
         ]
     }
 ]

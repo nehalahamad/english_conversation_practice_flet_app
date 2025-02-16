@@ -1020,5 +1020,323 @@
                 ]
             }
         ]
+    },
+    {
+        "chapter": "4. DAILY ACTIVITIES / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. What time do you get up? ,",
+                    "S2. I get up about seven fifteen.",
+                    "S1. What time is breakfast at your house?",
+                    "S2. Breakfast is always at a quarter to eight."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. What do you usually do in the afternoon?",
+                    "S2. We usually study or read.",
+                    "S1. What do you generally do over the weekend?",
+                    "S2. We generally enjoy sports and visit friends."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Do you ever go to museums?",
+                    "S2. I go every now and then.",
+                    "S1. What kinds of things do you like to see?",
+                    "S2. I enjoy seeing statues and old paintings."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1.Do you watch television very often?",
+                    "S2. Well, I sometimes watch it in the evening.",
+                    "S1. Did you watch television last night?",
+                    "S2. Yes, I did. I saw several good programs."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Do you ever listen to the radio?",
+                    "S2.Certainly. In fact, I listen practically every night.",
+                    "Sl. What's your favorite program?",
+                    "S2.I like the Eleven O'clock Theater best of all."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise1/ Line A1 /",
+                "example_sentence": "What time do you get up?",
+                "lines": [
+                    {
+                        "word": "have breakfast",
+                        "sentence": " What time do you have breakfast?"
+                    },
+                    {
+                        "word": "leave home",
+                        "sentence": " What time do you leave home?"
+                    },
+                    {
+                        "word": "leave for work",
+                        "sentence": " What time do you leave for work?"
+                    },
+                    {
+                        "word": "return home",
+                        "sentence": " What time do you return home?"
+                    },
+                    {
+                        "word": "go to bed",
+                        "sentence": " What time do you go to bed?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise-2 / Lines Al and A2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "I get up at seven fifteen.",
+                        "sentence": " What time do you get up?"
+                    },
+                    {
+                        "word": "I have breakfast about eight fifteen.",
+                        "sentence": " What time do you have breakfast?"
+                    },
+                    {
+                        "word": "I leave home at a quarter to nine.",
+                        "sentence": " What time do you leave home?"
+                    },
+                    {
+                        "word": "I go to bed about eleven o'clock.",
+                        "sentence": " What time do you go for bed?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Lines Al and A3 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "What time do you have breakfast?",
+                        "sentence": " When do you have breakfast?"
+                    },
+                    {
+                        "word": "What time do you go to school?",
+                        "sentence": " When do you go to school?"
+                    },
+                    {
+                        "word": "What time do you get to the office?",
+                        "sentence": " When do you get to the office?"
+                    },
+                    {
+                        "word": "What time do you eat lunch?",
+                        "sentence": " When do you eat lunch?"
+                    },
+                    {
+                        "word": "What time do you leave for home?",
+                        "sentence": " When do you leave for home?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line D1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Do you watch television very often?",
+                        "sentence": " Yes, I do."
+                    },
+                    {
+                        "word": "How often do you watch television?",
+                        "sentence": " I watch it twice a week"
+                    },
+                    {
+                        "word": "Does John watch television very often?",
+                        "sentence": " Yes, he does."
+                    },
+                    {
+                        "word": "How often does John watch television?",
+                        "sentence": " He watches it twice a week."
+                    },
+                    {
+                        "word": "Do the boys watch television very often?",
+                        "sentence": " Yes, they do."
+                    },
+                    {
+                        "word": "How often do the boys watch television?",
+                        "sentence": " They watch it twice a week."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line D3",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Did you watch television last night?",
+                        "sentence": " Yes, I did. I watched television last night."
+                    },
+                    {
+                        "word": "Did you listen to the radio last?",
+                        "sentence": " Yes, I did. I listened to the radio last night."
+                    },
+                    {
+                        "word": "Did you go to a movie last night?",
+                        "sentence": " Yes, I did. I went to a movie last night."
+                    },
+                    {
+                        "word": "Did you go to the library last night?",
+                        "sentence": " Yes, I did. I went to the library last"
+                    },
+                    {
+                        "word": "Did you attend a concert last night?",
+                        "sentence": " Yes, I did. I attended concert last"
+                    },
+                    {
+                        "word": "Did you visit a museum last night?",
+                        "sentence": " Yes, I did. I visited a museum last"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line A4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "He's happy.",
+                        "sentence": " He's usually happy"
+                    },
+                    {
+                        "word": "They're at home.",
+                        "sentence": " They're usually at home"
+                    },
+                    {
+                        "word": "She's there.",
+                        "sentence": " She's usually there."
+                    },
+                    {
+                        "word": "I'm very nervous.",
+                        "sentence": " I'm usually very nervous"
+                    },
+                    {
+                        "word": "You're in your office.",
+                        "sentence": " You're usually in your Office."
+                    },
+                    {
+                        "word": "They're quite busy.",
+                        "sentence": " They're usually quite busy."
+                    },
+                    {
+                        "word": "We're serious about things.",
+                        "sentence": " We're usually serious about things."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Lines B2 and B4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "He writes carefully.",
+                        "sentence": " He usually writes carefully."
+                    },
+                    {
+                        "word": "They practice at home.",
+                        "sentence": " They usually practice at home."
+                    },
+                    {
+                        "word": "She reads popular novels.",
+                        "sentence": " She usually reads popular novels."
+                    },
+                    {
+                        "word": "I watch television here.",
+                        "sentence": " I usually watch television here."
+                    },
+                    {
+                        "word": "He enjoys seeing movies.",
+                        "sentence": " He usually enjoys seeing movies."
+                    },
+                    {
+                        "word": "They leave home early.",
+                        "sentence": " They usually leave home early."
+                    },
+                    {
+                        "word": "We get up before eight.",
+                        "sentence": " We usually get up before eight."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Lines A4 and B2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "He's kind to them.",
+                        "sentence": " He's always kind to them."
+                    },
+                    {
+                        "word": "They help her.",
+                        "sentence": " They always help her."
+                    },
+                    {
+                        "word": "We're busy on Friday.",
+                        "sentence": " We're always busy on Friday."
+                    },
+                    {
+                        "word": "I work extra hours.",
+                        "sentence": " I always work extra hours."
+                    },
+                    {
+                        "word": "They're polite to us.",
+                        "sentence": " They're always polite to us.He drinks black coffee. He always drinks black coffee."
+                    },
+                    {
+                        "word": "She's calm about things.",
+                        "sentence": " She's always calm about things."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 9 / Lines A4 and B2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "He always works hard.",
+                        "sentence": " Does he always work hard?"
+                    },
+                    {
+                        "word": "They're always late.",
+                        "sentence": " Are they always late-?"
+                    },
+                    {
+                        "word": "She's always serious.",
+                        "sentence": " Is she always serious?"
+                    },
+                    {
+                        "word": "They always speak English.",
+                        "sentence": " Do they always speak English?"
+                    },
+                    {
+                        "word": "He always writes carefully.",
+                        "sentence": " Does he always write carefully?"
+                    },
+                    {
+                        "word": "She's always patient with him.",
+                        "sentence": " Is she always patient with him?"
+                    },
+                    {
+                        "word": "They always wait for her.",
+                        "sentence": " Do they always wait for her?"
+                    }
+                ]
+            }
+        ]
     }
 ]

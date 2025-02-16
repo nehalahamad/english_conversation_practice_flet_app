@@ -5,16 +5,15 @@ import json
 
 class Conversation:
     def __init__(self):
-        pass
+        self.conversation_font_size = 15
 
     def display(self, conversation):
         title = ft.Container(
-            content=ft.Text(conversation["title"], size=15),
+            content=ft.Text(conversation["title"], size=18),
             bgcolor=ft.Colors.WHITE,
             padding=10,
             margin=5,
             border_radius=10,
-            # expand=True,
             # width=360,
             alignment=ft.alignment.center
         )
@@ -23,31 +22,42 @@ class Conversation:
 
         for line in conversation["lines"]:
             if 'S1.' in line:
+                line = line.split('S1.')[1].strip()
                 column.controls.append(
                     ft.Container(
-                        content=ft.Container(
-                            content=ft.Text(line, size=12, color=ft.Colors.BLUE),
-                            bgcolor=ft.Colors.WHITE,
-                            # alignment=ft.alignment.center_left,
-                            border_radius=5,
-                            padding=5,
-                    
+                        content=ft.Row(
+                            controls=[
+                                ft.Icon(name=ft.Icons.FACE),
+                                ft.Container(
+                                    content=ft.Text(line, size=self.conversation_font_size, color=ft.Colors.BLUE),
+                                    bgcolor=ft.Colors.WHITE,
+                                    border_radius=5,
+                                    padding=5,
+                            
+                                ),
+                            ]
                         ),
-                        # bgcolor=ft.Colors.RED,
                         alignment=ft.alignment.center_left
                     )
                 )
             elif 'S2.' in line:
+                line = line.split('S2.')[1].strip()
                 column.controls.append(
                     ft.Container(
-                        content=ft.Container(
-                            content=(ft.Text(line, size=12, color=ft.Colors.RED)),
-                            bgcolor=ft.Colors.WHITE,
-                            # alignment=ft.alignment.center_right,
-                            border_radius=5,
-                            padding=5
+                        content=ft.Row(
+                            controls=[
+                                ft.Icon(name=ft.Icons.FACE_4),
+                                ft.Container(
+                                    content=(ft.Text(line, size=self.conversation_font_size, color=ft.Colors.RED)),
+                                    bgcolor=ft.Colors.WHITE,
+                                    border_radius=5,
+                                    padding=5
+                                ),
+                            ],
+                            alignment=ft.MainAxisAlignment.END,
+                    
                         ),
-                        alignment=ft.alignment.center_right,
+                        # alignment=ft.alignment.center_right,
                     )
                 )
         
@@ -62,21 +72,21 @@ class Conversation:
 
 class Exercise:
     def __init__(self):
-        pass
+        self.conversation_font_size = 15
 
     def display(self, exercise):
         title = ft.Container(
-            content=ft.Text(exercise["title"], size=15),
+            content=ft.Text(exercise["title"], size=18),
             bgcolor=ft.Colors.WHITE,
             padding=10,
-            margin=5,
+            # margin=5,
             border_radius=10,
             # expand=True,
             width=360,
             alignment=ft.alignment.center
         )
         example_sentence = ft.Container(
-            content=ft.Text(exercise["example_sentence"], size=15),
+            content=ft.Text(exercise["example_sentence"], size=18),
             bgcolor=ft.Colors.WHITE,
             padding=10,
             margin=5,
@@ -97,7 +107,7 @@ class Exercise:
             column.controls.append(
                 ft.Container(
                     content=ft.Container(
-                        content=ft.Text(word, size=12, color=ft.Colors.BLUE),
+                        content=ft.Text(word, size=self.conversation_font_size, color=ft.Colors.BLUE),
                         bgcolor=ft.Colors.WHITE,
                         # alignment=ft.alignment.center_left,
                         border_radius=ft.border_radius.only(top_right=10, bottom_right=10),
@@ -109,7 +119,7 @@ class Exercise:
             column.controls.append(
                 ft.Container(
                     content=ft.Container(
-                        content=ft.Text(sentence, size=12, color=ft.Colors.RED),
+                        content=ft.Text(sentence, size=self.conversation_font_size, color=ft.Colors.RED),
                         bgcolor=ft.Colors.WHITE,
                         alignment=ft.alignment.center_right,
                         border_radius=ft.border_radius.only(top_left=5, bottom_left=5),
@@ -128,6 +138,11 @@ class Exercise:
         )
 
 
+class MyAppBar:
+    def __init__(self):
+        pass
+
+
 
 
 
@@ -137,7 +152,7 @@ def load_json_data(file_path):
         return json.load(file)
 
 # Load chapters data from a JSON file
-english_conversation_practice = load_json_data("src/assets/english_conversation_practice_3ch.json")
+english_conversation_practice = load_json_data("src/assets/english_conversation_practice.json")
 
 
 
@@ -168,7 +183,7 @@ class MyApp:
         self.conversation_exercise_list = self.get_conversation_exercise_list(self.current_conversations_list, self.current_exercises_list)
 
         self.conversation_exercise_widget = ft.Container(
-            height=420, 
+            height=620, 
             # bgcolor=ft.Colors.RED, 
             padding=10, 
             border_radius=10
@@ -177,7 +192,7 @@ class MyApp:
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.current_conversations_list[self.current_conversation_exercise])
 
 
-
+        # ---------------------------------------------------------------------------------------
         self.appbar = ft.AppBar(
             leading=ft.IconButton(icon=ft.Icons.MENU, on_click=lambda e: self.page.open(self.drawer), data=0),
             leading_width=40,
@@ -190,12 +205,14 @@ class MyApp:
         )
         self.page.appbar = self.appbar
 
+        # ---------------------------------------------------------------------------------------
         for chapter in english_conversation_practice:
             self.drawer.controls.append(
                 ft.NavigationDrawerDestination(
                     label=chapter["chapter"]
                     )
             )
+        # ---------------------------------------------------------------------------------------
 
         self.page.add(self.conversation_exercise_widget)
 
@@ -203,7 +220,7 @@ class MyApp:
         # addnig Prev, Next and Next Chapter buttons
         page.add(
             ft.Row(
-                alignment=ft.MainAxisAlignment.CENTER,
+                alignment=ft.MainAxisAlignment.SPACE_AROUND,
                 controls=[
                     ft.ElevatedButton("Prev", on_click=self.get_prev),
                     ft.ElevatedButton("Next", on_click=self.get_next)
