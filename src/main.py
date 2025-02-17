@@ -3,13 +3,22 @@ import json
 
 
 
+class MyText(ft.Text):
+    def __init__(self, value, size=18, color=ft.Colors.BLACK, selectable=True):
+        super().__init__()
+        self.value = value
+        self.size = size
+        self.selectable = selectable
+        self.color = color
+
+
 class Conversation:
     def __init__(self):
         self.conversation_font_size = 15
 
     def display(self, conversation):
         title = ft.Container(
-            content=ft.Text(conversation["title"], size=18),
+            content=MyText(conversation["title"], size=18, selectable=True),
             bgcolor=ft.Colors.WHITE,
             padding=10,
             margin=5,
@@ -29,7 +38,7 @@ class Conversation:
                             controls=[
                                 ft.Icon(name=ft.Icons.FACE),
                                 ft.Container(
-                                    content=ft.Text(line, size=self.conversation_font_size, color=ft.Colors.BLUE),
+                                    content=MyText(line, size=self.conversation_font_size, color=ft.Colors.BLUE, selectable=True),
                                     bgcolor=ft.Colors.WHITE,
                                     border_radius=5,
                                     padding=5,
@@ -48,7 +57,7 @@ class Conversation:
                             controls=[
                                 ft.Icon(name=ft.Icons.FACE_4),
                                 ft.Container(
-                                    content=(ft.Text(line, size=self.conversation_font_size, color=ft.Colors.RED)),
+                                    content=(MyText(line, size=self.conversation_font_size, color=ft.Colors.RED, selectable=True)),
                                     bgcolor=ft.Colors.WHITE,
                                     border_radius=5,
                                     padding=5
@@ -76,7 +85,7 @@ class Exercise:
 
     def display(self, exercise):
         title = ft.Container(
-            content=ft.Text(exercise["title"], size=18),
+            content=MyText(exercise["title"], size=18),
             bgcolor=ft.Colors.WHITE,
             padding=10,
             # margin=5,
@@ -86,7 +95,7 @@ class Exercise:
             alignment=ft.alignment.center
         )
         example_sentence = ft.Container(
-            content=ft.Text(exercise["example_sentence"], size=18),
+            content=MyText(exercise["example_sentence"], size=18),
             bgcolor=ft.Colors.WHITE,
             padding=10,
             margin=5,
@@ -107,7 +116,7 @@ class Exercise:
             column.controls.append(
                 ft.Container(
                     content=ft.Container(
-                        content=ft.Text(word, size=self.conversation_font_size, color=ft.Colors.BLUE),
+                        content=MyText(word, size=self.conversation_font_size, color=ft.Colors.BLUE),
                         bgcolor=ft.Colors.WHITE,
                         # alignment=ft.alignment.center_left,
                         border_radius=ft.border_radius.only(top_right=10, bottom_right=10),
@@ -119,7 +128,7 @@ class Exercise:
             column.controls.append(
                 ft.Container(
                     content=ft.Container(
-                        content=ft.Text(sentence, size=self.conversation_font_size, color=ft.Colors.RED),
+                        content=MyText(sentence, size=self.conversation_font_size, color=ft.Colors.RED),
                         bgcolor=ft.Colors.WHITE,
                         alignment=ft.alignment.center_right,
                         border_radius=ft.border_radius.only(top_left=5, bottom_left=5),
@@ -200,7 +209,8 @@ class MyApp:
             center_title=False,
             bgcolor=ft.Colors.GREEN_100,
             actions=[
-                ft.IconButton(ft.Icons.ARROW_CIRCLE_RIGHT_OUTLINED, on_click=self.get_next_chapter)
+                ft.IconButton(ft.Icons.ARROW_CIRCLE_LEFT_OUTLINED, on_click=self.get_previous_chapter),
+                ft.IconButton(ft.Icons.ARROW_CIRCLE_RIGHT_OUTLINED, on_click=self.get_next_chapter),
             ]
         )
         self.page.appbar = self.appbar
@@ -254,6 +264,20 @@ class MyApp:
         self.selected_chapter += 1
         if self.selected_chapter >= len(english_conversation_practice):
             self.selected_chapter = 0
+        self.current_conversations_list = english_conversation_practice[self.selected_chapter]["conversations"]
+        self.current_exercises_list = english_conversation_practice[self.selected_chapter]["exercises"]
+        
+        self.current_conversation_exercise = 0
+        self.conversation_exercise_list = self.get_conversation_exercise_list(self.current_conversations_list, self.current_exercises_list)
+
+        self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
+        self.appbar.title = ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15)
+        self.page.update()
+    
+    def get_previous_chapter(self, e):
+        self.selected_chapter -= 1
+        if self.selected_chapter < 0:
+            self.selected_chapter = len(english_conversation_practice) - 1
         self.current_conversations_list = english_conversation_practice[self.selected_chapter]["conversations"]
         self.current_exercises_list = english_conversation_practice[self.selected_chapter]["exercises"]
         
