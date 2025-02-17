@@ -45,7 +45,8 @@ class Conversation:
                                     padding=5,
                             
                                 ),
-                            ]
+                            ],
+                            wrap=True,
                         ),
                         alignment=ft.alignment.center_left
                     )
@@ -56,18 +57,19 @@ class Conversation:
                     ft.Container(
                         content=ft.Row(
                             controls=[
-                                ft.Icon(name=ft.Icons.FACE_4),
                                 ft.Container(
                                     content=(MyText(line, size=self.conversation_font_size, color=ft.Colors.RED, selectable=True)),
                                     bgcolor=ft.Colors.WHITE,
                                     border_radius=5,
                                     padding=5
                                 ),
+                                ft.Icon(name=ft.Icons.FACE_4),
                             ],
                             alignment=ft.MainAxisAlignment.END,
+                            wrap=True,
                     
                         ),
-                        # alignment=ft.alignment.center_right,
+                        alignment=ft.alignment.center_right,
                     )
                 )
         
