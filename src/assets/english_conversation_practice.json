@@ -32,10 +32,10 @@
             {
                 "title": "Conversation D",
                 "lines": [
-                   "S1. I'm pleased to meet you.",
-                   "S2. The pleasure is mine.",
-                   "S1. I've heard John speak about you often.",
-                   "S2. Only good things, I hope."
+                    "S1. I'm pleased to meet you.",
+                    "S2. The pleasure is mine.",
+                    "S1. I've heard John speak about you often.",
+                    "S2. Only good things, I hope."
                 ]
             },
             {
@@ -60,13 +60,11 @@
                     {
                         "word": "wonderful",
                         "sentence": "It's wonderful to see you again."
-                    }
-                    ,
+                    },
                     {
                         "word": "delightful",
                         "sentence": "It's delightful to see you again."
-                    }
-                    ,
+                    },
                     {
                         "word": "marvelous",
                         "sentence": "It's marvelous to see you again."
@@ -446,7 +444,7 @@
                 "title": "Conversation A",
                 "lines": [
                     "S1. Well, I have an appointment now.",
-                    "S2. I’m in quite a hurry too.",
+                    "S2. I\u2019m in quite a hurry too.",
                     "S1. Good to see you. Goodbye,.",
                     "S2. Goodbye. Take care of yourself."
                 ]
@@ -472,7 +470,7 @@
             {
                 "title": "Conversation D",
                 "lines": [
-                    "S1. I’m glad to have met you.",
+                    "S1. I\u2019m glad to have met you.",
                     "S2. Thank you. It was nice to have seen you.",
                     "S1. I hope we can get together again.",
                     "S2. Yes. I'll be looking forward to it."
@@ -1334,6 +1332,1336 @@
                     {
                         "word": "They always wait for her.",
                         "sentence": " Do they always wait for her?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "5. ASKING ABOUT ACTIVITIES/CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. When did you eat lunch today?",
+                    "S2. I ate from twelve to one.",
+                    "S1. Where did you have your lunch?",
+                    "S2. I had it at Pete's Restaurant today."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Did you a good time at party?",
+                    "S2. We had a wonderful time.",
+                    "S1. It was really a lot of fun.",
+                    "S2. We ought to have another party like that soon."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Did you work at home last night?",
+                    "S2. Yes.I washed the dishes and cleaned the house.",
+                    "S1. Did you do anything else?",
+                    "S2. Yes. I listened to the radio for a while. I"
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Did you have a good time last night?",
+                    "S2. Yes.I had a wonderful time.",
+                    "S1. You'll probably have fun tomorrow too.",
+                    "S4. I'm sure I'll have an excellent time."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Where did you go?",
+                    "S2. We went to a beautiful beach.",
+                    "S1. Did you swim in the ocean?",
+                    "S2. Yes, but we swam close to the shore"
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1/ Line Al /",
+                "example_sentence": "When did you eat lunch today?",
+                "lines": [
+                    {
+                        "word": "have the meeting",
+                        "sentence": " When did you have the meeting today?"
+                    },
+                    {
+                        "word": "Where",
+                        "sentence": " Where did you have the meeting today?"
+                    },
+                    {
+                        "word": "meet your friends",
+                        "sentence": " Where did you meet your friends today?"
+                    },
+                    {
+                        "word": "What time",
+                        "sentence": " What time did you meet your friends today?"
+                    },
+                    {
+                        "word": "leave for home",
+                        "sentence": " What time did you leave for home today?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line B3 /",
+                "example_sentence": "It was really a lot of fun.",
+                "lines": [
+                    {
+                        "word": "certainly",
+                        "sentence": " It Was certainly a lot of fun."
+                    },
+                    {
+                        "word": "a great deal of",
+                        "sentence": " It was certainly a great deal of fun."
+                    },
+                    {
+                        "word": "definitely",
+                        "sentence": " It 'was definitely a great deal of fun."
+                    },
+                    {
+                        "word": "lots of",
+                        "sentence": " It was definitely lots of fun."
+                    },
+                    {
+                        "word": "actually",
+                        "sentence": " It was actually lots of fun."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / line C1",
+                "example_sentence": "Did you work at home last night?",
+                "lines": [
+                    {
+                        "word": "at the office",
+                        "sentence": " Did you work at the office last night?"
+                    },
+                    {
+                        "word": "Yesterday",
+                        "sentence": " Did you work at the office yesterday?"
+                    },
+                    {
+                        "word": "at school",
+                        "sentence": " Did you work at school yesterday?"
+                    },
+                    {
+                        "word": "this morning",
+                        "sentence": " Did you work at school this morning?"
+                    },
+                    {
+                        "word": "at the Library",
+                        "sentence": " Did you work at the library this morning?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Lines E3 and E4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Did you swim in the ocean?",
+                        "sentence": " Yes, we did. We swam in the ocean."
+                    },
+                    {
+                        "word": "Did she go to the store?",
+                        "sentence": " Yes, she did. She went to the store."
+                    },
+                    {
+                        "word": "Did they write in their office?",
+                        "sentence": " Yes, they did. They wrote in their office."
+                    },
+                    {
+                        "word": "Did he read at the library\"?",
+                        "sentence": " Yes, he did. He read at the library."
+                    },
+                    {
+                        "word": "Did we sing at school?",
+                        "sentence": " Yes, you did. You sang at school."
+                    },
+                    {
+                        "word": "Did Tom and you sleep at home?",
+                        "sentence": " Yes, we did. We slept at home."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "6. WHAT DID YOU DO? / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Where did you go after lunch?",
+                    "S2. I went to the public library.",
+                    "S1. Which one did you go to?",
+                    "S2. I went to the one at 42nd Street. .."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. What did you do last night?",
+                    "S2. I watched television.",
+                    "S1. Where did you watch it?",
+                    "S2. I watched it here- in the recreation room."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Was that television program interesting?",
+                    "S2. I thought it was very boring.",
+                    "S1. What did your friends think of it?",
+                    "S2. They were bored too."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1.I went to a lecture last night.",
+                    "S2.What was it about?",
+                    "S1.Society and modern art",
+                    "S2.I wish I'd gone with you."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. We went to the movies the night before last.",
+                    "S2. What did you see?",
+                    "S1. We saw a film about cowboys and Indians.",
+                    "S2. Don't you ever get tired of those westerns?"
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "7. TALKING ABOUT ACTIVITIES/CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Where have you been?",
+                    "S2. I've been to the movies.",
+                    "S1. What did you see?",
+                    "S2. I saw an Italian movie about life in Sicily."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. What places have you seen so far?",
+                    "S2. I've been to almost all the museums.",
+                    "S1. Have you gone to any parks yet?",
+                    "S2. No, I haven't. I haven't had enough time for that."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Let's meet at your house tonight.",
+                    "S2. O.K. That sounds fine.",
+                    "S1. I've forgotten how to get to your house.",
+                    "S2. Just take the Tenth Street bus to Third Avenue."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Let's watch television for a while.",
+                    "S2: All right, but let's finish this work first.",
+                    "S1. Oh, let's not do the work right now.",
+                    "S2. You're just lazy, in my opinion."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. I can't hear the television set.",
+                    "S2. Why don't you sit closer?",
+                    "S1. I'm right beside it now.",
+                    "S2. Why don't you turn up the volume?"
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "8. EVENING ACTIVITIES/CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Let's go the movies tonight.",
+                    "S2. Fine.I don't have anything else to do.",
+                    "S1. What would you like to see?",
+                    "S2. Why don't we look in the movie section of the newspaper?"
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Where are you going tonight?",
+                    "S2. I'm going to the political rally for Senator Smith.",
+                    "S1. Sounds interesting. Can we go with you?",
+                    "S2. Certainly. Meet me here at eight fifteen."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Would you like to go to the concert with me tonight?",
+                    "S2. Yes. Thank you very much.",
+                    "S1. Would you like to go at about eight o'clock?",
+                    "S2. That would be fine."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. What are you going to do tonight?",
+                    "S2. I haven't decided yet.",
+                    "S1. Would you like to go to the movies?",
+                    "S2. Can I call you and tell you later?"
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Would you like to go to the movies tonight?",
+                    "S2. I'd rather stay home and watch television.",
+                    "S1. Are there going to be any good programs tonight?",
+                    "S2. Yes. There's going to be a good play on channel 4."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "9. GENERAL ACTIVITIES/CONVERSATIONS",
+        "conversations": [],
+        "exercises": []
+    },
+    {
+        "chapter": "10.MEETING AT THE TRAIN STATION/CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. I've got to go to the train station.",
+                    "S2. What do you have to go for?",
+                    "S1. To meet my cousin from Washington.",
+                    "S2. Let me take you in my car."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Did you get to the station on time?",
+                    "S2. We did, but we were almost late.",
+                    "S1. How close was it?",
+                    "S2. We got on the train just as it was starting."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Did your cousin arrive on time?",
+                    "S2. No. He was an hour late.",
+                    "S1. Did you meet him at the station?",
+                    "S2. I was right there on the platform when the train came."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Where's my bag?",
+                    "S2. Here it is.",
+                    "S1.Where's my briefcase?",
+                    "S2. There it is-over there."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Do you have your suitcases?",
+                    "S2. I've got one of them with me.",
+                    "S1. Where are the rest of them?",
+                    "S2. I checked my two other ones at the baggage room."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Line A1 /",
+                "example_sentence": "I've got to go to the train station.",
+                "lines": [
+                    {
+                        "word": "I must",
+                        "sentence": " I must go to the train station."
+                    },
+                    {
+                        "word": "have to",
+                        "sentence": " I have to go to the train station."
+                    },
+                    {
+                        "word": "ought to",
+                        "sentence": " I ought to go to the train station."
+                    },
+                    {
+                        "word": "should",
+                        "sentence": " I should go to the train station."
+                    },
+                    {
+                        "word": "I'm supposed to",
+                        "sentence": " I'm supposed to go to the train station."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A2 /",
+                "example_sentence": "What do you have to go for?\t Why do you have to go?",
+                "lines": [
+                    {
+                        "word": "What did you have to return for?",
+                        "sentence": " Why did you have to return?"
+                    },
+                    {
+                        "word": "What are you going to leave for?",
+                        "sentence": " Why are you going to leave?"
+                    },
+                    {
+                        "word": "What are you going back for?",
+                        "sentence": " Why are you going back?"
+                    },
+                    {
+                        "word": "What will you do that for?",
+                        "sentence": " Why will you do that?"
+                    },
+                    {
+                        "word": "What have you done it for?",
+                        "sentence": " Why have you done it?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Line A4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Please let me take you to your car.",
+                        "sentence": " Let me take you to your car"
+                    },
+                    {
+                        "word": "Please let me carry your suitcase.",
+                        "sentence": " Let me carry your suitcase"
+                    },
+                    {
+                        "word": "Please let me drive you to school.",
+                        "sentence": " Let me drive you to school"
+                    },
+                    {
+                        "word": "Please let me help you with that.",
+                        "sentence": " Let me help you with that"
+                    },
+                    {
+                        "word": "Please let me return the book for you",
+                        "sentence": " Let me return the book for you."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line B1 /",
+                "example_sentence": "Did you get to the station on time?",
+                "lines": [
+                    {
+                        "word": "the airport",
+                        "sentence": " Did you get to the airport on time?"
+                    },
+                    {
+                        "word": "late",
+                        "sentence": " Did you get to the airport late?"
+                    },
+                    {
+                        "word": "arrive at",
+                        "sentence": " Did you arrive at the airport late?"
+                    },
+                    {
+                        "word": "the theater",
+                        "sentence": " Did you arrive at the theater late?"
+                    },
+                    {
+                        "word": "early",
+                        "sentence": " Did you arrive at the theater early?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line B4 /",
+                "example_sentence": "We got on the train just as it was starting.",
+                "lines": [
+                    {
+                        "word": "the bus",
+                        "sentence": " We got on the bus just as it was starting."
+                    },
+                    {
+                        "word": "before it left",
+                        "sentence": " We got on the bus just before it left."
+                    },
+                    {
+                        "word": "the airplane",
+                        "sentence": " We got on the airplane just before it left."
+                    },
+                    {
+                        "word": "a minute or two early",
+                        "sentence": " We got on the airplane just a minute or two early."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line C1 /",
+                "example_sentence": "Did your cousin arrive on time?",
+                "lines": [
+                    {
+                        "word": "aunt",
+                        "sentence": " Did your aunt arrive on time?"
+                    },
+                    {
+                        "word": "uncle",
+                        "sentence": " Did your uncle arrive on time?"
+                    },
+                    {
+                        "word": "nephew",
+                        "sentence": " Did your nephew arrive on time?"
+                    },
+                    {
+                        "word": "niece",
+                        "sentence": " Did your niece arrive on time?"
+                    },
+                    {
+                        "word": "grandmother",
+                        "sentence": " Did your grandmother arrive on time?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Line C 1 /",
+                "example_sentence": "Did your cousin arrive on time?",
+                "lines": [
+                    {
+                        "word": "come",
+                        "sentence": " Did your cousin come on time?"
+                    },
+                    {
+                        "word": "get",
+                        "sentence": " there Did your cousin get there on time?"
+                    },
+                    {
+                        "word": "return",
+                        "sentence": " Did your cousin return on time?"
+                    },
+                    {
+                        "word": "leave",
+                        "sentence": " Did your cousin leave on time?"
+                    },
+                    {
+                        "word": "get back",
+                        "sentence": " Did your cousin get back on time?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Line C1 /",
+                "example_sentence": "Did your cousin arrive on time?",
+                "lines": [
+                    {
+                        "word": "late",
+                        "sentence": " Did your cousin arrive late?"
+                    },
+                    {
+                        "word": "too late",
+                        "sentence": " Did your cousin arrive too late?"
+                    },
+                    {
+                        "word": "early",
+                        "sentence": " Did your cousin arrive too early?"
+                    },
+                    {
+                        "word": "before departure",
+                        "sentence": " Did your cousin arrive before departure?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 9 / Line C 1 /",
+                "example_sentence": "Did your cousin arrive on time?",
+                "lines": [
+                    {
+                        "word": "uncle",
+                        "sentence": " Did your uncle arrive on time?"
+                    },
+                    {
+                        "word": "get back",
+                        "sentence": " Did your uncle get back on time?"
+                    },
+                    {
+                        "word": "early",
+                        "sentence": " Did your uncle get back early?"
+                    },
+                    {
+                        "word": "nephew",
+                        "sentence": " Did your nephew get back early?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 10 / Line E2 /",
+                "example_sentence": "I've got one of them with me.",
+                "lines": [
+                    {
+                        "word": "my suitcases",
+                        "sentence": " I've got one of my suitcases with me."
+                    },
+                    {
+                        "word": "a couple",
+                        "sentence": " I've got a couple of my suitcases with me."
+                    },
+                    {
+                        "word": "my packages",
+                        "sentence": " I've got a couple of my packages with me."
+                    },
+                    {
+                        "word": "several",
+                        "sentence": " I've got several of my packages with me."
+                    },
+                    {
+                        "word": "my things",
+                        "sentence": " I've got several of my things with me."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "11. ASKING QUESTIONS AT THE TRAIN STATION / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. How do you get home every day?",
+                    "S2. I take the commuter train to Westport.",
+                    "S1. Isn't it rather expensive going by train?",
+                    "S2. No. I buy a twenty-trip commuter ticket each month."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Can you give me some information?",
+                    "S2. You're at the right place.",
+                    "S1. I want to go to Washington.",
+                    "S2. The next train leaves at four thirty."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. How soon does the train leave?",
+                    "S2. It leaves in ten minutes.",
+                    "S1. Do I have time to check my bags?",
+                    "S2. I don't think you do."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1.At what time does the next train leave for the city?",
+                    "S2.There's one at four and another at four forty-five.",
+                    "S1.What's the fare?",
+                    "S2.It's eight fifty including tax."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. How much is the fare to Miami?",
+                    "S2. A hundred fifty dollars round trip.",
+                    "S3. What time does the next train leave?",
+                    "S4. one leaves at six thirty on track 31."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "12.MEETING AT THE AIRPORT / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1.Where wm you meet your friends?",
+                    "S2.I'll meet them at the airport",
+                    "S1.When will they get there?",
+                    "S2.I don't know yet."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. When are you meeting your friends?",
+                    "S2. I'm meeting them at eight o'clock tomorrow night.",
+                    "S1. How are they getting here?",
+                    "S2. They're coming by air."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Is this Southwestern Airlines?",
+                    "S2. Yes. May I help you?",
+                    "S1. Can you tell me when flight 439 will arrive?",
+                    "S2. One moment, please. I'll check."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. All the incoming flights are listed on that board.",
+                    "S2. I see they expect Bill's flight to be twenty minutes late.",
+                    "S1. Do they have an arrival gate listed?",
+                    "S2. No. They\u2019ll probably list it about ten minutes before arrival."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Well! How was your trip?",
+                    "S2. It was very smooth and fast.",
+                    "S1. Could you see the mountains from the plane?",
+                    "S2. Yes. The visibility was excellent all the way."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Line Al /",
+                "example_sentence": "Where will you meet your friends?",
+                "lines": [
+                    {
+                        "word": "See",
+                        "sentence": " Where will you see your friends?"
+                    },
+                    {
+                        "word": "find",
+                        "sentence": " Where will you find your friends?"
+                    },
+                    {
+                        "word": "wait for",
+                        "sentence": " Where will you wait for your friends?"
+                    },
+                    {
+                        "word": "take",
+                        "sentence": " Where will you take your friends?"
+                    },
+                    {
+                        "word": "drive",
+                        "sentence": " Where will you drive your friends?"
+                    },
+                    {
+                        "word": "leave",
+                        "sentence": " Where will you leave your friends?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A1 /",
+                "example_sentence": "Where will you meet your friends?",
+                "lines": [
+                    {
+                        "word": "cousin",
+                        "sentence": " Where will you meet your cousin?"
+                    },
+                    {
+                        "word": "relatives",
+                        "sentence": " Where will you meet Your relatives?"
+                    },
+                    {
+                        "word": "parents",
+                        "sentence": " Where will you meet your parents?"
+                    },
+                    {
+                        "word": "brother",
+                        "sentence": " Where will you meet your brother?"
+                    },
+                    {
+                        "word": "sisters",
+                        "sentence": " Where will you meet your sisters?"
+                    },
+                    {
+                        "word": "uncle",
+                        "sentence": " Where did you meet your uncle?"
+                    },
+                    {
+                        "word": "aunt",
+                        "sentence": " Where did you meet your aunt?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise .3 / Line A1 /",
+                "example_sentence": "Where will you meet your friends?",
+                "lines": [
+                    {
+                        "word": "parents",
+                        "sentence": " Where will you meet your parents?"
+                    },
+                    {
+                        "word": "see",
+                        "sentence": " Where will you see your parents?"
+                    },
+                    {
+                        "word": "When",
+                        "sentence": " When will you see your parents?"
+                    },
+                    {
+                        "word": "cousins",
+                        "sentence": " When will you see your cousins?"
+                    },
+                    {
+                        "word": "get together with",
+                        "sentence": " When will you get together with you cousins?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line A2 /",
+                "example_sentence": "I'll meet them at the airport.",
+                "lines": [
+                    {
+                        "word": "You'll",
+                        "sentence": " You'll meet them at the airport."
+                    },
+                    {
+                        "word": "We'll",
+                        "sentence": " We'll meet them at the airport."
+                    },
+                    {
+                        "word": "She'll",
+                        "sentence": " She'll meet them at the airport."
+                    },
+                    {
+                        "word": "They'll",
+                        "sentence": " They'll meet them at the airport."
+                    },
+                    {
+                        "word": "He'll",
+                        "sentence": " He'll meet them at the airport."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line A2 /",
+                "example_sentence": "I'll met them at the airport.",
+                "lines": [
+                    {
+                        "word": "the train station",
+                        "sentence": " I'll meet them at the train station."
+                    },
+                    {
+                        "word": "the bus station",
+                        "sentence": " I'll meet them at the bus station."
+                    },
+                    {
+                        "word": "the terminal",
+                        "sentence": " I'll meet them at the terminal."
+                    },
+                    {
+                        "word": "the ticket window",
+                        "sentence": " I'll meet them at the ticket window."
+                    },
+                    {
+                        "word": "the entrance",
+                        "sentence": " I'll med them at the entrance."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line A2 /",
+                "example_sentence": "I'll meet them at the airport.",
+                "lines": [
+                    {
+                        "word": "the bus station",
+                        "sentence": " I'll meet them\u00b7 at the bus station."
+                    },
+                    {
+                        "word": "We'll",
+                        "sentence": " We\u2019ll meet them at the bus station."
+                    },
+                    {
+                        "word": "wait for",
+                        "sentence": " We'll wait for them at the bus station."
+                    },
+                    {
+                        "word": "the ticket window",
+                        "sentence": " We'll wait for them at the ticket window ."
+                    },
+                    {
+                        "word": "She'll",
+                        "sentence": " She'll wait for them at the ticket window."
+                    },
+                    {
+                        "word": "see",
+                        "sentence": " She'll see them at the ticket window."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Lin B2 /",
+                "example_sentence": "When are you meeting your friends?",
+                "lines": [
+                    {
+                        "word": "seeing",
+                        "sentence": " When are you seeing your friends?"
+                    },
+                    {
+                        "word": "visitors",
+                        "sentence": " When are you seeing your visitors?"
+                    },
+                    {
+                        "word": "Where",
+                        "sentence": " Where are you seeing your visitors?"
+                    },
+                    {
+                        "word": "taking",
+                        "sentence": " Where are you taking your visitors?"
+                    },
+                    {
+                        "word": "guests",
+                        "sentence": " Where are you taking your guests?"
+                    },
+                    {
+                        "word": "Why",
+                        "sentence": " Why are you taking your guests?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Line B2 /",
+                "example_sentence": "I'm meeting them at eight o'clock tomorrow night.",
+                "lines": [
+                    {
+                        "word": "eight oh-five",
+                        "sentence": " I'm meeting them at eight oh-five tomorrow night."
+                    },
+                    {
+                        "word": "eight thirty",
+                        "sentence": " I'm meeting them at eight thirty tomorrow night."
+                    },
+                    {
+                        "word": "a quarter to nine",
+                        "sentence": " I'm meeting them at a quarter to nine tomorrow night"
+                    },
+                    {
+                        "word": "ten to nine",
+                        "sentence": " I'm meeting them at ten to nine tomorrow night."
+                    },
+                    {
+                        "word": "Midnight",
+                        "sentence": " I'm meeting them at midnight tomorrow night."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 9 / Line B2 /",
+                "example_sentence": "I'm meeting them at eight o'clock tomorrow night.",
+                "lines": [
+                    {
+                        "word": "tomorrow morning",
+                        "sentence": " I'm meeting them at eight o'clock tomorrow morning."
+                    },
+                    {
+                        "word": "Friday night",
+                        "sentence": " I'm meeting them at eight o'clock Friday night."
+                    },
+                    {
+                        "word": "Friday morning",
+                        "sentence": " I'm meeting them at eight o'clock Friday morning."
+                    },
+                    {
+                        "word": "tonight",
+                        "sentence": " I'm meeting them at eight o'clock tonight."
+                    },
+                    {
+                        "word": "this morning",
+                        "sentence": " I'm meeting them at eight o'clock this morning."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 10 / Line B2 /",
+                "example_sentence": "I'm meeting them at eight o'clock tomorrow night.",
+                "lines": [
+                    {
+                        "word": "Tuesday night",
+                        "sentence": " I'm meeting them at eight o'clock Tuesday night."
+                    },
+                    {
+                        "word": "We\u2019re",
+                        "sentence": " We're meeting them at eight o'clock Tuesday night."
+                    },
+                    {
+                        "word": "eight thirty",
+                        "sentence": " We're meeting them at eight thirty Tuesday night."
+                    },
+                    {
+                        "word": "Her",
+                        "sentence": " We're meeting her at eight thirty Tuesday night."
+                    },
+                    {
+                        "word": "Morning",
+                        "sentence": " We're meeting her at eight thirty Tuesday morning."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "13.GETTING INFORMATION AT THE AIRPORT / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. At what time does the next plane to London leave?",
+                    "S2. The next one is flight 12 at eleven fifty-five.",
+                    "S1. What's the next one after that?",
+                    "S2. Flight 21 at one oh-five."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. How often is there a flight to Paris?",
+                    "S2. We have flights to Paris every hour.",
+                    "S1. Are they nonstop flights",
+                    "S2. Yes. Direct to Paris."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Could I make a reservation for flight 10 to Tokyo?",
+                    "S2. I'm sorry, but everything is taken.",
+                    "S1. How about the next flight-tomorrow at two o'clock?",
+                    "S2. Yes. I can give you a reservation on that."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. I'd like to check in for the flight to New York.",
+                    "S2. Fine. Do you have your ticket and passport?",
+                    "S1. Yes. Here's my ticket, and I'll get out my passport.",
+                    "S2. Would you please put your baggage on the scales?"
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. How long is the flight from New York to Washington?",
+                    "S2. Well, supposedly an hour, but it's sometimes longer.",
+                    "S1. How often are there flights to Washington from New York?",
+                    "S2. There's. one every hour."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "14. GETTING TO THE HOTEL / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. What's a good hotel in this town?",
+                    "S2. The Jefferson Hotel is good.",
+                    "S1. How far is it from here?",
+                    "S2. It's quite close-about four blocks."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Where are you staying?",
+                    "S2. We're staying at an excellent hotel.",
+                    "S1. What's the name of the hotel?",
+                    "S2. The Eastern Hotel."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. How long will you be in New York?",
+                    "S2. I'll be here about two weeks.",
+                    "S1. Where are you going to stay?",
+                    "S2. I'm going to stay at the Madison Hotel."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. I'd like a single room, please.",
+                    "S2. Do you want a room with a bath?",
+                    "S1. Yes. please. Do you have one?",
+                    "S2. Yes. We have one at ten dollars a day."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. I have a reservation 'for a room here.",
+                    "S2. Yes. You're in room 341 on the third floor.",
+                    "S1. Can I take the elevator over there?",
+                    "S2. Yes, and turn right when you get off the elevator."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1/ Line A1 /",
+                "example_sentence": "What's a good restaurant in this town?",
+                "lines": [
+                    {
+                        "word": "jewelry store",
+                        "sentence": " What's a good jewelry store in this town?"
+                    },
+                    {
+                        "word": "flower shop",
+                        "sentence": " What's a good flower shop in this town?"
+                    },
+                    {
+                        "word": "motel",
+                        "sentence": " What's a' good motel in this town?"
+                    },
+                    {
+                        "word": "barber shop",
+                        "sentence": " What's a good barber shop in this town?"
+                    },
+                    {
+                        "word": "dress shop",
+                        "sentence": " What's a good dress shop in this town?"
+                    },
+                    {
+                        "word": "clothing store",
+                        "sentence": " What's a good clothing store in this town?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A1/",
+                "example_sentence": "What's a good restaurant in this town?",
+                "lines": [
+                    {
+                        "word": "city",
+                        "sentence": " What's a good restaurant in this city?"
+                    },
+                    {
+                        "word": "neighborhood",
+                        "sentence": " What's a good restaurant in this neighborhood?"
+                    },
+                    {
+                        "word": "area",
+                        "sentence": " What's a good restaurant in this area?"
+                    },
+                    {
+                        "word": "district",
+                        "sentence": " What's a good restaurant in this district?"
+                    },
+                    {
+                        "word": "near here",
+                        "sentence": " What's a good restaurant near here?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Line A1 /",
+                "example_sentence": "What's a good restaurant in this town?",
+                "lines": [
+                    {
+                        "word": "hardware store",
+                        "sentence": " What's a good hardware store in this town?"
+                    },
+                    {
+                        "word": "area",
+                        "sentence": " What's a good hardware store in this area?"
+                    },
+                    {
+                        "word": "grocery store",
+                        "sentence": " What's a good grocery store in this area?"
+                    },
+                    {
+                        "word": "near here",
+                        "sentence": " What's a good grocery store near here?"
+                    },
+                    {
+                        "word": "jewelry store",
+                        "sentence": " What's a good jewelry store near here?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line A3 /",
+                "example_sentence": "How far is it from here?",
+                "lines": [
+                    {
+                        "word": "from here to the hotel",
+                        "sentence": " How far is it from here to the hotel?"
+                    },
+                    {
+                        "word": "How many blocks",
+                        "sentence": " How many blocks is it from here to the hotel?"
+                    },
+                    {
+                        "word": "from the station",
+                        "sentence": " How many blocks is it from the station to the hotel?"
+                    },
+                    {
+                        "word": "How many miles",
+                        "sentence": " How many miles is it from the station to the hotel?"
+                    },
+                    {
+                        "word": "to the next city",
+                        "sentence": " How many miles is it from the station to the next city?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line B2 /",
+                "example_sentence": "We're staying at an excellent hotel.",
+                "lines": [
+                    {
+                        "word": "living",
+                        "sentence": " We're living at an excellent hotel."
+                    },
+                    {
+                        "word": "wonderful",
+                        "sentence": " We're living at a wonderful hotel."
+                    },
+                    {
+                        "word": "resort",
+                        "sentence": " We're living at a wonderful resort."
+                    },
+                    {
+                        "word": "vacationing",
+                        "sentence": " We're vacationing at a wonderful resort."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line C 1 /",
+                "example_sentence": "How long will you be in New York?",
+                "lines": [
+                    {
+                        "word": "at the conference",
+                        "sentence": " How long will you. be at the conference?"
+                    },
+                    {
+                        "word": "How many days",
+                        "sentence": " How many days will you be at the conference?"
+                    },
+                    {
+                        "word": "in Japan",
+                        "sentence": " How many days will you be in Japan?"
+                    },
+                    {
+                        "word": "weeks",
+                        "sentence": " How many weeks will you be in Japan?"
+                    },
+                    {
+                        "word": "on the boat",
+                        "sentence": " How many weeks will you be on the boat?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Line C 4 /",
+                "example_sentence": "I'm going to stay at the Madison Hotel.",
+                "lines": [
+                    {
+                        "word": "We're.",
+                        "sentence": " We're going to stay at the Madison Hotel."
+                    },
+                    {
+                        "word": "Central Motel",
+                        "sentence": " We're going to stay at the Central Motel."
+                    },
+                    {
+                        "word": "She's",
+                        "sentence": " She's going to stay at the Central Motel."
+                    },
+                    {
+                        "word": "a friend's house",
+                        "sentence": " She's going to stay at a friend's house."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Line D2 /",
+                "example_sentence": "Do you want a room with a bath?",
+                "lines": [
+                    {
+                        "word": "without",
+                        "sentence": " Do you want a room without a bath?"
+                    },
+                    {
+                        "word": "prefer",
+                        "sentence": " Do you prefer a room without a bath?"
+                    },
+                    {
+                        "word": "with two baths",
+                        "sentence": " Do you prefer a room with two baths?"
+                    },
+                    {
+                        "word": "a suite",
+                        "sentence": " Do you prefer a suite with two baths?"
+                    },
+                    {
+                        "word": "Would you like",
+                        "sentence": " Would you like a suite with two baths?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 9 / Line E2 /",
+                "example_sentence": "You're in room 341 on the third floor.",
+                "lines": [
+                    {
+                        "word": "576",
+                        "sentence": " You're in room 576 on the fifth floor."
+                    },
+                    {
+                        "word": "777",
+                        "sentence": " You're in room 777 on the seventh floor."
+                    },
+                    {
+                        "word": "894",
+                        "sentence": " You're in room 894 on the eighth floor."
+                    },
+                    {
+                        "word": "1201",
+                        "sentence": " You're in room 1201 on the twelfth floor."
                     }
                 ]
             }

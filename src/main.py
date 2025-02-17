@@ -1,7 +1,7 @@
 import flet as ft
 import json
 
-
+# ft.Text(wra)
 
 class MyText(ft.Text):
     def __init__(self, value, size=18, color=ft.Colors.BLACK, selectable=True):
@@ -10,6 +10,7 @@ class MyText(ft.Text):
         self.size = size
         self.selectable = selectable
         self.color = color
+        self.no_wrap = False
 
 
 class Conversation:
@@ -183,7 +184,11 @@ class MyApp:
         self.conversation_obj = Conversation()
         self.exercise_obj = Exercise()
 
-        self.drawer = ft.NavigationDrawer(on_dismiss=self.handle_dismissal, on_change=self.handle_change, selected_index=0)
+        self.drawer = ft.NavigationDrawer(
+            on_dismiss=self.handle_dismissal, 
+            on_change=self.handle_change, 
+            selected_index=0
+        )
         
         self.current_conversations_list = english_conversation_practice[self.selected_chapter]["conversations"]
         self.current_exercises_list = english_conversation_practice[self.selected_chapter]["exercises"]
@@ -192,7 +197,7 @@ class MyApp:
         self.conversation_exercise_list = self.get_conversation_exercise_list(self.current_conversations_list, self.current_exercises_list)
 
         self.conversation_exercise_widget = ft.Container(
-            height=620, 
+            height=480, 
             # bgcolor=ft.Colors.RED, 
             padding=10, 
             border_radius=10

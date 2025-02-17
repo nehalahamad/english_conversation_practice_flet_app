@@ -2,46 +2,46 @@
     {
         "title": "Conversation A",
         "lines": [
-            "S1. What time do you get up? ,",
-            "S2. I get up about seven fifteen.",
-            "S1. What time is breakfast at your house?",
-            "S2. Breakfast is always at a quarter to eight."
+            "S1. What's a good hotel in this town?",
+            "S2. The Jefferson Hotel is good.",
+            "S1. How far is it from here?",
+            "S2. It's quite close-about four blocks."
         ]
     },
     {
         "title": "Conversation B",
         "lines": [
-            "S1. What do you usually do in the afternoon?",
-            "S2. We usually study or read.",
-            "S1. What do you generally do over the weekend?",
-            "S2. We generally enjoy sports and visit friends."
+            "S1. Where are you staying?",
+            "S2. We're staying at an excellent hotel.",
+            "S1. What's the name of the hotel?",
+            "S2. The Eastern Hotel."
         ]
     },
     {
         "title": "Conversation C",
         "lines": [
-            "S1. Do you ever go to museums?",
-            "S2. I go every now and then.",
-            "S1. What kinds of things do you like to see?",
-            "S2. I enjoy seeing statues and old paintings."
+            "S1. How long will you be in New York?",
+            "S2. I'll be here about two weeks.",
+            "S1. Where are you going to stay?",
+            "S2. I'm going to stay at the Madison Hotel."
         ]
     },
     {
         "title": "Conversation D",
         "lines": [
-            "S1.Do you watch television very often?",
-            "S2. Well, I sometimes watch it in the evening.",
-            "S1. Did you watch television last night?",
-            "S2. Yes, I did. I saw several good programs."
+            "S1. I'd like a single room, please.",
+            "S2. Do you want a room with a bath?",
+            "S1. Yes. please. Do you have one?",
+            "S2. Yes. We have one at ten dollars a day."
         ]
     },
     {
         "title": "Conversation E",
         "lines": [
-            "S1. Do you ever listen to the radio?",
-            "S2.Certainly. In fact, I listen practically every night.",
-            "Sl. What's your favorite program?",
-            "S2.I like the Eleven O'clock Theater best of all."
+            "S1. I have a reservation 'for a room here.",
+            "S2. Yes. You're in room 341 on the third floor.",
+            "S1. Can I take the elevator over there?",
+            "S2. Yes, and turn right when you get off the elevator."
         ]
     }
 ]

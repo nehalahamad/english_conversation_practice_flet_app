@@ -1,317 +1,277 @@
 [
     {
-        "chapter": "4. DAILY ACTIVITIES / CONVERSATIONS",
+        "chapter": "14. GETTING TO THE HOTEL / CONVERSATIONS",
         "conversations": [
             {
                 "title": "Conversation A",
                 "lines": [
-                    "S1. What time do you get up? ,",
-                    "S2. I get up about seven fifteen.",
-                    "S1. What time is breakfast at your house?",
-                    "S2. Breakfast is always at a quarter to eight."
+                    "S1. What's a good hotel in this town?",
+                    "S2. The Jefferson Hotel is good.",
+                    "S1. How far is it from here?",
+                    "S2. It's quite close-about four blocks."
                 ]
             },
             {
                 "title": "Conversation B",
                 "lines": [
-                    "S1. What do you usually do in the afternoon?",
-                    "S2. We usually study or read.",
-                    "S1. What do you generally do over the weekend?",
-                    "S2. We generally enjoy sports and visit friends."
+                    "S1. Where are you staying?",
+                    "S2. We're staying at an excellent hotel.",
+                    "S1. What's the name of the hotel?",
+                    "S2. The Eastern Hotel."
                 ]
             },
             {
                 "title": "Conversation C",
                 "lines": [
-                    "S1. Do you ever go to museums?",
-                    "S2. I go every now and then.",
-                    "S1. What kinds of things do you like to see?",
-                    "S2. I enjoy seeing statues and old paintings."
+                    "S1. How long will you be in New York?",
+                    "S2. I'll be here about two weeks.",
+                    "S1. Where are you going to stay?",
+                    "S2. I'm going to stay at the Madison Hotel."
                 ]
             },
             {
                 "title": "Conversation D",
                 "lines": [
-                    "S1.Do you watch television very often?",
-                    "S2. Well, I sometimes watch it in the evening.",
-                    "S1. Did you watch television last night?",
-                    "S2. Yes, I did. I saw several good programs."
+                    "S1. I'd like a single room, please.",
+                    "S2. Do you want a room with a bath?",
+                    "S1. Yes. please. Do you have one?",
+                    "S2. Yes. We have one at ten dollars a day."
                 ]
             },
             {
                 "title": "Conversation E",
                 "lines": [
-                    "S1. Do you ever listen to the radio?",
-                    "S2.Certainly. In fact, I listen practically every night.",
-                    "Sl. What's your favorite program?",
-                    "S2.I like the Eleven O'clock Theater best of all."
+                    "S1. I have a reservation 'for a room here.",
+                    "S2. Yes. You're in room 341 on the third floor.",
+                    "S1. Can I take the elevator over there?",
+                    "S2. Yes, and turn right when you get off the elevator."
                 ]
             }
         ],
         "exercises": [
             {
-                "title": "Exercise1/ Line A1 /",
-                "example_sentence": "What time do you get up?",
+                "title": "Exercise 1/ Line A1 /",
+                "example_sentence": "What's a good restaurant in this town?",
                 "lines": [
                     {
-                        "word": "have breakfast",
-                        "sentence": " What time do you have breakfast?"
+                        "word": "jewelry store",
+                        "sentence": " What's a good jewelry store in this town?"
                     },
                     {
-                        "word": "leave home",
-                        "sentence": " What time do you leave home?"
+                        "word": "flower shop",
+                        "sentence": " What's a good flower shop in this town?"
                     },
                     {
-                        "word": "leave for work",
-                        "sentence": " What time do you leave for work?"
+                        "word": "motel",
+                        "sentence": " What's a' good motel in this town?"
                     },
                     {
-                        "word": "return home",
-                        "sentence": " What time do you return home?"
+                        "word": "barber shop",
+                        "sentence": " What's a good barber shop in this town?"
                     },
                     {
-                        "word": "go to bed",
-                        "sentence": " What time do you go to bed?"
+                        "word": "dress shop",
+                        "sentence": " What's a good dress shop in this town?"
+                    },
+                    {
+                        "word": "clothing store",
+                        "sentence": " What's a good clothing store in this town?"
                     }
                 ]
             },
             {
-                "title": "Exercise-2 / Lines Al and A2 /",
-                "example_sentence": "",
+                "title": "Exercise 2 / Line A1/",
+                "example_sentence": "What's a good restaurant in this town?",
                 "lines": [
                     {
-                        "word": "I get up at seven fifteen.",
-                        "sentence": " What time do you get up?"
+                        "word": "city",
+                        "sentence": " What's a good restaurant in this city?"
                     },
                     {
-                        "word": "I have breakfast about eight fifteen.",
-                        "sentence": " What time do you have breakfast?"
+                        "word": "neighborhood",
+                        "sentence": " What's a good restaurant in this neighborhood?"
                     },
                     {
-                        "word": "I leave home at a quarter to nine.",
-                        "sentence": " What time do you leave home?"
+                        "word": "area",
+                        "sentence": " What's a good restaurant in this area?"
                     },
                     {
-                        "word": "I go to bed about eleven o'clock.",
-                        "sentence": " What time do you go for bed?"
+                        "word": "district",
+                        "sentence": " What's a good restaurant in this district?"
+                    },
+                    {
+                        "word": "near here",
+                        "sentence": " What's a good restaurant near here?"
                     }
                 ]
             },
             {
-                "title": "Exercise 3 / Lines Al and A3 /",
-                "example_sentence": "",
+                "title": "Exercise 3 / Line A1 /",
+                "example_sentence": "What's a good restaurant in this town?",
                 "lines": [
                     {
-                        "word": "What time do you have breakfast?",
-                        "sentence": " When do you have breakfast?"
+                        "word": "hardware store",
+                        "sentence": " What's a good hardware store in this town?"
                     },
                     {
-                        "word": "What time do you go to school?",
-                        "sentence": " When do you go to school?"
+                        "word": "area",
+                        "sentence": " What's a good hardware store in this area?"
                     },
                     {
-                        "word": "What time do you get to the office?",
-                        "sentence": " When do you get to the office?"
+                        "word": "grocery store",
+                        "sentence": " What's a good grocery store in this area?"
                     },
                     {
-                        "word": "What time do you eat lunch?",
-                        "sentence": " When do you eat lunch?"
+                        "word": "near here",
+                        "sentence": " What's a good grocery store near here?"
                     },
                     {
-                        "word": "What time do you leave for home?",
-                        "sentence": " When do you leave for home?"
+                        "word": "jewelry store",
+                        "sentence": " What's a good jewelry store near here?"
                     }
                 ]
             },
             {
-                "title": "Exercise 4 / Line D1 /",
-                "example_sentence": "",
+                "title": "Exercise 4 / Line A3 /",
+                "example_sentence": "How far is it from here?",
                 "lines": [
                     {
-                        "word": "Do you watch television very often?",
-                        "sentence": " Yes, I do."
+                        "word": "from here to the hotel",
+                        "sentence": " How far is it from here to the hotel?"
                     },
                     {
-                        "word": "How often do you watch television?",
-                        "sentence": " I watch it twice a week"
+                        "word": "How many blocks",
+                        "sentence": " How many blocks is it from here to the hotel?"
                     },
                     {
-                        "word": "Does John watch television very often?",
-                        "sentence": " Yes, he does."
+                        "word": "from the station",
+                        "sentence": " How many blocks is it from the station to the hotel?"
                     },
                     {
-                        "word": "How often does John watch television?",
-                        "sentence": " He watches it twice a week."
+                        "word": "How many miles",
+                        "sentence": " How many miles is it from the station to the hotel?"
                     },
                     {
-                        "word": "Do the boys watch television very often?",
-                        "sentence": " Yes, they do."
-                    },
-                    {
-                        "word": "How often do the boys watch television?",
-                        "sentence": " They watch it twice a week."
+                        "word": "to the next city",
+                        "sentence": " How many miles is it from the station to the next city?"
                     }
                 ]
             },
             {
-                "title": "Exercise 5 / Line D3",
-                "example_sentence": "",
+                "title": "Exercise 5 / Line B2 /",
+                "example_sentence": "We're staying at an excellent hotel.",
                 "lines": [
                     {
-                        "word": "Did you watch television last night?",
-                        "sentence": " Yes, I did. I watched television last night."
+                        "word": "living",
+                        "sentence": " We're living at an excellent hotel."
                     },
                     {
-                        "word": "Did you listen to the radio last?",
-                        "sentence": " Yes, I did. I listened to the radio last night."
+                        "word": "wonderful",
+                        "sentence": " We're living at a wonderful hotel."
                     },
                     {
-                        "word": "Did you go to a movie last night?",
-                        "sentence": " Yes, I did. I went to a movie last night."
+                        "word": "resort",
+                        "sentence": " We're living at a wonderful resort."
                     },
                     {
-                        "word": "Did you go to the library last night?",
-                        "sentence": " Yes, I did. I went to the library last"
-                    },
-                    {
-                        "word": "Did you attend a concert last night?",
-                        "sentence": " Yes, I did. I attended concert last"
-                    },
-                    {
-                        "word": "Did you visit a museum last night?",
-                        "sentence": " Yes, I did. I visited a museum last"
+                        "word": "vacationing",
+                        "sentence": " We're vacationing at a wonderful resort."
                     }
                 ]
             },
             {
-                "title": "Exercise 6 / Line A4 /",
-                "example_sentence": "",
+                "title": "Exercise 6 / Line C 1 /",
+                "example_sentence": "How long will you be in New York?",
                 "lines": [
                     {
-                        "word": "He's happy.",
-                        "sentence": " He's usually happy"
+                        "word": "at the conference",
+                        "sentence": " How long will you. be at the conference?"
                     },
                     {
-                        "word": "They're at home.",
-                        "sentence": " They're usually at home"
+                        "word": "How many days",
+                        "sentence": " How many days will you be at the conference?"
                     },
                     {
-                        "word": "She's there.",
-                        "sentence": " She's usually there."
+                        "word": "in Japan",
+                        "sentence": " How many days will you be in Japan?"
                     },
                     {
-                        "word": "I'm very nervous.",
-                        "sentence": " I'm usually very nervous"
+                        "word": "weeks",
+                        "sentence": " How many weeks will you be in Japan?"
                     },
                     {
-                        "word": "You're in your office.",
-                        "sentence": " You're usually in your Office."
-                    },
-                    {
-                        "word": "They're quite busy.",
-                        "sentence": " They're usually quite busy."
-                    },
-                    {
-                        "word": "We're serious about things.",
-                        "sentence": " We're usually serious about things."
+                        "word": "on the boat",
+                        "sentence": " How many weeks will you be on the boat?"
                     }
                 ]
             },
             {
-                "title": "Exercise 7 / Lines B2 and B4 /",
-                "example_sentence": "",
+                "title": "Exercise 7 / Line C 4 /",
+                "example_sentence": "I'm going to stay at the Madison Hotel.",
                 "lines": [
                     {
-                        "word": "He writes carefully.",
-                        "sentence": " He usually writes carefully."
+                        "word": "We're.",
+                        "sentence": " We're going to stay at the Madison Hotel."
                     },
                     {
-                        "word": "They practice at home.",
-                        "sentence": " They usually practice at home."
+                        "word": "Central Motel",
+                        "sentence": " We're going to stay at the Central Motel."
                     },
                     {
-                        "word": "She reads popular novels.",
-                        "sentence": " She usually reads popular novels."
+                        "word": "She's",
+                        "sentence": " She's going to stay at the Central Motel."
                     },
                     {
-                        "word": "I watch television here.",
-                        "sentence": " I usually watch television here."
-                    },
-                    {
-                        "word": "He enjoys seeing movies.",
-                        "sentence": " He usually enjoys seeing movies."
-                    },
-                    {
-                        "word": "They leave home early.",
-                        "sentence": " They usually leave home early."
-                    },
-                    {
-                        "word": "We get up before eight.",
-                        "sentence": " We usually get up before eight."
+                        "word": "a friend's house",
+                        "sentence": " She's going to stay at a friend's house."
                     }
                 ]
             },
             {
-                "title": "Exercise 8 / Lines A4 and B2 /",
-                "example_sentence": "",
+                "title": "Exercise 8 / Line D2 /",
+                "example_sentence": "Do you want a room with a bath?",
                 "lines": [
                     {
-                        "word": "He's kind to them.",
-                        "sentence": " He's always kind to them."
+                        "word": "without",
+                        "sentence": " Do you want a room without a bath?"
                     },
                     {
-                        "word": "They help her.",
-                        "sentence": " They always help her."
+                        "word": "prefer",
+                        "sentence": " Do you prefer a room without a bath?"
                     },
                     {
-                        "word": "We're busy on Friday.",
-                        "sentence": " We're always busy on Friday."
+                        "word": "with two baths",
+                        "sentence": " Do you prefer a room with two baths?"
                     },
                     {
-                        "word": "I work extra hours.",
-                        "sentence": " I always work extra hours."
+                        "word": "a suite",
+                        "sentence": " Do you prefer a suite with two baths?"
                     },
                     {
-                        "word": "They're polite to us.",
-                        "sentence": " They're always polite to us.He drinks black coffee. He always drinks black coffee."
-                    },
-                    {
-                        "word": "She's calm about things.",
-                        "sentence": " She's always calm about things."
+                        "word": "Would you like",
+                        "sentence": " Would you like a suite with two baths?"
                     }
                 ]
             },
             {
-                "title": "Exercise 9 / Lines A4 and B2 /",
-                "example_sentence": "",
+                "title": "Exercise 9 / Line E2 /",
+                "example_sentence": "You're in room 341 on the third floor.",
                 "lines": [
                     {
-                        "word": "He always works hard.",
-                        "sentence": " Does he always work hard?"
+                        "word": "576",
+                        "sentence": " You're in room 576 on the fifth floor."
                     },
                     {
-                        "word": "They're always late.",
-                        "sentence": " Are they always late-?"
+                        "word": "777",
+                        "sentence": " You're in room 777 on the seventh floor."
                     },
                     {
-                        "word": "She's always serious.",
-                        "sentence": " Is she always serious?"
+                        "word": "894",
+                        "sentence": " You're in room 894 on the eighth floor."
                     },
                     {
-                        "word": "They always speak English.",
-                        "sentence": " Do they always speak English?"
-                    },
-                    {
-                        "word": "He always writes carefully.",
-                        "sentence": " Does he always write carefully?"
-                    },
-                    {
-                        "word": "She's always patient with him.",
-                        "sentence": " Is she always patient with him?"
-                    },
-                    {
-                        "word": "They always wait for her.",
-                        "sentence": " Do they always wait for her?"
+                        "word": "1201",
+                        "sentence": " You're in room 1201 on the twelfth floor."
                     }
                 ]
             }
