@@ -2666,5 +2666,333 @@
                 ]
             }
         ]
+    },
+    {
+        "chapter": "15. FINDING ONE\u2019S HOTEL / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Where's the hotel, please?",
+                    "S2. It's on Main Street.",
+                    "S1. Where's that?",
+                    "S2. It's the next street straight ahead."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Can you tell me where the hotel is?",
+                    "S2. It's in the next block.",
+                    "S1. On this side or the other side?",
+                    "S2. This side. Straight ahead of you."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. I want to go to the Beachside Hotel.",
+                    "S2. Do you have a map?",
+                    "S1. Yes, I do. Here it is",
+                    "S2. The hotel is right there \u2013at that intersection."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Excuse me. I'm lost.",
+                    "S2. Where do you live?",
+                    "S1. I live at Royal Hotel.",
+                    "S2. The Royal Hotel is two blocks that way."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Can you help me, please?",
+                    "S2. What's the matter?",
+                    "S1. Where is the grand hotel on this map?",
+                    "S2. It is right here-right next to the train station."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Line A1 /",
+                "example_sentence": "Where's the hotel, please?",
+                "lines": [
+                    {
+                        "word": "the drugstore",
+                        "sentence": " Where's the drugstore, please?"
+                    },
+                    {
+                        "word": "the post office",
+                        "sentence": " Where's the post office, please?"
+                    },
+                    {
+                        "word": "the police station",
+                        "sentence": " Where's \"the police station, please?"
+                    },
+                    {
+                        "word": "the library",
+                        "sentence": " Where's the library, please?"
+                    },
+                    {
+                        "word": "the center of town",
+                        "sentence": " Where's the center of town, please?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A4 /",
+                "example_sentence": "It's the next street straight ahead.",
+                "lines": [
+                    {
+                        "word": "first",
+                        "sentence": " It's the first street straight ahead."
+                    },
+                    {
+                        "word": "second",
+                        "sentence": " It's the second street straight ahead."
+                    },
+                    {
+                        "word": "third",
+                        "sentence": " It's the third street straight ahead."
+                    },
+                    {
+                        "word": "fourth",
+                        "sentence": " It's the fourth street straight ahead."
+                    },
+                    {
+                        "word": "fifth",
+                        "sentence": " It's the fifth street straight ahead."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Line A4 /",
+                "example_sentence": "It's straight ahead.",
+                "lines": [
+                    {
+                        "word": "around the corner",
+                        "sentence": " It's around the corner."
+                    },
+                    {
+                        "word": "two blocks from here",
+                        "sentence": " It's two blocks from here"
+                    },
+                    {
+                        "word": "past the post office",
+                        "sentence": " It's past the post office."
+                    },
+                    {
+                        "word": "near the library,",
+                        "sentence": " It's near the library."
+                    },
+                    {
+                        "word": "right after the stoplight",
+                        "sentence": " It's right after the stoplight."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line B1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Where's the hotel?",
+                        "sentence": " Can you tell me where the hotel is?"
+                    },
+                    {
+                        "word": "Where's the drugstore?",
+                        "sentence": " Can you tell me where the drugstore is?"
+                    },
+                    {
+                        "word": "Where's the post office?",
+                        "sentence": " Can you tell me where the post office is?"
+                    },
+                    {
+                        "word": "Where's the police station?",
+                        "sentence": " Can you tell me where the police station is?"
+                    },
+                    {
+                        "word": "Where's the library?",
+                        "sentence": " Can you tell me where the library is?"
+                    },
+                    {
+                        "word": "Where's the center of town?",
+                        "sentence": " Can you tell me where the center of town is?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Lines B2 and C4 /",
+                "example_sentence": "The hotel is in the next block.",
+                "lines": [
+                    {
+                        "word": "on Main Street",
+                        "sentence": " The hotel is on Main Street."
+                    },
+                    {
+                        "word": "near the police station",
+                        "sentence": " The hotel is near the police station"
+                    },
+                    {
+                        "word": "across the street",
+                        "sentence": " The hotel is across the street."
+                    },
+                    {
+                        "word": "three blocks away",
+                        "sentence": " The hotel is three blocks away"
+                    },
+                    {
+                        "word": "at the intersection",
+                        "sentence": " The hotel is at the intersection"
+                    },
+                    {
+                        "word": "by the post office",
+                        "sentence": " The hotel is by the post office"
+                    },
+                    {
+                        "word": "on Park Avenue",
+                        "sentence": " The hotel is on Park Avenue"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line C1 /",
+                "example_sentence": "I want to go to the Beachside Hotel.",
+                "lines": [
+                    {
+                        "word": "the Central Drugstore",
+                        "sentence": " I want to go to the Central Drugstore."
+                    },
+                    {
+                        "word": "the Memorial Library",
+                        "sentence": " I want to go to the Memorial Library."
+                    },
+                    {
+                        "word": "Penny's Department Store",
+                        "sentence": " I want to go to Penny's Department Store."
+                    },
+                    {
+                        "word": "the Park Avenue Pharmacy",
+                        "sentence": " I want to go to the Park Avenue Pharmacy."
+                    },
+                    {
+                        "word": "the J. F. Kennedy Airport",
+                        "sentence": " I want to go to the J. F. Kennedy Airport."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Line D4 /",
+                "example_sentence": "The Royal Hotel is two blocks that way.",
+                "lines": [
+                    {
+                        "word": "half a block",
+                        "sentence": " The Royal Hotel is half a block that way."
+                    },
+                    {
+                        "word": "several blocks",
+                        "sentence": " The Royal Hotel is several blocks that way."
+                    },
+                    {
+                        "word": "about ten blocks",
+                        "sentence": " The Royal Hotel is about ten blocks that way."
+                    },
+                    {
+                        "word": "some distance",
+                        "sentence": " The Royal Hotel is some distance that way"
+                    },
+                    {
+                        "word": "a five-minute walk",
+                        "sentence": " The Royal Hotel is a five-minute walk that way"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Line D4 /",
+                "example_sentence": "The Royal Hotel is two blocks that way.",
+                "lines": [
+                    {
+                        "word": "down the street",
+                        "sentence": " The Royal Hotel is two blocks down the street."
+                    },
+                    {
+                        "word": "up the street",
+                        "sentence": " The Royal Hotel is two blocks up the street."
+                    },
+                    {
+                        "word": "in that direction",
+                        "sentence": " The Royal Hotel is two blocks in that direction"
+                    },
+                    {
+                        "word": "past the intersection",
+                        "sentence": " The Royal Hotel is two blocks past the intersection"
+                    },
+                    {
+                        "word": "the other way",
+                        "sentence": " The Royal Hotel is two blocks the other way."
+                    },
+                    {
+                        "word": "north of here",
+                        "sentence": " The Royal Hotel is two blocks north of here"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 9 / Line D4 /",
+                "example_sentence": "The Royal Hotel is two blocks that way.",
+                "lines": [
+                    {
+                        "word": "several blocks",
+                        "sentence": " The Royal Hotel is several blocks that way"
+                    },
+                    {
+                        "word": "up the street",
+                        "sentence": " The Royal Hotel is several blocks up the street."
+                    },
+                    {
+                        "word": "about ten blocks",
+                        "sentence": " The Royal Hotel is about ten blocks up the street"
+                    },
+                    {
+                        "word": "in that direction",
+                        "sentence": " The Royal Hotel is about ten blocks in that direction."
+                    },
+                    {
+                        "word": "a five-minute walk",
+                        "sentence": " The Royal Hotel is a five-minute walk in that direction"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 10 / Line E3 /",
+                "example_sentence": "Where's the Grand Hotel on this map?",
+                "lines": [
+                    {
+                        "word": "the Central Drugstore",
+                        "sentence": " Where's the Central Drugstore on this map?"
+                    },
+                    {
+                        "word": "the Memorial Library",
+                        "sentence": " Where's the Memorial Library on this map?"
+                    },
+                    {
+                        "word": "Main Street",
+                        "sentence": " Where's Main Street on this map?"
+                    },
+                    {
+                        "word": "the Madison Motel",
+                        "sentence": " Where's the' Madison Motel on this map?"
+                    },
+                    {
+                        "word": "Greenwood Park",
+                        "sentence": " Where's Greenwood Park on this map?"
+                    }
+                ]
+            }
+        ]
     }
 ]

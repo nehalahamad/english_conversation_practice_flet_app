@@ -342,4 +342,4 @@ class MyApp:
 def main(page: ft.Page):
     MyApp(page)
 
-ft.app(target=main)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)

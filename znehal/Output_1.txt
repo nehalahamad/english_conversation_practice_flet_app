@@ -969,6 +969,7 @@ S1. Can you help me, please?
 S2. What's the matter?
 S1. Where is the grand hotel on this map?
 S2. It is right here-right next to the train station.
+
 Exercise 1 / Line A1 /
 Where's the hotel, please?
 the drugstore Where's the drugstore, please?
@@ -1040,6 +1041,9 @@ the Memorial Library Where's the Memorial Library on this map?
 Main Street Where's Main Street on this map?
 the Madison Motel Where's the' Madison Motel on this map?
 Greenwood Park Where's Greenwood Park on this map?
+
+
+
 16.ASKING DIRECTIONS/CONVERSATIONS
 Conversation A
 S1. Where's the airlines office?S2. It's near bus terminal--the Central Terminal.
