@@ -2994,5 +2994,1892 @@
                 ]
             }
         ]
+    },
+    {
+        "chapter": "16.ASKING DIRECTIONS/CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Where's the airlines office?",
+                    "S2. It's near bus terminal--the Central Terminal.",
+                    "S1. How far is that from here?",
+                    "S2. About a half a mile, I think."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Where's the post office?",
+                    "S2. It's three blocks that way.",
+                    "S1. What did you say?",
+                    "S2. Three blocks up that street."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Where's airport?",
+                    "S2. It's north of the city.",
+                    "S1. What's the best way to get there?",
+                    "S4. Take Highway 15 to the north."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. What street is the local library on?",
+                    "S2. I don't know.",
+                    "S3. How can I find out?",
+                    "S2. Why don't you ask a policeman?"
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Where's is the nearest telephone?",
+                    "S2. There's one in that drugstore.",
+                    "S1. Do you mean that store over there?",
+                    "S2. Yes. That's the one."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Line A1 /",
+                "example_sentence": "Where's the airlines office?",
+                "lines": [
+                    {
+                        "word": "the bus terminal",
+                        "sentence": " Where's the bus terminal?"
+                    },
+                    {
+                        "word": "the train station",
+                        "sentence": " Where's the train station?"
+                    },
+                    {
+                        "word": "the airport",
+                        "sentence": " Where's the airport?"
+                    },
+                    {
+                        "word": "the local library",
+                        "sentence": " Where's the local library?"
+                    },
+                    {
+                        "word": "the nearest hospital",
+                        "sentence": " Where's the nearest hospital?"
+                    },
+                    {
+                        "word": "the next bus stop",
+                        "sentence": " Where's the next bus stop?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A4 /",
+                "example_sentence": "It's about a half a mile from here.",
+                "lines": [
+                    {
+                        "word": "a quarter of a mile",
+                        "sentence": " It's about a quarter of a mile from here."
+                    },
+                    {
+                        "word": "three quarters of a mile",
+                        "sentence": " It's about three quarters of a mile from here"
+                    },
+                    {
+                        "word": "2 miles",
+                        "sentence": " It's about 2 miles from here."
+                    },
+                    {
+                        "word": "2 \u00bd miles",
+                        "sentence": " It's about 21/2miles from here"
+                    },
+                    {
+                        "word": "a little over 3 kilometers",
+                        "sentence": " It's a little over 3 kilometers from here"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Line D1 /",
+                "example_sentence": "What street is the local library on?",
+                "lines": [
+                    {
+                        "word": "the post office",
+                        "sentence": " What street is the post office on?"
+                    },
+                    {
+                        "word": "the police station",
+                        "sentence": " What street is the police station on?"
+                    },
+                    {
+                        "word": "the bus depot",
+                        "sentence": " What street is the bus depot on?"
+                    },
+                    {
+                        "word": "the fire department",
+                        "sentence": " What street is the fire department on?"
+                    },
+                    {
+                        "word": "the nearest drugstore",
+                        "sentence": " What street is the nearest drugstore on?"
+                    },
+                    {
+                        "word": "the closest bus stop",
+                        "sentence": " What street is the closest bus stop on?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line D3 /",
+                "example_sentence": "How can I find out?",
+                "lines": [
+                    {
+                        "word": "find that address",
+                        "sentence": " How can I find that address?"
+                    },
+                    {
+                        "word": "get that address",
+                        "sentence": " How can I get that address?"
+                    },
+                    {
+                        "word": "look up his address",
+                        "sentence": " How can I look up his address"
+                    },
+                    {
+                        "word": "locate the library",
+                        "sentence": " How can' I locate the library?"
+                    },
+                    {
+                        "word": "get to the library",
+                        "sentence": " How can I get to the library?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line D3 /",
+                "example_sentence": "How can I find out?",
+                "lines": [
+                    {
+                        "word": "where it is",
+                        "sentence": " How can I find out where it is?"
+                    },
+                    {
+                        "word": "where it's located",
+                        "sentence": " How can I find out where it's located?"
+                    },
+                    {
+                        "word": "what street it's on",
+                        "sentence": " How can I find out what street it's on?"
+                    },
+                    {
+                        "word": "what district it's in",
+                        "sentence": " How can I find out what district it's in?"
+                    },
+                    {
+                        "word": "what part of the city it's in",
+                        "sentence": " How can I find out what part of the city it's in?"
+                    },
+                    {
+                        "word": "what area it's in",
+                        "sentence": " How can I find out what area it's in?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line D3 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Where is it?",
+                        "sentence": " How can I find out where it is?"
+                    },
+                    {
+                        "word": "Where's the post office?",
+                        "sentence": " How can I find out where the post office is?"
+                    },
+                    {
+                        "word": "Where's it located?",
+                        "sentence": " How can I find out where it's located?"
+                    },
+                    {
+                        "word": "What street is it on?",
+                        "sentence": " How can I find out what street it's on?"
+                    },
+                    {
+                        "word": "What street is the library on?",
+                        "sentence": " How can I find out what street the library is on?"
+                    },
+                    {
+                        "word": "What district is it in?",
+                        "sentence": " How can I find out what district it's in?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Line D4 /",
+                "example_sentence": "Why don't you ask a policeman?",
+                "lines": [
+                    {
+                        "word": "your friend",
+                        "sentence": " Why don't you ask your friend?"
+                    },
+                    {
+                        "word": "that man over there",
+                        "sentence": " Why don't you ask that man over there?"
+                    },
+                    {
+                        "word": "the bus driver",
+                        "sentence": " Why don't you ask the bus driver?"
+                    },
+                    {
+                        "word": "someone else",
+                        "sentence": " Why don't you ask someone else?"
+                    },
+                    {
+                        "word": "the conductor",
+                        "sentence": " Why don't you ask the conductor?"
+                    },
+                    {
+                        "word": "the owner of that store",
+                        "sentence": " Why don't you ask the owner of that store?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Line El /",
+                "example_sentence": "Where's the nearest telephone?",
+                "lines": [
+                    {
+                        "word": "drugstore",
+                        "sentence": " Where's the nearest drugstore?"
+                    },
+                    {
+                        "word": "clothing store",
+                        "sentence": " Where's the nearest clothing store?"
+                    },
+                    {
+                        "word": "grocery store",
+                        "sentence": " Where's the nearest grocery store?"
+                    },
+                    {
+                        "word": "flower shop",
+                        "sentence": " Where's the nearest flower shop?"
+                    },
+                    {
+                        "word": "dress shop",
+                        "sentence": " Where's the nearest dress shop?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 9 / Line E2 /",
+                "example_sentence": "There's one in that drugstore.",
+                "lines": [
+                    {
+                        "word": "near the drugstore",
+                        "sentence": " There's one near the drugstore."
+                    },
+                    {
+                        "word": "in the hotel lobby",
+                        "sentence": " There's one in the hotel lobby."
+                    },
+                    {
+                        "word": "on the second floor",
+                        "sentence": " There's one on the second floor."
+                    },
+                    {
+                        "word": "down the hallway",
+                        "sentence": " There's one down the hallway."
+                    },
+                    {
+                        "word": "on the table over there",
+                        "sentence": " There's one on the table over there."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 10 / Line E3 /",
+                "example_sentence": "Do you mean that store over there?",
+                "lines": [
+                    {
+                        "word": "across the street",
+                        "sentence": " Do you mean that store across the street?"
+                    },
+                    {
+                        "word": "next to the train station",
+                        "sentence": " Do you mean that store next to the train station?"
+                    },
+                    {
+                        "word": "on the corner",
+                        "sentence": " Do you mean that store on the corner?"
+                    },
+                    {
+                        "word": "opposite the airlines office",
+                        "sentence": " Do you mean that store opposite the airlines office?"
+                    },
+                    {
+                        "word": "a block down the street",
+                        "sentence": " Do you mean that store a block down the street?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "17.GETTING INFORMATION/CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. What's the matter?",
+                    "S2. I need some information.",
+                    "S1. Go to that desk over there.",
+                    "S2. Thank you very much."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Can you help me, please?S2. I'll try to.",
+                    "S1. What's the best way to get to this address?",
+                    "S2. I'm sorry, but I really don't know."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. How can I get to that address?",
+                    "S2. You can go by taxi.",
+                    "S1. Isn't there any other way?",
+                    "S2. Yes, by bus, but it's complicated."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. How do I get to the nearest subway station?",
+                    "S2. It's two blocks up that street.",
+                    "S1. Do you mean the street running that way?",
+                    "S2. Yes. That's the one."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Is this the right way to Grand Central Station?",
+                    "S2. No. You're going the wrong way.",
+                    "S1. Which way should I be going then?",
+                    "S2. It's in that direction-about six blocks."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1/ Line A2 /",
+                "example_sentence": "I need some information,",
+                "lines": [
+                    {
+                        "word": "a little",
+                        "sentence": " I need a little information."
+                    },
+                    {
+                        "word": "Assistance",
+                        "sentence": " I need a little assistance."
+                    },
+                    {
+                        "word": "I'd appreciate",
+                        "sentence": " I'd appreciate a little assistance"
+                    },
+                    {
+                        "word": "with this work",
+                        "sentence": " I'd appreciate a little assistance with this work."
+                    },
+                    {
+                        "word": "some more",
+                        "sentence": " I'd appreciate some more assistance with this work."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A3 /",
+                "example_sentence": "Go to that desk over there.",
+                "lines": [
+                    {
+                        "word": "across the room",
+                        "sentence": " Go to that desk across the room"
+                    },
+                    {
+                        "word": "the counter",
+                        "sentence": " Go to the counter across the room"
+                    },
+                    {
+                        "word": "Walk",
+                        "sentence": " Walk to the counter across the room"
+                    },
+                    {
+                        "word": "opposite that door",
+                        "sentence": " Walk to the counter opposite that door"
+                    },
+                    {
+                        "word": "the office",
+                        "sentence": " Walk to the office opposite that door"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Line B3 /",
+                "example_sentence": "What's the best way to get to this address?",
+                "lines": [
+                    {
+                        "word": "fastest",
+                        "sentence": " What's the fastest way to get to this address?"
+                    },
+                    {
+                        "word": "easiest",
+                        "sentence": " What's the easiest way to get to this address-?"
+                    },
+                    {
+                        "word": "quickest",
+                        "sentence": " What's the quickest way to get to this address?"
+                    },
+                    {
+                        "word": "shortest",
+                        "sentence": " What's the shortest way to get to this address?"
+                    },
+                    {
+                        "word": "least difficult",
+                        "sentence": " What's the least difficult way to get to this address?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line B3 /",
+                "example_sentence": "What's the best way to get to this address?",
+                "lines": [
+                    {
+                        "word": "the center of town",
+                        "sentence": " What's the best way to get to the center of town?"
+                    },
+                    {
+                        "word": "the local shopping center",
+                        "sentence": " What's the best way to get to the local shopping center?"
+                    },
+                    {
+                        "word": "the Central Hotel",
+                        "sentence": " What's the best way to get to the Central Hotel?"
+                    },
+                    {
+                        "word": "Eastern College",
+                        "sentence": " What's the best way to get to Eastern College?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line B3 /",
+                "example_sentence": "What's the best way to get to this address:",
+                "lines": [
+                    {
+                        "word": "Fastest",
+                        "sentence": " What's the fastest way to get to this address?"
+                    },
+                    {
+                        "word": "to the center of town",
+                        "sentence": " What's the fastest way to get to the center of town?"
+                    },
+                    {
+                        "word": "Drive",
+                        "sentence": " What's the fastest way to drive to the center of town."
+                    },
+                    {
+                        "word": "Easiest",
+                        "sentence": " What's the easiest way to drive to center of town?"
+                    },
+                    {
+                        "word": "to the Central Hotel",
+                        "sentence": " What's the easiest way to drive to the Central Hotel."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line C2 /",
+                "example_sentence": "You can go by taxi.",
+                "lines": [
+                    {
+                        "word": "ought to",
+                        "sentence": " You ought to go by taxi."
+                    },
+                    {
+                        "word": "by bus",
+                        "sentence": " You ought to go by bus."
+                    },
+                    {
+                        "word": "There",
+                        "sentence": " You ought to go there by bus."
+                    },
+                    {
+                        "word": "Should",
+                        "sentence": " You should go there by bus."
+                    },
+                    {
+                        "word": "on the train",
+                        "sentence": " You should go there on the train."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / line D1 /",
+                "example_sentence": "How do I get to the subway station?",
+                "lines": [
+                    {
+                        "word": "the bus depot",
+                        "sentence": " How do I get to the bus depot?"
+                    },
+                    {
+                        "word": "reach",
+                        "sentence": " How do I reach the bus depot?"
+                    },
+                    {
+                        "word": "Highway 16",
+                        "sentence": " How do I reach Highway 16?"
+                    },
+                    {
+                        "word": "find",
+                        "sentence": " How do I find Highway 16?"
+                    },
+                    {
+                        "word": "the baggage room",
+                        "sentence": " How do I find the baggage room?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Line D2 /",
+                "example_sentence": "It's two blocks up that street.",
+                "lines": [
+                    {
+                        "word": "a few",
+                        "sentence": " It's a few blocks down that street."
+                    },
+                    {
+                        "word": "a short distance",
+                        "sentence": " It's a short distance down that street."
+                    },
+                    {
+                        "word": "along the highway",
+                        "sentence": " It's a short distance along the highway."
+                    },
+                    {
+                        "word": "several miles",
+                        "sentence": " It's several miles along the highway."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "18.FINDING ONE'S WAY / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1.Pardon me. \"Where's the Central Theater?",
+                    "S2.It's in the next block-straight'- ahead.",
+                    "S1.Thank You very much .",
+                    "S2.That's all right."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Where's the National Department Store?",
+                    "S2. It\u2019s down town-on Brown Street.",
+                    "S1. Do you know the exact address?",
+                    "S2. Yes. It's 521 Brown Street."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Can you tell me where the library is located?",
+                    "S2. Yes. Do you see that church down the street?",
+                    "S1. Yes. It's quite easy to see with such a tall spire.",
+                    "S2. Just turn left there and walk three blocks."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Are the instructions too complicated for you?",
+                    "S2. Well, would you mind repeating them?",
+                    "S1. I\u2019d be glad to.",
+                    "S2. I'd like to write them down this time."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Can you tell me where the station is?",
+                    "S2. Turn right and go four blocks.",
+                    "S1. Would you mind repeating that?",
+                    "S2. 1'd be glad to."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "19. ASKING ABOUT BUSINESS / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Where do I get the downtown bus?",
+                    "S2. Walk straight ahead one block",
+                    "S1. Thanks very much",
+                    "S2. Don't mention it."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Where does the bus stop?",
+                    "S2. At the next corner.",
+                    "S1. Does it go downtown?",
+                    "S2. Only the number 5 bus goes downtown"
+                ]
+            },
+            {
+                "title": "Conversation C.",
+                "lines": [
+                    "S1. Are there many bus stops along this street?",
+                    "S2. Yes, there are. There are quite a few.",
+                    "S1. Are they located at the corners?",
+                    "S2. Most of them are, but a few aren't."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. How do I get to the station?",
+                    "S2.Take the bus at the next corner.",
+                    "S1. Do you know which bus I take?",
+                    "S2. Watch for number 32."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. How much is the fare on this bus?",
+                    "S2. It's fifteen cents.",
+                    "S1. do I give the money to you.",
+                    "S2. No just drop it in this machine."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "20. TRAVELING BY BUS / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Does this bus go into the city?",
+                    "S2. Yes. Where do you want to go?",
+                    "S1. I want to go to Harbor Heights.",
+                    "S2. This is the right bus then."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Does this bus go as far as Washington Square?",
+                    "S2. No. You'll have to transfer.",
+                    "S1. Where can I do it?",
+                    "S2. You can get the Washington Square bus at the next corner."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Is this where I get off the bus?",
+                    "S2. No. Not here-\u00b7at the next stop.",
+                    "S1. Can I catch a taxi right there?",
+                    "S2. Yes. There's a taxi stand right by the bus stop."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Excuse me, but how do I get to this address?",
+                    "S2. Get off the bus at Water Street and Main.",
+                    "S1. Thanks very much for your help.",
+                    "S2. Don't mention it."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Is West Street the next stop?",
+                    "S2. I'm sorry, but I didn't understand you.",
+                    "S1. Does the bus stop at West Street next?",
+                    "S2. Yes. Right at the next corner."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "21. GOING BY TAXI / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Where are you going now?",
+                    "S2. To the hotel.",
+                    "S1. Are you going by bus or by taxi.",
+                    "S2. Probably by taxi if I can get one."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. I need a taxi.",
+                    "S2. The taxis are by the entrance.",
+                    "S1. Thank you much.",
+                    "S2. You're welcome."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Is this taxi taken?",
+                    "S2. No. Where are you going?",
+                    "S1. I'm going to the University Student Center.",
+                    "S2. O.K. I know right where it is."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. How much is the fare?",
+                    "S2. Two dollars and fifty cents.",
+                    "S1. Here. Keep the change.",
+                    "S2. Thank you very much"
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. It's raining very hard right now.",
+                    "S2. Why don't we get a taxi?",
+                    "S1. That's a good idea.",
+                    "S2. Now, I only hope we can find one."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "22. TAKING A TRIP BY CAR / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Are you taking a trip today?",
+                    "S2. Yes. We're going to Boston.",
+                    "S1. lt's a good day for the trip",
+                    "S2. I'm glad the sun is shining"
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. How far is it from here to the coast?",
+                    "S2. It's about 250 miles.",
+                    "S1. How long does it take to get there by car?",
+                    "S2. It takes about five hours."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. How far is it to the next gas station?",
+                    "S2. There's one two miles from here.",
+                    "S1. Is there a place to eat there?",
+                    "S2. Yes. There's a restaurant next to the station."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. What's the best way to Ocean City.",
+                    "S2. The superhighway, but it's also the longest way.",
+                    "S1. How much longer is it that way?",
+                    "S2. About 10 or 12 miles."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Are they going by way of North Plains?",
+                    "S2. No. They aren't taking that route.",
+                    "S1. How are they traveling then?",
+                    "S2. They're driving directly to Ocean City."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "23. TRAVEL PLANS / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. I have to take a trip by air next week.",
+                    "S2. Do you like to fly?",
+                    "S1. I don't know because I\u2019ve never flown before.",
+                    "S2. You'll probably like it very much."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. I have to go home next week.",
+                    "S2. How will you go-by car?",
+                    "S1. I'll probably go by air.",
+                    "S2. You'll get there very fast then."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Are you going on a trip next Saturday?",
+                    "S2. Yes. We're going to Boston.",
+                    "S1. Are you flying or going by train?",
+                    "S2. We're traveling by car."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. How will you travel to Los Angeles?",
+                    "S2. We'll go by plane.",
+                    "S1. How long will it take?",
+                    "S2. It\u2019ll take about five or six hours to get there."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. What time will you leave your house?",
+                    "S2. I'll leave around seven thirty.",
+                    "S1. How are you going to go~by train or by bus?",
+                    "S2. Neither. I'm going to drive."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "24. HOW DO I GET THERE? / CONVERSATIONS",
+        "conversations": [],
+        "exercises": []
+    },
+    {
+        "chapter": "25. ASKING THE TIME / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. What time do you have?",
+                    "S2. It's ten o'clock sharp.",
+                    "S1. Thanks a lot.",
+                    "S2. Don't mention it."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. What's the time?",
+                    "S2. It\u2019s almost eight.",
+                    "S1. Do you have the exact time?",
+                    "S2. Yes, it's two minutes to eight."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Excuse me. What time is it?",
+                    "S2. Its a quarter of two.",
+                    "S1. I guess my watch is slow then.",
+                    "S2. Well, I know mine isn't fast."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. What time is it right now?",
+                    "S2. It\u2019s a five twenty five.",
+                    "S1. I've got five thirty five.",
+                    "S2. You're ten minutes fast then."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Do you have the correct time?",
+                    "S2. Yes. It's two minutes to three.",
+                    "S1. Are you sure your watch is right?",
+                    "S2. It may be a few minutes slow."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1/ Line B2 /",
+                "example_sentence": "It's almost eight thirty.",
+                "lines": [
+                    {
+                        "word": "about",
+                        "sentence": " It's about eight thirty."
+                    },
+                    {
+                        "word": "just about",
+                        "sentence": " It's just about eight thirty."
+                    },
+                    {
+                        "word": "around",
+                        "sentence": " It's around eight thirty."
+                    },
+                    {
+                        "word": "close to",
+                        "sentence": " It's close to eight thirty."
+                    },
+                    {
+                        "word": "nearly",
+                        "sentence": " It's nearly eight thirty."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line D2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "It's five o'clock.",
+                        "sentence": " Is it five o'clock?"
+                    },
+                    {
+                        "word": "It's five fifteen.",
+                        "sentence": " Is it five fifteen?"
+                    },
+                    {
+                        "word": "It's a quarter after five.",
+                        "sentence": " Is it a quarter after five?"
+                    },
+                    {
+                        "word": "It's twenty after five.",
+                        "sentence": " Is it twenty after five?It's five twenty-five. Is it five twenty-five?"
+                    },
+                    {
+                        "word": "It's five thirty.",
+                        "sentence": " Is it five thirty?"
+                    },
+                    {
+                        "word": "It's twenty to six:",
+                        "sentence": " Is it twenty to six?"
+                    },
+                    {
+                        "word": "It's five forty-five.",
+                        "sentence": " Is it five forty-five?"
+                    },
+                    {
+                        "word": "It's a quarter to six.",
+                        "sentence": " Is it a quarter to six?"
+                    },
+                    {
+                        "word": "It's ten to six.",
+                        "sentence": " Is it ten to six?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Lines D2,D3,D4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "It's five o'clock, but I've got five ten",
+                        "sentence": " You're ten minutes fast then."
+                    },
+                    {
+                        "word": "It's five o'clock, but I've got ten to five",
+                        "sentence": " You're ten minutes slow then."
+                    },
+                    {
+                        "word": "It's five fifteen, but I've got five twelve",
+                        "sentence": " You're three minutes slow then."
+                    },
+                    {
+                        "word": "It's five twenty-five, but I've got five thirty",
+                        "sentence": " You're five minutes fast then"
+                    },
+                    {
+                        "word": "It's five to six, but I've got fiveforty-five",
+                        "sentence": " You're ten minutes fast then"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line E3 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Is your watch right?",
+                        "sentence": " Are you sure your watch is right?"
+                    },
+                    {
+                        "word": "Is your watch wrong?",
+                        "sentence": " Are you sure-your watch is wrong?"
+                    },
+                    {
+                        "word": "Is your watch slow?",
+                        "sentence": " Are you sure your watch is slow?"
+                    },
+                    {
+                        "word": "Is your watch fast?",
+                        "sentence": " Are you sure your watch is fast?"
+                    },
+                    {
+                        "word": "Is your watch correct?",
+                        "sentence": " Are you' Sure your watch is correct?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "26. ASKING THE TIME(2) / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. What time is it now?",
+                    "S2. I don't have my watch on right now.",
+                    "S1. Is there a clock around here?",
+                    "S2. There's one in the next room."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Do you have the right time?",
+                    "S2. I was just going to ask you the same question.",
+                    "S1. My watch has stopped.",
+                    "S2. I forgot to wear mine."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Do you have any idea of the time?",
+                    "S2. I don\u2019t know exactly, but it's after nine.",
+                    "S1. It was nine o'clock when I got here.",
+                    "S2. Well, I'm sorry I can't help you."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. At what time is the meeting?",
+                    "S2. Eight o'clock.",
+                    "S1. Be there at eight o'clock sharp, then.",
+                    "S2. I'll try to get there before eight."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. How often does this station give the news?",
+                    "S2. Every hour on the hour.",
+                    "S1. When do they announce the weather?",
+                    "S2. Ten minutes to and ten minutes after the hour."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1/ Line A2/",
+                "example_sentence": "I don't have my watch on right now.",
+                "lines": [
+                    {
+                        "word": "coat",
+                        "sentence": " I don't have my coat on right now."
+                    },
+                    {
+                        "word": "hat",
+                        "sentence": " I don't have my hat on right now."
+                    },
+                    {
+                        "word": "shoes",
+                        "sentence": " I don't have my shoes on right now."
+                    },
+                    {
+                        "word": "Sweater",
+                        "sentence": " I don't have my sweater on right now."
+                    },
+                    {
+                        "word": "wristwatch",
+                        "sentence": " I don't have my wristwatch on right now."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A3 /",
+                "example_sentence": "Is there a clock around here?",
+                "lines": [
+                    {
+                        "word": "in this room",
+                        "sentence": " Is there a clock in this room?"
+                    },
+                    {
+                        "word": "in the other foam",
+                        "sentence": " Is there a clock in the other room?"
+                    },
+                    {
+                        "word": "in this building",
+                        "sentence": " Is there a clock in this building?"
+                    },
+                    {
+                        "word": "on the table",
+                        "sentence": " Is there a clock on the table?"
+                    },
+                    {
+                        "word": "on the wall",
+                        "sentence": " Is there a clock on the wall?"
+                    },
+                    {
+                        "word": "near this room",
+                        "sentence": " Is there a clock near this room?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Line A3 /",
+                "example_sentence": "Is there a clock around here?",
+                "lines": [
+                    {
+                        "word": "a big clock",
+                        "sentence": " Is there a big clock around here?"
+                    },
+                    {
+                        "word": "an electric clock",
+                        "sentence": " Is there an electric clock around here?"
+                    },
+                    {
+                        "word": "a wall clock",
+                        "sentence": " Is there a wall clock around here?"
+                    },
+                    {
+                        "word": "any clocks",
+                        "sentence": " Are there any clocks around here?"
+                    },
+                    {
+                        "word": "any wall clocks",
+                        "sentence": " Are there any wall clocks around here?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line A3 /",
+                "example_sentence": "Is there a clock around here?",
+                "lines": [
+                    {
+                        "word": "in the other room",
+                        "sentence": " Is there a clock in the other room?"
+                    },
+                    {
+                        "word": "Electric",
+                        "sentence": " Is there an electric clock in the other room?"
+                    },
+                    {
+                        "word": "in this building",
+                        "sentence": " Is there an electric clock in this building?"
+                    },
+                    {
+                        "word": "Clocks",
+                        "sentence": " Are there electric clocks in this building?"
+                    },
+                    {
+                        "word": "any",
+                        "sentence": " Are there any electric clocks in this building?"
+                    },
+                    {
+                        "word": "around here",
+                        "sentence": " Are there any electric clocks around here?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line B1 /",
+                "example_sentence": "Do you have the time?",
+                "lines": [
+                    {
+                        "word": "Right",
+                        "sentence": " Do you have the right time?"
+                    },
+                    {
+                        "word": "have any idea of",
+                        "sentence": " Do you have any idea of the right time?"
+                    },
+                    {
+                        "word": "know the right time",
+                        "sentence": " Do you know the right time?"
+                    },
+                    {
+                        "word": "Correct",
+                        "sentence": " Do you know the correct time?"
+                    },
+                    {
+                        "word": "right now",
+                        "sentence": " Do you know the correct time right now?"
+                    },
+                    {
+                        "word": "exact",
+                        "sentence": " Do you know the exact time right now?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line B2 /",
+                "example_sentence": "I was just going to ask you the same question.",
+                "lines": [
+                    {
+                        "word": "the time",
+                        "sentence": " I was just going to ask you the time."
+                    },
+                    {
+                        "word": "tell",
+                        "sentence": " I was just going to tell you the time."
+                    },
+                    {
+                        "word": "Preparing",
+                        "sentence": " I was just preparing to tell you the time."
+                    },
+                    {
+                        "word": "it's twelve o'clock",
+                        "sentence": " I was just preparing to tell you it's twelve o'clock."
+                    },
+                    {
+                        "word": "a quarter to one",
+                        "sentence": " I was just preparing to tell you it's a quarter to one."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Line C3 /",
+                "example_sentence": "It was nine o'clock when I got here.",
+                "lines": [
+                    {
+                        "word": "about",
+                        "sentence": " It was about nine o'clock when I got here."
+                    },
+                    {
+                        "word": "three twenty",
+                        "sentence": " It was about three twenty when I got here."
+                    },
+                    {
+                        "word": "arrived",
+                        "sentence": " It was about three twenty when I arrived here."
+                    },
+                    {
+                        "word": "at the office",
+                        "sentence": " It was about three twenty when I arrived at the office."
+                    },
+                    {
+                        "word": "sharp",
+                        "sentence": " It was three twenty sharp when I arrived at the office."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Line D1 /",
+                "example_sentence": "At what time is the meeting?",
+                "lines": [
+                    {
+                        "word": "the lecture",
+                        "sentence": " At what time is the lecture?"
+                    },
+                    {
+                        "word": "the conference",
+                        "sentence": " At what time is the conference?"
+                    },
+                    {
+                        "word": "the party",
+                        "sentence": " At what time is the party?the concert At what time is the concert?"
+                    },
+                    {
+                        "word": "the football game",
+                        "sentence": " At what time is the football game?"
+                    },
+                    {
+                        "word": "the program",
+                        "sentence": " At what time is the program?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 9 / Line D 1 /",
+                "example_sentence": "At what time is the meeting?",
+                "lines": [
+                    {
+                        "word": "At what time of the day",
+                        "sentence": " At what time of the day is the meeting?"
+                    },
+                    {
+                        "word": "On what day",
+                        "sentence": " On what day is the meeting?"
+                    },
+                    {
+                        "word": "On what day of the week",
+                        "sentence": " On what day of the week is the meeting?"
+                    },
+                    {
+                        "word": "In what month",
+                        "sentence": " In what month is the meeting?"
+                    },
+                    {
+                        "word": "In what month of the year",
+                        "sentence": " In what month of the year is the meeting?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 10 / Line D1 /",
+                "example_sentence": "At what time is the meeting?",
+                "lines": [
+                    {
+                        "word": "the lecture",
+                        "sentence": " At what time is the lecture?"
+                    },
+                    {
+                        "word": "At what time of the day",
+                        "sentence": " At what time of the day is the lecture?"
+                    },
+                    {
+                        "word": "the conference",
+                        "sentence": " At what time of the day is the conference?"
+                    },
+                    {
+                        "word": "On what day",
+                        "sentence": " On what day is the conference?"
+                    },
+                    {
+                        "word": "the party",
+                        "sentence": " On what day is the party?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 11 / Line D1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "The meeting is at eight.",
+                        "sentence": " At what time is the meeting?"
+                    },
+                    {
+                        "word": "At what time is the meeting?",
+                        "sentence": " It's at eight"
+                    },
+                    {
+                        "word": "The lecture is on Tuesday.",
+                        "sentence": " On what day is the lecture?"
+                    },
+                    {
+                        "word": "On what day is the lecture?",
+                        "sentence": " It's on Tuesday"
+                    },
+                    {
+                        "word": "The conference is in June.",
+                        "sentence": " In what month is the conference?"
+                    },
+                    {
+                        "word": "In what month is the conference?",
+                        "sentence": " It's in June"
+                    },
+                    {
+                        "word": "The party is at seven thirty.",
+                        "sentence": " At-what Time is the party?"
+                    },
+                    {
+                        "word": "At what time is the party?",
+                        "sentence": " It's at seven thirty"
+                    },
+                    {
+                        "word": "The football game is on Friday.",
+                        "sentence": " On what day is the football game?"
+                    },
+                    {
+                        "word": "Oh what day is the football game?",
+                        "sentence": " It's on Friday."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 12 / Line D3 /",
+                "example_sentence": "Be there at eight o'clock sharp, then.",
+                "lines": [
+                    {
+                        "word": "at eight thirty",
+                        "sentence": " Be there at eight thirty sharp, then."
+                    },
+                    {
+                        "word": "exactly at noon",
+                        "sentence": " Be there exactly at noon, then."
+                    },
+                    {
+                        "word": "before three o'clock",
+                        "sentence": " Be there before three o'clock, then."
+                    },
+                    {
+                        "word": "around ten fifteen",
+                        "sentence": " Be there around ten fifteen, then."
+                    },
+                    {
+                        "word": "about four thirty or five",
+                        "sentence": " Be there about four thirty or five, then."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 13 / Line E1/",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "This station gives the news.",
+                        "sentence": " How often does this station give the news?"
+                    },
+                    {
+                        "word": "This station announces the weather",
+                        "sentence": " How often does this station announce the weather?"
+                    },
+                    {
+                        "word": "This station gives concerts.",
+                        "sentence": " How often does this station give concerts?"
+                    },
+                    {
+                        "word": "This station announces traffic conditions",
+                        "sentence": " How often does this station announce traffic conditions?"
+                    },
+                    {
+                        "word": "This station gives plays.",
+                        "sentence": " How often does this station give plays?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 14 / Line E3 /",
+                "example_sentence": "This station gives the news.\t When does this station give the news?",
+                "lines": [
+                    {
+                        "word": "This station announces the weather.",
+                        "sentence": " When does this station announce the weather?"
+                    },
+                    {
+                        "word": "This station gives concerts.",
+                        "sentence": " When does this station give concerts?"
+                    },
+                    {
+                        "word": "This station announces traffic conditions.",
+                        "sentence": " When does this station announce traffic conditions?"
+                    },
+                    {
+                        "word": "This station gives plays.",
+                        "sentence": " When does this station give plays?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "27. GOING BY THE CLOCK / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. When is your first class?",
+                    "S2. At ten after nine.",
+                    "S1. When do you get back here, then?",
+                    "S2. About ten to twelve."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Alice will be back in ten or fifteen minutes.",
+                    "S2. How long has she been out of the office?",
+                    "S1. She's been out since ten 0'clock.",
+                    "S2. Then she's been out for an hour or more."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. I got to the cafeteria around noon.",
+                    "S2. I was there, but I didn't see you.",
+                    "S1. I think I left a few minutes after twelve.",
+                    "S2. I must have just missed you, then."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Our friends Will meet us here.",
+                    "S2. Will they come here right after lunch?",
+                    "S1. No. They won't be here until three o'clock.",
+                    "S2. Then I\u2019ll come a little before three."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Let's call Mary.",
+                    "S2. Let\u2019s not call her right now.",
+                    "S1. Maybe this is a bad time to call.",
+                    "S2. Let\u2019s wait until seven or seven thirty."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "28. ARRIVING EARLY OR LATE / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. I'm afraid we're going to be late.",
+                    "S2. How much time is there left?",
+                    "S1. We've got about thirty or forty minutes.",
+                    "S2. That should be plenty of time."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Whom are you waiting for?",
+                    "S2. We're wafting for our friend.",
+                    "S1. What are you looking so angry for?",
+                    "S2. Because she's twenty minutes late already."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Aren't we going to be late for the meeting?",
+                    "S2. No. I think we'll be on time.",
+                    "S1. Well, I want to be there in time to get a good seat.",
+                    "S2. The meeting doesn't start for another twenty minutes."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Isn't Harry here yet?",
+                    "S2. Here he comes now.",
+                    "S1. Eight forty-five. Late as usual.",
+                    "S2. Well, we can still get to school on time."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Are we late or not?",
+                    "S2. No. In fact we're early according to my watch.",
+                    "S1. Hadn't we better go inside?",
+                    "S2. All right, but we're really about a half an hour early."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "29. WATCHES AND THE TIME / CONVERSATIONS",
+        "conversations": [],
+        "exercises": []
+    },
+    {
+        "chapter": "30.TIME AND THE CALENDAR / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. When does February have twenty-nine clays?",
+                    "S2. In leap year.",
+                    "S1. How often is there a leap year?",
+                    "S2. Every fourth year."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. How many days are there in leap year?",
+                    "S2. There are three hundred and sixty-six.",
+                    "S1. How many weeks are there in a year?",
+                    "S2.There are fifty-two weeks a year."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. What are the seasons in this country?",
+                    "S2. Winter, spring, summer, and fall.",
+                    "S1. How months are there in a season?",
+                    "S2. There are three months in each season."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1.Today is the first day of spring.",
+                    "S2. I didn't realize it.",
+                    "S1. Aren't you glad it's here?",
+                    "S2. I'm always glad when winter is over."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1.The weather is perfect today, isn't it?",
+                    "S2.Yes.I like this season of the year very much.",
+                    "S1.Most people like this season best of all, don't they?",
+                    "S2.Well, I'm sure a lot of people do."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Lines B1-B4, G3, C4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "How many days are there in a year?",
+                        "sentence": " There are three hundred and sixty-five."
+                    },
+                    {
+                        "word": "How many weeks are there in a year?",
+                        "sentence": " There are fifty-two."
+                    },
+                    {
+                        "word": "How many months are there in a year?",
+                        "sentence": " There are twelve."
+                    },
+                    {
+                        "word": "How many seasons are there in a year?",
+                        "sentence": " There are four"
+                    },
+                    {
+                        "word": "How many months are there in a season?",
+                        "sentence": " There are three."
+                    },
+                    {
+                        "word": "How many days are there in a week?",
+                        "sentence": " There are seven"
+                    },
+                    {
+                        "word": "How many days are there in June?",
+                        "sentence": " There are thirty."
+                    },
+                    {
+                        "word": "How many days are there in October?",
+                        "sentence": " There are thirty-one."
+                    },
+                    {
+                        "word": "How many years are there in a decade?",
+                        "sentence": " There are ten"
+                    },
+                    {
+                        "word": "How many years are there in a century?",
+                        "sentence": " There are one hundred."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line D 1 /",
+                "example_sentence": "Today is the first day of spring.",
+                "lines": [
+                    {
+                        "word": "Yesterday",
+                        "sentence": " Yesterday was the first day of spring"
+                    },
+                    {
+                        "word": "Tomorrow",
+                        "sentence": " Tomorrow .will be the first day of spring."
+                    },
+                    {
+                        "word": "Last Friday",
+                        "sentence": " Last Friday was the first day of spring."
+                    },
+                    {
+                        "word": "Next Thursday",
+                        "sentence": " Next Thursday will be the first day of spring."
+                    },
+                    {
+                        "word": "This coming Monday",
+                        "sentence": " This coming Monday will be the First day of spring."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3J / Line D 1 /",
+                "example_sentence": "Today is the first day of spring.",
+                "lines": [
+                    {
+                        "word": "summer",
+                        "sentence": " Today is the first day of summer."
+                    },
+                    {
+                        "word": "winter",
+                        "sentence": " Today is the first day of winter."
+                    },
+                    {
+                        "word": "September",
+                        "sentence": " Today is the first day of September."
+                    },
+                    {
+                        "word": "the new year",
+                        "sentence": " Today-is the first day of the new year."
+                    },
+                    {
+                        "word": "our summer vacation",
+                        "sentence": " Today is the first day or our Summer vacation."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line D4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "When is winter over?",
+                        "sentence": " It's over about March twenty-first."
+                    },
+                    {
+                        "word": "Are you glad then?",
+                        "sentence": " I'm always glad when winter is over."
+                    },
+                    {
+                        "word": "When is spring over?",
+                        "sentence": " It's over about June twenty-first."
+                    },
+                    {
+                        "word": "Are you sorry then?",
+                        "sentence": " I'm always sorry when spring is over."
+                    },
+                    {
+                        "word": "When is summer over?",
+                        "sentence": " It's over about September twenty-first."
+                    },
+                    {
+                        "word": "Are you glad then?",
+                        "sentence": " I'm always glad when summer is over."
+                    },
+                    {
+                        "word": "When is fall over?",
+                        "sentence": " It's over about December twenty-first."
+                    },
+                    {
+                        "word": "Are you sorry then?",
+                        "sentence": " I'm always sorry when fall is over."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line E1 /",
+                "example_sentence": "The weather is perfect today, isn't it?",
+                "lines": [
+                    {
+                        "word": "terrible",
+                        "sentence": " The weather is terrible today, isn't it?"
+                    },
+                    {
+                        "word": "wonderful",
+                        "sentence": " The weather is wonderful today, isn't it?"
+                    },
+                    {
+                        "word": "awful",
+                        "sentence": " The weather is awful today, isn't it?"
+                    },
+                    {
+                        "word": "unusual",
+                        "sentence": " The weather is unusual today, isn't it?"
+                    },
+                    {
+                        "word": "unusually nice",
+                        "sentence": " The weather is unusually nice today, isn't it?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line E1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Today is very warm, isn't it?",
+                        "sentence": " Today isn't very warm, is it?"
+                    },
+                    {
+                        "word": "Today is very cold, isn't it?",
+                        "sentence": " Today isn't very cold, is it?"
+                    },
+                    {
+                        "word": "Today is very hot, isn't it?",
+                        "sentence": " Today isn't very hot, is it?"
+                    },
+                    {
+                        "word": "Today is very cool, isn't it?",
+                        "sentence": " Today isn't very cool, is it?"
+                    },
+                    {
+                        "word": "Today is very humid, isn't it?",
+                        "sentence": " Today isn't very humid, is it?"
+                    },
+                    {
+                        "word": "Today is very clear, isn't it?",
+                        "sentence": " Today isn't very clear, is it?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Line E3 /",
+                "example_sentence": "Most people like this season best of all, don't they?",
+                "lines": [
+                    {
+                        "word": "A lot of people",
+                        "sentence": " A lot of people like this season best of all, don't they?"
+                    },
+                    {
+                        "word": "Some people",
+                        "sentence": " Some people like this season best of all, don't they?"
+                    },
+                    {
+                        "word": "A few people",
+                        "sentence": " A few people like this season best of all, don't they?"
+                    },
+                    {
+                        "word": "Few people Few",
+                        "sentence": " people like this season best of all, do they?"
+                    },
+                    {
+                        "word": "Not many people",
+                        "sentence": " Not many people like this season best of all, do they?"
+                    }
+                ]
+            }
+        ]
     }
 ]

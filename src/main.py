@@ -20,7 +20,7 @@ class Conversation:
     def display(self, conversation):
         title = ft.Container(
             content=MyText(conversation["title"], size=18, selectable=True),
-            bgcolor=ft.Colors.WHITE,
+            bgcolor='#3de5eb',
             padding=10,
             margin=5,
             border_radius=10,
@@ -61,7 +61,8 @@ class Conversation:
                                     content=(MyText(line, size=self.conversation_font_size, color=ft.Colors.RED, selectable=True)),
                                     bgcolor=ft.Colors.WHITE,
                                     border_radius=5,
-                                    padding=5
+                                    padding=5,
+                                    
                                 ),
                                 ft.Icon(name=ft.Icons.FACE_4),
                             ],
@@ -89,22 +90,20 @@ class Exercise:
     def display(self, exercise):
         title = ft.Container(
             content=MyText(exercise["title"], size=18),
-            bgcolor=ft.Colors.WHITE,
+            bgcolor='#3de5eb',
             padding=10,
             # margin=5,
             border_radius=10,
             # expand=True,
-            width=360,
             alignment=ft.alignment.center
         )
         example_sentence = ft.Container(
             content=MyText(exercise["example_sentence"], size=18),
-            bgcolor=ft.Colors.WHITE,
+            bgcolor='#69f5fa',
             padding=10,
-            margin=5,
+            # margin=5,
             border_radius=10,
             # expand=True,
-            width=360,
             alignment=ft.alignment.center
         )
 
@@ -214,7 +213,7 @@ class MyApp:
             leading_width=40,
             title=ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15),
             center_title=False,
-            bgcolor=ft.Colors.GREEN_100,
+            bgcolor='#06b7bd',
             actions=[
                 ft.IconButton(ft.Icons.ARROW_CIRCLE_LEFT_OUTLINED, on_click=self.get_previous_chapter),
                 ft.IconButton(ft.Icons.ARROW_CIRCLE_RIGHT_OUTLINED, on_click=self.get_next_chapter),

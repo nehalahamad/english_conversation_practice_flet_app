@@ -1069,6 +1069,7 @@ S1. Where's is the nearest telephone?
 S2. There's one in that drugstore.
 S1. Do you mean that store over there?
 S2. Yes. That's the one.
+
 Exercise 1 / Line A1 /
 Where's the airlines office?
 the bus terminal Where's the bus terminal?
@@ -1141,8 +1142,11 @@ next to the train station Do you mean that store next to the train station?
 on the corner Do you mean that store on the corner?
 opposite the airlines office Do you mean that store opposite the airlines office?
 a block down the street Do you mean that store a block down the street?
-17.GETTING
-INFORMATION/CONVERSATIONS
+
+
+
+
+17.GETTING INFORMATION/CONVERSATIONS
 Conversation A
 S1. What's the matter?
 S2. I need some information.
@@ -1167,6 +1171,7 @@ S1. Is this the right way to Grand Central Station?
 S2. No. You're going the wrong way.
 S1. Which way should I be going then?
 S2. It's in that direction-about six blocks.
+
 Exercise 1/ Line A2 /
 I need some information,
 a little I need a little information.
@@ -1219,7 +1224,11 @@ It's two blocks up that street.
 a few It's a few blocks down that street.
 a short distance It's a short distance down that street.
 along the highway It's a short distance along the highway.
-several miles It's several miles along the highway.18.FINDING ONE’S WAY / CONVERSATIONS
+several miles It's several miles along the highway.
+
+
+
+18.FINDING ONE'S WAY / CONVERSATIONS
 Conversation A
 S1.Pardon me. "Where's the Central Theater?
 S2.It's in the next block-straight'- ahead.
@@ -1232,7 +1241,8 @@ S1. Do you know the exact address?
 S2. Yes. It's 521 Brown Street.
 Conversation C
 S1. Can you tell me where the library is located?
-S2. Yes. Do you see that church down the street'?S1. Yes. It's quite easy to see with such a tall spire.
+S2. Yes. Do you see that church down the street'?
+S1. Yes. It's quite easy to see with such a tall spire.
 S2. Just turn left there and walk three blocks.
 Conversation D
 S1. Are the instructions too complicated for you?
@@ -1244,8 +1254,10 @@ S1. Can you tell me where the station is?
 S2. Turn right and go four blocks.
 S1. Would you mind repeating that?
 S2. 1'd be glad to.
-19. ASKING ABOUT BUSINESS /
-CONVERSATIONS
+
+
+
+19. ASKING ABOUT BUSINESS / CONVERSATIONS
 Conversation A
 S1. Where do I get the downtown bus?
 S2. Walk straight ahead one block
@@ -1259,7 +1271,8 @@ S2. Only the number 5 bus goes downtown
 Conversation C.
 S1. Are there many bus stops along this street?
 S2. Yes, there are. There are quite a few.
-S1. Are they located at the corners?S2. Most of them are, but a few aren't.
+S1. Are they located at the corners?
+S2. Most of them are, but a few aren't.
 Conversation D
 S1. How do I get to the station?
 S2.Take the bus at the next corner.
@@ -1267,9 +1280,12 @@ S1. Do you know which bus I take?
 S2. Watch for number 32.
 Conversation E
 S1. How much is the fare on this bus?
-S2 It's fifteen cents.
+S2. It's fifteen cents.
 S1. do I give the money to you.
 S2. No just drop it in this machine.
+
+
+
 20. TRAVELING BY BUS / CONVERSATIONS
 Conversation A
 S1. Does this bus go into the city?
@@ -1286,7 +1302,8 @@ S1. Is this where I get off the bus?
 S2. No. Not here-·at the next stop.
 S1. Can I catch a taxi right there?
 S2. Yes. There's a taxi stand right by the bus stop.
-Conversation DS1. Excuse me, but how do I get to this address?
+Conversation D
+S1. Excuse me, but how do I get to this address?
 S2. Get off the bus at Water Street and Main.
 S1. Thanks very much for your help.
 S2. Don't mention it.
@@ -1294,7 +1311,10 @@ Conversation E
 S1. Is West Street the next stop?
 S2. I'm sorry, but I didn't understand you.
 S1. Does the bus stop at West Street next?
-S2. Yes. Right at the next corner.21. GOING BY TAXI / CONVERSATIONS
+S2. Yes. Right at the next corner.
+
+
+21. GOING BY TAXI / CONVERSATIONS
 Conversation A
 S1. Where are you going now?
 S2. To the hotel.
@@ -1319,8 +1339,10 @@ Conversation E
 S1. It's raining very hard right now.
 S2. Why don't we get a taxi?
 S1. That's a good idea.
-S2. Now, I only hope we can find one.22. TAKING A TRIP BY CAR /
-CONVERSATIONS
+S2. Now, I only hope we can find one.
+
+
+22. TAKING A TRIP BY CAR / CONVERSATIONS
 Conversation A
 S1. Are you taking a trip today?
 S2. Yes. We're going to Boston.
@@ -1345,7 +1367,11 @@ Conversation E
 S1. Are they going by way of North Plains?
 S2. No. They aren't taking that route.
 S1. How are they traveling then?
-S2. They're driving directly to Ocean City.23. TRAVEL PLANS / CONVERSATIONS
+S2. They're driving directly to Ocean City.
+
+
+
+23. TRAVEL PLANS / CONVERSATIONS
 Conversation A
 S1. I have to take a trip by air next week.
 S2. Do you like to fly?
@@ -1370,8 +1396,11 @@ Conversation E
 S1. What time will you leave your house?
 S2. I'll leave around seven thirty.
 S1. How are you going to go~by train or by bus?
-S2. Neither. I'm going to drive.24. HOW DO I GET THERE? /
-CONVERSATIONS
+S2. Neither. I'm going to drive.
+
+
+
+24. HOW DO I GET THERE? / CONVERSATIONS
 Conversation Drill A
 S1. Excuse me. Where's (A)
 S2. It's (B)
@@ -1402,7 +1431,11 @@ at the second stoplight to the stoplight
 in the center of town to the center
 at the next intersection to the intersection
 at Main Street to Main Street
-by the bus depot to the depot25. ASKING THE TIME / CONVERSATIONS
+by the bus depot to the depot
+
+
+
+25. ASKING THE TIME / CONVERSATIONS
 Conversation A
 S1. What time do you have?
 S2. It's ten o'clock sharp.
@@ -1428,6 +1461,7 @@ S1. Do you have the correct time?
 S2. Yes. It's two minutes to three.
 S1. Are you sure your watch is right?
 S2. It may be a few minutes slow.
+
 Exercise 1/ Line B2 /
 It's almost eight thirty.
 about It's about eight thirty.
@@ -1457,12 +1491,16 @@ Is your watch wrong? Are you sure-your watch is wrong?
 Is your watch slow? Are you sure your watch is slow?
 Is your watch fast? Are you sure your watch is fast?
 Is your watch correct? Are you' Sure your watch is correct?
+
+
+
 26. ASKING THE TIME(2) / CONVERSATIONS
 Conversation A
 S1. What time is it now?
 S2. I don't have my watch on right now.
 S1. Is there a clock around here?
-S2. There's one in the next room.Conversation B
+S2. There's one in the next room.
+Conversation B
 S1. Do you have the right time?
 S2. I was just going to ask you the same question.
 S1. My watch has stopped.
@@ -1482,6 +1520,7 @@ S1. How often does this station give the news?
 S2. Every hour on the hour.
 S1. When do they announce the weather?
 S2. Ten minutes to and ten minutes after the hour.
+
 Exercise 1/ Line A2/
 I don't have my watch on right now.
 coat I don't have my coat on right now.
@@ -1586,8 +1625,10 @@ This station gives concerts. When does this station give concerts?
 This station announces trafficWhen does this station announce traffic
 conditions. conditions?
 This station gives plays. When does this station give plays?
-27. GOING BY THE CLOCK /
-CONVERSATIONS
+
+
+
+27. GOING BY THE CLOCK / CONVERSATIONS
 Conversation A
 S1. When is your first class?
 S2. At ten after nine.
@@ -1600,7 +1641,8 @@ S1. She's been out since ten 0'clock.
 S2. Then she's been out for an hour or more.
 Conversation C
 S1. I got to the cafeteria around noon.
-S2. I was there, but I didn't see you.S1. I think I left a few minutes after twelve.
+S2. I was there, but I didn't see you.
+S1. I think I left a few minutes after twelve.
 S2. I must have just missed you, then.
 Conversation D
 S1. Our friends Will meet us here.
@@ -1612,8 +1654,10 @@ S1. Let's call Mary.
 S2. Let’s not call her right now.
 S1. Maybe this is a bad time to call.
 S2. Let’s wait until seven or seven thirty.
-28. ARRIVING EARLY
-OR LATE / CONVERSATIONS
+
+
+
+28. ARRIVING EARLY OR LATE / CONVERSATIONS
 Conversation A
 S1. I'm afraid we're going to be late.
 S2. How much time is there left?
@@ -1628,7 +1672,8 @@ Conversation C
 S1. Aren't we going to be late for the meeting?
 S2. No. I think we'll be on time.
 S1. Well, I want to be there in time to get a good seat.
-S2. The meeting doesn't start for another twenty minutes.Conversation D
+S2. The meeting doesn't start for another twenty minutes.
+Conversation D
 S1. Isn't Harry here yet?
 S2. Here he comes now.
 S1. Eight forty-five. Late as usual.
@@ -1637,8 +1682,11 @@ Conversation E
 S1. Are we late or not?
 S2. No. In fact we're early according to my watch.
 S1. Hadn't we better go inside?
-S2. All right, but we're really about a half an hour early.29. WATCHES AND THE TIME /
-CONVERSATIONS
+S2. All right, but we're really about a half an hour early.
+
+
+
+29. WATCHES AND THE TIME / CONVERSATIONS
 Conversation Drill A
 S1. Could you tell me the time, please?
 S2. Certainly. It's (A)
@@ -1666,8 +1714,11 @@ at school within an hour
 at the library in the afternoon
 at church at six fifteen
 at the factory in time for dinner
-at home in an hour or so30.TIME AND THE CALENDAR /
-CONVERSATIONS
+at home in an hour or so
+
+
+
+30.TIME AND THE CALENDAR / CONVERSATIONS
 Conversation A
 S1. When does February have twenty-nine clays?
 S2. In leap year.
@@ -1693,6 +1744,7 @@ S1.The weather is perfect today, isn't it?
 S2.Yes.I like this season of the year very much.
 S1.Most people like this season best of all, don't they?
 S2.Well, I'm sure a lot of people do.
+
 Exercise 1 / Lines B1-B4, G3, C4 /
 How many days are there in a year? There are three hundred and sixty-five.
 How many weeks are there in a year? There are fifty-two.
@@ -1746,8 +1798,10 @@ A lot of people A lot of people like this season best of all, don't they?Some pe
 A few 'people A few people like this season best of all, don't they?
 Few people Few people like this season best of all, do they?
 Not many people Not many people like this season best of all, do they?
-31.DAYS,DATES,AND SEASON /
-CONVERSATIONS
+
+
+
+31.DAYS,DATES,AND SEASON / CONVERSATIONS
 Conversation Drill A
 S1. What day is today?S2. It's (A) today.
 S1. What's the date?

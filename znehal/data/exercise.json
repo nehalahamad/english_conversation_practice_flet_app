@@ -1,277 +1,219 @@
 [
     {
-        "title": "Exercise 1 / Line A1 /",
-        "example_sentence": "Where's the hotel, please?",
-        "lines": [
-            {
-                "word": "the drugstore",
-                "sentence": " Where's the drugstore, please?"
-            },
-            {
-                "word": "the post office",
-                "sentence": " Where's the post office, please?"
-            },
-            {
-                "word": "the police station",
-                "sentence": " Where's \"the police station, please?"
-            },
-            {
-                "word": "the library",
-                "sentence": " Where's the library, please?"
-            },
-            {
-                "word": "the center of town",
-                "sentence": " Where's the center of town, please?"
-            }
-        ]
-    },
-    {
-        "title": "Exercise 2 / Line A4 /",
-        "example_sentence": "It's the next street straight ahead.",
-        "lines": [
-            {
-                "word": "first",
-                "sentence": " It's the first street straight ahead."
-            },
-            {
-                "word": "second",
-                "sentence": " It's the second street straight ahead."
-            },
-            {
-                "word": "third",
-                "sentence": " It's the third street straight ahead."
-            },
-            {
-                "word": "fourth",
-                "sentence": " It's the fourth street straight ahead."
-            },
-            {
-                "word": "fifth",
-                "sentence": " It's the fifth street straight ahead."
-            }
-        ]
-    },
-    {
-        "title": "Exercise 3 / Line A4 /",
-        "example_sentence": "It's straight ahead.",
-        "lines": [
-            {
-                "word": "around the corner",
-                "sentence": " It's around the corner."
-            },
-            {
-                "word": "two blocks from here",
-                "sentence": " It's two blocks from here"
-            },
-            {
-                "word": "past the post office",
-                "sentence": " It's past the post office."
-            },
-            {
-                "word": "near the library,",
-                "sentence": " It's near the library."
-            },
-            {
-                "word": "right after the stoplight",
-                "sentence": " It's right after the stoplight."
-            }
-        ]
-    },
-    {
-        "title": "Exercise 4 / Line B1 /",
+        "title": "Exercise 1 / Lines B1-B4, G3, C4 /",
         "example_sentence": "",
         "lines": [
             {
-                "word": "Where's the hotel?",
-                "sentence": " Can you tell me where the hotel is?"
+                "word": "How many days are there in a year?",
+                "sentence": " There are three hundred and sixty-five."
             },
             {
-                "word": "Where's the drugstore?",
-                "sentence": " Can you tell me where the drugstore is?"
+                "word": "How many weeks are there in a year?",
+                "sentence": " There are fifty-two."
             },
             {
-                "word": "Where's the post office?",
-                "sentence": " Can you tell me where the post office is?"
+                "word": "How many months are there in a year?",
+                "sentence": " There are twelve."
             },
             {
-                "word": "Where's the police station?",
-                "sentence": " Can you tell me where the police station is?"
+                "word": "How many seasons are there in a year?",
+                "sentence": " There are four"
             },
             {
-                "word": "Where's the library?",
-                "sentence": " Can you tell me where the library is?"
+                "word": "How many months are there in a season?",
+                "sentence": " There are three."
             },
             {
-                "word": "Where's the center of town?",
-                "sentence": " Can you tell me where the center of town is?"
+                "word": "How many days are there in a week?",
+                "sentence": " There are seven"
+            },
+            {
+                "word": "How many days are there in June?",
+                "sentence": " There are thirty."
+            },
+            {
+                "word": "How many days are there in October?",
+                "sentence": " There are thirty-one."
+            },
+            {
+                "word": "How many years are there in a decade?",
+                "sentence": " There are ten"
+            },
+            {
+                "word": "How many years are there in a century?",
+                "sentence": " There are one hundred."
             }
         ]
     },
     {
-        "title": "Exercise 5 / Lines B2 and C4 /",
-        "example_sentence": "The hotel is in the next block.",
+        "title": "Exercise 2 / Line D 1 /",
+        "example_sentence": "Today is the first day of spring.",
         "lines": [
             {
-                "word": "on Main Street",
-                "sentence": " The hotel is on Main Street."
+                "word": "Yesterday",
+                "sentence": " Yesterday was the first day of spring"
             },
             {
-                "word": "near the police station",
-                "sentence": " The hotel is near the police station"
+                "word": "Tomorrow",
+                "sentence": " Tomorrow .will be the first day of spring."
             },
             {
-                "word": "across the street",
-                "sentence": " The hotel is across the street."
+                "word": "Last Friday",
+                "sentence": " Last Friday was the first day of spring."
             },
             {
-                "word": "three blocks away",
-                "sentence": " The hotel is three blocks away"
+                "word": "Next Thursday",
+                "sentence": " Next Thursday will be the first day of spring."
             },
             {
-                "word": "at the intersection",
-                "sentence": " The hotel is at the intersection"
-            },
-            {
-                "word": "by the post office",
-                "sentence": " The hotel is by the post office"
-            },
-            {
-                "word": "on Park Avenue",
-                "sentence": " The hotel is on Park Avenue"
+                "word": "This coming Monday",
+                "sentence": " This coming Monday will be the First day of spring."
             }
         ]
     },
     {
-        "title": "Exercise 6 / Line C1 /",
-        "example_sentence": "I want to go to the Beachside Hotel.",
+        "title": "Exercise 3J / Line D 1 /",
+        "example_sentence": "Today is the first day of spring.",
         "lines": [
             {
-                "word": "the Central Drugstore",
-                "sentence": " I want to go to the Central Drugstore."
+                "word": "summer",
+                "sentence": " Today is the first day of summer."
             },
             {
-                "word": "the Memorial Library",
-                "sentence": " I want to go to the Memorial Library."
+                "word": "winter",
+                "sentence": " Today is the first day of winter."
             },
             {
-                "word": "Penny's Department Store",
-                "sentence": " I want to go to Penny's Department Store."
+                "word": "September",
+                "sentence": " Today is the first day of September."
             },
             {
-                "word": "the Park Avenue Pharmacy",
-                "sentence": " I want to go to the Park Avenue Pharmacy."
+                "word": "the new year",
+                "sentence": " Today-is the first day of the new year."
             },
             {
-                "word": "the J. F. Kennedy Airport",
-                "sentence": " I want to go to the J. F. Kennedy Airport."
+                "word": "our summer vacation",
+                "sentence": " Today is the first day or our Summer vacation."
             }
         ]
     },
     {
-        "title": "Exercise 7 / Line D4 /",
-        "example_sentence": "The Royal Hotel is two blocks that way.",
+        "title": "Exercise 4 / Line D4 /",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "half a block",
-                "sentence": " The Royal Hotel is half a block that way."
+                "word": "When is winter over?",
+                "sentence": " It's over about March twenty-first."
             },
             {
-                "word": "several blocks",
-                "sentence": " The Royal Hotel is several blocks that way."
+                "word": "Are you glad then?",
+                "sentence": " I'm always glad when winter is over."
             },
             {
-                "word": "about ten blocks",
-                "sentence": " The Royal Hotel is about ten blocks that way."
+                "word": "When is spring over?",
+                "sentence": " It's over about June twenty-first."
             },
             {
-                "word": "some distance",
-                "sentence": " The Royal Hotel is some distance that way"
+                "word": "Are you sorry then?",
+                "sentence": " I'm always sorry when spring is over."
             },
             {
-                "word": "a five-minute walk",
-                "sentence": " The Royal Hotel is a five-minute walk that way"
+                "word": "When is summer over?",
+                "sentence": " It's over about September twenty-first."
+            },
+            {
+                "word": "Are you glad then?",
+                "sentence": " I'm always glad when summer is over."
+            },
+            {
+                "word": "When is fall over?",
+                "sentence": " It's over about December twenty-first."
+            },
+            {
+                "word": "Are you sorry then?",
+                "sentence": " I'm always sorry when fall is over."
             }
         ]
     },
     {
-        "title": "Exercise 8 / Line D4 /",
-        "example_sentence": "The Royal Hotel is two blocks that way.",
+        "title": "Exercise 5 / Line E1 /",
+        "example_sentence": "The weather is perfect today, isn't it?",
         "lines": [
             {
-                "word": "down the street",
-                "sentence": " The Royal Hotel is two blocks down the street."
+                "word": "terrible",
+                "sentence": " The weather is terrible today, isn't it?"
             },
             {
-                "word": "up the street",
-                "sentence": " The Royal Hotel is two blocks up the street."
+                "word": "wonderful",
+                "sentence": " The weather is wonderful today, isn't it?"
             },
             {
-                "word": "in that direction",
-                "sentence": " The Royal Hotel is two blocks in that direction"
+                "word": "awful",
+                "sentence": " The weather is awful today, isn't it?"
             },
             {
-                "word": "past the intersection",
-                "sentence": " The Royal Hotel is two blocks past the intersection"
+                "word": "unusual",
+                "sentence": " The weather is unusual today, isn't it?"
             },
             {
-                "word": "the other way",
-                "sentence": " The Royal Hotel is two blocks the other way."
-            },
-            {
-                "word": "north of here",
-                "sentence": " The Royal Hotel is two blocks north of here"
+                "word": "unusually nice",
+                "sentence": " The weather is unusually nice today, isn't it?"
             }
         ]
     },
     {
-        "title": "Exercise 9 / Line D4 /",
-        "example_sentence": "The Royal Hotel is two blocks that way.",
+        "title": "Exercise 6 / Line E1 /",
+        "example_sentence": "",
         "lines": [
             {
-                "word": "several blocks",
-                "sentence": " The Royal Hotel is several blocks that way"
+                "word": "Today is very warm, isn't it?",
+                "sentence": " Today isn't very warm, is it?"
             },
             {
-                "word": "up the street",
-                "sentence": " The Royal Hotel is several blocks up the street."
+                "word": "Today is very cold, isn't it?",
+                "sentence": " Today isn't very cold, is it?"
             },
             {
-                "word": "about ten blocks",
-                "sentence": " The Royal Hotel is about ten blocks up the street"
+                "word": "Today is very hot, isn't it?",
+                "sentence": " Today isn't very hot, is it?"
             },
             {
-                "word": "in that direction",
-                "sentence": " The Royal Hotel is about ten blocks in that direction."
+                "word": "Today is very cool, isn't it?",
+                "sentence": " Today isn't very cool, is it?"
             },
             {
-                "word": "a five-minute walk",
-                "sentence": " The Royal Hotel is a five-minute walk in that direction"
+                "word": "Today is very humid, isn't it?",
+                "sentence": " Today isn't very humid, is it?"
+            },
+            {
+                "word": "Today is very clear, isn't it?",
+                "sentence": " Today isn't very clear, is it?"
             }
         ]
     },
     {
-        "title": "Exercise 10 / Line E3 /",
-        "example_sentence": "Where's the Grand Hotel on this map?",
+        "title": "Exercise 7 / Line E3 /",
+        "example_sentence": "Most people like this season best of all, don't they?",
         "lines": [
             {
-                "word": "the Central Drugstore",
-                "sentence": " Where's the Central Drugstore on this map?"
+                "word": "A lot of people",
+                "sentence": " A lot of people like this season best of all, don't they?"
             },
             {
-                "word": "the Memorial Library",
-                "sentence": " Where's the Memorial Library on this map?"
+                "word": "Some people",
+                "sentence": " Some people like this season best of all, don't they?"
             },
             {
-                "word": "Main Street",
-                "sentence": " Where's Main Street on this map?"
+                "word": "A few people",
+                "sentence": " A few people like this season best of all, don't they?"
             },
             {
-                "word": "the Madison Motel",
-                "sentence": " Where's the' Madison Motel on this map?"
+                "word": "Few people Few",
+                "sentence": " people like this season best of all, do they?"
             },
             {
-                "word": "Greenwood Park",
-                "sentence": " Where's Greenwood Park on this map?"
+                "word": "Not many people",
+                "sentence": " Not many people like this season best of all, do they?"
             }
         ]
     }
