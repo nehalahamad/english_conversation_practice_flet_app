@@ -197,9 +197,10 @@ class MyApp:
         
         self.current_conversations_list = english_conversation_practice[self.selected_chapter]["conversations"]
         self.current_exercises_list = english_conversation_practice[self.selected_chapter]["exercises"]
-
-        self.current_conversation_exercise = 0
         self.conversation_exercise_list = self.get_conversation_exercise_list(self.current_conversations_list, self.current_exercises_list)
+        self.current_conversation_exercise = 0
+
+        self.pb = ft.ProgressBar(self.current_conversation_exercise)
 
         self.conversation_exercise_widget = ft.Container(
             height=480, 
@@ -233,7 +234,8 @@ class MyApp:
                     )
             )
         # ---------------------------------------------------------------------------------------
-
+        
+        self.page.add(self.pb)
         self.page.add(self.conversation_exercise_widget)
 
 
@@ -259,6 +261,7 @@ class MyApp:
         if self.current_conversation_exercise >= len(self.conversation_exercise_list):
             self.current_conversation_exercise = 0
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
+        self.pb.value = self.current_conversation_exercise / len(self.conversation_exercise_list)
         self.page.update()
 
     def get_prev(self, e):
@@ -267,6 +270,7 @@ class MyApp:
             self.current_conversation_exercise = len(self.conversation_exercise_list) - 1
         # self.conversation_exercise_widget.content=self.conversation_obj.display(        self.conversation_exercise_list[self.current_conversation_exercise])
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
+        self.pb.value = self.current_conversation_exercise / len(self.conversation_exercise_list)
         self.page.update() 
 
 
