@@ -278,6 +278,7 @@ class MyApp:
 
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
         self.appbar.title = ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15)
+        self.drawer.selected_index = self.selected_chapter
         self.page.update()
     
     def get_previous_chapter(self, e):
@@ -310,8 +311,6 @@ class MyApp:
 
     def handle_change(self, e):
         pass
-        # chapter = english_conversation_practice[e.control.selected_index]["chapter"]
-        # self.appbar.title = ft.Text(chapter, size=15)
 
 
     def get_conversation_exercise_list(self, conversations, exercises):
