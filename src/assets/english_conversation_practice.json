@@ -3983,7 +3983,11 @@
                     },
                     {
                         "word": "It's twenty after five.",
-                        "sentence": " Is it twenty after five?It's five twenty-five. Is it five twenty-five?"
+                        "sentence": " Is it twenty after five?"
+                    },
+                    {
+                        "word": "It's five twenty-five.",
+                        "sentence": "Is it five twenty-five?"
                     },
                     {
                         "word": "It's five thirty.",
@@ -4146,7 +4150,7 @@
                         "sentence": " Is there a clock in this room?"
                     },
                     {
-                        "word": "in the other foam",
+                        "word": "in the other room",
                         "sentence": " Is there a clock in the other room?"
                     },
                     {
@@ -6691,5 +6695,583 @@
             }
         ],
         "exercises": []
+    },
+    {
+        "chapter": "51. MORE ABOUT LETTERS / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Have you written to your brother yet?",
+                    "S2. Yes, but I haven't mailed the letter yet.",
+                    "S1. I went to the post office half an hour ago.",
+                    "S2. Why didn't you tell me?"
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Did your friend in San Francisco write to you?",
+                    "S2. Yes. I got a letter from her on Thursday.",
+                    "S1. What did she have to say?",
+                    "S2. She said the city was interesting and pretty."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Did you write a reply to Peter's letter?",
+                    "S2. Yes. I wrote one on Friday.",
+                    "S1. Did you mention his last letter to you?",
+                    "S2. Yes. I said I'd enjoyed his letter a lot."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. What are you writing?",
+                    "S2. I'm writing a thank-you note to the Smiths.",
+                    "S1. What are you doing that for?",
+                    "S2. I had dinner with them, and it's customary to write a thank you note."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. I wrote a letter to them applying for a job.",
+                    "S2. Was it hard to write your letter of application?",
+                    "S1. Yes. I wanted to sound modest but also mention my qualifications.",
+                    "S2. It's always hard to write about yourself."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "52. GETTING CHANGE/ CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Have you got any change?",
+                    "S2. What do you need?",
+                    "S1. I need a change for a quarter.",
+                    "S2. Here are two dimes and five pennies."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Can you change this five-dollar bill?",
+                    "S2. I'm sorry. I don't have change.",
+                    "S1. What Should I do?",
+                    "S2. Go to the cashier\u2019s desk."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Can you change this ten dollar bill?",
+                    "S2. How do you want it",
+                    "S1. A five and five one\u2019s please",
+                    "S2. Here you are"
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Do you have a change for dollar bill?",
+                    "S2. Just a minute and I\u2019ll see",
+                    "S1. I need some quarters.",
+                    "S2. Yes. I can change it give you two quarters."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. This is a Change machine.",
+                    "S2. Do you really get money from it?",
+                    "S1. Sure. Just put a fifty-cent piece in that slot.",
+                    "S2. It works! I've got quarter, two dimes, and a nickel."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Line D1 /",
+                "example_sentence": "Do you have change for a dime?",
+                "lines": [
+                    {
+                        "word": "a quarter",
+                        "sentence": " Do you have change for a quarter?"
+                    },
+                    {
+                        "word": "a half dollar",
+                        "sentence": " Do you have change for a half dollar?"
+                    },
+                    {
+                        "word": "a dollar",
+                        "sentence": " Do you have change for a dollar?"
+                    },
+                    {
+                        "word": "a five-dollar bill",
+                        "sentence": " Do you have change for a five-dollar bill?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Lines A1 and D 1 /",
+                "example_sentence": "Have you got change for a dime?",
+                "lines": [
+                    {
+                        "word": "a half dollar",
+                        "sentence": " Have you got change for a half dollar?"
+                    },
+                    {
+                        "word": "a quarter",
+                        "sentence": " Have you got change for a quarter?"
+                    },
+                    {
+                        "word": "a five-dollar bill",
+                        "sentence": " Have you got change for a five-dollar bill?"
+                    },
+                    {
+                        "word": "a fifty-cent piece",
+                        "sentence": " Have you got change for a fifty-cent piece?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Lines A1 and D1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Have you got change for a dime.",
+                        "sentence": " I wonder if you've got change for a dime"
+                    },
+                    {
+                        "word": "Have you got change for a quarter?",
+                        "sentence": " I wonder if you've got change for a quarter"
+                    },
+                    {
+                        "word": "Have you got change for a fifty cents",
+                        "sentence": " I wonder if you've got change for fifty cents."
+                    },
+                    {
+                        "word": "Have you got change for a five",
+                        "sentence": " I wonder if you've got change for a five."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Lines B1 and C1 /",
+                "example_sentence": "Can you change this dime?",
+                "lines": [
+                    {
+                        "word": "fifty-cent piece",
+                        "sentence": " Can you change this fifty-cent piece?"
+                    },
+                    {
+                        "word": "quarter",
+                        "sentence": " Can you change this quarter?"
+                    },
+                    {
+                        "word": "ten-dollar bill",
+                        "sentence": " Can you change this ten-dollar bill?"
+                    },
+                    {
+                        "word": "half dollar",
+                        "sentence": " Can you change this half dollar?"
+                    },
+                    {
+                        "word": "five-dollar bill",
+                        "sentence": " Can you change this five-dollar bill?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Lines A3 and A4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "I need change for a nickel.",
+                        "sentence": " Here are five pennies."
+                    },
+                    {
+                        "word": "I need change for a dime.",
+                        "sentence": " Here are ten pennies."
+                    },
+                    {
+                        "word": "I need change for a quarter.",
+                        "sentence": " Here are twenty-five pennies"
+                    },
+                    {
+                        "word": "I need change for a half dollar.",
+                        "sentence": " Here are fifty pennies."
+                    },
+                    {
+                        "word": "I need change for a dollar.",
+                        "sentence": " Here are one hundred pennies."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "53. AMERICAN MONEY AND PRICES / CONVERSATIONS",
+        "conversations": [],
+        "exercises": []
+    },
+    {
+        "chapter": "54. WHAT\u2019S IT LIKE OUTSIDE? / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Is it, raining now?",
+                    "S2. Yes. it is. It's raining very hard.",
+                    "S1. Does it rain very much in this area?",
+                    "S2. Yes It rains a lot in the spring and fall."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. How is the weather?",
+                    "S2. It's raining outside now.",
+                    "S1. Is it raining very hard?",
+                    "S2. No, it isn\u2019t. lt's just sprinkling."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. What's the weather like outside?",
+                    "S2. I think it's going to rain.",
+                    "S1. It was nice a few hours ago.",
+                    "S2. It was beautiful, wasn't it?"
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. How's the weather today?",
+                    "S2. It's quite cold and damp.",
+                    "S1. How are the winters here in general?",
+                    "S2. They're usually rather mild."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Is it raining outside now?",
+                    "S2. Yes, it is, and it's quite cold.",
+                    "S1. I think I'll stay home today.",
+                    "S2. I certainly wish I could too."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Line B2 /",
+                "example_sentence": "It's raining outside now.",
+                "lines": [
+                    {
+                        "word": "Sprinkling",
+                        "sentence": " It's sprinkling outside now."
+                    },
+                    {
+                        "word": "Snowing",
+                        "sentence": " It's snowing outside now."
+                    },
+                    {
+                        "word": "Hailing",
+                        "sentence": " It's hailing outside now."
+                    },
+                    {
+                        "word": "getting windy",
+                        "sentence": " It's getting windy outside now"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Lines A1 and B2 /",
+                "example_sentence": "It's raining now.",
+                "lines": [
+                    {
+                        "word": "Yesterday",
+                        "sentence": " It rained yesterday."
+                    },
+                    {
+                        "word": "Tomorrow",
+                        "sentence": " It's going to rain tomorrow"
+                    },
+                    {
+                        "word": "several times this week",
+                        "sentence": " It's rained several times this week."
+                    },
+                    {
+                        "word": "a great deal in this season",
+                        "sentence": " It rains a great deal in this season."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Lines A1 and B2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "It's raining now.",
+                        "sentence": " Is it raining now?"
+                    },
+                    {
+                        "word": "It rained yesterday.",
+                        "sentence": " Did it rain yesterday?"
+                    },
+                    {
+                        "word": "It's going to rain tomorrow.",
+                        "sentence": " Is it going to rain tomorrow?"
+                    },
+                    {
+                        "word": "It's rained many times this week.",
+                        "sentence": " Has it rained many times this Week?"
+                    },
+                    {
+                        "word": "It rains a great deal in this season",
+                        "sentence": " Does it rain a great deal in this season?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line D2 /",
+                "example_sentence": "It's quite cold and damp.",
+                "lines": [
+                    {
+                        "word": "cloudy and gray",
+                        "sentence": " It's quite cloudy and gray."
+                    },
+                    {
+                        "word": "windy and cold",
+                        "sentence": " It's quite windy and cold."
+                    },
+                    {
+                        "word": "warm and humid",
+                        "sentence": " It's quite warm and humid."
+                    },
+                    {
+                        "word": "hot and sticky",
+                        "sentence": " It's quite hot and sticky."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line D4 /",
+                "example_sentence": "The winters are usually rather mild here.",
+                "lines": [
+                    {
+                        "word": "generally",
+                        "sentence": " The winters are generally rather mild here."
+                    },
+                    {
+                        "word": "very wet",
+                        "sentence": " The winters are generally very wet here."
+                    },
+                    {
+                        "word": "the summers",
+                        "sentence": " The summers are generally very wet here."
+                    },
+                    {
+                        "word": "almost always",
+                        "sentence": " The summers are almost always very wet here."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "55. TALKING ABOUT THE WEATHER / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. It was hot yesterday.",
+                    "S2. But it's quite cool today.",
+                    "S1. Yes. I'm wearing sweater under my coat.",
+                    "S2. I'm going to put on a jacket."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. It's freezing today!",
+                    "S2. It's worse than yesterday.",
+                    "S1. How cold is it?",
+                    "S2. It's ten below."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. What cold weather this is!",
+                    "S2. It certainly is.",
+                    "S3. What's the temperature?",
+                    "S4. It's five above."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. You've seen a hurricane, haven't you?",
+                    "S2. Once, a long time ago.",
+                    "S1. Does it ever snow in your country?",
+                    "S2. Only a few times a year."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Do you like the weather in this part of the country?",
+                    "S2. Not really, but I'm adjusted to it now.",
+                    "S1. Is the weather different in your Country",
+                    "S2. Yes: It never gets as cold there as it does here."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Lines A1 and A2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "It was hot yesterday.",
+                        "sentence": " It was quite hot, wasn't it?"
+                    },
+                    {
+                        "word": "It was cold yesterday.",
+                        "sentence": " It was quite cold, wasn't .it?"
+                    },
+                    {
+                        "word": "It was warm yesterday.",
+                        "sentence": " It was quite warm, wasn't it"
+                    },
+                    {
+                        "word": "It was cool yesterday.",
+                        "sentence": " It was quite cool, wasn't it?"
+                    },
+                    {
+                        "word": "It was chilly yesterday.",
+                        "sentence": " It was quite chilly, wasn't it?"
+                    },
+                    {
+                        "word": "It was damp yesterday.",
+                        "sentence": " It was quite damp, wasn't it?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A4 /",
+                "example_sentence": "I'm going to put on a sweater.",
+                "lines": [
+                    {
+                        "word": "a wool shirt",
+                        "sentence": " I'm going to put on a wool shirt."
+                    },
+                    {
+                        "word": "a jacket",
+                        "sentence": " I'm going to put on a jacket."
+                    },
+                    {
+                        "word": "Gloves",
+                        "sentence": " I'm going to put on gloves."
+                    },
+                    {
+                        "word": "an overcoat",
+                        "sentence": " I'm going to put on an overcoat."
+                    },
+                    {
+                        "word": "overshoes",
+                        "sentence": " I'm going to put on overshoes."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Line B2 /",
+                "example_sentence": "It's worse than yesterday.",
+                "lines": [
+                    {
+                        "word": "bette",
+                        "sentence": " It's better than yesterday."
+                    },
+                    {
+                        "word": "hotter",
+                        "sentence": " It's hotter than yesterday."
+                    },
+                    {
+                        "word": "colder",
+                        "sentence": " It's colder than yesterday."
+                    },
+                    {
+                        "word": "Warmer",
+                        "sentence": " It's warmer than yesterday."
+                    },
+                    {
+                        "word": "cooler",
+                        "sentence": " It's cooler than yesterday"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line B2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "It's worse than yesterday.",
+                        "sentence": " It's the worst day in a long time"
+                    },
+                    {
+                        "word": "It's hotter than yesterday.",
+                        "sentence": " It\u2019s, the hottest day in a long time"
+                    },
+                    {
+                        "word": "It's colder than yesterday.",
+                        "sentence": " It's the coldest day in a long time."
+                    },
+                    {
+                        "word": "It's warmer than yesterday.",
+                        "sentence": " It's the warmest day in a long time."
+                    },
+                    {
+                        "word": "It's cooler than yesterday.",
+                        "sentence": " It's the coolest day in a long time."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line C1 /",
+                "example_sentence": "What cold weather this is!",
+                "lines": [
+                    {
+                        "word": "Humid",
+                        "sentence": " What humid weather this is!"
+                    },
+                    {
+                        "word": "Hot",
+                        "sentence": " What hot weather this is!"
+                    },
+                    {
+                        "word": "Cloudy",
+                        "sentence": " What cloudy weather this is!"
+                    },
+                    {
+                        "word": "Damp",
+                        "sentence": " What damp weather this is!"
+                    },
+                    {
+                        "word": "Sticky",
+                        "sentence": " What sticky weather this is!"
+                    }
+                ]
+            }
+        ]
     }
 ]

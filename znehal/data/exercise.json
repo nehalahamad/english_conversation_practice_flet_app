@@ -1,1 +1,136 @@
-[]
+[
+    {
+        "title": "Exercise 1 / Lines A1 and A2 /",
+        "example_sentence": "",
+        "lines": [
+            {
+                "word": "It was hot yesterday.",
+                "sentence": " It was quite hot, wasn't it?"
+            },
+            {
+                "word": "It was cold yesterday.",
+                "sentence": " It was quite cold, wasn't .it?"
+            },
+            {
+                "word": "It was warm yesterday.",
+                "sentence": " It was quite warm, wasn't it"
+            },
+            {
+                "word": "It was cool yesterday.",
+                "sentence": " It was quite cool, wasn't it?"
+            },
+            {
+                "word": "It was chilly yesterday.",
+                "sentence": " It was quite chilly, wasn't it?"
+            },
+            {
+                "word": "It was damp yesterday.",
+                "sentence": " It was quite damp, wasn't it?"
+            }
+        ]
+    },
+    {
+        "title": "Exercise 2 / Line A4 /",
+        "example_sentence": "I'm going to put on a sweater.",
+        "lines": [
+            {
+                "word": "a wool shirt",
+                "sentence": " I'm going to put on a wool shirt."
+            },
+            {
+                "word": "a jacket",
+                "sentence": " I'm going to put on a jacket."
+            },
+            {
+                "word": "Gloves",
+                "sentence": " I'm going to put on gloves."
+            },
+            {
+                "word": "an overcoat",
+                "sentence": " I'm going to put on an overcoat."
+            },
+            {
+                "word": "overshoes",
+                "sentence": " I'm going to put on overshoes."
+            }
+        ]
+    },
+    {
+        "title": "Exercise 3 / Line B2 /",
+        "example_sentence": "It's worse than yesterday.",
+        "lines": [
+            {
+                "word": "bette",
+                "sentence": " It's better than yesterday."
+            },
+            {
+                "word": "hotter",
+                "sentence": " It's hotter than yesterday."
+            },
+            {
+                "word": "colder",
+                "sentence": " It's colder than yesterday."
+            },
+            {
+                "word": "Warmer",
+                "sentence": " It's warmer than yesterday."
+            },
+            {
+                "word": "cooler",
+                "sentence": " It's cooler than yesterday"
+            }
+        ]
+    },
+    {
+        "title": "Exercise 4 / Line B2 /",
+        "example_sentence": "",
+        "lines": [
+            {
+                "word": "It's worse than yesterday.",
+                "sentence": " It's the worst day in a long time"
+            },
+            {
+                "word": "It's hotter than yesterday.",
+                "sentence": " It\u2019s, the hottest day in a long time"
+            },
+            {
+                "word": "It's colder than yesterday.",
+                "sentence": " It's the coldest day in a long time."
+            },
+            {
+                "word": "It's warmer than yesterday.",
+                "sentence": " It's the warmest day in a long time."
+            },
+            {
+                "word": "It's cooler than yesterday.",
+                "sentence": " It's the coolest day in a long time."
+            }
+        ]
+    },
+    {
+        "title": "Exercise 5 / Line C1 /",
+        "example_sentence": "What cold weather this is!",
+        "lines": [
+            {
+                "word": "Humid",
+                "sentence": " What humid weather this is!"
+            },
+            {
+                "word": "Hot",
+                "sentence": " What hot weather this is!"
+            },
+            {
+                "word": "Cloudy",
+                "sentence": " What cloudy weather this is!"
+            },
+            {
+                "word": "Damp",
+                "sentence": " What damp weather this is!"
+            },
+            {
+                "word": "Sticky",
+                "sentence": " What sticky weather this is!"
+            }
+        ]
+    }
+]

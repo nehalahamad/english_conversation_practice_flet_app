@@ -2617,7 +2617,11 @@ Conversation E
 S1. I wrote a letter to them applying for a job.
 S2. Was it hard to write your letter of application?
 S1. Yes. I wanted to sound modest but also mention my qualifications.
-S2. It's always hard to write about yourself.52. GETTING CHANGE/ CONVERSATIONS
+S2. It's always hard to write about yourself.
+
+
+
+52. GETTING CHANGE/ CONVERSATIONS
 Conversation A
 S1. Have you got any change?
 S2. What do you need?
@@ -2643,6 +2647,7 @@ S1. This is a Change machine.
 S2. Do you really get money from it?
 S1. Sure. Just put a fifty-cent piece in that slot.
 S2. It works! I've got quarter, two dimes, and a nickel.
+
 Exercise 1 / Line D1 /
 Do you have change for a dime?
 a quarter Do you have change for a quarter?
@@ -2654,7 +2659,8 @@ Have you got change for a dime?
 a half dollar Have you got change for a half dollar?
 a quarter Have you got change for a quarter?
 a five-dollar bill Have you got change for a five-dollar bill?
-a fifty-cent piece Have you got change for a fifty-cent piece?Exercise 3 / Lines A1 and D1 /
+a fifty-cent piece Have you got change for a fifty-cent piece?
+Exercise 3 / Lines A1 and D1 /
 Have you got change for a dime. I wonder if you've got change for a dime
 Have you got change for a quarter? I wonder if you've got change for a quarter
 Have you got change for a fifty cents I wonder if you've got change for fifty cents.
@@ -2670,9 +2676,14 @@ Exercise 5 / Lines A3 and A4 /
 I need change for a nickel. Here are five pennies.
 I need change for a dime. Here are ten pennies.
 I need change for a quarter. Here are twenty-five pennies
-I need change for a h2.lf dollar. Here are fifty pennies.
-I need change for a dollar. Here are one hundred pennies.53. AMERICAN MONEY AND PRICES /
-CONVERSATIONS
+I need change for a half dollar. Here are fifty pennies.
+I need change for a dollar. Here are one hundred pennies.
+
+
+
+
+
+53. AMERICAN MONEY AND PRICES / CONVERSATIONS
 Conversation Drill A
 S1. I understand the American money system well.
 S2. Then how many ( A ) are there in a ( B ) ?
@@ -2701,8 +2712,12 @@ a jar of jelly jelly is 36¢ a jar
 a can of tuna fish tuna is 85¢ a can
 a box of cookies cookies are 42¢ a box
 a pint of cream cream is 41¢ a pint
-a dozen eggs eggs are 87¢ a dozen54. WHAT’S IT LIKE OUTSIDE? /
-CONVERSATIONS
+a dozen eggs eggs are 87¢ a dozen
+
+
+
+
+54. WHAT’S IT LIKE OUTSIDE? / CONVERSATIONS
 Conversation A
 S1. Is it, raining now?
 S2. Yes. it is. It's raining very hard.
@@ -2728,6 +2743,7 @@ S1. Is it raining outside now?
 S2. Yes, it is, and it's quite cold.
 S1. I think I'll stay home today.
 S2. I certainly wish I could too.
+
 Exercise 1 / Line B2 /
 It's raining outside now.
 Sprinkling It's sprinkling outside now.
@@ -2735,7 +2751,8 @@ Snowing It's snowing outside now.
 Hailing It's hailing outside now.
 getting windy It's getting windy outside now
 Exercise 2 / Lines A1 and B2 /
-It's raining now.Yesterday It rained yesterday.
+It's raining now.
+Yesterday It rained yesterday.
 Tomorrow It's going to rain tomorrow
 several times this week It's rained several times this week.
 a great deal in this season It rains a great deal in this season.
@@ -2756,8 +2773,12 @@ The winters are usually rather mild here.
 generally The winters are generally rather mild here.
 very wet The winters are generally very wet here.
 the summers The summers are generally very wet here.
-almost always The summers are almost always very wet here.55. TALKING ABOUT THE
-WEATHER / CONVERSATIONS
+almost always The summers are almost always very wet here.
+
+
+
+
+55. TALKING ABOUT THE WEATHER / CONVERSATIONS
 Conversation A
 S1. It was hot yesterday.
 S2. But it's quite cool today.
@@ -2783,6 +2804,7 @@ S1. Do you like the weather in this part of the country?
 S2. Not really, but I'm adjusted to it now.
 S1. Is the weather different in your Country
 S2. Yes: It never gets as cold there as it does here.
+
 Exercise 1 / Lines A1 and A2 /
 It was hot yesterday. It was quite hot, wasn't it?
 It was cold yesterday. It was quite cold, wasn't .it?
@@ -2791,7 +2813,8 @@ It was cool yesterday. It was quite cool, wasn't it?
 It was chilly yesterday. It was quite chilly, wasn't it?
 It was damp yesterday. It was quite damp, wasn't it?
 Exercise 2 / Line A4 /
-I'm going to put on a sweater.a wool shirt I'm going to put on a wool shirt.
+I'm going to put on a sweater.
+a wool shirt I'm going to put on a wool shirt.
 a jacket I'm going to put on a jacket.
 Gloves I'm going to put on gloves.
 an overcoat I'm going to put on an overcoat.
@@ -2816,6 +2839,11 @@ Hot What hot weather this is!
 Cloudy What cloudy weather this is!
 Damp What damp weather this is!
 Sticky What sticky weather this is!
+
+
+
+
+
 56. WEATHER CONDITIONS /
 CONVERSATIONS
 Exercise 1 / Line A1 /It's a nice day, isn't it?

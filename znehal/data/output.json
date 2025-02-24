@@ -1,53 +1,188 @@
 [
     {
-        "chapter": "50. SENDING AND RECEIVING LETTERS / CONVERSATIONS",
+        "chapter": "55. TALKING ABOUT THE WEATHER / CONVERSATIONS",
         "conversations": [
             {
                 "title": "Conversation A",
                 "lines": [
-                    "S1. Are you writing a letter?",
-                    "S2. Yes. I'm to my family.",
-                    "S1. Do you write letters very often?",
-                    "S2. Yes. I write five or six letters a week."
+                    "S1. It was hot yesterday.",
+                    "S2. But it's quite cool today.",
+                    "S1. Yes. I'm wearing sweater under my coat.",
+                    "S2. I'm going to put on a jacket."
                 ]
             },
             {
                 "title": "Conversation B",
                 "lines": [
-                    "S1. Do You write letters very often",
-                    "S2. No. I hate to write letters.",
-                    "S1. It takes a lot of time.",
-                    "S2. It sure does."
+                    "S1. It's freezing today!",
+                    "S2. It's worse than yesterday.",
+                    "S1. How cold is it?",
+                    "S2. It's ten below."
                 ]
             },
             {
                 "title": "Conversation C",
                 "lines": [
-                    "S1. Did Robert get a letter?",
-                    "S2. He got one yesterday.",
-                    "S1. Does he get many letters?",
-                    "S2. Yes. He gets some every day."
+                    "S1. What cold weather this is!",
+                    "S2. It certainly is.",
+                    "S3. What's the temperature?",
+                    "S4. It's five above."
                 ]
             },
             {
                 "title": "Conversation D",
                 "lines": [
-                    "S1. Charles wrote me a long letter.",
-                    "S2. When did he write to you?",
-                    "S1. He sent the letter to me about a week ago.",
-                    "S2. He hasn't even sent me a postcard yet!"
+                    "S1. You've seen a hurricane, haven't you?",
+                    "S2. Once, a long time ago.",
+                    "S1. Does it ever snow in your country?",
+                    "S2. Only a few times a year."
                 ]
             },
             {
                 "title": "Conversation E",
                 "lines": [
-                    "S1. We wrote to Mary's sister last week.",
-                    "S2. Has she written you yet?",
-                    "S1. No, she hasn't.",
-                    "S2. She wrote me a few days ago."
+                    "S1. Do you like the weather in this part of the country?",
+                    "S2. Not really, but I'm adjusted to it now.",
+                    "S1. Is the weather different in your Country",
+                    "S2. Yes: It never gets as cold there as it does here."
                 ]
             }
         ],
-        "exercises": []
+        "exercises": [
+            {
+                "title": "Exercise 1 / Lines A1 and A2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "It was hot yesterday.",
+                        "sentence": " It was quite hot, wasn't it?"
+                    },
+                    {
+                        "word": "It was cold yesterday.",
+                        "sentence": " It was quite cold, wasn't .it?"
+                    },
+                    {
+                        "word": "It was warm yesterday.",
+                        "sentence": " It was quite warm, wasn't it"
+                    },
+                    {
+                        "word": "It was cool yesterday.",
+                        "sentence": " It was quite cool, wasn't it?"
+                    },
+                    {
+                        "word": "It was chilly yesterday.",
+                        "sentence": " It was quite chilly, wasn't it?"
+                    },
+                    {
+                        "word": "It was damp yesterday.",
+                        "sentence": " It was quite damp, wasn't it?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A4 /",
+                "example_sentence": "I'm going to put on a sweater.",
+                "lines": [
+                    {
+                        "word": "a wool shirt",
+                        "sentence": " I'm going to put on a wool shirt."
+                    },
+                    {
+                        "word": "a jacket",
+                        "sentence": " I'm going to put on a jacket."
+                    },
+                    {
+                        "word": "Gloves",
+                        "sentence": " I'm going to put on gloves."
+                    },
+                    {
+                        "word": "an overcoat",
+                        "sentence": " I'm going to put on an overcoat."
+                    },
+                    {
+                        "word": "overshoes",
+                        "sentence": " I'm going to put on overshoes."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Line B2 /",
+                "example_sentence": "It's worse than yesterday.",
+                "lines": [
+                    {
+                        "word": "bette",
+                        "sentence": " It's better than yesterday."
+                    },
+                    {
+                        "word": "hotter",
+                        "sentence": " It's hotter than yesterday."
+                    },
+                    {
+                        "word": "colder",
+                        "sentence": " It's colder than yesterday."
+                    },
+                    {
+                        "word": "Warmer",
+                        "sentence": " It's warmer than yesterday."
+                    },
+                    {
+                        "word": "cooler",
+                        "sentence": " It's cooler than yesterday"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line B2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "It's worse than yesterday.",
+                        "sentence": " It's the worst day in a long time"
+                    },
+                    {
+                        "word": "It's hotter than yesterday.",
+                        "sentence": " It\u2019s, the hottest day in a long time"
+                    },
+                    {
+                        "word": "It's colder than yesterday.",
+                        "sentence": " It's the coldest day in a long time."
+                    },
+                    {
+                        "word": "It's warmer than yesterday.",
+                        "sentence": " It's the warmest day in a long time."
+                    },
+                    {
+                        "word": "It's cooler than yesterday.",
+                        "sentence": " It's the coolest day in a long time."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line C1 /",
+                "example_sentence": "What cold weather this is!",
+                "lines": [
+                    {
+                        "word": "Humid",
+                        "sentence": " What humid weather this is!"
+                    },
+                    {
+                        "word": "Hot",
+                        "sentence": " What hot weather this is!"
+                    },
+                    {
+                        "word": "Cloudy",
+                        "sentence": " What cloudy weather this is!"
+                    },
+                    {
+                        "word": "Damp",
+                        "sentence": " What damp weather this is!"
+                    },
+                    {
+                        "word": "Sticky",
+                        "sentence": " What sticky weather this is!"
+                    }
+                ]
+            }
+        ]
     }
 ]
