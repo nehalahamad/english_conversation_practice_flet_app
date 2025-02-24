@@ -2,46 +2,46 @@
     {
         "title": "Conversation A",
         "lines": [
-            "S1. Do you wish some assistance?",
-            "S2. Yes. How much is that pen?",
-            "S1. This one or that one?",
-            "S2. The one next to the black one."
+            "S1. Are you writing a letter?",
+            "S2. Yes. I'm to my family.",
+            "S1. Do you write letters very often?",
+            "S2. Yes. I write five or six letters a week."
         ]
     },
     {
         "title": "Conversation B",
         "lines": [
-            "S1. May I help you?",
-            "S2. Yes. I'd like to look at pens.",
-            "S1. Certainly. Fountain pens or ball-point pens?",
-            "S2. I'm looking for a good fountain pen."
+            "S1. Do You write letters very often",
+            "S2. No. I hate to write letters.",
+            "S1. It takes a lot of time.",
+            "S2. It sure does."
         ]
     },
     {
         "title": "Conversation C",
         "lines": [
-            "S1. Could you help me, please?",
-            "S2. What can I do for you?",
-            "S1. Could I look at the wristwatch in this case?",
-            "S2. Just one moment, please, while I get the key."
+            "S1. Did Robert get a letter?",
+            "S2. He got one yesterday.",
+            "S1. Does he get many letters?",
+            "S2. Yes. He gets some every day."
         ]
     },
     {
         "title": "Conversation D",
         "lines": [
-            "S1. Hello. Are you waited on?",
-            "S2. No. I'd like a ream of typing paper, please.",
-            "S1. Will there be anything else?",
-            "S2. No. I believe that's all, thank you."
+            "S1. Charles wrote me a long letter.",
+            "S2. When did he write to you?",
+            "S1. He sent the letter to me about a week ago.",
+            "S2. He hasn't even sent me a postcard yet!"
         ]
     },
     {
         "title": "Conversation E",
         "lines": [
-            "S1. Is someone helping you?",
-            "S2. I beg your pardon?",
-            "S1. Could I help you with anything?",
-            "S2. No, thanks. Someone is already waiting on me."
+            "S1. We wrote to Mary's sister last week.",
+            "S2. Has she written you yet?",
+            "S1. No, she hasn't.",
+            "S2. She wrote me a few days ago."
         ]
     }
 ]

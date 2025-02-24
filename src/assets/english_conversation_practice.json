@@ -5379,5 +5379,1317 @@
                 ]
             }
         ]
+    },
+    {
+        "chapter": "36. GOING SHOPPING / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. What store did you go to yesterday?",
+                    "S2. I went to the Central Department Store.",
+                    "S1. Do they have a good variety of things to choose from?",
+                    "S2. They have lots to choose from, but it's all very expensive."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. What were you doing at that department store?",
+                    "S2. I was shopping for a new suitcase.",
+                    "S1. What was your friend doing there?",
+                    "S2. She was trying to find a coat."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. I have to go shopping.",
+                    "S2. Do you know what you're going to buy?",
+                    "S1. Not yet, but I hope to after shopping.",
+                    "S2. J hate to go shopping, but I guess it's necessary."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. What time do the stores close?",
+                    "S2. Most of them close at six o'clock.",
+                    "S1. Do we still have time to go shopping?",
+                    "S2. Yes. It's only four fifteen now."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. It seems I always have to buy a lot of things.",
+                    "S2. It always seems that way to me too.",
+                    "S1. I always need so many little things.",
+                    "S2. They add up to a lot of money, don't they?"
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "37. TALKING ABOUT SHOPPING / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Where do you do your shopping?",
+                    "S2. I usually start at the Central Department Store.",
+                    "S1. What do you think of their selection?",
+                    "S2. They have a good selection, and their prices are low, too."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. They're having a big sale at the Greenfield Shopping Center.",
+                    "S2. Anything in particular on sale?",
+                    "S1. Well, they advertised linens and house furnishings.",
+                    "S2. I suppose there'll be crowds or people in the store."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. I spent the afternoon shopping for clothes.",
+                    "S2. How did you make out?",
+                    "S1. Well, I found an excellent raincoat, and I bought some shoes.",
+                    "S2. That reminds me that I have to go shopping soon."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Where did you buy your coat?",
+                    "S2. I bought it at the Fifth Avenue Store-but a long time ago.",
+                    "S1. About how much did it cost?",
+                    "S2. At the moment, I've forgotten how much it cost."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Why did you choose the green one?",
+                    "S2. To ten the truth, I really didn't have much choice in my size.",
+                    "S1. Excuse my asking, but how much did you pay for it?",
+                    "S2. It was on sale, and I paid only forty-five dollars."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "38. SHOPPING FOR CLOTHES / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. What would you like to see?",
+                    "S2. 1'd like to see your overcoats, please.",
+                    "S1. What kind of overcoats would you like to see?",
+                    "S2. 1'd like to see your winter overcoats-probably wool."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. 1'd like to look at your sweaters, if I could.",
+                    "S2. Certainly. Any particular style?",
+                    "S1. Could I see some of the new styles, please?",
+                    "S2. Of course. Please step right this way."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. I'm interested in seeing your summer suits.",
+                    "S2. What color did you have in mind?",
+                    "S1. White, or some light color, I think",
+                    "S2. Step over to this other-room with me, would you please?"
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. That jacket you have on now seems to fit you very well.",
+                    "S2. What kind of material is this?",
+                    "S1. It's a mixture-cotton and wool.",
+                    "S2. I'm not sure it's heavy enough for the fall weather."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Here's a very popular kind of sport coat-the most recent thing.",
+                    "S2. I notice there isn't much padding in the shoulders.",
+                    "S1. No. It has a natural shoulder line.",
+                    "S2. I like the narrow lapels and the stitching on them."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "39. ASKING ABOUT PRICES / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. How much does this pen cost?",
+                    "S2. I beg your pardon.",
+                    "S3. How much is this pen cost?",
+                    "S4. It's four dollars and fifty cents."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. How much is this leather billfold?",
+                    "S2. It\u2019s five twenty-five",
+                    "S3. Does that include the tax?",
+                    "S4. It\u2019s five forty four including tax."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. This briefcase costs five fifty.",
+                    "S2. That's fine. I'll take it.",
+                    "S1. Will there be anything else?",
+                    "S2. I don't believe so; thank you."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. We're having a sale on leather goods today",
+                    "S2. Are office supplies on sale too?",
+                    "S3. Yes. Prices have been reduced from 20 to 40 percent.",
+                    "S4. I notice the sale prices are marked in red ink."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. How much are these things all together?",
+                    "S2. Let\u2019s see. That\u2019ll be twenty-one fifty.",
+                    "S1. I\u2019d like to change them to my account, please.",
+                    "S2. Fine. Could you give me your name & address"
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Lines A1, B1, C1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "How much does this pen cost?",
+                        "sentence": " It cost two dollars."
+                    },
+                    {
+                        "word": "How much do these-bookends cost?",
+                        "sentence": " They cost two dollars"
+                    },
+                    {
+                        "word": "How much does that notebook cost?",
+                        "sentence": " It costs two dollars."
+                    },
+                    {
+                        "word": "How much do those brushes cost?",
+                        "sentence": " They cost two dollars"
+                    },
+                    {
+                        "word": "How much does this stationery cost?",
+                        "sentence": " It costs two dollars."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Lines A4, B4, C1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "It's four fifty-nine.",
+                        "sentence": " It costs four dollars and fifty-nine cents."
+                    },
+                    {
+                        "word": "They're two fifty.",
+                        "sentence": " They cost two dollars and fifty cents."
+                    },
+                    {
+                        "word": "It's seven eighty-five.",
+                        "sentence": " It costs seven dollars and eighty-five cents."
+                    },
+                    {
+                        "word": "They're nine sixty-seven.",
+                        "sentence": " They cost nine dollars and sixty-seven cents."
+                    },
+                    {
+                        "word": "They're twelve seventy.",
+                        "sentence": " They cost twelve dollars and seventy cents."
+                    },
+                    {
+                        "word": "It's twenty-five fifty.",
+                        "sentence": " It costs twenty-five dollars and fifty cents."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Lines A4, B4, C1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "What's ten fifty plus forty-nine?",
+                        "sentence": " It's ten ninety-nine."
+                    },
+                    {
+                        "word": "What's two seventy-five plus ten?",
+                        "sentence": " It's two eighty-five."
+                    },
+                    {
+                        "word": "What's six thirty-nine plus twenty?",
+                        "sentence": " It's six fifty-nine."
+                    },
+                    {
+                        "word": "What's three eighty plus eighteen?",
+                        "sentence": " It's three ninety-eight."
+                    },
+                    {
+                        "word": "What's sixty-nine plus eight?",
+                        "sentence": " It's seventy seven."
+                    },
+                    {
+                        "word": "What's one twenty plus eight twenty?",
+                        "sentence": " It's nine forty."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line D 1 /",
+                "example_sentence": "We're having a sale on leather goods today.",
+                "lines": [
+                    {
+                        "word": "summer clothing",
+                        "sentence": " We're having a sale on summer clothing today."
+                    },
+                    {
+                        "word": "home furniture",
+                        "sentence": " We're having a sale on home furniture today."
+                    },
+                    {
+                        "word": "kitchen items",
+                        "sentence": " We're having a sale on kitchen items today."
+                    },
+                    {
+                        "word": "household supplies",
+                        "sentence": " We're having a sale on household supplies today."
+                    },
+                    {
+                        "word": "dinnerware",
+                        "sentence": " We're having a sale on dinnerware today."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "40. HOW MUCH DOES IT COST / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. How much are your potatoes, sir?",
+                    "S2. Twenty-five cents a pound.",
+                    "S1. How much would five pounds cost?",
+                    "S2. Five pounds would be a dollar and a quarter."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. What does that gold pin cost?",
+                    "S2. It's twenty-one dollars plus tax.",
+                    "S1. How much for the small one next to it?",
+                    "S2. That one costs twelve fifty."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. What's the regular price for that refrigerator?",
+                    "S2. The list price is two hundred forty.",
+                    "S1. Are you selling it at a discount?",
+                    "S2. Yes. The discount price is one ninety-nine."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. What are you asking for that antique mirror?",
+                    "S2. That's one hundred fifty dollars.",
+                    "S1. Isn't that rather expensive?",
+                    "S2. Not really. Mirrors of that type are quite rare."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. What would it cost to have this chair repaired?",
+                    "S2. I\u2019d estimate sixty to seventy dollars",
+                    "S3. How much would it cost to replace it with a new one?",
+                    "S2. Probably around a hundred dollars."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "41. MONEY PROBLEMS / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Can you come along with us tomorrow?",
+                    "S2. I think I can borrow enough money to go.",
+                    "S1. Why couldn't you go last Thursday?",
+                    "S2. Because I couldn't afford it."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. How much money do you have?",
+                    "S2. Not very much.",
+                    "S1. Do you have many dollar bills?",
+                    "S2. Not very many, I'm afraid."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. You look upset about something.",
+                    "S2. I think I've lost my money.",
+                    "S1. Oh, that's what's bothering you.",
+                    "S2. It's a good reason to be upset, isn't it?"
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Are you sure you lost your money?",
+                    "S2. I'm sure did.",
+                    "S1. Would you please look again?",
+                    "S2. I will, but I'm sure it's not here."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. How many pennies did you have in your bank?",
+                    "S2. I had exactly five hundred of them.",
+                    "S1. What did you do with them?",
+                    "S2. I put them in rolls of fifty pennies each."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "42. TALKING ABOUT MONEY / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Have you made very much money this year?",
+                    "S2. Not an awful lot.",
+                    "S1. How hard have you tried?",
+                    "S2. Not as hard as I could have, I'm afraid."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. How much did you make this week?",
+                    "S2. Sixty two dollars",
+                    "S1. Is that your take-home pay?",
+                    "S2. Yes, it is."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1 . I've got to pay a lot of bills.",
+                    "S2 And I've got to pay my rent today.",
+                    "S1. Money goes very fast these days, doesn't it?",
+                    "S2. It certainly does."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Did you sell your car.?",
+                    "S2. Yes. I sold it my Friend Bob.",
+                    "S1. Did you put the money in the bank?",
+                    "S2. I deposited part of it and spent the rest."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Do you have an account at that bank?",
+                    "S2. I\u2019ve got a special checking account",
+                    "S1. How much do you have to keep in the account?",
+                    "S2. There's no minimum."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "43. LENDING AND BORROWING MONEY / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Could you lend me a dollar until tomorrow?",
+                    "S2. I can if you have change for a five",
+                    "S1. I wish I did, but I don't",
+                    "S2. Well, we can get it changed easily."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. I need about ten dollars.",
+                    "S2. What do you need it for?",
+                    "S3. I need it for books and supplies.",
+                    "S2. O.K. I\u2019ll end it to you."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Could I borrow some money from you for a few days?",
+                    "S2. How much do you need? .",
+                    "S1. Could you spare four or five dollars?",
+                    "S2. Yes, but I'll need the money myself before next week."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1.What did you need the money for yesterday?",
+                    "S2. I wanted it for a new suit.",
+                    "S1. Did you get the money?",
+                    "S2. Yes. I borrowed it from a friend."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. How much change have you got?",
+                    "S2. Two quarters, two nickels, and a dime.",
+                    "S1. That's not enough to change this dollar bill.",
+                    "S2. I'll lend you all of this change if you want lt."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "44. AT THE POST OFFICE / CONVERSATIONS",
+        "conversations": [],
+        "exercises": []
+    },
+    {
+        "chapter": "45. AT THE GROCERY STORE / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. How much are the potatoes?",
+                    "S2. I beg your pardon.",
+                    "S1. How much do the potatoes cost?",
+                    "S2. Fifteen cents a pound."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. I'd like a bag of onions and a jar of olives.",
+                    "S2. Do you need fruit-apples, lemons, plums?",
+                    "S1. Perhaps a box of cherries and a bunch of grapes.",
+                    "S2. I'll put all this in a box with your other groceries."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. I forgot to buy some rice.",
+                    "S2. How much do you want?",
+                    "S1. Would you please get me two pounds?",
+                    "S2. All right. A two-pound bag."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Don't you need milk or cream?",
+                    "S2. Yes. Let's get a pint of cream and two quarts of mille",
+                    "S1. We can get a two-quart container.",
+                    "S2. Let's get some sour cream too."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Please give me two bottles of milk.",
+                    "S2. All of our milk is in cartons.",
+                    "S1. Cartons are all right, but I prefer bottles.",
+                    "S2. Cartons are more convenient, and there's a deposit on bottles."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "46. SHOPPING FOR GROCERIES / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. What do you call a big grocery store like this?",
+                    "S2. It's called a \"supermarket\"",
+                    "S1. It's convenient to see everything and pick out what you want.",
+                    "S2. Having these carts to put things in is convenient too."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. How about fish tonight-salmon, tuna fish, trout?",
+                    "S2. I notice the clams and oysters are fresh today.",
+                    "S1. That sounds very good.",
+                    "S2. Let's also get a pork roast or turkey for tomorrow."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Now we have sugar, salt, pepper, and flour.",
+                    "S2. We also need mustard, vinegar, and cinnamon.",
+                    "S1. I'll get those while you get the cabbage and celery.",
+                    "S2. Fine. I'll meet you at the check-out counter."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Would you please get me a bag of sugar?",
+                    "S2. Do you want two or five pounds?",
+                    "S1. A two-pound bag will be all right.",
+                    "S2. O.K. I'll meet you at the canned-food counter."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. How many eggs should we get?",
+                    "S2. Two dozen should be enough.",
+                    "S1. How much butter do you think we need?",
+                    "S2. One pound is enough, don't you think?"
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "47. IDENTIFYING PEOPLE / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Are you Dr. Taylor?",
+                    "S2. No. That tall fellow is Dr. Taylor.",
+                    "S1. Do you mean the one over there with glasses?",
+                    "S2. Yes. The one with brown hair."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Who's that very handsome man?",
+                    "S2. What did you say?",
+                    "S1. Do you know who that man over there is?",
+                    "S2. If you mean the thin, rather dark man, that's Mr. Walker."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Do you recognize the girl talking to Mr. Brown?",
+                    "S2. Of course I know the girl he's talking to.",
+                    "S1. Well then, whom is he talking to?",
+                    "S2. That's Dorothy Jones, Mary's good friend."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. What's that man's name-the man that's holding the briefcase?",
+                    "S2. I know, but I can't remember it right now.",
+                    "S1. Where does he come from-Greece or Turkey perhaps?",
+                    "S2. One of the two, I think."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. Do you know the man over there by the door?",
+                    "S2. I do, but I can't remember his name at the moment.",
+                    "S1. Isn't he a famous musician?",
+                    "S2. He's either a musician or a painter."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 / Line A1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Are you Mrs. Brown?",
+                        "sentence": " No, I'm not. I'm not Mrs. Brown."
+                    },
+                    {
+                        "word": "Are you a teacher?",
+                        "sentence": " No, I'm not. I'm not a teacher."
+                    },
+                    {
+                        "word": "Are you lawyers?",
+                        "sentence": " No, we aren't. We aren't lawyers."
+                    },
+                    {
+                        "word": "Are you doctors?",
+                        "sentence": " No, we aren't. We aren't doctors."
+                    },
+                    {
+                        "word": "Are you an artist?",
+                        "sentence": " No, I'm not. I'm not an artist."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Line A2 /",
+                "example_sentence": "That tall fellow. is Mr. Taylor.",
+                "lines": [
+                    {
+                        "word": "short",
+                        "sentence": " That short fellow is Mr. Taylor."
+                    },
+                    {
+                        "word": "with brown hair",
+                        "sentence": " That short fellow with brown hair is Mr. Taylor."
+                    },
+                    {
+                        "word": "gray",
+                        "sentence": " That short fellow with gray hair is Mr. Taylor."
+                    },
+                    {
+                        "word": "thin fellow",
+                        "sentence": " That thin fellow with gray hair is Mr. Taylor."
+                    },
+                    {
+                        "word": "That fellow with glasses",
+                        "sentence": " That fellow with glasses is Mr. Taylor."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Lines B2 and B3 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Who's that man?",
+                        "sentence": " Do you know who that man is?"
+                    },
+                    {
+                        "word": "Who are those men?",
+                        "sentence": " Do you know who those men are?"
+                    },
+                    {
+                        "word": "Who's that woman?",
+                        "sentence": " Do you know who that woman is?"
+                    },
+                    {
+                        "word": "Who are those women?",
+                        "sentence": " Do you know who those women are?"
+                    },
+                    {
+                        "word": "Who's that thin fellow?",
+                        "sentence": " Do you know who that thin fellow is?"
+                    },
+                    {
+                        "word": "Who are those two girls?",
+                        "sentence": " Do you know who those two girls are?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Line C1 /",
+                "example_sentence": "Do you recognize the girl talking to Mr. Brown?",
+                "lines": [
+                    {
+                        "word": "standing by the door",
+                        "sentence": " Do you recognize the girl standing by the door? ."
+                    },
+                    {
+                        "word": "walking across the room",
+                        "sentence": " Do you recognize the girl walking across the room?"
+                    },
+                    {
+                        "word": "carrying the blue purse",
+                        "sentence": " Do you recognize the girl carrying the blue purse?"
+                    },
+                    {
+                        "word": "wearing the yellow dress",
+                        "sentence": " Do you recognize the girl wearing the yellow dress?"
+                    },
+                    {
+                        "word": "shaking hands with Mr. Brown",
+                        "sentence": " Do you recognize the girl shaking hands with Mr. Brown?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5/ Line C2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "He's talking to a girl.",
+                        "sentence": " I know the girl he's talking to."
+                    },
+                    {
+                        "word": "He's looking at a girl.",
+                        "sentence": " I know the girl he's looking at."
+                    },
+                    {
+                        "word": "He's speaking about a girl.",
+                        "sentence": " I know the girl he's speaking about"
+                    },
+                    {
+                        "word": "He's standing beside a girl.",
+                        "sentence": " I know the girl he's standing beside."
+                    },
+                    {
+                        "word": "He's leaving with a girl.",
+                        "sentence": " I know the girl he's leaving with."
+                    },
+                    {
+                        "word": "He's listening to a girl.",
+                        "sentence": " I know the girl he's listening to."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line C3 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "He's talking to a girl.",
+                        "sentence": " Whom is he talking to?"
+                    },
+                    {
+                        "word": "He's listening to a girl.",
+                        "sentence": " Whom is he listening to?"
+                    },
+                    {
+                        "word": "He's looking at a girl.",
+                        "sentence": " Whom is he looking at?"
+                    },
+                    {
+                        "word": "He's standing beside a girl.",
+                        "sentence": " Whom is he standing beside?"
+                    },
+                    {
+                        "word": "He's speaking about a girl.",
+                        "sentence": " Whom is he speaking about?"
+                    },
+                    {
+                        "word": "He's leaving with a girl.",
+                        "sentence": " Whom is he leaving with?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Line C3 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Whom is he speaking about?",
+                        "sentence": " Do you know whom he's speaking about?"
+                    },
+                    {
+                        "word": "Whom is he leaving with?",
+                        "sentence": " Do you know whom he's leaving with?"
+                    },
+                    {
+                        "word": "Whom is he looking at?",
+                        "sentence": " Do you know whom he's looking at?"
+                    },
+                    {
+                        "word": "Whom is he listening to?",
+                        "sentence": " Do you know whom he's listening to?"
+                    },
+                    {
+                        "word": "Whom is he standing beside?",
+                        "sentence": " Do you know whom he's standing beside?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Lines E3 and E4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "He plays music for people.",
+                        "sentence": " He's a musician"
+                    },
+                    {
+                        "word": "He types things.",
+                        "sentence": " He's a typist."
+                    },
+                    {
+                        "word": "He runs a farm.",
+                        "sentence": " He's a farmer."
+                    },
+                    {
+                        "word": "He instructs students.",
+                        "sentence": " He's an instructor"
+                    },
+                    {
+                        "word": "He takes photographs.",
+                        "sentence": " He's a photographer."
+                    },
+                    {
+                        "word": "He sings songs professionally.",
+                        "sentence": " He's a professional singer."
+                    },
+                    {
+                        "word": "He translates things.",
+                        "sentence": " He's a translator"
+                    },
+                    {
+                        "word": "He collects stamps.",
+                        "sentence": " He's a stamp collector"
+                    },
+                    {
+                        "word": "He organizes groups for the union.",
+                        "sentence": " He's a union organizer."
+                    },
+                    {
+                        "word": "He analyzes legal matters.",
+                        "sentence": " He's a legal analyst."
+                    },
+                    {
+                        "word": "He supervises factory workers.",
+                        "sentence": " He's a factory supervisor."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "48. IMMEDIATE FAMILY AND RELATIVES/ CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. How old is your son?",
+                    "S2. He's seventeen years old.",
+                    "S1. Is your daughter older or younger than your son?",
+                    "S2. Younger. She's only fifteen."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Have you got many relatives here?",
+                    "S2. Yes. An aunt and an uncle and four grandparents.",
+                    "S1. Do your aunt and uncle have children?",
+                    "S2. Yes. I have three cousins-two boys and a girl."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Do you have a picture of your family?",
+                    "S2. Yes, I've got one right here.",
+                    "S1. You have a very nice family. Thank you.",
+                    "S2. Thank you."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Jim looks like his father.",
+                    "S2. Do you and your father look alike?",
+                    "S1. There's a little resemblance but not much.",
+                    "S2. I don't look like anyone at all in my family."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. How's your family?",
+                    "S2. They're all fine, thanks.",
+                    "S1. Are your niece and nephew still here?",
+                    "S2. Yes, they are. They're still visiting me."
+                ]
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "chapter": "49. IDENTIFYING THINGS / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Which house is your house?",
+                    "S2. Ours is the last one on the block.",
+                    "S1. Is yours the red one or the blue one?",
+                    "S2. The blue one on the right side of the street."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. What's the name of that book John referred to?",
+                    "S2. It's slipped my mind for the moment.",
+                    "S1. Who did he say was the author?",
+                    "S2. Some man whose name starts with an m."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Which one of these are you going to choose?",
+                    "S2. I like the red one with the blue stripes.",
+                    "S1. The one over there with black edges is nice too.",
+                    "S2. But the one we looked at first may be the best choice."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. The car over there by the streetlight is John's.",
+                    "S2. Which one do you mean-the old one or the new red one?",
+                    "S1. Neither. I mean the streetlight on your left.",
+                    "S2. Oh. Then the one with the convertible top must be his."
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. What's the name of that thing with the strange shape?",
+                    "S2. I beg your pardon.",
+                    "S1. Can you tell me what the-name of that thing over there is?",
+                    "S2. Sorry. I don't know myself."
+                ]
+            }
+        ],
+        "exercises": [
+            {
+                "title": "Exercise 1 Lines A1-A4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Our house is the last one.",
+                        "sentence": " Ours is the last one."
+                    },
+                    {
+                        "word": "Their house is the last one.",
+                        "sentence": " Theirs is the last one."
+                    },
+                    {
+                        "word": "His house is the last one.",
+                        "sentence": " His is the last one."
+                    },
+                    {
+                        "word": "My house is the last one.",
+                        "sentence": " Mine is the last one."
+                    },
+                    {
+                        "word": "Her house is the last one.",
+                        "sentence": " Hers is the last one."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 2 / Lines A1-A4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "His books are the red ones.",
+                        "sentence": " His are the red ones"
+                    },
+                    {
+                        "word": "Their books are the red ones.",
+                        "sentence": " Theirs are the red ones"
+                    },
+                    {
+                        "word": "Your books are the red ones.",
+                        "sentence": " Yours are the red ones"
+                    },
+                    {
+                        "word": "Her books are the red ones.",
+                        "sentence": " Hers are the red ones."
+                    },
+                    {
+                        "word": "My books are the red ones.",
+                        "sentence": " Mine are the red ones"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 3 / Lines A2 and A4 /",
+                "example_sentence": "Ours is the last one on the right side.",
+                "lines": [
+                    {
+                        "word": "left",
+                        "sentence": " Ours is the last one on the left side."
+                    },
+                    {
+                        "word": "next to last",
+                        "sentence": " Ours is the next to last one on the left side."
+                    },
+                    {
+                        "word": "Theirs",
+                        "sentence": " Theirs is the next to last one on the left side."
+                    },
+                    {
+                        "word": "first",
+                        "sentence": " Theirs is the first one on the left side."
+                    },
+                    {
+                        "word": "other",
+                        "sentence": " Theirs is the first one on the other side."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 4 / Lines A1, C1, C4, D2 /",
+                "example_sentence": "Which of them is the best?",
+                "lines": [
+                    {
+                        "word": "the most practical",
+                        "sentence": " Which of them is the most practical?"
+                    },
+                    {
+                        "word": "the cheapest",
+                        "sentence": " Which of them is the cheapest?"
+                    },
+                    {
+                        "word": "the most expensive",
+                        "sentence": " Which of them is the most expensive?"
+                    },
+                    {
+                        "word": "the prettiest",
+                        "sentence": " Which of them is the prettiest?"
+                    },
+                    {
+                        "word": "the most stylish",
+                        "sentence": " Which of them is the most stylish?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 5 / Line B1 /",
+                "example_sentence": "What's the name of that book he referred to?",
+                "lines": [
+                    {
+                        "word": "inquired about",
+                        "sentence": " What's the name of that book he inquired about?"
+                    },
+                    {
+                        "word": "commented on",
+                        "sentence": " What's the name of that book he commented on?"
+                    },
+                    {
+                        "word": "spoke about",
+                        "sentence": " What's the name of that book he spoke about?"
+                    },
+                    {
+                        "word": "objected to",
+                        "sentence": " What's the name of that book he objected to?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 6 / Line C1 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "Are you going to choose one?",
+                        "sentence": " Which one are you going to choose?"
+                    },
+                    {
+                        "word": "Have you chosen one?",
+                        "sentence": " Which one have You chosen?"
+                    },
+                    {
+                        "word": "Did you choose one?",
+                        "sentence": " Which one did you choose?"
+                    },
+                    {
+                        "word": "Should you choose one?",
+                        "sentence": " Which one should you choose?"
+                    },
+                    {
+                        "word": "Will you choose one?",
+                        "sentence": " Which one will you choose?"
+                    },
+                    {
+                        "word": "Had you chosen one?",
+                        "sentence": " Which one had you chosen?"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 7 / Line C2 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "I like the one with blue stripes.",
+                        "sentence": " I like the one that has blue stripes."
+                    },
+                    {
+                        "word": "I like the one with black edges.",
+                        "sentence": " I like the one that has black edges."
+                    },
+                    {
+                        "word": "I like the one with green sides.",
+                        "sentence": " I like the one that has green sides."
+                    },
+                    {
+                        "word": "I like the one with yellow squares.",
+                        "sentence": " I like the one that has yellow squares"
+                    },
+                    {
+                        "word": "I like the one with orange flowers.",
+                        "sentence": " I like the one that has orange flowers."
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 8 / Line C4 /",
+                "example_sentence": "",
+                "lines": [
+                    {
+                        "word": "We looked at that one.",
+                        "sentence": " The one 'we looked at may be the best."
+                    },
+                    {
+                        "word": "We examined that one.",
+                        "sentence": " The one we examined may be the best."
+                    },
+                    {
+                        "word": "We talked about that one.",
+                        "sentence": " The one we talked about may be the best."
+                    },
+                    {
+                        "word": "We chose that one.",
+                        "sentence": " The one we chose may be the best."
+                    },
+                    {
+                        "word": "We picked out that one.",
+                        "sentence": " The one we picked out may be the best."
+                    },
+                    {
+                        "word": "We selected that one.",
+                        "sentence": " The one we selected may be the best"
+                    }
+                ]
+            },
+            {
+                "title": "Exercise 9 / Line E3 /",
+                "example_sentence": "Can you tell me what the name of that is?",
+                "lines": [
+                    {
+                        "word": "Can you guess",
+                        "sentence": " Can you guess what the name of that is?"
+                    },
+                    {
+                        "word": "Can't you guess",
+                        "sentence": " Can't you guess what the name of that is?"
+                    },
+                    {
+                        "word": "Do you know",
+                        "sentence": " Do you know what the name of that is?"
+                    },
+                    {
+                        "word": "Don't you know",
+                        "sentence": " Don't you know what the name of that is?"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "50. SENDING AND RECEIVING LETTERS / CONVERSATIONS",
+        "conversations": [
+            {
+                "title": "Conversation A",
+                "lines": [
+                    "S1. Are you writing a letter?",
+                    "S2. Yes. I'm to my family.",
+                    "S1. Do you write letters very often?",
+                    "S2. Yes. I write five or six letters a week."
+                ]
+            },
+            {
+                "title": "Conversation B",
+                "lines": [
+                    "S1. Do You write letters very often",
+                    "S2. No. I hate to write letters.",
+                    "S1. It takes a lot of time.",
+                    "S2. It sure does."
+                ]
+            },
+            {
+                "title": "Conversation C",
+                "lines": [
+                    "S1. Did Robert get a letter?",
+                    "S2. He got one yesterday.",
+                    "S1. Does he get many letters?",
+                    "S2. Yes. He gets some every day."
+                ]
+            },
+            {
+                "title": "Conversation D",
+                "lines": [
+                    "S1. Charles wrote me a long letter.",
+                    "S2. When did he write to you?",
+                    "S1. He sent the letter to me about a week ago.",
+                    "S2. He hasn't even sent me a postcard yet!"
+                ]
+            },
+            {
+                "title": "Conversation E",
+                "lines": [
+                    "S1. We wrote to Mary's sister last week.",
+                    "S2. Has she written you yet?",
+                    "S1. No, she hasn't.",
+                    "S2. She wrote me a few days ago."
+                ]
+            }
+        ],
+        "exercises": []
     }
 ]

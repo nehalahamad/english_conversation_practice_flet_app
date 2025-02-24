@@ -2049,8 +2049,11 @@ Conversation E
 S1. It seems I always have to buy a lot of things.
 S2. It always seems that way to me too.
 S1. I always need so many little things.
-S2. They add up to a lot of money, don't they?37.TALKING ABOUT SHOPPING /
-CONVERSATIONS
+S2. They add up to a lot of money, don't they?
+
+
+
+37. TALKING ABOUT SHOPPING / CONVERSATIONS
 Conversation A
 S1. Where do you do your shopping?
 S2. I usually start at the Central Department Store.
@@ -2075,8 +2078,12 @@ Conversation E
 S1. Why did you choose the green one?
 S2. To ten the truth, I really didn't have much choice in my size.
 S1. Excuse my asking, but how much did you pay for it?
-S2. It was on sale, and I paid only forty-five dollars.38. SHOPPING FOR CLOTHES /
-CONVERSATIONS
+S2. It was on sale, and I paid only forty-five dollars.
+
+
+
+
+38. SHOPPING FOR CLOTHES / CONVERSATIONS
 Conversation A
 S1. What would you like to see?
 S2. 1'd like to see your overcoats, please.
@@ -2101,8 +2108,12 @@ Conversation E
 S1. Here's a very popular kind of sport coat-the most recent thing.
 S2. I notice there isn't much padding in the shoulders.
 S1. No. It has a natural shoulder line.
-S2. I like the narrow lapels and the stitching on them.39. ASKING ABOUT PRICES /
-CONVERSATIONS
+S2. I like the narrow lapels and the stitching on them.
+
+
+
+
+39. ASKING ABOUT PRICES / CONVERSATIONS
 Conversation A
 S1. How much does this pen cost?
 S2. I beg your pardon.
@@ -2128,6 +2139,8 @@ S1. How much are these things all together?
 S2. Let’s see. That’ll be twenty-one fifty.
 S1. I’d like to change them to my account, please.
 S2. Fine. Could you give me your name & address
+
+
 Exercise 1 / Lines A1, B1, C1 /
 How much does this pen cost? It cost two dollars.
 How much do these-bookends cost? They cost two dollars
@@ -2154,8 +2167,12 @@ home furniture We're having a sale on home furniture today.
 kitchen items We're having a sale on kitchen items today.
 household supplies We're having a sale on household supplies today.
 dinnerware We're having a sale on dinnerware today.
-40. HOW MUCH DOES IT COST /
-CONVERSATIONSConversation A
+
+
+
+
+40. HOW MUCH DOES IT COST / CONVERSATIONS
+Conversation A
 S1. How much are your potatoes, sir?
 S2. Twenty-five cents a pound.
 S1. How much would five pounds cost?
@@ -2180,10 +2197,15 @@ S1. What would it cost to have this chair repaired?
 S2. I’d estimate sixty to seventy dollars
 S3. How much would it cost to replace it with a new one?
 S2. Probably around a hundred dollars.
+
+
+
+
 41. MONEY PROBLEMS / CONVERSATIONS
 Conversation A
 S1. Can you come along with us tomorrow?
-S2. I think I can borrow enough money to go.S1. Why couldn't you go last Thursday?
+S2. I think I can borrow enough money to go.
+S1. Why couldn't you go last Thursday?
 S2. Because I couldn't afford it.
 Conversation B
 S1. How much money do you have?
@@ -2205,13 +2227,17 @@ S1. How many pennies did you have in your bank?
 S2. I had exactly five hundred of them.
 S1. What did you do with them?
 S2. I put them in rolls of fifty pennies each.
-42. TALKING ABOUT MONEY /
-CONVERSATIONS
+
+
+
+
+42. TALKING ABOUT MONEY / CONVERSATIONS
 Conversation A
 S1. Have you made very much money this year?
 S2. Not an awful lot.
 S1. How hard have you tried?
-S2. Not as hard as I could have, I'm afraid.Conversation B
+S2. Not as hard as I could have, I'm afraid.
+Conversation B
 S1. How much did you make this week?
 S2. Sixty two dollars
 S1. Is that your take-home pay?
@@ -2231,14 +2257,18 @@ S1. Do you have an account at that bank?
 S2. I’ve got a special checking account
 S1. How much do you have to keep in the account?
 S2. There's no minimum.
-43. LENDING AND BORROWING
-MONEY / CONVERSATIONS
+
+
+
+
+43. LENDING AND BORROWING MONEY / CONVERSATIONS
 Conversation A
 S1. Could you lend me a dollar until tomorrow?
 S2. I can if you have change for a five
 S1. I wish I did, but I don't
 S2. Well, we can get it changed easily.
-Conversation BS1. I need about ten dollars.
+Conversation B
+S1. I need about ten dollars.
 S2. What do you need it for?
 S3. I need it for books and supplies.
 S2. O.K. I’ll end it to you.
@@ -2256,9 +2286,15 @@ Conversation E
 S1. How much change have you got?
 S2. Two quarters, two nickels, and a dime.
 S1. That's not enough to change this dollar bill.
-S2. I'll lend you all of this change if you want lt.44.AT THE POST OFFICE /
-CONVERSATIONS45. AT THE GROCERY STORE /
-CONVERSATIONS
+S2. I'll lend you all of this change if you want lt.
+
+
+
+
+44. AT THE POST OFFICE / CONVERSATIONS
+
+
+45. AT THE GROCERY STORE / CONVERSATIONS
 Conversation A
 S1. How much are the potatoes?
 S2. I beg your pardon.
@@ -2283,8 +2319,11 @@ Conversation E
 S1. Please give me two bottles of milk.
 S2. All of our milk is in cartons.
 S1. Cartons are all right, but I prefer bottles.
-S2. Cartons are more convenient, and there's a deposit on bottles.46. SHOPPING FOR GROCERIES /
-CONVERSATIONS
+S2. Cartons are more convenient, and there's a deposit on bottles.
+
+
+
+46. SHOPPING FOR GROCERIES / CONVERSATIONS
 Conversation A
 S1. What do you call a big grocery store like this?
 S2. It's called a "supermarket"
@@ -2294,7 +2333,7 @@ Conversation B
 S1. How about fish tonight-salmon, tuna fish, trout?
 S2. I notice the clams and oysters are fresh today.
 S1. That sounds very good.
-S2 Let's also get a pork roast or turkey for tomorrow.
+S2. Let's also get a pork roast or turkey for tomorrow.
 Conversation C
 S1. Now we have sugar, salt, pepper, and flour.
 S2. We also need mustard, vinegar, and cinnamon.
@@ -2306,12 +2345,17 @@ S2. Do you want two or five pounds?
 S1. A two-pound bag will be all right.
 S2. O.K. I'll meet you at the canned-food counter.
 Conversation E
-S1 How many eggs should we get?
+S1. How many eggs should we get?
 S2. Two dozen should be enough.
 S1. How much butter do you think we need?
 S2. One pound is enough, don't you think?
-47. IDENTIFYING PEOPLE /
-CONVERSATIONSConversation A
+
+
+
+
+
+47. IDENTIFYING PEOPLE / CONVERSATIONS
+Conversation A
 S1. Are you Dr. Taylor?
 S2. No. That tall fellow is Dr. Taylor.
 S1. Do you mean the one over there with glasses?
@@ -2336,6 +2380,7 @@ S1. Do you know the man over there by the door?
 S2. I do, but I can't remember his name at the moment.
 S1. Isn't he a famous musician?
 S2. He's either a musician or a painter.
+
 Exercise 1 / Line A1 /
 Are you Mrs. Brown? No, I'm not. I'm not Mrs. Brown.
 Are you a teacher? No, I'm not. I'm not a teacher.
@@ -2393,13 +2438,18 @@ He collects stamps. He's a stamp collector
 He organizes groups for the union. He's a union organizer.
 He analyzes legal matters. He's a legal analyst.
 He supervises factory workers. He's a factory supervisor
-48. IMMEDIATE FAMILY AND
-RELATIVES/ CONVERSATIONS
+
+
+
+
+
+48. IMMEDIATE FAMILY AND RELATIVES/ CONVERSATIONS
 Conversation A
 S1. How old is your son?
 S2. He's seventeen years old.
 S1. Is your daughter older or younger than your son?
-S2. Younger. She's only fifteen.Conversation B
+S2. Younger. She's only fifteen.
+Conversation B
 S1. Have you got many relatives here?
 S2. Yes. An aunt and an uncle and four grandparents.
 S1. Do your aunt and uncle have children?
@@ -2410,7 +2460,7 @@ S2. Yes, I've got one right here.
 S1. You have a very nice family. Thank you.
 S2. Thank you.
 Conversation D
-S1.Jim looks like his father.
+S1. Jim looks like his father.
 S2. Do you and your father look alike?
 S1. There's a little resemblance but not much.
 S2. I don't look like anyone at all in my family.
@@ -2418,8 +2468,12 @@ Conversation E
 S1. How's your family?
 S2. They're all fine, thanks.
 S1. Are your niece and nephew still here?
-S2. Yes, they are. They're still visiting me.49. IDENTIFYING THINGS /
-CONVERSATIONS
+S2. Yes, they are. They're still visiting me.
+
+
+
+
+49. IDENTIFYING THINGS / CONVERSATIONS
 Conversation A
 S1. Which house is your house?
 S2. Ours is the last one on the block.
@@ -2445,6 +2499,7 @@ S1. What's the name of that thing with the strange shape?
 S2. I beg your pardon.
 S1. Can you tell me what the-name of that thing over there is?
 S2. Sorry. I don't know myself.
+
 Exercise 1 Lines A1-A4 /
 Our house is the last one. Ours is the last one.
 Their house is the last one. Theirs is the last one.
@@ -2500,8 +2555,13 @@ Can you tell me what the name of that is?
 Can you guess Can you guess what the name of that is?
 Can't you guess Can't you guess what the name of that is?
 Do you know Do you know what the name of that is?
-Don't you know Don't you know what the name of that is?50. SENDING AND RECEIVING
-LETTERS / CONVERSATIONS
+Don't you know Don't you know what the name of that is?
+
+
+
+
+
+50. SENDING AND RECEIVING LETTERS / CONVERSATIONS
 Conversation A
 S1. Are you writing a letter?
 S2. Yes. I'm to my family.
@@ -2527,8 +2587,13 @@ S1. We wrote to Mary's sister last week.
 S2. Has she written you yet?
 S1. No, she hasn't.
 S2. She wrote me a few days ago.
-51. MORE ABOUT LETTERS /
-CONVERSATIONSConversation A
+
+
+
+
+
+51. MORE ABOUT LETTERS / CONVERSATIONS
+Conversation A
 S1. Have you written to your brother yet?
 S2. Yes, but I haven't mailed the letter yet.
 S1. I went to the post office half an hour ago.
