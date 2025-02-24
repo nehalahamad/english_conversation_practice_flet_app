@@ -2,46 +2,46 @@
     {
         "title": "Conversation A",
         "lines": [
-            "S1. When does February have twenty-nine clays?",
-            "S2. In leap year.",
-            "S1. How often is there a leap year?",
-            "S2. Every fourth year."
+            "S1. Do you wish some assistance?",
+            "S2. Yes. How much is that pen?",
+            "S1. This one or that one?",
+            "S2. The one next to the black one."
         ]
     },
     {
         "title": "Conversation B",
         "lines": [
-            "S1. How many days are there in leap year?",
-            "S2. There are three hundred and sixty-six.",
-            "S1. How many weeks are there in a year?",
-            "S2.There are fifty-two weeks a year."
+            "S1. May I help you?",
+            "S2. Yes. I'd like to look at pens.",
+            "S1. Certainly. Fountain pens or ball-point pens?",
+            "S2. I'm looking for a good fountain pen."
         ]
     },
     {
         "title": "Conversation C",
         "lines": [
-            "S1. What are the seasons in this country?",
-            "S2. Winter, spring, summer, and fall.",
-            "S1. How months are there in a season?",
-            "S2. There are three months in each season."
+            "S1. Could you help me, please?",
+            "S2. What can I do for you?",
+            "S1. Could I look at the wristwatch in this case?",
+            "S2. Just one moment, please, while I get the key."
         ]
     },
     {
         "title": "Conversation D",
         "lines": [
-            "S1.Today is the first day of spring.",
-            "S2. I didn't realize it.",
-            "S1. Aren't you glad it's here?",
-            "S2. I'm always glad when winter is over."
+            "S1. Hello. Are you waited on?",
+            "S2. No. I'd like a ream of typing paper, please.",
+            "S1. Will there be anything else?",
+            "S2. No. I believe that's all, thank you."
         ]
     },
     {
         "title": "Conversation E",
         "lines": [
-            "S1.The weather is perfect today, isn't it?",
-            "S2.Yes.I like this season of the year very much.",
-            "S1.Most people like this season best of all, don't they?",
-            "S2.Well, I'm sure a lot of people do."
+            "S1. Is someone helping you?",
+            "S2. I beg your pardon?",
+            "S1. Could I help you with anything?",
+            "S2. No, thanks. Someone is already waiting on me."
         ]
     }
 ]
