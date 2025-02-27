@@ -1,6 +1,7 @@
 import flet as ft
 from controls.my_conversation import Conversation
 from controls.my_exercise import Exercise
+from controls.custom_progressbar import CustomProgressBar
 from my_utility.my_functions import load_json_data
 
 
@@ -41,9 +42,12 @@ class MyApp:
 
         self.pb = ft.ProgressBar(
             value = (self.current_conversation_exercise + 1) / len(self.conversation_exercise_list),
-            color='#3de5eb',
-            col = 10
+            color='#3de5eb'
         )
+        # self.pb = CustomProgressBar(
+        #     len(self.current_conversations_list), len(self.current_exercises_list),
+        #     value = ((self.current_conversation_exercise + 1) / len(self.conversation_exercise_list)),
+        # )
 
         self.conversation_exercise_widget = ft.Container(
             height=480, 
@@ -90,7 +94,6 @@ class MyApp:
                 ]
             )
         )
-        # page.add(ft.ElevatedButton("Next Chapter", on_click=self.get_next_chapter))
          
         page.update()
 
