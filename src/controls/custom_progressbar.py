@@ -18,18 +18,18 @@ class CustomProgressBar(ft.Row):
         self.exercise = exercise
         self.value = value
         self.spacing = 3
+
+
+        # for i in range(0, self.map_value(self.value, 0, self.conversation + self.exercise)):
+        #     self.controls[i].bgcolor = "#3de5eb"
+        self.before_update()
+
+    def before_update(self):
+
         self.controls = []
 
         self.add_conversation(self.conversation)
         self.add_exercise(self.exercise)
-
-        self.current_pos = 0
-
-        # for i in range(0, self.map_value(self.value, 0, self.conversation + self.exercise)):
-        #     self.controls[i].bgcolor = "#3de5eb"
-
-    def before_update(self):
-
         for i in range(0, self.conversation + self.exercise):
             self.controls[i].bgcolor = ft.Colors.GREY_200
         # self.add_conversation(self.conversation)
