@@ -49,6 +49,7 @@ class ECPView(ft.View):
             center_title=False,
             bgcolor='#06b7bd',
             actions=[
+                ft.IconButton(ft.Icons.HOME, on_click=lambda e: e.page.go('/')),
                 ft.IconButton(ft.Icons.ARROW_CIRCLE_LEFT_OUTLINED, on_click=self.get_previous_chapter),
                 ft.IconButton(ft.Icons.ARROW_CIRCLE_RIGHT_OUTLINED, on_click=self.get_next_chapter),
             ]

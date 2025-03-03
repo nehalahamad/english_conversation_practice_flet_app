@@ -1,5 +1,6 @@
 import flet as ft
 from views.ecp_view import ECPView
+from views.docker_view import DockerView
 from views.home_view import HomeView
 
 class MyApp:
@@ -14,10 +15,12 @@ class MyApp:
         """Handles route changes and updates views dynamically."""
         self.page.views.clear()
 
-        if self.page.route == "/ecp":
-            self.page.views.append(ECPView(self.page))
-        elif self.page.route == "/":  # Default to home
+        if self.page.route == "/":  # Default to home
             self.page.views.append(HomeView(self.page))
+        elif self.page.route == "/ecp":
+            self.page.views.append(ECPView(self.page))
+        elif self.page.route == "/docker":
+            self.page.views.append(DockerView(self.page))
 
         self.page.update()
 

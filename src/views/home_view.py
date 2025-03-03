@@ -7,6 +7,13 @@ class HomeView(ft.View):
             route="/",
             controls=[
                 ft.AppBar(title=ft.Text("Home"), bgcolor=ft.Colors.SURFACE_CONTAINER_HIGHEST),
-                ft.ElevatedButton("Go ECP", on_click=lambda _: page.go("/ecp"))
+                ft.ListView(
+                    controls=[
+                        ft.TextButton("English Conversation Practice", on_click=lambda _: page.go("/ecp")),
+                        ft.TextButton("Docker", on_click=lambda _: page.go("/docker")),
+                    ],
+                    
+                )
+                # ft.ElevatedButton("Go ECP", on_click=lambda _: page.go("/ecp"))
             ]
         )
