@@ -18,7 +18,7 @@ class CustomProgressBar(ft.Row):
         self.exercise_len = exercise_len
         self.value = value
         self.spacing = 3
-
+        self.controls = []
         self.before_update()
 
 
