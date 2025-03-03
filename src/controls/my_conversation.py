@@ -2,6 +2,15 @@ import flet as ft
 from controls.my_text import MyText
 
 
+class CContainer(ft.Container):
+    def __init__(self, line, color=ft.Colors.BLUE):
+        super().__init__()
+        self.bgcolor=ft.Colors.WHITE
+        self.border_radius=5
+        self.padding=5
+        self.content=MyText(line, size=15, color=color, selectable=True)
+
+
 class Conversation:
     def __init__(self):
         self.conversation_font_size = 15
@@ -26,14 +35,7 @@ class Conversation:
                     ft.Container(
                         content=ft.Row(
                             controls=[
-                                ft.Icon(name=ft.Icons.FACE),
-                                ft.Container(
-                                    content=MyText(line, size=self.conversation_font_size, color=ft.Colors.BLUE, selectable=True),
-                                    bgcolor=ft.Colors.WHITE,
-                                    border_radius=5,
-                                    padding=5,
-                            
-                                ),
+                                CContainer(line, ft.Colors.BLUE),
                             ],
                             wrap=True,
                         ),
@@ -46,13 +48,7 @@ class Conversation:
                     ft.Container(
                         content=ft.Row(
                             controls=[
-                                ft.Container(
-                                    content=(MyText(line, size=self.conversation_font_size, color=ft.Colors.RED, selectable=True)),
-                                    bgcolor=ft.Colors.WHITE,
-                                    border_radius=5,
-                                    padding=5,
-                                    
-                                ),
+                                CContainer(line, ft.Colors.RED),
                                 ft.Icon(name=ft.Icons.FACE_4),
                             ],
                             alignment=ft.MainAxisAlignment.END,

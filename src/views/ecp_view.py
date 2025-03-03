@@ -93,7 +93,6 @@ class ECPView(ft.View):
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
         
 
-        # self.pb.value = (self.current_conversation_exercise + 1) / len(self.conversation_exercise_list)
         self.update_pb()
         self.page.update()
 
@@ -102,7 +101,6 @@ class ECPView(ft.View):
         if self.current_conversation_exercise < 0:
             self.current_conversation_exercise = len(self.conversation_exercise_list) - 1
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
-        # self.pb.value = (self.current_conversation_exercise + 1) / len(self.conversation_exercise_list)
         self.update_pb()
         self.page.update() 
 
@@ -120,7 +118,6 @@ class ECPView(ft.View):
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
         self.appbar.title = ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15)
         self.drawer.selected_index = self.selected_chapter
-        # self.pb.value = (self.current_conversation_exercise + 1) / len(self.conversation_exercise_list)
         self.update_pb()
         self.page.update()
     
@@ -136,7 +133,6 @@ class ECPView(ft.View):
 
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
         self.appbar.title = ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15)
-        # self.pb.value = (self.current_conversation_exercise + 1) / len(self.conversation_exercise_list)
         self.update_pb()
         self.page.update()
 
@@ -151,7 +147,6 @@ class ECPView(ft.View):
 
         self.conversation_exercise_widget.content=self.get_conversation_exercise_widget(self.conversation_exercise_list[self.current_conversation_exercise])
         self.appbar.title = ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15)
-        # self.pb.value = (self.current_conversation_exercise + 1) / len(self.conversation_exercise_list)
         self.update_pb()
         self.page.update()
 
