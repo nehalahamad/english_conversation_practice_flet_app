@@ -1,6 +1,6 @@
 import flet as ft
-from views.ecp_view import ECPView
-from views.home_view import HomeView
+from home_view import HomeView
+from store_view import StoreView
 
 class MyApp:
     def __init__(self, page: ft.Page):
@@ -14,9 +14,9 @@ class MyApp:
         """Handles route changes and updates views dynamically."""
         self.page.views.clear()
 
-        if self.page.route == "/ecp":
-            self.page.views.append(ECPView(self.page))
-        elif self.page.route == "/":  # Default to home
+        if route == "/store":
+            self.page.views.append(StoreView(self.page))
+        else:  # Default to home
             self.page.views.append(HomeView(self.page))
 
         self.page.update()
@@ -30,5 +30,4 @@ class MyApp:
 def main(page: ft.Page):
     MyApp(page)  # Create an instance of MyApp
 
-# ft.app(main, view=ft.AppView.WEB_BROWSER)
-ft.app(main)
+ft.app(main, view=ft.AppView.WEB_BROWSER)

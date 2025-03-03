@@ -12,15 +12,15 @@ class CustomContainer(ft.Container):
 
 
 class CustomProgressBar(ft.Row):
-    def __init__(self, conversation, exercise, value=0):
+    def __init__(self, conversation_len, exercise_len, value=0):
         super().__init__()
-        self.conversation = conversation
-        self.exercise = exercise
+        self.conversation_len = conversation_len
+        self.exercise_len = exercise_len
         self.value = value
         self.spacing = 3
 
 
-        # for i in range(0, self.map_value(self.value, 0, self.conversation + self.exercise)):
+        # for i in range(0, self.map_value(self.value, 0, self.conversation_len + self.exercise_len)):
         #     self.controls[i].bgcolor = "#3de5eb"
         self.before_update()
 
@@ -28,23 +28,23 @@ class CustomProgressBar(ft.Row):
 
         self.controls = []
 
-        self.add_conversation(self.conversation)
-        self.add_exercise(self.exercise)
-        for i in range(0, self.conversation + self.exercise):
+        self.add_conversation(self.conversation_len)
+        self.add_exercise(self.exercise_len)
+        for i in range(0, self.conversation_len + self.exercise_len):
             self.controls[i].bgcolor = ft.Colors.GREY_200
-        # self.add_conversation(self.conversation)
-        # self.add_exercise(self.exercise)
-        for i in range(0, self.map_value(self.value, 0, self.conversation + self.exercise)):
+        # self.add_conversation(self.conversation_len)
+        # self.add_exercise(self.exercise_len)
+        for i in range(0, self.map_value(self.value, 0, self.conversation_len + self.exercise_len)):
             self.controls[i].bgcolor = "#3de5eb"
 
         
 
-    def add_conversation(self, conversation):
-        for i in range(conversation):
+    def add_conversation(self, conversation_len):
+        for i in range(conversation_len):
             self.controls.append(CustomContainer(color="blue"))
 
-    def add_exercise(self, exercise):
-        for i in range(exercise):
+    def add_exercise(self, exercise_len):
+        for i in range(exercise_len):
             self.controls.append(CustomContainer(color="red"))
 
     def map_value(self, x, min_val=0, max_val=17):
