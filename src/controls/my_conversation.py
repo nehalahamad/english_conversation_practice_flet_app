@@ -35,6 +35,7 @@ class Conversation:
                     ft.Container(
                         content=ft.Row(
                             controls=[
+                                ft.Icon(name=ft.Icons.FACE),
                                 CContainer(line, ft.Colors.BLUE),
                             ],
                             wrap=True,
