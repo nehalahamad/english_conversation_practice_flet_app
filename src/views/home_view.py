@@ -10,7 +10,8 @@ class HomeView(ft.View):
                 ft.ListView(
                     controls=[
                         ft.TextButton("English Conversation Practice", on_click=lambda _: page.go("/ecp")),
-                        ft.TextButton("Docker", on_click=lambda _: page.go("/docker")),
+                        ft.TextButton("Docker", icon=ft.Icons.FACE, on_click=lambda _: page.go("/docker")),
+                        ft.TextButton("Quizz", icon=ft.Icons.FACE, on_click=lambda _: page.go("/quiz")),
                     ],
                     
                 )

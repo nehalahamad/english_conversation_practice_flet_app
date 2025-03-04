@@ -1,11 +1,14 @@
 import flet as ft
 from views.ecp_view import ECPView
 from views.docker_view import DockerView
+from views.quiz_view import QuizView
 from views.home_view import HomeView
 
 class MyApp:
     def __init__(self, page: ft.Page):
         self.page = page
+        self.page.window.width = 360
+        self.page.scroll=True
         self.page.title = "Flet Routes Example"
         self.page.on_route_change = self.route_change
         self.page.on_view_pop = self.view_pop
@@ -21,6 +24,8 @@ class MyApp:
             self.page.views.append(ECPView(self.page))
         elif self.page.route == "/docker":
             self.page.views.append(DockerView(self.page))
+        elif self.page.route == "/quiz":
+            self.page.views.append(QuizView(self.page))
 
         self.page.update()
 

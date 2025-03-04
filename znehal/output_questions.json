@@ -1,0 +1,1809 @@
+[
+    {
+        "QN": "1",
+        "type": "Docker Basics",
+        "question": "What is Docker primarily used for?",
+        "options": {
+            "A": "Virtualization",
+            "B": "Containerization",
+            "C": "Networking",
+            "D": "Data Storage"
+        },
+        "answer": "Containerization",
+        "explanation": "Docker is primarily used for containerization, which allows applications to be packaged with their dependencies and run consistently across different environments."
+    },
+    {
+        "QN": "2",
+        "type": "Docker Architecture",
+        "question": "Which component of Docker is responsible for building and managing Docker images?",
+        "options": {
+            "A": "Docker Daemon",
+            "B": "Docker Client",
+            "C": "Docker Hub",
+            "D": "Docker Registry"
+        },
+        "answer": "Docker Daemon",
+        "explanation": "The Docker Daemon (dockerd) is responsible for building, running, and managing Docker containers and images."
+    },
+    {
+        "QN": "3",
+        "type": "Docker Commands",
+        "question": "Which command is used to list all running Docker containers?",
+        "options": {
+            "A": "docker ps",
+            "B": "docker ls",
+            "C": "docker list",
+            "D": "docker containers"
+        },
+        "answer": "docker ps",
+        "explanation": "The 'docker ps' command lists all running Docker containers. Adding the '-a' flag will show all containers, including stopped ones."
+    },
+    {
+        "QN": "4",
+        "type": "Image Management",
+        "question": "What is the purpose of the 'docker pull' command?",
+        "options": {
+            "A": "To create a new container",
+            "B": "To remove an image",
+            "C": "To download an image from a registry",
+            "D": "To start a container"
+        },
+        "answer": "To download an image from a registry",
+        "explanation": "The 'docker pull' command is used to download Docker images from a registry, such as Docker Hub."
+    },
+    {
+        "QN": "5",
+        "type": "Networking",
+        "question": "Which Docker network driver is used by default when creating a new network?",
+        "options": {
+            "A": "host",
+            "B": "bridge",
+            "C": "overlay",
+            "D": "macvlan"
+        },
+        "answer": "bridge",
+        "explanation": "The 'bridge' network driver is the default driver used when creating a new Docker network. It provides isolated network communication between containers on the same host."
+    },
+    {
+        "QN": "6",
+        "type": "Orchestration",
+        "question": "Which tool is commonly used for orchestrating Docker containers in production environments?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Kubernetes",
+            "C": "Docker Swarm",
+            "D": "Both B and C"
+        },
+        "answer": "Both B and C",
+        "explanation": "Kubernetes and Docker Swarm are both widely used for orchestrating Docker containers in production environments. Docker Compose is more suited for local development."
+    },
+    {
+        "QN": "7",
+        "type": "Docker Commands",
+        "question": "Which command is used to remove a Docker container?",
+        "options": {
+            "A": "docker rm",
+            "B": "docker delete",
+            "C": "docker remove",
+            "D": "docker kill"
+        },
+        "answer": "docker rm",
+        "explanation": "The 'docker rm' command is used to remove one or more Docker containers. The container must be stopped before it can be removed."
+    },
+    {
+        "QN": "8",
+        "type": "Image Management",
+        "question": "What is a Docker image?",
+        "options": {
+            "A": "A running instance of a container",
+            "B": "A template for creating containers",
+            "C": "A network configuration for containers",
+            "D": "A storage volume for containers"
+        },
+        "answer": "A template for creating containers",
+        "explanation": "A Docker image is a read-only template that contains the instructions for creating a Docker container. It includes the application code, libraries, and dependencies."
+    },
+    {
+        "QN": "9",
+        "type": "Networking",
+        "question": "Which command is used to create a new Docker network?",
+        "options": {
+            "A": "docker network create",
+            "B": "docker create network",
+            "C": "docker net add",
+            "D": "docker add network"
+        },
+        "answer": "docker network create",
+        "explanation": "The 'docker network create' command is used to create a new Docker network with a specified driver and configuration."
+    },
+    {
+        "QN": "10",
+        "type": "Orchestration",
+        "question": "What is the purpose of Docker Compose?",
+        "options": {
+            "A": "To manage multiple containers in a single host",
+            "B": "To orchestrate containers across multiple hosts",
+            "C": "To monitor container performance",
+            "D": "To create Docker images"
+        },
+        "answer": "To manage multiple containers in a single host",
+        "explanation": "Docker Compose is used to define and manage multi-container Docker applications on a single host. It uses a YAML file to configure the application's services, networks, and volumes."
+    },
+    {
+        "QN": "11",
+        "type": "Docker Basics",
+        "question": "What is Docker primarily used for?",
+        "options": {
+            "A": "Virtual Machine Management",
+            "B": "Containerization",
+            "C": "Operating System Development",
+            "D": "Cloud Storage"
+        },
+        "answer": "Containerization",
+        "explanation": "Docker is a platform designed to develop, ship, and run applications inside lightweight, portable containers."
+    },
+    {
+        "QN": "12",
+        "type": "Docker Architecture",
+        "question": "Which component of Docker is responsible for running containers?",
+        "options": {
+            "A": "Docker CLI",
+            "B": "Docker Engine",
+            "C": "Docker Registry",
+            "D": "Docker Compose"
+        },
+        "answer": "Docker Engine",
+        "explanation": "Docker Engine is the core component of Docker that runs and manages containers."
+    },
+    {
+        "QN": "13",
+        "type": "Docker Commands",
+        "question": "Which command is used to list all running containers?",
+        "options": {
+            "A": "docker ps -a",
+            "B": "docker ls",
+            "C": "docker ps",
+            "D": "docker list"
+        },
+        "answer": "docker ps",
+        "explanation": "The 'docker ps' command lists all currently running containers. To list all containers (including stopped ones), 'docker ps -a' is used."
+    },
+    {
+        "QN": "14",
+        "type": "Image Management",
+        "question": "Which command is used to download a Docker image from Docker Hub?",
+        "options": {
+            "A": "docker download",
+            "B": "docker pull",
+            "C": "docker fetch",
+            "D": "docker clone"
+        },
+        "answer": "docker pull",
+        "explanation": "The 'docker pull' command is used to fetch images from a registry like Docker Hub."
+    },
+    {
+        "QN": "15",
+        "type": "Networking",
+        "question": "Which default network mode does Docker use when no specific network is mentioned?",
+        "options": {
+            "A": "host",
+            "B": "bridge",
+            "C": "none",
+            "D": "overlay"
+        },
+        "answer": "bridge",
+        "explanation": "By default, Docker uses the 'bridge' network mode, which allows containers to communicate while being isolated from the host system."
+    },
+    {
+        "QN": "16",
+        "type": "Orchestration",
+        "question": "Which tool is used for orchestrating Docker containers at scale?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Kubernetes",
+            "C": "Docker Swarm",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker Compose is used for managing multi-container applications, Docker Swarm is Docker's native clustering tool, and Kubernetes is a widely used orchestration platform."
+    },
+    {
+        "QN": "17",
+        "type": "Docker Basics",
+        "question": "What command is used to build a Docker image from a Dockerfile?",
+        "options": {
+            "A": "docker build",
+            "B": "docker create",
+            "C": "docker run",
+            "D": "docker compile"
+        },
+        "answer": "docker build",
+        "explanation": "The 'docker build' command is used to create an image from a specified Dockerfile."
+    },
+    {
+        "QN": "18",
+        "type": "Docker Architecture",
+        "question": "Which of the following is NOT a part of Docker architecture?",
+        "options": {
+            "A": "Docker CLI",
+            "B": "Docker Kernel",
+            "C": "Docker Daemon",
+            "D": "Docker Registry"
+        },
+        "answer": "Docker Kernel",
+        "explanation": "Docker does not have a component called 'Docker Kernel'; it runs on the host operating system's kernel."
+    },
+    {
+        "QN": "19",
+        "type": "Docker Commands",
+        "question": "Which command is used to remove a Docker container?",
+        "options": {
+            "A": "docker delete",
+            "B": "docker remove",
+            "C": "docker rm",
+            "D": "docker clean"
+        },
+        "answer": "docker rm",
+        "explanation": "The 'docker rm' command removes a container by specifying its container ID or name."
+    },
+    {
+        "QN": "20",
+        "type": "Docker Basics",
+        "question": "What is Docker primarily used for?",
+        "options": {
+            "A": "Virtualization",
+            "B": "Containerization",
+            "C": "Networking",
+            "D": "Data Storage"
+        },
+        "answer": "Containerization",
+        "explanation": "Docker is primarily used for containerization, which allows applications to be packaged with their dependencies and run consistently across different environments."
+    },
+    {
+        "QN": "21",
+        "type": "Docker Architecture",
+        "question": "Which component of Docker is responsible for building and managing Docker images?",
+        "options": {
+            "A": "Docker Daemon",
+            "B": "Docker Client",
+            "C": "Docker Hub",
+            "D": "Docker Registry"
+        },
+        "answer": "Docker Daemon",
+        "explanation": "The Docker Daemon (dockerd) is responsible for building, running, and managing Docker containers and images."
+    },
+    {
+        "QN": "22",
+        "type": "Docker Commands",
+        "question": "Which command is used to list all running Docker containers?",
+        "options": {
+            "A": "docker ps",
+            "B": "docker ls",
+            "C": "docker list",
+            "D": "docker containers"
+        },
+        "answer": "docker ps",
+        "explanation": "The 'docker ps' command lists all running Docker containers. Adding the '-a' flag will show all containers, including stopped ones."
+    },
+    {
+        "QN": "23",
+        "type": "Image Management",
+        "question": "What is the purpose of the 'docker pull' command?",
+        "options": {
+            "A": "To create a new container",
+            "B": "To remove an image",
+            "C": "To download an image from a registry",
+            "D": "To start a container"
+        },
+        "answer": "To download an image from a registry",
+        "explanation": "The 'docker pull' command is used to download Docker images from a registry, such as Docker Hub."
+    },
+    {
+        "QN": "24",
+        "type": "Networking",
+        "question": "Which Docker network driver is used by default when creating a new network?",
+        "options": {
+            "A": "host",
+            "B": "bridge",
+            "C": "overlay",
+            "D": "macvlan"
+        },
+        "answer": "bridge",
+        "explanation": "The 'bridge' network driver is the default driver used when creating a new Docker network. It provides isolated network communication between containers on the same host."
+    },
+    {
+        "QN": "25",
+        "type": "Orchestration",
+        "question": "Which tool is commonly used for orchestrating Docker containers in production environments?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Kubernetes",
+            "C": "Docker Swarm",
+            "D": "Both B and C"
+        },
+        "answer": "Both B and C",
+        "explanation": "Kubernetes and Docker Swarm are both widely used for orchestrating Docker containers in production environments. Docker Compose is more suited for local development."
+    },
+    {
+        "QN": "26",
+        "type": "Docker Commands",
+        "question": "Which command is used to remove a Docker container?",
+        "options": {
+            "A": "docker rm",
+            "B": "docker delete",
+            "C": "docker remove",
+            "D": "docker kill"
+        },
+        "answer": "docker rm",
+        "explanation": "The 'docker rm' command is used to remove one or more Docker containers. The container must be stopped before it can be removed."
+    },
+    {
+        "QN": "27",
+        "type": "Image Management",
+        "question": "What is a Docker image?",
+        "options": {
+            "A": "A running instance of a container",
+            "B": "A template for creating containers",
+            "C": "A network configuration for containers",
+            "D": "A storage volume for containers"
+        },
+        "answer": "A template for creating containers",
+        "explanation": "A Docker image is a read-only template that contains the instructions for creating a Docker container. It includes the application code, libraries, and dependencies."
+    },
+    {
+        "QN": "28",
+        "type": "Networking",
+        "question": "Which command is used to create a new Docker network?",
+        "options": {
+            "A": "docker network create",
+            "B": "docker create network",
+            "C": "docker net add",
+            "D": "docker add network"
+        },
+        "answer": "docker network create",
+        "explanation": "The 'docker network create' command is used to create a new Docker network with a specified driver and configuration."
+    },
+    {
+        "QN": "29",
+        "type": "Orchestration",
+        "question": "What is the purpose of Docker Compose?",
+        "options": {
+            "A": "To manage multiple containers in a single host",
+            "B": "To orchestrate containers across multiple hosts",
+            "C": "To monitor container performance",
+            "D": "To create Docker images"
+        },
+        "answer": "To manage multiple containers in a single host",
+        "explanation": "Docker Compose is used to define and manage multi-container Docker applications on a single host. It uses a YAML file to configure the application's services, networks, and volumes."
+    },
+    {
+        "QN": "30",
+        "type": "Docker Volumes",
+        "question": "What is the purpose of Docker volumes?",
+        "options": {
+            "A": "To store container logs",
+            "B": "To persist data outside containers",
+            "C": "To manage container networking",
+            "D": "To create container images"
+        },
+        "answer": "To persist data outside containers",
+        "explanation": "Docker volumes are used to persist data outside containers, ensuring that data is not lost when a container is stopped or deleted."
+    },
+    {
+        "QN": "31",
+        "type": "Docker Security",
+        "question": "Which of the following is a best practice for securing Docker containers?",
+        "options": {
+            "A": "Run containers as the root user",
+            "B": "Use the latest version of Docker",
+            "C": "Disable container isolation",
+            "D": "Share Docker daemon sockets with containers"
+        },
+        "answer": "Use the latest version of Docker",
+        "explanation": "Using the latest version of Docker ensures that you have the most recent security patches and features, reducing the risk of vulnerabilities."
+    },
+    {
+        "QN": "32",
+        "type": "Dockerfile",
+        "question": "What is the purpose of the 'FROM' instruction in a Dockerfile?",
+        "options": {
+            "A": "To define the base image",
+            "B": "To copy files into the image",
+            "C": "To set environment variables",
+            "D": "To expose ports"
+        },
+        "answer": "To define the base image",
+        "explanation": "The 'FROM' instruction in a Dockerfile specifies the base image from which the new image will be built."
+    },
+    {
+        "QN": "33",
+        "type": "Docker Hub",
+        "question": "What is Docker Hub?",
+        "options": {
+            "A": "A container orchestration tool",
+            "B": "A cloud-based registry for Docker images",
+            "C": "A network driver for Docker",
+            "D": "A monitoring tool for Docker containers"
+        },
+        "answer": "A cloud-based registry for Docker images",
+        "explanation": "Docker Hub is a cloud-based registry service that allows you to store, share, and manage Docker images."
+    },
+    {
+        "QN": "34",
+        "type": "Advanced Networking",
+        "question": "Which Docker network driver is used for multi-host networking?",
+        "options": {
+            "A": "bridge",
+            "B": "host",
+            "C": "overlay",
+            "D": "macvlan"
+        },
+        "answer": "overlay",
+        "explanation": "The 'overlay' network driver is used for multi-host networking, enabling containers on different Docker hosts to communicate securely."
+    },
+    {
+        "QN": "35",
+        "type": "Docker Volumes",
+        "question": "Which command is used to create a Docker volume?",
+        "options": {
+            "A": "docker volume create",
+            "B": "docker create volume",
+            "C": "docker volume add",
+            "D": "docker add volume"
+        },
+        "answer": "docker volume create",
+        "explanation": "The 'docker volume create' command is used to create a new Docker volume."
+    },
+    {
+        "QN": "36",
+        "type": "Docker Security",
+        "question": "What is the purpose of Docker Content Trust (DCT)?",
+        "options": {
+            "A": "To encrypt container data",
+            "B": "To verify the authenticity of Docker images",
+            "C": "To monitor container performance",
+            "D": "To manage Docker networks"
+        },
+        "answer": "To verify the authenticity of Docker images",
+        "explanation": "Docker Content Trust (DCT) ensures the authenticity and integrity of Docker images by verifying their digital signatures."
+    },
+    {
+        "QN": "37",
+        "type": "Dockerfile",
+        "question": "Which instruction in a Dockerfile is used to set environment variables?",
+        "options": {
+            "A": "ENV",
+            "B": "ARG",
+            "C": "SET",
+            "D": "EXPOSE"
+        },
+        "answer": "ENV",
+        "explanation": "The 'ENV' instruction in a Dockerfile is used to set environment variables that will be available during the build process and in the running container."
+    },
+    {
+        "QN": "38",
+        "type": "Docker Hub",
+        "question": "Which command is used to push a Docker image to Docker Hub?",
+        "options": {
+            "A": "docker push",
+            "B": "docker upload",
+            "C": "docker publish",
+            "D": "docker deploy"
+        },
+        "answer": "docker push",
+        "explanation": "The 'docker push' command is used to upload a Docker image to a registry, such as Docker Hub."
+    },
+    {
+        "QN": "39",
+        "type": "Advanced Networking",
+        "question": "What is the purpose of the 'macvlan' network driver in Docker?",
+        "options": {
+            "A": "To provide isolated network communication between containers",
+            "B": "To assign a MAC address to a container",
+            "C": "To enable multi-host networking",
+            "D": "To manage container storage"
+        },
+        "answer": "To assign a MAC address to a container",
+        "explanation": "The 'macvlan' network driver assigns a MAC address to a container, making it appear as a physical device on the network."
+    },
+    {
+        "QN": "40",
+        "type": "Docker Basics",
+        "question": "What is Docker primarily used for?",
+        "options": {
+            "A": "Virtual Machine Management",
+            "B": "Containerization",
+            "C": "Operating System Development",
+            "D": "Cloud Storage"
+        },
+        "answer": "Containerization",
+        "explanation": "Docker is a platform designed to develop, ship, and run applications inside lightweight, portable containers."
+    },
+    {
+        "QN": "41",
+        "type": "Docker Architecture",
+        "question": "Which component of Docker is responsible for running containers?",
+        "options": {
+            "A": "Docker CLI",
+            "B": "Docker Engine",
+            "C": "Docker Registry",
+            "D": "Docker Compose"
+        },
+        "answer": "Docker Engine",
+        "explanation": "Docker Engine is the core component of Docker that runs and manages containers."
+    },
+    {
+        "QN": "42",
+        "type": "Docker Commands",
+        "question": "Which command is used to list all running containers?",
+        "options": {
+            "A": "docker ps -a",
+            "B": "docker ls",
+            "C": "docker ps",
+            "D": "docker list"
+        },
+        "answer": "docker ps",
+        "explanation": "The 'docker ps' command lists all currently running containers. To list all containers (including stopped ones), 'docker ps -a' is used."
+    },
+    {
+        "QN": "43",
+        "type": "Image Management",
+        "question": "Which command is used to download a Docker image from Docker Hub?",
+        "options": {
+            "A": "docker download",
+            "B": "docker pull",
+            "C": "docker fetch",
+            "D": "docker clone"
+        },
+        "answer": "docker pull",
+        "explanation": "The 'docker pull' command is used to fetch images from a registry like Docker Hub."
+    },
+    {
+        "QN": "44",
+        "type": "Networking",
+        "question": "Which default network mode does Docker use when no specific network is mentioned?",
+        "options": {
+            "A": "host",
+            "B": "bridge",
+            "C": "none",
+            "D": "overlay"
+        },
+        "answer": "bridge",
+        "explanation": "By default, Docker uses the 'bridge' network mode, which allows containers to communicate while being isolated from the host system."
+    },
+    {
+        "QN": "45",
+        "type": "Orchestration",
+        "question": "Which tool is used for orchestrating Docker containers at scale?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Kubernetes",
+            "C": "Docker Swarm",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker Compose is used for managing multi-container applications, Docker Swarm is Docker's native clustering tool, and Kubernetes is a widely used orchestration platform."
+    },
+    {
+        "QN": "46",
+        "type": "Docker Volumes",
+        "question": "Which command is used to create a Docker volume?",
+        "options": {
+            "A": "docker volume create",
+            "B": "docker volume new",
+            "C": "docker volume add",
+            "D": "docker create volume"
+        },
+        "answer": "docker volume create",
+        "explanation": "The 'docker volume create' command is used to create a named volume that persists data across container restarts."
+    },
+    {
+        "QN": "47",
+        "type": "Docker Security",
+        "question": "Which security feature helps prevent privilege escalation within a Docker container?",
+        "options": {
+            "A": "Running as root",
+            "B": "Using user namespaces",
+            "C": "Disabling SELinux",
+            "D": "Granting full host access"
+        },
+        "answer": "Using user namespaces",
+        "explanation": "User namespaces allow containers to run processes as non-root users, reducing security risks."
+    },
+    {
+        "QN": "48",
+        "type": "Dockerfile",
+        "question": "Which instruction in a Dockerfile is used to specify the base image?",
+        "options": {
+            "A": "RUN",
+            "B": "FROM",
+            "C": "CMD",
+            "D": "ENTRYPOINT"
+        },
+        "answer": "FROM",
+        "explanation": "The 'FROM' instruction in a Dockerfile specifies the base image upon which the new image is built."
+    },
+    {
+        "QN": "49",
+        "type": "Advanced Networking",
+        "question": "Which Docker network driver is best suited for communication between containers on different hosts?",
+        "options": {
+            "A": "bridge",
+            "B": "overlay",
+            "C": "host",
+            "D": "none"
+        },
+        "answer": "overlay",
+        "explanation": "The overlay network driver allows containers running on different Docker hosts to communicate as if they were on the same network."
+    },
+    {
+        "QN": "50",
+        "type": "Docker Swarm",
+        "question": "What is Docker Swarm?",
+        "options": {
+            "A": "A container orchestration tool",
+            "B": "A network driver for Docker",
+            "C": "A storage volume manager",
+            "D": "A monitoring tool for Docker containers"
+        },
+        "answer": "A container orchestration tool",
+        "explanation": "Docker Swarm is a container orchestration tool that allows you to manage multiple Docker containers as a cluster."
+    },
+    {
+        "QN": "51",
+        "type": "Docker Swarm",
+        "question": "Which command is used to initialize a Docker Swarm?",
+        "options": {
+            "A": "docker swarm init",
+            "B": "docker init swarm",
+            "C": "docker swarm create",
+            "D": "docker create swarm"
+        },
+        "answer": "docker swarm init",
+        "explanation": "The 'docker swarm init' command is used to initialize a Docker Swarm and make the current node a manager."
+    },
+    {
+        "QN": "52",
+        "type": "Docker Swarm",
+        "question": "What is a 'service' in Docker Swarm?",
+        "options": {
+            "A": "A running container",
+            "B": "A task definition for containers",
+            "C": "A group of tasks that define the state of a container",
+            "D": "A network configuration for containers"
+        },
+        "answer": "A group of tasks that define the state of a container",
+        "explanation": "In Docker Swarm, a service is a group of tasks that define the desired state of a container, such as the number of replicas and the image to use."
+    },
+    {
+        "QN": "53",
+        "type": "Docker APIs",
+        "question": "What is the Docker Engine API used for?",
+        "options": {
+            "A": "To manage Docker containers programmatically",
+            "B": "To create Docker images",
+            "C": "To monitor Docker Hub",
+            "D": "To configure Docker networks"
+        },
+        "answer": "To manage Docker containers programmatically",
+        "explanation": "The Docker Engine API allows you to interact with Docker programmatically, enabling you to manage containers, images, networks, and more."
+    },
+    {
+        "QN": "54",
+        "type": "Container Lifecycle",
+        "question": "Which command is used to stop a running Docker container?",
+        "options": {
+            "A": "docker stop",
+            "B": "docker kill",
+            "C": "docker pause",
+            "D": "docker halt"
+        },
+        "answer": "docker stop",
+        "explanation": "The 'docker stop' command gracefully stops a running container by sending a SIGTERM signal, followed by a SIGKILL if the container does not stop."
+    },
+    {
+        "QN": "55",
+        "type": "Container Lifecycle",
+        "question": "What is the difference between 'docker stop' and 'docker kill'?",
+        "options": {
+            "A": "'docker stop' forcefully stops the container, while 'docker kill' gracefully stops it",
+            "B": "'docker stop' gracefully stops the container, while 'docker kill' forcefully stops it",
+            "C": "Both commands do the same thing",
+            "D": "'docker stop' removes the container, while 'docker kill' stops it"
+        },
+        "answer": "'docker stop' gracefully stops the container, while 'docker kill' forcefully stops it",
+        "explanation": "'docker stop' sends a SIGTERM signal to gracefully stop the container, while 'docker kill' sends a SIGKILL signal to forcefully stop it."
+    },
+    {
+        "QN": "56",
+        "type": "Dockerfile",
+        "question": "Which instruction in a Dockerfile is used to copy files from the host to the image?",
+        "options": {
+            "A": "COPY",
+            "B": "ADD",
+            "C": "INSERT",
+            "D": "Both A and B"
+        },
+        "answer": "Both A and B",
+        "explanation": "Both 'COPY' and 'ADD' instructions in a Dockerfile can be used to copy files from the host to the image. However, 'ADD' has additional features like URL support and automatic extraction of tar files."
+    },
+    {
+        "QN": "57",
+        "type": "Dockerfile",
+        "question": "What is the purpose of the 'EXPOSE' instruction in a Dockerfile?",
+        "options": {
+            "A": "To define the base image",
+            "B": "To set environment variables",
+            "C": "To expose a port for the container",
+            "D": "To copy files into the image"
+        },
+        "answer": "To expose a port for the container",
+        "explanation": "The 'EXPOSE' instruction in a Dockerfile is used to inform Docker that the container listens on the specified network ports at runtime."
+    },
+    {
+        "QN": "58",
+        "type": "Docker Volumes",
+        "question": "Which command is used to list all Docker volumes?",
+        "options": {
+            "A": "docker volume ls",
+            "B": "docker list volumes",
+            "C": "docker volumes",
+            "D": "docker volume list"
+        },
+        "answer": "docker volume ls",
+        "explanation": "The 'docker volume ls' command lists all Docker volumes on the host."
+    },
+    {
+        "QN": "59",
+        "type": "Docker Security",
+        "question": "What is the purpose of Docker Secrets?",
+        "options": {
+            "A": "To encrypt container data",
+            "B": "To securely manage sensitive information",
+            "C": "To monitor container performance",
+            "D": "To manage Docker networks"
+        },
+        "answer": "To securely manage sensitive information",
+        "explanation": "Docker Secrets is used to securely manage sensitive information, such as passwords and API keys, in Docker Swarm."
+    },
+    {
+        "QN": "60",
+        "type": "Docker Basics",
+        "question": "What is Docker primarily used for?",
+        "options": {
+            "A": "Virtual Machine Management",
+            "B": "Containerization",
+            "C": "Operating System Development",
+            "D": "Cloud Storage"
+        },
+        "answer": "Containerization",
+        "explanation": "Docker is a platform designed to develop, ship, and run applications inside lightweight, portable containers."
+    },
+    {
+        "QN": "61",
+        "type": "Docker Architecture",
+        "question": "Which component of Docker is responsible for running containers?",
+        "options": {
+            "A": "Docker CLI",
+            "B": "Docker Engine",
+            "C": "Docker Registry",
+            "D": "Docker Compose"
+        },
+        "answer": "Docker Engine",
+        "explanation": "Docker Engine is the core component of Docker that runs and manages containers."
+    },
+    {
+        "QN": "62",
+        "type": "Docker Commands",
+        "question": "Which command is used to list all running containers?",
+        "options": {
+            "A": "docker ps -a",
+            "B": "docker ls",
+            "C": "docker ps",
+            "D": "docker list"
+        },
+        "answer": "docker ps",
+        "explanation": "The 'docker ps' command lists all currently running containers. To list all containers (including stopped ones), 'docker ps -a' is used."
+    },
+    {
+        "QN": "63",
+        "type": "Image Management",
+        "question": "Which command is used to download a Docker image from Docker Hub?",
+        "options": {
+            "A": "docker download",
+            "B": "docker pull",
+            "C": "docker fetch",
+            "D": "docker clone"
+        },
+        "answer": "docker pull",
+        "explanation": "The 'docker pull' command is used to fetch images from a registry like Docker Hub."
+    },
+    {
+        "QN": "64",
+        "type": "Networking",
+        "question": "Which default network mode does Docker use when no specific network is mentioned?",
+        "options": {
+            "A": "host",
+            "B": "bridge",
+            "C": "none",
+            "D": "overlay"
+        },
+        "answer": "bridge",
+        "explanation": "By default, Docker uses the 'bridge' network mode, which allows containers to communicate while being isolated from the host system."
+    },
+    {
+        "QN": "65",
+        "type": "Orchestration",
+        "question": "Which tool is used for orchestrating Docker containers at scale?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Kubernetes",
+            "C": "Docker Swarm",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker Compose is used for managing multi-container applications, Docker Swarm is Docker's native clustering tool, and Kubernetes is a widely used orchestration platform."
+    },
+    {
+        "QN": "66",
+        "type": "Docker Compose",
+        "question": "Which command is used to start services defined in a Docker Compose file?",
+        "options": {
+            "A": "docker-compose up",
+            "B": "docker start",
+            "C": "docker-compose run",
+            "D": "docker-compose start"
+        },
+        "answer": "docker-compose up",
+        "explanation": "The 'docker-compose up' command starts the services defined in a Docker Compose file."
+    },
+    {
+        "QN": "67",
+        "type": "Docker Logs",
+        "question": "Which command is used to view logs of a running container?",
+        "options": {
+            "A": "docker logs <container_id>",
+            "B": "docker show logs",
+            "C": "docker container logs",
+            "D": "docker view logs"
+        },
+        "answer": "docker logs <container_id>",
+        "explanation": "The 'docker logs <container_id>' command is used to view the logs generated by a running container."
+    },
+    {
+        "QN": "68",
+        "type": "Docker Networking",
+        "question": "Which command is used to create a new Docker network?",
+        "options": {
+            "A": "docker network create <network_name>",
+            "B": "docker new network",
+            "C": "docker network new <network_name>",
+            "D": "docker create network"
+        },
+        "answer": "docker network create <network_name>",
+        "explanation": "The 'docker network create <network_name>' command is used to create a new Docker network."
+    },
+    {
+        "QN": "69",
+        "type": "Docker Registry",
+        "question": "Which command is used to push an image to Docker Hub?",
+        "options": {
+            "A": "docker push <image_name>",
+            "B": "docker upload <image_name>",
+            "C": "docker deploy <image_name>",
+            "D": "docker publish <image_name>"
+        },
+        "answer": "docker push <image_name>",
+        "explanation": "The 'docker push <image_name>' command is used to upload an image to a Docker registry such as Docker Hub."
+    },
+    {
+        "QN": "70",
+        "type": "Docker Compose",
+        "question": "What is the purpose of Docker Compose?",
+        "options": {
+            "A": "To manage multiple containers in a single host",
+            "B": "To orchestrate containers across multiple hosts",
+            "C": "To monitor container performance",
+            "D": "To create Docker images"
+        },
+        "answer": "To manage multiple containers in a single host",
+        "explanation": "Docker Compose is used to define and manage multi-container Docker applications on a single host. It uses a YAML file to configure the application's services, networks, and volumes."
+    },
+    {
+        "QN": "71",
+        "type": "Docker Compose",
+        "question": "Which file format is used for Docker Compose configuration?",
+        "options": {
+            "A": "JSON",
+            "B": "YAML",
+            "C": "XML",
+            "D": "TOML"
+        },
+        "answer": "YAML",
+        "explanation": "Docker Compose uses YAML (Yet Another Markup Language) for its configuration files, typically named 'docker-compose.yml'."
+    },
+    {
+        "QN": "72",
+        "type": "Docker Compose",
+        "question": "Which command is used to start all services defined in a Docker Compose file?",
+        "options": {
+            "A": "docker-compose start",
+            "B": "docker-compose up",
+            "C": "docker-compose run",
+            "D": "docker-compose build"
+        },
+        "answer": "docker-compose up",
+        "explanation": "The 'docker-compose up' command is used to start all services defined in a Docker Compose file. It builds, (re)creates, starts, and attaches to containers for a service."
+    },
+    {
+        "QN": "73",
+        "type": "Container Logging",
+        "question": "Which command is used to view the logs of a Docker container?",
+        "options": {
+            "A": "docker logs",
+            "B": "docker view logs",
+            "C": "docker container logs",
+            "D": "docker show logs"
+        },
+        "answer": "docker logs",
+        "explanation": "The 'docker logs' command is used to view the logs of a Docker container. You can specify the container name or ID to view its logs."
+    },
+    {
+        "QN": "74",
+        "type": "Container Logging",
+        "question": "Which logging driver is used by default in Docker?",
+        "options": {
+            "A": "json-file",
+            "B": "syslog",
+            "C": "journald",
+            "D": "fluentd"
+        },
+        "answer": "json-file",
+        "explanation": "The 'json-file' logging driver is used by default in Docker. It writes log messages in JSON format to files on the host."
+    },
+    {
+        "QN": "75",
+        "type": "Docker in CI/CD",
+        "question": "What is the role of Docker in CI/CD pipelines?",
+        "options": {
+            "A": "To provide a consistent environment for building and testing applications",
+            "B": "To manage cloud infrastructure",
+            "C": "To monitor application performance",
+            "D": "To store application data"
+        },
+        "answer": "To provide a consistent environment for building and testing applications",
+        "explanation": "Docker provides a consistent environment for building, testing, and deploying applications in CI/CD pipelines, ensuring that applications run the same way in development, testing, and production."
+    },
+    {
+        "QN": "76",
+        "type": "Docker in CI/CD",
+        "question": "Which tool is commonly used with Docker for CI/CD automation?",
+        "options": {
+            "A": "Jenkins",
+            "B": "GitLab CI",
+            "C": "Travis CI",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Jenkins, GitLab CI, and Travis CI are commonly used tools for CI/CD automation, and they all integrate well with Docker for building and deploying containerized applications."
+    },
+    {
+        "QN": "77",
+        "type": "Microservices Architecture",
+        "question": "How does Docker support microservices architecture?",
+        "options": {
+            "A": "By providing isolated environments for each service",
+            "B": "By enabling easy scaling of individual services",
+            "C": "By simplifying service deployment and management",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports microservices architecture by providing isolated environments for each service, enabling easy scaling of individual services, and simplifying service deployment and management."
+    },
+    {
+        "QN": "78",
+        "type": "Microservices Architecture",
+        "question": "Which Docker feature is particularly useful for microservices?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Docker Swarm",
+            "C": "Docker Networking",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker Compose, Docker Swarm, and Docker Networking are all useful features for microservices, as they help manage multi-container applications, orchestrate services, and enable communication between services."
+    },
+    {
+        "QN": "79",
+        "type": "Docker Plugins",
+        "question": "What is the purpose of Docker plugins?",
+        "options": {
+            "A": "To extend Docker's functionality",
+            "B": "To manage Docker images",
+            "C": "To monitor Docker containers",
+            "D": "To create Docker networks"
+        },
+        "answer": "To extend Docker's functionality",
+        "explanation": "Docker plugins are used to extend Docker's functionality, such as adding support for new storage drivers, network drivers, or logging mechanisms."
+    },
+    {
+        "QN": "80",
+        "type": "Docker Storage Drivers",
+        "question": "Which storage driver is recommended for production environments?",
+        "options": {
+            "A": "aufs",
+            "B": "overlay2",
+            "C": "devicemapper",
+            "D": "vfs"
+        },
+        "answer": "overlay2",
+        "explanation": "The 'overlay2' storage driver is recommended for production environments due to its performance and stability. It is the default driver for most Linux distributions."
+    },
+    {
+        "QN": "81",
+        "type": "Docker Storage Drivers",
+        "question": "What is the purpose of Docker storage drivers?",
+        "options": {
+            "A": "To manage container networking",
+            "B": "To manage how images and containers are stored on the host",
+            "C": "To manage container logging",
+            "D": "To manage container security"
+        },
+        "answer": "To manage how images and containers are stored on the host",
+        "explanation": "Docker storage drivers manage how images and containers are stored on the host filesystem, including layering and copy-on-write mechanisms."
+    },
+    {
+        "QN": "82",
+        "type": "Container Security",
+        "question": "Which of the following is a best practice for securing Docker containers?",
+        "options": {
+            "A": "Run containers as the root user",
+            "B": "Use read-only filesystems for containers",
+            "C": "Disable container isolation",
+            "D": "Share Docker daemon sockets with containers"
+        },
+        "answer": "Use read-only filesystems for containers",
+        "explanation": "Using read-only filesystems for containers reduces the risk of malicious modifications to the container's filesystem."
+    },
+    {
+        "QN": "83",
+        "type": "Container Security",
+        "question": "What is the purpose of Docker Bench for Security?",
+        "options": {
+            "A": "To monitor container performance",
+            "B": "To scan Docker images for vulnerabilities",
+            "C": "To check Docker configurations against security best practices",
+            "D": "To manage Docker networks"
+        },
+        "answer": "To check Docker configurations against security best practices",
+        "explanation": "Docker Bench for Security is a script that checks Docker configurations against security best practices, helping to ensure a secure Docker environment."
+    },
+    {
+        "QN": "84",
+        "type": "Docker for Windows",
+        "question": "Which operating system is required to run Docker Desktop on Windows?",
+        "options": {
+            "A": "Windows 7",
+            "B": "Windows 10 Pro or Enterprise",
+            "C": "Windows Server 2016",
+            "D": "Windows XP"
+        },
+        "answer": "Windows 10 Pro or Enterprise",
+        "explanation": "Docker Desktop on Windows requires Windows 10 Pro or Enterprise (64-bit) with Hyper-V enabled."
+    },
+    {
+        "QN": "85",
+        "type": "Docker for Windows",
+        "question": "What is the purpose of Linux containers on Windows (LCOW)?",
+        "options": {
+            "A": "To run Linux containers natively on Windows",
+            "B": "To run Windows containers on Linux",
+            "C": "To manage Docker networks",
+            "D": "To monitor container performance"
+        },
+        "answer": "To run Linux containers natively on Windows",
+        "explanation": "Linux containers on Windows (LCOW) allow you to run Linux containers natively on Windows without requiring a separate Linux VM."
+    },
+    {
+        "QN": "86",
+        "type": "Edge Computing",
+        "question": "How does Docker support edge computing?",
+        "options": {
+            "A": "By providing lightweight containers for resource-constrained environments",
+            "B": "By enabling centralized management of edge devices",
+            "C": "By providing real-time monitoring of edge devices",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports edge computing by providing lightweight containers for resource-constrained environments, enabling centralized management of edge devices, and offering tools for real-time monitoring."
+    },
+    {
+        "QN": "87",
+        "type": "Edge Computing",
+        "question": "Which Docker tool is commonly used for managing edge deployments?",
+        "options": {
+            "A": "Docker Swarm",
+            "B": "Docker Compose",
+            "C": "Docker Edge",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Swarm",
+        "explanation": "Docker Swarm is commonly used for managing edge deployments due to its simplicity and ability to orchestrate containers across distributed environments."
+    },
+    {
+        "QN": "88",
+        "type": "Docker Plugins",
+        "question": "What is the purpose of Docker Volume Plugins?",
+        "options": {
+            "A": "To extend Docker's networking capabilities",
+            "B": "To enable integration with external storage systems",
+            "C": "To monitor container performance",
+            "D": "To manage container security"
+        },
+        "answer": "To enable integration with external storage systems",
+        "explanation": "Docker Volume Plugins enable integration with external storage systems, allowing Docker to use third-party storage solutions for persistent data."
+    },
+    {
+        "QN": "89",
+        "type": "Docker Plugins",
+        "question": "Which of the following is a popular Docker network plugin?",
+        "options": {
+            "A": "Weave Net",
+            "B": "Fluentd",
+            "C": "Prometheus",
+            "D": "ELK Stack"
+        },
+        "answer": "Weave Net",
+        "explanation": "Weave Net is a popular Docker network plugin that provides a simple and scalable way to connect containers across multiple hosts."
+    },
+    {
+        "QN": "90",
+        "type": "Serverless Architectures",
+        "question": "How can Docker be used in serverless architectures?",
+        "options": {
+            "A": "By packaging functions as containers",
+            "B": "By managing virtual machines",
+            "C": "By providing a centralized logging system",
+            "D": "By orchestrating microservices"
+        },
+        "answer": "By packaging functions as containers",
+        "explanation": "Docker can be used in serverless architectures by packaging functions as containers, which can then be deployed and scaled independently."
+    },
+    {
+        "QN": "91",
+        "type": "Serverless Architectures",
+        "question": "Which tool integrates Docker with serverless frameworks?",
+        "options": {
+            "A": "Kubernetes",
+            "B": "AWS Lambda",
+            "C": "OpenFaaS",
+            "D": "Docker Swarm"
+        },
+        "answer": "OpenFaaS",
+        "explanation": "OpenFaaS (Open Function as a Service) integrates Docker with serverless frameworks, allowing you to run functions as Docker containers."
+    },
+    {
+        "QN": "92",
+        "type": "Multi-Cloud Deployments",
+        "question": "How does Docker simplify multi-cloud deployments?",
+        "options": {
+            "A": "By providing a consistent runtime environment across clouds",
+            "B": "By managing cloud infrastructure",
+            "C": "By monitoring cloud performance",
+            "D": "By storing data across multiple clouds"
+        },
+        "answer": "By providing a consistent runtime environment across clouds",
+        "explanation": "Docker simplifies multi-cloud deployments by providing a consistent runtime environment across different cloud providers, ensuring that applications run the same way everywhere."
+    },
+    {
+        "QN": "93",
+        "type": "Multi-Cloud Deployments",
+        "question": "Which Docker feature is particularly useful for multi-cloud deployments?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Docker Swarm",
+            "C": "Docker Hub",
+            "D": "Docker Volumes"
+        },
+        "answer": "Docker Swarm",
+        "explanation": "Docker Swarm is particularly useful for multi-cloud deployments as it allows you to orchestrate containers across multiple cloud environments."
+    },
+    {
+        "QN": "94",
+        "type": "Docker for Mac",
+        "question": "What is the purpose of Docker Desktop for Mac?",
+        "options": {
+            "A": "To run Windows containers on Mac",
+            "B": "To provide a native Docker experience on macOS",
+            "C": "To manage Docker Hub",
+            "D": "To monitor Docker containers"
+        },
+        "answer": "To provide a native Docker experience on macOS",
+        "explanation": "Docker Desktop for Mac provides a native Docker experience on macOS, allowing you to build, ship, and run containers seamlessly."
+    },
+    {
+        "QN": "95",
+        "type": "Docker for Mac",
+        "question": "Which virtualization technology does Docker Desktop for Mac use?",
+        "options": {
+            "A": "Hyper-V",
+            "B": "VirtualBox",
+            "C": "HyperKit",
+            "D": "VMware"
+        },
+        "answer": "HyperKit",
+        "explanation": "Docker Desktop for Mac uses HyperKit, a lightweight macOS virtualization technology, to run Docker containers."
+    },
+    {
+        "QN": "96",
+        "type": "Container Image Optimization",
+        "question": "What is the purpose of multi-stage builds in Docker?",
+        "options": {
+            "A": "To reduce the size of Docker images",
+            "B": "To increase the number of layers in an image",
+            "C": "To improve container performance",
+            "D": "To manage Docker networks"
+        },
+        "answer": "To reduce the size of Docker images",
+        "explanation": "Multi-stage builds in Docker allow you to reduce the size of Docker images by using intermediate images for building and copying only the necessary files to the final image."
+    },
+    {
+        "QN": "97",
+        "type": "Container Image Optimization",
+        "question": "Which Dockerfile instruction is used to minimize the number of layers in an image?",
+        "options": {
+            "A": "RUN",
+            "B": "COPY",
+            "C": "ADD",
+            "D": "CHAIN"
+        },
+        "answer": "RUN",
+        "explanation": "The 'RUN' instruction can be used to chain multiple commands together, minimizing the number of layers in a Docker image and reducing its size."
+    },
+    {
+        "QN": "98",
+        "type": "IoT (Internet of Things)",
+        "question": "How does Docker support IoT deployments?",
+        "options": {
+            "A": "By providing lightweight containers for resource-constrained devices",
+            "B": "By managing IoT networks",
+            "C": "By monitoring IoT devices",
+            "D": "By storing IoT data"
+        },
+        "answer": "By providing lightweight containers for resource-constrained devices",
+        "explanation": "Docker supports IoT deployments by providing lightweight containers that can run on resource-constrained devices, enabling consistent application deployment across IoT environments."
+    },
+    {
+        "QN": "99",
+        "type": "IoT (Internet of Things)",
+        "question": "Which Docker tool is commonly used for managing IoT edge devices?",
+        "options": {
+            "A": "Docker Swarm",
+            "B": "Docker Compose",
+            "C": "Docker Edge",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Swarm",
+        "explanation": "Docker Swarm is commonly used for managing IoT edge devices due to its simplicity and ability to orchestrate containers across distributed environments."
+    },
+    {
+        "QN": "100",
+        "type": "AI/ML Workloads",
+        "question": "How does Docker support AI/ML workloads?",
+        "options": {
+            "A": "By providing isolated environments for training and inference",
+            "B": "By managing GPU resources",
+            "C": "By simplifying the deployment of ML models",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports AI/ML workloads by providing isolated environments for training and inference, managing GPU resources, and simplifying the deployment of machine learning models."
+    },
+    {
+        "QN": "101",
+        "type": "AI/ML Workloads",
+        "question": "Which Docker feature is particularly useful for GPU-accelerated AI/ML workloads?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "NVIDIA Docker",
+            "C": "Docker Swarm",
+            "D": "Docker Hub"
+        },
+        "answer": "NVIDIA Docker",
+        "explanation": "NVIDIA Docker (now part of Docker's native GPU support) is particularly useful for GPU-accelerated AI/ML workloads, as it allows containers to access GPU resources."
+    },
+    {
+        "QN": "102",
+        "type": "Hybrid Cloud Environments",
+        "question": "How does Docker simplify hybrid cloud deployments?",
+        "options": {
+            "A": "By providing a consistent runtime environment across on-premises and cloud infrastructure",
+            "B": "By managing cloud infrastructure",
+            "C": "By monitoring cloud performance",
+            "D": "By storing data across multiple clouds"
+        },
+        "answer": "By providing a consistent runtime environment across on-premises and cloud infrastructure",
+        "explanation": "Docker simplifies hybrid cloud deployments by providing a consistent runtime environment across on-premises and cloud infrastructure, ensuring that applications run the same way everywhere."
+    },
+    {
+        "QN": "103",
+        "type": "Hybrid Cloud Environments",
+        "question": "Which Docker tool is commonly used for hybrid cloud orchestration?",
+        "options": {
+            "A": "Docker Swarm",
+            "B": "Kubernetes",
+            "C": "Docker Compose",
+            "D": "Docker Hub"
+        },
+        "answer": "Kubernetes",
+        "explanation": "Kubernetes is commonly used for hybrid cloud orchestration, as it can manage containers across on-premises and cloud environments seamlessly."
+    },
+    {
+        "QN": "104",
+        "type": "Docker for ARM Architectures",
+        "question": "What is the purpose of Docker for ARM?",
+        "options": {
+            "A": "To run Docker containers on ARM-based devices",
+            "B": "To manage Docker networks",
+            "C": "To monitor container performance",
+            "D": "To store Docker images"
+        },
+        "answer": "To run Docker containers on ARM-based devices",
+        "explanation": "Docker for ARM allows you to run Docker containers on ARM-based devices, such as Raspberry Pi and other IoT devices."
+    },
+    {
+        "QN": "105",
+        "type": "Docker for ARM Architectures",
+        "question": "Which command is used to build Docker images for ARM architectures?",
+        "options": {
+            "A": "docker build",
+            "B": "docker buildx",
+            "C": "docker arm-build",
+            "D": "docker create"
+        },
+        "answer": "docker buildx",
+        "explanation": "The 'docker buildx' command is used to build Docker images for multiple architectures, including ARM, using cross-compilation."
+    },
+    {
+        "QN": "106",
+        "type": "Container Security Scanning",
+        "question": "What is the purpose of Docker Security Scanning?",
+        "options": {
+            "A": "To monitor container performance",
+            "B": "To scan Docker images for vulnerabilities",
+            "C": "To manage Docker networks",
+            "D": "To optimize Docker images"
+        },
+        "answer": "To scan Docker images for vulnerabilities",
+        "explanation": "Docker Security Scanning (now part of Docker Hub) scans Docker images for vulnerabilities, ensuring that they are safe to use in production."
+    },
+    {
+        "QN": "107",
+        "type": "Container Security Scanning",
+        "question": "Which tool is commonly used for scanning Docker images for vulnerabilities?",
+        "options": {
+            "A": "Clair",
+            "B": "Prometheus",
+            "C": "Fluentd",
+            "D": "ELK Stack"
+        },
+        "answer": "Clair",
+        "explanation": "Clair is a popular open-source tool for scanning Docker images for vulnerabilities, often integrated with Docker registries."
+    },
+    {
+        "QN": "108",
+        "type": "Big Data Pipelines",
+        "question": "How does Docker support big data pipelines?",
+        "options": {
+            "A": "By providing isolated environments for data processing",
+            "B": "By simplifying the deployment of big data tools",
+            "C": "By enabling scalability and resource management",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports big data pipelines by providing isolated environments for data processing, simplifying the deployment of big data tools, and enabling scalability and resource management."
+    },
+    {
+        "QN": "109",
+        "type": "Big Data Pipelines",
+        "question": "Which Docker feature is particularly useful for big data workloads?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Docker Swarm",
+            "C": "Docker Volumes",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Volumes",
+        "explanation": "Docker Volumes are particularly useful for big data workloads, as they allow persistent storage for large datasets and intermediate results."
+    },
+    {
+        "QN": "110",
+        "type": "Real-Time Analytics",
+        "question": "How does Docker support real-time analytics?",
+        "options": {
+            "A": "By providing isolated environments for data processing",
+            "B": "By enabling scalability and resource management",
+            "C": "By simplifying the deployment of real-time analytics tools",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports real-time analytics by providing isolated environments for data processing, enabling scalability and resource management, and simplifying the deployment of real-time analytics tools."
+    },
+    {
+        "QN": "111",
+        "type": "Real-Time Analytics",
+        "question": "Which Docker feature is particularly useful for real-time analytics workloads?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Docker Swarm",
+            "C": "Docker Volumes",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Volumes",
+        "explanation": "Docker Volumes are particularly useful for real-time analytics workloads, as they allow persistent storage for large datasets and intermediate results."
+    },
+    {
+        "QN": "112",
+        "type": "Blockchain Applications",
+        "question": "How does Docker support blockchain applications?",
+        "options": {
+            "A": "By providing isolated environments for blockchain nodes",
+            "B": "By simplifying the deployment of blockchain networks",
+            "C": "By enabling scalability and resource management",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports blockchain applications by providing isolated environments for blockchain nodes, simplifying the deployment of blockchain networks, and enabling scalability and resource management."
+    },
+    {
+        "QN": "113",
+        "type": "Blockchain Applications",
+        "question": "Which Docker tool is commonly used for managing blockchain networks?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Docker Swarm",
+            "C": "Kubernetes",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Compose",
+        "explanation": "Docker Compose is commonly used for managing blockchain networks, as it allows you to define and run multi-container Docker applications."
+    },
+    {
+        "QN": "114",
+        "type": "Docker for Windows Server",
+        "question": "What is the purpose of Docker for Windows Server?",
+        "options": {
+            "A": "To run Linux containers on Windows Server",
+            "B": "To provide a native Docker experience on Windows Server",
+            "C": "To manage Docker Hub",
+            "D": "To monitor Docker containers"
+        },
+        "answer": "To provide a native Docker experience on Windows Server",
+        "explanation": "Docker for Windows Server provides a native Docker experience on Windows Server, allowing you to build, ship, and run containers seamlessly."
+    },
+    {
+        "QN": "115",
+        "type": "Docker for Windows Server",
+        "question": "Which virtualization technology does Docker for Windows Server use?",
+        "options": {
+            "A": "Hyper-V",
+            "B": "VirtualBox",
+            "C": "HyperKit",
+            "D": "VMware"
+        },
+        "answer": "Hyper-V",
+        "explanation": "Docker for Windows Server uses Hyper-V, a native Windows virtualization technology, to run Docker containers."
+    },
+    {
+        "QN": "116",
+        "type": "Container Image Signing",
+        "question": "What is the purpose of Docker Content Trust (DCT)?",
+        "options": {
+            "A": "To encrypt container data",
+            "B": "To verify the authenticity of Docker images",
+            "C": "To monitor container performance",
+            "D": "To manage Docker networks"
+        },
+        "answer": "To verify the authenticity of Docker images",
+        "explanation": "Docker Content Trust (DCT) ensures the authenticity and integrity of Docker images by verifying their digital signatures."
+    },
+    {
+        "QN": "117",
+        "type": "Container Image Signing",
+        "question": "Which command is used to enable Docker Content Trust?",
+        "options": {
+            "A": "docker trust enable",
+            "B": "export DOCKER_CONTENT_TRUST=1",
+            "C": "docker content-trust on",
+            "D": "docker enable trust"
+        },
+        "answer": "export DOCKER_CONTENT_TRUST=1",
+        "explanation": "The command 'export DOCKER_CONTENT_TRUST=1' is used to enable Docker Content Trust, ensuring that only signed images are used."
+    },
+    {
+        "QN": "118",
+        "type": "Serverless AI/ML",
+        "question": "How does Docker support serverless AI/ML workloads?",
+        "options": {
+            "A": "By packaging AI/ML models as containers",
+            "B": "By managing GPU resources",
+            "C": "By simplifying the deployment of serverless functions",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports serverless AI/ML workloads by packaging AI/ML models as containers, managing GPU resources, and simplifying the deployment of serverless functions."
+    },
+    {
+        "QN": "119",
+        "type": "Serverless AI/ML",
+        "question": "Which tool integrates Docker with serverless AI/ML frameworks?",
+        "options": {
+            "A": "Kubernetes",
+            "B": "AWS Lambda",
+            "C": "OpenFaaS",
+            "D": "Docker Swarm"
+        },
+        "answer": "OpenFaaS",
+        "explanation": "OpenFaaS (Open Function as a Service) integrates Docker with serverless AI/ML frameworks, allowing you to run functions as Docker containers."
+    },
+    {
+        "QN": "120",
+        "type": "Multi-Tenant Environments",
+        "question": "How does Docker support multi-tenant environments?",
+        "options": {
+            "A": "By providing isolated environments for each tenant",
+            "B": "By enabling resource sharing and isolation",
+            "C": "By simplifying tenant management",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports multi-tenant environments by providing isolated environments for each tenant, enabling resource sharing and isolation, and simplifying tenant management."
+    },
+    {
+        "QN": "121",
+        "type": "Multi-Tenant Environments",
+        "question": "Which Docker feature is particularly useful for multi-tenant environments?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Docker Swarm",
+            "C": "Docker Namespaces",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Namespaces",
+        "explanation": "Docker Namespaces are particularly useful for multi-tenant environments, as they provide isolation between tenants' containers."
+    },
+    {
+        "QN": "122",
+        "type": "Edge Computing for IoT",
+        "question": "How does Docker support edge computing for IoT?",
+        "options": {
+            "A": "By providing lightweight containers for resource-constrained devices",
+            "B": "By enabling centralized management of edge devices",
+            "C": "By providing real-time monitoring of edge devices",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports edge computing for IoT by providing lightweight containers for resource-constrained devices, enabling centralized management of edge devices, and offering tools for real-time monitoring."
+    },
+    {
+        "QN": "123",
+        "type": "Edge Computing for IoT",
+        "question": "Which Docker tool is commonly used for managing IoT edge devices?",
+        "options": {
+            "A": "Docker Swarm",
+            "B": "Docker Compose",
+            "C": "Docker Edge",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Swarm",
+        "explanation": "Docker Swarm is commonly used for managing IoT edge devices due to its simplicity and ability to orchestrate containers across distributed environments."
+    },
+    {
+        "QN": "124",
+        "type": "Docker for ARM-Based Servers",
+        "question": "What is the purpose of Docker for ARM-based servers?",
+        "options": {
+            "A": "To run Docker containers on ARM-based servers",
+            "B": "To manage Docker networks",
+            "C": "To monitor container performance",
+            "D": "To store Docker images"
+        },
+        "answer": "To run Docker containers on ARM-based servers",
+        "explanation": "Docker for ARM-based servers allows you to run Docker containers on ARM-based servers, which are often used in edge computing and IoT scenarios."
+    },
+    {
+        "QN": "125",
+        "type": "Docker for ARM-Based Servers",
+        "question": "Which command is used to build Docker images for ARM-based servers?",
+        "options": {
+            "A": "docker build",
+            "B": "docker buildx",
+            "C": "docker arm-build",
+            "D": "docker create"
+        },
+        "answer": "docker buildx",
+        "explanation": "The 'docker buildx' command is used to build Docker images for multiple architectures, including ARM, using cross-compilation."
+    },
+    {
+        "QN": "126",
+        "type": "Container Runtime Security",
+        "question": "What is the purpose of container runtime security?",
+        "options": {
+            "A": "To monitor container performance",
+            "B": "To protect containers from runtime threats",
+            "C": "To manage Docker networks",
+            "D": "To optimize Docker images"
+        },
+        "answer": "To protect containers from runtime threats",
+        "explanation": "Container runtime security focuses on protecting containers from runtime threats, such as malicious processes or unauthorized access."
+    },
+    {
+        "QN": "127",
+        "type": "Container Runtime Security",
+        "question": "Which tool is commonly used for container runtime security?",
+        "options": {
+            "A": "Clair",
+            "B": "Falco",
+            "C": "Prometheus",
+            "D": "ELK Stack"
+        },
+        "answer": "Falco",
+        "explanation": "Falco is a popular open-source tool for container runtime security, providing real-time threat detection and alerting."
+    },
+    {
+        "QN": "128",
+        "type": "Big Data Pipelines",
+        "question": "How does Docker support big data pipelines?",
+        "options": {
+            "A": "By providing isolated environments for data processing",
+            "B": "By simplifying the deployment of big data tools",
+            "C": "By enabling scalability and resource management",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports big data pipelines by providing isolated environments for data processing, simplifying the deployment of big data tools, and enabling scalability and resource management."
+    },
+    {
+        "QN": "129",
+        "type": "Big Data Pipelines",
+        "question": "Which Docker feature is particularly useful for big data workloads?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Docker Swarm",
+            "C": "Docker Volumes",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Volumes",
+        "explanation": "Docker Volumes are particularly useful for big data workloads, as they allow persistent storage for large datasets and intermediate results."
+    },
+    {
+        "QN": "130",
+        "type": "Real-Time Analytics",
+        "question": "How does Docker support real-time analytics?",
+        "options": {
+            "A": "By providing isolated environments for data processing",
+            "B": "By enabling scalability and resource management",
+            "C": "By simplifying the deployment of real-time analytics tools",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports real-time analytics by providing isolated environments for data processing, enabling scalability and resource management, and simplifying the deployment of real-time analytics tools."
+    },
+    {
+        "QN": "131",
+        "type": "Real-Time Analytics",
+        "question": "Which Docker feature is particularly useful for real-time analytics workloads?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Docker Swarm",
+            "C": "Docker Volumes",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Volumes",
+        "explanation": "Docker Volumes are particularly useful for real-time analytics workloads, as they allow persistent storage for large datasets and intermediate results."
+    },
+    {
+        "QN": "132",
+        "type": "Blockchain Applications",
+        "question": "How does Docker support blockchain applications?",
+        "options": {
+            "A": "By providing isolated environments for blockchain nodes",
+            "B": "By simplifying the deployment of blockchain networks",
+            "C": "By enabling scalability and resource management",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports blockchain applications by providing isolated environments for blockchain nodes, simplifying the deployment of blockchain networks, and enabling scalability and resource management."
+    },
+    {
+        "QN": "133",
+        "type": "Blockchain Applications",
+        "question": "Which Docker tool is commonly used for managing blockchain networks?",
+        "options": {
+            "A": "Docker Compose",
+            "B": "Docker Swarm",
+            "C": "Kubernetes",
+            "D": "Docker Hub"
+        },
+        "answer": "Docker Compose",
+        "explanation": "Docker Compose is commonly used for managing blockchain networks, as it allows you to define and run multi-container Docker applications."
+    },
+    {
+        "QN": "134",
+        "type": "Docker for Windows Server",
+        "question": "What is the purpose of Docker for Windows Server?",
+        "options": {
+            "A": "To run Linux containers on Windows Server",
+            "B": "To provide a native Docker experience on Windows Server",
+            "C": "To manage Docker Hub",
+            "D": "To monitor Docker containers"
+        },
+        "answer": "To provide a native Docker experience on Windows Server",
+        "explanation": "Docker for Windows Server provides a native Docker experience on Windows Server, allowing you to build, ship, and run containers seamlessly."
+    },
+    {
+        "QN": "135",
+        "type": "Docker for Windows Server",
+        "question": "Which virtualization technology does Docker for Windows Server use?",
+        "options": {
+            "A": "Hyper-V",
+            "B": "VirtualBox",
+            "C": "HyperKit",
+            "D": "VMware"
+        },
+        "answer": "Hyper-V",
+        "explanation": "Docker for Windows Server uses Hyper-V, a native Windows virtualization technology, to run Docker containers."
+    },
+    {
+        "QN": "136",
+        "type": "Container Image Signing",
+        "question": "What is the purpose of Docker Content Trust (DCT)?",
+        "options": {
+            "A": "To encrypt container data",
+            "B": "To verify the authenticity of Docker images",
+            "C": "To monitor container performance",
+            "D": "To manage Docker networks"
+        },
+        "answer": "To verify the authenticity of Docker images",
+        "explanation": "Docker Content Trust (DCT) ensures the authenticity and integrity of Docker images by verifying their digital signatures."
+    },
+    {
+        "QN": "137",
+        "type": "Container Image Signing",
+        "question": "Which command is used to enable Docker Content Trust?",
+        "options": {
+            "A": "docker trust enable",
+            "B": "export DOCKER_CONTENT_TRUST=1",
+            "C": "docker content-trust on",
+            "D": "docker enable trust"
+        },
+        "answer": "export DOCKER_CONTENT_TRUST=1",
+        "explanation": "The command 'export DOCKER_CONTENT_TRUST=1' is used to enable Docker Content Trust, ensuring that only signed images are used."
+    },
+    {
+        "QN": "138",
+        "type": "Serverless AI/ML",
+        "question": "How does Docker support serverless AI/ML workloads?",
+        "options": {
+            "A": "By packaging AI/ML models as containers",
+            "B": "By managing GPU resources",
+            "C": "By simplifying the deployment of serverless functions",
+            "D": "All of the above"
+        },
+        "answer": "All of the above",
+        "explanation": "Docker supports serverless AI/ML workloads by packaging AI/ML models as containers, managing GPU resources, and simplifying the deployment of serverless functions."
+    },
+    {
+        "QN": "139",
+        "type": "Serverless AI/ML",
+        "question": "Which tool integrates Docker with serverless AI/ML frameworks?",
+        "options": {
+            "A": "Kubernetes",
+            "B": "AWS Lambda",
+            "C": "OpenFaaS",
+            "D": "Docker Swarm"
+        },
+        "answer": "OpenFaaS",
+        "explanation": "OpenFaaS (Open Function as a Service) integrates Docker with serverless AI/ML frameworks, allowing you to run functions as Docker containers."
+    }
+]

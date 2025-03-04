@@ -1,0 +1,317 @@
+[
+    {
+        "QN":"26",
+        "type": "mcq", 
+        "question": "What is the capital of France?", 
+        "options": {
+            "A": "Berlin", 
+            "B": "Madrid", 
+            "C": "Paris", 
+            "D":"Rome"
+        }, 
+        "answer": "Paris",
+        "explanation": ""
+    },{
+        "QN": "01",
+        "type": "mcq",
+        "question": "What is Dart programming language?",
+        "options": {
+            "A": "A programming language used for web development",
+            "B": "A programming language used for mobile app development",
+            "C": "A programming language used for game development",
+            "D": "A programming language used for database management"
+
+        },
+        "answer": "A programming language used for mobile app development",
+        "explanation": "Dart is a general-purpose programming language that is mainly used for developing mobile applications. It was developed by Google in 2011."
+    }, {
+        "QN": "02",
+        "type": "mcq",
+        "question": "Which of the following is a characteristic of Dart programming language?",
+        "options":{
+            "A": "Statically typed",
+            "B": "Dynamically typed",
+            "C": "Both (a) and (b)",
+            "D": "None of the above"
+        },
+        "answer": "Both (a) and (b)",
+        "explanation": "Dart is a statically typed language, which means that variable types are known at compile time. It is also a dynamically typed language, which means that variable types can be inferred at runtime."
+    }, {
+        "QN": "03",
+        "type": "mcq",
+        "question": "Which of the following is not a feature of Dart programming language?",
+        "options":{
+            "A": "Asynchronous programming support",
+            "B": "Garbage collection",
+            "C": "Functional programming support",
+            "D": "Multithreading"
+            
+        },
+        "answer": "Multithreading",
+        "explanation": "Dart does not support multithreading, but it does support isolates, which are similar to threads but are lighter weight and do not share memory."
+    }, {
+        "QN": "04",
+        "type": "mcq",
+        "question": "Which of the following is the correct syntax for defining a variable in Dart?",
+        "options":{
+            "A": "var x = 5;",
+            "B": "x = 5;",
+            "C": "int x = 5;",
+            "D": "variable x = 5;"
+        },
+        "answer": "var x = 5;",
+        "explanation": "In Dart, variables can be defined using the \"var\" keyword, followed by the variable name and its initial value."
+    }, {
+        "QN": "05",
+        "type": "mcq",
+        "question": "What is the purpose of the \"final\" keyword in Dart?",
+        "options":{
+            "A": "To define a constant variable",
+            "B": "To define a variable that cannot be changed after its initial assignment",
+            "C": "To define a variable that can only be accessed within its scope",
+            "D": "To define a variable that can be accessed from any scope"
+        },
+        "answer": "To define a variable that cannot be changed after its initial assignment",
+        "explanation": "The \"final\" keyword in Dart is used to define a variable that cannot be changed after its initial assignment."
+    }, {
+        "QN": "06",
+        "type": "mcq",
+        "question": "What is the purpose of the \"const\" keyword in Dart?",
+        "options":{
+            "A": "To define a constant variable",
+            "B": "To define a variable that cannot be changed after its initial assignment",
+            "C": "To define a variable that can only be accessed within its scope",
+            "D": "To define a variable that can be accessed from any scope"
+        },
+        "answer": "To define a constant variable",
+        "explanation": "The \"const\" keyword in Dart is used to define a constant variable that cannot be changed after its initial assignment."
+    }, {
+        "QN": "07",
+        "type": "mcq",
+        "question": "Which of the following is the correct syntax for defining a function in Dart?",
+        "options":{
+            "A": "function foo() {}",
+            "B": "void foo() {}",
+            "C": "int foo() {}",
+            "D": "dynamic foo() {}"
+        },
+        "answer": "void foo() {}",
+        "explanation": "In Dart, functions are defined using the \"void\" keyword (if the function does not return a value), followed by the function name and its parameters."
+    }, {
+        "QN": "08",
+        "type": "mcq",
+        "question": "What is the purpose of the \"async\" keyword in Dart?",
+        "options":{
+            "A": "To define a function that returns a Future",
+            "B": "To define a function that can be run in a separate isolate",
+            "C": "To define a function that can be run in a separate thread",
+            "D": "To define a function that can be run concurrently with other functions"
+        },
+        "answer": "To define a function that returns a Future",
+        "explanation": "The \"async\" keyword in Dart is used to define a function that returns a Future, which can be used to handle asynchronous operations."
+    }, {
+        "QN": "09",
+        "type": "mcq",
+        "question": "Which of the following is the correct syntax for a for loop in Dart?",
+        "options":{
+            "A": "for (var i = 0; i < 10; i++) {}",
+            "B": "for (i = 0; i < 10; i++) {}",
+            "C": "for (var i; i < 10; i++) {}",
+            "D": "for (i = 0; i < 10)"
+        },
+        "answer": "for (var i = 0; i < 10; i++) {}",
+        "explanation": "In Dart, a for loop is defined using the \"for\" keyword, followed by the loop initialization, condition, and update statements, enclosed in parentheses."
+    }, {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What is the purpose of the \"break\" keyword in Dart?",
+        "options":{
+            "A": "To terminate a loop or switch statement",
+            "B": "To exit a function",
+            "C": "To jump to the beginning of a loop",
+            "D": "To skip a single iteration of a loop"
+        },
+        "answer": "To terminate a loop or switch statement",
+        "explanation": "The \"break\" keyword in Dart is used to terminate a loop or switch statement and immediately exit to the next statement after the loop or switch."
+    }, {
+        "QN": "11",
+        "type": "mcq",
+        "question": "What is the purpose of the \"continue\" keyword in Dart?",
+        "options":{
+            "A": "To terminate a loop or switch statement",
+            "B": "To exit a function",
+            "C": "To jump to the beginning of a loop",
+            "D": "To skip a single iteration of a loop"
+        },
+        "answer": "To skip a single iteration of a loop",
+        "explanation": "The \"continue\" keyword in Dart is used to skip the current iteration of a loop and proceed with the next iteration."
+    }, {
+        "QN": "12",
+        "type": "mcq",
+        "question": "Which of the following is the correct syntax for a switch statement in Dart?",
+        "options":{
+            "A": "switch (x) {}",
+            "B": "switch (x) case 1: {}",
+            "C": "switch (x) {case 1: break;}",
+            "D": "switch (x) {case 1: break; default: break;}"
+        },
+        "answer": "switch (x) {case 1: break; default: break;}",
+        "explanation": "In Dart, a switch statement is defined using the \"switch\" keyword, followed by the value being switched on, enclosed in parentheses. Each case is defined using the \"case\" keyword, followed by the case value and a colon. The \"default\" keyword is used to define the default case."
+    }, {
+        "QN": "13",
+        "type": "mcq",
+        "question": "What is Dart?",
+        "options":{
+            "A": "A programming language",
+            "B": "A web development framework",
+            "C": "A database management system",
+            "D": "A hardware device"
+        },
+        "answer": "A programming language",
+        "explanation": "Dart is a programming language developed by Google, designed for building scalable and high-performance applications for web, mobile, and desktop platforms."
+    }, {
+        "QN": "14",
+        "type": "mcq",
+        "question": "Which of the following is not a feature of Dart?",
+        "options":{
+            "A": "Type inference",
+            "B": "Asynchronous programming",
+            "C": "Garbage collection",
+            "D": "Block-level scope"
+        },
+        "answer": "Block-level scope",
+        "explanation": "Dart supports block-level scope, but it is not considered a unique feature of the language as it is also available in many other programming languages."
+    }, {
+        "QN": "15",
+        "type": "mcq",
+        "question": "What is the syntax for declaring a variable in Dart?",
+        "options":{
+            "A": "var variableName;",
+            "B": "let variableName;",
+            "C": "const variableName;",
+            "D": "int variableName;"
+        },
+        "answer": "var variableName;",
+        "explanation": "In Dart, the keyword \"var\" is used to declare a variable without specifying its type explicitly. The variable type is inferred based on the value assigned to it."
+    }, {
+        "QN": "16",
+        "type": "mcq",
+        "question": "What is the output of the following Dart code?\n  void main() {\n  int x = 10;\n  if (x > 5) {\n  print(\"x is greater than 5\");\n  } else {\n  print(\"x is less than or equal to 5\");\n  }\n  }",
+        "options":{
+            "A": "x is greater than 5",
+            "B": "x is less than or equal to 5",
+            "C": "Compilation error",
+            "D": "Runtime error"
+        },
+        "answer": "x is greater than 5",
+        "explanation": "The value of the variable \"x\" is 10, which is greater than 5. Therefore, the output of the program will be \"x is greater than 5\"."
+    }, {
+        "QN": "17",
+        "type": "mcq",
+        "question": "What is the output of the following Dart code?\n  void main() {\n  int x = 10;\n  switch (x) {\n  case 5:\n  print(\"x is equal to 5\");\n  break;\n  case 10:\n  print(\"x is equal to 10\");\n  break;\n  default:\n  print(\"x is not equal to 5 or 10\");\n  break;\n  }\n  }",
+        "options":{
+            "A": "x is equal to 5",
+            "B": "x is equal to 10",
+            "C": "x is not equal to 5 or 10",
+            "D": "Compilation error"
+        },
+        "answer": "x is equal to 10",
+        "explanation": "The value of the variable \"x\" is 10, which matches the \"case 10\" statement in the switch statement. Therefore, the output of the program will be \"x is equal to 10\"."
+    }, {
+        "QN": "18",
+        "type": "mcq",
+        "question": "Which of the following operators is used for null-aware access in Dart?",
+        "options":{
+            "A": "==",
+            "B": "!=",
+            "C": "?.",
+            "D": "!!"
+        },
+        "answer": "?.",
+        "explanation": "The null-aware access operator \"?.\" is used to access a property or method of an object that may be null without causing a runtime error."
+    }, {
+        "QN": "19",
+        "type": "mcq",
+        "question": "Which of the following is a valid way to define a function in Dart?",
+        "options":{
+            "A": "function sum(int a, int b) => a + b;",
+            "B": "def sum(int a, int b) { return a + b; }",
+            "C": "void sum(int a, int b) { print(a + b); }",
+            "D": "function sum(int a, int b) { return a + b; }"
+        },
+        "answer": "function sum(int a, int b) => a + b;",
+        "explanation": "The syntax \"function sum(int a, int b) => a + b;\" is a valid way to define a function in Dart. It is called an arrow function, and it is a shorthand way to define a function that returns a single expression."
+    }, {
+        "QN": "20",
+        "type": "mcq",
+        "question": "What is the output of the following Dart code?\n  void main() {\n  List<int> numbers = [1, 2, 3, 4, 5];\n  for (int number in numbers) {\n  if (number % 2 == 0) {\n  continue;\n  }\n  print(number);\n  }\n  }",
+        "options":{
+            "A": "1, 3, 5",
+            "B": "2, 4",
+            "C": "1, 2, 3, 4, 5",
+            "D": "Compilation error"
+        },
+        "answer": "1, 3, 5",
+        "explanation": "The code uses a for loop to iterate over the elements of the \"numbers\" list. If the current number is even, the \"continue\" keyword is used to skip the remaining statements in the loop and move on to the next iteration. Therefore, only the odd numbers (1, 3, and 5) will be printed."
+    }, {
+        "QN": "21",
+        "type": "mcq",
+        "question": "What is the output of the following Dart code?\n   void main() {\n   int x = 5;\n   while (x > 0) {\n   print(x);\n   x-;\n   }\n   }",
+        "options":{
+            "A": "5, 4, 3, 2, 1",
+            "B": "1, 2, 3, 4, 5",
+            "C": "0, 1, 2, 3, 4",
+            "D": "Compilation error"
+        },
+        "answer": "5, 4, 3, 2, 1",
+        "explanation": "The code uses a while loop to print the value of the variable \"x\" while it is greater than 0. The value of \"x\" starts at 5, and it is decremented by 1 in each iteration of the loop. Therefore, the output of the program will be \"5, 4, 3, 2, 1\"."
+    }, {
+        "QN": "22",
+        "type": "mcq",
+        "question": "What is the output of the following Dart code? \n  void main() { \n  int x = 10; \n  do { \n  print(x); \n  x-; \n  } while (x > 0); \n  }",
+        "options":{
+            "A": "10, 9, 8, 7, 6, 5, 4, 3, 2, 1",
+            "B": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+            "C": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9",
+            "D": "Compilation error"
+        },
+        "answer": "10, 9, 8, 7, 6, 5, 4, 3, 2, 1",
+        "explanation": "The code uses a do-while loop to print the value of the variable \"x\" while it is greater than 0. The value of \"x\" starts at 10, and it is decremented by 1 in each iteration of the loop. The do-while loop guarantees that the loop will execute at least once, even if the condition is false. Therefore, the output of the program will be \"10, 9, 8, 7, 6, 5, 4, 3, 2, 1\"."
+    }, {
+        "QN": "23",
+        "type": "mcq",
+        "question": "What is the output of the following Dart code?\n  void main() {\n  List<String> fruits = ['apple', 'banana', 'cherry', 'durian'];\n  fruits.removeAt(1);\n  print(fruits);\n  }",
+        "options":{
+            "A": "['apple', 'cherry', 'durian']",
+            "B": "['apple', 'cherry']",
+            "C": "['banana', 'cherry', 'durian']",
+            "D": "Compilation error"
+        },
+        "answer": "['apple', 'cherry', 'durian']",
+        "explanation": "The code declares a list of strings named \"fruits\" and initializes it with four values. The \"removeAt\" method is then called with an index of 1 to remove the second element of the list (which is \"banana\"). Finally, the \"print\" method is called to display the updated list. Therefore, the output of the program will be \"['apple', 'cherry', 'durian']\"."
+    }, {
+        "QN": "24",
+        "type": "mcq",
+        "question": "What is the output of the following Dart code? \n  void main() { \n  List<String> fruits = ['apple', 'banana', 'cherry', 'durian']; \n  fruits.remove('cherry'); \n  print(fruits); \n  }",
+        "options":{
+            "A": "['apple', 'banana', 'durian']",
+            "B": "['apple', 'banana', 'cherry', 'durian']",
+            "C": "['banana', 'cherry', 'durian']",
+            "D": "Compilation error"
+        },
+        "answer": "['apple', 'banana', 'durian']",
+        "explanation": "The code declares a list of strings named \"fruits\" and initializes it with four values. The \"remove\" method is then called with the value \"cherry\" to remove it from the list. Finally, the \"print\" method is called to display the updated list. Therefore, the output of the program will be \"['apple', 'banana', 'durian']\"."
+    }, {
+        "QN": "25",
+        "type": "mcq",
+        "question": "What is the output of the following Dart code?\n  void main() {\n  List<String> fruits = ['apple', 'banana', 'cherry', 'durian'];\n  fruits.clear();\n  print(fruits);\n  }",
+        "options":{
+            "A": "[]",
+            "B": "null",
+            "C": "['apple', 'banana', 'cherry', 'durian']",
+            "D": "Compilation error"
+        },
+        "answer": "[]",
+        "explanation": "The code declares a list of strings named \"fruits\" and initializes it with four values. The \"clear\" method is then called to remove all elements from the list. Finally, the \"print\" method is called to display the updated list, which is now empty. Therefore, the output of the program will be \"[]\"."
+    }
+]
