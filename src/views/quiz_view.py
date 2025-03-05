@@ -2,8 +2,6 @@ import flet as ft
 import json
 import random
 
-ft.TextStyle()
-
 
 class Question:
     def __init__(self, question):
@@ -27,24 +25,17 @@ class MCQQuestion(Question):
         for key, option in options.items():
             column.controls.append(ft.Row(
                 controls=[
-                    ft.Radio(value=option),
-                    ft.Container(
-                        content=ft.Text(option, text_align=ft.TextAlign.LEFT, 
-                            no_wrap=False,
-                            max_lines=5,
-                            width=self.page.width
-                        ),
-                        padding=10,
-                        margin=5,
-                        border_radius=5,
-                        bgcolor=ft.Colors.PINK_100,
-                        width=300
+                    ft.Radio(value=option, width=30),
+                    ft.Text(option, text_align=ft.TextAlign.LEFT, 
+                        no_wrap=False,
+                        width=self.page.window.width-90,
+                        
+                        
                     )
                 ],
-                # width=360,
                 spacing=0
-            )
-            )
+            ))
+            column.controls.append(ft.Divider(color="#06b7bd"))
 
         # Create a RadioGroup with an on_change callback to update selected_option
         self.radio_group = ft.RadioGroup(
@@ -59,7 +50,7 @@ class MCQQuestion(Question):
             border_radius=5,
             expand=True,
             bgcolor=ft.Colors.WHITE,
-            width=360
+            width=self.page.window.width
         )
 
     def get_answer(self):

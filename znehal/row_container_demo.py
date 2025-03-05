@@ -2,22 +2,18 @@ import flet as ft
 
 
 def main(page: ft.Page):
+    page.bgcolor='green'
+    page.window.width = 500
     cc = ft.Row(
         controls=[
-            ft.Radio(),
-            ft.Row(
-                controls=[
-                    ft.Container(
-                        content=ft.Text('nehal adfas  afas  adfa  afdas  afasf    fadasf   asfaf  a faf   fdf', no_wrap=False),
-                        width=300,
-                        bgcolor='green'
-                    ),
-                ],
-                scroll=True,
-
+            ft.Radio(width=20),
+            ft.Container(
+                content=ft.Text('nehal adfadsaf  adsfsa afdsa  asf fds aas  afaas  afasf    fdf', no_wrap=False),
+                width=page.width-20
             ),
         ],
-    )
+        # width=30,
+    ) 
 
     page.add(cc)
 
