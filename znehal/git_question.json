@@ -1,0 +1,2602 @@
+[
+    {
+        "QN": 1,
+        "type": "mcq",
+        "question": "Which command is used to initialize a new Git repository?",
+        "options": {
+            "A": "git start",
+            "B": "git init",
+            "C": "git create",
+            "D": "git new"
+        },
+        "answer": "B",
+        "explanation": "The 'git init' command is used to initialize a new Git repository. It creates a new .git subdirectory in the current working directory."
+    },
+    {
+        "QN": 2,
+        "type": "mcq",
+        "question": "What does the 'git add' command do?",
+        "options": {
+            "A": "Commits changes to the repository",
+            "B": "Adds files to the staging area",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git add' command adds changes in the working directory to the staging area, preparing them for the next commit."
+    },
+    {
+        "QN": 3,
+        "type": "mcq",
+        "question": "Which command is used to commit changes with a message?",
+        "options": {
+            "A": "git commit -m",
+            "B": "git save -m",
+            "C": "git update -m",
+            "D": "git push -m"
+        },
+        "answer": "A",
+        "explanation": "The 'git commit -m' command is used to commit changes with a message. The message describes the changes made in the commit."
+    },
+    {
+        "QN": 4,
+        "type": "mcq",
+        "question": "What does the 'git status' command show?",
+        "options": {
+            "A": "The current branch",
+            "B": "The commit history",
+            "C": "The status of the working directory and staging area",
+            "D": "The remote repositories"
+        },
+        "answer": "C",
+        "explanation": "The 'git status' command shows the status of the working directory and the staging area, including which changes are staged, unstaged, and untracked."
+    },
+    {
+        "QN": 5,
+        "type": "mcq",
+        "question": "Which command is used to switch to a different branch?",
+        "options": {
+            "A": "git switch",
+            "B": "git checkout",
+            "C": "git change",
+            "D": "git branch"
+        },
+        "answer": "B",
+        "explanation": "The 'git checkout' command is used to switch to a different branch. It updates the files in the working directory to match the version in the specified branch."
+    },
+    {
+        "QN": 6,
+        "type": "mcq",
+        "question": "What does the 'git push' command do?",
+        "options": {
+            "A": "Downloads changes from a remote repository",
+            "B": "Uploads changes to a remote repository",
+            "C": "Creates a new branch",
+            "D": "Merges branches"
+        },
+        "answer": "B",
+        "explanation": "The 'git push' command uploads local repository content to a remote repository, sharing the changes with others."
+    },
+    {
+        "QN": 7,
+        "type": "mcq",
+        "question": "Which command is used to create a new branch?",
+        "options": {
+            "A": "git create",
+            "B": "git branch",
+            "C": "git new",
+            "D": "git switch"
+        },
+        "answer": "B",
+        "explanation": "The 'git branch' command is used to create a new branch. It creates a new branch pointer but does not switch to it."
+    },
+    {
+        "QN": 8,
+        "type": "mcq",
+        "question": "What does the 'git pull' command do?",
+        "options": {
+            "A": "Uploads changes to a remote repository",
+            "B": "Downloads changes from a remote repository",
+            "C": "Creates a new branch",
+            "D": "Merges branches"
+        },
+        "answer": "B",
+        "explanation": "The 'git pull' command downloads changes from a remote repository and integrates them into the current branch."
+    },
+    {
+        "QN": 9,
+        "type": "mcq",
+        "question": "Which command is used to view the commit history?",
+        "options": {
+            "A": "git log",
+            "B": "git history",
+            "C": "git commits",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git log' command is used to view the commit history. It shows a list of commits made in the repository."
+    },
+    {
+        "QN": 10,
+        "type": "mcq",
+        "question": "What does the 'git merge' command do?",
+        "options": {
+            "A": "Creates a new branch",
+            "B": "Combines changes from different branches",
+            "C": "Deletes a branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git merge' command combines changes from different branches. It integrates changes from one branch into another."
+    },
+    {
+        "QN": 11,
+        "type": "mcq",
+        "question": "Which command is used to delete a branch?",
+        "options": {
+            "A": "git delete",
+            "B": "git remove",
+            "C": "git branch -d",
+            "D": "git branch -r"
+        },
+        "answer": "C",
+        "explanation": "The 'git branch -d' command is used to delete a branch. It deletes the specified branch if it has been fully merged."
+    },
+    {
+        "QN": 12,
+        "type": "mcq",
+        "question": "What does the 'git clone' command do?",
+        "options": {
+            "A": "Creates a new branch",
+            "B": "Copies a remote repository to your local machine",
+            "C": "Merges branches",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git clone' command copies a remote repository to your local machine, creating a working directory with the repository's contents."
+    },
+    {
+        "QN": 13,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area, showing what has changed but not yet staged."
+    },
+    {
+        "QN": 14,
+        "type": "mcq",
+        "question": "What does the 'git reset' command do?",
+        "options": {
+            "A": "Undoes changes in the working directory",
+            "B": "Moves the HEAD pointer to a different commit",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git reset' command moves the HEAD pointer to a different commit, optionally resetting the staging area and working directory to match."
+    },
+    {
+        "QN": 15,
+        "type": "mcq",
+        "question": "Which command is used to apply changes from a specific commit?",
+        "options": {
+            "A": "git apply",
+            "B": "git cherry-pick",
+            "C": "git patch",
+            "D": "git merge"
+        },
+        "answer": "B",
+        "explanation": "The 'git cherry-pick' command is used to apply changes from a specific commit to the current branch."
+    },
+    {
+        "QN": 16,
+        "type": "mcq",
+        "question": "What does the 'git rebase' command do?",
+        "options": {
+            "A": "Merges branches",
+            "B": "Reapplies commits on top of another base tip",
+            "C": "Deletes a branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git rebase' command reapplies commits on top of another base tip, allowing for a linear project history."
+    },
+    {
+        "QN": 17,
+        "type": "mcq",
+        "question": "Which command is used to list all remote repositories?",
+        "options": {
+            "A": "git remote -v",
+            "B": "git list",
+            "C": "git show",
+            "D": "git log"
+        },
+        "answer": "A",
+        "explanation": "The 'git remote -v' command is used to list all remote repositories, showing their URLs."
+    },
+    {
+        "QN": 18,
+        "type": "mcq",
+        "question": "What does the 'git fetch' command do?",
+        "options": {
+            "A": "Uploads changes to a remote repository",
+            "B": "Downloads changes from a remote repository",
+            "C": "Creates a new branch",
+            "D": "Merges branches"
+        },
+        "answer": "B",
+        "explanation": "The 'git fetch' command downloads changes from a remote repository but does not integrate them into the current branch."
+    },
+    {
+        "QN": 19,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two branches, showing what has changed between them."
+    },
+    {
+        "QN": 20,
+        "type": "mcq",
+        "question": "What does the 'git stash' command do?",
+        "options": {
+            "A": "Saves changes in a dirty working directory",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git stash' command saves changes in a dirty working directory, allowing you to switch branches without committing the changes."
+    },
+    {
+        "QN": 21,
+        "type": "mcq",
+        "question": "Which command is used to apply stashed changes?",
+        "options": {
+            "A": "git apply",
+            "B": "git stash apply",
+            "C": "git patch",
+            "D": "git merge"
+        },
+        "answer": "B",
+        "explanation": "The 'git stash apply' command is used to apply stashed changes to the working directory."
+    },
+    {
+        "QN": 22,
+        "type": "mcq",
+        "question": "What does the 'git tag' command do?",
+        "options": {
+            "A": "Creates a new branch",
+            "B": "Marks a specific point in history as important",
+            "C": "Deletes a branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git tag' command marks a specific point in history as important, typically used for marking release points."
+    },
+    {
+        "QN": 23,
+        "type": "mcq",
+        "question": "Which command is used to view the changes introduced by a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git show",
+            "C": "git log",
+            "D": "git status"
+        },
+        "answer": "B",
+        "explanation": "The 'git show' command is used to view the changes introduced by a specific commit."
+    },
+    {
+        "QN": 24,
+        "type": "mcq",
+        "question": "What does the 'git bisect' command do?",
+        "options": {
+            "A": "Merges branches",
+            "B": "Finds the commit that introduced a bug",
+            "C": "Deletes a branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git bisect' command uses binary search to find the commit that introduced a bug."
+    },
+    {
+        "QN": 25,
+        "type": "mcq",
+        "question": "Which command is used to rename a branch?",
+        "options": {
+            "A": "git branch -m",
+            "B": "git rename",
+            "C": "git switch",
+            "D": "git change"
+        },
+        "answer": "A",
+        "explanation": "The 'git branch -m' command is used to rename a branch."
+    },
+    {
+        "QN": 26,
+        "type": "mcq",
+        "question": "What does the 'git clean' command do?",
+        "options": {
+            "A": "Removes untracked files from the working directory",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git clean' command removes untracked files from the working directory."
+    },
+    {
+        "QN": 27,
+        "type": "mcq",
+        "question": "Which command is used to view the configuration settings?",
+        "options": {
+            "A": "git config --list",
+            "B": "git show",
+            "C": "git log",
+            "D": "git status"
+        },
+        "answer": "A",
+        "explanation": "The 'git config --list' command is used to view the configuration settings."
+    },
+    {
+        "QN": 28,
+        "type": "mcq",
+        "question": "What does the 'git revert' command do?",
+        "options": {
+            "A": "Undoes a specific commit by creating a new commit",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git revert' command undoes a specific commit by creating a new commit that reverses the changes."
+    },
+    {
+        "QN": 29,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 30,
+        "type": "mcq",
+        "question": "What does the 'git reflog' command do?",
+        "options": {
+            "A": "Shows a log of all reference updates",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reflog' command shows a log of all reference updates, including branch checkouts and resets."
+    },
+    {
+        "QN": 31,
+        "type": "mcq",
+        "question": "Which command is used to create a new tag?",
+        "options": {
+            "A": "git tag",
+            "B": "git create",
+            "C": "git new",
+            "D": "git switch"
+        },
+        "answer": "A",
+        "explanation": "The 'git tag' command is used to create a new tag."
+    },
+    {
+        "QN": 32,
+        "type": "mcq",
+        "question": "What does the 'git blame' command do?",
+        "options": {
+            "A": "Shows who last modified each line of a file",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git blame' command shows who last modified each line of a file and when."
+    },
+    {
+        "QN": 33,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two commits?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two commits."
+    },
+    {
+        "QN": 34,
+        "type": "mcq",
+        "question": "What does the 'git archive' command do?",
+        "options": {
+            "A": "Creates an archive of files from a named tree",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git archive' command creates an archive of files from a named tree, typically used for creating release tarballs."
+    },
+    {
+        "QN": 35,
+        "type": "mcq",
+        "question": "Which command is used to view the changes made in the last commit?",
+        "options": {
+            "A": "git show",
+            "B": "git log",
+            "C": "git status",
+            "D": "git diff"
+        },
+        "answer": "A",
+        "explanation": "The 'git show' command is used to view the changes made in the last commit."
+    },
+    {
+        "QN": 36,
+        "type": "mcq",
+        "question": "What does the 'git submodule' command do?",
+        "options": {
+            "A": "Manages submodules within a repository",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git submodule' command manages submodules within a repository, allowing you to include other repositories as subdirectories."
+    },
+    {
+        "QN": 37,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the last commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the last commit."
+    },
+    {
+        "QN": 38,
+        "type": "mcq",
+        "question": "What does the 'git grep' command do?",
+        "options": {
+            "A": "Searches for a string in the repository",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git grep' command searches for a string in the repository, including all tracked files."
+    },
+    {
+        "QN": 39,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the working directory?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the staging area and the working directory."
+    },
+    {
+        "QN": 40,
+        "type": "mcq",
+        "question": "What does the 'git fsck' command do?",
+        "options": {
+            "A": "Verifies the integrity of the repository",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git fsck' command verifies the integrity of the repository, checking for corrupted objects."
+    },
+    {
+        "QN": 41,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two branches."
+    },
+    {
+        "QN": 42,
+        "type": "mcq",
+        "question": "What does the 'git rebase --interactive' command do?",
+        "options": {
+            "A": "Allows interactive rebasing",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --interactive' command allows interactive rebasing, enabling you to edit, reorder, and squash commits."
+    },
+    {
+        "QN": 43,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 44,
+        "type": "mcq",
+        "question": "What does the 'git cherry-pick' command do?",
+        "options": {
+            "A": "Applies changes from a specific commit",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git cherry-pick' command applies changes from a specific commit to the current branch."
+    },
+    {
+        "QN": 45,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and a specific commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and a specific commit."
+    },
+    {
+        "QN": 46,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard' command do?",
+        "options": {
+            "A": "Resets the working directory and staging area to match the last commit",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard' command resets the working directory and staging area to match the last commit, discarding all changes."
+    },
+    {
+        "QN": 47,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific commits?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific commits."
+    },
+    {
+        "QN": 48,
+        "type": "mcq",
+        "question": "What does the 'git rebase --continue' command do?",
+        "options": {
+            "A": "Continues an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --continue' command continues an interrupted rebase after resolving conflicts."
+    },
+    {
+        "QN": 49,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 50,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft' command do?",
+        "options": {
+            "A": "Resets the HEAD to a specific commit without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft' command resets the HEAD to a specific commit without changing the working directory or staging area."
+    },
+    {
+        "QN": 51,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 52,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to a specific commit",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed' command resets the HEAD and staging area to a specific commit, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 53,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 54,
+        "type": "mcq",
+        "question": "What does the 'git rebase --abort' command do?",
+        "options": {
+            "A": "Aborts an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --abort' command aborts an interrupted rebase, restoring the repository to its state before the rebase started."
+    },
+    {
+        "QN": 55,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 56,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~1' command do?",
+        "options": {
+            "A": "Resets the HEAD to the previous commit, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~1' command resets the HEAD to the previous commit, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 57,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 58,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~1' command do?",
+        "options": {
+            "A": "Resets the HEAD to the previous commit without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~1' command resets the HEAD to the previous commit without changing the working directory or staging area."
+    },
+    {
+        "QN": 59,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 60,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~1' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to the previous commit",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~1' command resets the HEAD and staging area to the previous commit, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 61,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 62,
+        "type": "mcq",
+        "question": "What does the 'git rebase --skip' command do?",
+        "options": {
+            "A": "Skips the current commit during a rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --skip' command skips the current commit during a rebase, typically used when a conflict cannot be resolved."
+    },
+    {
+        "QN": 63,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 64,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~2' command do?",
+        "options": {
+            "A": "Resets the HEAD to two commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~2' command resets the HEAD to two commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 65,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 66,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~2' command do?",
+        "options": {
+            "A": "Resets the HEAD to two commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~2' command resets the HEAD to two commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 67,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 68,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~2' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to two commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~2' command resets the HEAD and staging area to two commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 69,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 70,
+        "type": "mcq",
+        "question": "What does the 'git rebase --continue' command do?",
+        "options": {
+            "A": "Continues an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --continue' command continues an interrupted rebase after resolving conflicts."
+    },
+    {
+        "QN": 71,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 72,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~3' command do?",
+        "options": {
+            "A": "Resets the HEAD to three commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~3' command resets the HEAD to three commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 73,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 74,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~3' command do?",
+        "options": {
+            "A": "Resets the HEAD to three commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~3' command resets the HEAD to three commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 75,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 76,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~3' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to three commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~3' command resets the HEAD and staging area to three commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 77,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 78,
+        "type": "mcq",
+        "question": "What does the 'git rebase --abort' command do?",
+        "options": {
+            "A": "Aborts an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --abort' command aborts an interrupted rebase, restoring the repository to its state before the rebase started."
+    },
+    {
+        "QN": 79,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 80,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~4' command do?",
+        "options": {
+            "A": "Resets the HEAD to four commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~4' command resets the HEAD to four commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 81,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 82,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~4' command do?",
+        "options": {
+            "A": "Resets the HEAD to four commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~4' command resets the HEAD to four commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 83,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 84,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~4' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to four commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~4' command resets the HEAD and staging area to four commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 85,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 86,
+        "type": "mcq",
+        "question": "What does the 'git rebase --skip' command do?",
+        "options": {
+            "A": "Skips the current commit during a rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --skip' command skips the current commit during a rebase, typically used when a conflict cannot be resolved."
+    },
+    {
+        "QN": 87,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 88,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~5' command do?",
+        "options": {
+            "A": "Resets the HEAD to five commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~5' command resets the HEAD to five commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 89,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 90,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~5' command do?",
+        "options": {
+            "A": "Resets the HEAD to five commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~5' command resets the HEAD to five commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 91,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 92,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~5' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to five commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~5' command resets the HEAD and staging area to five commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 93,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 94,
+        "type": "mcq",
+        "question": "What does the 'git rebase --continue' command do?",
+        "options": {
+            "A": "Continues an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --continue' command continues an interrupted rebase after resolving conflicts."
+    },
+    {
+        "QN": 95,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 96,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~6' command do?",
+        "options": {
+            "A": "Resets the HEAD to six commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~6' command resets the HEAD to six commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 97,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 98,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~6' command do?",
+        "options": {
+            "A": "Resets the HEAD to six commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~6' command resets the HEAD to six commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 99,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 100,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~6' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to six commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~6' command resets the HEAD and staging area to six commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 101,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 102,
+        "type": "mcq",
+        "question": "What does the 'git rebase --abort' command do?",
+        "options": {
+            "A": "Aborts an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --abort' command aborts an interrupted rebase, restoring the repository to its state before the rebase started."
+    },
+    {
+        "QN": 103,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 104,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~7' command do?",
+        "options": {
+            "A": "Resets the HEAD to seven commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~7' command resets the HEAD to seven commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 105,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 106,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~7' command do?",
+        "options": {
+            "A": "Resets the HEAD to seven commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~7' command resets the HEAD to seven commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 107,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 108,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~7' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to seven commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~7' command resets the HEAD and staging area to seven commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 109,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 110,
+        "type": "mcq",
+        "question": "What does the 'git rebase --skip' command do?",
+        "options": {
+            "A": "Skips the current commit during a rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --skip' command skips the current commit during a rebase, typically used when a conflict cannot be resolved."
+    },
+    {
+        "QN": 111,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 112,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~8' command do?",
+        "options": {
+            "A": "Resets the HEAD to eight commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~8' command resets the HEAD to eight commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 113,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 114,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~8' command do?",
+        "options": {
+            "A": "Resets the HEAD to eight commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~8' command resets the HEAD to eight commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 115,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 116,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~8' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to eight commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~8' command resets the HEAD and staging area to eight commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 117,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 118,
+        "type": "mcq",
+        "question": "What does the 'git rebase --continue' command do?",
+        "options": {
+            "A": "Continues an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --continue' command continues an interrupted rebase after resolving conflicts."
+    },
+    {
+        "QN": 119,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 120,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~9' command do?",
+        "options": {
+            "A": "Resets the HEAD to nine commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~9' command resets the HEAD to nine commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 121,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 122,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~9' command do?",
+        "options": {
+            "A": "Resets the HEAD to nine commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~9' command resets the HEAD to nine commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 123,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 124,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~9' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to nine commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~9' command resets the HEAD and staging area to nine commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 125,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 126,
+        "type": "mcq",
+        "question": "What does the 'git rebase --abort' command do?",
+        "options": {
+            "A": "Aborts an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --abort' command aborts an interrupted rebase, restoring the repository to its state before the rebase started."
+    },
+    {
+        "QN": 127,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 128,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~10' command do?",
+        "options": {
+            "A": "Resets the HEAD to ten commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~10' command resets the HEAD to ten commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 129,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 130,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~10' command do?",
+        "options": {
+            "A": "Resets the HEAD to ten commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~10' command resets the HEAD to ten commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 131,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 132,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~10' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to ten commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~10' command resets the HEAD and staging area to ten commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 133,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 134,
+        "type": "mcq",
+        "question": "What does the 'git rebase --skip' command do?",
+        "options": {
+            "A": "Skips the current commit during a rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --skip' command skips the current commit during a rebase, typically used when a conflict cannot be resolved."
+    },
+    {
+        "QN": 135,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 136,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~11' command do?",
+        "options": {
+            "A": "Resets the HEAD to eleven commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~11' command resets the HEAD to eleven commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 137,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 138,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~11' command do?",
+        "options": {
+            "A": "Resets the HEAD to eleven commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~11' command resets the HEAD to eleven commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 139,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 140,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~11' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to eleven commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~11' command resets the HEAD and staging area to eleven commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 141,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 142,
+        "type": "mcq",
+        "question": "What does the 'git rebase --continue' command do?",
+        "options": {
+            "A": "Continues an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --continue' command continues an interrupted rebase after resolving conflicts."
+    },
+    {
+        "QN": 143,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 144,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~12' command do?",
+        "options": {
+            "A": "Resets the HEAD to twelve commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~12' command resets the HEAD to twelve commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 145,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 146,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~12' command do?",
+        "options": {
+            "A": "Resets the HEAD to twelve commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~12' command resets the HEAD to twelve commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 147,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 148,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~12' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to twelve commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~12' command resets the HEAD and staging area to twelve commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 149,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 150,
+        "type": "mcq",
+        "question": "What does the 'git rebase --abort' command do?",
+        "options": {
+            "A": "Aborts an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --abort' command aborts an interrupted rebase, restoring the repository to its state before the rebase started."
+    },
+    {
+        "QN": 151,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 152,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~13' command do?",
+        "options": {
+            "A": "Resets the HEAD to thirteen commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~13' command resets the HEAD to thirteen commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 153,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 154,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~13' command do?",
+        "options": {
+            "A": "Resets the HEAD to thirteen commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~13' command resets the HEAD to thirteen commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 155,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 156,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~13' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to thirteen commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~13' command resets the HEAD and staging area to thirteen commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 157,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 158,
+        "type": "mcq",
+        "question": "What does the 'git rebase --skip' command do?",
+        "options": {
+            "A": "Skips the current commit during a rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --skip' command skips the current commit during a rebase, typically used when a conflict cannot be resolved."
+    },
+    {
+        "QN": 159,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 160,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~14' command do?",
+        "options": {
+            "A": "Resets the HEAD to fourteen commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~14' command resets the HEAD to fourteen commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 161,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 162,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~14' command do?",
+        "options": {
+            "A": "Resets the HEAD to fourteen commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~14' command resets the HEAD to fourteen commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 163,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 164,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~14' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to fourteen commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~14' command resets the HEAD and staging area to fourteen commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 165,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 166,
+        "type": "mcq",
+        "question": "What does the 'git rebase --continue' command do?",
+        "options": {
+            "A": "Continues an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --continue' command continues an interrupted rebase after resolving conflicts."
+    },
+    {
+        "QN": 167,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 168,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~15' command do?",
+        "options": {
+            "A": "Resets the HEAD to fifteen commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~15' command resets the HEAD to fifteen commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 169,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 170,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~15' command do?",
+        "options": {
+            "A": "Resets the HEAD to fifteen commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~15' command resets the HEAD to fifteen commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 171,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 172,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~15' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to fifteen commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~15' command resets the HEAD and staging area to fifteen commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 173,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 174,
+        "type": "mcq",
+        "question": "What does the 'git rebase --abort' command do?",
+        "options": {
+            "A": "Aborts an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --abort' command aborts an interrupted rebase, restoring the repository to its state before the rebase started."
+    },
+    {
+        "QN": 175,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 176,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~16' command do?",
+        "options": {
+            "A": "Resets the HEAD to sixteen commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~16' command resets the HEAD to sixteen commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 177,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 178,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~16' command do?",
+        "options": {
+            "A": "Resets the HEAD to sixteen commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~16' command resets the HEAD to sixteen commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 179,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 180,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~16' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to sixteen commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~16' command resets the HEAD and staging area to sixteen commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 181,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 182,
+        "type": "mcq",
+        "question": "What does the 'git rebase --skip' command do?",
+        "options": {
+            "A": "Skips the current commit during a rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --skip' command skips the current commit during a rebase, typically used when a conflict cannot be resolved."
+    },
+    {
+        "QN": 183,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 184,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~17' command do?",
+        "options": {
+            "A": "Resets the HEAD to seventeen commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~17' command resets the HEAD to seventeen commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 185,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 186,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~17' command do?",
+        "options": {
+            "A": "Resets the HEAD to seventeen commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~17' command resets the HEAD to seventeen commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 187,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 188,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~17' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to seventeen commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~17' command resets the HEAD and staging area to seventeen commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 189,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 190,
+        "type": "mcq",
+        "question": "What does the 'git rebase --continue' command do?",
+        "options": {
+            "A": "Continues an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --continue' command continues an interrupted rebase after resolving conflicts."
+    },
+    {
+        "QN": 191,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 192,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~18' command do?",
+        "options": {
+            "A": "Resets the HEAD to eighteen commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~18' command resets the HEAD to eighteen commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": 193,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area."
+    },
+    {
+        "QN": 194,
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~18' command do?",
+        "options": {
+            "A": "Resets the HEAD to eighteen commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~18' command resets the HEAD to eighteen commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": 195,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": 196,
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed HEAD~18' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to eighteen commits ago",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed HEAD~18' command resets the HEAD and staging area to eighteen commits ago, but leaves the working directory unchanged."
+    },
+    {
+        "QN": 197,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": 198,
+        "type": "mcq",
+        "question": "What does the 'git rebase --abort' command do?",
+        "options": {
+            "A": "Aborts an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --abort' command aborts an interrupted rebase, restoring the repository to its state before the rebase started."
+    },
+    {
+        "QN": 199,
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": 200,
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~19' command do?",
+        "options": {
+            "A": "Resets the HEAD to nineteen commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~19' command resets the HEAD to nineteen commits ago, discarding all changes in the working directory and staging area."
+    }
+]

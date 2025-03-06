@@ -2,8 +2,8 @@ import flet as ft
 import json
 import random
 
-my_theme_color = '#06b7bd'
-
+# self.my_theme_color = '#06b7bd'
+# ft.Ref()
 
 class Question:
     def __init__(self, question):
@@ -16,21 +16,22 @@ class Question:
         return None
 
 class MCQQuestion(Question):
-    def __init__(self, question, page:ft.Page):
+    def __init__(self, question, page:ft.Page, my_theme_color):
         super().__init__(question)
         self.page = page
         self.selected_option = None
+        self.my_theme_color = my_theme_color
 
     def display1(self, page, options):
         column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
-        column.controls.append(ft.Divider(color=my_theme_color))
+        column.controls.append(ft.Divider(color=self.my_theme_color))
         for key, option in options.items():
             column.controls.append(
                 ft.Container(
                     content=ft.Text(text=option)
                 )
             )
-            column.controls.append(ft.Divider(color=my_theme_color))
+            column.controls.append(ft.Divider(color=self.my_theme_color))
         
 
         return ft.Container(
@@ -46,7 +47,7 @@ class MCQQuestion(Question):
 
     def display(self, page, options):
         column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
-        column.controls.append(ft.Divider(color=my_theme_color))
+        column.controls.append(ft.Divider(color=self.my_theme_color))
         for key, option in options.items():
             column.controls.append(ft.Row(
                 controls=[
@@ -58,7 +59,7 @@ class MCQQuestion(Question):
                 ],
                 spacing=0
             ))
-            column.controls.append(ft.Divider(color=my_theme_color))
+            column.controls.append(ft.Divider(color=self.my_theme_color))
 
         # Create a RadioGroup with an on_change callback to update selected_option
         self.radio_group = ft.RadioGroup(
@@ -121,23 +122,25 @@ class ShortAnswerQuestion(Question):
         return self.text_field.value if self.text_field else ""
 
 class MyOutlinedButton(ft.OutlinedButton):
-    def __init__(self, text, on_click):
+    def __init__(self, text, my_theme_color, on_click):
         super().__init__()
         self.text = text
         self.on_click = on_click
+        self.my_theme_color = my_theme_color
         self.style=ft.ButtonStyle(
             shape=ft.RoundedRectangleBorder(radius=5),
-            side=ft.BorderSide(width=1, color=my_theme_color),
+            side=ft.BorderSide(width=1, color=self.my_theme_color),
         )
         self.width=125
 
 class QuizView(ft.View):
-    def __init__(self, page: ft.Page):
+    def __init__(self, page: ft.Page, file_path:str, my_theme_color):
         super().__init__()
         self.route = "/quiz"
         self.page = page
         self.scroll = True
         self.horizontal_alignment = 'center'
+        self.my_theme_color = my_theme_color
 
         self.current_question: int = 0
         self.score: int = 0
@@ -147,14 +150,14 @@ class QuizView(ft.View):
         self.appbar = ft.AppBar(
             title=ft.Text('Quizz', size=15),
             center_title=False,
-            bgcolor=my_theme_color,
+            bgcolor=self.my_theme_color,
             actions=[
                 ft.IconButton(ft.Icons.HOME, on_click=lambda e: e.page.go('/')),
             ]
         )
 
         # Load questions once and sample a fixed set for the quiz
-        file_path = "src/assets/docker_question_new.json"
+        # file_path = "src/assets/docker_question_new.json"
         with open(file_path, 'r') as file:
             self.questions_json = json.load(file)
 
@@ -164,35 +167,37 @@ class QuizView(ft.View):
         self.current_question_widget = None
 
         # Question
+        self.question_ref = ft.Ref[ft.Text]()
+        self.question_label_ref = ft.Ref[ft.Text]()
         self.question_text = ft.Stack(
             controls=[
                 ft.Container(
-                    content=ft.Text(text_align=ft.TextAlign.LEFT, no_wrap=False, max_lines=5, width=self.page.width, size=15),
+                    content=ft.Text(text_align=ft.TextAlign.LEFT, no_wrap=False, max_lines=5, width=self.page.width, size=15, ref=self.question_ref),
                     padding=10,
                     margin=ft.margin.only(left=5, right=5, top=12, bottom=5),
                     border_radius=5,
-                    border=ft.border.all(1, my_theme_color),
+                    border=ft.border.all(1, self.my_theme_color),
                     bgcolor=ft.Colors.WHITE,
                 ),
                 ft.Container(
-                    content=ft.Text(size=12, weight=ft.FontWeight.BOLD),
+                    content=ft.Text(size=12, weight=ft.FontWeight.BOLD, ref=self.question_label_ref),
                     margin=ft.margin.only(left=15),
                     padding=ft.padding.only(left=5, right=5, bottom=3),
                     border_radius=5,
-                    border=ft.border.all(1, my_theme_color),
+                    border=ft.border.all(1, self.my_theme_color),
                     bgcolor=ft.Colors.WHITE,
                 )
             ]
         )
         # Options
         self.options = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
-        self.try_again_button = MyOutlinedButton("Try Again", on_click=self.try_again)
+        self.try_again_button = MyOutlinedButton("Try Again", self.my_theme_color, on_click=self.try_again)
         
         # Prev Nest buttons
         self.button_row = ft.Row(
             controls=[
-                MyOutlinedButton("Prev", on_click=self.prev_question), 
-                MyOutlinedButton("Next", on_click=self.next_question)
+                MyOutlinedButton("Prev", self.my_theme_color, on_click=self.prev_question), 
+                MyOutlinedButton("Next", self.my_theme_color, on_click=self.next_question)
             ], 
             alignment=ft.MainAxisAlignment.CENTER
         )
@@ -212,12 +217,12 @@ class QuizView(ft.View):
         
         # Get the current question from the pre-sampled list
         question = self.questions[self.current_question]
-        self.question_text.controls[0].content.value = question["question"]
-        self.question_text.controls[1].content.value = f'Question: {self.current_question+1}'
+        self.question_ref.current.value = question["question"]
+        self.question_label_ref.current.value = f'Question: {self.current_question+1}'
         
         q_type = question["type"]
         if q_type == "mcq":
-            q = MCQQuestion(question["question"], self.page)
+            q = MCQQuestion(question["question"], self.page, self.my_theme_color)
             widget = q.display(self.page, question["options"])
             self.options.controls.append(widget)
             self.current_question_widget = q
@@ -269,7 +274,7 @@ class QuizView(ft.View):
                         ],
                         scroll=True
                     ),
-                    border=ft.border.all(1, my_theme_color),
+                    border=ft.border.all(1, self.my_theme_color),
                     padding=10,
                     margin=5,
                     border_radius=5,

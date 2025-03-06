@@ -1,4 +1,6 @@
-Generate a list of multiple-choice questions (MCQs) about Docker in the following JSON format. Each question should cover a different aspect of Docker, such as containerization, Docker architecture, Docker commands, image management, networking, and orchestration. Please ensure that each question includes four options (A, B, C, D) and provide the correct answer along with a brief explanation for each question.
+Generate a list of multiple-choice questions (MCQs) about Docker in the following JSON format. 
+Each question should cover a different aspect of Docker, such as containerization, Docker architecture, Docker commands, image management, networking, and orchestration. 
+Please ensure that each question includes four options (A, B, C, D) and provide the correct answer along with a brief explanation for each question.
 
 json
 [

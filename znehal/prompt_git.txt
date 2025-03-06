@@ -1,0 +1,41 @@
+Generate 200 multiple-choice questions (MCQs) related to Git commands in the following JSON format:
+
+json
+[
+    {
+        "QN": "Question Number",
+        "type": "mcq",
+        "question": "Your Question Here",
+        "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+        },
+        "answer": "Correct Answer",
+        "explanation": "Explanation for the Correct Answer"
+    },
+    {
+        "QN": "Question Number",
+        "type": "mcq",
+        "question": "Your Question Here",
+        "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+        },
+        "answer": "Correct Answer",
+        "explanation": "Explanation for the Correct Answer"
+    }
+
+]
+
+Each MCQ should:
+Ensure the question is clear and relevant to Git commands.
+Focus on practical Git commands related to version control, branching, merging, rebasing, remote repositories, and conflict resolution.
+Provide four distinct answer choices (A, B, C, D), with only one correct answer.
+Specify the correct answer in the "answer" field.
+Offer a concise explanation of why the correct answer is right and why the others are incorrect.
+Cover various levels of difficulty, from basic (git init, git commit, git push) to advanced (git rebase, git cherry-pick, git bisect).
+Ensure that the questions are diverse, covering areas like staging, committing, rebasing, resolving conflicts, working with remote repositories, and Git best practices."

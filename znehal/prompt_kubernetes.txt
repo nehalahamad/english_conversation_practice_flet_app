@@ -1,0 +1,43 @@
+Please generate 100 multiple-choice question related to Kubernetes commands. The question should be in the following JSON format:
+
+json
+[
+    {
+        "QN": "Question Number",
+        "type": "mcq",
+        "question": "Your Question Here",
+        "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+        },
+        "answer": "Correct Answer",
+        "explanation": "Explanation for the Correct Answer"
+    },
+    {
+        "QN": "Question Number",
+        "type": "mcq",
+        "question": "Your Question Here",
+        "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+        },
+        "answer": "Correct Answer",
+        "explanation": "Explanation for the Correct Answer"
+    }
+
+]
+
+Instructions:
+
+Ensure the question is clear and relevant to Kubernetes commands.
+Specify the correct answer and include a brief explanation.
+Focus on practical Kubernetes commands used for managing pods, services, deployments, config maps, secrets, nodes, or troubleshooting.
+Provide four distinct answer choices (A, B, C, D), with only one correct answer.
+Include the correct answer in the "answer" field (e.g., "B").
+Offer a clear and concise explanation of why the correct option is right and why the others are wrong.
+Be varied in difficulty, from beginner to advanced.
+Ensure the questions cover a wide range of Kubernetes topics such as pod management (kubectl get pods), deployments (kubectl apply), logs (kubectl logs), scaling, context switching, and cluster administration."
