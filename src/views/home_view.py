@@ -12,7 +12,7 @@ class HomeView(ft.View):
                         ft.ListTile(
                             title=ft.Text("English Conversation Practice"), 
                             leading=ft.Image(src="icons8-english-48.png", width=40, height=40, border_radius=50),
-                            on_click=lambda _: page.go("/docker")
+                            on_click=lambda _: page.go("/ecp")
                         ),
 
                         ft.ListTile(

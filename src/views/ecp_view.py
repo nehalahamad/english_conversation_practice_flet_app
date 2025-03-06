@@ -58,11 +58,14 @@ class ECPView(ft.View):
 
         # ---------------------------------------------------------------------------------------
         for chapter in english_conversation_practice:
-            self.drawer.controls.append(
-                ft.NavigationDrawerDestination(
-                    label=chapter["chapter"]
-                    )
-            )
+            if chapter['conversations']:
+                self.drawer.controls.append(
+                    ft.NavigationDrawerDestination(label=chapter["chapter"]                        )
+                )
+            else:
+                self.drawer.controls.append(
+                    ft.NavigationDrawerDestination(label=chapter["chapter"], disabled=True)
+                )
         # ---------------------------------------------------------------------------------------
         
         self.controls.append(self.pb)
