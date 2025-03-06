@@ -20,7 +20,6 @@ class MCQQuestion(Question):
         super().__init__(question)
         self.page = page
         self.selected_option = None
-        # self.radio_group = None
 
     def display1(self, page, options):
         column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
@@ -30,12 +29,6 @@ class MCQQuestion(Question):
                 ft.Container(
                     content=ft.Text(text=option)
                 )
-                # ft.TextButton(
-                #     text=option, 
-                #     on_click=lambda e: setattr(self, "selected_option", e.control.text),
-                #     width=self.page.window.width,
-                    
-                # )
             )
             column.controls.append(ft.Divider(color=my_theme_color))
         
@@ -146,8 +139,8 @@ class QuizView(ft.View):
         self.scroll = True
         self.horizontal_alignment = 'center'
 
-        self.current_question = 0
-        self.score = 0
+        self.current_question: int = 0
+        self.score: int = 0
         self.selected_answers = []
         self.num_questions = 5
 
@@ -161,7 +154,6 @@ class QuizView(ft.View):
         )
 
         # Load questions once and sample a fixed set for the quiz
-        # self.questions_json = json.load(open('src/assets/questions.json', 'r'))
         file_path = "src/assets/docker_question_new.json"
         with open(file_path, 'r') as file:
             self.questions_json = json.load(file)
@@ -172,13 +164,25 @@ class QuizView(ft.View):
         self.current_question_widget = None
 
         # Question
-        self.question_text = ft.Container(
-            content=ft.Text(text_align=ft.TextAlign.LEFT, no_wrap=False, max_lines=5, width=self.page.width, size=15),
-            padding=10,
-            margin=5,
-            border_radius=5,
-            border=ft.border.all(1, my_theme_color),
-            bgcolor=ft.Colors.WHITE,
+        self.question_text = ft.Stack(
+            controls=[
+                ft.Container(
+                    content=ft.Text(text_align=ft.TextAlign.LEFT, no_wrap=False, max_lines=5, width=self.page.width, size=15),
+                    padding=10,
+                    margin=ft.margin.only(left=5, right=5, top=12, bottom=5),
+                    border_radius=5,
+                    border=ft.border.all(1, my_theme_color),
+                    bgcolor=ft.Colors.WHITE,
+                ),
+                ft.Container(
+                    content=ft.Text(size=12, weight=ft.FontWeight.BOLD),
+                    margin=ft.margin.only(left=15),
+                    padding=ft.padding.only(left=5, right=5, bottom=3),
+                    border_radius=5,
+                    border=ft.border.all(1, my_theme_color),
+                    bgcolor=ft.Colors.WHITE,
+                )
+            ]
         )
         # Options
         self.options = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
@@ -186,14 +190,10 @@ class QuizView(ft.View):
         
         # Prev Nest buttons
         self.button_row = ft.Row(
-            # controls=[ft.ElevatedButton("Prev", on_click=self.prev_question), ft.ElevatedButton("Next", on_click=self.next_question)], 
             controls=[
-                MyOutlinedButton(
-                    "Prev", 
-                    on_click=self.prev_question,
-                    
-                ), 
-                MyOutlinedButton("Next", on_click=self.next_question)], 
+                MyOutlinedButton("Prev", on_click=self.prev_question), 
+                MyOutlinedButton("Next", on_click=self.next_question)
+            ], 
             alignment=ft.MainAxisAlignment.CENTER
         )
         
@@ -212,13 +212,13 @@ class QuizView(ft.View):
         
         # Get the current question from the pre-sampled list
         question = self.questions[self.current_question]
-        self.question_text.content.value = question["question"]
+        self.question_text.controls[0].content.value = question["question"]
+        self.question_text.controls[1].content.value = f'Question: {self.current_question+1}'
         
         q_type = question["type"]
         if q_type == "mcq":
             q = MCQQuestion(question["question"], self.page)
-            widget = q.display(self.page, question["options"])############################
-            # widget = q.display1(self.page, question["options"])
+            widget = q.display(self.page, question["options"])
             self.options.controls.append(widget)
             self.current_question_widget = q
         elif q_type == "true_false":
@@ -263,7 +263,7 @@ class QuizView(ft.View):
                     content=ft.Column(
                         controls=[
                             ft.Text(f"Question: {result['question']}"),
-                            ft.Text(f"Your Answer: {result['selected']}", color=ft.Colors.RED),
+                            ft.Text(f"Your Answer: {result['selected']}", color=ft.Colors.BLUE),
                             ft.Text(f"Correct Answer: {result['correct']}", color=ft.Colors.GREEN),
                             ft.Text(f"Explanation: {result['explanation']}")
                         ],

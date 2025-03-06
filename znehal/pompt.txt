@@ -1,0 +1,34 @@
+Generate a list of multiple-choice questions (MCQs) about Docker in the following JSON format. Each question should cover a different aspect of Docker, such as containerization, Docker architecture, Docker commands, image management, networking, and orchestration. Please ensure that each question includes four options (A, B, C, D) and provide the correct answer along with a brief explanation for each question.
+
+json
+[
+    {
+        "QN": "Question Number",
+        "type": "Question Type (e.g., Docker Basics, Networking)",
+        "question": "Question Text",
+        "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+        },
+        "answer": "Correct Answer",
+        "explanation": "Explanation for the Correct Answer"
+    },
+    {
+        "QN": "Question Number",
+        "type": "Question Type",
+        "question": "Question Text",
+        "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+        },
+        "answer": "Correct Answer",
+        "explanation": "Explanation for the Correct Answer"
+    }
+]
+Provide at least hundred questions covering various aspects of Docker." 
+
+This prompt is designed to elicit a comprehensive set of Docker-related MCQs in the specified JSON format, ensuring that each question is well-structured and includes necessary details for learning and assessment purposes.

@@ -11,13 +11,13 @@ class HomeView(ft.View):
                     controls=[
                         ft.ListTile(
                             title=ft.Text("English Conversation Practice"), 
-                            leading=ft.Image(src="icons8-english-48.png", width=40, height=40, border_radius=50),
+                            leading=ft.Image(src="icons/icons8-english-48.png", width=40, height=40, border_radius=50),
                             on_click=lambda _: page.go("/ecp")
                         ),
 
                         ft.ListTile(
                             title=ft.Text("Docker"), 
-                            leading=ft.Image(src="docker.png", width=40, height=40, border_radius=50),
+                            leading=ft.Image(src="icons/docker.png", width=40, height=40, border_radius=50),
                             trailing=ft.IconButton(ft.Icons.QUIZ_ROUNDED, on_click=lambda _: page.go("/quiz")),
                             on_click=lambda _: page.go("/docker")
                         ),

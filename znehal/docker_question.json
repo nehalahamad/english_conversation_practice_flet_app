@@ -1805,5 +1805,1253 @@
         },
         "answer": "C",
         "explanation": "OpenFaaS (Open Function as a Service) integrates Docker with serverless AI/ML frameworks, allowing you to run functions as Docker containers."
+    },
+    {
+        "QN": 101,
+        "type": "Docker Commands",
+        "question": "Which command is used to build a Docker image from a Dockerfile?",
+        "options": {
+            "A": "docker create",
+            "B": "docker build",
+            "C": "docker run",
+            "D": "docker start"
+        },
+        "answer": "B",
+        "explanation": "The 'docker build' command is used to build a Docker image from a Dockerfile. For example: 'docker build -t myimage .'"
+    },
+    {
+        "QN": 102,
+        "type": "Docker Commands",
+        "question": "Which command is used to start a stopped container?",
+        "options": {
+            "A": "docker run",
+            "B": "docker start",
+            "C": "docker restart",
+            "D": "docker create"
+        },
+        "answer": "B",
+        "explanation": "The 'docker start' command is used to start a stopped container. For example: 'docker start mycontainer'."
+    },
+    {
+        "QN": 103,
+        "type": "Docker Commands",
+        "question": "Which command is used to remove all stopped containers?",
+        "options": {
+            "A": "docker rm",
+            "B": "docker prune",
+            "C": "docker rm -f",
+            "D": "docker container prune"
+        },
+        "answer": "D",
+        "explanation": "The 'docker container prune' command removes all stopped containers. For example: 'docker container prune'."
+    },
+    {
+        "QN": 104,
+        "type": "Docker Commands",
+        "question": "Which command is used to view the logs of a running container?",
+        "options": {
+            "A": "docker logs",
+            "B": "docker view logs",
+            "C": "docker inspect",
+            "D": "docker show logs"
+        },
+        "answer": "A",
+        "explanation": "The 'docker logs' command is used to view the logs of a running container. For example: 'docker logs mycontainer'."
+    },
+    {
+        "QN": 105,
+        "type": "Docker Commands",
+        "question": "Which command is used to execute a command inside a running container?",
+        "options": {
+            "A": "docker exec",
+            "B": "docker run",
+            "C": "docker attach",
+            "D": "docker start"
+        },
+        "answer": "A",
+        "explanation": "The 'docker exec' command is used to execute a command inside a running container. For example: 'docker exec -it mycontainer bash'."
+    },
+    {
+        "QN": 106,
+        "type": "Docker Commands",
+        "question": "Which command is used to list all Docker images on the host?",
+        "options": {
+            "A": "docker images",
+            "B": "docker list images",
+            "C": "docker image ls",
+            "D": "Both A and C"
+        },
+        "answer": "D",
+        "explanation": "Both 'docker images' and 'docker image ls' are used to list all Docker images on the host."
+    },
+    {
+        "QN": 107,
+        "type": "Docker Commands",
+        "question": "Which command is used to remove a Docker image?",
+        "options": {
+            "A": "docker rmi",
+            "B": "docker remove",
+            "C": "docker delete",
+            "D": "docker image rm"
+        },
+        "answer": "A",
+        "explanation": "The 'docker rmi' command is used to remove a Docker image. For example: 'docker rmi myimage'."
+    },
+    {
+        "QN": 108,
+        "type": "Docker Commands",
+        "question": "Which command is used to inspect the details of a Docker container?",
+        "options": {
+            "A": "docker inspect",
+            "B": "docker details",
+            "C": "docker info",
+            "D": "docker show"
+        },
+        "answer": "A",
+        "explanation": "The 'docker inspect' command is used to inspect the details of a Docker container, image, or network. For example: 'docker inspect mycontainer'."
+    },
+    {
+        "QN": 109,
+        "type": "Docker Commands",
+        "question": "Which command is used to rename a Docker container?",
+        "options": {
+            "A": "docker rename",
+            "B": "docker mv",
+            "C": "docker update",
+            "D": "docker modify"
+        },
+        "answer": "A",
+        "explanation": "The 'docker rename' command is used to rename a Docker container. For example: 'docker rename oldname newname'."
+    },
+    {
+        "QN": 110,
+        "type": "Docker Commands",
+        "question": "Which command is used to pause a running container?",
+        "options": {
+            "A": "docker stop",
+            "B": "docker pause",
+            "C": "docker halt",
+            "D": "docker freeze"
+        },
+        "answer": "B",
+        "explanation": "The 'docker pause' command is used to pause a running container. For example: 'docker pause mycontainer'."
+    },
+    {
+        "QN": 111,
+        "type": "Docker Commands",
+        "question": "Which command is used to unpause a paused container?",
+        "options": {
+            "A": "docker unpause",
+            "B": "docker resume",
+            "C": "docker start",
+            "D": "docker continue"
+        },
+        "answer": "A",
+        "explanation": "The 'docker unpause' command is used to unpause a paused container. For example: 'docker unpause mycontainer'."
+    },
+    {
+        "QN": 112,
+        "type": "Docker Commands",
+        "question": "Which command is used to list all Docker networks?",
+        "options": {
+            "A": "docker network ls",
+            "B": "docker list networks",
+            "C": "docker networks",
+            "D": "docker net ls"
+        },
+        "answer": "A",
+        "explanation": "The 'docker network ls' command is used to list all Docker networks."
+    },
+    {
+        "QN": 113,
+        "type": "Docker Commands",
+        "question": "Which command is used to remove a Docker network?",
+        "options": {
+            "A": "docker network rm",
+            "B": "docker remove network",
+            "C": "docker delete network",
+            "D": "docker net rm"
+        },
+        "answer": "A",
+        "explanation": "The 'docker network rm' command is used to remove a Docker network. For example: 'docker network rm mynetwork'."
+    },
+    {
+        "QN": 114,
+        "type": "Docker Commands",
+        "question": "Which command is used to connect a container to a Docker network?",
+        "options": {
+            "A": "docker network connect",
+            "B": "docker connect",
+            "C": "docker attach",
+            "D": "docker join"
+        },
+        "answer": "A",
+        "explanation": "The 'docker network connect' command is used to connect a container to a Docker network. For example: 'docker network connect mynetwork mycontainer'."
+    },
+    {
+        "QN": 115,
+        "type": "Docker Commands",
+        "question": "Which command is used to disconnect a container from a Docker network?",
+        "options": {
+            "A": "docker network disconnect",
+            "B": "docker disconnect",
+            "C": "docker detach",
+            "D": "docker leave"
+        },
+        "answer": "A",
+        "explanation": "The 'docker network disconnect' command is used to disconnect a container from a Docker network. For example: 'docker network disconnect mynetwork mycontainer'."
+    },
+    {
+        "QN": 116,
+        "type": "Docker Commands",
+        "question": "Which command is used to list all Docker volumes?",
+        "options": {
+            "A": "docker volume ls",
+            "B": "docker list volumes",
+            "C": "docker volumes",
+            "D": "docker vol ls"
+        },
+        "answer": "A",
+        "explanation": "The 'docker volume ls' command is used to list all Docker volumes."
+    },
+    {
+        "QN": 117,
+        "type": "Docker Commands",
+        "question": "Which command is used to remove a Docker volume?",
+        "options": {
+            "A": "docker volume rm",
+            "B": "docker remove volume",
+            "C": "docker delete volume",
+            "D": "docker vol rm"
+        },
+        "answer": "A",
+        "explanation": "The 'docker volume rm' command is used to remove a Docker volume. For example: 'docker volume rm myvolume'."
+    },
+    {
+        "QN": 118,
+        "type": "Docker Commands",
+        "question": "Which command is used to display Docker system-wide information?",
+        "options": {
+            "A": "docker info",
+            "B": "docker system info",
+            "C": "docker inspect",
+            "D": "docker details"
+        },
+        "answer": "A",
+        "explanation": "The 'docker info' command is used to display Docker system-wide information, such as the number of containers, images, and storage drivers."
+    },
+    {
+        "QN": 119,
+        "type": "Docker Commands",
+        "question": "Which command is used to clean up unused Docker objects (images, containers, volumes, and networks)?",
+        "options": {
+            "A": "docker clean",
+            "B": "docker system prune",
+            "C": "docker remove unused",
+            "D": "docker gc"
+        },
+        "answer": "B",
+        "explanation": "The 'docker system prune' command is used to clean up unused Docker objects, such as images, containers, volumes, and networks."
+    },
+    {
+        "QN": 120,
+        "type": "Docker Commands",
+        "question": "Which command is used to update the configuration of a running container?",
+        "options": {
+            "A": "docker update",
+            "B": "docker modify",
+            "C": "docker reconfigure",
+            "D": "docker commit"
+        },
+        "answer": "A",
+        "explanation": "The 'docker update' command is used to update the configuration of a running container, such as CPU or memory limits. For example: 'docker update --memory 512m mycontainer'."
+    },
+    {
+        "QN": 121,
+        "type": "Docker Swarm",
+        "question": "Which command is used to initialize a Docker Swarm?",
+        "options": {
+            "A": "docker swarm init",
+            "B": "docker init swarm",
+            "C": "docker swarm create",
+            "D": "docker create swarm"
+        },
+        "answer": "A",
+        "explanation": "The 'docker swarm init' command is used to initialize a Docker Swarm and make the current node a manager."
+    },
+    {
+        "QN": 122,
+        "type": "Docker Swarm",
+        "question": "Which command is used to join a worker node to a Docker Swarm?",
+        "options": {
+            "A": "docker swarm join",
+            "B": "docker join swarm",
+            "C": "docker node join",
+            "D": "docker swarm add"
+        },
+        "answer": "A",
+        "explanation": "The 'docker swarm join' command is used to join a worker node to a Docker Swarm. A token provided by the manager is required."
+    },
+    {
+        "QN": 123,
+        "type": "Docker Swarm",
+        "question": "Which command is used to list all nodes in a Docker Swarm?",
+        "options": {
+            "A": "docker node ls",
+            "B": "docker swarm nodes",
+            "C": "docker list nodes",
+            "D": "docker nodes"
+        },
+        "answer": "A",
+        "explanation": "The 'docker node ls' command lists all nodes in a Docker Swarm, including managers and workers."
+    },
+    {
+        "QN": 124,
+        "type": "Docker Swarm",
+        "question": "Which command is used to create a service in Docker Swarm?",
+        "options": {
+            "A": "docker service create",
+            "B": "docker create service",
+            "C": "docker swarm service",
+            "D": "docker add service"
+        },
+        "answer": "A",
+        "explanation": "The 'docker service create' command is used to create a service in Docker Swarm. For example: 'docker service create --name myservice nginx'."
+    },
+    {
+        "QN": 125,
+        "type": "Docker Swarm",
+        "question": "Which command is used to scale a Docker Swarm service?",
+        "options": {
+            "A": "docker service scale",
+            "B": "docker scale service",
+            "C": "docker swarm scale",
+            "D": "docker update service"
+        },
+        "answer": "A",
+        "explanation": "The 'docker service scale' command is used to scale a Docker Swarm service. For example: 'docker service scale myservice=5'."
+    },
+    {
+        "QN": 126,
+        "type": "Docker Compose",
+        "question": "Which command is used to start all services defined in a Docker Compose file?",
+        "options": {
+            "A": "docker-compose start",
+            "B": "docker-compose up",
+            "C": "docker-compose run",
+            "D": "docker-compose build"
+        },
+        "answer": "B",
+        "explanation": "The 'docker-compose up' command is used to start all services defined in a Docker Compose file."
+    },
+    {
+        "QN": 127,
+        "type": "Docker Compose",
+        "question": "Which command is used to stop all services defined in a Docker Compose file?",
+        "options": {
+            "A": "docker-compose stop",
+            "B": "docker-compose down",
+            "C": "docker-compose halt",
+            "D": "docker-compose kill"
+        },
+        "answer": "B",
+        "explanation": "The 'docker-compose down' command is used to stop and remove all services, networks, and volumes defined in a Docker Compose file."
+    },
+    {
+        "QN": 128,
+        "type": "Docker Compose",
+        "question": "Which command is used to view the logs of all services in a Docker Compose file?",
+        "options": {
+            "A": "docker-compose logs",
+            "B": "docker-compose view logs",
+            "C": "docker-compose show logs",
+            "D": "docker-compose inspect"
+        },
+        "answer": "A",
+        "explanation": "The 'docker-compose logs' command is used to view the logs of all services defined in a Docker Compose file."
+    },
+    {
+        "QN": 129,
+        "type": "Docker Hub",
+        "question": "Which command is used to log in to Docker Hub?",
+        "options": {
+            "A": "docker login",
+            "B": "docker hub login",
+            "C": "docker signin",
+            "D": "docker connect"
+        },
+        "answer": "A",
+        "explanation": "The 'docker login' command is used to log in to Docker Hub. For example: 'docker login'."
+    },
+    {
+        "QN": 130,
+        "type": "Docker Hub",
+        "question": "Which command is used to push a Docker image to Docker Hub?",
+        "options": {
+            "A": "docker push",
+            "B": "docker upload",
+            "C": "docker publish",
+            "D": "docker deploy"
+        },
+        "answer": "A",
+        "explanation": "The 'docker push' command is used to upload a Docker image to Docker Hub. For example: 'docker push myusername/myimage'."
+    },
+    {
+        "QN": 131,
+        "type": "Multi-Architecture Builds",
+        "question": "Which command is used to build Docker images for multiple architectures?",
+        "options": {
+            "A": "docker build",
+            "B": "docker buildx",
+            "C": "docker multi-build",
+            "D": "docker arch-build"
+        },
+        "answer": "B",
+        "explanation": "The 'docker buildx' command is used to build Docker images for multiple architectures, such as ARM and x86."
+    },
+    {
+        "QN": 132,
+        "type": "Multi-Architecture Builds",
+        "question": "Which command is used to create a new builder instance for multi-architecture builds?",
+        "options": {
+            "A": "docker buildx create",
+            "B": "docker create builder",
+            "C": "docker builder create",
+            "D": "docker buildx init"
+        },
+        "answer": "A",
+        "explanation": "The 'docker buildx create' command is used to create a new builder instance for multi-architecture builds."
+    },
+    {
+        "QN": 133,
+        "type": "Container Health Checks",
+        "question": "Which Dockerfile instruction is used to define a health check for a container?",
+        "options": {
+            "A": "HEALTHCHECK",
+            "B": "CHECK",
+            "C": "HEALTH",
+            "D": "MONITOR"
+        },
+        "answer": "A",
+        "explanation": "The 'HEALTHCHECK' instruction in a Dockerfile is used to define a health check for a container."
+    },
+    {
+        "QN": 134,
+        "type": "Container Health Checks",
+        "question": "Which command is used to view the health status of a container?",
+        "options": {
+            "A": "docker inspect",
+            "B": "docker health",
+            "C": "docker status",
+            "D": "docker check"
+        },
+        "answer": "A",
+        "explanation": "The 'docker inspect' command is used to view the health status of a container. For example: 'docker inspect --format='{{.State.Health.Status}}' mycontainer'."
+    },
+    {
+        "QN": 135,
+        "type": "Docker Plugins",
+        "question": "Which command is used to list all installed Docker plugins?",
+        "options": {
+            "A": "docker plugin ls",
+            "B": "docker list plugins",
+            "C": "docker plugins",
+            "D": "docker plugin list"
+        },
+        "answer": "A",
+        "explanation": "The 'docker plugin ls' command is used to list all installed Docker plugins."
+    },
+    {
+        "QN": 136,
+        "type": "Docker Plugins",
+        "question": "Which command is used to enable a Docker plugin?",
+        "options": {
+            "A": "docker plugin enable",
+            "B": "docker enable plugin",
+            "C": "docker plugin activate",
+            "D": "docker activate plugin"
+        },
+        "answer": "A",
+        "explanation": "The 'docker plugin enable' command is used to enable a Docker plugin. For example: 'docker plugin enable myplugin'."
+    },
+    {
+        "QN": 137,
+        "type": "Docker Plugins",
+        "question": "Which command is used to install a Docker plugin?",
+        "options": {
+            "A": "docker plugin install",
+            "B": "docker install plugin",
+            "C": "docker plugin add",
+            "D": "docker add plugin"
+        },
+        "answer": "A",
+        "explanation": "The 'docker plugin install' command is used to install a Docker plugin. For example: 'docker plugin install myplugin'."
+    },
+    {
+        "QN": 138,
+        "type": "Docker Plugins",
+        "question": "Which command is used to remove a Docker plugin?",
+        "options": {
+            "A": "docker plugin rm",
+            "B": "docker remove plugin",
+            "C": "docker plugin delete",
+            "D": "docker delete plugin"
+        },
+        "answer": "A",
+        "explanation": "The 'docker plugin rm' command is used to remove a Docker plugin. For example: 'docker plugin rm myplugin'."
+    },
+    {
+        "QN": 139,
+        "type": "Docker Compose",
+        "question": "Which command is used to build images for services defined in a Docker Compose file?",
+        "options": {
+            "A": "docker-compose build",
+            "B": "docker-compose create",
+            "C": "docker-compose up",
+            "D": "docker-compose start"
+        },
+        "answer": "A",
+        "explanation": "The 'docker-compose build' command is used to build images for services defined in a Docker Compose file."
+    },
+    {
+        "QN": 140,
+        "type": "Docker Compose",
+        "question": "Which command is used to view the status of services defined in a Docker Compose file?",
+        "options": {
+            "A": "docker-compose ps",
+            "B": "docker-compose status",
+            "C": "docker-compose ls",
+            "D": "docker-compose inspect"
+        },
+        "answer": "A",
+        "explanation": "The 'docker-compose ps' command is used to view the status of services defined in a Docker Compose file."
+    },
+    {
+        "QN": 141,
+        "type": "Docker Basics",
+        "question": "Which command is used to display the version of Docker installed on the system?",
+        "options": {
+            "A": "docker version",
+            "B": "docker --version",
+            "C": "docker info",
+            "D": "docker check"
+        },
+        "answer": "A",
+        "explanation": "The 'docker version' command displays the version of Docker installed on the system, including the client and server versions."
+    },
+    {
+        "QN": 142,
+        "type": "Docker Basics",
+        "question": "Which command is used to display detailed information about Docker's system-wide configuration?",
+        "options": {
+            "A": "docker info",
+            "B": "docker system info",
+            "C": "docker inspect",
+            "D": "docker details"
+        },
+        "answer": "A",
+        "explanation": "The 'docker info' command displays detailed information about Docker's system-wide configuration, such as the number of containers, images, and storage drivers."
+    },
+    {
+        "QN": 143,
+        "type": "Docker Basics",
+        "question": "Which command is used to create a new container without starting it?",
+        "options": {
+            "A": "docker create",
+            "B": "docker run",
+            "C": "docker start",
+            "D": "docker build"
+        },
+        "answer": "A",
+        "explanation": "The 'docker create' command is used to create a new container without starting it. For example: 'docker create --name mycontainer nginx'."
+    },
+    {
+        "QN": 144,
+        "type": "Docker Basics",
+        "question": "Which command is used to attach to a running container's terminal?",
+        "options": {
+            "A": "docker attach",
+            "B": "docker exec",
+            "C": "docker run",
+            "D": "docker start"
+        },
+        "answer": "A",
+        "explanation": "The 'docker attach' command is used to attach to a running container's terminal. For example: 'docker attach mycontainer'."
+    },
+    {
+        "QN": 145,
+        "type": "Docker Basics",
+        "question": "Which command is used to copy files between a container and the host?",
+        "options": {
+            "A": "docker cp",
+            "B": "docker copy",
+            "C": "docker move",
+            "D": "docker transfer"
+        },
+        "answer": "A",
+        "explanation": "The 'docker cp' command is used to copy files between a container and the host. For example: 'docker cp mycontainer:/file.txt /host/path'."
+    },
+    {
+        "QN": 146,
+        "type": "Docker Basics",
+        "question": "Which command is used to display the processes running inside a container?",
+        "options": {
+            "A": "docker top",
+            "B": "docker ps",
+            "C": "docker inspect",
+            "D": "docker processes"
+        },
+        "answer": "A",
+        "explanation": "The 'docker top' command is used to display the processes running inside a container. For example: 'docker top mycontainer'."
+    },
+    {
+        "QN": 147,
+        "type": "Docker Basics",
+        "question": "Which command is used to display the resource usage statistics of a container?",
+        "options": {
+            "A": "docker stats",
+            "B": "docker usage",
+            "C": "docker monitor",
+            "D": "docker inspect"
+        },
+        "answer": "A",
+        "explanation": "The 'docker stats' command is used to display the resource usage statistics of a container, such as CPU, memory, and network usage."
+    },
+    {
+        "QN": 148,
+        "type": "Docker Basics",
+        "question": "Which command is used to display the history of a Docker image?",
+        "options": {
+            "A": "docker history",
+            "B": "docker inspect",
+            "C": "docker image history",
+            "D": "docker show history"
+        },
+        "answer": "A",
+        "explanation": "The 'docker history' command is used to display the history of a Docker image, including the layers and commands used to build it."
+    },
+    {
+        "QN": 149,
+        "type": "Docker Basics",
+        "question": "Which command is used to tag a Docker image?",
+        "options": {
+            "A": "docker tag",
+            "B": "docker image tag",
+            "C": "docker label",
+            "D": "docker name"
+        },
+        "answer": "A",
+        "explanation": "The 'docker tag' command is used to tag a Docker image. For example: 'docker tag myimage myrepo/myimage:1.0'."
+    },
+    {
+        "QN": 150,
+        "type": "Docker Basics",
+        "question": "Which command is used to save a Docker image to a tar archive?",
+        "options": {
+            "A": "docker save",
+            "B": "docker export",
+            "C": "docker archive",
+            "D": "docker compress"
+        },
+        "answer": "A",
+        "explanation": "The 'docker save' command is used to save a Docker image to a tar archive. For example: 'docker save -o myimage.tar myimage'."
+    },
+    {
+        "QN": 151,
+        "type": "Docker Basics",
+        "question": "Which command is used to load a Docker image from a tar archive?",
+        "options": {
+            "A": "docker load",
+            "B": "docker import",
+            "C": "docker extract",
+            "D": "docker uncompress"
+        },
+        "answer": "A",
+        "explanation": "The 'docker load' command is used to load a Docker image from a tar archive. For example: 'docker load -i myimage.tar'."
+    },
+    {
+        "QN": 152,
+        "type": "Docker Basics",
+        "question": "Which command is used to export a container's filesystem as a tar archive?",
+        "options": {
+            "A": "docker export",
+            "B": "docker save",
+            "C": "docker archive",
+            "D": "docker compress"
+        },
+        "answer": "A",
+        "explanation": "The 'docker export' command is used to export a container's filesystem as a tar archive. For example: 'docker export -o mycontainer.tar mycontainer'."
+    },
+    {
+        "QN": 153,
+        "type": "Docker Basics",
+        "question": "Which command is used to import a container's filesystem from a tar archive?",
+        "options": {
+            "A": "docker import",
+            "B": "docker load",
+            "C": "docker extract",
+            "D": "docker uncompress"
+        },
+        "answer": "A",
+        "explanation": "The 'docker import' command is used to import a container's filesystem from a tar archive. For example: 'docker import mycontainer.tar myimage'."
+    },
+    {
+        "QN": 154,
+        "type": "Docker Contexts",
+        "question": "Which command is used to list all Docker contexts?",
+        "options": {
+            "A": "docker context ls",
+            "B": "docker list contexts",
+            "C": "docker contexts",
+            "D": "docker context list"
+        },
+        "answer": "A",
+        "explanation": "The 'docker context ls' command is used to list all Docker contexts."
+    },
+    {
+        "QN": 155,
+        "type": "Docker Contexts",
+        "question": "Which command is used to switch between Docker contexts?",
+        "options": {
+            "A": "docker context use",
+            "B": "docker use context",
+            "C": "docker switch context",
+            "D": "docker context switch"
+        },
+        "answer": "A",
+        "explanation": "The 'docker context use' command is used to switch between Docker contexts. For example: 'docker context use mycontext'."
+    },
+    {
+        "QN": 156,
+        "type": "Docker Secrets",
+        "question": "Which command is used to create a Docker secret?",
+        "options": {
+            "A": "docker secret create",
+            "B": "docker create secret",
+            "C": "docker add secret",
+            "D": "docker secret add"
+        },
+        "answer": "A",
+        "explanation": "The 'docker secret create' command is used to create a Docker secret. For example: 'docker secret create mysecret secret.txt'."
+    },
+    {
+        "QN": 161,
+        "type": "Container Management",
+        "question": "Which command is used to restart a running container?",
+        "options": {
+            "A": "docker restart",
+            "B": "docker start",
+            "C": "docker stop",
+            "D": "docker run"
+        },
+        "answer": "A",
+        "explanation": "The 'docker restart' command is used to restart a running container. For example: 'docker restart mycontainer'."
+    },
+    {
+        "QN": 162,
+        "type": "Container Management",
+        "question": "Which command is used to force-stop a running container?",
+        "options": {
+            "A": "docker stop",
+            "B": "docker kill",
+            "C": "docker pause",
+            "D": "docker halt"
+        },
+        "answer": "B",
+        "explanation": "The 'docker kill' command is used to force-stop a running container by sending a SIGKILL signal. For example: 'docker kill mycontainer'."
+    },
+    {
+        "QN": 163,
+        "type": "Container Management",
+        "question": "Which command is used to remove all stopped containers?",
+        "options": {
+            "A": "docker rm",
+            "B": "docker prune",
+            "C": "docker rm -f",
+            "D": "docker container prune"
+        },
+        "answer": "D",
+        "explanation": "The 'docker container prune' command removes all stopped containers. For example: 'docker container prune'."
+    },
+    {
+        "QN": 164,
+        "type": "Container Management",
+        "question": "Which command is used to execute a command in a running container in interactive mode?",
+        "options": {
+            "A": "docker exec -it",
+            "B": "docker run -it",
+            "C": "docker attach",
+            "D": "docker start -it"
+        },
+        "answer": "A",
+        "explanation": "The 'docker exec -it' command is used to execute a command in a running container in interactive mode. For example: 'docker exec -it mycontainer bash'."
+    },
+    {
+        "QN": 165,
+        "type": "Container Management",
+        "question": "Which command is used to rename a Docker container?",
+        "options": {
+            "A": "docker rename",
+            "B": "docker mv",
+            "C": "docker update",
+            "D": "docker modify"
+        },
+        "answer": "A",
+        "explanation": "The 'docker rename' command is used to rename a Docker container. For example: 'docker rename oldname newname'."
+    },
+    {
+        "QN": 166,
+        "type": "Container Management",
+        "question": "Which command is used to pause a running container?",
+        "options": {
+            "A": "docker stop",
+            "B": "docker pause",
+            "C": "docker halt",
+            "D": "docker freeze"
+        },
+        "answer": "B",
+        "explanation": "The 'docker pause' command is used to pause a running container. For example: 'docker pause mycontainer'."
+    },
+    {
+        "QN": 167,
+        "type": "Container Management",
+        "question": "Which command is used to unpause a paused container?",
+        "options": {
+            "A": "docker unpause",
+            "B": "docker resume",
+            "C": "docker start",
+            "D": "docker continue"
+        },
+        "answer": "A",
+        "explanation": "The 'docker unpause' command is used to unpause a paused container. For example: 'docker unpause mycontainer'."
+    },
+    {
+        "QN": 168,
+        "type": "Image Management",
+        "question": "Which command is used to remove all unused Docker images?",
+        "options": {
+            "A": "docker rmi",
+            "B": "docker image prune",
+            "C": "docker rm",
+            "D": "docker prune"
+        },
+        "answer": "B",
+        "explanation": "The 'docker image prune' command is used to remove all unused Docker images. For example: 'docker image prune -a'."
+    },
+    {
+        "QN": 169,
+        "type": "Image Management",
+        "question": "Which command is used to inspect the details of a Docker image?",
+        "options": {
+            "A": "docker inspect",
+            "B": "docker details",
+            "C": "docker info",
+            "D": "docker show"
+        },
+        "answer": "A",
+        "explanation": "The 'docker inspect' command is used to inspect the details of a Docker image. For example: 'docker inspect myimage'."
+    },
+    {
+        "QN": 170,
+        "type": "Image Management",
+        "question": "Which command is used to pull a Docker image from a registry?",
+        "options": {
+            "A": "docker pull",
+            "B": "docker fetch",
+            "C": "docker download",
+            "D": "docker get"
+        },
+        "answer": "A",
+        "explanation": "The 'docker pull' command is used to pull a Docker image from a registry. For example: 'docker pull nginx'."
+    },
+    {
+        "QN": 171,
+        "type": "Network Management",
+        "question": "Which command is used to create a new Docker network?",
+        "options": {
+            "A": "docker network create",
+            "B": "docker create network",
+            "C": "docker net add",
+            "D": "docker add network"
+        },
+        "answer": "A",
+        "explanation": "The 'docker network create' command is used to create a new Docker network. For example: 'docker network create mynetwork'."
+    },
+    {
+        "QN": 172,
+        "type": "Network Management",
+        "question": "Which command is used to inspect the details of a Docker network?",
+        "options": {
+            "A": "docker inspect",
+            "B": "docker network inspect",
+            "C": "docker details",
+            "D": "docker show"
+        },
+        "answer": "B",
+        "explanation": "The 'docker network inspect' command is used to inspect the details of a Docker network. For example: 'docker network inspect mynetwork'."
+    },
+    {
+        "QN": 173,
+        "type": "Network Management",
+        "question": "Which command is used to disconnect a container from a Docker network?",
+        "options": {
+            "A": "docker network disconnect",
+            "B": "docker disconnect",
+            "C": "docker detach",
+            "D": "docker leave"
+        },
+        "answer": "A",
+        "explanation": "The 'docker network disconnect' command is used to disconnect a container from a Docker network. For example: 'docker network disconnect mynetwork mycontainer'."
+    },
+    {
+        "QN": 174,
+        "type": "Volume Management",
+        "question": "Which command is used to create a new Docker volume?",
+        "options": {
+            "A": "docker volume create",
+            "B": "docker create volume",
+            "C": "docker volume add",
+            "D": "docker add volume"
+        },
+        "answer": "A",
+        "explanation": "The 'docker volume create' command is used to create a new Docker volume. For example: 'docker volume create myvolume'."
+    },
+    {
+        "QN": 175,
+        "type": "Volume Management",
+        "question": "Which command is used to inspect the details of a Docker volume?",
+        "options": {
+            "A": "docker inspect",
+            "B": "docker volume inspect",
+            "C": "docker details",
+            "D": "docker show"
+        },
+        "answer": "B",
+        "explanation": "The 'docker volume inspect' command is used to inspect the details of a Docker volume. For example: 'docker volume inspect myvolume'."
+    },
+    {
+        "QN": 176,
+        "type": "System Management",
+        "question": "Which command is used to clean up unused Docker objects (images, containers, volumes, and networks)?",
+        "options": {
+            "A": "docker clean",
+            "B": "docker system prune",
+            "C": "docker remove unused",
+            "D": "docker gc"
+        },
+        "answer": "B",
+        "explanation": "The 'docker system prune' command is used to clean up unused Docker objects, such as images, containers, volumes, and networks."
+    },
+    {
+        "QN": 177,
+        "type": "System Management",
+        "question": "Which command is used to update the configuration of a running container?",
+        "options": {
+            "A": "docker update",
+            "B": "docker modify",
+            "C": "docker reconfigure",
+            "D": "docker commit"
+        },
+        "answer": "A",
+        "explanation": "The 'docker update' command is used to update the configuration of a running container, such as CPU or memory limits. For example: 'docker update --memory 512m mycontainer'."
+    },
+    {
+        "QN": 178,
+        "type": "System Management",
+        "question": "Which command is used to display Docker system-wide information?",
+        "options": {
+            "A": "docker info",
+            "B": "docker system info",
+            "C": "docker inspect",
+            "D": "docker details"
+        },
+        "answer": "A",
+        "explanation": "The 'docker info' command is used to display Docker system-wide information, such as the number of containers, images, and storage drivers."
+    },
+    {
+        "QN": 179,
+        "type": "System Management",
+        "question": "Which command is used to display the Docker version?",
+        "options": {
+            "A": "docker version",
+            "B": "docker --version",
+            "C": "docker check",
+            "D": "docker inspect"
+        },
+        "answer": "A",
+        "explanation": "The 'docker version' command is used to display the Docker version, including the client and server versions."
+    },
+    {
+        "QN": 180,
+        "type": "System Management",
+        "question": "Which command is used to display the events generated by Docker?",
+        "options": {
+            "A": "docker events",
+            "B": "docker logs",
+            "C": "docker inspect",
+            "D": "docker monitor"
+        },
+        "answer": "A",
+        "explanation": "The 'docker events' command is used to display the events generated by Docker, such as container creation, start, stop, and deletion."
+    },
+    {
+        "QN": 181,
+        "type": "Container Management",
+        "question": "Which command is used to display the resource usage statistics of all running containers?",
+        "options": {
+            "A": "docker stats",
+            "B": "docker usage",
+            "C": "docker monitor",
+            "D": "docker inspect"
+        },
+        "answer": "A",
+        "explanation": "The 'docker stats' command is used to display the resource usage statistics of all running containers, such as CPU, memory, and network usage."
+    },
+    {
+        "QN": 182,
+        "type": "Container Management",
+        "question": "Which command is used to display the logs of a container in real-time?",
+        "options": {
+            "A": "docker logs -f",
+            "B": "docker logs --tail",
+            "C": "docker logs --follow",
+            "D": "Both A and C"
+        },
+        "answer": "D",
+        "explanation": "The 'docker logs -f' or 'docker logs --follow' command is used to display the logs of a container in real-time. For example: 'docker logs -f mycontainer'."
+    },
+    {
+        "QN": 183,
+        "type": "Container Management",
+        "question": "Which command is used to display the last 10 lines of a container's logs?",
+        "options": {
+            "A": "docker logs --tail 10",
+            "B": "docker logs -n 10",
+            "C": "docker logs --lines 10",
+            "D": "docker logs --last 10"
+        },
+        "answer": "A",
+        "explanation": "The 'docker logs --tail 10' command is used to display the last 10 lines of a container's logs. For example: 'docker logs --tail 10 mycontainer'."
+    },
+    {
+        "QN": 184,
+        "type": "Container Management",
+        "question": "Which command is used to display the processes running inside a container?",
+        "options": {
+            "A": "docker top",
+            "B": "docker ps",
+            "C": "docker inspect",
+            "D": "docker processes"
+        },
+        "answer": "A",
+        "explanation": "The 'docker top' command is used to display the processes running inside a container. For example: 'docker top mycontainer'."
+    },
+    {
+        "QN": 185,
+        "type": "Container Management",
+        "question": "Which command is used to export a container's filesystem as a tar archive?",
+        "options": {
+            "A": "docker export",
+            "B": "docker save",
+            "C": "docker archive",
+            "D": "docker compress"
+        },
+        "answer": "A",
+        "explanation": "The 'docker export' command is used to export a container's filesystem as a tar archive. For example: 'docker export -o mycontainer.tar mycontainer'."
+    },
+    {
+        "QN": 186,
+        "type": "Image Management",
+        "question": "Which command is used to build a Docker image with a specific tag?",
+        "options": {
+            "A": "docker build -t",
+            "B": "docker build --tag",
+            "C": "docker build --name",
+            "D": "Both A and B"
+        },
+        "answer": "D",
+        "explanation": "The 'docker build -t' or 'docker build --tag' command is used to build a Docker image with a specific tag. For example: 'docker build -t myimage:1.0 .'."
+    },
+    {
+        "QN": 187,
+        "type": "Image Management",
+        "question": "Which command is used to remove all Docker images?",
+        "options": {
+            "A": "docker rmi $(docker images -q)",
+            "B": "docker image prune -a",
+            "C": "docker rm $(docker images -q)",
+            "D": "docker delete all"
+        },
+        "answer": "A",
+        "explanation": "The 'docker rmi $(docker images -q)' command is used to remove all Docker images. The 'docker images -q' command lists all image IDs."
+    },
+    {
+        "QN": 188,
+        "type": "Image Management",
+        "question": "Which command is used to display the history of a Docker image?",
+        "options": {
+            "A": "docker history",
+            "B": "docker inspect",
+            "C": "docker image history",
+            "D": "docker show history"
+        },
+        "answer": "A",
+        "explanation": "The 'docker history' command is used to display the history of a Docker image, including the layers and commands used to build it."
+    },
+    {
+        "QN": 189,
+        "type": "Image Management",
+        "question": "Which command is used to tag a Docker image with a new name?",
+        "options": {
+            "A": "docker tag",
+            "B": "docker image tag",
+            "C": "docker label",
+            "D": "docker name"
+        },
+        "answer": "A",
+        "explanation": "The 'docker tag' command is used to tag a Docker image with a new name. For example: 'docker tag myimage myrepo/myimage:1.0'."
+    },
+    {
+        "QN": 190,
+        "type": "Network Management",
+        "question": "Which command is used to list all Docker networks?",
+        "options": {
+            "A": "docker network ls",
+            "B": "docker list networks",
+            "C": "docker networks",
+            "D": "docker net ls"
+        },
+        "answer": "A",
+        "explanation": "The 'docker network ls' command is used to list all Docker networks."
+    },
+    {
+        "QN": 191,
+        "type": "Network Management",
+        "question": "Which command is used to remove a Docker network?",
+        "options": {
+            "A": "docker network rm",
+            "B": "docker remove network",
+            "C": "docker delete network",
+            "D": "docker net rm"
+        },
+        "answer": "A",
+        "explanation": "The 'docker network rm' command is used to remove a Docker network. For example: 'docker network rm mynetwork'."
+    },
+    {
+        "QN": 192,
+        "type": "Network Management",
+        "question": "Which command is used to connect a container to a Docker network?",
+        "options": {
+            "A": "docker network connect",
+            "B": "docker connect",
+            "C": "docker attach",
+            "D": "docker join"
+        },
+        "answer": "A",
+        "explanation": "The 'docker network connect' command is used to connect a container to a Docker network. For example: 'docker network connect mynetwork mycontainer'."
+    },
+    {
+        "QN": 193,
+        "type": "Volume Management",
+        "question": "Which command is used to list all Docker volumes?",
+        "options": {
+            "A": "docker volume ls",
+            "B": "docker list volumes",
+            "C": "docker volumes",
+            "D": "docker vol ls"
+        },
+        "answer": "A",
+        "explanation": "The 'docker volume ls' command is used to list all Docker volumes."
+    },
+    {
+        "QN": 194,
+        "type": "Volume Management",
+        "question": "Which command is used to remove a Docker volume?",
+        "options": {
+            "A": "docker volume rm",
+            "B": "docker remove volume",
+            "C": "docker delete volume",
+            "D": "docker vol rm"
+        },
+        "answer": "A",
+        "explanation": "The 'docker volume rm' command is used to remove a Docker volume. For example: 'docker volume rm myvolume'."
+    },
+    {
+        "QN": 195,
+        "type": "System Management",
+        "question": "Which command is used to clean up unused Docker objects (images, containers, volumes, and networks)?",
+        "options": {
+            "A": "docker clean",
+            "B": "docker system prune",
+            "C": "docker remove unused",
+            "D": "docker gc"
+        },
+        "answer": "B",
+        "explanation": "The 'docker system prune' command is used to clean up unused Docker objects, such as images, containers, volumes, and networks."
+    },
+    {
+        "QN": 196,
+        "type": "System Management",
+        "question": "Which command is used to update the configuration of a running container?",
+        "options": {
+            "A": "docker update",
+            "B": "docker modify",
+            "C": "docker reconfigure",
+            "D": "docker commit"
+        },
+        "answer": "A",
+        "explanation": "The 'docker update' command is used to update the configuration of a running container, such as CPU or memory limits. For example: 'docker update --memory 512m mycontainer'."
+    },
+    {
+        "QN": 197,
+        "type": "System Management",
+        "question": "Which command is used to display Docker system-wide information?",
+        "options": {
+            "A": "docker info",
+            "B": "docker system info",
+            "C": "docker inspect",
+            "D": "docker details"
+        },
+        "answer": "A",
+        "explanation": "The 'docker info' command is used to display Docker system-wide information, such as the number of containers, images, and storage drivers."
+    },
+    {
+        "QN": 198,
+        "type": "System Management",
+        "question": "Which command is used to display the Docker version?",
+        "options": {
+            "A": "docker version",
+            "B": "docker --version",
+            "C": "docker check",
+            "D": "docker inspect"
+        },
+        "answer": "A",
+        "explanation": "The 'docker version' command is used to display the Docker version, including the client and server versions."
+    },
+    {
+        "QN": 199,
+        "type": "System Management",
+        "question": "Which command is used to display the events generated by Docker?",
+        "options": {
+            "A": "docker events",
+            "B": "docker logs",
+            "C": "docker inspect",
+            "D": "docker monitor"
+        },
+        "answer": "A",
+        "explanation": "The 'docker events' command is used to display the events generated by Docker, such as container creation, start, stop, and deletion."
+    },
+    {
+        "QN": 200,
+        "type": "System Management",
+        "question": "Which command is used to display the disk usage of Docker objects?",
+        "options": {
+            "A": "docker system df",
+            "B": "docker disk usage",
+            "C": "docker inspect",
+            "D": "docker stats"
+        },
+        "answer": "A",
+        "explanation": "The 'docker system df' command is used to display the disk usage of Docker objects, such as images, containers, volumes, and build cache."
     }
 ]

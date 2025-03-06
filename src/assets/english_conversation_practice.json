@@ -444,7 +444,7 @@
                 "title": "Conversation A",
                 "lines": [
                     "S1. Well, I have an appointment now.",
-                    "S2. I\u2019m in quite a hurry too.",
+                    "S2. I'm in quite a hurry too.",
                     "S1. Good to see you. Goodbye,.",
                     "S2. Goodbye. Take care of yourself."
                 ]
@@ -470,7 +470,7 @@
             {
                 "title": "Conversation D",
                 "lines": [
-                    "S1. I\u2019m glad to have met you.",
+                    "S1. I'm glad to have met you.",
                     "S2. Thank you. It was nice to have seen you.",
                     "S1. I hope we can get together again.",
                     "S2. Yes. I'll be looking forward to it."
@@ -2042,7 +2042,7 @@
                     "S1. All the incoming flights are listed on that board.",
                     "S2. I see they expect Bill's flight to be twenty minutes late.",
                     "S1. Do they have an arrival gate listed?",
-                    "S2. No. They\u2019ll probably list it about ten minutes before arrival."
+                    "S2. No. They'll probably list it about ten minutes before arrival."
                 ]
             },
             {
@@ -2204,11 +2204,11 @@
                 "lines": [
                     {
                         "word": "the bus station",
-                        "sentence": " I'll meet them\u00b7 at the bus station."
+                        "sentence": " I'll meet them at the bus station."
                     },
                     {
                         "word": "We'll",
-                        "sentence": " We\u2019ll meet them at the bus station."
+                        "sentence": " We'll meet them at the bus station."
                     },
                     {
                         "word": "wait for",
@@ -2319,7 +2319,7 @@
                         "sentence": " I'm meeting them at eight o'clock Tuesday night."
                     },
                     {
-                        "word": "We\u2019re",
+                        "word": "We're",
                         "sentence": " We're meeting them at eight o'clock Tuesday night."
                     },
                     {
@@ -2668,7 +2668,7 @@
         ]
     },
     {
-        "chapter": "15. FINDING ONE\u2019S HOTEL / CONVERSATIONS",
+        "chapter": "15. FINDING ONE'S HOTEL / CONVERSATIONS",
         "conversations": [
             {
                 "title": "Conversation A",
@@ -2694,7 +2694,7 @@
                     "S1. I want to go to the Beachside Hotel.",
                     "S2. Do you have a map?",
                     "S1. Yes, I do. Here it is",
-                    "S2. The hotel is right there \u2013at that intersection."
+                    "S2. The hotel is right there at that intersection."
                 ]
             },
             {
@@ -3092,7 +3092,7 @@
                         "sentence": " It's about 2 miles from here."
                     },
                     {
-                        "word": "2 \u00bd miles",
+                        "word": "2  miles",
                         "sentence": " It's about 21/2miles from here"
                     },
                     {
@@ -3594,7 +3594,7 @@
                 "title": "Conversation B",
                 "lines": [
                     "S1. Where's the National Department Store?",
-                    "S2. It\u2019s down town-on Brown Street.",
+                    "S2. It's down town-on Brown Street.",
                     "S1. Do you know the exact address?",
                     "S2. Yes. It's 521 Brown Street."
                 ]
@@ -3613,7 +3613,7 @@
                 "lines": [
                     "S1. Are the instructions too complicated for you?",
                     "S2. Well, would you mind repeating them?",
-                    "S1. I\u2019d be glad to.",
+                    "S1. I'd be glad to.",
                     "S2. I'd like to write them down this time."
                 ]
             },
@@ -3705,7 +3705,7 @@
                 "title": "Conversation C",
                 "lines": [
                     "S1. Is this where I get off the bus?",
-                    "S2. No. Not here-\u00b7at the next stop.",
+                    "S2. No. Not here-at the next stop.",
                     "S1. Can I catch a taxi right there?",
                     "S2. Yes. There's a taxi stand right by the bus stop."
                 ]
@@ -3841,7 +3841,7 @@
                 "lines": [
                     "S1. I have to take a trip by air next week.",
                     "S2. Do you like to fly?",
-                    "S1. I don't know because I\u2019ve never flown before.",
+                    "S1. I don't know because I've never flown before.",
                     "S2. You'll probably like it very much."
                 ]
             },
@@ -3869,7 +3869,7 @@
                     "S1. How will you travel to Los Angeles?",
                     "S2. We'll go by plane.",
                     "S1. How long will it take?",
-                    "S2. It\u2019ll take about five or six hours to get there."
+                    "S2. It'll take about five or six hours to get there."
                 ]
             },
             {
@@ -3905,7 +3905,7 @@
                 "title": "Conversation B",
                 "lines": [
                     "S1. What's the time?",
-                    "S2. It\u2019s almost eight.",
+                    "S2. It's almost eight.",
                     "S1. Do you have the exact time?",
                     "S2. Yes, it's two minutes to eight."
                 ]
@@ -3923,7 +3923,7 @@
                 "title": "Conversation D",
                 "lines": [
                     "S1. What time is it right now?",
-                    "S2. It\u2019s a five twenty five.",
+                    "S2. It's a five twenty five.",
                     "S1. I've got five thirty five.",
                     "S2. You're ten minutes fast then."
                 ]
@@ -4090,7 +4090,7 @@
                 "title": "Conversation C",
                 "lines": [
                     "S1. Do you have any idea of the time?",
-                    "S2. I don\u2019t know exactly, but it's after nine.",
+                    "S2. I don't know exactly, but it's after nine.",
                     "S1. It was nine o'clock when I got here.",
                     "S2. Well, I'm sorry I can't help you."
                 ]
@@ -4545,16 +4545,16 @@
                     "S1. Our friends Will meet us here.",
                     "S2. Will they come here right after lunch?",
                     "S1. No. They won't be here until three o'clock.",
-                    "S2. Then I\u2019ll come a little before three."
+                    "S2. Then I'll come a little before three."
                 ]
             },
             {
                 "title": "Conversation E",
                 "lines": [
                     "S1. Let's call Mary.",
-                    "S2. Let\u2019s not call her right now.",
+                    "S2. Let's not call her right now.",
                     "S1. Maybe this is a bad time to call.",
-                    "S2. Let\u2019s wait until seven or seven thirty."
+                    "S2. Let's wait until seven or seven thirty."
                 ]
             }
         ],
@@ -5017,7 +5017,7 @@
             {
                 "title": "Conversation C",
                 "lines": [
-                    "S1. I\u2019d Like to speak to Bob, Please.",
+                    "S1. I'd Like to speak to Bob, Please.",
                     "S2. What number are you calling?",
                     "S1. M-U-one- four-three-seven -six.",
                     "S2. Sorry. You've got the wrong number."
@@ -5028,14 +5028,14 @@
                 "lines": [
                     "S1. May I speak to the director, please?",
                     "S2. Who's calling, please?",
-                    "S1. Tell him it\u2019s his friend from California.",
+                    "S1. Tell him it's his friend from California.",
                     "S2. Just a Moment please"
                 ]
             },
             {
                 "title": "Conversation E",
                 "lines": [
-                    "S1. I\u2019d like to speak to Mr. Bush, Please.",
+                    "S1. I'd like to speak to Mr. Bush, Please.",
                     "S2. May I ask who is calling, Please?",
                     "S1. Tell him it's his assistant.",
                     "S2. Please hold the line while I see if he's in."
@@ -5553,9 +5553,9 @@
                 "title": "Conversation B",
                 "lines": [
                     "S1. How much is this leather billfold?",
-                    "S2. It\u2019s five twenty-five",
+                    "S2. It's five twenty-five",
                     "S3. Does that include the tax?",
-                    "S4. It\u2019s five forty four including tax."
+                    "S4. It's five forty four including tax."
                 ]
             },
             {
@@ -5580,8 +5580,8 @@
                 "title": "Conversation E",
                 "lines": [
                     "S1. How much are these things all together?",
-                    "S2. Let\u2019s see. That\u2019ll be twenty-one fifty.",
-                    "S1. I\u2019d like to change them to my account, please.",
+                    "S2. Let's see. That'll be twenty-one fifty.",
+                    "S1. I'd like to change them to my account, please.",
                     "S2. Fine. Could you give me your name & address"
                 ]
             }
@@ -5744,7 +5744,7 @@
                 "title": "Conversation E",
                 "lines": [
                     "S1. What would it cost to have this chair repaired?",
-                    "S2. I\u2019d estimate sixty to seventy dollars",
+                    "S2. I'd estimate sixty to seventy dollars",
                     "S3. How much would it cost to replace it with a new one?",
                     "S2. Probably around a hundred dollars."
                 ]
@@ -5846,7 +5846,7 @@
                 "title": "Conversation E",
                 "lines": [
                     "S1. Do you have an account at that bank?",
-                    "S2. I\u2019ve got a special checking account",
+                    "S2. I've got a special checking account",
                     "S1. How much do you have to keep in the account?",
                     "S2. There's no minimum."
                 ]
@@ -5872,7 +5872,7 @@
                     "S1. I need about ten dollars.",
                     "S2. What do you need it for?",
                     "S3. I need it for books and supplies.",
-                    "S2. O.K. I\u2019ll end it to you."
+                    "S2. O.K. I'll end it to you."
                 ]
             },
             {
@@ -6765,7 +6765,7 @@
                     "S1. Can you change this five-dollar bill?",
                     "S2. I'm sorry. I don't have change.",
                     "S1. What Should I do?",
-                    "S2. Go to the cashier\u2019s desk."
+                    "S2. Go to the cashier's desk."
                 ]
             },
             {
@@ -6773,7 +6773,7 @@
                 "lines": [
                     "S1. Can you change this ten dollar bill?",
                     "S2. How do you want it",
-                    "S1. A five and five one\u2019s please",
+                    "S1. A five and five one's please",
                     "S2. Here you are"
                 ]
             },
@@ -6781,7 +6781,7 @@
                 "title": "Conversation D",
                 "lines": [
                     "S1. Do you have a change for dollar bill?",
-                    "S2. Just a minute and I\u2019ll see",
+                    "S2. Just a minute and I'll see",
                     "S1. I need some quarters.",
                     "S2. Yes. I can change it give you two quarters."
                 ]
@@ -6923,7 +6923,7 @@
         "exercises": []
     },
     {
-        "chapter": "54. WHAT\u2019S IT LIKE OUTSIDE? / CONVERSATIONS",
+        "chapter": "54. WHAT'S IT LIKE OUTSIDE? / CONVERSATIONS",
         "conversations": [
             {
                 "title": "Conversation A",
@@ -6940,7 +6940,7 @@
                     "S1. How is the weather?",
                     "S2. It's raining outside now.",
                     "S1. Is it raining very hard?",
-                    "S2. No, it isn\u2019t. lt's just sprinkling."
+                    "S2. No, it isn't. lt's just sprinkling."
                 ]
             },
             {
@@ -7230,7 +7230,7 @@
                     },
                     {
                         "word": "It's hotter than yesterday.",
-                        "sentence": " It\u2019s, the hottest day in a long time"
+                        "sentence": " It's, the hottest day in a long time"
                     },
                     {
                         "word": "It's colder than yesterday.",
