@@ -129,6 +129,7 @@ class QuizView(ft.View):
 
         self.current_question_widget = None
 
+        # Question
         self.question_text = ft.Container(
             content=ft.Text(text_align=ft.TextAlign.LEFT, no_wrap=False, max_lines=5, width=self.page.width),
             padding=10,
