@@ -18,10 +18,11 @@ class MCQQuestion(Question):
         super().__init__(question)
         self.page = page
         self.selected_option = None
-        self.radio_group = None
+        # self.radio_group = None
 
     def display(self, page, options):
         column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
+        column.controls.append(ft.Divider(color="#06b7bd"))
         for key, option in options.items():
             column.controls.append(ft.Row(
                 controls=[
@@ -29,8 +30,6 @@ class MCQQuestion(Question):
                     ft.Text(option, text_align=ft.TextAlign.LEFT, 
                         no_wrap=False,
                         width=self.page.window.width-90,
-                        
-                        
                     )
                 ],
                 spacing=0
@@ -105,11 +104,10 @@ class QuizView(ft.View):
         self.scroll = True
         self.horizontal_alignment = 'center'
 
-
         self.current_question = 0
         self.score = 0
         self.selected_answers = []
-        self.num_questions = 10
+        self.num_questions = 5
 
         self.appbar = ft.AppBar(
             title=ft.Text('Quizz', size=15),
@@ -132,12 +130,7 @@ class QuizView(ft.View):
         self.current_question_widget = None
 
         self.question_text = ft.Container(
-            content=ft.Text(
-                text_align=ft.TextAlign.LEFT, 
-                no_wrap=False,
-                max_lines=5,
-                width=self.page.width
-            ),
+            content=ft.Text(text_align=ft.TextAlign.LEFT, no_wrap=False, max_lines=5, width=self.page.width),
             padding=10,
             margin=5,
             border_radius=5,
@@ -149,10 +142,7 @@ class QuizView(ft.View):
         self.try_again_button = ft.ElevatedButton("Try Again", on_click=self.try_again)
         
         self.button_row = ft.Row(
-            [
-                ft.ElevatedButton("Prev", on_click=self.prev_question), 
-                ft.ElevatedButton("Next", on_click=self.next_question)
-            ], 
+            controls=[ft.ElevatedButton("Prev", on_click=self.prev_question), ft.ElevatedButton("Next", on_click=self.next_question)], 
             alignment=ft.MainAxisAlignment.CENTER
         )
         
@@ -205,7 +195,6 @@ class QuizView(ft.View):
         user_answer = self.current_question_widget.get_answer() if self.current_question_widget else None
         correct_answer = self.questions[self.current_question]["answer"]
         explanation = self.questions[self.current_question].get("explanation", "")
-        print(user_answer, '=== ', correct_answer)
         
         # Update score if the answer is correct
         if user_answer is not None and user_answer == correct_answer:
@@ -244,14 +233,16 @@ class QuizView(ft.View):
                     border=ft.border.all(1, ft.Colors.BLACK),
                     padding=10,
                     margin=5,
-                    border_radius=5
+                    border_radius=5,
+                    bgcolor=["#FFE5E5", "#E8FDE8"][result['selected']==result['correct']] #['red', 'green']
                 )
             )
         self.controls.append(self.try_again_button)
         self.update()
-        # self.page.update()
     
     def prev_question(self, e):
+        if len(self.selected_answers) > 0:
+            self.selected_answers.pop()
         if self.current_question > 0:
             self.current_question -= 1
             self.load_question()

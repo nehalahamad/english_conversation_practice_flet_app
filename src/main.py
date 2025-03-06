@@ -39,4 +39,4 @@ def main(page: ft.Page):
     MyApp(page)  # Create an instance of MyApp
 
 # ft.app(main, view=ft.AppView.WEB_BROWSER)
-ft.app(main)
+ft.app(main, assets_dir="assets")

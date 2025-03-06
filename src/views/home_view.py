@@ -9,12 +9,22 @@ class HomeView(ft.View):
                 ft.AppBar(title=ft.Text("Home"), bgcolor=ft.Colors.SURFACE_CONTAINER_HIGHEST),
                 ft.ListView(
                     controls=[
-                        ft.TextButton("English Conversation Practice", on_click=lambda _: page.go("/ecp")),
-                        ft.TextButton("Docker", icon=ft.Icons.FACE, on_click=lambda _: page.go("/docker")),
-                        ft.TextButton("Quizz", icon=ft.Icons.FACE, on_click=lambda _: page.go("/quiz")),
+                        ft.ListTile(
+                            title=ft.Text("English Conversation Practice"), 
+                            leading=ft.Image(src="icons8-english-48.png", width=40, height=40, border_radius=50),
+                            on_click=lambda _: page.go("/docker")
+                        ),
+
+                        ft.ListTile(
+                            title=ft.Text("Docker"), 
+                            leading=ft.Image(src="docker.png", width=40, height=40, border_radius=50),
+                            trailing=ft.IconButton(ft.Icons.QUIZ_ROUNDED, on_click=lambda _: page.go("/quiz")),
+                            on_click=lambda _: page.go("/docker")
+                        ),
+                
                     ],
                     
                 )
-                # ft.ElevatedButton("Go ECP", on_click=lambda _: page.go("/ecp"))
             ]
         )
+
