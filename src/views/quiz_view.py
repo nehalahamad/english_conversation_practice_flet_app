@@ -2,8 +2,6 @@ import flet as ft
 import json
 import random
 
-# self.my_theme_color = '#06b7bd'
-# ft.Ref()
 
 class Question:
     def __init__(self, question):
@@ -21,29 +19,6 @@ class MCQQuestion(Question):
         self.page = page
         self.selected_option = None
         self.my_theme_color = my_theme_color
-
-    def display1(self, page, options):
-        column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
-        column.controls.append(ft.Divider(color=self.my_theme_color))
-        for key, option in options.items():
-            column.controls.append(
-                ft.Container(
-                    content=ft.Text(text=option)
-                )
-            )
-            column.controls.append(ft.Divider(color=self.my_theme_color))
-        
-
-        return ft.Container(
-            content=column,
-            padding=10,
-            margin=5,
-            border_radius=5,
-            expand=True,
-            bgcolor=ft.Colors.WHITE,
-            width=self.page.window.width
-        )
-    
 
     def display(self, page, options):
         column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
@@ -157,12 +132,10 @@ class QuizView(ft.View):
         )
 
         # Load questions once and sample a fixed set for the quiz
-        # file_path = "src/assets/docker_question_new.json"
         with open(file_path, 'r') as file:
             self.questions_json = json.load(file)
 
         self.questions = random.sample(self.questions_json, self.num_questions)
-        # print(self.questions_json[0]["options"])
 
         self.current_question_widget = None
 
@@ -191,9 +164,8 @@ class QuizView(ft.View):
         )
         # Options
         self.options = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
-        self.try_again_button = MyOutlinedButton("Try Again", self.my_theme_color, on_click=self.try_again)
         
-        # Prev Nest buttons
+        # Prev and Nest buttons
         self.button_row = ft.Row(
             controls=[
                 MyOutlinedButton("Prev", self.my_theme_color, on_click=self.prev_question), 
@@ -201,7 +173,7 @@ class QuizView(ft.View):
             ], 
             alignment=ft.MainAxisAlignment.CENTER
         )
-        
+        # Adding question, option control and prev, next buttons to View
         self.controls.append(
             ft.Column([
                 self.question_text,
@@ -281,6 +253,7 @@ class QuizView(ft.View):
                     bgcolor=["#FDEFEF", "#EFFDEF"][result['selected']==result['correct']] #['red', 'green']
                 )
             )
+        self.try_again_button = MyOutlinedButton("Try Again", self.my_theme_color, on_click=self.try_again)
         self.controls.append(self.try_again_button)
         self.update()
     
