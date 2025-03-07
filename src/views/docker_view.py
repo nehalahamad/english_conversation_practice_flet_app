@@ -58,9 +58,7 @@ class DockerView(ft.View):
             title=ft.Text('Docker', size=15),
             center_title=False,
             bgcolor='#06b7bd',
-            actions=[
-                ft.IconButton(ft.Icons.HOME, on_click=lambda e: e.page.go('/')),
-            ]
+
         )
 
 

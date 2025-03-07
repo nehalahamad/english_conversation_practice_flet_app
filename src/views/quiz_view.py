@@ -1,6 +1,37 @@
 import flet as ft
 import json
 import random
+import asyncio
+
+
+class TimerProgressBar(ft.ProgressBar):
+    def __init__(self, my_theme_color, page, next_question):
+        super().__init__()
+        self.page = page
+        self.color = my_theme_color
+        self.height = 1
+        self.seconds = 10
+        self.next_question = next_question
+
+    def did_mount(self):
+        self.running = True
+        self.page.run_task(self.update_timer)
+
+    def will_unmount(self):
+        self.running = False
+
+    async def update_timer(self):
+        while self.seconds and self.running:
+            # mins, secs = divmod(self.seconds, 60)
+            # self.value = "{:02d}:{:02d}".format(mins, secs)
+            self.value = (31-self.seconds)/30
+            # self.page.update()
+            self.page.views[-1].update()
+            await asyncio.sleep(1)
+            self.seconds -= 1
+            def f1():
+                pass
+        self.next_question(ft.ControlEvent(name='click', data=None, target='_54',page=self.page, control=MyOutlinedButton('next', 'red', f1)))
 
 
 class Question:
@@ -14,15 +45,19 @@ class Question:
         return None
 
 class MCQQuestion(Question):
-    def __init__(self, question, page:ft.Page, my_theme_color):
+    def __init__(self, question, page:ft.Page, my_theme_color, next_question=None):
         super().__init__(question)
         self.page = page
         self.selected_option = None
         self.my_theme_color = my_theme_color
+        # self.next_question = next_question
 
     def display(self, page, options):
         column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
-        column.controls.append(ft.Divider(color=self.my_theme_color))
+        column.controls.append(ft.Divider(color=self.my_theme_color)) ##########################
+        # column.controls.append(TimerProgressBar(self.my_theme_color, self.page, self.next_question))
+
+
         for key, option in options.items():
             column.controls.append(ft.Row(
                 controls=[
@@ -126,9 +161,6 @@ class QuizView(ft.View):
             title=ft.Text('Quizz', size=15),
             center_title=False,
             bgcolor=self.my_theme_color,
-            actions=[
-                ft.IconButton(ft.Icons.HOME, on_click=lambda e: e.page.go('/')),
-            ]
         )
 
         # Load questions once and sample a fixed set for the quiz
@@ -162,7 +194,7 @@ class QuizView(ft.View):
                 )
             ]
         )
-        # Options
+        # ==================== Options =======================
         self.options = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
         
         # Prev and Nest buttons
@@ -195,6 +227,7 @@ class QuizView(ft.View):
         q_type = question["type"]
         if q_type == "mcq":
             q = MCQQuestion(question["question"], self.page, self.my_theme_color)
+            # q = MCQQuestion(question["question"], self.page, self.my_theme_color, self.next_question)
             widget = q.display(self.page, question["options"])
             self.options.controls.append(widget)
             self.current_question_widget = q
@@ -242,12 +275,17 @@ class QuizView(ft.View):
                             ft.Text(f"Question: {result['question']}"),
                             ft.Text(f"Your Answer: {result['selected']}", color=ft.Colors.BLUE),
                             ft.Text(f"Correct Answer: {result['correct']}", color=ft.Colors.GREEN),
-                            ft.Text(f"Explanation: {result['explanation']}")
+                            ft.Container(
+                                content=ft.Text(f"{result['explanation']}", size=12),
+                                border=ft.border.all(1, self.my_theme_color),
+                                border_radius=5,
+                                padding=5,
+                            )
                         ],
                         scroll=True
                     ),
                     border=ft.border.all(1, self.my_theme_color),
-                    padding=10,
+                    padding=5,
                     margin=5,
                     border_radius=5,
                     bgcolor=["#FDEFEF", "#EFFDEF"][result['selected']==result['correct']] #['red', 'green']

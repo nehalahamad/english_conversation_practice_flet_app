@@ -1,0 +1,291 @@
+
+2. Which among the following is a distributed version control system?
+(A) Git
+(B) Docker
+(C) Perforce
+(D) Svn
+Ans: (A)
+Explanation: Perforce and Svn are centralized version control systems whereas docker is a container.
+
+3. After you add a file, it becomes
+(A) Committed
+(B) Modified
+(C) Staged
+(D) Untracked
+Ans: (C)
+Explanation: The staging steps allows you to keep making changes in the working directory.
+
+4. What is equivalent to fetch and merge?
+(A) push
+(B) pull
+(C) fetch
+(D) syncronize
+Ans: (B)
+Explanation: Both of them refer to retrieving latest meta-data info from the original.
+
+5. What command lets you create connection between a local and remort repository?
+(A) git remote add origin
+(B) git remote add new
+(C) git remote new origin
+(D) git remote orgin
+Ans: (A)
+Explanation: This is useful for developers creating a local copy of a central repository, since it provides an easy way to pull upstream changes or publish local commits.
+
+6. Arranging given data in descending order is an example of?
+(A) Information processing
+(B) Processs
+(C) Information
+(D) Data
+Ans: (A)
+Explanation: Data arrangement allows easier processing of data and provides extra security to the data as well.
+
+7. How do you supply a commit message to a commit?
+(A) Git message "My first commit"
+(B) Git add "My first commit"
+(C) Git commit "My first commit"
+(D) Git commit -m "I'm coding!"
+Ans: (D)
+Explanation: Just make use of the give format and add your message.
+
+8. Git shortcut to stage all the changes made?
+(A) Git commit add .
+(B) Git commit .
+(C) Git add .
+(D) Git stage -a .
+Ans: (C)
+Explanation: add command stages all the changes made.
+
+9. Which two configuration properties does the tool expect to be configured after installing Git and prior to issuing the first commit?
+(A) email address and password
+(B) username and email address
+(C) username and IP address
+(D) username and password
+Ans: (B)
+Explanation: User authenticaion and authorization is done via username and password.
+
+10. What do you call a system the records the project code's changes over time?
+(A) Repository System
+(B) Code Change System
+(C) Version Control System
+(D) none of the above
+Ans: (C)
+Explanation: Version control system helps software teams manage changes to source code over time.
+
+11. Who invented Git?
+(A) unio C. Hamano
+(B) Linus Torvalds
+(C) James Gosling
+(D) Kohsuke Kawaguchi
+Ans: (B)
+Explanation: Linus Torvalds invented Git in 2005 for development of the Linux kernel.
+
+12. Git commit -m < ? >, ? is for?
+(A) file name to be commited
+(B) comment
+(C) repo url
+(D) None
+Ans: (B)
+Explanation: ? is replaced by the comments that the user wants to add.
+
+13. Command to check out a branch from the  repository in the working directory?
+(A) git init
+(B) git checkout
+(C)  git add
+(D) git commit
+Ans: (B)
+Explanation: The git checkout command lets you navigate between the branches created by git branch.
+
+14. Command to create a new git branch?
+(A) git checkout branchname
+(B) git create-branch branchName
+(C) git branch branchName
+(D) git -b branchName
+Ans: (C)
+Explanation: replace branchName with the desired name that you want to give to the concerned branch.
+
+15. Git command if I want to commit my changes about "Initial commit"
+(A) git commit -m "Initial commit"
+(B) git commit -msg "Initial commit"
+Ans: (A)
+Explanation: The "commit" command is used to save your changes to the local repository.
+
+16. Command to make new git branch
+(A) git branch
+(B) git -b
+(C) git new branch
+(D) git checkout branch
+Ans: (A)
+Explanation:
+
+17. How do you check the state of your local git repository since your last commit?
+(A) git check
+(B) git diff
+(C) git commit
+(D) git status
+Ans: (D)
+Explanation: status command gives you the changes made in the local git repository since the last commit.
+
+18. Command to add particular file changes to staging area from working directory?
+(A) git pull
+(B) git add .
+(C) git add filename
+(D) git commit -m
+Ans: (C)
+Explanation: Just replace the filename with the file to which the changes needs to be added.
+
+19. Which of the following is one of Git's powerful features?
+(A) Rooting
+(B) Leafing
+(C) Branching
+(D) Planting
+Ans: (C)
+Explanation: Git branches are effectively a pointer to a snapshot of your changes.
+
+20. Which of the following will create new branch?
+(A) git checkout new-branch
+(B) git checkout -b new-branch
+(C) git clone new-branch
+(D) git create-branch new-branch
+Ans: (B)
+Explanation: The git branch command can be used to create a new branch.
+
+21. What are the different options for git reset?
+(A) -hard
+(B) --soft
+(C) --mixed
+(D) All of above
+Ans: (D)
+Explanation: git reset is a powerful command that is used to undo local changes to the state of a Git repo.
+22. How would you commit this with the message "adding new authors to index"?
+(A) git commit -m "adding new authors to index"
+(B) git commit "adding new authors to index"
+(C) git commit .
+(D) none of the above
+Ans: (A)
+Explanation: For adding new authors one needs to create indexes in the already existing tree.
+23. Which of the following is the correct way to initialize a new Git repository?
+(A) git add .
+(B) git init
+(C) git commit
+(D) none of the above
+Ans: (B)
+Explanation: The git init command creates a new Git repository.
+24. Which one of them is incorrect command?
+(A) git add Test.txt
+(B) git pull origin master
+(C) git push origin master
+(D) None
+Ans: (D)
+Explanation: All the commands given are correct.
+25. Command to connect to local repo with remote repo?
+(A) git init
+(B) git remote add
+(C) git connect  repo
+(D) git configure
+Ans: (B)
+Explanation: This is helpful in refelecting the changes made in the local  repository.
+26. Which programming language was used initially to create git?
+(A) Java
+(B) Perl
+(C) C
+(D) C++
+Ans: (C)
+Explanation: Because it provided wrappers around the programs written.
+27. What command removes untracked files from your working directory?
+(A) git commit
+(B) git clean -f path
+(C) git clean
+(D) git reset
+Ans: (C)
+Explanation: The git clean command can be used to untracked individual files or a collection of files.
+28. What is the default text editor for the Bash shell with a Windows-based Git install?
+(A) Emacs
+(B) Vim
+(C) Notepad++
+(D) Bash
+Ans: (B)
+Explanation: Because Vim text editor has built-in terminal.
+29. Which file can you configure to ensure that certain files are never committed to the local Git repository?
+(A) Ignore.git
+(B) .gitignore
+(C) gitignore.txt
+(D) git.ignore
+Ans: (B)
+Explanation: It tells Git which files and directories to ignore when you make a commit.
+30. Which command should you use to initialize a new git repository?
+(A) Git install
+(B) Git start
+(C) Git bash
+(D) Git init
+Ans: (D)
+Explanation: The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+31. Which of the following commands will merge branch-a into the master branch?
+(A) git merge master and git checkout branch-a
+(B) git checkout branch-a and git merge master
+(C) git checkout master and git merge branch-a
+(D) git merge branch-a and git checkout master
+Ans: (C)
+Explanation: First we run git checkout master to change the active branch back to the master branch. Then we run the command git merge new-branch to merge the new feature into the master branch.
+32. Which vendor acquired GitHub for $7.5 billion in June 2018?
+(A) Oracle
+(B) Microsoft
+(C) IBM
+(D) Google
+Ans: (B)
+Explanation: Microsoft acquired Github for $7.5 billion in June 2018.
+33. Which of the following is not a Git configuration scope?
+(A) Local
+(B) User
+(C) System
+(D) Global
+Ans: (B)
+Explanation: Local, System and Global are some of the Git configuration scope.
+34. Command to check the created, modified, deleted files in gitbash before Commit?
+(A) git show
+(B) git log
+(C) git status
+(D) all of the above
+Ans: (C)
+Explanation: The git status command displays the state of the working directory and the staging area.
+35. Which command is useful for getting a high-level overview of the project history?
+(A) git log --oneline
+(B) git reset --hard
+(C) git log --author="pattern"
+(D) git rebase base
+Ans: (A)
+Explanation: The oneline option is used to display the output as one commit per line. It also shows the output in brief like the first seven characters of the commit SHA and the commit message.
+36. What will the following command print to the Terminal?git remote -v
+(A) The current git version you're running
+(B) An inline editor for modifying remote  repositories
+(C) A list of remote repositories you are connected to
+(D) The last 5  git versions you've installed
+Ans: (C)
+Explanation: Lists the current remotes associated with the local repository.
+37. Git reset --hard used to?
+(A) uncommitted the changes, unstage the changes
+(B) uncommitted the changes
+(C) uncommitted the changes, unstage the changes, delete the changes
+(D) Unstage the changes
+Ans: (C)
+Explanation: git reset --hard option resets the current branch tip, and also deletes any changes in the working directory and staging area.
+38. Command to show limited number of commits?
+(A) git fetch remote
+(B) git log -n limit
+(C) git config limit
+(D) git status
+Ans: (B)
+Explanation: git log -n where n represents the number up to which commit you to want to see the logs.
+39. Which of the following commands will allow you to change branches?
+(A) git checkout
+(B) git clone
+(C) git add
+(D) git commit
+Ans: (A)
+Explanation: In Git terms, a "checkout" is the act of switching between different versions of a target entity. The git checkout command operates upon three distinct entities: files, commits, and branches.
+40. Command to switch between branches?
+(A) Git branch
+(B) Git checkout
+(C) Git switch
+(D) Git merge
+Ans: (B)
+Explanation: Use git checkout new_branch to switch to that branch.
