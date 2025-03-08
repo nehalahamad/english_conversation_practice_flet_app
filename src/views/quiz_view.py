@@ -207,12 +207,15 @@ class QuizView(ft.View):
         )
         # Adding question, option control and prev, next buttons to View
         self.controls.append(
-            ft.Column([
-                self.question_text,
-                self.options,
-                self.button_row
-            ], 
-            alignment=ft.MainAxisAlignment.CENTER, horizontal_alignment=ft.CrossAxisAlignment.CENTER)
+            ft.Column(
+                controls=[
+                    self.question_text,
+                    self.options,
+                    self.button_row
+                ], 
+                alignment=ft.MainAxisAlignment.CENTER, 
+                horizontal_alignment=ft.CrossAxisAlignment.CENTER
+            )
         )
         self.load_question()
 
@@ -268,18 +271,19 @@ class QuizView(ft.View):
             ft.Text(f"Quiz Completed! Your score: {self.score}/{self.num_questions}", text_align=ft.TextAlign.CENTER)
         )
         for result in self.selected_answers:
+            answer_match: bool = result['selected']==result['correct']
             self.controls.append(
                 ft.Container(
                     content=ft.Column(
                         controls=[
                             ft.Container(
-                                content=ft.Text(f"Question: {result['question']}"),
+                                content=ft.Text(f"{result['question']}"),
                                 border=ft.border.all(1, self.my_theme_color),
                                 border_radius=5,
                                 padding=5,
                             ),
                             ft.Text(f"Your Answer: {result['selected']}", color=ft.Colors.BLUE),
-                            ft.Text(f"Correct Answer: {result['correct']}", color=ft.Colors.GREEN),
+                            ft.Text(f"Correct Answer: {result['correct']}", color=ft.Colors.GREEN) if not answer_match else ft.Container(),
                             ft.Container(
                                 content=ft.Text(f"{result['explanation']}", size=12),
                                 border=ft.border.all(1, self.my_theme_color),
@@ -293,7 +297,7 @@ class QuizView(ft.View):
                     padding=5,
                     margin=5,
                     border_radius=5,
-                    bgcolor=["#FDEFEF", "#EFFDEF"][result['selected']==result['correct']] #['red', 'green']
+                    bgcolor=["#FDEFEF", "#EFFDEF"][answer_match] #['red', 'green']
                 )
             )
         self.try_again_button = MyOutlinedButton("Try Again", self.my_theme_color, on_click=self.try_again)
