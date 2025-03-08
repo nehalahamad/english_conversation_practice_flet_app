@@ -1,0 +1,41 @@
+Generate 200 distinct multiple-choice questions (MCQs) on Python regular expressions in the following JSON format:
+
+json
+[
+    {
+        "QN": "Question Number",
+        "type": "mcq",
+        "question": "Your Question Here",
+        "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+        },
+        "answer": "Correct Answer",
+        "explanation": "Explanation for the Correct Answer"
+    },
+    {
+        "QN": "Question Number",
+        "type": "mcq",
+        "question": "Your Question Here",
+        "options": {
+            "A": "Option A",
+            "B": "Option B",
+            "C": "Option C",
+            "D": "Option D"
+        },
+        "answer": "Correct Answer",
+        "explanation": "Explanation for the Correct Answer"
+    }
+
+]
+
+The questions should be conceptual and practical, covering syntax, patterns, and functions in Python's re module.
+Each question should have four options (A, B, C, D), with only one correct answer.
+The correct answer should be explicitly mentioned in the "answer" field.
+The explanation should be clear, concise, and informative, explaining why the correct option is right.
+Avoid repetition of concepts across multiple questions.
+Include a mix of beginner, intermediate, and advanced-level questions.
+Provide a question that tests understanding of a specific aspect of Python regular expressions, such as pattern matching, character classes, or groups. 
+Make sure the options are plausible but only one is correct.

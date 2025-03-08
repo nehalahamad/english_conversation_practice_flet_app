@@ -1,0 +1,2641 @@
+[
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which module in Python is used for working with regular expressions?",
+        "options": {
+            "A": "regex",
+            "B": "re",
+            "C": "pyregex",
+            "D": "regexp"
+        },
+        "answer": "re",
+        "explanation": "The 're' module is the standard library module in Python for working with regular expressions."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "What does the 're.match()' function do?",
+        "options": {
+            "A": "Matches a pattern at the end of a string",
+            "B": "Matches a pattern at the start of a string",
+            "C": "Matches a pattern anywhere in the string",
+            "D": "Searches for all occurrences of a pattern in a string"
+        },
+        "answer": "Matches a pattern at the start of a string",
+        "explanation": "The 're.match()' function checks for a match only at the beginning of the string."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following patterns matches any single character except a newline?",
+        "options": {
+            "A": "\\d",
+            "B": "\\w",
+            "C": ".",
+            "D": "\\s"
+        },
+        "answer": ".",
+        "explanation": "The dot (.) in regular expressions matches any single character except a newline."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "What does the '\\d' pattern match in regular expressions?",
+        "options": {
+            "A": "Any digit (0-9)",
+            "B": "Any non-digit character",
+            "C": "Any whitespace character",
+            "D": "Any word character (a-z, A-Z, 0-9, _)"
+        },
+        "answer": "Any digit (0-9)",
+        "explanation": "The '\\d' pattern matches any digit from 0 to 9."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which function is used to search for a pattern anywhere in a string?",
+        "options": {
+            "A": "re.match()",
+            "B": "re.findall()",
+            "C": "re.search()",
+            "D": "re.split()"
+        },
+        "answer": "re.search()",
+        "explanation": "The 're.search()' function searches for a pattern anywhere in the string, unlike 're.match()' which only checks the beginning."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What does the 're.findall()' function return?",
+        "options": {
+            "A": "A list of all matches",
+            "B": "The first match found",
+            "C": "A match object",
+            "D": "The number of matches"
+        },
+        "answer": "A list of all matches",
+        "explanation": "The 're.findall()' function returns a list of all non-overlapping matches of the pattern in the string."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which of the following patterns matches one or more occurrences of the preceding element?",
+        "options": {
+            "A": "*",
+            "B": "+",
+            "C": "?",
+            "D": "{}"
+        },
+        "answer": "+",
+        "explanation": "The '+' quantifier matches one or more occurrences of the preceding element."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What does the 're.sub()' function do?",
+        "options": {
+            "A": "Searches for a pattern in a string",
+            "B": "Replaces occurrences of a pattern in a string",
+            "C": "Splits a string by a pattern",
+            "D": "Finds all matches of a pattern in a string"
+        },
+        "answer": "Replaces occurrences of a pattern in a string",
+        "explanation": "The 're.sub()' function replaces all occurrences of a pattern in a string with a specified replacement."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which of the following patterns matches zero or more occurrences of the preceding element?",
+        "options": {
+            "A": "*",
+            "B": "+",
+            "C": "?",
+            "D": "{}"
+        },
+        "answer": "*",
+        "explanation": "The '*' quantifier matches zero or more occurrences of the preceding element."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What does the '\\w' pattern match in regular expressions?",
+        "options": {
+            "A": "Any digit (0-9)",
+            "B": "Any non-digit character",
+            "C": "Any whitespace character",
+            "D": "Any word character (a-z, A-Z, 0-9, _)"
+        },
+        "answer": "Any word character (a-z, A-Z, 0-9, _)",
+        "explanation": "The '\\w' pattern matches any word character, which includes letters (a-z, A-Z), digits (0-9), and underscores (_)."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "Which of the following patterns matches exactly three digits?",
+        "options": {
+            "A": "\\d{3}",
+            "B": "\\d{1,3}",
+            "C": "\\d+",
+            "D": "\\d*"
+        },
+        "answer": "\\d{3}",
+        "explanation": "The pattern '\\d{3}' matches exactly three digits."
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "What does the 're.split()' function do?",
+        "options": {
+            "A": "Searches for a pattern in a string",
+            "B": "Replaces occurrences of a pattern in a string",
+            "C": "Splits a string by a pattern",
+            "D": "Finds all matches of a pattern in a string"
+        },
+        "answer": "Splits a string by a pattern",
+        "explanation": "The 're.split()' function splits a string by the occurrences of a specified pattern."
+    },
+    {
+        "QN": "13",
+        "type": "mcq",
+        "question": "Which of the following patterns matches any whitespace character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\w",
+            "C": "\\s",
+            "D": "."
+        },
+        "answer": "\\s",
+        "explanation": "The '\\s' pattern matches any whitespace character, including spaces, tabs, and newlines."
+    },
+    {
+        "QN": "14",
+        "type": "mcq",
+        "question": "What does the '?' quantifier do in regular expressions?",
+        "options": {
+            "A": "Matches zero or more occurrences of the preceding element",
+            "B": "Matches one or more occurrences of the preceding element",
+            "C": "Matches zero or one occurrence of the preceding element",
+            "D": "Matches exactly one occurrence of the preceding element"
+        },
+        "answer": "Matches zero or one occurrence of the preceding element",
+        "explanation": "The '?' quantifier matches zero or one occurrence of the preceding element."
+    },
+    {
+        "QN": "15",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a word boundary?",
+        "options": {
+            "A": "\\b",
+            "B": "\\B",
+            "C": "\\w",
+            "D": "\\W"
+        },
+        "answer": "\\b",
+        "explanation": "The '\\b' pattern matches a word boundary, which is the position between a word character and a non-word character."
+    },
+    {
+        "QN": "16",
+        "type": "mcq",
+        "question": "What does the 're.compile()' function do?",
+        "options": {
+            "A": "Searches for a pattern in a string",
+            "B": "Compiles a regular expression pattern into a regex object",
+            "C": "Replaces occurrences of a pattern in a string",
+            "D": "Splits a string by a pattern"
+        },
+        "answer": "Compiles a regular expression pattern into a regex object",
+        "explanation": "The 're.compile()' function compiles a regular expression pattern into a regex object, which can be used for matching and searching."
+    },
+    {
+        "QN": "17",
+        "type": "mcq",
+        "question": "Which of the following patterns matches any non-whitespace character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\w",
+            "C": "\\S",
+            "D": "."
+        },
+        "answer": "\\S",
+        "explanation": "The '\\S' pattern matches any non-whitespace character."
+    },
+    {
+        "QN": "18",
+        "type": "mcq",
+        "question": "What does the 're.IGNORECASE' flag do?",
+        "options": {
+            "A": "Makes the pattern case-sensitive",
+            "B": "Ignores whitespace in the pattern",
+            "C": "Makes the pattern case-insensitive",
+            "D": "Ignores special characters in the pattern"
+        },
+        "answer": "Makes the pattern case-insensitive",
+        "explanation": "The 're.IGNORECASE' flag makes the pattern case-insensitive, allowing matches regardless of letter case."
+    },
+    {
+        "QN": "19",
+        "type": "mcq",
+        "question": "Which of the following patterns matches any non-digit character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\D",
+            "C": "\\w",
+            "D": "\\W"
+        },
+        "answer": "\\D",
+        "explanation": "The '\\D' pattern matches any non-digit character."
+    },
+    {
+        "QN": "20",
+        "type": "mcq",
+        "question": "What does the 're.MULTILINE' flag do?",
+        "options": {
+            "A": "Makes the '^' and '$' anchors match the start and end of each line",
+            "B": "Makes the pattern case-insensitive",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes the '^' and '$' anchors match the start and end of each line",
+        "explanation": "The 're.MULTILINE' flag makes the '^' and '$' anchors match the start and end of each line, rather than the start and end of the entire string."
+    },
+    {
+        "QN": "21",
+        "type": "mcq",
+        "question": "Which of the following patterns matches any non-word character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\D",
+            "C": "\\w",
+            "D": "\\W"
+        },
+        "answer": "\\W",
+        "explanation": "The '\\W' pattern matches any non-word character, which is any character that is not a letter, digit, or underscore."
+    },
+    {
+        "QN": "22",
+        "type": "mcq",
+        "question": "What does the 're.DOTALL' flag do?",
+        "options": {
+            "A": "Makes the '.' pattern match newline characters",
+            "B": "Makes the pattern case-insensitive",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes the '.' pattern match newline characters",
+        "explanation": "The 're.DOTALL' flag makes the '.' pattern match newline characters, allowing it to match any character including newlines."
+    },
+    {
+        "QN": "23",
+        "type": "mcq",
+        "question": "Which of the following patterns matches the start of a string?",
+        "options": {
+            "A": "^",
+            "B": "$",
+            "C": "\\b",
+            "D": "\\B"
+        },
+        "answer": "^",
+        "explanation": "The '^' pattern matches the start of a string."
+    },
+    {
+        "QN": "24",
+        "type": "mcq",
+        "question": "What does the 're.VERBOSE' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Ignores whitespace in the pattern",
+            "C": "Allows comments and whitespace in the pattern for better readability",
+            "D": "Makes the '.' pattern match newline characters"
+        },
+        "answer": "Allows comments and whitespace in the pattern for better readability",
+        "explanation": "The 're.VERBOSE' flag allows you to write more readable regular expressions by ignoring whitespace and allowing comments within the pattern."
+    },
+    {
+        "QN": "25",
+        "type": "mcq",
+        "question": "Which of the following patterns matches the end of a string?",
+        "options": {
+            "A": "^",
+            "B": "$",
+            "C": "\\b",
+            "D": "\\B"
+        },
+        "answer": "$",
+        "explanation": "The '$' pattern matches the end of a string."
+    },
+    {
+        "QN": "26",
+        "type": "mcq",
+        "question": "What does the 're.fullmatch()' function do?",
+        "options": {
+            "A": "Matches a pattern at the start of a string",
+            "B": "Matches a pattern anywhere in the string",
+            "C": "Matches the entire string against the pattern",
+            "D": "Searches for all occurrences of a pattern in a string"
+        },
+        "answer": "Matches the entire string against the pattern",
+        "explanation": "The 're.fullmatch()' function matches the entire string against the pattern, ensuring that the whole string conforms to the pattern."
+    },
+    {
+        "QN": "27",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a tab character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\r",
+            "D": "\\f"
+        },
+        "answer": "\\t",
+        "explanation": "The '\\t' pattern matches a tab character."
+    },
+    {
+        "QN": "28",
+        "type": "mcq",
+        "question": "What does the 're.escape()' function do?",
+        "options": {
+            "A": "Escapes all special characters in a string",
+            "B": "Searches for a pattern in a string",
+            "C": "Replaces occurrences of a pattern in a string",
+            "D": "Splits a string by a pattern"
+        },
+        "answer": "Escapes all special characters in a string",
+        "explanation": "The 're.escape()' function escapes all special characters in a string, making it safe to use as a literal pattern in regular expressions."
+    },
+    {
+        "QN": "29",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a newline character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\r",
+            "D": "\\f"
+        },
+        "answer": "\\n",
+        "explanation": "The '\\n' pattern matches a newline character."
+    },
+    {
+        "QN": "30",
+        "type": "mcq",
+        "question": "What does the 're.finditer()' function return?",
+        "options": {
+            "A": "A list of all matches",
+            "B": "An iterator yielding match objects",
+            "C": "The first match found",
+            "D": "The number of matches"
+        },
+        "answer": "An iterator yielding match objects",
+        "explanation": "The 're.finditer()' function returns an iterator yielding match objects for all non-overlapping matches of the pattern in the string."
+    },
+    {
+        "QN": "31",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a carriage return character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\r",
+            "D": "\\f"
+        },
+        "answer": "\\r",
+        "explanation": "The '\\r' pattern matches a carriage return character."
+    },
+    {
+        "QN": "32",
+        "type": "mcq",
+        "question": "What does the 're.purge()' function do?",
+        "options": {
+            "A": "Clears the regular expression cache",
+            "B": "Searches for a pattern in a string",
+            "C": "Replaces occurrences of a pattern in a string",
+            "D": "Splits a string by a pattern"
+        },
+        "answer": "Clears the regular expression cache",
+        "explanation": "The 're.purge()' function clears the regular expression cache, which can be useful to free up memory or reset cached patterns."
+    },
+    {
+        "QN": "33",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a form feed character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\r",
+            "D": "\\f"
+        },
+        "answer": "\\f",
+        "explanation": "The '\\f' pattern matches a form feed character."
+    },
+    {
+        "QN": "34",
+        "type": "mcq",
+        "question": "What does the 're.template()' function do?",
+        "options": {
+            "A": "Compiles a regular expression pattern into a regex object",
+            "B": "Escapes all special characters in a string",
+            "C": "Creates a template for string substitution",
+            "D": "Searches for a pattern in a string"
+        },
+        "answer": "Creates a template for string substitution",
+        "explanation": "The 're.template()' function creates a template for string substitution, allowing you to define a pattern with placeholders that can be replaced with actual values."
+    },
+    {
+        "QN": "35",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a vertical tab character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\v",
+            "D": "\\f"
+        },
+        "answer": "\\v",
+        "explanation": "The '\\v' pattern matches a vertical tab character."
+    },
+    {
+        "QN": "36",
+        "type": "mcq",
+        "question": "What does the 're.subn()' function return?",
+        "options": {
+            "A": "A list of all matches",
+            "B": "A tuple containing the new string and the number of substitutions made",
+            "C": "The first match found",
+            "D": "The number of matches"
+        },
+        "answer": "A tuple containing the new string and the number of substitutions made",
+        "explanation": "The 're.subn()' function returns a tuple containing the new string and the number of substitutions made."
+    },
+    {
+        "QN": "37",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a backspace character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\b",
+            "D": "\\f"
+        },
+        "answer": "\\b",
+        "explanation": "The '\\b' pattern matches a backspace character when used inside a character class."
+    },
+    {
+        "QN": "38",
+        "type": "mcq",
+        "question": "What does the 're.Scanner()' function do?",
+        "options": {
+            "A": "Scans a string for patterns and returns a list of tokens",
+            "B": "Searches for a pattern in a string",
+            "C": "Replaces occurrences of a pattern in a string",
+            "D": "Splits a string by a pattern"
+        },
+        "answer": "Scans a string for patterns and returns a list of tokens",
+        "explanation": "The 're.Scanner()' function scans a string for patterns and returns a list of tokens, making it useful for lexical analysis."
+    },
+    {
+        "QN": "39",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a hexadecimal digit?",
+        "options": {
+            "A": "\\d",
+            "B": "\\w",
+            "C": "\\x",
+            "D": "\\h"
+        },
+        "answer": "\\x",
+        "explanation": "The '\\x' pattern matches a hexadecimal digit, which includes digits 0-9 and letters A-F (case-insensitive)."
+    },
+    {
+        "QN": "40",
+        "type": "mcq",
+        "question": "What does the 're.LOCALE' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes \\w, \\W, \\b, \\B dependent on the current locale",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes \\w, \\W, \\b, \\B dependent on the current locale",
+        "explanation": "The 're.LOCALE' flag makes the patterns \\w, \\W, \\b, and \\B dependent on the current locale, which affects how they match characters."
+    },
+    {
+        "QN": "41",
+        "type": "mcq",
+        "question": "Which of the following patterns matches an octal digit?",
+        "options": {
+            "A": "\\d",
+            "B": "\\o",
+            "C": "\\O",
+            "D": "\\0"
+        },
+        "answer": "\\o",
+        "explanation": "The '\\o' pattern matches an octal digit, which includes digits 0-7."
+    },
+    {
+        "QN": "42",
+        "type": "mcq",
+        "question": "What does the 're.ASCII' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes \\w, \\W, \\b, \\B match only ASCII characters",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes \\w, \\W, \\b, \\B match only ASCII characters",
+        "explanation": "The 're.ASCII' flag makes the patterns \\w, \\W, \\b, and \\B match only ASCII characters, rather than Unicode characters."
+    },
+    {
+        "QN": "43",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode word character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\w",
+            "C": "\\W",
+            "D": "\\u"
+        },
+        "answer": "\\w",
+        "explanation": "The '\\w' pattern matches a Unicode word character, which includes letters, digits, and underscores from any language."
+    },
+    {
+        "QN": "44",
+        "type": "mcq",
+        "question": "What does the 're.DEBUG' flag do?",
+        "options": {
+            "A": "Prints debugging information about the compiled pattern",
+            "B": "Makes the pattern case-insensitive",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Prints debugging information about the compiled pattern",
+        "explanation": "The 're.DEBUG' flag prints debugging information about the compiled pattern, which can be useful for understanding how the pattern is being interpreted."
+    },
+    {
+        "QN": "45",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a non-Unicode word character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\w",
+            "C": "\\W",
+            "D": "\\u"
+        },
+        "answer": "\\W",
+        "explanation": "The '\\W' pattern matches a non-Unicode word character, which is any character that is not a letter, digit, or underscore."
+    },
+    {
+        "QN": "46",
+        "type": "mcq",
+        "question": "What does the 're.A' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes \\w, \\W, \\b, \\B match only ASCII characters",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes \\w, \\W, \\b, \\B match only ASCII characters",
+        "explanation": "The 're.A' flag is an alias for 're.ASCII', making \\w, \\W, \\b, and \\B match only ASCII characters."
+    },
+    {
+        "QN": "47",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode digit?",
+        "options": {
+            "A": "\\d",
+            "B": "\\D",
+            "C": "\\w",
+            "D": "\\W"
+        },
+        "answer": "\\d",
+        "explanation": "The '\\d' pattern matches a Unicode digit, which includes digits from any language."
+    },
+    {
+        "QN": "48",
+        "type": "mcq",
+        "question": "What does the 're.I' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes \\w, \\W, \\b, \\B match only ASCII characters",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes the pattern case-insensitive",
+        "explanation": "The 're.I' flag is an alias for 're.IGNORECASE', making the pattern case-insensitive."
+    },
+    {
+        "QN": "49",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a non-Unicode digit?",
+        "options": {
+            "A": "\\d",
+            "B": "\\D",
+            "C": "\\w",
+            "D": "\\W"
+        },
+        "answer": "\\D",
+        "explanation": "The '\\D' pattern matches a non-Unicode digit, which is any character that is not a digit."
+    },
+    {
+        "QN": "50",
+        "type": "mcq",
+        "question": "What does the 're.M' flag do?",
+        "options": {
+            "A": "Makes the '^' and '$' anchors match the start and end of each line",
+            "B": "Makes the pattern case-insensitive",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes the '^' and '$' anchors match the start and end of each line",
+        "explanation": "The 're.M' flag is an alias for 're.MULTILINE', making the '^' and '$' anchors match the start and end of each line."
+    },
+    {
+        "QN": "51",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode whitespace character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\s",
+            "C": "\\w",
+            "D": "\\W"
+        },
+        "answer": "\\s",
+        "explanation": "The '\\s' pattern matches a Unicode whitespace character, which includes spaces, tabs, newlines, and other whitespace characters from any language."
+    },
+    {
+        "QN": "52",
+        "type": "mcq",
+        "question": "What does the 're.S' flag do?",
+        "options": {
+            "A": "Makes the '.' pattern match newline characters",
+            "B": "Makes the pattern case-insensitive",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes the '.' pattern match newline characters",
+        "explanation": "The 're.S' flag is an alias for 're.DOTALL', making the '.' pattern match newline characters."
+    },
+    {
+        "QN": "53",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a non-Unicode whitespace character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\s",
+            "C": "\\S",
+            "D": "\\W"
+        },
+        "answer": "\\S",
+        "explanation": "The '\\S' pattern matches a non-Unicode whitespace character, which is any character that is not a whitespace character."
+    },
+    {
+        "QN": "54",
+        "type": "mcq",
+        "question": "What does the 're.X' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Ignores whitespace in the pattern",
+            "C": "Allows comments and whitespace in the pattern for better readability",
+            "D": "Makes the '.' pattern match newline characters"
+        },
+        "answer": "Allows comments and whitespace in the pattern for better readability",
+        "explanation": "The 're.X' flag is an alias for 're.VERBOSE', allowing comments and whitespace in the pattern for better readability."
+    },
+    {
+        "QN": "55",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode newline character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\n",
+            "C": "\\r",
+            "D": "\\u"
+        },
+        "answer": "\\n",
+        "explanation": "The '\\n' pattern matches a Unicode newline character."
+    },
+    {
+        "QN": "56",
+        "type": "mcq",
+        "question": "What does the 're.L' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes \\w, \\W, \\b, \\B dependent on the current locale",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes \\w, \\W, \\b, \\B dependent on the current locale",
+        "explanation": "The 're.L' flag is an alias for 're.LOCALE', making \\w, \\W, \\b, and \\B dependent on the current locale."
+    },
+    {
+        "QN": "57",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode tab character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\r",
+            "D": "\\u"
+        },
+        "answer": "\\t",
+        "explanation": "The '\\t' pattern matches a Unicode tab character."
+    },
+    {
+        "QN": "58",
+        "type": "mcq",
+        "question": "What does the 're.U' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes \\w, \\W, \\b, \\B match Unicode characters",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes \\w, \\W, \\b, \\B match Unicode characters",
+        "explanation": "The 're.U' flag is an alias for 're.UNICODE', making \\w, \\W, \\b, and \\B match Unicode characters."
+    },
+    {
+        "QN": "59",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode carriage return character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\r",
+            "D": "\\u"
+        },
+        "answer": "\\r",
+        "explanation": "The '\\r' pattern matches a Unicode carriage return character."
+    },
+    {
+        "QN": "60",
+        "type": "mcq",
+        "question": "What does the 're.UNICODE' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes \\w, \\W, \\b, \\B match Unicode characters",
+            "C": "Ignores whitespace in the pattern",
+            "D": "Allows comments in the pattern"
+        },
+        "answer": "Makes \\w, \\W, \\b, \\B match Unicode characters",
+        "explanation": "The 're.UNICODE' flag makes \\w, \\W, \\b, and \\B match Unicode characters, which is the default behavior in Python 3."
+    },
+    {
+        "QN": "61",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode form feed character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\r",
+            "D": "\\f"
+        },
+        "answer": "\\f",
+        "explanation": "The '\\f' pattern matches a Unicode form feed character."
+    },
+    {
+        "QN": "62",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode vertical tab character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\v",
+            "D": "\\f"
+        },
+        "answer": "\\v",
+        "explanation": "The '\\v' pattern matches a Unicode vertical tab character."
+    },
+    {
+        "QN": "63",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode backspace character?",
+        "options": {
+            "A": "\\t",
+            "B": "\\n",
+            "C": "\\b",
+            "D": "\\f"
+        },
+        "answer": "\\b",
+        "explanation": "The '\\b' pattern matches a Unicode backspace character when used inside a character class."
+    },
+    {
+        "QN": "64",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode hexadecimal digit?",
+        "options": {
+            "A": "\\d",
+            "B": "\\w",
+            "C": "\\x",
+            "D": "\\h"
+        },
+        "answer": "\\x",
+        "explanation": "The '\\x' pattern matches a Unicode hexadecimal digit, which includes digits 0-9 and letters A-F (case-insensitive)."
+    },
+    {
+        "QN": "65",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode octal digit?",
+        "options": {
+            "A": "\\d",
+            "B": "\\o",
+            "C": "\\O",
+            "D": "\\0"
+        },
+        "answer": "\\o",
+        "explanation": "The '\\o' pattern matches a Unicode octal digit, which includes digits 0-7."
+    },
+    {
+        "QN": "66",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode word boundary?",
+        "options": {
+            "A": "\\b",
+            "B": "\\B",
+            "C": "\\w",
+            "D": "\\W"
+        },
+        "answer": "\\b",
+        "explanation": "The '\\b' pattern matches a Unicode word boundary, which is the position between a word character and a non-word character."
+    },
+    {
+        "QN": "67",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode non-word boundary?",
+        "options": {
+            "A": "\\b",
+            "B": "\\B",
+            "C": "\\w",
+            "D": "\\W"
+        },
+        "answer": "\\B",
+        "explanation": "The '\\B' pattern matches a Unicode non-word boundary, which is the position between two word characters or two non-word characters."
+    },
+    {
+        "QN": "68",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode non-word character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\w",
+            "C": "\\W",
+            "D": "\\u"
+        },
+        "answer": "\\W",
+        "explanation": "The '\\W' pattern matches a Unicode non-word character, which is any character that is not a letter, digit, or underscore."
+    },
+    {
+        "QN": "69",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode non-digit character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\D",
+            "C": "\\w",
+            "D": "\\W"
+        },
+        "answer": "\\D",
+        "explanation": "The '\\D' pattern matches a Unicode non-digit character, which is any character that is not a digit."
+    },
+    {
+        "QN": "70",
+        "type": "mcq",
+        "question": "Which of the following patterns matches a Unicode non-whitespace character?",
+        "options": {
+            "A": "\\d",
+            "B": "\\s",
+            "C": "\\S",
+            "D": "\\W"
+        },
+        "answer": "\\S",
+        "explanation": "The '\\S' pattern matches a Unicode non-whitespace character, which is any character that is not a whitespace character."
+    },
+    {
+        "QN": "71",
+        "type": "mcq",
+        "question": "What is the purpose of the 're' module in Python?",
+        "options": {
+            "A": "For handling exceptions",
+            "B": "For working with regular expressions",
+            "C": "For database operations",
+            "D": "For network programming"
+        },
+        "answer": "For working with regular expressions",
+        "explanation": "The 're' module in Python provides support for regular expressions, which are used for pattern matching in strings."
+    },
+    {
+        "QN": "72",
+        "type": "mcq",
+        "question": "What does the '^' symbol represent in a regular expression?",
+        "options": {
+            "A": "End of a string",
+            "B": "Start of a string",
+            "C": "Any character",
+            "D": "Digit"
+        },
+        "answer": "Start of a string",
+        "explanation": "The '^' symbol in a regular expression represents the start of a string."
+    },
+    {
+        "QN": "73",
+        "type": "mcq",
+        "question": "Which function is used to search for the first occurrence of a pattern in a string?",
+        "options": {
+            "A": "re.match()",
+            "B": "re.search()",
+            "C": "re.findall()",
+            "D": "re.sub()"
+        },
+        "answer": "re.search()",
+        "explanation": "The 're.search()' function is used to search for the first occurrence of a pattern in a string."
+    },
+    {
+        "QN": "74",
+        "type": "mcq",
+        "question": "What does the '\\d' character class represent in a regular expression?",
+        "options": {
+            "A": "Any whitespace character",
+            "B": "Any digit",
+            "C": "Any letter",
+            "D": "Any special character"
+        },
+        "answer": "Any digit",
+        "explanation": "The '\\d' character class in a regular expression represents any digit (equivalent to [0-9])."
+    },
+    {
+        "QN": "75",
+        "type": "mcq",
+        "question": "What is the purpose of the 're.IGNORECASE' flag?",
+        "options": {
+            "A": "To make the pattern case-sensitive",
+            "B": "To make the pattern case-insensitive",
+            "C": "To ignore whitespace",
+            "D": "To ignore special characters"
+        },
+        "answer": "To make the pattern case-insensitive",
+        "explanation": "The 're.IGNORECASE' flag makes the pattern case-insensitive, so it matches both lowercase and uppercase characters."
+    },
+    {
+        "QN": "76",
+        "type": "mcq",
+        "question": "What does the 're.findall()' function return?",
+        "options": {
+            "A": "A single match object",
+            "B": "A list of all matches",
+            "C": "A boolean indicating if a match was found",
+            "D": "The original string"
+        },
+        "answer": "A list of all matches",
+        "explanation": "The 're.findall()' function returns a list of all matches in the string."
+    },
+    {
+        "QN": "77",
+        "type": "mcq",
+        "question": "What is the purpose of the 're.sub()' function?",
+        "options": {
+            "A": "To search for a pattern",
+            "B": "To replace occurrences of a pattern",
+            "C": "To split a string",
+            "D": "To join strings"
+        },
+        "answer": "To replace occurrences of a pattern",
+        "explanation": "The 're.sub()' function is used to replace occurrences of a pattern in a string."
+    },
+    {
+        "QN": "78",
+        "type": "mcq",
+        "question": "What does the 're.compile()' function do?",
+        "options": {
+            "A": "It compiles a regular expression pattern into a regular expression object",
+            "B": "It searches for a pattern in a string",
+            "C": "It replaces occurrences of a pattern",
+            "D": "It splits a string"
+        },
+        "answer": "It compiles a regular expression pattern into a regular expression object",
+        "explanation": "The 're.compile()' function compiles a regular expression pattern into a regular expression object, which can be used for matching using its 'match()', 'search()', and other methods."
+    },
+    {
+        "QN": "79",
+        "type": "mcq",
+        "question": "What does the 're.split()' function do?",
+        "options": {
+            "A": "It joins strings using a pattern",
+            "B": "It splits a string using a pattern",
+            "C": "It searches for a pattern in a string",
+            "D": "It replaces occurrences of a pattern"
+        },
+        "answer": "It splits a string using a pattern",
+        "explanation": "The 're.split()' function splits a string into substrings using a regular expression pattern as the separator."
+    },
+    {
+        "QN": "80",
+        "type": "mcq",
+        "question": "What is the purpose of the 're.escape()' function?",
+        "options": {
+            "A": "To unescape special characters in a string",
+            "B": "To escape special characters in a string",
+            "C": "To compile a regular expression pattern",
+            "D": "To search for a pattern in a string"
+        },
+        "answer": "To escape special characters in a string",
+        "explanation": "The 're.escape()' function escapes all special characters in a string so that it can be used as a literal string in a regular expression."
+    },
+    {
+        "QN": "81",
+        "type": "mcq",
+        "question": "What does the 're.MULTILINE' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Ignores whitespace characters"
+        },
+        "answer": "Makes the '^' and '$' anchors match the start and end of each line",
+        "explanation": "The 're.MULTILINE' flag makes the '^' and '$' anchors match the start and end of each line in a multiline string, not just the start and end of the entire string."
+    },
+    {
+        "QN": "82",
+        "type": "mcq",
+        "question": "What does the 're.DOTALL' flag do?",
+        "options": {
+            "A": "Makes the '.' special character match any character except newline",
+            "B": "Makes the '.' special character match any character including newline",
+            "C": "Makes the pattern case-insensitive",
+            "D": "Ignores whitespace characters"
+        },
+        "answer": "Makes the '.' special character match any character including newline",
+        "explanation": "The 're.DOTALL' flag makes the '.' special character match any character, including newline characters."
+    },
+    {
+        "QN": "83",
+        "type": "mcq",
+        "question": "What is the purpose of non-capturing groups in regular expressions?",
+        "options": {
+            "A": "To capture groups for later reference",
+            "B": "To group parts of a pattern without capturing them",
+            "C": "To ignore parts of a pattern",
+            "D": "To make the pattern case-insensitive"
+        },
+        "answer": "To group parts of a pattern without capturing them",
+        "explanation": "Non-capturing groups, denoted by '(?:pattern)', are used to group parts of a pattern without capturing them for later reference."
+    },
+    {
+        "QN": "84",
+        "type": "mcq",
+        "question": "What does the '(?=pattern)' syntax represent in regular expressions?",
+        "options": {
+            "A": "Negative lookahead assertion",
+            "B": "Positive lookahead assertion",
+            "C": "Negative lookbehind assertion",
+            "D": "Positive lookbehind assertion"
+        },
+        "answer": "Positive lookahead assertion",
+        "explanation": "The '(?=pattern)' syntax represents a positive lookahead assertion, which checks if the pattern matches without including it in the match."
+    },
+    {
+        "QN": "85",
+        "type": "mcq",
+        "question": "What does the '(?<=pattern)' syntax represent in regular expressions?",
+        "options": {
+            "A": "Negative lookahead assertion",
+            "B": "Positive lookahead assertion",
+            "C": "Negative lookbehind assertion",
+            "D": "Positive lookbehind assertion"
+        },
+        "answer": "Positive lookbehind assertion",
+        "explanation": "The '(?<=pattern)' syntax represents a positive lookbehind assertion, which checks if the pattern matches before the current position without including it in the match."
+    },
+    {
+        "QN": "86",
+        "type": "mcq",
+        "question": "How can you validate an email address using regular expressions in Python?",
+        "options": {
+            "A": "Using the pattern '^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$'",
+            "B": "Using the pattern '^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-]$'",
+            "C": "Using the pattern '^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9]$'",
+            "D": "Using the pattern '^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]$'"
+        },
+        "answer": "Using the pattern '^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$'",
+        "explanation": "The pattern '^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$' is commonly used to validate email addresses, allowing for most common email formats."
+    },
+    {
+        "QN": "87",
+        "type": "mcq",
+        "question": "What is the purpose of the '(?<!pattern)' syntax in regular expressions?",
+        "options": {
+            "A": "Negative lookahead assertion",
+            "B": "Positive lookahead assertion",
+            "C": "Negative lookbehind assertion",
+            "D": "Positive lookbehind assertion"
+        },
+        "answer": "Negative lookbehind assertion",
+        "explanation": "The '(?<!pattern)' syntax represents a negative lookbehind assertion, which checks if the pattern does not match before the current position."
+    },
+    {
+        "QN": "88",
+        "type": "mcq",
+        "question": "What does the '(?<!pattern)' syntax represent in regular expressions?",
+        "options": {
+            "A": "Negative lookahead assertion",
+            "B": "Positive lookahead assertion",
+            "C": "Negative lookbehind assertion",
+            "D": "Positive lookbehind assertion"
+        },
+        "answer": "Negative lookbehind assertion",
+        "explanation": "The '(?<!pattern)' syntax represents a negative lookbehind assertion, which checks if the pattern does not match before the current position."
+    },
+    {
+        "QN": "89",
+        "type": "mcq",
+        "question": "What does the '(?!pattern)' syntax represent in regular expressions?",
+        "options": {
+            "A": "Negative lookahead assertion",
+            "B": "Positive lookahead assertion",
+            "C": "Negative lookbehind assertion",
+            "D": "Positive lookbehind assertion"
+        },
+        "answer": "Negative lookahead assertion",
+        "explanation": "The '(?!pattern)' syntax represents a negative lookahead assertion, which checks if the pattern does not match after the current position."
+    },
+    {
+        "QN": "90",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit using regular expressions?",
+        "options": {
+            "A": "Using the pattern '.*\\d.*'",
+            "B": "Using the pattern '\\d+'",
+            "C": "Using the pattern '\\d*'",
+            "D": "Using the pattern '\\D+'"
+        },
+        "answer": "Using the pattern '.*\\d.*'",
+        "explanation": "The pattern '.*\\d.*' matches any string that contains at least one digit ('\\d'). The '.*' before and after '\\d' ensures that the string can contain characters before and after the digit."
+    },
+    {
+        "QN": "91",
+        "type": "mcq",
+        "question": "What does the '\\b' special sequence represent in regular expressions?",
+        "options": {
+            "A": "Word boundary",
+            "B": "Non-word boundary",
+            "C": "Start of a string",
+            "D": "End of a string"
+        },
+        "answer": "Word boundary",
+        "explanation": "The '\\b' special sequence represents a word boundary, which is the position where a word character is not followed or preceded by another word character."
+    },
+    {
+        "QN": "92",
+        "type": "mcq",
+        "question": "How can you match a string that starts with 'abc' using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^abc.*'",
+            "B": "Using the pattern 'abc.*'",
+            "C": "Using the pattern '.*abc'",
+            "D": "Using the pattern 'abc$'"
+        },
+        "answer": "Using the pattern '^abc.*'",
+        "explanation": "The pattern '^abc.*' matches any string that starts with 'abc'. The '^' symbol ensures the match is at the start of the string."
+    },
+    {
+        "QN": "93",
+        "type": "mcq",
+        "question": "What does the '\\B' special sequence represent in regular expressions?",
+        "options": {
+            "A": "Word boundary",
+            "B": "Non-word boundary",
+            "C": "Start of a string",
+            "D": "End of a string"
+        },
+        "answer": "Non-word boundary",
+        "explanation": "The '\\B' special sequence represents a non-word boundary, which is the position where a word character is followed or preceded by another word character."
+    },
+    {
+        "QN": "94",
+        "type": "mcq",
+        "question": "How can you match a string that ends with 'xyz' using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^.*xyz'",
+            "B": "Using the pattern '.*xyz$'",
+            "C": "Using the pattern 'xyz.*'",
+            "D": "Using the pattern '^xyz'"
+        },
+        "answer": "Using the pattern '.*xyz$'",
+        "explanation": "The pattern '.*xyz$' matches any string that ends with 'xyz'. The '$' symbol ensures the match is at the end of the string."
+    },
+    {
+        "QN": "95",
+        "type": "mcq",
+        "question": "What does the '{n, m}' syntax represent in regular expressions?",
+        "options": {
+            "A": "Matches the preceding element at least n times and at most m times",
+            "B": "Matches the preceding element exactly n times",
+            "C": "Matches the preceding element at least n times",
+            "D": "Matches the preceding element at most m times"
+        },
+        "answer": "Matches the preceding element at least n times and at most m times",
+        "explanation": "The '{n, m}' syntax represents a quantifier that matches the preceding element at least n times and at most m times."
+    },
+    {
+        "QN": "96",
+        "type": "mcq",
+        "question": "How can you validate a URL using regular expressions in Python?",
+        "options": {
+            "A": "Using the pattern '^https?://[^\\s]+'",
+            "B": "Using the pattern '^https?://[a-zA-Z0-9-\\.]+\\.[a-zA-Z]{2,}(/.*)?$'",
+            "C": "Using the pattern '^https?://[a-zA-Z0-9-\\.]+\\.[a-zA-Z]{2,}$'",
+            "D": "Using the pattern '^https?://[a-zA-Z0-9-\\.]+'"
+        },
+        "answer": "Using the pattern '^https?://[a-zA-Z0-9-\\.]+\\.[a-zA-Z]{2,}(/.*)?$'",
+        "explanation": "The pattern '^https?://[a-zA-Z0-9-\\.]+\\.[a-zA-Z]{2,}(/.*)?$' is commonly used to validate URLs, allowing for HTTP or HTTPS and including optional path components."
+    },
+    {
+        "QN": "97",
+        "type": "mcq",
+        "question": "What is the difference between 're.search()' and 're.match()'?",
+        "options": {
+            "A": "'re.search()' searches the entire string, while 're.match()' only searches from the start",
+            "B": "'re.search()' only searches from the start, while 're.match()' searches the entire string",
+            "C": "'re.search()' is case-insensitive, while 're.match()' is case-sensitive",
+            "D": "'re.search()' is used for replacing, while 're.match()' is used for searching"
+        },
+        "answer": "'re.search()' searches the entire string, while 're.match()' only searches from the start",
+        "explanation": "'re.search()' searches for the first occurrence of the pattern anywhere in the string, while 're.match()' searches for the pattern only at the beginning of the string."
+    },
+    {
+        "QN": "98",
+        "type": "mcq",
+        "question": "What does the 're.fullmatch()' function do?",
+        "options": {
+            "A": "It searches for the first occurrence of a pattern in a string",
+            "B": "It matches the entire string against a pattern",
+            "C": "It replaces occurrences of a pattern",
+            "D": "It splits a string using a pattern"
+        },
+        "answer": "It matches the entire string against a pattern",
+        "explanation": "The 're.fullmatch()' function matches the entire string against a pattern, returning a match object if the string matches the pattern completely."
+    },
+    {
+        "QN": "99",
+        "type": "mcq",
+        "question": "What is the purpose of the 're.subn()' function?",
+        "options": {
+            "A": "To replace occurrences of a pattern and return the number of replacements",
+            "B": "To search for a pattern in a string",
+            "C": "To split a string using a pattern",
+            "D": "To compile a regular expression pattern"
+        },
+        "answer": "To replace occurrences of a pattern and return the number of replacements",
+        "explanation": "The 're.subn()' function replaces occurrences of a pattern in a string and returns a tuple containing the new string and the number of substitutions made."
+    },
+    {
+        "QN": "100",
+        "type": "mcq",
+        "question": "How can you match a string that contains only letters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[a-zA-Z]+$'",
+            "B": "Using the pattern '^[a-zA-Z]*$'",
+            "C": "Using the pattern '^[a-zA-Z]?'",
+            "D": "Using the pattern '^[a-zA-Z].*$'"
+        },
+        "answer": "Using the pattern '^[a-zA-Z]+$'",
+        "explanation": "The pattern '^[a-zA-Z]+$' matches any string that contains only letters from start to end."
+    },
+    {
+        "QN": "101",
+        "type": "mcq",
+        "question": "What does the 're.finditer()' function do?",
+        "options": {
+            "A": "It returns an iterator yielding match objects for every occurrence of a pattern",
+            "B": "It returns a list of all matches of a pattern",
+            "C": "It searches for the first occurrence of a pattern",
+            "D": "It replaces occurrences of a pattern"
+        },
+        "answer": "It returns an iterator yielding match objects for every occurrence of a pattern",
+        "explanation": "The 're.finditer()' function returns an iterator yielding match objects for every occurrence of a pattern in a string."
+    },
+    {
+        "QN": "102",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one uppercase letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '.*[A-Z].*'",
+            "B": "Using the pattern '[A-Z]+'",
+            "C": "Using the pattern '[A-Z]*'",
+            "D": "Using the pattern '[a-z]+'"
+        },
+        "answer": "Using the pattern '.*[A-Z].*'",
+        "explanation": "The pattern '.*[A-Z].*' matches any string that contains at least one uppercase letter ('[A-Z]'). The '.*' before and after '[A-Z]' ensures that the string can contain characters before and after the uppercase letter."
+    },
+    {
+        "QN": "103",
+        "type": "mcq",
+        "question": "What does the '\\A' special sequence represent in regular expressions?",
+        "options": {
+            "A": "Start of a string",
+            "B": "End of a string",
+            "C": "Start of a line",
+            "D": "End of a line"
+        },
+        "answer": "Start of a string",
+        "explanation": "The '\\A' special sequence represents the start of a string, similar to '^', but it always matches the start of the entire string, not just the start of each line in multiline mode."
+    },
+    {
+        "QN": "104",
+        "type": "mcq",
+        "question": "What does the '\\Z' special sequence represent in regular expressions?",
+        "options": {
+            "A": "End of a string",
+            "B": "Start of a string",
+            "C": "End of a line",
+            "D": "Start of a line"
+        },
+        "answer": "End of a string",
+        "explanation": "The '\\Z' special sequence represents the end of a string, similar to '$', but it always matches the end of the entire string, not just the end of each line in multiline mode."
+    },
+    {
+        "QN": "105",
+        "type": "mcq",
+        "question": "How can you match a string that contains only digits using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\d+$'",
+            "B": "Using the pattern '^\\d*$'",
+            "C": "Using the pattern '^\\d?'",
+            "D": "Using the pattern '^\\d.*$'"
+        },
+        "answer": "Using the pattern '^\\d+$'",
+        "explanation": "The pattern '^\\d+$' matches any string that contains only digits from start to end."
+    },
+    {
+        "QN": "106",
+        "type": "mcq",
+        "question": "How can you validate a date in the format 'YYYY-MM-DD' using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\d{4}-\\d{2}-\\d{2}$'",
+            "B": "Using the pattern '^\\d{4}-\\d{1,2}-\\d{1,2}$'",
+            "C": "Using the pattern '^\\d{4}-\\d{2}-\\d{1,2}$'",
+            "D": "Using the pattern '^\\d{4}-\\d{1,2}-\\d{2}$'"
+        },
+        "answer": "Using the pattern '^\\d{4}-\\d{2}-\\d{2}$'",
+        "explanation": "The pattern '^\\d{4}-\\d{2}-\\d{2}$' matches any string that is in the format 'YYYY-MM-DD', ensuring each part of the date has the correct number of digits."
+    },
+    {
+        "QN": "107",
+        "type": "mcq",
+        "question": "What is the difference between 're.sub()' and 're.subn()'?",
+        "options": {
+            "A": "'re.sub()' returns the number of substitutions, while 're.subn()' returns the new string",
+            "B": "'re.sub()' returns the new string, while 're.subn()' returns the new string and the number of substitutions",
+            "C": "'re.sub()' is case-insensitive, while 're.subn()' is case-sensitive",
+            "D": "'re.sub()' is used for searching, while 're.subn()' is used for replacing"
+        },
+        "answer": "'re.sub()' returns the new string, while 're.subn()' returns the new string and the number of substitutions",
+        "explanation": "'re.sub()' returns the new string after replacement, while 're.subn()' returns a tuple containing the new string and the number of substitutions made."
+    },
+    {
+        "QN": "108",
+        "type": "mcq",
+        "question": "What does the 're.purge()' function do?",
+        "options": {
+            "A": "It clears the regular expression cache",
+            "B": "It compiles a regular expression pattern",
+            "C": "It searches for a pattern in a string",
+            "D": "It replaces occurrences of a pattern"
+        },
+        "answer": "It clears the regular expression cache",
+        "explanation": "The 're.purge()' function clears the regular expression cache, which can be useful for freeing up memory if you're using a lot of different patterns."
+    },
+    {
+        "QN": "109",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly three digits using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\d{3}$'",
+            "B": "Using the pattern '^\\d{3,}$'",
+            "C": "Using the pattern '^\\d{3,5}$'",
+            "D": "Using the pattern '^\\d{1,3}$'"
+        },
+        "answer": "Using the pattern '^\\d{3}$'",
+        "explanation": "The pattern '^\\d{3}$' matches any string that contains exactly three digits from start to end."
+    },
+    {
+        "QN": "110",
+        "type": "mcq",
+        "question": "What does the 're.error' exception represent?",
+        "options": {
+            "A": "An error in the regular expression syntax",
+            "B": "A match not found in the string",
+            "C": "A memory error",
+            "D": "A runtime error"
+        },
+        "answer": "An error in the regular expression syntax",
+        "explanation": "The 're.error' exception is raised when there is an error in the regular expression syntax."
+    },
+    {
+        "QN": "111",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least two uppercase letters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*[A-Z].*[A-Z]).*$'",
+            "B": "Using the pattern '^[A-Z]{2,}$'",
+            "C": "Using the pattern '^[A-Z]*$'",
+            "D": "Using the pattern '^[a-z]{2,}$'"
+        },
+        "answer": "Using the pattern '^(?=.*[A-Z].*[A-Z]).*$'",
+        "explanation": "The pattern '^(?=.*[A-Z].*[A-Z]).*$' matches any string that contains at least two uppercase letters, using positive lookahead assertions."
+    },
+    {
+        "QN": "112",
+        "type": "mcq",
+        "question": "What does the 're.TEMPLATE' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Treats the pattern as a template, disabling backtracking"
+        },
+        "answer": "Treats the pattern as a template, disabling backtracking",
+        "explanation": "The 're.TEMPLATE' flag treats the pattern as a template, disabling backtracking, which can improve performance but may limit pattern flexibility."
+    },
+    {
+        "QN": "113",
+        "type": "mcq",
+        "question": "How can you match a string that contains only hexadecimal digits using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9a-fA-F]+$'",
+            "B": "Using the pattern '^[0-9]+$'",
+            "C": "Using the pattern '^[a-fA-F]+$'",
+            "D": "Using the pattern '^[0-9a-zA-Z]+$'"
+        },
+        "answer": "Using the pattern '^[0-9a-fA-F]+$'",
+        "explanation": "The pattern '^[0-9a-fA-F]+$' matches any string that contains only hexadecimal digits from start to end."
+    },
+    {
+        "QN": "114",
+        "type": "mcq",
+        "question": "What does the 're.VERBOSE' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Allows whitespace and comments in the regular expression pattern"
+        },
+        "answer": "Allows whitespace and comments in the regular expression pattern",
+        "explanation": "The 're.VERBOSE' flag allows whitespace and comments in the regular expression pattern, making it easier to read and understand complex patterns."
+    },
+    {
+        "QN": "115",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly five alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{5}$'",
+            "B": "Using the pattern '^\\w{5,}$'",
+            "C": "Using the pattern '^\\w{1,5}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{5}$'",
+        "explanation": "The pattern '^\\w{5}$' matches any string that contains exactly five alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "116",
+        "type": "mcq",
+        "question": "How can you validate an IP address using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$'",
+            "B": "Using the pattern '^([0-9]{1,3}\\.){3}[0-9]{1,3}$'",
+            "C": "Using the pattern '^([0-9]{1,3}\\.){3}[0-9]{1,3}$' with 're.VERBOSE' flag",
+            "D": "Using the pattern '^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}$'"
+        },
+        "answer": "Using the pattern '^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$'",
+        "explanation": "The pattern '^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$' is commonly used to validate IP addresses, ensuring each part is within the valid range of 0 to 255."
+    },
+    {
+        "QN": "117",
+        "type": "mcq",
+        "question": "What is the difference between 're.search()' and 're.fullmatch()'?",
+        "options": {
+            "A": "'re.search()' searches the entire string, while 're.fullmatch()' matches the entire string",
+            "B": "'re.search()' matches the entire string, while 're.fullmatch()' searches the entire string",
+            "C": "'re.search()' is case-insensitive, while 're.fullmatch()' is case-sensitive",
+            "D": "'re.search()' is used for replacing, while 're.fullmatch()' is used for searching"
+        },
+        "answer": "'re.search()' searches the entire string, while 're.fullmatch()' matches the entire string",
+        "explanation": "'re.search()' searches for the first occurrence of a pattern anywhere in the string, while 're.fullmatch()' matches the entire string against the pattern."
+    },
+    {
+        "QN": "118",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one lowercase letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '.*[a-z].*'",
+            "B": "Using the pattern '[a-z]+'",
+            "C": "Using the pattern '[a-z]*'",
+            "D": "Using the pattern '[A-Z]+'"
+        },
+        "answer": "Using the pattern '.*[a-z].*'",
+        "explanation": "The pattern '.*[a-z].*' matches any string that contains at least one lowercase letter ('[a-z]'). The '.*' before and after '[a-z]' ensures that the string can contain characters before and after the lowercase letter."
+    },
+    {
+        "QN": "119",
+        "type": "mcq",
+        "question": "What does the 're.A' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Makes the special sequences like '\\w', '\\W', '\\b', etc., match ASCII characters only"
+        },
+        "answer": "Makes the special sequences like '\\w', '\\W', '\\b', etc., match ASCII characters only",
+        "explanation": "The 're.A' flag makes the special sequences like '\\w', '\\W', '\\b', etc., match ASCII characters only, which can be useful for ensuring that matches are limited to English characters."
+    },
+    {
+        "QN": "120",
+        "type": "mcq",
+        "question": "How can you match a string that contains only letters and spaces using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[a-zA-Z\\s]+$'",
+            "B": "Using the pattern '^[a-zA-Z]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^[a-zA-Z\\s]*$'"
+        },
+        "answer": "Using the pattern '^[a-zA-Z\\s]+$'",
+        "explanation": "The pattern '^[a-zA-Z\\s]+$' matches any string that contains only letters and spaces from start to end."
+    },
+    {
+        "QN": "121",
+        "type": "mcq",
+        "question": "What does the 're.X' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Allows whitespace and comments in the regular expression pattern"
+        },
+        "answer": "Allows whitespace and comments in the regular expression pattern",
+        "explanation": "The 're.X' flag allows whitespace and comments in the regular expression pattern, making it easier to read and understand complex patterns."
+    },
+    {
+        "QN": "122",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly four alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{4}$'",
+            "B": "Using the pattern '^\\w{4,}$'",
+            "C": "Using the pattern '^\\w{1,4}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{4}$'",
+        "explanation": "The pattern '^\\w{4}$' matches any string that contains exactly four alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "123",
+        "type": "mcq",
+        "question": "What does the 're.M' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Ignores whitespace characters"
+        },
+        "answer": "Makes the '^' and '$' anchors match the start and end of each line",
+        "explanation": "The 're.M' flag makes the '^' and '$' anchors match the start and end of each line in a multiline string, not just the start and end of the entire string."
+    },
+    {
+        "QN": "124",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one special character using regular expressions?",
+        "options": {
+            "A": "Using the pattern '.*[^a-zA-Z0-9].*'",
+            "B": "Using the pattern '[a-zA-Z0-9]+'",
+            "C": "Using the pattern '[a-zA-Z0-9]*'",
+            "D": "Using the pattern '[a-zA-Z0-9]?'"
+        },
+        "answer": "Using the pattern '.*[^a-zA-Z0-9].*'",
+        "explanation": "The pattern '.*[^a-zA-Z0-9].*' matches any string that contains at least one character that is not a letter or digit, effectively matching special characters."
+    },
+    {
+        "QN": "125",
+        "type": "mcq",
+        "question": "What does the 're.S' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Ignores whitespace characters"
+        },
+        "answer": "Makes the '.' special character match any character including newline",
+        "explanation": "The 're.S' flag makes the '.' special character match any character, including newline characters."
+    },
+    {
+        "QN": "126",
+        "type": "mcq",
+        "question": "How can you validate a credit card number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13})$'",
+            "B": "Using the pattern '^[0-9]{16}$'",
+            "C": "Using the pattern '^[0-9]{13,16}$'",
+            "D": "Using the pattern '^[0-9]{1,16}$'"
+        },
+        "answer": "Using the pattern '^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13})$'",
+        "explanation": "The pattern '^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13})$' is commonly used to validate credit card numbers, supporting various card types like Visa, Mastercard, etc."
+    },
+    {
+        "QN": "127",
+        "type": "mcq",
+        "question": "What is the difference between 're.findall()' and 're.finditer()'?",
+        "options": {
+            "A": "'re.findall()' returns a list of all matches, while 're.finditer()' returns an iterator yielding match objects",
+            "B": "'re.findall()' returns an iterator yielding match objects, while 're.finditer()' returns a list of all matches",
+            "C": "'re.findall()' is case-insensitive, while 're.finditer()' is case-sensitive",
+            "D": "'re.findall()' is used for replacing, while 're.finditer()' is used for searching"
+        },
+        "answer": "'re.findall()' returns a list of all matches, while 're.finditer()' returns an iterator yielding match objects",
+        "explanation": "'re.findall()' returns a list of all matches, while 're.finditer()' returns an iterator yielding match objects for every occurrence of the pattern."
+    },
+    {
+        "QN": "128",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit and one letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[a-zA-Z]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[a-zA-Z]).*$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[a-zA-Z]).*$' matches any string that contains at least one digit ('\\d') and one letter ('[a-zA-Z]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "129",
+        "type": "mcq",
+        "question": "What does the 're.U' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Makes the special sequences like '\\w', '\\W', '\\b', etc., match Unicode characters"
+        },
+        "answer": "Makes the special sequences like '\\w', '\\W', '\\b', etc., match Unicode characters",
+        "explanation": "The 're.U' flag makes the special sequences like '\\w', '\\W', '\\b', etc., match Unicode characters, which can be useful for handling non-ASCII characters."
+    },
+    {
+        "QN": "130",
+        "type": "mcq",
+        "question": "How can you match a string that contains only hexadecimal digits and letters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9a-fA-F]+$'",
+            "B": "Using the pattern '^[0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]+$'",
+            "D": "Using the pattern '^[0-9a-zA-Z]+$'"
+        },
+        "answer": "Using the pattern '^[0-9a-fA-F]+$'",
+        "explanation": "The pattern '^[0-9a-fA-F]+$' matches any string that contains only hexadecimal digits from start to end."
+    },
+    {
+        "QN": "131",
+        "type": "mcq",
+        "question": "What does the 're.I' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Ignores whitespace characters"
+        },
+        "answer": "Makes the pattern case-insensitive",
+        "explanation": "The 're.I' flag makes the pattern case-insensitive, so it matches both lowercase and uppercase characters."
+    },
+    {
+        "QN": "132",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly six alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{6}$'",
+            "B": "Using the pattern '^\\w{6,}$'",
+            "C": "Using the pattern '^\\w{1,6}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{6}$'",
+        "explanation": "The pattern '^\\w{6}$' matches any string that contains exactly six alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "133",
+        "type": "mcq",
+        "question": "What does the 're.ASCII' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Makes the special sequences like '\\w', '\\W', '\\b', etc., match ASCII characters only"
+        },
+        "answer": "Makes the special sequences like '\\w', '\\W', '\\b', etc., match ASCII characters only",
+        "explanation": "The 're.ASCII' flag makes the special sequences like '\\w', '\\W', '\\b', etc., match ASCII characters only, similar to 're.A'."
+    },
+    {
+        "QN": "134",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one special character and one letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*[a-zA-Z]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*[a-zA-Z]).*$'",
+        "explanation": "The pattern '^(?=.*[^a-zA-Z0-9])(?=.*[a-zA-Z]).*$' matches any string that contains at least one special character ('[^a-zA-Z0-9]') and one letter ('[a-zA-Z]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "135",
+        "type": "mcq",
+        "question": "What does the 're.DOTALL' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Ignores whitespace characters"
+        },
+        "answer": "Makes the '.' special character match any character including newline",
+        "explanation": "The 're.DOTALL' flag makes the '.' special character match any character, including newline characters."
+    },
+    {
+        "QN": "136",
+        "type": "mcq",
+        "question": "How can you validate an ISBN number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?:ISBN(?:-1[03])?:? )?(?=[0-9X]{10}$|(?=(?:[0-9]+[- ]){3})[- 0-9X]{13}$|97[89][0-9]{10}$|(?=(?:[0-9]+[- ]){4})[- 0-9]{17}$)(?:97[89][- ]?)?[0-9]{1,5}[- ]?[0-9]+[- ]?[0-9]+[- ]?[0-9X]$'",
+            "B": "Using the pattern '^[0-9]{10}$'",
+            "C": "Using the pattern '^[0-9]{13}$'",
+            "D": "Using the pattern '^[0-9]{17}$'"
+        },
+        "answer": "Using the pattern '^(?:ISBN(?:-1[03])?:? )?(?=[0-9X]{10}$|(?=(?:[0-9]+[- ]){3})[- 0-9X]{13}$|97[89][0-9]{10}$|(?=(?:[0-9]+[- ]){4})[- 0-9]{17}$)(?:97[89][- ]?)?[0-9]{1,5}[- ]?[0-9]+[- ]?[0-9]+[- ]?[0-9X]$'",
+        "explanation": "The pattern for validating ISBN numbers is complex and must account for different formats and checksums."
+    },
+    {
+        "QN": "137",
+        "type": "mcq",
+        "question": "What is the difference between 're.sub()' and string replacement methods like 'str.replace()'?",
+        "options": {
+            "A": "'re.sub()' uses regular expressions, while 'str.replace()' uses literal strings",
+            "B": "'re.sub()' is case-insensitive, while 'str.replace()' is case-sensitive",
+            "C": "'re.sub()' is used for searching, while 'str.replace()' is used for replacing",
+            "D": "'re.sub()' is faster, while 'str.replace()' is slower"
+        },
+        "answer": "'re.sub()' uses regular expressions, while 'str.replace()' uses literal strings",
+        "explanation": "'re.sub()' uses regular expressions to match patterns, while 'str.replace()' uses literal strings for replacement."
+    },
+    {
+        "QN": "138",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit and one uppercase letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z]).*$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z]).*$' matches any string that contains at least one digit ('\\d') and one uppercase letter ('[A-Z]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "139",
+        "type": "mcq",
+        "question": "What does the 're.DEBUG' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Displays debugging information about compiled regular expressions"
+        },
+        "answer": "Displays debugging information about compiled regular expressions",
+        "explanation": "The 're.DEBUG' flag displays debugging information about compiled regular expressions, which can be useful for understanding how patterns are interpreted."
+    },
+    {
+        "QN": "140",
+        "type": "mcq",
+        "question": "How can you match a string that contains only hexadecimal digits and uppercase letters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9a-fA-F]+$'",
+            "B": "Using the pattern '^[0-9A-F]+$'",
+            "C": "Using the pattern '^[A-F]+$'",
+            "D": "Using the pattern '^[0-9]+$'"
+        },
+        "answer": "Using the pattern '^[0-9A-F]+$'",
+        "explanation": "The pattern '^[0-9A-F]+$' matches any string that contains only hexadecimal digits and uppercase letters from start to end."
+    },
+    {
+        "QN": "141",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly seven alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{7}$'",
+            "B": "Using the pattern '^\\w{7,}$'",
+            "C": "Using the pattern '^\\w{1,7}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{7}$'",
+        "explanation": "The pattern '^\\w{7}$' matches any string that contains exactly seven alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "142",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one special character and one digit using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*\\d).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*\\d).*$'",
+        "explanation": "The pattern '^(?=.*[^a-zA-Z0-9])(?=.*\\d).*$' matches any string that contains at least one special character ('[^a-zA-Z0-9]') and one digit ('\\d'), using positive lookahead assertions."
+    },
+    {
+        "QN": "143",
+        "type": "mcq",
+        "question": "How can you validate a social security number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\d{3}-\\d{2}-\\d{4}$'",
+            "B": "Using the pattern '^\\d{3}-\\d{2}-\\d{3}$'",
+            "C": "Using the pattern '^\\d{3}\\s\\d{2}\\s\\d{4}$'",
+            "D": "Using the pattern '^\\d{9}$'"
+        },
+        "answer": "Using the pattern '^\\d{3}-\\d{2}-\\d{4}$'",
+        "explanation": "The pattern '^\\d{3}-\\d{2}-\\d{4}$' matches any string that is in the format of a social security number, with dashes separating the parts."
+    },
+    {
+        "QN": "144",
+        "type": "mcq",
+        "question": "What is the difference between using 're.search()' and 're.match()' with the 're.MULTILINE' flag?",
+        "options": {
+            "A": "'re.search()' searches the entire string, while 're.match()' only searches from the start in multiline mode",
+            "B": "'re.search()' only searches from the start, while 're.match()' searches the entire string in multiline mode",
+            "C": "'re.search()' is case-insensitive, while 're.match()' is case-sensitive in multiline mode",
+            "D": "'re.search()' is used for replacing, while 're.match()' is used for searching in multiline mode"
+        },
+        "answer": "'re.search()' searches the entire string, while 're.match()' only searches from the start in multiline mode",
+        "explanation": "'re.search()' searches for the first occurrence of a pattern anywhere in the string, while 're.match()' searches for the pattern only at the beginning of each line in multiline mode."
+    },
+    {
+        "QN": "145",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit and one lowercase letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[a-z]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[a-z]).*$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[a-z]).*$' matches any string that contains at least one digit ('\\d') and one lowercase letter ('[a-z]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "146",
+        "type": "mcq",
+        "question": "What does the 're.IGNORECASE' flag do?",
+        "options": {
+            "A": "Makes the pattern case-insensitive",
+            "B": "Makes the '^' and '$' anchors match the start and end of each line",
+            "C": "Makes the '.' special character match any character including newline",
+            "D": "Ignores whitespace characters"
+        },
+        "answer": "Makes the pattern case-insensitive",
+        "explanation": "The 're.IGNORECASE' flag makes the pattern case-insensitive, so it matches both lowercase and uppercase characters."
+    },
+    {
+        "QN": "147",
+        "type": "mcq",
+        "question": "How can you match a string that contains only hexadecimal digits and lowercase letters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9a-f]+$'",
+            "B": "Using the pattern '^[0-9]+$'",
+            "C": "Using the pattern '^[a-z]+$'",
+            "D": "Using the pattern '^[0-9a-zA-Z]+$'"
+        },
+        "answer": "Using the pattern '^[0-9a-f]+$'",
+        "explanation": "The pattern '^[0-9a-f]+$' matches any string that contains only hexadecimal digits and lowercase letters from start to end."
+    },
+    {
+        "QN": "148",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly eight alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{8}$'",
+            "B": "Using the pattern '^\\w{8,}$'",
+            "C": "Using the pattern '^\\w{1,8}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{8}$'",
+        "explanation": "The pattern '^\\w{8}$' matches any string that contains exactly eight alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "149",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one special character and one uppercase letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*[A-Z]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*[A-Z]).*$'",
+        "explanation": "The pattern '^(?=.*[^a-zA-Z0-9])(?=.*[A-Z]).*$' matches any string that contains at least one special character ('[^a-zA-Z0-9]') and one uppercase letter ('[A-Z]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "150",
+        "type": "mcq",
+        "question": "How can you validate a license plate number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[A-Z]{3}-\\d{4}$'",
+            "B": "Using the pattern '^[A-Z]{3}\\d{4}$'",
+            "C": "Using the pattern '^[A-Z]{3}-[A-Z]{3}-\\d{4}$'",
+            "D": "Using the pattern '^[A-Z]{3}-\\d{3}-\\d{4}$'"
+        },
+        "answer": "Using the pattern '^[A-Z]{3}-\\d{4}$'",
+        "explanation": "The pattern '^[A-Z]{3}-\\d{4}$' matches any string that is in the format of a typical license plate number with three letters followed by four digits."
+    },
+    {
+        "QN": "151",
+        "type": "mcq",
+        "question": "What is the difference between using 're.findall()' and 're.finditer()' with capturing groups?",
+        "options": {
+            "A": "'re.findall()' returns a list of tuples for each group, while 're.finditer()' returns an iterator yielding match objects",
+            "B": "'re.findall()' returns an iterator yielding match objects, while 're.finditer()' returns a list of tuples for each group",
+            "C": "'re.findall()' is case-insensitive, while 're.finditer()' is case-sensitive",
+            "D": "'re.findall()' is used for replacing, while 're.finditer()' is used for searching"
+        },
+        "answer": "'re.findall()' returns a list of tuples for each group, while 're.finditer()' returns an iterator yielding match objects",
+        "explanation": "'re.findall()' returns a list of tuples for each capturing group, while 're.finditer()' returns an iterator yielding match objects for every occurrence of the pattern."
+    },
+    {
+        "QN": "152",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit and one special character using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[^a-zA-Z0-9]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[^a-zA-Z0-9]).*$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[^a-zA-Z0-9]).*$' matches any string that contains at least one digit ('\\d') and one special character ('[^a-zA-Z0-9]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "153",
+        "type": "mcq",
+        "question": "How can you match a string that contains only hexadecimal digits and special characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9a-fA-F][^a-zA-Z0-9]*$'",
+            "B": "Using the pattern '^[0-9a-fA-F]+$'",
+            "C": "Using the pattern '^[^a-zA-Z0-9]+$'",
+            "D": "Using the pattern '^[0-9]+$'"
+        },
+        "answer": "Using the pattern '^[^a-zA-Z0-9]+$'",
+        "explanation": "The pattern '^[^a-zA-Z0-9]+$' matches any string that contains only special characters from start to end."
+    },
+    {
+        "QN": "154",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly nine alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{9}$'",
+            "B": "Using the pattern '^\\w{9,}$'",
+            "C": "Using the pattern '^\\w{1,9}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{9}$'",
+        "explanation": "The pattern '^\\w{9}$' matches any string that contains exactly nine alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "155",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one special character and one lowercase letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*[a-z]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*[a-z]).*$'",
+        "explanation": "The pattern '^(?=.*[^a-zA-Z0-9])(?=.*[a-z]).*$' matches any string that contains at least one special character ('[^a-zA-Z0-9]') and one lowercase letter ('[a-z]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "156",
+        "type": "mcq",
+        "question": "How can you validate a VIN (Vehicle Identification Number) using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[A-HJ-NPR-Z0-9]{17}$'",
+            "B": "Using the pattern '^[A-Z0-9]{17}$'",
+            "C": "Using the pattern '^[A-Z0-9]{16}$'",
+            "D": "Using the pattern '^[A-Z0-9]{15}$'"
+        },
+        "answer": "Using the pattern '^[A-HJ-NPR-Z0-9]{17}$'",
+        "explanation": "The pattern '^[A-HJ-NPR-Z0-9]{17}$' matches any string that is in the format of a typical VIN, excluding certain letters and ensuring it is 17 characters long."
+    },
+    {
+        "QN": "157",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a function?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a function is slower",
+            "B": "Using a replacement string is case-insensitive, while using a function is case-sensitive",
+            "C": "Using a replacement string replaces literally, while using a function allows dynamic replacement based on the match",
+            "D": "Using a replacement string is used for searching, while using a function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a function allows dynamic replacement based on the match",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a function allows for dynamic replacement based on the match."
+    },
+    {
+        "QN": "158",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit and one uppercase letter and one lowercase letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z]).*$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z]).*$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), and one lowercase letter ('[a-z]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "159",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly ten alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{10}$'",
+            "B": "Using the pattern '^\\w{10,}$'",
+            "C": "Using the pattern '^\\w{1,10}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{10}$'",
+        "explanation": "The pattern '^\\w{10}$' matches any string that contains exactly ten alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "160",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one special character and one digit and one letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*\\d)(?=.*[a-zA-Z]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*\\d)(?=.*[a-zA-Z]).*$'",
+        "explanation": "The pattern '^(?=.*[^a-zA-Z0-9])(?=.*\\d)(?=.*[a-zA-Z]).*$' matches any string that contains at least one special character ('[^a-zA-Z0-9]'), one digit ('\\d'), and one letter ('[a-zA-Z]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "161",
+        "type": "mcq",
+        "question": "How can you validate a passport number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[A-Z]{2}[0-9]{9}$'",
+            "B": "Using the pattern '^[A-Z]{1}[0-9]{9}$'",
+            "C": "Using the pattern '^[A-Z]{3}[0-9]{6}$'",
+            "D": "Using the pattern '^[A-Z]{2}[0-9]{6}$'"
+        },
+        "answer": "Using the pattern '^[A-Z]{2}[0-9]{9}$'",
+        "explanation": "The pattern '^[A-Z]{2}[0-9]{9}$' matches any string that is in the format of a typical passport number, starting with two letters followed by nine digits."
+    },
+    {
+        "QN": "162",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match."
+    },
+    {
+        "QN": "163",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, and one lowercase letter, and one special character using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).*$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).*$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), and one special character ('[^a-zA-Z0-9]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "164",
+        "type": "mcq",
+        "question": "How can you match a string that contains only hexadecimal digits and letters and special characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9a-fA-Fa-zA-Z[^a-zA-Z0-9]]+$'",
+            "B": "Using the pattern '^[0-9a-fA-F]+$'",
+            "C": "Using the pattern '^[a-zA-Z]+$'",
+            "D": "Using the pattern '^[0-9]+$'"
+        },
+        "answer": "Using the pattern '^[0-9a-fA-Fa-zA-Z[^a-zA-Z0-9]]+$'",
+        "explanation": "The pattern '^[0-9a-fA-Fa-zA-Z[^a-zA-Z0-9]]+$' matches any string that contains hexadecimal digits, letters, and special characters from start to end."
+    },
+    {
+        "QN": "165",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly eleven alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{11}$'",
+            "B": "Using the pattern '^\\w{11,}$'",
+            "C": "Using the pattern '^\\w{1,11}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{11}$'",
+        "explanation": "The pattern '^\\w{11}$' matches any string that contains exactly eleven alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "166",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one special character, one digit, one uppercase letter, and one lowercase letter using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*\\d)(?=.*[A-Z])(?=.*[a-z]).*$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*[^a-zA-Z0-9])(?=.*\\d)(?=.*[A-Z])(?=.*[a-z]).*$'",
+        "explanation": "The pattern '^(?=.*[^a-zA-Z0-9])(?=.*\\d)(?=.*[A-Z])(?=.*[a-z]).*$' matches any string that contains at least one special character ('[^a-zA-Z0-9]'), one digit ('\\d'), one uppercase letter ('[A-Z]'), and one lowercase letter ('[a-z]'), using positive lookahead assertions."
+    },
+    {
+        "QN": "167",
+        "type": "mcq",
+        "question": "How can you validate a driver's license number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[A-Z]{3}[0-9]{7}$'",
+            "B": "Using the pattern '^[A-Z]{2}[0-9]{6}$'",
+            "C": "Using the pattern '^[A-Z]{1}[0-9]{7}$'",
+            "D": "Using the pattern '^[A-Z]{2}[0-9]{7}$'"
+        },
+        "answer": "Using the pattern '^[A-Z]{2}[0-9]{7}$'",
+        "explanation": "The pattern '^[A-Z]{2}[0-9]{7}$' matches any string that is in the format of a typical driver's license number, starting with two letters followed by seven digits."
+    },
+    {
+        "QN": "168",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match."
+    },
+    {
+        "QN": "169",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, one lowercase letter, and one special character, and is at least five characters long using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{5,}$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{5,}$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{5,}$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), one special character ('[^a-zA-Z0-9]'), and is at least five characters long, using positive lookahead assertions."
+    },
+    {
+        "QN": "170",
+        "type": "mcq",
+        "question": "How can you match a string that contains only hexadecimal digits, letters, and special characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9a-fA-Fa-zA-Z[^a-zA-Z0-9]]+$'",
+            "B": "Using the pattern '^[0-9a-fA-F]+$'",
+            "C": "Using the pattern '^[a-zA-Z]+$'",
+            "D": "Using the pattern '^[0-9]+$'"
+        },
+        "answer": "Using the pattern '^[0-9a-fA-Fa-zA-Z[^a-zA-Z0-9]]+$'",
+        "explanation": "The pattern '^[0-9a-fA-Fa-zA-Z[^a-zA-Z0-9]]+$' matches any string that contains hexadecimal digits, letters, and special characters from start to end."
+    },
+    {
+        "QN": "171",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly twelve alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{12}$'",
+            "B": "Using the pattern '^\\w{12,}$'",
+            "C": "Using the pattern '^\\w{1,12}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{12}$'",
+        "explanation": "The pattern '^\\w{12}$' matches any string that contains exactly twelve alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "172",
+        "type": "mcq",
+        "question": "How can you validate a bank account number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9]{16}$'",
+            "B": "Using the pattern '^[0-9]{13}$'",
+            "C": "Using the pattern '^[0-9]{10}$'",
+            "D": "Using the pattern '^[0-9]{12}$'"
+        },
+        "answer": "Using the pattern '^[0-9]{16}$'",
+        "explanation": "The pattern '^[0-9]{16}$' matches any string that is a typical 16-digit bank account number."
+    },
+    {
+        "QN": "173",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object's groups?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match groups."
+    },
+    {
+        "QN": "174",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, one lowercase letter, and one special character, and is exactly ten characters long using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{10}$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{10}$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{10}$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), one special character ('[^a-zA-Z0-9]'), and is exactly ten characters long, using positive lookahead assertions."
+    },
+    {
+        "QN": "175",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly thirteen alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{13}$'",
+            "B": "Using the pattern '^\\w{13,}$'",
+            "C": "Using the pattern '^\\w{1,13}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{13}$'",
+        "explanation": "The pattern '^\\w{13}$' matches any string that contains exactly thirteen alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "176",
+        "type": "mcq",
+        "question": "How can you validate an IMEI number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9]{15}$'",
+            "B": "Using the pattern '^[0-9]{14}$'",
+            "C": "Using the pattern '^[0-9]{16}$'",
+            "D": "Using the pattern '^[0-9]{17}$'"
+        },
+        "answer": "Using the pattern '^[0-9]{15}$'",
+        "explanation": "The pattern '^[0-9]{15}$' matches any string that is a typical 15-digit IMEI number."
+    },
+    {
+        "QN": "177",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object's groups and captures?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match groups and captures."
+    },
+    {
+        "QN": "178",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, one lowercase letter, and one special character, and is between five and ten characters long using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{5,10}$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{5,10}$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{5,10}$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), one special character ('[^a-zA-Z0-9]'), and is between five and ten characters long, using positive lookahead assertions."
+    },
+    {
+        "QN": "179",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly fourteen alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{14}$'",
+            "B": "Using the pattern '^\\w{14,}$'",
+            "C": "Using the pattern '^\\w{1,14}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{14}$'",
+        "explanation": "The pattern '^\\w{14}$' matches any string that contains exactly fourteen alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "180",
+        "type": "mcq",
+        "question": "How can you validate a serial number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[A-Z]{2}[0-9]{6}$'",
+            "B": "Using the pattern '^[A-Z]{3}[0-9]{5}$'",
+            "C": "Using the pattern '^[A-Z]{1}[0-9]{7}$'",
+            "D": "Using the pattern '^[A-Z]{2}[0-9]{7}$'"
+        },
+        "answer": "Using the pattern '^[A-Z]{2}[0-9]{7}$'",
+        "explanation": "The pattern '^[A-Z]{2}[0-9]{7}$' matches any string that is in the format of a typical serial number, starting with two letters followed by seven digits."
+    },
+    {
+        "QN": "181",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object's groups and captures for conditional replacement?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures for conditional logic",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures for conditional logic",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match groups and captures, enabling conditional logic."
+    },
+    {
+        "QN": "182",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, one lowercase letter, and one special character, and is between eight and twelve characters long using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{8,12}$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{8,12}$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{8,12}$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), one special character ('[^a-zA-Z0-9]'), and is between eight and twelve characters long, using positive lookahead assertions."
+    },
+    {
+        "QN": "183",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly fifteen alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{15}$'",
+            "B": "Using the pattern '^\\w{15,}$'",
+            "C": "Using the pattern '^\\w{1,15}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{15}$'",
+        "explanation": "The pattern '^\\w{15}$' matches any string that contains exactly fifteen alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "184",
+        "type": "mcq",
+        "question": "How can you validate a product code using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[A-Z]{3}[0-9]{5}$'",
+            "B": "Using the pattern '^[A-Z]{2}[0-9]{6}$'",
+            "C": "Using the pattern '^[A-Z]{1}[0-9]{7}$'",
+            "D": "Using the pattern '^[A-Z]{2}[0-9]{7}$'"
+        },
+        "answer": "Using the pattern '^[A-Z]{2}[0-9]{6}$'",
+        "explanation": "The pattern '^[A-Z]{2}[0-9]{6}$' matches any string that is in the format of a typical product code, starting with two letters followed by six digits."
+    },
+    {
+        "QN": "185",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object's groups and captures for conditional logic with multiple conditions?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match groups and captures, enabling complex conditional logic for multiple conditions."
+    },
+    {
+        "QN": "186",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, one lowercase letter, and one special character, and is between nine and thirteen characters long using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{9,13}$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{9,13}$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{9,13}$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), one special character ('[^a-zA-Z0-9]'), and is between nine and thirteen characters long, using positive lookahead assertions."
+    },
+    {
+        "QN": "187",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly sixteen alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{16}$'",
+            "B": "Using the pattern '^\\w{16,}$'",
+            "C": "Using the pattern '^\\w{1,16}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{16}$'",
+        "explanation": "The pattern '^\\w{16}$' matches any string that contains exactly sixteen alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "188",
+        "type": "mcq",
+        "question": "How can you validate a coupon code using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[A-Z]{2}[0-9]{4}[A-Z]{2}$'",
+            "B": "Using the pattern '^[A-Z]{3}[0-9]{3}[A-Z]{3}$'",
+            "C": "Using the pattern '^[A-Z]{1}[0-9]{5}[A-Z]{1}$'",
+            "D": "Using the pattern '^[A-Z]{2}[0-9]{5}[A-Z]{2}$'"
+        },
+        "answer": "Using the pattern '^[A-Z]{2}[0-9]{5}[A-Z]{2}$'",
+        "explanation": "The pattern '^[A-Z]{2}[0-9]{5}[A-Z]{2}$' matches any string that is in the format of a typical coupon code, starting with two letters followed by five digits and ending with two letters."
+    },
+    {
+        "QN": "189",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object's groups and captures for conditional logic with multiple conditions and error handling?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions and error handling",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions and error handling",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match groups and captures, enabling complex conditional logic for multiple conditions and error handling."
+    },
+    {
+        "QN": "190",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, one lowercase letter, and one special character, and is between ten and fifteen characters long using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{10,15}$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{10,15}$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{10,15}$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), one special character ('[^a-zA-Z0-9]'), and is between ten and fifteen characters long, using positive lookahead assertions."
+    },
+    {
+        "QN": "191",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly seventeen alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{17}$'",
+            "B": "Using the pattern '^\\w{17,}$'",
+            "C": "Using the pattern '^\\w{1,17}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{17}$'",
+        "explanation": "The pattern '^\\w{17}$' matches any string that contains exactly seventeen alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "192",
+        "type": "mcq",
+        "question": "How can you validate a gift card number using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[0-9]{16}$'",
+            "B": "Using the pattern '^[0-9]{13}$'",
+            "C": "Using the pattern '^[0-9]{15}$'",
+            "D": "Using the pattern '^[0-9]{19}$'"
+        },
+        "answer": "Using the pattern '^[0-9]{16}$'",
+        "explanation": "The pattern '^[0-9]{16}$' matches any string that is a typical 16-digit gift card number."
+    },
+    {
+        "QN": "193",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object's groups and captures for conditional logic with multiple conditions, error handling, and logging?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions, error handling, and logging",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions, error handling, and logging",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match groups and captures, enabling complex conditional logic for multiple conditions, error handling, and logging."
+    },
+    {
+        "QN": "194",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, one lowercase letter, and one special character, and is between eleven and sixteen characters long using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{11,16}$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{11,16}$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{11,16}$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), one special character ('[^a-zA-Z0-9]'), and is between eleven and sixteen characters long, using positive lookahead assertions."
+    },
+    {
+        "QN": "195",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly eighteen alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{18}$'",
+            "B": "Using the pattern '^\\w{18,}$'",
+            "C": "Using the pattern '^\\w{1,18}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{18}$'",
+        "explanation": "The pattern '^\\w{18}$' matches any string that contains exactly eighteen alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "196",
+        "type": "mcq",
+        "question": "How can you validate a membership ID using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[A-Z]{2}[0-9]{8}$'",
+            "B": "Using the pattern '^[A-Z]{3}[0-9]{6}$'",
+            "C": "Using the pattern '^[A-Z]{1}[0-9]{9}$'",
+            "D": "Using the pattern '^[A-Z]{2}[0-9]{9}$'"
+        },
+        "answer": "Using the pattern '^[A-Z]{2}[0-9]{9}$'",
+        "explanation": "The pattern '^[A-Z]{2}[0-9]{9}$' matches any string that is in the format of a typical membership ID, starting with two letters followed by nine digits."
+    },
+    {
+        "QN": "197",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object's groups and captures for conditional logic with multiple conditions, error handling, logging, and input validation?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions, error handling, logging, and input validation",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions, error handling, logging, and input validation",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match groups and captures, enabling complex conditional logic for multiple conditions, error handling, logging, and input validation."
+    },
+    {
+        "QN": "198",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, one lowercase letter, and one special character, and is between twelve and seventeen characters long using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{12,17}$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{12,17}$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{12,17}$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), one special character ('[^a-zA-Z0-9]'), and is between twelve and seventeen characters long, using positive lookahead assertions."
+    },
+    {
+        "QN": "199",
+        "type": "mcq",
+        "question": "How can you match a string that contains exactly nineteen alphanumeric characters using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^\\w{19}$'",
+            "B": "Using the pattern '^\\w{19,}$'",
+            "C": "Using the pattern '^\\w{1,19}$'",
+            "D": "Using the pattern '^\\w*$'"
+        },
+        "answer": "Using the pattern '^\\w{19}$'",
+        "explanation": "The pattern '^\\w{19}$' matches any string that contains exactly nineteen alphanumeric characters (or underscores) from start to end."
+    },
+    {
+        "QN": "200",
+        "type": "mcq",
+        "question": "How can you validate a membership code using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^[A-Z]{3}[0-9]{6}$'",
+            "B": "Using the pattern '^[A-Z]{2}[0-9]{7}$'",
+            "C": "Using the pattern '^[A-Z]{1}[0-9]{8}$'",
+            "D": "Using the pattern '^[A-Z]{2}[0-9]{8}$'"
+        },
+        "answer": "Using the pattern '^[A-Z]{2}[0-9]{8}$'",
+        "explanation": "The pattern '^[A-Z]{2}[0-9]{8}$' matches any string that is in the format of a typical membership code, starting with two letters followed by eight digits."
+    },
+    {
+        "QN": "201",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object's groups and captures for conditional logic with multiple conditions, error handling, logging, input validation, and exception handling?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions, error handling, logging, input validation, and exception handling",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions, error handling, logging, input validation, and exception handling",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match groups and captures, enabling complex conditional logic for multiple conditions, error handling, logging, input validation, and exception handling."
+    },
+    {
+        "QN": "202",
+        "type": "mcq",
+        "question": "How can you match a string that contains at least one digit, one uppercase letter, one lowercase letter, and one special character, and is between thirteen and eighteen characters long using regular expressions?",
+        "options": {
+            "A": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{13,18}$'",
+            "B": "Using the pattern '^[a-zA-Z0-9]+$'",
+            "C": "Using the pattern '^[a-zA-Z]*$'",
+            "D": "Using the pattern '^\\d*$'"
+        },
+        "answer": "Using the pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{13,18}$'",
+        "explanation": "The pattern '^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).{13,18}$' matches any string that contains at least one digit ('\\d'), one uppercase letter ('[A-Z]'), one lowercase letter ('[a-z]'), one special character ('[^a-zA-Z0-9]'), and is between thirteen and eighteen characters long, using positive lookahead assertions."
+    },
+    {
+        "QN": "203",
+        "type": "mcq",
+        "question": "What is the difference between using 're.sub()' with a replacement string versus a lambda function that uses the match object's groups and captures for conditional logic with multiple conditions, error handling, logging, input validation, exception handling, and performance optimization?",
+        "options": {
+            "A": "Using a replacement string is faster, while using a lambda function is slower",
+            "B": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions, error handling, logging, input validation, exception handling, and performance optimization",
+            "C": "Using a replacement string is case-insensitive, while using a lambda function is case-sensitive",
+            "D": "Using a replacement string is used for searching, while using a lambda function is used for replacing"
+        },
+        "answer": "Using a replacement string replaces literally, while using a lambda function allows dynamic replacement based on the match groups and captures with conditional logic for multiple conditions, error handling, logging, input validation, exception handling, and performance optimization",
+        "explanation": "Using a replacement string with 're.sub()' replaces matches literally, while using a lambda function allows for dynamic replacement based on the match groups and captures, enabling complex conditional logic for multiple conditions, error handling, logging, input validation, exception handling, and performance optimization."
+    }
+]

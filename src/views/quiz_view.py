@@ -272,7 +272,12 @@ class QuizView(ft.View):
                 ft.Container(
                     content=ft.Column(
                         controls=[
-                            ft.Text(f"Question: {result['question']}"),
+                            ft.Container(
+                                content=ft.Text(f"Question: {result['question']}"),
+                                border=ft.border.all(1, self.my_theme_color),
+                                border_radius=5,
+                                padding=5,
+                            ),
                             ft.Text(f"Your Answer: {result['selected']}", color=ft.Colors.BLUE),
                             ft.Text(f"Correct Answer: {result['correct']}", color=ft.Colors.GREEN),
                             ft.Container(

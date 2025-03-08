@@ -33,6 +33,12 @@ class HomeView(ft.View):
                             # on_click=lambda _: page.go("/docker"),
                             trailing=ft.IconButton(ft.Icons.QUIZ_ROUNDED, on_click=lambda _: page.go("/git_quiz")),
                         ),
+                        ft.ListTile(
+                            title=ft.Text("Python"), 
+                            leading=ft.Image(src="icons/icons8-python-48.png", width=40, height=40, border_radius=50),
+                            # on_click=lambda _: page.go("/docker"),
+                            trailing=ft.IconButton(ft.Icons.QUIZ_ROUNDED, on_click=lambda _: page.go("/python_quiz_list")),
+                        ),
                 
                     ],
                     
