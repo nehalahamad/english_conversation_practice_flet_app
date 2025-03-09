@@ -154,8 +154,8 @@ class QuizView(ft.View):
 
         self.current_question: int = 0
         self.score: int = 0
-        self.selected_answers = []
-        self.num_questions = 5
+        self.selected_answers: list = []
+        self.num_questions: int = 5
 
         self.appbar = ft.AppBar(
             title=ft.Text('Quizz', size=15),
@@ -167,11 +167,11 @@ class QuizView(ft.View):
         with open(file_path, 'r') as file:
             self.questions_json = json.load(file)
 
-        self.questions = random.sample(self.questions_json, self.num_questions)
+        self.questions: list = random.sample(self.questions_json, self.num_questions)
 
         self.current_question_widget = None
 
-        # Question
+        # ==================== Question ======================
         self.question_ref = ft.Ref[ft.Text]()
         self.question_label_ref = ft.Ref[ft.Text]()
         self.question_text = ft.Stack(
@@ -197,7 +197,7 @@ class QuizView(ft.View):
         # ==================== Options =======================
         self.options = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
         
-        # Prev and Nest buttons
+        # ============ Prev and Nest buttons =================
         self.button_row = ft.Row(
             controls=[
                 MyOutlinedButton("Prev", self.my_theme_color, on_click=self.prev_question), 
@@ -244,9 +244,9 @@ class QuizView(ft.View):
     
     def next_question(self, e):
         # Capture the answer using the question widget's get_answer method
-        user_answer = self.current_question_widget.get_answer() if self.current_question_widget else None
-        correct_answer = self.questions[self.current_question]["answer"]
-        explanation = self.questions[self.current_question].get("explanation", "")
+        user_answer: str = self.current_question_widget.get_answer() if self.current_question_widget else None
+        correct_answer: str = self.questions[self.current_question]["answer"]
+        explanation: str = self.questions[self.current_question].get("explanation", "")
         
         # Update score if the answer is correct
         if user_answer is not None and user_answer == correct_answer:
@@ -277,7 +277,7 @@ class QuizView(ft.View):
                     content=ft.Column(
                         controls=[
                             ft.Container(
-                                content=ft.Text(f"{result['question']}"),
+                                content=ft.Text(f"{result['question']}", width=self.page.width),
                                 border=ft.border.all(1, self.my_theme_color),
                                 border_radius=5,
                                 padding=5,
