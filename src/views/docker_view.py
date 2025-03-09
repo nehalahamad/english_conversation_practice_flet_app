@@ -68,14 +68,12 @@ class DockerView(ft.View):
                 ft.Row(
                     controls=[
                         ft.Container(
-                            content=ft.ListTile(
-                                title=ft.Text(item[0]),
-                                subtitle=ft.Text(item[1]),
-                                # width=500,
-                                expand_loose=True,
+                            content = ft.Column(
+                                controls = [
+                                    ft.Text(item[0], weight=ft.FontWeight.W_500,),
+                                    ft.Text(item[1]),
+                                ]
                             ),
-                            width=600,
-                            # bgcolor='red'
                         ),
                     ],
                     scroll=True

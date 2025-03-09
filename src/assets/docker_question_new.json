@@ -1955,8 +1955,8 @@
             "C": "docker info",
             "D": "docker check"
         },
-        "answer": "docker version",
-        "explanation": "The 'docker version' command displays the version of Docker installed on the system, including the client and server versions.",
+        "answer": "docker --version",
+        "explanation": "The 'docker --version' command displays the version of Docker installed on the system, including the client and server versions.",
         "topic": "Docker Basics"
     },
     {
@@ -2305,8 +2305,8 @@
             "C": "docker check",
             "D": "docker inspect"
         },
-        "answer": "docker version",
-        "explanation": "The 'docker version' command is used to display the Docker version, including the client and server versions.",
+        "answer": "docker --version",
+        "explanation": "The 'docker --version' command is used to display the Docker version, including the client and server versions.",
         "topic": "System Management"
     },
     {
