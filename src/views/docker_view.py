@@ -70,8 +70,9 @@ class DockerView(ft.View):
                         ft.Container(
                             content = ft.Column(
                                 controls = [
-                                    ft.Text(item[0], weight=ft.FontWeight.W_500,),
+                                    ft.Text(item[0], weight=ft.FontWeight.BOLD,),
                                     ft.Text(item[1]),
+                                    ft.Container(height=5)
                                 ]
                             ),
                         ),
@@ -79,7 +80,7 @@ class DockerView(ft.View):
                     scroll=True
                 )
             )
-            self.list_view.controls.append(ft.Divider(color="#06b7bd"))
+            self.list_view.controls.append(ft.Divider(color="#06b7bd", height=0))
 
 
         self.controls.append(self.list_view)

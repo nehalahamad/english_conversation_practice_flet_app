@@ -1,0 +1,5 @@
+flyctl was installed successfully to /home/karki/.fly/bin/flyctl
+Manually add the directory to your $HOME/.bash_profile (or similar)
+  export FLYCTL_INSTALL="/home/karki/.fly"
+  export PATH="$FLYCTL_INSTALL/bin:$PATH"
+Run '/home/karki/.fly/bin/flyctl --help' to get started
