@@ -70,7 +70,7 @@ class MCQQuestion(Question):
                                 width=self.page.window.width-90,
                                 
                             ),
-                            margin=ft.margin.only(left=40),
+                            margin=ft.margin.only(left=37),
                         ),
                         ft.Radio(
                             value=option, 
