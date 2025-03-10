@@ -177,7 +177,7 @@ class QuizView(ft.View):
         )
 
         # Load questions once and sample a fixed set for the quiz
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding='utf-8') as file:
             self.questions_json = json.load(file)
 
         self.questions: list = random.sample(self.questions_json, self.num_questions)
@@ -258,7 +258,7 @@ class QuizView(ft.View):
     def next_question(self, e):
         # Capture the answer using the question widget's get_answer method
         user_answer: str = self.current_question_widget.get_answer() if self.current_question_widget else None
-        correct_answer: str = self.questions[self.current_question]["answer"]
+        correct_answer: str = self.questions[self.current_question]['options'][self.questions[self.current_question]["answer"]]
         explanation: str = self.questions[self.current_question].get("explanation", "")
         
         # Update score if the answer is correct

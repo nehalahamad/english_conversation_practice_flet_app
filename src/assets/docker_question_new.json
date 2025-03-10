@@ -9,7 +9,7 @@
             "C": "Networking",
             "D": "Data Storage"
         },
-        "answer": "Containerization",
+        "answer": "B",
         "explanation": "Docker is primarily used for containerization, which allows applications to be packaged with their dependencies and run consistently across different environments.",
         "topic": "Docker Basics"
     },
@@ -23,7 +23,7 @@
             "C": "Docker Hub",
             "D": "Docker Registry"
         },
-        "answer": "Docker Daemon",
+        "answer": "A",
         "explanation": "The Docker Daemon (dockerd) is responsible for building, running, and managing Docker containers and images.",
         "topic": "Docker Architecture"
     },
@@ -37,7 +37,7 @@
             "C": "docker list",
             "D": "docker containers"
         },
-        "answer": "docker ps",
+        "answer": "A",
         "explanation": "The 'docker ps' command lists all running Docker containers. Adding the '-a' flag will show all containers, including stopped ones.",
         "topic": "Docker Commands"
     },
@@ -51,7 +51,7 @@
             "C": "To download an image from a registry",
             "D": "To start a container"
         },
-        "answer": "To download an image from a registry",
+        "answer": "C",
         "explanation": "The 'docker pull' command is used to download Docker images from a registry, such as Docker Hub.",
         "topic": "Image Management"
     },
@@ -65,7 +65,7 @@
             "C": "overlay",
             "D": "macvlan"
         },
-        "answer": "bridge",
+        "answer": "B",
         "explanation": "The 'bridge' network driver is the default driver used when creating a new Docker network. It provides isolated network communication between containers on the same host.",
         "topic": "Networking"
     },
@@ -79,7 +79,7 @@
             "C": "Docker Swarm",
             "D": "Both B and C"
         },
-        "answer": "Both B and C",
+        "answer": "D",
         "explanation": "Kubernetes and Docker Swarm are both widely used for orchestrating Docker containers in production environments. Docker Compose is more suited for local development.",
         "topic": "Orchestration"
     },
@@ -93,7 +93,7 @@
             "C": "docker remove",
             "D": "docker kill"
         },
-        "answer": "docker rm",
+        "answer": "A",
         "explanation": "The 'docker rm' command is used to remove one or more Docker containers. The container must be stopped before it can be removed.",
         "topic": "Docker Commands"
     },
@@ -107,7 +107,7 @@
             "C": "A network configuration for containers",
             "D": "A storage volume for containers"
         },
-        "answer": "A template for creating containers",
+        "answer": "B",
         "explanation": "A Docker image is a read-only template that contains the instructions for creating a Docker container. It includes the application code, libraries, and dependencies.",
         "topic": "Image Management"
     },
@@ -121,7 +121,7 @@
             "C": "docker net add",
             "D": "docker add network"
         },
-        "answer": "docker network create",
+        "answer": "A",
         "explanation": "The 'docker network create' command is used to create a new Docker network with a specified driver and configuration.",
         "topic": "Networking"
     },
@@ -135,7 +135,7 @@
             "C": "To monitor container performance",
             "D": "To create Docker images"
         },
-        "answer": "To manage multiple containers in a single host",
+        "answer": "A",
         "explanation": "Docker Compose is used to define and manage multi-container Docker applications on a single host. It uses a YAML file to configure the application's services, networks, and volumes.",
         "topic": "Orchestration"
     },
@@ -149,7 +149,7 @@
             "C": "Operating System Development",
             "D": "Cloud Storage"
         },
-        "answer": "Containerization",
+        "answer": "B",
         "explanation": "Docker is a platform designed to develop, ship, and run applications inside lightweight, portable containers.",
         "topic": "Docker Basics"
     },
@@ -163,7 +163,7 @@
             "C": "Docker Registry",
             "D": "Docker Compose"
         },
-        "answer": "Docker Engine",
+        "answer": "B",
         "explanation": "Docker Engine is the core component of Docker that runs and manages containers.",
         "topic": "Docker Architecture"
     },
@@ -177,7 +177,7 @@
             "C": "docker ps",
             "D": "docker list"
         },
-        "answer": "docker ps",
+        "answer": "C",
         "explanation": "The 'docker ps' command lists all currently running containers. To list all containers (including stopped ones), 'docker ps -a' is used.",
         "topic": "Docker Commands"
     },
@@ -191,7 +191,7 @@
             "C": "docker fetch",
             "D": "docker clone"
         },
-        "answer": "docker pull",
+        "answer": "B",
         "explanation": "The 'docker pull' command is used to fetch images from a registry like Docker Hub.",
         "topic": "Image Management"
     },
@@ -205,7 +205,7 @@
             "C": "none",
             "D": "overlay"
         },
-        "answer": "bridge",
+        "answer": "B",
         "explanation": "By default, Docker uses the 'bridge' network mode, which allows containers to communicate while being isolated from the host system.",
         "topic": "Networking"
     },
@@ -219,7 +219,7 @@
             "C": "Docker Swarm",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker Compose is used for managing multi-container applications, Docker Swarm is Docker's native clustering tool, and Kubernetes is a widely used orchestration platform.",
         "topic": "Orchestration"
     },
@@ -233,7 +233,7 @@
             "C": "docker run",
             "D": "docker compile"
         },
-        "answer": "docker build",
+        "answer": "A",
         "explanation": "The 'docker build' command is used to create an image from a specified Dockerfile.",
         "topic": "Docker Basics"
     },
@@ -247,7 +247,7 @@
             "C": "Docker Daemon",
             "D": "Docker Registry"
         },
-        "answer": "Docker Kernel",
+        "answer": "B",
         "explanation": "Docker does not have a component called 'Docker Kernel'; it runs on the host operating system's kernel.",
         "topic": "Docker Architecture"
     },
@@ -261,7 +261,7 @@
             "C": "docker rm",
             "D": "docker clean"
         },
-        "answer": "docker rm",
+        "answer": "C",
         "explanation": "The 'docker rm' command removes a container by specifying its container ID or name.",
         "topic": "Docker Commands"
     },
@@ -275,7 +275,7 @@
             "C": "To manage container networking",
             "D": "To create container images"
         },
-        "answer": "To persist data outside containers",
+        "answer": "B",
         "explanation": "Docker volumes are used to persist data outside containers, ensuring that data is not lost when a container is stopped or deleted.",
         "topic": "Docker Volumes"
     },
@@ -289,7 +289,7 @@
             "C": "Disable container isolation",
             "D": "Share Docker daemon sockets with containers"
         },
-        "answer": "Use the latest version of Docker",
+        "answer": "B",
         "explanation": "Using the latest version of Docker ensures that you have the most recent security patches and features, reducing the risk of vulnerabilities.",
         "topic": "Docker Security"
     },
@@ -303,7 +303,7 @@
             "C": "To set environment variables",
             "D": "To expose ports"
         },
-        "answer": "To define the base image",
+        "answer": "A",
         "explanation": "The 'FROM' instruction in a Dockerfile specifies the base image from which the new image will be built.",
         "topic": "Dockerfile"
     },
@@ -317,7 +317,7 @@
             "C": "A network driver for Docker",
             "D": "A monitoring tool for Docker containers"
         },
-        "answer": "A cloud-based registry for Docker images",
+        "answer": "B",
         "explanation": "Docker Hub is a cloud-based registry service that allows you to store, share, and manage Docker images.",
         "topic": "Docker Hub"
     },
@@ -331,7 +331,7 @@
             "C": "overlay",
             "D": "macvlan"
         },
-        "answer": "overlay",
+        "answer": "C",
         "explanation": "The 'overlay' network driver is used for multi-host networking, enabling containers on different Docker hosts to communicate securely.",
         "topic": "Advanced Networking"
     },
@@ -345,7 +345,7 @@
             "C": "docker volume add",
             "D": "docker add volume"
         },
-        "answer": "docker volume create",
+        "answer": "A",
         "explanation": "The 'docker volume create' command is used to create a new Docker volume.",
         "topic": "Docker Volumes"
     },
@@ -359,7 +359,7 @@
             "C": "To monitor container performance",
             "D": "To manage Docker networks"
         },
-        "answer": "To verify the authenticity of Docker images",
+        "answer": "B",
         "explanation": "Docker Content Trust (DCT) ensures the authenticity and integrity of Docker images by verifying their digital signatures.",
         "topic": "Docker Security"
     },
@@ -373,7 +373,7 @@
             "C": "SET",
             "D": "EXPOSE"
         },
-        "answer": "ENV",
+        "answer": "A",
         "explanation": "The 'ENV' instruction in a Dockerfile is used to set environment variables that will be available during the build process and in the running container.",
         "topic": "Dockerfile"
     },
@@ -387,7 +387,7 @@
             "C": "docker publish",
             "D": "docker deploy"
         },
-        "answer": "docker push",
+        "answer": "A",
         "explanation": "The 'docker push' command is used to upload a Docker image to a registry, such as Docker Hub.",
         "topic": "Docker Hub"
     },
@@ -401,7 +401,7 @@
             "C": "To enable multi-host networking",
             "D": "To manage container storage"
         },
-        "answer": "To assign a MAC address to a container",
+        "answer": "B",
         "explanation": "The 'macvlan' network driver assigns a MAC address to a container, making it appear as a physical device on the network.",
         "topic": "Advanced Networking"
     },
@@ -415,7 +415,7 @@
             "C": "docker volume add",
             "D": "docker create volume"
         },
-        "answer": "docker volume create",
+        "answer": "A",
         "explanation": "The 'docker volume create' command is used to create a named volume that persists data across container restarts.",
         "topic": "Docker Volumes"
     },
@@ -429,7 +429,7 @@
             "C": "Disabling SELinux",
             "D": "Granting full host access"
         },
-        "answer": "Using user namespaces",
+        "answer": "B",
         "explanation": "User namespaces allow containers to run processes as non-root users, reducing security risks.",
         "topic": "Docker Security"
     },
@@ -443,7 +443,7 @@
             "C": "CMD",
             "D": "ENTRYPOINT"
         },
-        "answer": "FROM",
+        "answer": "B",
         "explanation": "The 'FROM' instruction in a Dockerfile specifies the base image upon which the new image is built.",
         "topic": "Dockerfile"
     },
@@ -457,7 +457,7 @@
             "C": "host",
             "D": "none"
         },
-        "answer": "overlay",
+        "answer": "B",
         "explanation": "The overlay network driver allows containers running on different Docker hosts to communicate as if they were on the same network.",
         "topic": "Advanced Networking"
     },
@@ -471,7 +471,7 @@
             "C": "A storage volume manager",
             "D": "A monitoring tool for Docker containers"
         },
-        "answer": "A container orchestration tool",
+        "answer": "A",
         "explanation": "Docker Swarm is a container orchestration tool that allows you to manage multiple Docker containers as a cluster.",
         "topic": "Docker Swarm"
     },
@@ -485,7 +485,7 @@
             "C": "docker swarm create",
             "D": "docker create swarm"
         },
-        "answer": "docker swarm init",
+        "answer": "A",
         "explanation": "The 'docker swarm init' command is used to initialize a Docker Swarm and make the current node a manager.",
         "topic": "Docker Swarm"
     },
@@ -499,7 +499,7 @@
             "C": "A group of tasks that define the state of a container",
             "D": "A network configuration for containers"
         },
-        "answer": "A group of tasks that define the state of a container",
+        "answer": "C",
         "explanation": "In Docker Swarm, a service is a group of tasks that define the desired state of a container, such as the number of replicas and the image to use.",
         "topic": "Docker Swarm"
     },
@@ -513,7 +513,7 @@
             "C": "To monitor Docker Hub",
             "D": "To configure Docker networks"
         },
-        "answer": "To manage Docker containers programmatically",
+        "answer": "A",
         "explanation": "The Docker Engine API allows you to interact with Docker programmatically, enabling you to manage containers, images, networks, and more.",
         "topic": "Docker APIs"
     },
@@ -527,7 +527,7 @@
             "C": "docker pause",
             "D": "docker halt"
         },
-        "answer": "docker stop",
+        "answer": "A",
         "explanation": "The 'docker stop' command gracefully stops a running container by sending a SIGTERM signal, followed by a SIGKILL if the container does not stop.",
         "topic": "Container Lifecycle"
     },
@@ -541,7 +541,7 @@
             "C": "Both commands do the same thing",
             "D": "'docker stop' removes the container, while 'docker kill' stops it"
         },
-        "answer": "'docker stop' gracefully stops the container, while 'docker kill' forcefully stops it",
+        "answer": "B",
         "explanation": "'docker stop' sends a SIGTERM signal to gracefully stop the container, while 'docker kill' sends a SIGKILL signal to forcefully stop it.",
         "topic": "Container Lifecycle"
     },
@@ -555,7 +555,7 @@
             "C": "INSERT",
             "D": "Both A and B"
         },
-        "answer": "Both A and B",
+        "answer": "D",
         "explanation": "Both 'COPY' and 'ADD' instructions in a Dockerfile can be used to copy files from the host to the image. However, 'ADD' has additional features like URL support and automatic extraction of tar files.",
         "topic": "Dockerfile"
     },
@@ -569,7 +569,7 @@
             "C": "To expose a port for the container",
             "D": "To copy files into the image"
         },
-        "answer": "To expose a port for the container",
+        "answer": "C",
         "explanation": "The 'EXPOSE' instruction in a Dockerfile is used to inform Docker that the container listens on the specified network ports at runtime.",
         "topic": "Dockerfile"
     },
@@ -583,7 +583,7 @@
             "C": "docker volumes",
             "D": "docker volume list"
         },
-        "answer": "docker volume ls",
+        "answer": "A",
         "explanation": "The 'docker volume ls' command lists all Docker volumes on the host.",
         "topic": "Docker Volumes"
     },
@@ -597,7 +597,7 @@
             "C": "To monitor container performance",
             "D": "To manage Docker networks"
         },
-        "answer": "To securely manage sensitive information",
+        "answer": "B",
         "explanation": "Docker Secrets is used to securely manage sensitive information, such as passwords and API keys, in Docker Swarm.",
         "topic": "Docker Security"
     },
@@ -611,7 +611,7 @@
             "C": "docker-compose run",
             "D": "docker-compose start"
         },
-        "answer": "docker-compose up",
+        "answer": "A",
         "explanation": "The 'docker-compose up' command starts the services defined in a Docker Compose file.",
         "topic": "Docker Compose"
     },
@@ -625,7 +625,7 @@
             "C": "docker container logs",
             "D": "docker view logs"
         },
-        "answer": "docker logs <container_id>",
+        "answer": "A",
         "explanation": "The 'docker logs <container_id>' command is used to view the logs generated by a running container.",
         "topic": "Docker Logs"
     },
@@ -639,7 +639,7 @@
             "C": "docker network new <network_name>",
             "D": "docker create network"
         },
-        "answer": "docker network create <network_name>",
+        "answer": "A",
         "explanation": "The 'docker network create <network_name>' command is used to create a new Docker network.",
         "topic": "Docker Networking"
     },
@@ -653,7 +653,7 @@
             "C": "docker deploy <image_name>",
             "D": "docker publish <image_name>"
         },
-        "answer": "docker push <image_name>",
+        "answer": "A",
         "explanation": "The 'docker push <image_name>' command is used to upload an image to a Docker registry such as Docker Hub.",
         "topic": "Docker Registry"
     },
@@ -667,7 +667,7 @@
             "C": "XML",
             "D": "TOML"
         },
-        "answer": "YAML",
+        "answer": "B",
         "explanation": "Docker Compose uses YAML (Yet Another Markup Language) for its configuration files, typically named 'docker-compose.yml'.",
         "topic": "Docker Compose"
     },
@@ -681,7 +681,7 @@
             "C": "docker-compose run",
             "D": "docker-compose build"
         },
-        "answer": "docker-compose up",
+        "answer": "B",
         "explanation": "The 'docker-compose up' command is used to start all services defined in a Docker Compose file. It builds, (re)creates, starts, and attaches to containers for a service.",
         "topic": "Docker Compose"
     },
@@ -695,7 +695,7 @@
             "C": "docker container logs",
             "D": "docker show logs"
         },
-        "answer": "docker logs",
+        "answer": "A",
         "explanation": "The 'docker logs' command is used to view the logs of a Docker container. You can specify the container name or ID to view its logs.",
         "topic": "Container Logging"
     },
@@ -709,7 +709,7 @@
             "C": "journald",
             "D": "fluentd"
         },
-        "answer": "json-file",
+        "answer": "A",
         "explanation": "The 'json-file' logging driver is used by default in Docker. It writes log messages in JSON format to files on the host.",
         "topic": "Container Logging"
     },
@@ -723,7 +723,7 @@
             "C": "To monitor application performance",
             "D": "To store application data"
         },
-        "answer": "To provide a consistent environment for building and testing applications",
+        "answer": "A",
         "explanation": "Docker provides a consistent environment for building, testing, and deploying applications in CI/CD pipelines, ensuring that applications run the same way in development, testing, and production.",
         "topic": "Docker in CI/CD"
     },
@@ -737,7 +737,7 @@
             "C": "Travis CI",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Jenkins, GitLab CI, and Travis CI are commonly used tools for CI/CD automation, and they all integrate well with Docker for building and deploying containerized applications.",
         "topic": "Docker in CI/CD"
     },
@@ -751,7 +751,7 @@
             "C": "By simplifying service deployment and management",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker supports microservices architecture by providing isolated environments for each service, enabling easy scaling of individual services, and simplifying service deployment and management.",
         "topic": "Microservices Architecture"
     },
@@ -765,7 +765,7 @@
             "C": "Docker Networking",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker Compose, Docker Swarm, and Docker Networking are all useful features for microservices, as they help manage multi-container applications, orchestrate services, and enable communication between services.",
         "topic": "Microservices Architecture"
     },
@@ -779,7 +779,7 @@
             "C": "To monitor Docker containers",
             "D": "To create Docker networks"
         },
-        "answer": "To extend Docker's functionality",
+        "answer": "A",
         "explanation": "Docker plugins are used to extend Docker's functionality, such as adding support for new storage drivers, network drivers, or logging mechanisms.",
         "topic": "Docker Plugins"
     },
@@ -793,7 +793,7 @@
             "C": "devicemapper",
             "D": "vfs"
         },
-        "answer": "overlay2",
+        "answer": "B",
         "explanation": "The 'overlay2' storage driver is recommended for production environments due to its performance and stability. It is the default driver for most Linux distributions.",
         "topic": "Docker Storage Drivers"
     },
@@ -807,7 +807,7 @@
             "C": "To manage container logging",
             "D": "To manage container security"
         },
-        "answer": "To manage how images and containers are stored on the host",
+        "answer": "B",
         "explanation": "Docker storage drivers manage how images and containers are stored on the host filesystem, including layering and copy-on-write mechanisms.",
         "topic": "Docker Storage Drivers"
     },
@@ -821,7 +821,7 @@
             "C": "Disable container isolation",
             "D": "Share Docker daemon sockets with containers"
         },
-        "answer": "Use read-only filesystems for containers",
+        "answer": "B",
         "explanation": "Using read-only filesystems for containers reduces the risk of malicious modifications to the container's filesystem.",
         "topic": "Container Security"
     },
@@ -835,7 +835,7 @@
             "C": "To check Docker configurations against security best practices",
             "D": "To manage Docker networks"
         },
-        "answer": "To check Docker configurations against security best practices",
+        "answer": "C",
         "explanation": "Docker Bench for Security is a script that checks Docker configurations against security best practices, helping to ensure a secure Docker environment.",
         "topic": "Container Security"
     },
@@ -849,7 +849,7 @@
             "C": "Windows Server 2016",
             "D": "Windows XP"
         },
-        "answer": "Windows 10 Pro or Enterprise",
+        "answer": "B",
         "explanation": "Docker Desktop on Windows requires Windows 10 Pro or Enterprise (64-bit) with Hyper-V enabled.",
         "topic": "Docker for Windows"
     },
@@ -863,7 +863,7 @@
             "C": "To manage Docker networks",
             "D": "To monitor container performance"
         },
-        "answer": "To run Linux containers natively on Windows",
+        "answer": "A",
         "explanation": "Linux containers on Windows (LCOW) allow you to run Linux containers natively on Windows without requiring a separate Linux VM.",
         "topic": "Docker for Windows"
     },
@@ -877,7 +877,7 @@
             "C": "By providing real-time monitoring of edge devices",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker supports edge computing by providing lightweight containers for resource-constrained environments, enabling centralized management of edge devices, and offering tools for real-time monitoring.",
         "topic": "Edge Computing"
     },
@@ -891,7 +891,7 @@
             "C": "Docker Edge",
             "D": "Docker Hub"
         },
-        "answer": "Docker Swarm",
+        "answer": "A",
         "explanation": "Docker Swarm is commonly used for managing edge deployments due to its simplicity and ability to orchestrate containers across distributed environments.",
         "topic": "Edge Computing"
     },
@@ -905,7 +905,7 @@
             "C": "To monitor container performance",
             "D": "To manage container security"
         },
-        "answer": "To enable integration with external storage systems",
+        "answer": "B",
         "explanation": "Docker Volume Plugins enable integration with external storage systems, allowing Docker to use third-party storage solutions for persistent data.",
         "topic": "Docker Plugins"
     },
@@ -919,7 +919,7 @@
             "C": "Prometheus",
             "D": "ELK Stack"
         },
-        "answer": "Weave Net",
+        "answer": "A",
         "explanation": "Weave Net is a popular Docker network plugin that provides a simple and scalable way to connect containers across multiple hosts.",
         "topic": "Docker Plugins"
     },
@@ -933,7 +933,7 @@
             "C": "By providing a centralized logging system",
             "D": "By orchestrating microservices"
         },
-        "answer": "By packaging functions as containers",
+        "answer": "A",
         "explanation": "Docker can be used in serverless architectures by packaging functions as containers, which can then be deployed and scaled independently.",
         "topic": "Serverless Architectures"
     },
@@ -947,7 +947,7 @@
             "C": "OpenFaaS",
             "D": "Docker Swarm"
         },
-        "answer": "OpenFaaS",
+        "answer": "C",
         "explanation": "OpenFaaS (Open Function as a Service) integrates Docker with serverless frameworks, allowing you to run functions as Docker containers.",
         "topic": "Serverless Architectures"
     },
@@ -961,7 +961,7 @@
             "C": "By monitoring cloud performance",
             "D": "By storing data across multiple clouds"
         },
-        "answer": "By providing a consistent runtime environment across clouds",
+        "answer": "A",
         "explanation": "Docker simplifies multi-cloud deployments by providing a consistent runtime environment across different cloud providers, ensuring that applications run the same way everywhere.",
         "topic": "Multi-Cloud Deployments"
     },
@@ -975,7 +975,7 @@
             "C": "Docker Hub",
             "D": "Docker Volumes"
         },
-        "answer": "Docker Swarm",
+        "answer": "B",
         "explanation": "Docker Swarm is particularly useful for multi-cloud deployments as it allows you to orchestrate containers across multiple cloud environments.",
         "topic": "Multi-Cloud Deployments"
     },
@@ -989,7 +989,7 @@
             "C": "To manage Docker Hub",
             "D": "To monitor Docker containers"
         },
-        "answer": "To provide a native Docker experience on macOS",
+        "answer": "B",
         "explanation": "Docker Desktop for Mac provides a native Docker experience on macOS, allowing you to build, ship, and run containers seamlessly.",
         "topic": "Docker for Mac"
     },
@@ -1003,7 +1003,7 @@
             "C": "HyperKit",
             "D": "VMware"
         },
-        "answer": "HyperKit",
+        "answer": "C",
         "explanation": "Docker Desktop for Mac uses HyperKit, a lightweight macOS virtualization technology, to run Docker containers.",
         "topic": "Docker for Mac"
     },
@@ -1017,7 +1017,7 @@
             "C": "To improve container performance",
             "D": "To manage Docker networks"
         },
-        "answer": "To reduce the size of Docker images",
+        "answer": "A",
         "explanation": "Multi-stage builds in Docker allow you to reduce the size of Docker images by using intermediate images for building and copying only the necessary files to the final image.",
         "topic": "Container Image Optimization"
     },
@@ -1031,7 +1031,7 @@
             "C": "ADD",
             "D": "CHAIN"
         },
-        "answer": "RUN",
+        "answer": "A",
         "explanation": "The 'RUN' instruction can be used to chain multiple commands together, minimizing the number of layers in a Docker image and reducing its size.",
         "topic": "Container Image Optimization"
     },
@@ -1045,7 +1045,7 @@
             "C": "By monitoring IoT devices",
             "D": "By storing IoT data"
         },
-        "answer": "By providing lightweight containers for resource-constrained devices",
+        "answer": "A",
         "explanation": "Docker supports IoT deployments by providing lightweight containers that can run on resource-constrained devices, enabling consistent application deployment across IoT environments.",
         "topic": "IoT (Internet of Things)"
     },
@@ -1059,7 +1059,7 @@
             "C": "Docker Edge",
             "D": "Docker Hub"
         },
-        "answer": "Docker Swarm",
+        "answer": "A",
         "explanation": "Docker Swarm is commonly used for managing IoT edge devices due to its simplicity and ability to orchestrate containers across distributed environments.",
         "topic": "IoT (Internet of Things)"
     },
@@ -1073,7 +1073,7 @@
             "C": "By simplifying the deployment of ML models",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker supports AI/ML workloads by providing isolated environments for training and inference, managing GPU resources, and simplifying the deployment of machine learning models.",
         "topic": "AI/ML Workloads"
     },
@@ -1087,7 +1087,7 @@
             "C": "Docker Swarm",
             "D": "Docker Hub"
         },
-        "answer": "NVIDIA Docker",
+        "answer": "B",
         "explanation": "NVIDIA Docker (now part of Docker's native GPU support) is particularly useful for GPU-accelerated AI/ML workloads, as it allows containers to access GPU resources.",
         "topic": "AI/ML Workloads"
     },
@@ -1101,7 +1101,7 @@
             "C": "By monitoring cloud performance",
             "D": "By storing data across multiple clouds"
         },
-        "answer": "By providing a consistent runtime environment across on-premises and cloud infrastructure",
+        "answer": "A",
         "explanation": "Docker simplifies hybrid cloud deployments by providing a consistent runtime environment across on-premises and cloud infrastructure, ensuring that applications run the same way everywhere.",
         "topic": "Hybrid Cloud Environments"
     },
@@ -1115,7 +1115,7 @@
             "C": "Docker Compose",
             "D": "Docker Hub"
         },
-        "answer": "Kubernetes",
+        "answer": "B",
         "explanation": "Kubernetes is commonly used for hybrid cloud orchestration, as it can manage containers across on-premises and cloud environments seamlessly.",
         "topic": "Hybrid Cloud Environments"
     },
@@ -1129,7 +1129,7 @@
             "C": "To monitor container performance",
             "D": "To store Docker images"
         },
-        "answer": "To run Docker containers on ARM-based devices",
+        "answer": "A",
         "explanation": "Docker for ARM allows you to run Docker containers on ARM-based devices, such as Raspberry Pi and other IoT devices.",
         "topic": "Docker for ARM Architectures"
     },
@@ -1143,7 +1143,7 @@
             "C": "docker arm-build",
             "D": "docker create"
         },
-        "answer": "docker buildx",
+        "answer": "B",
         "explanation": "The 'docker buildx' command is used to build Docker images for multiple architectures, including ARM, using cross-compilation.",
         "topic": "Docker for ARM Architectures"
     },
@@ -1157,7 +1157,7 @@
             "C": "To manage Docker networks",
             "D": "To optimize Docker images"
         },
-        "answer": "To scan Docker images for vulnerabilities",
+        "answer": "B",
         "explanation": "Docker Security Scanning (now part of Docker Hub) scans Docker images for vulnerabilities, ensuring that they are safe to use in production.",
         "topic": "Container Security Scanning"
     },
@@ -1171,7 +1171,7 @@
             "C": "Fluentd",
             "D": "ELK Stack"
         },
-        "answer": "Clair",
+        "answer": "A",
         "explanation": "Clair is a popular open-source tool for scanning Docker images for vulnerabilities, often integrated with Docker registries.",
         "topic": "Container Security Scanning"
     },
@@ -1185,7 +1185,7 @@
             "C": "By enabling scalability and resource management",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker supports big data pipelines by providing isolated environments for data processing, simplifying the deployment of big data tools, and enabling scalability and resource management.",
         "topic": "Big Data Pipelines"
     },
@@ -1199,7 +1199,7 @@
             "C": "Docker Volumes",
             "D": "Docker Hub"
         },
-        "answer": "Docker Volumes",
+        "answer": "C",
         "explanation": "Docker Volumes are particularly useful for big data workloads, as they allow persistent storage for large datasets and intermediate results.",
         "topic": "Big Data Pipelines"
     },
@@ -1213,7 +1213,7 @@
             "C": "By simplifying the deployment of real-time analytics tools",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker supports real-time analytics by providing isolated environments for data processing, enabling scalability and resource management, and simplifying the deployment of real-time analytics tools.",
         "topic": "Real-Time Analytics"
     },
@@ -1227,7 +1227,7 @@
             "C": "Docker Volumes",
             "D": "Docker Hub"
         },
-        "answer": "Docker Volumes",
+        "answer": "C",
         "explanation": "Docker Volumes are particularly useful for real-time analytics workloads, as they allow persistent storage for large datasets and intermediate results.",
         "topic": "Real-Time Analytics"
     },
@@ -1241,7 +1241,7 @@
             "C": "By enabling scalability and resource management",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker supports blockchain applications by providing isolated environments for blockchain nodes, simplifying the deployment of blockchain networks, and enabling scalability and resource management.",
         "topic": "Blockchain Applications"
     },
@@ -1255,7 +1255,7 @@
             "C": "Kubernetes",
             "D": "Docker Hub"
         },
-        "answer": "Docker Compose",
+        "answer": "A",
         "explanation": "Docker Compose is commonly used for managing blockchain networks, as it allows you to define and run multi-container Docker applications.",
         "topic": "Blockchain Applications"
     },
@@ -1269,7 +1269,7 @@
             "C": "To manage Docker Hub",
             "D": "To monitor Docker containers"
         },
-        "answer": "To provide a native Docker experience on Windows Server",
+        "answer": "B",
         "explanation": "Docker for Windows Server provides a native Docker experience on Windows Server, allowing you to build, ship, and run containers seamlessly.",
         "topic": "Docker for Windows Server"
     },
@@ -1283,7 +1283,7 @@
             "C": "HyperKit",
             "D": "VMware"
         },
-        "answer": "Hyper-V",
+        "answer": "A",
         "explanation": "Docker for Windows Server uses Hyper-V, a native Windows virtualization technology, to run Docker containers.",
         "topic": "Docker for Windows Server"
     },
@@ -1297,7 +1297,7 @@
             "C": "docker content-trust on",
             "D": "docker enable trust"
         },
-        "answer": "export DOCKER_CONTENT_TRUST=1",
+        "answer": "B",
         "explanation": "The command 'export DOCKER_CONTENT_TRUST=1' is used to enable Docker Content Trust, ensuring that only signed images are used.",
         "topic": "Container Image Signing"
     },
@@ -1311,7 +1311,7 @@
             "C": "By simplifying the deployment of serverless functions",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker supports serverless AI/ML workloads by packaging AI/ML models as containers, managing GPU resources, and simplifying the deployment of serverless functions.",
         "topic": "Serverless AI/ML"
     },
@@ -1325,7 +1325,7 @@
             "C": "OpenFaaS",
             "D": "Docker Swarm"
         },
-        "answer": "OpenFaaS",
+        "answer": "C",
         "explanation": "OpenFaaS (Open Function as a Service) integrates Docker with serverless AI/ML frameworks, allowing you to run functions as Docker containers.",
         "topic": "Serverless AI/ML"
     },
@@ -1339,7 +1339,7 @@
             "C": "By simplifying tenant management",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker supports multi-tenant environments by providing isolated environments for each tenant, enabling resource sharing and isolation, and simplifying tenant management.",
         "topic": "Multi-Tenant Environments"
     },
@@ -1353,7 +1353,7 @@
             "C": "Docker Namespaces",
             "D": "Docker Hub"
         },
-        "answer": "Docker Namespaces",
+        "answer": "C",
         "explanation": "Docker Namespaces are particularly useful for multi-tenant environments, as they provide isolation between tenants' containers.",
         "topic": "Multi-Tenant Environments"
     },
@@ -1367,7 +1367,7 @@
             "C": "By providing real-time monitoring of edge devices",
             "D": "All of the above"
         },
-        "answer": "All of the above",
+        "answer": "D",
         "explanation": "Docker supports edge computing for IoT by providing lightweight containers for resource-constrained devices, enabling centralized management of edge devices, and offering tools for real-time monitoring.",
         "topic": "Edge Computing for IoT"
     },
@@ -1381,7 +1381,7 @@
             "C": "To monitor container performance",
             "D": "To store Docker images"
         },
-        "answer": "To run Docker containers on ARM-based servers",
+        "answer": "A",
         "explanation": "Docker for ARM-based servers allows you to run Docker containers on ARM-based servers, which are often used in edge computing and IoT scenarios.",
         "topic": "Docker for ARM-Based Servers"
     },
@@ -1395,7 +1395,7 @@
             "C": "docker arm-build",
             "D": "docker create"
         },
-        "answer": "docker buildx",
+        "answer": "B",
         "explanation": "The 'docker buildx' command is used to build Docker images for multiple architectures, including ARM, using cross-compilation.",
         "topic": "Docker for ARM-Based Servers"
     },
@@ -1409,7 +1409,7 @@
             "C": "To manage Docker networks",
             "D": "To optimize Docker images"
         },
-        "answer": "To protect containers from runtime threats",
+        "answer": "B",
         "explanation": "Container runtime security focuses on protecting containers from runtime threats, such as malicious processes or unauthorized access.",
         "topic": "Container Runtime Security"
     },
@@ -1423,7 +1423,7 @@
             "C": "Prometheus",
             "D": "ELK Stack"
         },
-        "answer": "Falco",
+        "answer": "B",
         "explanation": "Falco is a popular open-source tool for container runtime security, providing real-time threat detection and alerting.",
         "topic": "Container Runtime Security"
     },
@@ -1437,7 +1437,7 @@
             "C": "docker run",
             "D": "docker start"
         },
-        "answer": "docker build",
+        "answer": "B",
         "explanation": "The 'docker build' command is used to build a Docker image from a Dockerfile. For example: 'docker build -t myimage .'",
         "topic": "Docker Commands"
     },
@@ -1451,7 +1451,7 @@
             "C": "docker restart",
             "D": "docker create"
         },
-        "answer": "docker start",
+        "answer": "B",
         "explanation": "The 'docker start' command is used to start a stopped container. For example: 'docker start mycontainer'.",
         "topic": "Docker Commands"
     },
@@ -1465,7 +1465,7 @@
             "C": "docker rm -f",
             "D": "docker container prune"
         },
-        "answer": "docker container prune",
+        "answer": "D",
         "explanation": "The 'docker container prune' command removes all stopped containers. For example: 'docker container prune'.",
         "topic": "Docker Commands"
     },
@@ -1479,7 +1479,7 @@
             "C": "docker inspect",
             "D": "docker show logs"
         },
-        "answer": "docker logs",
+        "answer": "A",
         "explanation": "The 'docker logs' command is used to view the logs of a running container. For example: 'docker logs mycontainer'.",
         "topic": "Docker Commands"
     },
@@ -1493,7 +1493,7 @@
             "C": "docker attach",
             "D": "docker start"
         },
-        "answer": "docker exec",
+        "answer": "A",
         "explanation": "The 'docker exec' command is used to execute a command inside a running container. For example: 'docker exec -it mycontainer bash'.",
         "topic": "Docker Commands"
     },
@@ -1507,7 +1507,7 @@
             "C": "docker image ls",
             "D": "Both A and C"
         },
-        "answer": "Both A and C",
+        "answer": "D",
         "explanation": "Both 'docker images' and 'docker image ls' are used to list all Docker images on the host.",
         "topic": "Docker Commands"
     },
@@ -1521,7 +1521,7 @@
             "C": "docker delete",
             "D": "docker image rm"
         },
-        "answer": "docker rmi",
+        "answer": "A",
         "explanation": "The 'docker rmi' command is used to remove a Docker image. For example: 'docker rmi myimage'.",
         "topic": "Docker Commands"
     },
@@ -1535,7 +1535,7 @@
             "C": "docker info",
             "D": "docker show"
         },
-        "answer": "docker inspect",
+        "answer": "A",
         "explanation": "The 'docker inspect' command is used to inspect the details of a Docker container, image, or network. For example: 'docker inspect mycontainer'.",
         "topic": "Docker Commands"
     },
@@ -1549,7 +1549,7 @@
             "C": "docker update",
             "D": "docker modify"
         },
-        "answer": "docker rename",
+        "answer": "A",
         "explanation": "The 'docker rename' command is used to rename a Docker container. For example: 'docker rename oldname newname'.",
         "topic": "Docker Commands"
     },
@@ -1563,7 +1563,7 @@
             "C": "docker halt",
             "D": "docker freeze"
         },
-        "answer": "docker pause",
+        "answer": "B",
         "explanation": "The 'docker pause' command is used to pause a running container. For example: 'docker pause mycontainer'.",
         "topic": "Docker Commands"
     },
@@ -1577,7 +1577,7 @@
             "C": "docker start",
             "D": "docker continue"
         },
-        "answer": "docker unpause",
+        "answer": "A",
         "explanation": "The 'docker unpause' command is used to unpause a paused container. For example: 'docker unpause mycontainer'.",
         "topic": "Docker Commands"
     },
@@ -1591,7 +1591,7 @@
             "C": "docker networks",
             "D": "docker net ls"
         },
-        "answer": "docker network ls",
+        "answer": "A",
         "explanation": "The 'docker network ls' command is used to list all Docker networks.",
         "topic": "Docker Commands"
     },
@@ -1605,7 +1605,7 @@
             "C": "docker delete network",
             "D": "docker net rm"
         },
-        "answer": "docker network rm",
+        "answer": "A",
         "explanation": "The 'docker network rm' command is used to remove a Docker network. For example: 'docker network rm mynetwork'.",
         "topic": "Docker Commands"
     },
@@ -1619,7 +1619,7 @@
             "C": "docker attach",
             "D": "docker join"
         },
-        "answer": "docker network connect",
+        "answer": "A",
         "explanation": "The 'docker network connect' command is used to connect a container to a Docker network. For example: 'docker network connect mynetwork mycontainer'.",
         "topic": "Docker Commands"
     },
@@ -1633,7 +1633,7 @@
             "C": "docker detach",
             "D": "docker leave"
         },
-        "answer": "docker network disconnect",
+        "answer": "A",
         "explanation": "The 'docker network disconnect' command is used to disconnect a container from a Docker network. For example: 'docker network disconnect mynetwork mycontainer'.",
         "topic": "Docker Commands"
     },
@@ -1647,7 +1647,7 @@
             "C": "docker volumes",
             "D": "docker vol ls"
         },
-        "answer": "docker volume ls",
+        "answer": "A",
         "explanation": "The 'docker volume ls' command is used to list all Docker volumes.",
         "topic": "Docker Commands"
     },
@@ -1661,7 +1661,7 @@
             "C": "docker delete volume",
             "D": "docker vol rm"
         },
-        "answer": "docker volume rm",
+        "answer": "A",
         "explanation": "The 'docker volume rm' command is used to remove a Docker volume. For example: 'docker volume rm myvolume'.",
         "topic": "Docker Commands"
     },
@@ -1675,7 +1675,7 @@
             "C": "docker inspect",
             "D": "docker details"
         },
-        "answer": "docker info",
+        "answer": "A",
         "explanation": "The 'docker info' command is used to display Docker system-wide information, such as the number of containers, images, and storage drivers.",
         "topic": "Docker Commands"
     },
@@ -1689,7 +1689,7 @@
             "C": "docker remove unused",
             "D": "docker gc"
         },
-        "answer": "docker system prune",
+        "answer": "B",
         "explanation": "The 'docker system prune' command is used to clean up unused Docker objects, such as images, containers, volumes, and networks.",
         "topic": "Docker Commands"
     },
@@ -1703,7 +1703,7 @@
             "C": "docker reconfigure",
             "D": "docker commit"
         },
-        "answer": "docker update",
+        "answer": "A",
         "explanation": "The 'docker update' command is used to update the configuration of a running container, such as CPU or memory limits. For example: 'docker update --memory 512m mycontainer'.",
         "topic": "Docker Commands"
     },
@@ -1717,7 +1717,7 @@
             "C": "docker node join",
             "D": "docker swarm add"
         },
-        "answer": "docker swarm join",
+        "answer": "A",
         "explanation": "The 'docker swarm join' command is used to join a worker node to a Docker Swarm. A token provided by the manager is required.",
         "topic": "Docker Swarm"
     },
@@ -1731,7 +1731,7 @@
             "C": "docker list nodes",
             "D": "docker nodes"
         },
-        "answer": "docker node ls",
+        "answer": "A",
         "explanation": "The 'docker node ls' command lists all nodes in a Docker Swarm, including managers and workers.",
         "topic": "Docker Swarm"
     },
@@ -1745,7 +1745,7 @@
             "C": "docker swarm service",
             "D": "docker add service"
         },
-        "answer": "docker service create",
+        "answer": "A",
         "explanation": "The 'docker service create' command is used to create a service in Docker Swarm. For example: 'docker service create --name myservice nginx'.",
         "topic": "Docker Swarm"
     },
@@ -1759,7 +1759,7 @@
             "C": "docker swarm scale",
             "D": "docker update service"
         },
-        "answer": "docker service scale",
+        "answer": "A",
         "explanation": "The 'docker service scale' command is used to scale a Docker Swarm service. For example: 'docker service scale myservice=5'.",
         "topic": "Docker Swarm"
     },
@@ -1773,7 +1773,7 @@
             "C": "docker-compose halt",
             "D": "docker-compose kill"
         },
-        "answer": "docker-compose down",
+        "answer": "B",
         "explanation": "The 'docker-compose down' command is used to stop and remove all services, networks, and volumes defined in a Docker Compose file.",
         "topic": "Docker Compose"
     },
@@ -1787,7 +1787,7 @@
             "C": "docker-compose show logs",
             "D": "docker-compose inspect"
         },
-        "answer": "docker-compose logs",
+        "answer": "A",
         "explanation": "The 'docker-compose logs' command is used to view the logs of all services defined in a Docker Compose file.",
         "topic": "Docker Compose"
     },
@@ -1801,7 +1801,7 @@
             "C": "docker signin",
             "D": "docker connect"
         },
-        "answer": "docker login",
+        "answer": "A",
         "explanation": "The 'docker login' command is used to log in to Docker Hub. For example: 'docker login'.",
         "topic": "Docker Hub"
     },
@@ -1815,7 +1815,7 @@
             "C": "docker multi-build",
             "D": "docker arch-build"
         },
-        "answer": "docker buildx",
+        "answer": "B",
         "explanation": "The 'docker buildx' command is used to build Docker images for multiple architectures, such as ARM and x86.",
         "topic": "Multi-Architecture Builds"
     },
@@ -1829,7 +1829,7 @@
             "C": "docker builder create",
             "D": "docker buildx init"
         },
-        "answer": "docker buildx create",
+        "answer": "A",
         "explanation": "The 'docker buildx create' command is used to create a new builder instance for multi-architecture builds.",
         "topic": "Multi-Architecture Builds"
     },
@@ -1843,7 +1843,7 @@
             "C": "HEALTH",
             "D": "MONITOR"
         },
-        "answer": "HEALTHCHECK",
+        "answer": "A",
         "explanation": "The 'HEALTHCHECK' instruction in a Dockerfile is used to define a health check for a container.",
         "topic": "Container Health Checks"
     },
@@ -1857,7 +1857,7 @@
             "C": "docker status",
             "D": "docker check"
         },
-        "answer": "docker inspect",
+        "answer": "A",
         "explanation": "The 'docker inspect' command is used to view the health status of a container. For example: 'docker inspect --format='{{.State.Health.Status}}' mycontainer'.",
         "topic": "Container Health Checks"
     },
@@ -1871,7 +1871,7 @@
             "C": "docker plugins",
             "D": "docker plugin list"
         },
-        "answer": "docker plugin ls",
+        "answer": "A",
         "explanation": "The 'docker plugin ls' command is used to list all installed Docker plugins.",
         "topic": "Docker Plugins"
     },
@@ -1885,7 +1885,7 @@
             "C": "docker plugin activate",
             "D": "docker activate plugin"
         },
-        "answer": "docker plugin enable",
+        "answer": "A",
         "explanation": "The 'docker plugin enable' command is used to enable a Docker plugin. For example: 'docker plugin enable myplugin'.",
         "topic": "Docker Plugins"
     },
@@ -1899,7 +1899,7 @@
             "C": "docker plugin add",
             "D": "docker add plugin"
         },
-        "answer": "docker plugin install",
+        "answer": "A",
         "explanation": "The 'docker plugin install' command is used to install a Docker plugin. For example: 'docker plugin install myplugin'.",
         "topic": "Docker Plugins"
     },
@@ -1913,7 +1913,7 @@
             "C": "docker plugin delete",
             "D": "docker delete plugin"
         },
-        "answer": "docker plugin rm",
+        "answer": "A",
         "explanation": "The 'docker plugin rm' command is used to remove a Docker plugin. For example: 'docker plugin rm myplugin'.",
         "topic": "Docker Plugins"
     },
@@ -1927,7 +1927,7 @@
             "C": "docker-compose up",
             "D": "docker-compose start"
         },
-        "answer": "docker-compose build",
+        "answer": "A",
         "explanation": "The 'docker-compose build' command is used to build images for services defined in a Docker Compose file.",
         "topic": "Docker Compose"
     },
@@ -1941,7 +1941,7 @@
             "C": "docker-compose ls",
             "D": "docker-compose inspect"
         },
-        "answer": "docker-compose ps",
+        "answer": "A",
         "explanation": "The 'docker-compose ps' command is used to view the status of services defined in a Docker Compose file.",
         "topic": "Docker Compose"
     },
@@ -1955,7 +1955,7 @@
             "C": "docker info",
             "D": "docker check"
         },
-        "answer": "docker --version",
+        "answer": "B",
         "explanation": "The 'docker --version' command displays the version of Docker installed on the system, including the client and server versions.",
         "topic": "Docker Basics"
     },
@@ -1969,7 +1969,7 @@
             "C": "docker inspect",
             "D": "docker details"
         },
-        "answer": "docker info",
+        "answer": "A",
         "explanation": "The 'docker info' command displays detailed information about Docker's system-wide configuration, such as the number of containers, images, and storage drivers.",
         "topic": "Docker Basics"
     },
@@ -1983,7 +1983,7 @@
             "C": "docker start",
             "D": "docker build"
         },
-        "answer": "docker create",
+        "answer": "A",
         "explanation": "The 'docker create' command is used to create a new container without starting it. For example: 'docker create --name mycontainer nginx'.",
         "topic": "Docker Basics"
     },
@@ -1997,7 +1997,7 @@
             "C": "docker run",
             "D": "docker start"
         },
-        "answer": "docker attach",
+        "answer": "A",
         "explanation": "The 'docker attach' command is used to attach to a running container's terminal. For example: 'docker attach mycontainer'.",
         "topic": "Docker Basics"
     },
@@ -2011,7 +2011,7 @@
             "C": "docker move",
             "D": "docker transfer"
         },
-        "answer": "docker cp",
+        "answer": "A",
         "explanation": "The 'docker cp' command is used to copy files between a container and the host. For example: 'docker cp mycontainer:/file.txt /host/path'.",
         "topic": "Docker Basics"
     },
@@ -2025,7 +2025,7 @@
             "C": "docker inspect",
             "D": "docker processes"
         },
-        "answer": "docker top",
+        "answer": "A",
         "explanation": "The 'docker top' command is used to display the processes running inside a container. For example: 'docker top mycontainer'.",
         "topic": "Docker Basics"
     },
@@ -2039,7 +2039,7 @@
             "C": "docker monitor",
             "D": "docker inspect"
         },
-        "answer": "docker stats",
+        "answer": "A",
         "explanation": "The 'docker stats' command is used to display the resource usage statistics of a container, such as CPU, memory, and network usage.",
         "topic": "Docker Basics"
     },
@@ -2053,7 +2053,7 @@
             "C": "docker image history",
             "D": "docker show history"
         },
-        "answer": "docker history",
+        "answer": "A",
         "explanation": "The 'docker history' command is used to display the history of a Docker image, including the layers and commands used to build it.",
         "topic": "Docker Basics"
     },
@@ -2067,7 +2067,7 @@
             "C": "docker label",
             "D": "docker name"
         },
-        "answer": "docker tag",
+        "answer": "A",
         "explanation": "The 'docker tag' command is used to tag a Docker image. For example: 'docker tag myimage myrepo/myimage:1.0'.",
         "topic": "Docker Basics"
     },
@@ -2081,7 +2081,7 @@
             "C": "docker archive",
             "D": "docker compress"
         },
-        "answer": "docker save",
+        "answer": "A",
         "explanation": "The 'docker save' command is used to save a Docker image to a tar archive. For example: 'docker save -o myimage.tar myimage'.",
         "topic": "Docker Basics"
     },
@@ -2095,7 +2095,7 @@
             "C": "docker extract",
             "D": "docker uncompress"
         },
-        "answer": "docker load",
+        "answer": "A",
         "explanation": "The 'docker load' command is used to load a Docker image from a tar archive. For example: 'docker load -i myimage.tar'.",
         "topic": "Docker Basics"
     },
@@ -2109,7 +2109,7 @@
             "C": "docker archive",
             "D": "docker compress"
         },
-        "answer": "docker export",
+        "answer": "A",
         "explanation": "The 'docker export' command is used to export a container's filesystem as a tar archive. For example: 'docker export -o mycontainer.tar mycontainer'.",
         "topic": "Docker Basics"
     },
@@ -2123,7 +2123,7 @@
             "C": "docker extract",
             "D": "docker uncompress"
         },
-        "answer": "docker import",
+        "answer": "A",
         "explanation": "The 'docker import' command is used to import a container's filesystem from a tar archive. For example: 'docker import mycontainer.tar myimage'.",
         "topic": "Docker Basics"
     },
@@ -2137,7 +2137,7 @@
             "C": "docker contexts",
             "D": "docker context list"
         },
-        "answer": "docker context ls",
+        "answer": "A",
         "explanation": "The 'docker context ls' command is used to list all Docker contexts.",
         "topic": "Docker Contexts"
     },
@@ -2151,7 +2151,7 @@
             "C": "docker switch context",
             "D": "docker context switch"
         },
-        "answer": "docker context use",
+        "answer": "A",
         "explanation": "The 'docker context use' command is used to switch between Docker contexts. For example: 'docker context use mycontext'.",
         "topic": "Docker Contexts"
     },
@@ -2165,7 +2165,7 @@
             "C": "docker add secret",
             "D": "docker secret add"
         },
-        "answer": "docker secret create",
+        "answer": "A",
         "explanation": "The 'docker secret create' command is used to create a Docker secret. For example: 'docker secret create mysecret secret.txt'.",
         "topic": "Docker Secrets"
     },
@@ -2179,7 +2179,7 @@
             "C": "docker stop",
             "D": "docker run"
         },
-        "answer": "docker restart",
+        "answer": "A",
         "explanation": "The 'docker restart' command is used to restart a running container. For example: 'docker restart mycontainer'.",
         "topic": "Container Management"
     },
@@ -2193,7 +2193,7 @@
             "C": "docker pause",
             "D": "docker halt"
         },
-        "answer": "docker kill",
+        "answer": "B",
         "explanation": "The 'docker kill' command is used to force-stop a running container by sending a SIGKILL signal. For example: 'docker kill mycontainer'.",
         "topic": "Container Management"
     },
@@ -2207,7 +2207,7 @@
             "C": "docker attach",
             "D": "docker start -it"
         },
-        "answer": "docker exec -it",
+        "answer": "A",
         "explanation": "The 'docker exec -it' command is used to execute a command in a running container in interactive mode. For example: 'docker exec -it mycontainer bash'.",
         "topic": "Container Management"
     },
@@ -2221,7 +2221,7 @@
             "C": "docker rm",
             "D": "docker prune"
         },
-        "answer": "docker image prune",
+        "answer": "B",
         "explanation": "The 'docker image prune' command is used to remove all unused Docker images. For example: 'docker image prune -a'.",
         "topic": "Image Management"
     },
@@ -2235,7 +2235,7 @@
             "C": "docker info",
             "D": "docker show"
         },
-        "answer": "docker inspect",
+        "answer": "A",
         "explanation": "The 'docker inspect' command is used to inspect the details of a Docker image. For example: 'docker inspect myimage'.",
         "topic": "Image Management"
     },
@@ -2249,7 +2249,7 @@
             "C": "docker download",
             "D": "docker get"
         },
-        "answer": "docker pull",
+        "answer": "A",
         "explanation": "The 'docker pull' command is used to pull a Docker image from a registry. For example: 'docker pull nginx'.",
         "topic": "Image Management"
     },
@@ -2263,7 +2263,7 @@
             "C": "docker details",
             "D": "docker show"
         },
-        "answer": "docker network inspect",
+        "answer": "B",
         "explanation": "The 'docker network inspect' command is used to inspect the details of a Docker network. For example: 'docker network inspect mynetwork'.",
         "topic": "Network Management"
     },
@@ -2277,7 +2277,7 @@
             "C": "docker volume add",
             "D": "docker add volume"
         },
-        "answer": "docker volume create",
+        "answer": "A",
         "explanation": "The 'docker volume create' command is used to create a new Docker volume. For example: 'docker volume create myvolume'.",
         "topic": "Volume Management"
     },
@@ -2291,7 +2291,7 @@
             "C": "docker details",
             "D": "docker show"
         },
-        "answer": "docker volume inspect",
+        "answer": "B",
         "explanation": "The 'docker volume inspect' command is used to inspect the details of a Docker volume. For example: 'docker volume inspect myvolume'.",
         "topic": "Volume Management"
     },
@@ -2305,7 +2305,7 @@
             "C": "docker check",
             "D": "docker inspect"
         },
-        "answer": "docker --version",
+        "answer": "B",
         "explanation": "The 'docker --version' command is used to display the Docker version, including the client and server versions.",
         "topic": "System Management"
     },
@@ -2319,7 +2319,7 @@
             "C": "docker inspect",
             "D": "docker monitor"
         },
-        "answer": "docker events",
+        "answer": "A",
         "explanation": "The 'docker events' command is used to display the events generated by Docker, such as container creation, start, stop, and deletion.",
         "topic": "System Management"
     },
@@ -2333,7 +2333,7 @@
             "C": "docker monitor",
             "D": "docker inspect"
         },
-        "answer": "docker stats",
+        "answer": "A",
         "explanation": "The 'docker stats' command is used to display the resource usage statistics of all running containers, such as CPU, memory, and network usage.",
         "topic": "Container Management"
     },
@@ -2347,7 +2347,7 @@
             "C": "docker logs --follow",
             "D": "Both A and C"
         },
-        "answer": "Both A and C",
+        "answer": "D",
         "explanation": "The 'docker logs -f' or 'docker logs --follow' command is used to display the logs of a container in real-time. For example: 'docker logs -f mycontainer'.",
         "topic": "Container Management"
     },
@@ -2361,7 +2361,7 @@
             "C": "docker logs --lines 10",
             "D": "docker logs --last 10"
         },
-        "answer": "docker logs --tail 10",
+        "answer": "A",
         "explanation": "The 'docker logs --tail 10' command is used to display the last 10 lines of a container's logs. For example: 'docker logs --tail 10 mycontainer'.",
         "topic": "Container Management"
     },
@@ -2375,7 +2375,7 @@
             "C": "docker build --name",
             "D": "Both A and B"
         },
-        "answer": "Both A and B",
+        "answer": "D",
         "explanation": "The 'docker build -t' or 'docker build --tag' command is used to build a Docker image with a specific tag. For example: 'docker build -t myimage:1.0 .'.",
         "topic": "Image Management"
     },
@@ -2389,7 +2389,7 @@
             "C": "docker rm $(docker images -q)",
             "D": "docker delete all"
         },
-        "answer": "docker rmi $(docker images -q)",
+        "answer": "A",
         "explanation": "The 'docker rmi $(docker images -q)' command is used to remove all Docker images. The 'docker images -q' command lists all image IDs.",
         "topic": "Image Management"
     },
@@ -2403,7 +2403,7 @@
             "C": "docker label",
             "D": "docker name"
         },
-        "answer": "docker tag",
+        "answer": "A",
         "explanation": "The 'docker tag' command is used to tag a Docker image with a new name. For example: 'docker tag myimage myrepo/myimage:1.0'.",
         "topic": "Image Management"
     },
@@ -2417,8 +2417,606 @@
             "C": "docker inspect",
             "D": "docker stats"
         },
-        "answer": "docker system df",
+        "answer": "A",
         "explanation": "The 'docker system df' command is used to display the disk usage of Docker objects, such as images, containers, volumes, and build cache.",
         "topic": "System Management"
+    },
+    {
+        "QN": "174",
+        "type": "Docker Basics",
+        "question": "What is Docker?",
+        "options": {
+            "A": "A Hypervisor",
+            "B": "An Operating System",
+            "C": "A Virtual Machine",
+            "D": "A Containerization platform"
+        },
+        "answer": "D",
+        "explanation": "Docker is a containerization platform that allows developers to package, ship, and run applications in containers."
+    },
+    {
+        "QN": "175",
+        "type": "Docker Architecture",
+        "question": "Which of the following is the core component of Docker?",
+        "options": {
+            "A": "Docker CLI",
+            "B": "Docker Engine",
+            "C": "Docker Server",
+            "D": "Docker Hypervisor"
+        },
+        "answer": "B",
+        "explanation": "The Docker Engine is the core component of Docker, responsible for managing containers, images, and networks."
+    },
+    {
+        "QN": "176",
+        "type": "Docker Basics",
+        "question": "Which command is used to check the version of Docker?",
+        "options": {
+            "A": "docker details",
+            "B": "docker info",
+            "C": "docker version",
+            "D": "docker \u00e2\u20ac\u201cversion"
+        },
+        "answer": "D",
+        "explanation": "The command 'docker \u00e2\u20ac\u201cversion' is used to check the version of Docker installed on your system."
+    },
+    {
+        "QN": "177",
+        "type": "Docker Basics",
+        "question": "What is a Docker Container?",
+        "options": {
+            "A": "A network service",
+            "B": "A lightweight executable package",
+            "C": "An Operating System kernel",
+            "D": "A Virtual Machine"
+        },
+        "answer": "B",
+        "explanation": "A Docker container is a lightweight executable package that includes everything needed to run an application."
+    },
+    {
+        "QN": "178",
+        "type": "Docker Commands",
+        "question": "What does the `docker ps` command do?",
+        "options": {
+            "A": "Starts a Docker container",
+            "B": "Displays Docker images",
+            "C": "Displays Docker version",
+            "D": "Displays running containers"
+        },
+        "answer": "D",
+        "explanation": "The 'docker ps' command is used to display a list of running containers."
+    },
+    {
+        "QN": "179",
+        "type": "Docker Images",
+        "question": "Which file defines the instructions to build a Docker image?",
+        "options": {
+            "A": "Dockerfile",
+            "B": "requirements.json",
+            "C": "config.txt",
+            "D": "docker-compose.yml"
+        },
+        "answer": "A",
+        "explanation": "A Dockerfile contains instructions for building a Docker image."
+    },
+    {
+        "QN": "180",
+        "type": "Docker Images",
+        "question": "What is a Docker Image?",
+        "options": {
+            "A": "A running container",
+            "B": "A snapshot of an application and its dependencies",
+            "C": "A configuration file",
+            "D": "A virtual hard drive"
+        },
+        "answer": "B",
+        "explanation": "A Docker image is a snapshot of an application and its dependencies, used to create containers."
+    },
+    {
+        "QN": "181",
+        "type": "Docker Images",
+        "question": "How do you create a Docker Image?",
+        "options": {
+            "A": "docker run",
+            "B": "docker pull",
+            "C": "docker build",
+            "D": "docker start"
+        },
+        "answer": "C",
+        "explanation": "The 'docker build' command is used to create a Docker image from a Dockerfile."
+    },
+    {
+        "QN": "182",
+        "type": "Docker Images",
+        "question": "How can you remove a Docker image?",
+        "options": {
+            "A": "docker remove",
+            "B": "docker delete",
+            "C": "docker rm",
+            "D": "docker rmi"
+        },
+        "answer": "D",
+        "explanation": "The 'docker rmi' command is used to remove a Docker image."
+    },
+    {
+        "QN": "183",
+        "type": "Docker vs VMs",
+        "question": "What is the difference between a Docker Container and a Virtual Machine?",
+        "options": {
+            "A": "Containers are slower than VMs",
+            "B": "VMs run on hardware, while containers do not",
+            "C": "Containers share the host OS kernel, while VMs have their own kernel",
+            "D": "Containers are heavier than VMs"
+        },
+        "answer": "C",
+        "explanation": "Containers share the host OS kernel, while VMs run their own OS kernel."
+    },
+    {
+        "QN": "184",
+        "type": "Docker Commands",
+        "question": "Which command creates and starts a new container?",
+        "options": {
+            "A": "docker create",
+            "B": "docker start",
+            "C": "docker run",
+            "D": "docker build"
+        },
+        "answer": "C",
+        "explanation": "The 'docker run' command creates and starts a new container from an image."
+    },
+    {
+        "QN": "185",
+        "type": "Docker Commands",
+        "question": "How do you stop a running Docker container?",
+        "options": {
+            "A": "docker pause",
+            "B": "docker terminate",
+            "C": "docker end",
+            "D": "docker stop"
+        },
+        "answer": "D",
+        "explanation": "The 'docker stop' command is used to stop a running Docker container."
+    },
+    {
+        "QN": "186",
+        "type": "Docker Architecture",
+        "question": "What are the key components of Docker architecture?",
+        "options": {
+            "A": "Docker Manager, Docker Processor, Docker Configurator",
+            "B": "Docker Master, Docker Node, Docker Registry",
+            "C": "Docker Engine, Docker CLI, Docker Daemon",
+            "D": "Docker Kernel, Docker Service, Docker Network"
+        },
+        "answer": "C",
+        "explanation": "The key components of Docker architecture include the Docker Engine, Docker CLI, and Docker Daemon."
+    },
+    {
+        "QN": "187",
+        "type": "Docker Architecture",
+        "question": "What is the role of the Docker Daemon?",
+        "options": {
+            "A": "It stores operating system data",
+            "B": "It manages containers, images, and networks",
+            "C": "It interacts with the user interface",
+            "D": "It only handles logs"
+        },
+        "answer": "B",
+        "explanation": "The Docker Daemon manages containers, images, and networks."
+    },
+    {
+        "QN": "188",
+        "type": "Docker Registry",
+        "question": "What is a Docker Registry?",
+        "options": {
+            "A": "A network router",
+            "B": "A local storage system",
+            "C": "A virtual machine host",
+            "D": "A repository for storing and sharing Docker images"
+        },
+        "answer": "D",
+        "explanation": "A Docker Registry is a repository for storing and sharing Docker images."
+    },
+    {
+        "QN": "189",
+        "type": "Docker Services",
+        "question": "Which Docker service manages updates automatically?",
+        "options": {
+            "A": "Docker Daemon",
+            "B": "Docker Compose",
+            "C": "Docker Engine",
+            "D": "Docker Plugin"
+        },
+        "answer": "A",
+        "explanation": "The Docker Daemon manages updates and services automatically."
+    },
+    {
+        "QN": "190",
+        "type": "Docker Services",
+        "question": "What is a Docker Service?",
+        "options": {
+            "A": "A process that manages logs",
+            "B": "A database replication tool",
+            "C": "A notification system",
+            "D": "A set of containers deployed together"
+        },
+        "answer": "D",
+        "explanation": "A Docker Service refers to a set of containers deployed together."
+    },
+    {
+        "QN": "191",
+        "type": "Docker Commands",
+        "question": "What command lists all running Docker containers?",
+        "options": {
+            "A": "docker list",
+            "B": "docker check",
+            "C": "docker ps",
+            "D": "docker stop"
+        },
+        "answer": "C",
+        "explanation": "The 'docker ps' command lists all running Docker containers."
+    },
+    {
+        "QN": "192",
+        "type": "Docker Images",
+        "question": "Why use Multi-stage builds in Docker?",
+        "options": {
+            "A": "Increase startup time",
+            "B": "Decrease image size",
+            "C": "Use more memory",
+            "D": "None of the above"
+        },
+        "answer": "B",
+        "explanation": "Multi-stage builds are used to decrease the size of Docker images."
+    },
+    {
+        "QN": "193",
+        "type": "Docker Commands",
+        "question": "Which CLI command shows detailed information about a container?",
+        "options": {
+            "A": "docker inspect",
+            "B": "docker show",
+            "C": "docker details",
+            "D": "docker info"
+        },
+        "answer": "A",
+        "explanation": "The 'docker inspect' command provides detailed information about a container."
+    },
+    {
+        "QN": "194",
+        "type": "Docker Commands",
+        "question": "What is the purpose of the docker exec command?",
+        "options": {
+            "A": "Execute a command inside a running container",
+            "B": "Pull a new image",
+            "C": "Remove a container",
+            "D": "Start a new registry"
+        },
+        "answer": "A",
+        "explanation": "The 'docker exec' command executes a command inside a running container."
+    },
+    {
+        "QN": "195",
+        "type": "Docker Commands",
+        "question": "Which of the following commands removes a stopped container?",
+        "options": {
+            "A": "docker delete",
+            "B": "docker stop",
+            "C": "docker prune",
+            "D": "docker rm"
+        },
+        "answer": "D",
+        "explanation": "The 'docker rm' command removes a stopped container."
+    },
+    {
+        "QN": "196",
+        "type": "Docker Images",
+        "question": "How do you tag a Docker image with a new version?",
+        "options": {
+            "A": "docker version",
+            "B": "docker update",
+            "C": "docker tag",
+            "D": "docker modify"
+        },
+        "answer": "C",
+        "explanation": "The 'docker tag' command is used to tag a Docker image with a new version."
+    },
+    {
+        "QN": "197",
+        "type": "Docker Registry",
+        "question": "Which of the following is true about Docker Hub?",
+        "options": {
+            "A": "It is a Docker image storage and distribution platform",
+            "B": "It is a cloud service for running containers",
+            "C": "It is only available for Windows",
+            "D": "It is a tool for managing Docker containers"
+        },
+        "answer": "A",
+        "explanation": "Docker Hub is a Docker image storage and distribution platform."
+    },
+    {
+        "QN": "198",
+        "type": "Docker Compose",
+        "question": "What is the docker-compose tool used for?",
+        "options": {
+            "A": "Deploying single containers",
+            "B": "Deleting containers",
+            "C": "Running multiple containers as a service",
+            "D": "Creating local network connections"
+        },
+        "answer": "C",
+        "explanation": "Docker Compose is used for running multiple containers as a service."
+    },
+    {
+        "QN": "199",
+        "type": "Docker Networking",
+        "question": "What is the default network mode in Docker containers?",
+        "options": {
+            "A": "Overlay",
+            "B": "Static",
+            "C": "Host",
+            "D": "Bridge"
+        },
+        "answer": "D",
+        "explanation": "The default network mode in Docker containers is Bridge."
+    },
+    {
+        "QN": "200",
+        "type": "Docker Networking",
+        "question": "What is the purpose of the docker network ls command?",
+        "options": {
+            "A": "Create a new network",
+            "B": "List existing networks",
+            "C": "Share network bandwidth",
+            "D": "Remove existing networks"
+        },
+        "answer": "B",
+        "explanation": "The 'docker network ls' command lists existing networks."
+    },
+    {
+        "QN": "201",
+        "type": "Docker Compose",
+        "question": "What is Docker Compose used for?",
+        "options": {
+            "A": "Managing multi-container applications",
+            "B": "Connecting network interfaces",
+            "C": "Building a single container",
+            "D": "Automating system tasks"
+        },
+        "answer": "A",
+        "explanation": "Docker Compose is used for managing multi-container applications."
+    },
+    {
+        "QN": "202",
+        "type": "Docker Networking",
+        "question": "What is the purpose of Docker Networking?",
+        "options": {
+            "A": "To deploy virtual machines",
+            "B": "To increase system RAM",
+            "C": "To store application data",
+            "D": "To connect applications within containers"
+        },
+        "answer": "D",
+        "explanation": "Docker Networking connects applications within containers."
+    },
+    {
+        "QN": "203",
+        "type": "Docker Compose",
+        "question": "How do you bring up a service using Docker Compose?",
+        "options": {
+            "A": "docker-compose install",
+            "B": "docker run",
+            "C": "docker-compose up",
+            "D": "docker-compose scale"
+        },
+        "answer": "C",
+        "explanation": "The 'docker-compose up' command brings up a service defined in a docker-compose.yml file."
+    },
+    {
+        "QN": "204",
+        "type": "Docker Orchestration",
+        "question": "What is Docker Swarm?",
+        "options": {
+            "A": "A logging tool",
+            "B": "A storage manager",
+            "C": "An orchestration tool for managing clusters",
+            "D": "A backup service"
+        },
+        "answer": "C",
+        "explanation": "Docker Swarm is an orchestration tool for managing clusters."
+    },
+    {
+        "QN": "205",
+        "type": "Docker Images",
+        "question": "Which of the following is not a valid Docker image format?",
+        "options": {
+            "A": "iso",
+            "B": "dockerfile",
+            "C": "img",
+            "D": "tar"
+        },
+        "answer": "A",
+        "explanation": "ISO is not a valid Docker image format."
+    },
+    {
+        "QN": "206",
+        "type": "Docker Networking",
+        "question": "What is port binding in Docker?",
+        "options": {
+            "A": "Binding environment variables",
+            "B": "Assigning internal ports to external ones",
+            "C": "Binding memory resources",
+            "D": "Binding IP addresses to containers"
+        },
+        "answer": "B",
+        "explanation": "Port binding in Docker assigns internal ports to external ones."
+    },
+    {
+        "QN": "207",
+        "type": "Docker Security",
+        "question": "What best practice should you follow to secure a Docker environment?",
+        "options": {
+            "A": "Use docker scan for vulnerability testing",
+            "B": "Minimize container dependencies",
+            "C": "Limit privileges with \u00e2\u20ac\u201cprivileged",
+            "D": "Run containers as root"
+        },
+        "answer": "A",
+        "explanation": "Using 'docker scan' for vulnerability testing is a recommended security practice."
+    },
+    {
+        "QN": "208",
+        "type": "Docker Commands",
+        "question": "What happens if you stop a Docker container?",
+        "options": {
+            "A": "The container is automatically destroyed",
+            "B": "The container stops running but remains on the system",
+            "C": "The container becomes permanently inaccessible",
+            "D": "It deletes all container data"
+        },
+        "answer": "B",
+        "explanation": "When you stop a Docker container, it stops running but remains on the system."
+    },
+    {
+        "QN": "209",
+        "type": "Docker Images",
+        "question": "What is the purpose of a Dockerfile?",
+        "options": {
+            "A": "To create virtual machines",
+            "B": "To optimize application code",
+            "C": "To store environment variables",
+            "D": "To define and build Docker images"
+        },
+        "answer": "D",
+        "explanation": "A Dockerfile defines and builds Docker images."
+    },
+    {
+        "QN": "210",
+        "type": "Docker Volumes",
+        "question": "Which command creates a Docker volume?",
+        "options": {
+            "A": "docker storage create",
+            "B": "docker add volume",
+            "C": "docker volume create",
+            "D": "docker create"
+        },
+        "answer": "C",
+        "explanation": "The 'docker volume create' command creates a Docker volume."
+    },
+    {
+        "QN": "211",
+        "type": "Docker Security",
+        "question": "What is Docker Content Trust (DCT)?",
+        "options": {
+            "A": "A system performance monitor",
+            "B": "A mechanism for local image storage",
+            "C": "A debugging tool",
+            "D": "A feature that verifies image authenticity"
+        },
+        "answer": "D",
+        "explanation": "Docker Content Trust (DCT) verifies the authenticity of Docker images."
+    },
+    {
+        "QN": "212",
+        "type": "Docker Commands",
+        "question": "Which command is used to view logs of a running container?",
+        "options": {
+            "A": "docker logs",
+            "B": "docker view",
+            "C": "docker show logs",
+            "D": "docker trace"
+        },
+        "answer": "A",
+        "explanation": "The 'docker logs' command is used to view logs of a running container."
+    },
+    {
+        "QN": "213",
+        "type": "Docker Commands",
+        "question": "How can you interactively troubleshoot a container?",
+        "options": {
+            "A": "docker attach",
+            "B": "docker exec",
+            "C": "docker debug",
+            "D": "docker trace"
+        },
+        "answer": "B",
+        "explanation": "The 'docker exec' command allows interactive troubleshooting of a container."
+    },
+    {
+        "QN": "214",
+        "type": "Docker CI/CD",
+        "question": "Why is Docker commonly integrated with CI/CD pipelines?",
+        "options": {
+            "A": "Consistent environments across testing and production",
+            "B": "Easier dependency management",
+            "C": "Faster build and deployment times",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "Docker is integrated with CI/CD pipelines for consistent environments, easier dependency management, and faster deployment."
+    },
+    {
+        "QN": "215",
+        "type": "Docker Orchestration",
+        "question": "Why is Kubernetes often paired with Docker?",
+        "options": {
+            "A": "For debugging local machines",
+            "B": "For virtualizing operating systems",
+            "C": "For orchestrating large-scale container deployments",
+            "D": "For building individual containers"
+        },
+        "answer": "C",
+        "explanation": "Kubernetes is paired with Docker for orchestrating large-scale container deployments."
+    },
+    {
+        "QN": "216",
+        "type": "Docker CI/CD",
+        "question": "Which tool is frequently combined with Docker for CI/CD workflows?",
+        "options": {
+            "A": "CircleCI",
+            "B": "GitLab CI/CD",
+            "C": "Jenkins",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "Tools like CircleCI, GitLab CI/CD, and Jenkins are frequently combined with Docker for CI/CD workflows."
+    },
+    {
+        "QN": "217",
+        "type": "Docker Commands",
+        "question": "Which Docker command allows you to delete all unused images, containers, and networks?",
+        "options": {
+            "A": "docker remove-all",
+            "B": "docker delete-all",
+            "C": "docker prune",
+            "D": "docker clean"
+        },
+        "answer": "C",
+        "explanation": "The 'docker prune' command deletes all unused Docker resources."
+    },
+    {
+        "QN": "218",
+        "type": "Docker Compose",
+        "question": "Which command starts services defined in a docker-compose.yml file?",
+        "options": {
+            "A": "docker-compose up",
+            "B": "docker-compose build",
+            "C": "docker-compose stop",
+            "D": "docker-compose start"
+        },
+        "answer": "A",
+        "explanation": "The 'docker-compose up' command starts services defined in a docker-compose.yml file."
+    },
+    {
+        "QN": "219",
+        "type": "Docker Images",
+        "question": "Why should Docker images be kept small?",
+        "options": {
+            "A": "Reduced resource consumption",
+            "B": "Faster startup time",
+            "C": "Easier maintenance and updates",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "Small Docker images reduce resource consumption, improve startup times, and simplify maintenance and updates."
     }
 ]

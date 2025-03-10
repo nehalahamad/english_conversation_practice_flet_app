@@ -12,6 +12,7 @@ def main(page: ft.Page):
                 [
                     ft.Text("John Doe", size=20, weight="bold"),
                     ft.Text("123 Main St, Springfield, IL, 62701"),
+                    ft.Text("Access a running container\u2019s shell to debug issues"),
                 ],
                 spacing=5,
             ),
