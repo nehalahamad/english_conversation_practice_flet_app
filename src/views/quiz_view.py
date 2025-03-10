@@ -59,16 +59,29 @@ class MCQQuestion(Question):
 
 
         for key, option in options.items():
-            column.controls.append(ft.Row(
-                controls=[
-                    ft.Radio(value=option, width=30),
-                    ft.Text(option, text_align=ft.TextAlign.LEFT, 
-                        no_wrap=False,
-                        width=self.page.window.width-90,
-                    )
-                ],
-                spacing=0
-            ))
+            column.controls.append(
+                ft.Stack(
+                    controls=[
+                        ft.Container(
+                            content=ft.Text(
+                                option, 
+                                text_align=ft.TextAlign.LEFT, 
+                                no_wrap=False,
+                                width=self.page.window.width-90,
+                                
+                            ),
+                            margin=ft.margin.only(left=40),
+                        ),
+                        ft.Radio(
+                            value=option, 
+                            label=' '*int(self.page.window.width)+'\n'+' '*int(self.page.window.width),
+                        ),
+                    ],
+                    alignment=ft.alignment.center
+                )
+            )
+
+
             column.controls.append(ft.Divider(color=self.my_theme_color))
 
         # Create a RadioGroup with an on_change callback to update selected_option
@@ -225,7 +238,7 @@ class QuizView(ft.View):
         # Get the current question from the pre-sampled list
         question = self.questions[self.current_question]
         self.question_ref.current.value = question["question"]
-        self.question_label_ref.current.value = f'Question: {self.current_question+1}'
+        self.question_label_ref.current.value = f'Question: {self.current_question+1}-{question["QN"]}'
         
         q_type = question["type"]
         if q_type == "mcq":
@@ -285,7 +298,7 @@ class QuizView(ft.View):
                             ft.Text(f"Your Answer: {result['selected']}", color=ft.Colors.BLUE),
                             ft.Text(f"Correct Answer: {result['correct']}", color=ft.Colors.GREEN) if not answer_match else ft.Container(),
                             ft.Container(
-                                content=ft.Text(f"{result['explanation']}", size=12),
+                                content=ft.Text(f"{result['explanation']}", size=12, width=self.page.width),
                                 border=ft.border.all(1, self.my_theme_color),
                                 border_radius=5,
                                 padding=5,
