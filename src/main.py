@@ -3,14 +3,14 @@ from views.ecp_view import ECPView
 from views.docker_view import DockerView
 from views.quiz_view import QuizView
 from views.home_view import HomeView
-from views.python_view import PythonView
+from views.topic_view import TopicView
 
 class MyApp:
     def __init__(self, page: ft.Page):
         self.page = page
         self.page.window.width = 360
         self.page.scroll=True
-        self.page.title = "Nehal Ahmad App"
+        self.page.title = "Nehal Ahamad App"
         self.page.on_route_change = self.route_change
         self.page.on_view_pop = self.view_pop
         self.route_change(self.page.route)  # Load initial view
@@ -28,10 +28,6 @@ class MyApp:
 
         elif self.page.route == "/docker":
             self.page.views.append(DockerView(self.page))
-
-        elif self.page.route == "/python_quiz_list":
-            my_theme_color = '#e9c93a'
-            self.page.views.append(PythonView(self.page, my_theme_color))
 
         elif self.page.route == "/docker_quiz":
             file_path = "src/assets/docker_question_new.json"
@@ -51,6 +47,11 @@ class MyApp:
             self.page.theme = ft.Theme(color_scheme_seed=ft.Colors.ORANGE,)
             self.page.views.append(QuizView(self.page, file_path, my_theme_color))
 
+        elif self.page.route == "/python_quiz_list":
+            my_theme_color = '#e9c93a'
+            topics = [{"topic_name": "Regular Expression", "topic_route": "/python_regex_quiz"}]
+            self.page.views.append(TopicView(self.page, my_theme_color, topics))
+
         elif self.page.route == "/python_regex_quiz":
             file_path = "src/assets/regex_python_question_new.json"
             my_theme_color = '#e9c93a'
@@ -63,7 +64,6 @@ class MyApp:
         """Handles back navigation."""
         if len(self.page.views) > 1:
             self.page.views.pop()
-            # self.page.go(self.page.views[-1].route)
             self.page.update()
 
 def main(page: ft.Page):

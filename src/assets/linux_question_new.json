@@ -1,0 +1,5406 @@
+[
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "To increase the response time and throughput, the kernel minimizes the frequency of disk access by keeping a pool of internal data buffer called",
+        "options": {
+            "A": "Pooling",
+            "B": "Spooling",
+            "C": "Buffer cache",
+            "D": "Swapping"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "At start of process execution, STDOUT & STDERR",
+        "options": {
+            "A": "Point to current terminal device",
+            "B": "Are closed",
+            "C": "Point to special files on the system",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "wtmp and utmp files contain:",
+        "options": {
+            "A": "Temporary system data",
+            "B": "User login-logout log",
+            "C": "The user’s command execution log",
+            "D": "The user’s su and sudo attempts"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which is the core of the operating system?",
+        "options": {
+            "A": "Shell",
+            "B": "Kernel",
+            "C": "Commands",
+            "D": "Script"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "ILP32 stands for",
+        "options": {
+            "A": "32 bit Integer, Long & Pointer",
+            "B": "32 bit Integrated Long & Pointer",
+            "C": "32 bit Intelligent Long & Pointer",
+            "D": "32 bit Long & Pointer"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Single Unix Specification Version 2 provides enhanced support for",
+        "options": {
+            "A": "16 bit Unix",
+            "B": "32 bit Unix",
+            "C": "64 bit Unix",
+            "D": "8 bit Unix"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Under UNIX the key board is the default input device and the monitor is the default output device",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which among the following interacts directly with system hardware?",
+        "options": {
+            "A": "Shell",
+            "B": "Commands",
+            "C": "Kernel",
+            "D": "Applications"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Applications communicate with kernel by using:",
+        "options": {
+            "A": "System Calls",
+            "B": "C Programs",
+            "C": "Shell Script",
+            "D": "Shell"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Solaris is the name of a flavor of UNIX from",
+        "options": {
+            "A": "HP",
+            "B": "IBM",
+            "C": "Digital Equipment Corp",
+            "D": "Sun Microsystems"
+        },
+        "answer": "Sun Microsystems",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which of the following is “NOT” a UNIX variant ?",
+        "options": {
+            "A": "Solaris",
+            "B": "AIX",
+            "C": "IRIX",
+            "D": "AS400"
+        },
+        "answer": "AS400",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "The system calls in UNIX is written using which language",
+        "options": {
+            "A": "C",
+            "B": "C++",
+            "C": "Assembly Language",
+            "D": "Fortran"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which of the following enables multi-tasking in UNIX?",
+        "options": {
+            "A": "Time Sharing",
+            "B": "Multi programming",
+            "C": "Multi user",
+            "D": "Modularity"
+        },
+        "answer": "Time Sharing",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which of the following is considered as the super daemon in Unix?",
+        "options": {
+            "A": "sysinit",
+            "B": "init",
+            "C": "inetd",
+            "D": "proc"
+        },
+        "answer": "init",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Unix is which kind of Operating System?",
+        "options": {
+            "A": "Multi User",
+            "B": "Multi Processes",
+            "C": "Multi Tasking",
+            "D": "All of the mentioned"
+        },
+        "answer": "All of the mentioned",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "SVR4 stands for?",
+        "options": {
+            "A": "Standard Version Release 4",
+            "B": "System Version Release 4",
+            "C": "Standard Five Release 4",
+            "D": "System Five Release 4"
+        },
+        "answer": "System Five Release 4",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Lp0 device file is used to access:",
+        "options": {
+            "A": "Floppy",
+            "B": "Cdrom",
+            "C": "Printer",
+            "D": "Tape drive"
+        },
+        "answer": "Printer",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Syntax of any Unix command is:",
+        "options": {
+            "A": "command [options] [arguments].",
+            "B": "command options [arguments].",
+            "C": "command [options] [arguments].",
+            "D": "command options arguments"
+        },
+        "answer": "command [options] [arguments].",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "SVR4 was developed by",
+        "options": {
+            "A": "Sun Microsystems",
+            "B": "AT&T",
+            "C": "University of Berkeley",
+            "D": "Sun and AT&T jointly"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which of these is not a Unix Flavor?",
+        "options": {
+            "A": "BSD",
+            "B": "MAC",
+            "C": "AIX",
+            "D": "IRIX"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following statement is FALSE ?",
+        "options": {
+            "A": "Unix supports multiple users",
+            "B": "Linux is an open source operating system and the source code is shared",
+            "C": "Shell takes care of inter process communication",
+            "D": "Shell provides the feature of I/O Redirection"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which of the following UNIX flavor is from IBM?",
+        "options": {
+            "A": "BSD",
+            "B": "Solaris",
+            "C": "HP-UX",
+            "D": "AIX"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "x86-32 uses which programming model?",
+        "options": {
+            "A": "IP16",
+            "B": "IP32",
+            "C": "ILP16",
+            "D": "ILP32"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What are the sizes of (Integer/Long/Pointer) in LP64 programming model?",
+        "options": {
+            "A": "8/8/8",
+            "B": "4/4/8",
+            "C": "4/8/8",
+            "D": "4/8/4"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which among the following is used to write small programs to control Unix functionalities?",
+        "options": {
+            "A": "Shell Commands",
+            "B": "Shell Script",
+            "C": "Filters",
+            "D": "C Language"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What control character signals the end of the input file?",
+        "options": {
+            "A": "ctrl + a",
+            "B": "ctrl + b",
+            "C": "ctrl + c",
+            "D": "ctrl + d"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "How do you get help about the command “cp”?",
+        "options": {
+            "A": "help cp",
+            "B": "man cp",
+            "C": "cd ?",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+      "QN": "1",
+      "type": "mcq",
+      "question": "The dmesg command",
+      "options": {
+        "A": "Shows user login logoff attempts",
+        "B": "Shows the syslog file for info messages",
+        "C": "kernel log messages",
+        "D": "Shows the daemon log messages"
+      },
+      "answer": "C",
+      "explanation": "None."
+    },
+    {
+      "QN": "2",
+      "type": "mcq",
+      "question": "The command “mknod myfifo b 4 16”",
+      "options": {
+        "A": "Will create a block device if user is root",
+        "B": "Will create a block device for all users",
+        "C": "Will create a FIFO if user is not root",
+        "D": "None of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "None."
+    },
+    {
+      "QN": "3",
+      "type": "mcq",
+      "question": "Which command is used to set terminal IO characteristic?",
+      "options": {
+        "A": "tty",
+        "B": "ctty",
+        "C": "ptty",
+        "D": "stty"
+      },
+      "answer": "D",
+      "explanation": "None."
+    },
+    {
+      "QN": "4",
+      "type": "mcq",
+      "question": "Which command is used to record a user login session in a file",
+      "options": {
+        "A": "macro",
+        "B": "read",
+        "C": "script",
+        "D": "none of the mentioned"
+      },
+      "answer": "C",
+      "explanation": "None."
+    },
+    {
+      "QN": "5",
+      "type": "mcq",
+      "question": "Which command is used to display the operating system name",
+      "options": {
+        "A": "os",
+        "B": "unix",
+        "C": "kernel",
+        "D": "uname"
+      },
+      "answer": "D",
+      "explanation": "None."
+    },
+    {
+      "QN": "6",
+      "type": "mcq",
+      "question": "Which command is used to display the unix version",
+      "options": {
+        "A": "uname -r",
+        "B": "uname -n",
+        "C": "uname -t",
+        "D": "kernel"
+      },
+      "answer": "A",
+      "explanation": "None."
+    },
+    {
+      "QN": "7",
+      "type": "mcq",
+      "question": "Which command is used to print a file",
+      "options": {
+        "A": "print",
+        "B": "ptr",
+        "C": "lpr",
+        "D": "none of the mentioned"
+      },
+      "answer": "C",
+      "explanation": "None."
+    },
+    {
+      "QN": "8",
+      "type": "mcq",
+      "question": "Using which command you find resource limits to the session?",
+      "options": {
+        "A": "rlimit",
+        "B": "ulimit",
+        "C": "setrlimit",
+        "D": "getrlimit"
+      },
+      "answer": "B",
+      "explanation": "None."
+    },
+    {
+      "QN": "9",
+      "type": "mcq",
+      "question": "Which option of ls command used to view file inode number",
+      "options": {
+        "A": "–l",
+        "B": "-o",
+        "C": "–a",
+        "D": "–i"
+      },
+      "answer": "D",
+      "explanation": "None."
+    },
+    {
+      "QN": "10",
+      "type": "mcq",
+      "question": "Find / -name ‘*’ will",
+      "options": {
+        "A": "List all files and directories recursively starting from /",
+        "B": "List a file named * in /",
+        "C": "List all files in / directory",
+        "D": "List all files and directories in / directory"
+      },
+      "answer": "A",
+      "explanation": "None."
+    },
+    {
+      "QN": "1",
+      "type": "mcq",
+      "question": "Which command is used to display the octal value of the text",
+      "options": {
+        "A": "octal",
+        "B": "text_oct",
+        "C": "oct",
+        "D": "od"
+      },
+      "answer": "D",
+      "explanation": "None."
+    },
+    {
+      "QN": "2",
+      "type": "mcq",
+      "question": "Which command is used to view compressed text file contents",
+      "options": {
+        "A": "cat",
+        "B": "type",
+        "C": "zcat",
+        "D": "print"
+      },
+      "answer": "C",
+      "explanation": "None."
+    },
+    {
+      "QN": "3",
+      "type": "mcq",
+      "question": "Which command changes a file’s group owner",
+      "options": {
+        "A": "cgrp",
+        "B": "chgrp",
+        "C": "change",
+        "D": "group"
+      },
+      "answer": "B",
+      "explanation": "None."
+    },
+    {
+      "QN": "4",
+      "type": "mcq",
+      "question": "Which command is used to extract intermediate result in a pipeline",
+      "options": {
+        "A": "tee",
+        "B": "extract",
+        "C": "exec",
+        "D": "none of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "None."
+    },
+    {
+      "QN": "5",
+      "type": "mcq",
+      "question": "Which command is used to extract a column from a text file",
+      "options": {
+        "A": "paste",
+        "B": "get",
+        "C": "cut",
+        "D": "tar"
+      },
+      "answer": "C",
+      "explanation": "None."
+    },
+    {
+      "QN": "6",
+      "type": "mcq",
+      "question": "Which command is used to display disk consumption of a specific directory",
+      "options": {
+        "A": "du",
+        "B": "ds",
+        "C": "dd",
+        "D": "dds"
+      },
+      "answer": "A",
+      "explanation": "None."
+    },
+    {
+      "QN": "7",
+      "type": "mcq",
+      "question": "Which command is used to perform backup in unix?",
+      "options": {
+        "A": "backup",
+        "B": "cpio",
+        "C": "zip",
+        "D": "gzip"
+      },
+      "answer": "B",
+      "explanation": "None."
+    },
+    {
+      "QN": "8",
+      "type": "mcq",
+      "question": "Which command creates an empty file if file does not exist?",
+      "options": {
+        "A": "cat",
+        "B": "touch",
+        "C": "ed",
+        "D": "read"
+      },
+      "answer": "B",
+      "explanation": "None."
+    },
+    {
+      "QN": "9",
+      "type": "mcq",
+      "question": "Which option of rm command is used to remove a directory with all its subdirectories",
+      "options": {
+        "A": "–b",
+        "B": "–o",
+        "C": "–p",
+        "D": "–r"
+      },
+      "answer": "D",
+      "explanation": "None."
+    },
+    {
+      "QN": "10",
+      "type": "mcq",
+      "question": "Which command is used to identify file type?",
+      "options": {
+        "A": "Type",
+        "B": "File",
+        "C": "Finfo",
+        "D": "Info"
+      },
+      "answer": "B",
+      "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Command used to determine the path of an executable file is",
+        "options": {
+            "A": "which",
+            "B": "where",
+            "C": "wexec",
+            "D": "what"
+        },
+        "answer": "which",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Command used to count number of character in a file is",
+        "options": {
+            "A": "grep",
+            "B": "wc",
+            "C": "count",
+            "D": "cut"
+        },
+        "answer": "wc",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of these commands could you use to show one page of output at a time?",
+        "options": {
+            "A": "less",
+            "B": "sed",
+            "C": "pause",
+            "D": "grep"
+        },
+        "answer": "less",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which commands will give you information about how much disk space each file in the current directory uses?",
+        "options": {
+            "A": "ls -l",
+            "B": "ls -la",
+            "C": "du",
+            "D": "ls -a"
+        },
+        "answer": "du",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which of the following command output contains userid?",
+        "options": {
+            "A": "ls",
+            "B": "help",
+            "C": "date",
+            "D": "ls –l"
+        },
+        "answer": "ls –l",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which command is used to display all the files including hidden files in your current and its subdirectories ?",
+        "options": {
+            "A": "ls –aR",
+            "B": "ls –a",
+            "C": "ls –R",
+            "D": "ls –l"
+        },
+        "answer": "ls –aR",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which of the following commands can be used to copy files across systems?",
+        "options": {
+            "A": "ssh",
+            "B": "telnet",
+            "C": "rsh",
+            "D": "ftp"
+        },
+        "answer": "ftp",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "pwd command displays",
+        "options": {
+            "A": "user password",
+            "B": "password file content",
+            "C": "present working directory",
+            "D": "none of the mentioned"
+        },
+        "answer": "present working directory",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which of the following commands can be used to change default permissions for files and directories at the time of creation",
+        "options": {
+            "A": "Chmod",
+            "B": "Chown",
+            "C": "Umask",
+            "D": "Chgrp"
+        },
+        "answer": "Umask",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which tar command option is used to list the files in a tape archive format?",
+        "options": {
+            "A": "cvf",
+            "B": "tvf",
+            "C": "xvf",
+            "D": "ovf"
+        },
+        "answer": "tvf",
+        "explanation": "None."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "Which of the following commands will allow the user to search contents of a file for a particular pattern",
+        "options": {
+            "A": "touch",
+            "B": "grep",
+            "C": "find",
+            "D": "ls"
+        },
+        "answer": "grep",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Write the command to display the current date in the form dd/mm/yyyy.",
+        "options": {
+            "A": "date +%d/%m/%Y",
+            "B": "date +”%d/%m/%Y”",
+            "C": "date +/%d/%m/20%y",
+            "D": "date +”/%d/%m/20%y”"
+        },
+        "answer": "date +%d/%m/%Y",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "The command syntax to display the file ‘sample.txt’ one page at a time is",
+        "options": {
+            "A": "man sample.txt>more",
+            "B": "cat sample.txt<more",
+            "C": "cat sample.txt|more",
+            "D": "none of the mentioned"
+        },
+        "answer": "cat sample.txt|more",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which one shows the name of the operating system?",
+        "options": {
+            "A": "uname -n",
+            "B": "uname -r",
+            "C": "uname -o",
+            "D": "uname –m"
+        },
+        "answer": "uname -o",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "How do you add (append) a file “file1” to the example.tar file",
+        "options": {
+            "A": "no you cannot add a file to example.tar",
+            "B": "tar -cvf example.tar file1",
+            "C": "tar -rvf file1 example.tar",
+            "D": "tar -evf file1 example.tar"
+        },
+        "answer": "tar -rvf file1 example.tar",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "How to execute ls command inside a vi editor?",
+        "options": {
+            "A": "!ls",
+            "B": ":ls",
+            "C": ":!ls",
+            "D": "we can’t execute"
+        },
+        "answer": ":!ls",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which command gives the first byte where the difference is in the file1 & file2?",
+        "options": {
+            "A": "diff",
+            "B": "cmp",
+            "C": "comm",
+            "D": "ls -a"
+        },
+        "answer": "cmp",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "To open a file file1 with cursor at line number 4",
+        "options": {
+            "A": "vi +num file1",
+            "B": "vi +set num file1",
+            "C": "vi + “set num” file1",
+            "D": "vi +/se nu file1"
+        },
+        "answer": "vi +num file1",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "sed is a command typically used for",
+        "options": {
+            "A": "Perform complex calculations",
+            "B": "Perform FIFO based non-blocking I/O",
+            "C": "Modify/print selective contents of a file",
+            "D": "None of the mentioned"
+        },
+        "answer": "Modify/print selective contents of a file",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What communication command provides communication to another user logged on by writing to the bottom of their terminal?",
+        "options": {
+            "A": "talk",
+            "B": "write",
+            "C": "chat",
+            "D": "transmit"
+        },
+        "answer": "write",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which screen manipulation command sets the screen back to normal?",
+        "options": {
+            "A": "tput cup",
+            "B": "tput smso",
+            "C": "tput rmso",
+            "D": "tput blink"
+        },
+        "answer": "tput rmso",
+        "explanation": "None."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "Which command will you use to see the available routes?",
+        "options": {
+            "A": "show route",
+            "B": "route status",
+            "C": "netstat -r",
+            "D": "none of the mentioned"
+        },
+        "answer": "netstat -r",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "How many links are created when we creat a directory file?",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "answer": "2",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "A user creates a link to a file file1 using the following command “ln file1 file2”. Which of the following is not true?",
+        "options": {
+            "A": "file1 and file2 have the same inode numbers",
+            "B": "The number of links for file1 is displayed as 1",
+            "C": "The number of links for file1 is displayed as 2",
+            "D": "The number of links for file2 is displayed as 2"
+        },
+        "answer": "The number of links for file1 is displayed as 1",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "There are two hard links to the “file1” say hl and h2 and a softlink sl. What happens if we deleted the “file1”?",
+        "options": {
+            "A": "We will still be able to access the file with hl and h2 but not with sl",
+            "B": "We will not be able to access the file with hl and h2 but with sl",
+            "C": "We will be able to access the file with any of hl, h2 and sl",
+            "D": "We will not be able to access the file with any of hl, h2 and sl"
+        },
+        "answer": "We will still be able to access the file with hl and h2 but not with sl",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "If two files on same partition point to the same inode structure they are called",
+        "options": {
+            "A": "Soft links",
+            "B": "Hard links",
+            "C": "Alias",
+            "D": "Special files"
+        },
+        "answer": "Hard links",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Deleting a soft-link",
+        "options": {
+            "A": "Deletes the destination file",
+            "B": "Deletes both the softlink and the destination file",
+            "C": "Deletes just the softlink",
+            "D": "backup of the destination is automatically created"
+        },
+        "answer": "Deletes just the softlink",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Creation of hardlinks that point across partitions",
+        "options": {
+            "A": "is allowed only to root user",
+            "B": "can be done by all users",
+            "C": "the effects are unspecified",
+            "D": "is not allowed"
+        },
+        "answer": "is not allowed",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which command is used to change permissions of files and directories?",
+        "options": {
+            "A": "mv",
+            "B": "chgrp",
+            "C": "chmod",
+            "D": "set"
+        },
+        "answer": "chmod",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Where can I find the printer in the file structure?",
+        "options": {
+            "A": "/etc",
+            "B": "/dev",
+            "C": "/lib",
+            "D": "/printer"
+        },
+        "answer": "/dev",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which of the following statement is true?",
+        "options": {
+            "A": "The cp command will preserve the meta data of the file",
+            "B": "The sort command by default sorts in the numeric order",
+            "C": "The mv command will preserve the meta data of the file",
+            "D": "The command ps will display the filesystem usage"
+        },
+        "answer": "The mv command will preserve the meta data of the file",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What UNIX command is used to update the modification time of a file?",
+        "options": {
+            "A": "time",
+            "B": "modify",
+            "C": "cat",
+            "D": "touch"
+        },
+        "answer": "touch",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which of the following time stamps need not exist for a file on traditional unix file system",
+        "options": {
+            "A": "Access Time",
+            "B": "Modification Time",
+            "C": "Creation Time",
+            "D": "Change Time"
+        },
+        "answer": "Creation Time",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which command is used to set limits on file size",
+        "options": {
+            "A": "fsize",
+            "B": "flimit",
+            "C": "ulimit",
+            "D": "usize"
+        },
+        "answer": "ulimit",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which option of rmdir command will remove all directories a, b, c if path is a/b/c",
+        "options": {
+            "A": "–b",
+            "B": "–o",
+            "C": "–p",
+            "D": "–t"
+        },
+        "answer": "–p",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which represents the user home directory",
+        "options": {
+            "A": "/",
+            "B": ".",
+            "C": "..",
+            "D": "~"
+        },
+        "answer": "~",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "If a file is removed in Unix using ‘rm’ then",
+        "options": {
+            "A": "The file can be recovered by a normal user",
+            "B": "The file cannot be recovered by a user",
+            "C": "The file can be fully recovered provided the sytem is not rebooted",
+            "D": "The file will be moved to /lost+found directory and can be recovered only by administrator’s intervention"
+        },
+        "answer": "The file cannot be recovered by a user",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Executing the ‘cd ..’ command when at the root level causes",
+        "options": {
+            "A": "Error message indicating the user can’t access beyond the root level",
+            "B": "Behavior is unix-flavor dependent",
+            "C": "Results in changing to the ‘home’ directory",
+            "D": "Nothing happens"
+        },
+        "answer": "Nothing happens",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "How do you rename file “new” to file “old”?",
+        "options": {
+            "A": "mv new old",
+            "B": "move new old",
+            "C": "cp new old",
+            "D": "rn new old"
+        },
+        "answer": "mv new old",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What command is used to copy files and directories?",
+        "options": {
+            "A": "copy",
+            "B": "cp",
+            "C": "rn",
+            "D": "cpy"
+        },
+        "answer": "cp",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "When mv f1 f2 is executed which file’s inode is freed?",
+        "options": {
+            "A": "f1",
+            "B": "f2",
+            "C": "new inode will be used",
+            "D": "no inode is freed"
+        },
+        "answer": "no inode is freed",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Any file’s attribute information is stored in which structure on the disk",
+        "options": {
+            "A": "Inode",
+            "B": "Data blocks",
+            "C": "File blocks",
+            "D": "Directory file"
+        },
+        "answer": "Inode",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "The soft link will increase the link counter of the file.(T/F)",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "When you use the ln command, which of the following occurs?",
+        "options": {
+            "A": "a file is created that points to an existing file",
+            "B": "a file is created that is a copy of an existing file",
+            "C": "a file is moved from one location to another",
+            "D": "a file is renamed"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "srwxr-xrw- is a",
+        "options": {
+            "A": "internet socket file",
+            "B": "unix domain socket file",
+            "C": "symbolic link",
+            "D": "shared file"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Binary or executable files are:",
+        "options": {
+            "A": "Regular files",
+            "B": "Device files",
+            "C": "Special files",
+            "D": "Directory files"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "The directory file contains:",
+        "options": {
+            "A": "File names & File Sizes",
+            "B": "File names & Inode Numbers",
+            "C": "File names & Address",
+            "D": "File names & Permissions"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which directory contain device special files?",
+        "options": {
+            "A": "/etc",
+            "B": "/etc/dev",
+            "C": "/root/bin",
+            "D": "/dev"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which of the following is not a valid file type on Linux",
+        "options": {
+            "A": "Socket",
+            "B": "Softlink",
+            "C": "Inode",
+            "D": "FIFO"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following is not correct statement regarding file types?",
+        "options": {
+            "A": "Hard links share same inode number",
+            "B": "Soft links cannot be created across partitions",
+            "C": "Socket files are Unix domain sockets",
+            "D": "Character file is a special file"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which are the two types of device files?",
+        "options": {
+            "A": "Character & Block",
+            "B": "Character & Socket",
+            "C": "Block & FIFO",
+            "D": "Input & output"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which is an example for character special file?",
+        "options": {
+            "A": "Hard disk",
+            "B": "CD-ROM",
+            "C": "Terminal",
+            "D": "Memory"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "Which is an example for block special file?",
+        "options": {
+            "A": "Virtual Terminal",
+            "B": "CD-ROM",
+            "C": "Terminal",
+            "D": "Serial modem"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "All device files are stored in which directory?",
+        "options": {
+            "A": "/etc",
+            "B": "/bin",
+            "C": "/dev",
+            "D": "/usr"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "The file permission 764 means:",
+        "options": {
+            "A": "Every one can read, group can execute only and the owner can read and write",
+            "B": "Every one can read and write, but owner alone can execute",
+            "C": "Every one can read, group including owner can write, owner alone can execute",
+            "D": "Every one can read and write and execute"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "The permission -rwxr–r– represented in octal expression will be",
+        "options": {
+            "A": "777",
+            "B": "666",
+            "C": "744",
+            "D": "711"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Effective user id can be set using following permission",
+        "options": {
+            "A": "0777",
+            "B": "2666",
+            "C": "4744",
+            "D": "1711"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Effective group id can be set using following permission",
+        "options": {
+            "A": "0777",
+            "B": "2666",
+            "C": "4744",
+            "D": "1711"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Sticky bit can be set using following permission",
+        "options": {
+            "A": "0777",
+            "B": "2666",
+            "C": "4744",
+            "D": "1711"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "The permission -rwSr–r– represented in octal expression will be",
+        "options": {
+            "A": "0777",
+            "B": "2666",
+            "C": "4744",
+            "D": "4644"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The permission -rwxr-sr– represented in octal expression will be",
+        "options": {
+            "A": "0777",
+            "B": "2766",
+            "C": "2744",
+            "D": "2754"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "If user tries to remove (rm) a readonly file (444 permission), what will happen?",
+        "options": {
+            "A": "The file is removed successfully (and silently)",
+            "B": "The rm command prompts for a confirmation, the command is successful upon confirmation",
+            "C": "The rm command prompts for a confirmation, however the operation fails because of insufficient permissions",
+            "D": "The rm command fails because of insufficient permissions"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "A user does a chmod operation on a file. Which of the following is true?",
+        "options": {
+            "A": "The last accessed time of the file is updated",
+            "B": "The last modification time of the file is updated",
+            "C": "The last change time of the file is updated",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "If the umask value is 0002. what will be the permissions of new directory",
+        "options": {
+            "A": "777",
+            "B": "775",
+            "C": "774",
+            "D": "664"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "What is the command to set the execute permissions to all the files and subdirectories within the directory /home/user1/direct",
+        "options": {
+            "A": "chmod –r +x /home/user1/direct",
+            "B": "chmod –R +x /home/user1/direct",
+            "C": "chmod –f –r +x /home/user1/direct",
+            "D": "chmod –F +x /home/user1/direct"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "The permission -rwxr-xr-t represented in octal expression will be",
+        "options": {
+            "A": "0777",
+            "B": "1755",
+            "C": "1754",
+            "D": "2754"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "With a umask value of 112, what is the default permission assigned to newly created regular file?",
+        "options": {
+            "A": "—x–x-wx",
+            "B": "-rw-rw-r–",
+            "C": "-r-xr-x-r–",
+            "D": "-rw-rw-r–"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which command is used to assign read-write permission to the owner?",
+        "options": {
+            "A": "chmod a+r file",
+            "B": "chmod o+r file",
+            "C": "chmod u=rw file",
+            "D": "chmod og-r file"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Given the command $ chmod o-w datafile",
+        "options": {
+            "A": "sets write permission to everyone for datafile",
+            "B": "sets write permission to others for datafile",
+            "C": "clears write permission to everyone for datafile",
+            "D": "clears write permission to others for datafile"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which of these commands will set the permissions on file textfile to read and write for the owner, read for the group, and nothing for everyone else?",
+        "options": {
+            "A": "chmod 046 textfile",
+            "B": "chmod 640 textfile",
+            "C": "chmod 310 textfile",
+            "D": "chmod rw r nil textfile"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "If you are a root user, how can you grand execute permission only for the owner of the file project1?",
+        "options": {
+            "A": "chmod +x project1",
+            "B": "chmod u+x project1",
+            "C": "chmod a+x project1",
+            "D": "chmod U+X project1"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "A user executes the following command successfully: $ chmod +x file1.txt Which of the following is true of the output of this command?",
+        "options": {
+            "A": "The command results in adding execute permission to the user who ran this command",
+            "B": "The command results in adding execute permission for the owner of the file",
+            "C": "The command results in an error since the file is not an executable file",
+            "D": "The command results in adding execute permission for all users (i.e., user,group & others)"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What does chmod +t",
+        "options": {
+            "A": "wrong syntax",
+            "B": "set effective userid for filename",
+            "C": "set effective groupid for filename",
+            "D": "set the sticky bit"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which of the following umask settings doesn’t allow execute permission to be set by default on directory files",
+        "options": {
+            "A": "222",
+            "B": "111",
+            "C": "000",
+            "D": "444"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which of the following umask settings allow execute permission to be set by default on regular files",
+        "options": {
+            "A": "222",
+            "B": "111",
+            "C": "000",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "The command chmod 4777 a.out",
+        "options": {
+            "A": "will set the suid bit of a.out",
+            "B": "will set the suid bit of a.out only if the command is issued by root",
+            "C": "is not a valid command",
+            "D": "will set the sticky bit of a.out"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which command is used to check filesystem usage in a system?",
+        "options": {
+            "A": "mount",
+            "B": "df",
+            "C": "du",
+            "D": "dd"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which among the following allows fast file system recovery?",
+        "options": {
+            "A": "Ext2",
+            "B": "Journaling",
+            "C": "Caching",
+            "D": "Sysfs"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which filesystem can be used to change certain kernel parameters at runtime using sysctl command?",
+        "options": {
+            "A": "Ext3",
+            "B": "Sysfs",
+            "C": "Ext4",
+            "D": "Procfs"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Filesystem for CDROM is:",
+        "options": {
+            "A": "Ext2",
+            "B": "Ext3",
+            "C": "Isofs",
+            "D": "Procfs"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which file system has journaling capability?",
+        "options": {
+            "A": "Ext2",
+            "B": "Ext4",
+            "C": "Isofs",
+            "D": "Procfs"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which file contains the filesystems to be automatically mounted during boot?",
+        "options": {
+            "A": "/etc/mount",
+            "B": "/etc/fstab",
+            "C": "/etc/inittab",
+            "D": "/etc/boot"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "____ is a directory (which should exist), on which to mount the file system?",
+        "options": {
+            "A": "Root",
+            "B": "Boot",
+            "C": "Mount-point",
+            "D": "Partition"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which command is used to mount file system read only.",
+        "options": {
+            "A": "mount –a",
+            "B": "mount –v",
+            "C": "mount –f",
+            "D": "mount –r"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which of the following is not a valid run-level",
+        "options": {
+            "A": "S",
+            "B": "0",
+            "C": "8",
+            "D": "1"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "On Linux, initrd is a file",
+        "options": {
+            "A": "Containing root file-system required during bootup",
+            "B": "Contains only scripts to be executed during bootup",
+            "C": "Contains root-file system and drivers required to be preloaded during bootup",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which is loaded into memory when system is booted?",
+        "options": {
+            "A": "Kernel",
+            "B": "Shell",
+            "C": "Commands",
+            "D": "Script"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "The process of starting up a computer is known as",
+        "options": {
+            "A": "Boot Loading",
+            "B": "Boot Record",
+            "C": "Boot Strapping",
+            "D": "Booting"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Bootstrapping is also known as",
+        "options": {
+            "A": "Quick boot",
+            "B": "Cold boot",
+            "C": "Hot boot",
+            "D": "Fast boot"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "The shell used for Single user mode shell is:",
+        "options": {
+            "A": "bash",
+            "B": "Csh",
+            "C": "ksh",
+            "D": "sh"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Single user mode shell runs as",
+        "options": {
+            "A": "Admin user",
+            "B": "Root user",
+            "C": "Normal user",
+            "D": "Log user"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which is the only partition mounted in Single user mode",
+        "options": {
+            "A": "boot",
+            "B": "usr",
+            "C": "root",
+            "D": "tmp"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which daemon manages the physical memory by moving process from physical memory to swap space when more physical memory is needed.",
+        "options": {
+            "A": "Sched daemon",
+            "B": "Swap daemon",
+            "C": "Init daemon",
+            "D": "Process daemon"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "At the end of kernel bootstrap, which process is started?",
+        "options": {
+            "A": "/etc/init",
+            "B": "/etc/sched",
+            "C": "/etc/swap",
+            "D": "/etc/kernel"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "The process id of init process is:",
+        "options": {
+            "A": "-1",
+            "B": "0",
+            "C": "1",
+            "D": "2"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "Which file is read by init to get the default runlevel...",
+        "options": {
+            "A": "/etc/profile",
+            "B": "/etc/init",
+            "C": "/etc/boot",
+            "D": "/etc/inittab"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "If a program executing in background attempts to read from STDIN",
+        "options": {
+            "A": "It is terminated",
+            "B": "It’s execution is suspended",
+            "C": "STDIN is made available to it",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which command is used to bring the background process to forground?",
+        "options": {
+            "A": "bg",
+            "B": "fg",
+            "C": "background",
+            "D": "forground"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "How to run a process in the background?",
+        "options": {
+            "A": "&",
+            "B": "*",
+            "C": "?",
+            "D": "|"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which command can be executed by a user who is already logged into the system, in order to change to the root user? (type the command without any parameters)",
+        "options": {
+            "A": "su",
+            "B": "root",
+            "C": "chroot",
+            "D": "user"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Process information in the current shell can be obtained by using",
+        "options": {
+            "A": "kill",
+            "B": "bg",
+            "C": "fg",
+            "D": "ps"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which signal is sent by the command “kill -9",
+        "options": {
+            "A": "INT",
+            "B": "TERM",
+            "C": "KILL",
+            "D": "STOP"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which of the following values for STAT column of ps command is not true:",
+        "options": {
+            "A": "status R means running",
+            "B": "Status S means sleeping",
+            "C": "Status E means exited",
+            "D": "Status Z means zombie"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "When a child process exits before the parent process exits, which of the following is true:",
+        "options": {
+            "A": "the child process becomes defunct",
+            "B": "the parent process becomes defunct",
+            "C": "if the parent process does not handle SIGCHLD, the child process becomes a zombie",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "A user issues the following command sequence:\n$ a.out &\n$ bash\n$ a.out &\nIf the user kills the bash process, then which of the following is true?",
+        "options": {
+            "A": "the second a.out process is also terminated",
+            "B": "the second a.out process becomes a defunct process",
+            "C": "the first a.out process becomes a zombie process",
+            "D": "init process becomes parent of second a.out process"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "The signal sent to a process when the Ctrl-C key is pressed is",
+        "options": {
+            "A": "KILL",
+            "B": "TSTP",
+            "C": "TERM",
+            "D": "INT"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "we can change the priority of a running process using",
+        "options": {
+            "A": "nice",
+            "B": "renice",
+            "C": "priority cannot be changed for a running process",
+            "D": "only superuser can change the priority"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "nohup is used to...",
+        "options": {
+            "A": "automatically hang up the process after logout",
+            "B": "continue the process after logout",
+            "C": "create backgroung process",
+            "D": "manually hang up the process after logout"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "User’s Primary Group id is listed in which file, at the time of creation of the user (On a standard Unix system)",
+        "options": {
+            "A": "/etc/passwd",
+            "B": "/etc/groups",
+            "C": "/etc/login",
+            "D": "/etc/profile"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "The encrypted password of a user is stored in",
+        "options": {
+            "A": "/etc/shadow",
+            "B": "/etc/enpasswwd",
+            "C": "/etc/.passwd",
+            "D": "/etc/passwd"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "A user can change the default log-in shell using",
+        "options": {
+            "A": "chmod",
+            "B": "chsh",
+            "C": "rmsh",
+            "D": "tchsh"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which of the following identifiers associated with a process decide its privilege level",
+        "options": {
+            "A": "uid",
+            "B": "suid",
+            "C": "euid",
+            "D": "gid"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "The /etc/passwd file doesn’t contain",
+        "options": {
+            "A": "userid",
+            "B": "home directory for a user",
+            "C": "login shell name",
+            "D": "none of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "User id 0 is",
+        "options": {
+            "A": "An innvalid user id",
+            "B": "The id of the root user",
+            "C": "The id of a user when the user’s account is deleted",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The login shell is",
+        "options": {
+            "A": "The shell program that runs when the user logs in",
+            "B": "The shell program that authenticates the user while logging in",
+            "C": "Common shell for all the users that belong to the same group",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following command can be used to change the user password?",
+        "options": {
+            "A": "user can’t change the password",
+            "B": "passwd",
+            "C": "passd",
+            "D": "pwd"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What does the following command do ?\nwho | wc –l",
+        "options": {
+            "A": "List the number of users logged in",
+            "B": "List the users",
+            "C": "List the number of users in the system",
+            "D": "Display the content of who command"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "By default, a Linux user falls under which group?",
+        "options": {
+            "A": "staff",
+            "B": "others",
+            "C": "same as userid (UPG)",
+            "D": "system"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "Which of the following files need to be referred for user’s secondary group?",
+        "options": {
+            "A": "/etc/passwd",
+            "B": "/etc/shadow",
+            "C": "/etc/group",
+            "D": "/etc/profile"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "The ls –l output for /etc/passwd and /usr/bin/passwd is as follows:\n-rw-rw-r-- 1 root root 2807 Apr 26 13:50 /etc/passwd\n-r-s—x—x 1 root root 17008 May 25 02:30 /usr/bin/passwd\nIf a user, not belonging to the group ‘root’, runs the passwd executable in an attempt to modify his password, then which of the following is true?",
+        "options": {
+            "A": "password change fails since user does not have permission to update /etc/passwd file",
+            "B": "password change is successful because the program runs as root",
+            "C": "passwd change program runs in kernel mode where write access to the /etc/passwd file is possible",
+            "D": "/etc/passwd is a special file and the system by default allows all users to update it"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "What will be output of following command:\n\n$ echo \"The process id is\" $$$$",
+        "options": {
+            "A": "The process id is $$",
+            "B": "The process id is $<pid>$<pid>",
+            "C": "The process id is <pid><pid>",
+            "D": "The process id is $$$$"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "What would be the current working directory at the end of the following command sequence?\n\n$ pwd /home/user1/proj $ cd src $ cd generic $ cd . $ pwd",
+        "options": {
+            "A": "/home/user1/proj",
+            "B": "/home/user1/proj/src",
+            "C": "/home/user1",
+            "D": "/home/user1/proj/src/generic"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "How do you print the lines between 5 and 10, both inclusive",
+        "options": {
+            "A": "cat filename | head | tail -6",
+            "B": "cat filename | head | tail -5",
+            "C": "cat filename | tail +5 | head",
+            "D": "cat filename | tail -5 | head -10"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Create a new file “new.txt” that is a concatenation of “file1.txt” and “file2.txt”",
+        "options": {
+            "A": "cp file.txt file2.txt new.txt",
+            "B": "cat file1.txt file2.txt > new.txt",
+            "C": "mv file[12].txt new.txt",
+            "D": "ls file1.txt file2.txt | new.txt"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "which of these is NOT a valid variable in bash",
+        "options": {
+            "A": "__ (double underscore)",
+            "B": "_1var (underscore 1 var )",
+            "C": "_var_ (underscore var underscore)",
+            "D": "some-var (some hyphen var)"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What is the output of the following code:\n\nos=Unix echo 1.$os 2.\"$os\" 3.'$os' 4.$os",
+        "options": {
+            "A": "1.Unix 2.Unix 3.Unix 4.Unix",
+            "B": "1.Unix 2.Unix 3.$os 4.Unix",
+            "C": "1.Unix 2.Unix 3.Unix 4.$os",
+            "D": "1.Unix 2.$os 3.$os 4.$os"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "What is the return value ($?) of this code:\n\nos = Unix [$osName = UnixName] && exit 2 [${os}Name = UnixName] && exit 3",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What is the output of the following program?\n\nx = 3; y = 5; z = 10; if [( $x -eq 3 ) -a ( $y -eq 5 -o $z -eq 10 )] then echo $x else echo $y fi",
+        "options": {
+            "A": "1",
+            "B": "3",
+            "C": "5",
+            "D": "Error"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What is the output of the following program?\n\n[ -n $HOME ] echo $? [ -z $HOME ] echo $?",
+        "options": {
+            "A": "0 1",
+            "B": "1 0",
+            "C": "0 0",
+            "D": "1 1"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What is the output of the following program?\n\nb = [ -n $b ] echo $? [ -z $b ] echo $?",
+        "options": {
+            "A": "1 1",
+            "B": "2 2",
+            "C": "0 0",
+            "D": "0 1"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "The expression expr -9 % 2 evaluates to:",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "-1",
+            "D": "2"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "The statement z = ‘expr 5 / 2’ would store which of the following values in z?",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "2.5"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "To feed standard output of one command to standard input of another in a single shell session",
+        "options": {
+            "A": "IO redirection can be used",
+            "B": "Named pipes can be used",
+            "C": "The pipe operator provided by the shell can be used",
+            "D": "It can not be done"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which of the following commands allows definition and assignment of environment variables under bash",
+        "options": {
+            "A": "env",
+            "B": "export",
+            "C": "environ",
+            "D": "setenviron"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "While executing a command, the shell",
+        "options": {
+            "A": "Executes it in the same process (as shell)",
+            "B": "Creates a child shell to execute it",
+            "C": "Loads a special program to take care of the execution",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which variable contains current shell process id",
+        "options": {
+            "A": "$*",
+            "B": "$?",
+            "C": "$$",
+            "D": "$!"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which command is used to debug a shell script program",
+        "options": {
+            "A": "set",
+            "B": "set -x",
+            "C": "debug",
+            "D": "db"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "For every successful login, which script will be executed?",
+        "options": {
+            "A": "/etc/inittab",
+            "B": "/etc/profile",
+            "C": "/etc/login",
+            "D": "/etc/init"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Hidden files are",
+        "options": {
+            "A": "Those whose ‘read’ bit is set to ‘h’",
+            "B": "Permitted for (can be accessed) only superusers",
+            "C": "Files that begin with a ‘.’",
+            "D": "Files that cannot be opened by ordinary user for writing"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Shell is ?",
+        "options": {
+            "A": "Command Interpreter",
+            "B": "Interface between Kernel and Hardware",
+            "C": "Interface between user and applications",
+            "D": "Command Compiler"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "If a file with execute permissions set, but with unknown file format is executed",
+        "options": {
+            "A": "The file is passed to /bin/sh",
+            "B": "The system returns an error",
+            "C": "The current shell will try to execute it",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which of the following is true?",
+        "options": {
+            "A": "Shell is a process and can be started by superuser only",
+            "B": "Shell is a built-in Kernel functionality",
+            "C": "Shell is a wrapper for all the commands and utilities",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which is true with regards to the shell prompt",
+        "options": {
+            "A": "It can be accidentally erased with backspace",
+            "B": "The prompt cannot be modified",
+            "C": "The prompt can be customized (modified)",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "What is a shell in UNIX?",
+        "options": {
+            "A": "a program through which users can issue commands to UNIX",
+            "B": "a window management system",
+            "C": "the login screen",
+            "D": "the thing that rides on the back of a turtle in UNIX"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which of the following represents an absolute path?",
+        "options": {
+            "A": "../home/file.txt",
+            "B": "bin/cat",
+            "C": "cs2204/",
+            "D": "/usr/bin/cat"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "The user bhojas logged in and performed the following sequence of command. What will be the output of the last command?\n$ cd project/module1\n$ pwd",
+        "options": {
+            "A": "/home/bhojas/project/module1",
+            "B": "/home/project/module1",
+            "C": "/usr/bhojas/project/module1",
+            "D": "project/module1"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "BASH shell stands for?",
+        "options": {
+            "A": "Bourne-again Shell",
+            "B": "Basic Access Shell",
+            "C": "Basic to Advanced Shell",
+            "D": "Big & Advanced Shell"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following files will not be displayed by the command cat re* ?",
+        "options": {
+            "A": "reminder",
+            "B": "receipt",
+            "C": "Receipt",
+            "D": "recipe-cake"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "The redirection 2> abc implies",
+        "options": {
+            "A": "Write file 2 to file abc",
+            "B": "Write standard output to abc",
+            "C": "Write standard error to abc",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "cmd 2>&1 > abc will",
+        "options": {
+            "A": "Write file2 to file1",
+            "B": "Write standard output and standard error to abc",
+            "C": "Write standard error to abc",
+            "D": "Write standard output to abc & standard error to monitor"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "cmd > abc 2>&1 will",
+        "options": {
+            "A": "Write file2 to file1",
+            "B": "Write standard output and standard error to abc",
+            "C": "Write standard error to abc",
+            "D": "Write standard output to abc & standard error to monitor"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which of these is the correct method for appending “foo” in /tmp/bar file?",
+        "options": {
+            "A": "echo foo > /tmp/bar",
+            "B": "echo foo >> /tmp/bar",
+            "C": "echo foo | /tmp/var...",
+            "D": "/tmp/bar < echo foo"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Syntax to suppress the display of command error to monitor?",
+        "options": {
+            "A": "command > &2",
+            "B": "command 2> &1",
+            "C": "command 2> &2",
+            "D": "command 2> /dev/null"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "The following commands gives the output like this #cat file1 file2 #cat: file1: No such file or directory hello If we execute the command “cat file1 file2 1>2 2>&1” the output would be",
+        "options": {
+            "A": "cat: file1: No such file or directory hello",
+            "B": "No output is displayed",
+            "C": "Cat: 1>2: No such file or directory",
+            "D": "hello"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "cat < file1 >> file2 | file3",
+        "options": {
+            "A": "file1 content will be appended to file2 and finally stored in file3",
+            "B": "file1 content will be appended to file2 and file3 will be ignored",
+            "C": "file2 and file3 will have same content",
+            "D": "syntax error"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Executing cat /etc/password > /dev/sda as superuser will...",
+        "options": {
+            "A": "Write data into a regular file called /dev/sda",
+            "B": "Write data to the physical device sda",
+            "C": "Create a temporary file /dev/sda and write data to it",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "From where would the read statement read if the following statements were executed?\nexec < file1 exec < file2 exec < file3 read line",
+        "options": {
+            "A": "It would read all the files",
+            "B": "It would not read any files",
+            "C": "It would read all the files in reverse order",
+            "D": "It would read only file3"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "The $ variables in a shell script context designates",
+        "options": {
+            "A": "The runtime of the script",
+            "B": "Number of command line arguments",
+            "C": "PID of the shell running the script",
+            "D": "The exit status of the shell script"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which variable is used to display number of arguments specified in command line",
+        "options": {
+            "A": "$0",
+            "B": "$#",
+            "C": "$*",
+            "D": "$?"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which variable contains last background job process id",
+        "options": {
+            "A": "$*",
+            "B": "$?",
+            "C": "$$",
+            "D": "$!"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which command can be used to test various file attributes",
+        "options": {
+            "A": "if",
+            "B": "file",
+            "C": "test",
+            "D": "type"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "* Specifies",
+        "options": {
+            "A": "one or more character",
+            "B": "zero or more charecter",
+            "C": "nothing",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "? Specifies",
+        "options": {
+            "A": "one or more character",
+            "B": "zero or more charecter",
+            "C": "one character",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which of the following file set in the current directory are identified by the regular expression a?b*",
+        "options": {
+            "A": "afcc, aabb",
+            "B": "aabb, axbc",
+            "C": "abbb, abxy",
+            "D": "abcd, axbb"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What command would send the output of cmd1 to the input of cmd2?",
+        "options": {
+            "A": "cmd1 | cmd2",
+            "B": "cmd1 || cmd2",
+            "C": "cmd1 && cmd2",
+            "D": "cmd1 ; cmd2"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What is the output of the following command for bash shell:\necho linux $0",
+        "options": {
+            "A": "linux echo",
+            "B": "linux linux",
+            "C": "linux bash",
+            "D": "linux"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which variable will display the list of the positional parameters?",
+        "options": {
+            "A": "$#",
+            "B": "$*",
+            "C": "$?",
+            "D": "$$"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which option of grep displays the line number as well?",
+        "options": {
+            "A": "-v",
+            "B": "-l",
+            "C": "-n",
+            "D": "-E"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "How can you search for blank line in a file?",
+        "options": {
+            "A": "$ grep “ “ file",
+            "B": "$ grep “^$” file",
+            "C": "$ grep [“ “] file",
+            "D": "$ grep [^$] file"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Assuming the files fileA, fileB, fileAB, fileBC and fileABC, exist in a directory, which files match with the pattern file[ABC]?",
+        "options": {
+            "A": "fileA, fileB and fileABC",
+            "B": "fileABC",
+            "C": "fileA and fileB",
+            "D": "fileAB, fileBC and fileABC"
+        },
+        "answer": "C",
+        "explanation": "None"
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "What will be printed for the command below?\n$ grep –c “^echo” abc",
+        "options": {
+            "A": "The count of lines that do not contain the pattern echo in file abc",
+            "B": "The count of lines which begin with the pattern echo in file abc",
+            "C": "The count of lines that ends with the pattern echo in file abc",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which one is used to select only one copy of the repeated lines?",
+        "options": {
+            "A": "uniq -u",
+            "B": "uniq -d",
+            "C": "uniq -c",
+            "D": "uniq –I"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Indicate the right option to search for BOB, Bob, BOb or BoB?",
+        "options": {
+            "A": "grep –i Bob files",
+            "B": "grep ‘B[oO][bB]’ files",
+            "C": "grep ‘[BOB]’ files",
+            "D": "grep -v ‘Bob’ files"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Indicate the right option to search for anything not a letter or number",
+        "options": {
+            "A": "grep ‘^[a-zA-Z0-9]’",
+            "B": "grep ‘[^a-zA-Z0-9]’",
+            "C": "grep ‘[a-zA-Z0-9]’",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "How do you remove duplicate lines from the file foo using uniq?",
+        "options": {
+            "A": "sort foo | uniq –u",
+            "B": "sort -u foo | uniq -d",
+            "C": "sort foo | uniq –c",
+            "D": "sort foo | uniq –I"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "One of the entry of /etc/passwd file is shown below:\nuser1:x:1111:2222:Sanfoundry:/home/user1:/bin/bash\nWhich among the following will print userid and home dir in the following pattern “user1:/home/user1”",
+        "options": {
+            "A": "awk `{print $1 “:” $6}` /etc/passwd",
+            "B": "awk `{print $1 “:” $7}` /etc/passwd",
+            "C": "awk `{print $2 “:” $6}` /etc/passwd",
+            "D": "awk `{print $2 “:” $7}` /etc/passwd"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "who | cut –d ” ” -f1\nwhat is the ouput if the who command displays like this\nuser1 tty 0 1234",
+        "options": {
+            "A": "user1",
+            "B": "user1 tty 0 1234",
+            "C": "tty",
+            "D": "tty 0 1234"
+        },
+        "answer": "A",
+        "explanation": "None"
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "What is the command that can print lines of first file matching with second file?",
+        "options": {
+            "A": "printline",
+            "B": "cmp",
+            "C": "com",
+            "D": "comm"
+        },
+        "answer": "D",
+        "explanation": "None"
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "Which character to use to escape meaning of special characters in search operations?",
+        "options": {
+            "A": "[]",
+            "B": "^",
+            "C": ".",
+            "D": "backslash (\\)"
+        },
+        "answer": "D",
+        "explanation": "We can use backslash character to escape the meaning of special characters in search. For example:\n\ngrep ‘\\.’ a.txtOR\ngrep ‘\\*’ a.txtOR\ngrep ‘\\^’ a.txtwill search for fullstop (.), asterisk (*) or caret (^) characters respectively in the file a.txt"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "When the return value of any function is not specified within the function, what function returns?",
+        "options": {
+            "A": "nothing",
+            "B": "exit status of the last command executed",
+            "C": "0",
+            "D": "none of the mentioned"
+        },
+        "answer": "exit status of the last command executed",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Parameters can be passed to a function",
+        "options": {
+            "A": "by using the parameter variables $1, $2, $3.......",
+            "B": "by using the environment variables",
+            "C": "by using the parameter & environment variables",
+            "D": "none of the mentioned"
+        },
+        "answer": "by using the parameter variables $1, $2, $3.......",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following command provides the list of the functions defined in the login session?",
+        "options": {
+            "A": "declare -f",
+            "B": "declare -F",
+            "C": "both declare -f and -F",
+            "D": "none of the mentioned"
+        },
+        "answer": "both declare -f and -F",
+        "explanation": "‘declare -F’ provides just the name of the functions and ‘declare -f’ provides their definitions also."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "The keyword ‘local’ is used",
+        "options": {
+            "A": "to define a variable within a function for its local scope",
+            "B": "to redefine any global variable",
+            "C": "this is not a valid keyword",
+            "D": "none of the mentioned"
+        },
+        "answer": "to define a variable within a function for its local scope",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Functions improves the shell’s programmability significantly, because",
+        "options": {
+            "A": "when we invoke a function, it is already in the shell’s memory, therefore a function runs faster than seperate scripts...",
+            "B": "function will not provides a piece of code for repetative tasks",
+            "C": "all of the mentioned",
+            "D": "none of the mentioned"
+        },
+        "answer": "when we invoke a function, it is already in the shell’s memory, therefore a function runs faster than seperate scripts...",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/sh`\nvar=\"Sanfoundry\"\nsan_function() {\nvar=\"Linux\"\necho $var\n`}`\nsan_function\nexit 0",
+        "options": {
+            "A": "Sanfoundry",
+            "B": "Linux",
+            "C": "Command not found",
+            "D": "None of the mentioned"
+        },
+        "answer": "Linux",
+        "explanation": "If local variable name is same as the global variable, it overlays the variable, but only within the function.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nLinux\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/sh`\nsan_function() {\necho \"Welcome to the Sanfoundry\"\nprintf \"World of Linux\\n\"\n`}`\nunset -f san_function\nsan_function\nexit 0",
+        "options": {
+            "A": "Welcome to the Sanfoundry",
+            "B": "World of Linux",
+            "C": "both Welcome to the Sanfoundry and World of Linux",
+            "D": "nothing will print"
+        },
+        "answer": "nothing will print",
+        "explanation": "Function definition was deleted before calling the function. command ‘unset -f function_name’ deletes the function definition.... Output:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n./test.sh: 6: san_function: not found\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\nfunction san_function1 {\necho \"This is first function\"\n`}`\nsan_function2() {\necho \"This is second function\"\n`}`\nsan_function1\nsan_function2\nexit 0",
+        "options": {
+            "A": "This is the first function",
+            "B": "This is the second function",
+            "C": "This is the first function\nThis is the second function",
+            "D": "program will generate error because first function definition is not correct"
+        },
+        "answer": "This is the first function\nThis is the second function",
+        "explanation": "In bash shell, functions can be defined in both the ways, used in the script.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nThis is first function\n\nThis is second function\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/sh`\necho \"Just call the function\"\nsan_function\nsan_function() {\necho \"This is a function\"\n`}`\nexit 0",
+        "options": {
+            "A": "only first string will print without any error",
+            "B": "only second string will print without any error...",
+            "C": "both strings will print",
+            "D": "none of the mentioned"
+        },
+        "answer": "only first string will print without any error",
+        "explanation": "Function must be defined prior to call. Hence only first string will print and program will generate an error also.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nJust call the function\n\n./test.sh: 3: san_function: not found\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/sh`\nsan_function1() {\na=5\necho \"This is the first function\"\nsan_function2\n`}`\nsan_function2() {\necho \"This is the second function\"\nsan_function3\n`}`\nsan_function3() {\necho \"This is the third function\"\n`}`\nsan_function1\nexit 0",
+        "options": {
+            "A": "This is the first function\nThis is the second function\nThis is the third function",
+            "B": "This is the first function\nThis is the third function\nThis is the second function",
+            "C": "This is the second function\nThis is the first function\nThis is the third function",
+            "D": "This is the third function\nThis is the first function\nThis is the second function"
+        },
+        "answer": "This is the first function\nThis is the second function\nThis is the third function",
+        "explanation": "None.\n\nOutput: root@ubuntu:/home/sanfoundry# ./test.sh\n\nThis is the first function\n\nThis is the second function\n\nThis is the third function\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "In the shell, by default, all variables are considered and stored as",
+        "options": {
+            "A": "string",
+            "B": "integer",
+            "C": "character",
+            "D": "float"
+        },
+        "answer": "string",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which command reads user input from the terminal and assign this value to a variable name?",
+        "options": {
+            "A": "read",
+            "B": "get",
+            "C": "declare",
+            "D": "set"
+        },
+        "answer": "read",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which one of the following statement is true about variables in shell?",
+        "options": {
+            "A": "variables do not require declaration before assigning value to them",
+            "B": "variables are case sensitive",
+            "C": "to extract the contents of a variable, we have to provide the variable a preceding $",
+            "D": "all of the mentioned"
+        },
+        "answer": "all of the mentioned",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which one of the following is not a valid shell variable?",
+        "options": {
+            "A": "_san",
+            "B": "san_2",
+            "C": "_san_2",
+            "D": "2_san"
+        },
+        "answer": "2_san",
+        "explanation": "The shell variable can contain only letters(a to z or A to Z), numbers(0 to 9), or a underscore character(_) and a variable can not start with a number."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "To redefine a variable, it can be removed from the list of variables by using the command",
+        "options": {
+            "A": "unset",
+            "B": "delete",
+            "C": "remove",
+            "D": "clear"
+        },
+        "answer": "unset",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\nsan_var=\"Sanfoundry\"\necho \"$san_var\"\necho '$san_var'\necho '\"$san_var\"'\necho \"'$san_var'\"\necho $san_var\nexit 0",
+        "options": {
+            "A": "Sanfoundry\n$san_var\n“$san_var”\n‘Sanfoundry’\n$san_var",
+            "B": "Sanfoundry\nSanfoundry\n“Sanfoundry”\n‘Sanfoundry’\nSanfoundry",
+            "C": "program will generate an error message",
+            "D": "program will print nothing"
+        },
+        "answer": "Sanfoundry\n$san_var\n“$san_var”\n‘Sanfoundry’\n$san_var",
+        "explanation": "Using double quotes does not affect the substitution of the variable, while single quotes and backslash do.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nSanfoundry\n\n$san_var\n\n“$san_var”\n\n‘Sanfoundry’\n\n$san_var\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\nvar1=10\n$var1=20\necho $var1\nexit 0",
+        "options": {
+            "A": "program will print 10",
+            "B": "program will generate a warning message",
+            "C": "program will print 20",
+            "D": "program will print 10 & 20"
+        },
+        "answer": "program will print 10",
+        "explanation": "The doller sign ($) is used to access a variable’s value, not to define it.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n./test.sh: line 3: 10=20: command not found\n\n10\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\nvar[1]=san_1\nvar[2]=san_2\nvar[3]=san_3\necho ${var[*]}\nexit 0",
+        "options": {
+            "A": "san_1",
+            "B": "san_2",
+            "C": "san_3",
+            "D": "san_1 san_2 san_3"
+        },
+        "answer": "san_1 san_2 san_3",
+        "explanation": "All items of an array can be accessed by using ${[*]} or ${[@]}.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nsan_1 san_2 san_3\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\n`san_var=hello`\n`readonly san_var`\n`san_var=hi`\necho $san_var\nexit 0",
+        "options": {
+            "A": "hello",
+            "B": "hi",
+            "C": "nothing will print",
+            "D": "none of the mentioned"
+        },
+        "answer": "hello",
+        "explanation": "After the execution of the ‘readonly’ command, shell will not provide the permission to overwrite the value stored in variable ‘san_var’.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n./test.sh: line 4: san_var: readonly variable\n\nhello\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\nsan_var=10\necho \"the value of \\\"san_var\\\" is $san_var\"\nexit 0",
+        "options": {
+            "A": "the value of “san_var” is 10",
+            "B": "the value of is 10",
+            "C": "the value of san_var is $san_var",
+            "D": "the value of “san_var” is $san_var"
+        },
+        "answer": "the value of “san_var” is 10",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nthe value of “san_var” is 10\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": 1,
+        "type": "mcq",
+        "question": "Which built-in command performs integer arithmetic in bash shell?",
+        "options": {
+            "A": "let",
+            "B": "get",
+            "C": "set",
+            "D": "none of the mentioned"
+        },
+        "answer": "let",
+        "explanation": "None."
+    },
+    {
+        "QN": 2,
+        "type": "mcq",
+        "question": "Which expression use the value of the enclosed arithmetic expression?",
+        "options": {
+            "A": "$(( ))",
+            "B": "$()",
+            "C": "${}",
+            "D": "$[]"
+        },
+        "answer": "$(( ))",
+        "explanation": "None."
+    },
+    {
+        "QN": 3,
+        "type": "mcq",
+        "question": "If a and b are 2 variables then the meaning of a<<=b is",
+        "options": {
+            "A": "b = a << b",
+            "B": "a = a << b",
+            "C": "b = b << a",
+            "D": "a = a << b"
+        },
+        "answer": "a = a << b",
+        "explanation": "None."
+    },
+    {
+        "QN": 4,
+        "type": "mcq",
+        "question": "Which one of the following is bitwise ‘exclusive or’ operator?",
+        "options": {
+            "A": "^=",
+            "B": "|=",
+            "C": "!=",
+            "D": "none of the mentioned"
+        },
+        "answer": "^=",
+        "explanation": "None."
+    },
+    {
+        "QN": 5,
+        "type": "mcq",
+        "question": "Which one of the following is not a valid operator in bash shell?",
+        "options": {
+            "A": "||",
+            "B": "~",
+            "C": "=<<",
+            "D": "-="
+        },
+        "answer": "=<<",
+        "explanation": "None."
+    },
+    {
+        "QN": 6,
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\na=2\nb=4\nlet c=a**b\necho $c\nexit 0",
+        "options": {
+            "A": "8",
+            "B": "16",
+            "C": "32",
+            "D": "none of the mentioned"
+        },
+        "answer": "16",
+        "explanation": "'**' is the exponentation operator in bash shell.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry#./test.sh\n\n16\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": 7,
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\na=10; b=20\nc=$((++a))\nlet a=c+a\necho $a\nexit 0",
+        "options": {
+            "A": "21",
+            "B": "22",
+            "C": "program will generate an error message",
+            "D": "none of the mentioned"
+        },
+        "answer": "22",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry#./test.sh\n\n22\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": 8,
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\na=10\nb=$(( $a<0?10:$a<100 ))\necho $b\nexit 0",
+        "options": {
+            "A": "10",
+            "B": "20",
+            "C": "1",
+            "D": "0"
+        },
+        "answer": "1",
+        "explanation": "Firstly the ‘$a<0’ condition has been checked. Because it is false hence the right hand side condition of the colon (:) has been checked and this is true so program output is 1.... Output:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n1\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": 9,
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\na=10\nb=$(( $a<0&&$a<100 ))\necho $b\nexit 0",
+        "options": {
+            "A": "10",
+            "B": "0",
+            "C": "1",
+            "D": "none of the mentioned"
+        },
+        "answer": "0",
+        "explanation": "The condition ‘$a<0’ is false so logical and operator provides the output 0.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n0\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": 10,
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\na=1; b=2; c=3\nd=$(( ++a**b*c++ + a ))\necho $d\nexit 0",
+        "options": {
+            "A": "14",
+            "B": "12",
+            "C": "program will generate an error message",
+            "D": "none of the mentioned"
+        },
+        "answer": "14",
+        "explanation": "The operators in decreasing order of precedence are ++, **, *, +.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n14\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": 1,
+        "type": "mcq",
+        "question": "Which command sets up shorthand for command or command line?",
+        "options": {
+            "A": "set",
+            "B": "alias",
+            "C": "new",
+            "D": "echo"
+        },
+        "answer": "alias",
+        "explanation": "None."
+    },
+    {
+        "QN": 2,
+        "type": "mcq",
+        "question": "What is the function of bind command in bash shell?",
+        "options": {
+            "A": "defining new macros",
+            "B": "defining new key bindings for existing commands",
+            "C": "dumping the installed key bindings",
+            "D": "all of the mentioned"
+        },
+        "answer": "all of the mentioned",
+        "explanation": "None."
+    },
+    {
+        "QN": 3,
+        "type": "mcq",
+        "question": "The command ‘compgen -c’ shows",
+        "options": {
+            "A": "all variable names",
+            "B": "all system wide aliases",
+            "C": "full list of all commands",
+            "D": "none of the mentioned"
+        },
+        "answer": "full list of all commands",
+        "explanation": "None."
+    },
+    {
+        "QN": 4,
+        "type": "mcq",
+        "question": "Which statement resumes the next iteration of a for, while, select, or untill loop?",
+        "options": {
+            "A": "continue",
+            "B": "break",
+            "C": "complete",
+            "D": "command"
+        },
+        "answer": "continue",
+        "explanation": "None."
+    },
+    {
+        "QN": 5,
+        "type": "mcq",
+        "question": "Which command prints the directory stack?",
+        "options": {
+            "A": "cd",
+            "B": "dirs",
+            "C": "popd",
+            "D": "pushd"
+        },
+        "answer": "dirs",
+        "explanation": "None."
+    },
+    {
+        "QN": 6,
+        "type": "mcq",
+        "question": "The command ‘disown -r’",
+        "options": {
+            "A": "removes all jobs",
+            "B": "removes all running jobs",
+            "C": "marks jobs to not receive SIGHUP when bash exits",
+            "D": "marks all jobs"
+        },
+        "answer": "removes all running jobs",
+        "explanation": "None."
+    },
+    {
+        "QN": 7,
+        "type": "mcq",
+        "question": "The command ‘enable -n ‘",
+        "options": {
+            "A": "enables the specified built-in command",
+            "B": "disables the specified built-in command",
+            "C": "print the status of the command",
+            "D": "none of the mentioned"
+        },
+        "answer": "disables the specified built-in command",
+        "explanation": "None."
+    },
+    {
+        "QN": 8,
+        "type": "mcq",
+        "question": "Which command can create environment variable?",
+        "options": {
+            "A": "export",
+            "B": "set",
+            "C": "read",
+            "D": "none of the mentioned"
+        },
+        "answer": "export",
+        "explanation": "None."
+    },
+    {
+        "QN": 9,
+        "type": "mcq",
+        "question": "Which command concatenate the specified argument into a single command, then execute the command?",
+        "options": {
+            "A": "fc",
+            "B": "eval",
+            "C": "exec",
+            "D": "getopts"
+        },
+        "answer": "eval",
+        "explanation": "None."
+    },
+    {
+        "QN": 10,
+        "type": "mcq",
+        "question": "The command ‘hash’",
+        "options": {
+            "A": "manages a internal hash table",
+            "B": "find and remember the full path name of the specified command",
+            "C": "displays used command names and the number of hits",
+            "D": "all of the mentioned"
+        },
+        "answer": "all of the mentioned",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "The ‘logout’ built in command is used to",
+        "options": {
+            "A": "shutdown the computer",
+            "B": "logoff of the computer",
+            "C": "logout the current user",
+            "D": "to exit the current shell"
+        },
+        "answer": "logoff of the computer",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "The command ‘umask -S’",
+        "options": {
+            "A": "prints the current mask using symbolic notation",
+            "B": "prints the current mask using octal numbers",
+            "C": "sets the mask to 000",
+            "D": "sets the mask to 777"
+        },
+        "answer": "prints the current mask using symbolic notation",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "The ‘mapfile’ command",
+        "options": {
+            "A": "reads lines of standard input and assigns each to the element of an indexed array",
+            "B": "reads lines of standard output file",
+            "C": "reads lines of standard error file",
+            "D": "none of the mentioned"
+        },
+        "answer": "reads lines of standard input and assigns each to the element of an indexed array",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which option of the kill command sends the given signal name to the specified process?",
+        "options": {
+            "A": "-l",
+            "B": "-n",
+            "C": "-s",
+            "D": "-a"
+        },
+        "answer": "-s",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which command removes a directory from directory stack?",
+        "options": {
+            "A": "dirs",
+            "B": "popd",
+            "C": "pushd",
+            "D": "rm"
+        },
+        "answer": "popd",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which command puts a script to sleep untill a signal is recieved?...",
+        "options": {
+            "A": "sleep",
+            "B": "suspend",
+            "C": "disown",
+            "D": "break"
+        },
+        "answer": "suspend",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The command ‘ulimit’",
+        "options": {
+            "A": "set a limit on specified resource for system users",
+            "B": "set/show process resource limit",
+            "C": "set a limit on specified resource for system users & set/show process resource limit",
+            "D": "none of the mentioned"
+        },
+        "answer": "set/show process resource limit",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which command identifies the resource of a command?",
+        "options": {
+            "A": "type",
+            "B": "typeset",
+            "C": "select",
+            "D": "source"
+        },
+        "answer": "type",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which command wait for the specified process to complete and return the exit status?",
+        "options": {
+            "A": "sleep",
+            "B": "wait",
+            "C": "delay",
+            "D": "stop"
+        },
+        "answer": "wait",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which command prints the accumulated user and system times for processes run from the shell?",
+        "options": {
+            "A": "time",
+            "B": "times",
+            "C": "both time and times",
+            "D": "none of the mentioned"
+        },
+        "answer": "times",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which command runs the shell built-in command ‘command’ with the given argument?",
+        "options": {
+            "A": "builtin",
+            "B": "caller",
+            "C": "there is no command present for this purpose",
+            "D": "none of the mentioned"
+        },
+        "answer": "builtin",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which option of the command ‘cd’ use the actual filesystem path for cd.. and the value of pwd?",
+        "options": {
+            "A": "-l",
+            "B": "-L",
+            "C": "-p",
+            "D": "-P"
+        },
+        "answer": "-P",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which command generates possible completions for string according to the and write it to standard output?",
+        "options": {
+            "A": "compgen",
+            "B": "complete",
+            "C": "continue",
+            "D": "none of the mentioned"
+        },
+        "answer": "compgen",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which command executes ‘command’ in place of the current process instead of creating a new process?",
+        "options": {
+            "A": "exec",
+            "B": "command",
+            "C": "trap",
+            "D": "none of the mentioned"
+        },
+        "answer": "exec",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "After running this program, as you press ‘s’, what will be the output of the program?\n\n`#!/bin/bash`\necho \"press 's' to print Sanfoundry\"\n`read var`\nif $var=s\n`then`\necho \"Sanfoundry\"\n`else`... echo \"You did not press s\"\n`fi`\nexit 0",
+        "options": {
+            "A": "Sanfoudry",
+            "B": "You did not press s",
+            "C": "Program will generate an error message",
+            "D": "None of the mentioned"
+        },
+        "answer": "Program will generate an error message",
+        "explanation": "The condition of if statement must be in square brackets.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry#./test.sh\n\npress ‘s’ to print Sanfoundry\n\ns\n\n./test.sh: line 4: s=s: command not found\n\nYou did not press s"
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "After running this program, as your press 4, what will be the output of the program?\n\n`#!/bin/bash`\necho \"How many times you want to print 'Sanfoundry'\"\n`read value`\nfor ((i=0;i<$value;i++))\n`do`\necho \"Sanfoundry\";\n`done`\nexit 0",
+        "options": {
+            "A": "‘Sanfoudry’ will print 4 times",
+            "B": "‘Sanfoudry’ will print 3 times",
+            "C": "‘Sanfoudry’ will print 5 times",
+            "D": "Program will generate an error message"
+        },
+        "answer": "‘Sanfoudry’ will print 4 times",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh... How many times you want to print ‘Sanfoundry’\n\n4\n\nSanfoundry\n\nSanfoundry\n\nSanfoundry\n\nSanfoundry\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\nfor i in 2 3 7\n`do`\necho \"Sanfoundry\"\n`done`\nexit 0",
+        "options": {
+            "A": "‘Sanfoundry’ will print 3 times",
+            "B": "Nothing will print",
+            "C": "Program will generate an error message",
+            "D": "None of the mentioned"
+        },
+        "answer": "‘Sanfoundry’ will print 3 times",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nSanfoundry\n\nSanfoundry\n\nSanfoundry\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "How can you come out of the loop in this program?\n\n`#!/bin/bash`\n`read x`\nwhile [ $x != \"hello\" ]\n`do`\necho \"Try to come out of the loop\"\n`read x`\n`done`\necho \"Welcome\"\nexit 0",
+        "options": {
+            "A": "by entering “hello”",
+            "B": "by entering anything except “hello”",
+            "C": "it is not possible",
+            "D": "none of the mentioned"
+        },
+        "answer": "by entering “hello”",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nhi\n\nTry to come out of the loop\n\nhey\n\nTry to come out of the loop\n\nhello\n\nWelcome\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#!/bin/bash`\necho \"Which file do you want to check\"\n`read x`\nuntil [ -e $x ]\n`do`\necho \"The file does not exist. Do you want to create? y/n\"\n`read a`\nif [ $a = y ]; then\n\ttouch $x\n\techo \"Your file has been created successfully.\"\n`fi`\n`done`\necho \"The file is present in this directory\"\nexit 0",
+        "options": {
+            "A": "it checks the existance of your entered file in the present working directory",
+            "B": "it creates the file if file does not exists",
+            "C": "program runs untill you create the file",
+            "D": "all of the mentioned"
+        },
+        "answer": "all of the mentioned",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nWhich file do you want to check\n\nsan.c\n\nThe file does not exist. Do you want to create? y/n\n\nn... The file does not exist. Do you want to create? y/n\n\nn\n\nThe file does not exist. Do you want to create? y/n\n\ny\n\nYour file has been created successfully.\n\nThe file is present in this directory\n\nroot@ubuntu:/home/sanfoundry# ls\n\nsan.c test2.txt test2.txt~ test.sh test.sh~ test.txt test.txt~\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "After running this program, if you enter 1000, then what will be the output of the program?\n\n`#!/bin/bash`\necho \"Please enter a number\"\n`read a`\nif [ $a -lt 100 ]; then\n\techo \"It is less than 100\";\nelif [ $a -lt 1000 ]; then\n\techo \"It is less than 1000\"\n`else`\n\techo \"It is greater than 1000\"\n`fi`\nexit 0",
+        "options": {
+            "A": "It is greater than 1000",
+            "B": "It is less then 1000",
+            "C": "It is equal to 1000",
+            "D": "None of then mentioned"
+        },
+        "answer": "It is greater than 1000",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nPlease enter a number... 1000\n\nIt is greater than 1000\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which one of the following statement is not true?",
+        "options": {
+            "A": "vim editor is the improved version of vi editor",
+            "B": "vi editor commands are not case sensitive",
+            "C": "vi editor has two modes of operation: command mode and insert mode",
+            "D": "vi stands for visual editor"
+        },
+        "answer": "vi editor commands are not case sensitive",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which command is used to close the vi editor?",
+        "options": {
+            "A": "q",
+            "B": "wq",
+            "C": "both q and wq",
+            "D": "none of the mentioned"
+        },
+        "answer": "both q and wq",
+        "explanation": "The command ‘q’ just closes the file and ‘wq’ saves and closes the file."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "In vi editor, the key combination CTRL+f",
+        "options": {
+            "A": "moves screen down one page",
+            "B": "moves screen up one page",
+            "C": "moves screen up one line",
+            "D": "moves screen down one line"
+        },
+        "answer": "moves screen down one page",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which vi editor command copies the current line of the file?",
+        "options": {
+            "A": "yy",
+            "B": "yw",
+            "C": "yc",
+            "D": "none of the mentioned"
+        },
+        "answer": "yy",
+        "explanation": "The command ‘p’ puts the copied text after the cursor."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which command is used to delete the character before the cursor location in vi editor?",
+        "options": {
+            "A": "X",
+            "B": "x",
+            "C": "D",
+            "D": "d"
+        },
+        "answer": "X",
+        "explanation": "The command ‘x’ is used to delete the character under the cursor locarion."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which one of the following statement is true?",
+        "options": {
+            "A": "autoindentation is not possible in vi editor",
+            "B": "autoindentation can be set using the command ‘:set ai’",
+            "C": "autoindentation can be set using the command ‘:set noai’",
+            "D": "autoindentation is set by default in vi editor"
+        },
+        "answer": "autoindentation can be set using the command ‘:set ai’",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which command searches the string in file opened in vi editor?",
+        "options": {
+            "A": "/ or ?",
+            "B": "f or F",
+            "C": "t or T",
+            "D": "none of the mentioned"
+        },
+        "answer": "/ or ?",
+        "explanation": "The command ‘/’ searches downward in the file and command ‘?’ searches upward in the file."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "In vi editor, which command reads the content of another file?",
+        "options": {
+            "A": "read",
+            "B": "r",
+            "C": "ex",
+            "D": "none of the mentioned"
+        },
+        "answer": "r",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which command shows all the abbreviations in vi editor?",
+        "options": {
+            "A": "ab",
+            "B": "abb",
+            "C": "show",
+            "D": "none of the mentioned"
+        },
+        "answer": "ab",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which command sets the number for all lines?",
+        "options": {
+            "A": ":set li",
+            "B": ":set ln",
+            "C": ":set nu",
+            "D": ":set nl"
+        },
+        "answer": ":set nu",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "What is sed?",
+        "options": {
+            "A": "a non-interactive stream editor",
+            "B": "an IDE",
+            "C": "a hex editor",
+            "D": "none of the mentioned"
+        },
+        "answer": "a non-interactive stream editor",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Sed maintains the hold space (a buffer) to",
+        "options": {
+            "A": "copy the each line of input",
+            "B": "save the data for later retrieval",
+            "C": "copy the each line of input & save the data for later retrieval",
+            "D": "none of the mentioned"
+        },
+        "answer": "save the data for later retrieval",
+        "explanation": "To copy the each line of input, sed maintains the pattern space."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which is the correct syntax for sed on command line?",
+        "options": {
+            "A": "sed [options] ‘[command]’ [filename].",
+            "B": "sed ‘[command]’ [options] [filename].",
+            "C": "sed [filename] [options] ‘[command]’",
+            "D": "sed ‘[command]’ [filename] [options]."
+        },
+        "answer": "sed [options] ‘[command]’ [filename].",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "If any sed command does not specify any address then the command is applied to",
+        "options": {
+            "A": "each input line",
+            "B": "none of the input line",
+            "C": "last input line",
+            "D": "none of the mentioned"
+        },
+        "answer": "each input line",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "If no file is specified in sed command then",
+        "options": {
+            "A": "sed command will not work",
+            "B": "sed reads from standard input",
+            "C": "sed reads the data already present in buffer",
+            "D": "it is necessary to provide the filename"
+        },
+        "answer": "sed reads from standard input",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which sed command deletes the specified address range",
+        "options": {
+            "A": "[address range]/s",
+            "B": "[address range]/p",
+            "C": "[address range]/d",
+            "D": "[address range]/y"
+        },
+        "answer": "[address range]/d",
+        "explanation": "To use the command correct syntax specified for sed editor should be followed."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which command is used to replace word ‘cat’ (already present in the file) with ‘mouse’ at all places in a file ‘old.txt’ and save the result in a new file ‘new.txt’?",
+        "options": {
+            "A": "sed ‘s/cat/mouce/g’ old.txt > new.txt",
+            "B": "sed ‘s/cat/mouse’ old.txt new.txt",
+            "C": "sed ‘/s/cat/mouse/g’ old.txt new.txt",
+            "D": "sed ‘/s/cat/mouse’ old.txt > new.txt"
+        },
+        "answer": "sed ‘s/cat/mouce/g’ old.txt > new.txt",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which command will delete all the blank lines in file old.txt?",
+        "options": {
+            "A": "sed ‘/d’ old.txt",
+            "B": "sed ‘/^/d’ old.txt",
+            "C": "sed ‘/^$/d’ old.txt",
+            "D": "sed ‘/^*/d’ old.txt"
+        },
+        "answer": "sed ‘/^$/d’ old.txt",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The command “sed -n ‘/sanfoundry/p’ old.txt” will",
+        "options": {
+            "A": "print the lines containing the word ‘sanfoundry’ in file old.txt",
+            "B": "delete the lines containing the word ‘sanfoundry’ in file old.txt",
+            "C": "will generate an error message",
+            "D": "none of the mentioned"
+        },
+        "answer": "print the lines containing the word ‘sanfoundry’ in file old.txt",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which option is used by sed to specify that the following string is an instruction or set of instructions?",
+        "options": {
+            "A": "-n",
+            "B": "-e",
+            "C": "-f",
+            "D": "-i"
+        },
+        "answer": "-e",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which one of the following is not true?",
+        "options": {
+            "A": "nawk is the new version of awk",
+            "B": "gawk is the GNU version of awk",
+            "C": "linux users have the gawk",
+            "D": "nawk does not provide the additional capabilities in comparison of awk"
+        },
+        "answer": "nawk does not provide the additional capabilities in comparison of awk",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "An awk program can be run by",
+        "options": {
+            "A": "including the program in the command that runs awk",
+            "B": "putting it into a file and run with a command",
+            "C": "running an executable awk script",
+            "D": "all of the mentioned"
+        },
+        "answer": "all of the mentioned",
+        "explanation": "The method used to run awk program depends on the program size and input files."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which one of the following is not true?",
+        "options": {
+            "A": "in typical awk program, all input is read either from standard input or specified files",
+            "B": "awk language divides its input into records and fields",
+            "C": "awk reads an input record and the record is automatically seperated by the interpreter into pieces called “fields”",
+            "D": "the number of fields need to be a constant"
+        },
+        "answer": "the number of fields need to be a constant",
+        "explanation": "The number of fields does not need to be a constant."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "What is the meaning of $ sign in awk programming?",
+        "options": {
+            "A": "the word following is the name of variable",
+            "B": "we are refering to a field or column in the current line...",
+            "C": "$ sign is used for comment",
+            "D": "none of the mentioned"
+        },
+        "answer": "we are refering to a field or column in the current line...",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "In awk program, the statement “print” with no items",
+        "options": {
+            "A": "is equivalent to “print $0”",
+            "B": "prints the entire current record",
+            "C": "is equivalent to “print $0” & prints the entire current record",
+            "D": "none of the mentioned"
+        },
+        "answer": "is equivalent to “print $0” & prints the entire current record",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "The print and printf statements can be told to send their output to other place except standard output, is called",
+        "options": {
+            "A": "redirection",
+            "B": "redistribution",
+            "C": "reinsertion",
+            "D": "none of the mentioned"
+        },
+        "answer": "redirection",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The command “awk {print $1} san.txt” will",
+        "options": {
+            "A": "print the first line of file san.txt",
+            "B": "print the first field of every line in san.txt",
+            "C": "generate syntax error",
+            "D": "none of the mentioned"
+        },
+        "answer": "print the first field of every line in san.txt",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What is the output of the command awk ‘BEGIN {printf “%c\\n”,65}’",
+        "options": {
+            "A": "A",
+            "B": "65",
+            "C": "syntax error",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "The ASCII value of A is 65...."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which one of the following statement is not true about the format-control letters for printf statement in awk program?",
+        "options": {
+            "A": "“c” prints a number as an ASCII character",
+            "B": "“d” prints a decimal integer",
+            "C": "“h” prints an unsigned hexadecimal integer",
+            "D": "“o” prints an unsigned octal integer"
+        },
+        "answer": "“h” prints an unsigned hexadecimal integer",
+        "explanation": "“x” prints and unsigned hexadecimal integer"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which command on the command line provides the same output as this executable awk script?\n\n`#! /usr/bin/awk -f`\n\n`BEGIN {`\n\n`print \"sanfoundry\"`\n\n`}`",
+        "options": {
+            "A": "awk ‘BEGIN {print “sanfoundry”}’",
+            "B": "awk ‘print “sanfoundry”‘",
+            "C": "awk ‘print {sanfoundry}’",
+            "D": "none of the mentioned"
+        },
+        "answer": "awk ‘BEGIN {print “sanfoundry”}’",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "What is expression in awk programming?",
+        "options": {
+            "A": "expression evaluates a value to print, test or pass to a function",
+            "B": "expression assigns a new value to a variable or field",
+            "C": "expression evaluates a value to print, test or pass to a function & also assigns a new value to a variable or field",
+            "D": "none of the mentioned"
+        },
+        "answer": "expression evaluates a value to print, test or pass to a function & also assigns a new value to a variable or field",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which one of the following is not true?",
+        "options": {
+            "A": "there are 3 types of constant expressions: numeric, string and regular",
+            "B": "arithmetic operators are used to evaluate expressions",
+            "C": "assignment expression is an expression that stores a value into a variable",
+            "D": "comparison expressions does not compare strings for relationship"
+        },
+        "answer": "comparison expressions does not compare strings for relationship",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "All numeric values are represented within awk in",
+        "options": {
+            "A": "double precision floating point",
+            "B": "integer",
+            "C": "exponential notation",
+            "D": "fixed point"
+        },
+        "answer": "double precision floating point",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Concatenation is performed by",
+        "options": {
+            "A": "writing expressions next to one another, with no operator",
+            "B": "conditional operator",
+            "C": "relational operator",
+            "D": "matching operator"
+        },
+        "answer": "writing expressions next to one another, with no operator",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "The comparison expression “x ~ y” will true if",
+        "options": {
+            "A": "x is not equal to y",
+            "B": "the string x does not match the regular expression denoted by y",
+            "C": "the string x matches the regular expression denoted by y",
+            "D": "none of the mentioned"
+        },
+        "answer": "the string x matches the regular expression denoted by y",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\nprint \"20\"<\"9\" ? \"true\":\"false\"\n\n`}`",
+        "options": {
+            "A": "true",
+            "B": "false",
+            "C": "syntax error",
+            "D": "none of the mentioned"
+        },
+        "answer": "true",
+        "explanation": "The operands of relational operators are converted to, and compared as string if both are not numbers. Strings are compared by comparing the characters of each. Hence 20 is less then 9.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\ntrue\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\n`a=10;`\n\n`b=10;`\n\nprint a==b ? \"true\":\"false\"\n\n`}`",
+        "options": {
+            "A": "true",
+            "B": "false",
+            "C": "syntax error",
+            "D": "none of the mentioned"
+        },
+        "answer": "true",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\ntrue\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\n`var1=\"sanfoundry\"`\n\n`var2=\"linux\"`\n\nprint var1\" provides \"var2\" MCQs \"\n\n`}`",
+        "options": {
+            "A": "sanfoundry provides linux MCQs",
+            "B": "var1 provides var2 MCQs",
+            "C": "provides MCQs",
+            "D": "syntax error"
+        },
+        "answer": "sanfoundry provides linux MCQs",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\nsanfoundry provides linux MCQs\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\n`two=2;`\n\n`two++;`\n\n`print two`\n\n`}`",
+        "options": {
+            "A": "two",
+            "B": "three",
+            "C": "2",
+            "D": "3"
+        },
+        "answer": "3",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\n3\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\n`one=10;`\n\n`two=3;`\n\nprint (one%two)+10\n\n`}`",
+        "options": {
+            "A": "(one%two)+10",
+            "B": "13",
+            "C": "11",
+            "D": "syntax error"
+        },
+        "answer": "11",
+        "explanation": "The remainder of 10/3 is 1. remainder is added to 10.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\n11\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "The break statement",
+        "options": {
+            "A": "jumps out of the innermost for loop",
+            "B": "jumps out of the innermost while loop",
+            "C": "jumps out of the innermost do-while loop",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which statement skips over the rest of the loop body, causing the next cycle around the loop to begin immediately?",
+        "options": {
+            "A": "continue",
+            "B": "break",
+            "C": "next",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "The next statement",
+        "options": {
+            "A": "immediately stops processing the current record",
+            "B": "go to the next record",
+            "C": "immediately stops processing the current record & go to the next record",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "If the argument is supplied to the exit statement,",
+        "options": {
+            "A": "its value is used as the exit status code for the awk process",
+            "B": "syntax error will generate",
+            "C": "exit returns status 0",
+            "D": "exit returns status 1"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which statement instructs gawk to stop processing the current data file?",
+        "options": {
+            "A": "next",
+            "B": "nextfile",
+            "C": "exit",
+            "D": "exitfile"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\n`a=5`\n\nwhile (a<5) {\n\nprint \"sanfoundry\"\n\n`a++;`\n\n`}`\n\n`}`",
+        "options": {
+            "A": "nothing will print",
+            "B": "“sanfoundry” will print 5 times",
+            "C": "program will generate syntax error",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "The condition of while statement is false so commands inside the loop will not execute.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\n`a=0`\n\ndo {\n\nprint \"sanfoundry\"\n\n`a++`\n\n} while (a<5)\n\n`}`",
+        "options": {
+            "A": "“sanfoundry” will print 4 times",
+            "B": "“sanfoundry” will print 5 times",
+            "C": "nothing will print",
+            "D": "syntax error"
+        },
+        "answer": "B",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\nsanfoundry\n\nsanfoundry\n\nsanfoundry\n\nsanfoundry\n\nsanfoundry\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\n`a=6`\n\ndo {\n\nprint \"sanfoundry\"\n\n`a++`\n\n} while (a<5)\n\n`}`",
+        "options": {
+            "A": "nothing will print",
+            "B": "“sanfoundry” will print 5 times",
+            "C": "“sanfoundry” will print 4 times",
+            "D": "“sanfoundry” will print only 1 time"
+        },
+        "answer": "D",
+        "explanation": "Even the condition is false of do-while loop, the body is executed once.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\nsanfoundry\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What is the output of this program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\nfor(i=0;i<=5;i++) {\n\n`print i`\n\n`i++`\n\n`}`\n\n`}`",
+        "options": {
+            "A": "0,2,4 will print",
+            "B": "1,3,5 will print",
+            "C": "1,2,3,4,5 will print",
+            "D": "syntax error because i is not initialised"
+        },
+        "answer": "A",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\n0\n\n2\n\n4\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "The command “awk ‘{if (“9″>”10”) print “sanfoundry” else print “linux”}'”",
+        "options": {
+            "A": "will print “sanfoundry”",
+            "B": "will print “linux”",
+            "C": "will generate syntax error",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "Semicolon is required just before the else statement to parse the statement.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# awk ‘{if (“9″>”10”) print “sanfoundry” else print “linux”}’\n\nawk: {if (“9″>”10”) print “sanfoundry” else print “linux”}\n\nawk: ^ syntax error\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "In awk, the built-in variable FS is",
+        "options": {
+            "A": "input field seperator",
+            "B": "output field seperator",
+            "C": "record seperator",
+            "D": "subscript seperator"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "What is FNR?",
+        "options": {
+            "A": "FNR is the current record number in the current file",
+            "B": "FNR is the number of fields in the current input record",
+            "C": "FNR is an array contains the value of environment",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "RSTART is set by invoking the",
+        "options": {
+            "A": "match function",
+            "B": "index function",
+            "C": "asort function",
+            "D": "split function"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which one of the following is used by awk to control the conversion of numbers to string?",
+        "options": {
+            "A": "RS",
+            "B": "OFMT",
+            "C": "SUBSEP",
+            "D": "RSTART"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "In awk program, the name of the array can not be same with the",
+        "options": {
+            "A": "name of variable",
+            "B": "value of the array element",
+            "C": "name of variable & value of the array element",
+            "D": "none of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What is the output of the program?... `#! /usr/bin/awk -f`\n\n#This filename is text.awk\n\nBEGIN {\n\nprint FILENAME\n\n`}`",
+        "options": {
+            "A": "test.awk",
+            "B": "program will print nothing",
+            "C": "syntax error",
+            "D": "fatal error"
+        },
+        "answer": "B",
+        "explanation": "The built-in variable FILENAME is the name of file that awk is currently reading and in this program there is no file listed on the command line.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "What is the output of the program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\na[1]=\"sanfoundry\"\n\na[2]=\"sanfoundry\"\n\nfor(i=1;i<3;i++) {\n\nprint a[i]\n\n`}`\n\n`}`",
+        "options": {
+            "A": "“sanfoundry” will print 2 times",
+            "B": "“sanfoundry” will print 3 times",
+            "C": "program will generate error becasue 2 array elements have the same value",
+            "D": "program will generate syntax error"
+        },
+        "answer": "A",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\nsanfoundry\n\nsanfoundry... root@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What is the output of the program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\na[1]=\"sanfoundry\"\n\ndelete a[1]\n\nprint a[1]\n\n`}`",
+        "options": {
+            "A": "program will print “sanfoundry”",
+            "B": "program will print nothing",
+            "C": "program will generate syntax error",
+            "D": "program will generate fatal error"
+        },
+        "answer": "B",
+        "explanation": "The delete command deletes the array element.\n\nOutput:root@ubuntu:/home/sanfoundry# ./test.awk\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What is the output of the program?\n\n`#! /usr/bin/awk -f`\n\nBEGIN {\n\na[\"linux\",\"MCQ\"]=\"sanfoundry\"\n\nprint a[\"linux\",\"MCQ\"]\n\n`}`",
+        "options": {
+            "A": "sanfoundry",
+            "B": "linux MCQ",
+            "C": "a[“linux”,”MCQ”].",
+            "D": "syntax error"
+        },
+        "answer": "A",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\nsanfoundry\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What is the output of the program?\n\n`#! /usr/bin/awk -f`... BEGIN {\n\na[1,1]=0\n\na[1,2]=1\n\na[2,1]=2\n\na[2,2]=3\n\nfor(i=1;i<3;i++) {\n\nfor(j=1;j<3;j++) {\n\nprint a[i,j]\n\n`}`\n\n`}`\n\n`}`",
+        "options": {
+            "A": "0 1 2 3",
+            "B": "0 2",
+            "C": "1 3",
+            "D": "syntax error"
+        },
+        "answer": "B",
+        "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\n0\n\n2\n\nroot@ubuntu:/home/sanfoundry#"
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Operating system kernel must be located in",
+        "options": {
+            "A": "/",
+            "B": "/boot",
+            "C": "either in / or in /boot",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which one of the following is a mount point for a temporarily mounted filesystem?",
+        "options": {
+            "A": "/mnt directory",
+            "B": "/media directory",
+            "C": "/dev directory",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "What is /root?",
+        "options": {
+            "A": "root filesystem",
+            "B": "home directory of the root user",
+            "C": "the directory which contains all the directories of the filesystem",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "System binaries are stored in",
+        "options": {
+            "A": "/sbin directory",
+            "B": "/usr/sbin directory",
+            "C": "/usr/local/sbin directory",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "The /dev directory contains the",
+        "options": {
+            "A": "device drivers",
+            "B": "device files",
+            "C": "kernel modules of device drivers",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "The contents of root filesystem is responsible to",
+        "options": {
+            "A": "boot the system",
+            "B": "recover the system",
+            "C": "repair the system",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Static files of the bootloader are installed in",
+        "options": {
+            "A": "/boot directory",
+            "B": "/root directory",
+            "C": "/bin directory",
+            "D": "/sbin directory"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Linux filesystem contains mainly",
+        "options": {
+            "A": "ordinary files",
+            "B": "device files",
+            "C": "directory files",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "In linux filesystem, the passwords of different users are stored in",
+        "options": {
+            "A": "/etc/passwd file",
+            "B": "/bin/passwd file",
+            "C": "/etc/shadow file",
+            "D": "/bin/shadow file"
+        },
+        "answer": "C",
+        "explanation": "Passwords are visible in encrypted format in the file."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Superuser can change the _______ permissions of any file.",
+        "options": {
+            "A": "owner",
+            "B": "group",
+            "C": "other",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "When we install a new package in linux system, then",
+        "options": {
+            "A": "all the files of the packages are installed in a single directory",
+            "B": "different files are installed at different locations of the file system",
+            "C": "package works just after extraction, installation is not required",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Host specific configuration files are installed in",
+        "options": {
+            "A": "/etc directory",
+            "B": "/lib directory",
+            "C": "/root directory",
+            "D": "/bin directory"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "The directory /media is the",
+        "options": {
+            "A": "mount point for removable media",
+            "B": "mount point for filesystem",
+            "C": "mount point for removable media & filesystem",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "What is /bin/sh ?",
+        "options": {
+            "A": "bourne shell",
+            "B": "hard or symbolic link to the real shell command",
+            "C": "bash shell",
+            "D": "both bash shell and bourne shell"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "The /boot directory stores the data that is used",
+        "options": {
+            "A": "before the kernel begins executing user mode programs",
+            "B": "after the kernel begins executing user mode programs",
+            "C": "before the bootloader is loaded in the RAM",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which one of the directory does not contain binary files?",
+        "options": {
+            "A": "/bin",
+            "B": "/sbin",
+            "C": "/etc",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Kernel modules are present in",
+        "options": {
+            "A": "/lib directory",
+            "B": "/root directory",
+            "C": "/boot directory",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "The directory /opt is reserved for",
+        "options": {
+            "A": "installation of add-on application software packages",
+            "B": "optional booting files",
+            "C": "optional user specific files",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The directory /srv contains",
+        "options": {
+            "A": "site-specific data which is served by the system",
+            "B": "all the system files",
+            "C": "all the service files provided by the specific user",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Any file or directory present in the ______ directory may not be reserved between the invocation of the program.",
+        "options": {
+            "A": "/var",
+            "B": "/tmp",
+            "C": "/etc",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which one of the following is not true about proc filesystem?",
+        "options": {
+            "A": "proc filesystem is a pseudo-filesystem",
+            "B": "proc filesystem is used as an interface to kernel data structures",
+            "C": "some files in proc filesystem allow kernel variables to be changed",
+            "D": "none of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Proc filesystem provides the information about",
+        "options": {
+            "A": "processes",
+            "B": "processor",
+            "C": "proxy server",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "The /proc directory contains",
+        "options": {
+            "A": "numerical sub-directory for each running process",
+            "B": "sub-directories for installed buses",
+            "C": "a text listing of filesystems which are supported by the kernel",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "The file /proc/[PID]/cgroups",
+        "options": {
+            "A": "describes control groups to which the process belongs",
+            "B": "contains the information about all groups of the system",
+            "C": "provides the information about the group which has generated the process",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "[PID] represents the process ID of the process. Every system has various running processes, so /proc directory contains various numerical sub-directories and the number shows the PID of the process."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "The file /proc/[PID]/cmdline holds the complete command line for the process, unless the process is a",
+        "options": {
+            "A": "child process",
+            "B": "zombie process",
+            "C": "orphan process",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "A zombie process is the process which has completed execution but still has an entry in the process table."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What is /proc/[PID]/cwd?",
+        "options": {
+            "A": "symbolic link to current directory of the process",
+            "B": "regular file containing the information about the current status of the process",
+            "C": "directory containing various sub-directories",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which one of the following file contains the environment for the process?",
+        "options": {
+            "A": "/proc/[PID]/environ",
+            "B": "/proc/[PID]/env",
+            "C": "/proc/[PID]/path",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "The entry for each file opened by the process is present in",
+        "options": {
+            "A": "/proc/[PID]/fd",
+            "B": "/proc/[PID]/file",
+            "C": "/proc/[PID]/maps",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The file /proc/[PID]/limits displays the ______ for each of the process’s resource limits.",
+        "options": {
+            "A": "hard limit",
+            "B": "soft limit",
+            "C": "units of measurement",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "The file /proc/[PID]/maps contains the",
+        "options": {
+            "A": "currently mapped memory regions",
+            "B": "available memory regions",
+            "C": "memory regions which are free to map",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "What is /proc/[PID]/root?",
+        "options": {
+            "A": "symbolic link that points to the process’s root directory",
+            "B": "regular file which holds all the PID of the system",
+            "C": "root directory",
+            "D": "does not exists in the proc filesystem"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "“ps” command uses the file _____ to provide the information.",
+        "options": {
+            "A": "/proc/[PID]/stat",
+            "B": "/proc/[PID]/smaps",
+            "C": "/proc/[PID]/oom_score_adj",
+            "D": "/proc/[PID]/oom_score"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which one of the following is not correct?",
+        "options": {
+            "A": "proc filesystem does not contain any directory for thread in the process",
+            "B": "in multithread process thread details will not be available if the main thread is already terminated",
+            "C": "proc filesystem contain any directory",
+            "D": "none of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Proc filesystem does not contains",
+        "options": {
+            "A": "sub-directories for installed buses",
+            "B": "device files",
+            "C": "list of registered DMA",
+            "D": "none of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "The file /proc/devices is the",
+        "options": {
+            "A": "text listing of major numbers",
+            "B": "text listing of device groups",
+            "C": "text listing of major numbers & device groups",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "The file /proc/cpuinfo is a collection of",
+        "options": {
+            "A": "cpu items",
+            "B": "architecture independent items",
+            "C": "both cpu items and architecture independent items",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The proc filesystem records the number of interrupts",
+        "options": {
+            "A": "per CPU only",
+            "B": "per IO device only",
+            "C": "per CPU per IO device",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which file of the proc filesystem can be used instead of “syslog” system call to read kernel messages?",
+        "options": {
+            "A": "/proc/kmsg",
+            "B": "/proc/moudle/kmsg",
+            "C": "/proc/module/msg",
+            "D": "/proc/msg"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The file /proc/modules is a text list of",
+        "options": {
+            "A": "static modules",
+            "B": "dynamic modules",
+            "C": "modules that have been loaded by the system",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "/proc/partitions contains",
+        "options": {
+            "A": "major number of each partition",
+            "B": "minor number of each partition",
+            "C": "number of block and partition name",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which one of the following operating system does not supports proc filesystem?",
+        "options": {
+            "A": "IBM AIX",
+            "B": "QNX",
+            "C": "Solaries",
+            "D": "None of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Obtaining of the PID can be done by the utility",
+        "options": {
+            "A": "pgrep",
+            "B": "pidof",
+            "C": "ps",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which one of the following contains various bits of information about the state of power management?",
+        "options": {
+            "A": "/proc/acpi",
+            "B": "/proc/apm",
+            "C": "both /proc/acpi and /proc/apm",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which file contains the boot options passed to the kernel?",
+        "options": {
+            "A": "/proc/cmdline",
+            "B": "/proc/root",
+            "C": "/proc/boot",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which one of the following is a symlink to the root path as seen by the process?",
+        "options": {
+            "A": "/proc/[PID]/root",
+            "B": "/proc/[PID]/path",
+            "C": "both /proc/apm and /proc/[PID]/path",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "The directory /proc/[PID]/tasks contains",
+        "options": {
+            "A": "hard links to any task that have been started by this process",
+            "B": "files that containing tasks that have been started by this process",
+            "C": "sub-direcories of various tasks",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The list of available frame buffers are stored in",
+        "options": {
+            "A": "/proc/[PID]/fb",
+            "B": "/proc/fb",
+            "C": "/proc/etc/fb",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "The buddy algorithm handles the",
+        "options": {
+            "A": "Memory fragmentation",
+            "B": "DHCP server",
+            "C": "Routing",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The file /proc/swaps contains the",
+        "options": {
+            "A": "list of active swap partitions",
+            "B": "sizes of the swap partitions",
+            "C": "priorities of the swap partitions",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "/proc/tty contains the information about",
+        "options": {
+            "A": "current terminal",
+            "B": "all terminals",
+            "C": "both current & all terminals",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "The command “cd /proc/10/cwd” provides the",
+        "options": {
+            "A": "current working directory of process having PID 10",
+            "B": "current status of the process having PID 10",
+            "C": "current version of the filesystem",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which one of the following command will print the environement of process 1?",
+        "options": {
+            "A": "cat /proc/1/environ",
+            "B": "cat /proc/bin/1/env",
+            "C": "cat /proc/1/var/env",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "The file /proc/[PID]/mountinfo contains",
+        "options": {
+            "A": "major minor numbers of device files",
+            "B": "root of the mount within the filesystem",
+            "C": "mount point relative to the process’s root",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "With the help of proc filesystem",
+        "options": {
+            "A": "kernel and kernel modules can send the information to processes",
+            "B": "process information can be accessed",
+            "C": "kernel modules can send the information to processes & process information can be accessed",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Most files and directories within /proc are 0 bytes in size because...",
+        "options": {
+            "A": "proc filesystem exists only as a reflection of the in-memory kernel data structure",
+            "B": "these files contains very only one or two instructions",
+            "C": "proc filesystem doesn’t exists only as a reflection",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Proc files are",
+        "options": {
+            "A": "read-only files",
+            "B": "read-write files",
+            "C": "both read-write and read-only files",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Accessing the file /proc/meminfo gives the different result each time because",
+        "options": {
+            "A": "memory usages is always fluctuating",
+            "B": "a new process id is assigned",
+            "C": "logical address is different from the physical address",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "The files of /proc directory are",
+        "options": {
+            "A": "stored in secondary memory",
+            "B": "generated by the kernel",
+            "C": "stored in secondary memory & generated by the kernel",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The directory /proc/net contains information about",
+        "options": {
+            "A": "Different network system compiled into the system",
+            "B": "IP address of the system",
+            "C": "MAC address of the system",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "The command “echo www.sanfoundry.com > /proc/sys/kernel/hostname” will",
+        "options": {
+            "A": "change the hostname",
+            "B": "print “www.sanfoundry.com”",
+            "C": "do nothing",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which file is used primarily for diagnosing memory fragmentation issues ?",
+        "options": {
+            "A": "/proc/buddyinfo",
+            "B": "/proc/meminfo",
+            "C": "/proc/apm",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which file shows the parameter passed to kernel at the time of starting?",
+        "options": {
+            "A": "/proc/apm",
+            "B": "/proc/cmdline",
+            "C": "both /proc/apm and /proc/cmdline",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "For the system having one processor, the processor identifying number in the file /proc/cpuinfo is",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "The file /proc/execdomains lists the",
+        "options": {
+            "A": "execution domains currently supported by the linux kernel",
+            "B": "all domains of all processes",
+            "C": "registered ISA DMA channel in use",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "The file /proc/kcore displays a size of",
+        "options": {
+            "A": "RAM",
+            "B": "RAM plus 4 KB",
+            "C": "RAM plus 8 KB",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "None."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "/bin/dmesg picks the messages from",
+        "options": {
+            "A": "/proc/kmesg",
+            "B": "/sbin/klogd",
+            "C": "both /proc/kmesg and /sbin/klogd",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The file /proc/locks displays the file currently locked by the",
+        "options": {
+            "A": "kernel",
+            "B": "user",
+            "C": "superuser",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "None."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "The file /proc version shows the version of ______ used in the system.",
+        "options": {
+            "A": "kernel",
+            "B": "gcc",
+            "C": "both kernel and gcc",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "None."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What is /proc/self ?",
+        "options": {
+            "A": "a directory",
+            "B": "link to the currently running process",
+            "C": "it allows a process to look itself without having to know its process ID",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "The /sbin/sysctl command is used to",
+        "options": {
+            "A": "view kernel settings in the /proc/sys/ directory",
+            "B": "set kernel settings in the /proc/sys/ directory",
+            "C": "automate kernel settings in the /proc/sys/ directory",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "None."
+    }
+]

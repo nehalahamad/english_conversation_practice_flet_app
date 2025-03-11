@@ -340,4 +340,3 @@ class QuizView(ft.View):
         # Resample questions for a new quiz session
         self.questions = random.sample(self.questions_json, self.num_questions)
         self.load_question()
-        self.page.update()
