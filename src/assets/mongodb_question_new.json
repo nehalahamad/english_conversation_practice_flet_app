@@ -958,7 +958,7 @@
             "C": "mongo",
             "D": "none of the mentioned"
         },
-        "answer": "mongo",
+        "answer": "C",
         "explanation": "mongo provides complete access to the JavaScript language and all standard functions as well as a full database interface for MongoDB."
     },
     {
@@ -971,7 +971,7 @@
             "C": "MMS is available to all users in the cloud and on-premises as part of MongoDB Standard and Enterprise Subscriptions",
             "D": "All of the mentioned"
         },
-        "answer": "All of the mentioned",
+        "answer": "D",
         "explanation": "MongoDB is limited to a total data size of about 2GB for all databases in 32-bit mode."
     },
     {
@@ -984,7 +984,7 @@
             "C": "web host",
             "D": "all of the mentioned"
         },
-        "answer": "localhost",
+        "answer": "B",
         "explanation": "To connect to a server on a different port or interface, use the –port and –host options."
     },
     {
@@ -997,7 +997,7 @@
             "C": "test",
             "D": "primary"
         },
-        "answer": "test",
+        "answer": "C",
         "explanation": "At any time, db operation at the mongo shell is used to report the name of the current database."
     },
     {
@@ -1010,7 +1010,7 @@
             "C": "MongoDB does not provide a lot of the features of a traditional RDBMS",
             "D": "None of the mentioned"
         },
-        "answer": "None of the mentioned",
+        "answer": "D",
         "explanation": "MongoDB focuses on flexibility, power, speed, and ease of use."
     },
     {
@@ -1023,7 +1023,7 @@
             "C": "show data",
             "D": "display dbs"
         },
-        "answer": "show dbs",
+        "answer": "B",
         "explanation": "Show dbs print a list of all databases on the server."
     },
     {
@@ -1036,7 +1036,7 @@
             "C": "use mydb",
             "D": "use mydbs"
         },
-        "answer": "use mydb",
+        "answer": "C",
         "explanation": "Confirm that your session has the mydb database as context, by checking the value of the db object, which returns the name of the current database."
     },
     {
@@ -1049,7 +1049,7 @@
             "C": "display dbs",
             "D": "all of the mentioned"
         },
-        "answer": "show databases",
+        "answer": "A",
         "explanation": "show databases is new in version 2.4."
     },
     {
@@ -1062,7 +1062,7 @@
             "C": "show collect",
             "D": "none of the mentioned"
         },
-        "answer": "show collections",
+        "answer": "B",
         "explanation": "The mongo shell will return the list of the collections in the current database."
     },
     {
@@ -1075,7 +1075,7 @@
             "C": "shell",
             "D": "replace"
         },
-        "answer": "find",
+        "answer": "A",
         "explanation": "The find() method with no parameters returns all documents from a collection and returns all fields for the documents."
     },
     {
@@ -1088,7 +1088,7 @@
             "C": "colums",
             "D": "none of the mentioned"
         },
-        "answer": "cursor",
+        "answer": "B",
         "explanation": "The mongo shell then iterates over the cursor to display the results."
     },
     {
@@ -1101,7 +1101,7 @@
             "C": "A document holds a set of collections",
             "D": "All of the mentioned"
         },
-        "answer": "A MongoDB deployment hosts a number of databases",
+        "answer": "A",
         "explanation": "A database holds a set of collections. A collection holds a set of documents."
     },
     {
@@ -1114,7 +1114,7 @@
             "C": "hasDoc()",
             "D": "all of the mentioned"
         },
-        "answer": "hasNext()",
+        "answer": "B",
         "explanation": "hasNext() returns true if the cursor returned by the db.collection.find() query can iterate further to return more documents."
     },
     {
@@ -1127,7 +1127,7 @@
             "C": "printjson",
             "D": "printdoc"
         },
-        "answer": "printjson",
+        "answer": "C",
         "explanation": "printjson() operation displays all documents."
     },
     {
@@ -1140,7 +1140,7 @@
             "C": "Indexes can include keys from embedded documents and arrays",
             "D": "None of the mentioned"
         },
-        "answer": "Documents have static schema in MongoDB",
+        "answer": "A",
         "explanation": "Dynamic schema means that documents in the same collection do not need to have the same set of fields or structure, and common fields in a collection’s documents may hold different types of data."
     },
     {
@@ -1153,7 +1153,7 @@
             "C": "doc.toArray()",
             "D": "all of the mentioned"
         },
-        "answer": "cursor.toArray()",
+        "answer": "B",
         "explanation": "The toArray() method returns an array that contains all the documents from a cursor."
     },
     {
@@ -1166,7 +1166,7 @@
             "C": "findc()",
             "D": "none of the mentioned"
         },
-        "answer": "find()",
+        "answer": "B",
         "explanation": "The method iterates completely the cursor, loading all the documents."
     },
     {
@@ -1179,7 +1179,7 @@
             "C": "orderby()",
             "D": "all of the mentioned"
         },
-        "answer": "sort()",
+        "answer": "A",
         "explanation": "The sort() method orders the documents in the result set."
     },
     {
@@ -1192,7 +1192,7 @@
             "C": "limitBy()",
             "D": "none of the mentioned"
         },
-        "answer": "limit()",
+        "answer": "A",
         "explanation": "limit() corresponds to the LIMIT statement in SQL."
     },
     {
@@ -1205,7 +1205,7 @@
             "C": "db.bios.find().skip( 5 )",
             "D": "db.bios.find().sort( 5 )"
         },
-        "answer": "db.bios.find().skip( 5 )",
+        "answer": "C",
         "explanation": "The skip() method controls the starting point of the results set."
     },
     {

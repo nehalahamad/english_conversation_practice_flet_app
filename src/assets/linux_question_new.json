@@ -124,7 +124,7 @@
             "C": "Digital Equipment Corp",
             "D": "Sun Microsystems"
         },
-        "answer": "Sun Microsystems",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -137,7 +137,7 @@
             "C": "IRIX",
             "D": "AS400"
         },
-        "answer": "AS400",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -150,7 +150,7 @@
             "C": "Assembly Language",
             "D": "Fortran"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -163,7 +163,7 @@
             "C": "Multi user",
             "D": "Modularity"
         },
-        "answer": "Time Sharing",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -176,7 +176,7 @@
             "C": "inetd",
             "D": "proc"
         },
-        "answer": "init",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -189,7 +189,7 @@
             "C": "Multi Tasking",
             "D": "All of the mentioned"
         },
-        "answer": "All of the mentioned",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -202,7 +202,7 @@
             "C": "Standard Five Release 4",
             "D": "System Five Release 4"
         },
-        "answer": "System Five Release 4",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -215,7 +215,7 @@
             "C": "Printer",
             "D": "Tape drive"
         },
-        "answer": "Printer",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -225,10 +225,10 @@
         "options": {
             "A": "command [options] [arguments].",
             "B": "command options [arguments].",
-            "C": "command [options] [arguments].",
+            "C": "command [options] arguments",
             "D": "command options arguments"
         },
-        "answer": "command [options] [arguments].",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -618,7 +618,7 @@
             "C": "wexec",
             "D": "what"
         },
-        "answer": "which",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -631,7 +631,7 @@
             "C": "count",
             "D": "cut"
         },
-        "answer": "wc",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -644,7 +644,7 @@
             "C": "pause",
             "D": "grep"
         },
-        "answer": "less",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -657,7 +657,7 @@
             "C": "du",
             "D": "ls -a"
         },
-        "answer": "du",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -670,7 +670,7 @@
             "C": "date",
             "D": "ls –l"
         },
-        "answer": "ls –l",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -683,7 +683,7 @@
             "C": "ls –R",
             "D": "ls –l"
         },
-        "answer": "ls –aR",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -696,7 +696,7 @@
             "C": "rsh",
             "D": "ftp"
         },
-        "answer": "ftp",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -709,7 +709,7 @@
             "C": "present working directory",
             "D": "none of the mentioned"
         },
-        "answer": "present working directory",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -722,7 +722,7 @@
             "C": "Umask",
             "D": "Chgrp"
         },
-        "answer": "Umask",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -735,7 +735,7 @@
             "C": "xvf",
             "D": "ovf"
         },
-        "answer": "tvf",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -748,7 +748,7 @@
             "C": "find",
             "D": "ls"
         },
-        "answer": "grep",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -761,7 +761,7 @@
             "C": "date +/%d/%m/20%y",
             "D": "date +”/%d/%m/20%y”"
         },
-        "answer": "date +%d/%m/%Y",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -774,7 +774,7 @@
             "C": "cat sample.txt|more",
             "D": "none of the mentioned"
         },
-        "answer": "cat sample.txt|more",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -787,7 +787,7 @@
             "C": "uname -o",
             "D": "uname –m"
         },
-        "answer": "uname -o",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -800,7 +800,7 @@
             "C": "tar -rvf file1 example.tar",
             "D": "tar -evf file1 example.tar"
         },
-        "answer": "tar -rvf file1 example.tar",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -813,7 +813,7 @@
             "C": ":!ls",
             "D": "we can’t execute"
         },
-        "answer": ":!ls",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -826,7 +826,7 @@
             "C": "comm",
             "D": "ls -a"
         },
-        "answer": "cmp",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -839,7 +839,7 @@
             "C": "vi + “set num” file1",
             "D": "vi +/se nu file1"
         },
-        "answer": "vi +num file1",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -852,7 +852,7 @@
             "C": "Modify/print selective contents of a file",
             "D": "None of the mentioned"
         },
-        "answer": "Modify/print selective contents of a file",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -865,7 +865,7 @@
             "C": "chat",
             "D": "transmit"
         },
-        "answer": "write",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -878,7 +878,7 @@
             "C": "tput rmso",
             "D": "tput blink"
         },
-        "answer": "tput rmso",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -891,7 +891,7 @@
             "C": "netstat -r",
             "D": "none of the mentioned"
         },
-        "answer": "netstat -r",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -904,7 +904,7 @@
             "C": "3",
             "D": "4"
         },
-        "answer": "2",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -917,7 +917,7 @@
             "C": "The number of links for file1 is displayed as 2",
             "D": "The number of links for file2 is displayed as 2"
         },
-        "answer": "The number of links for file1 is displayed as 1",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -930,7 +930,7 @@
             "C": "We will be able to access the file with any of hl, h2 and sl",
             "D": "We will not be able to access the file with any of hl, h2 and sl"
         },
-        "answer": "We will still be able to access the file with hl and h2 but not with sl",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -943,7 +943,7 @@
             "C": "Alias",
             "D": "Special files"
         },
-        "answer": "Hard links",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -956,7 +956,7 @@
             "C": "Deletes just the softlink",
             "D": "backup of the destination is automatically created"
         },
-        "answer": "Deletes just the softlink",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -969,7 +969,7 @@
             "C": "the effects are unspecified",
             "D": "is not allowed"
         },
-        "answer": "is not allowed",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -982,7 +982,7 @@
             "C": "chmod",
             "D": "set"
         },
-        "answer": "chmod",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -995,7 +995,7 @@
             "C": "/lib",
             "D": "/printer"
         },
-        "answer": "/dev",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -1008,7 +1008,7 @@
             "C": "The mv command will preserve the meta data of the file",
             "D": "The command ps will display the filesystem usage"
         },
-        "answer": "The mv command will preserve the meta data of the file",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -1021,7 +1021,7 @@
             "C": "cat",
             "D": "touch"
         },
-        "answer": "touch",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -1034,7 +1034,7 @@
             "C": "Creation Time",
             "D": "Change Time"
         },
-        "answer": "Creation Time",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -1047,7 +1047,7 @@
             "C": "ulimit",
             "D": "usize"
         },
-        "answer": "ulimit",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -1060,7 +1060,7 @@
             "C": "–p",
             "D": "–t"
         },
-        "answer": "–p",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -1073,7 +1073,7 @@
             "C": "..",
             "D": "~"
         },
-        "answer": "~",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -1086,7 +1086,7 @@
             "C": "The file can be fully recovered provided the sytem is not rebooted",
             "D": "The file will be moved to /lost+found directory and can be recovered only by administrator’s intervention"
         },
-        "answer": "The file cannot be recovered by a user",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -1099,7 +1099,7 @@
             "C": "Results in changing to the ‘home’ directory",
             "D": "Nothing happens"
         },
-        "answer": "Nothing happens",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -1112,7 +1112,7 @@
             "C": "cp new old",
             "D": "rn new old"
         },
-        "answer": "mv new old",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -1125,7 +1125,7 @@
             "C": "rn",
             "D": "cpy"
         },
-        "answer": "cp",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -1138,7 +1138,7 @@
             "C": "new inode will be used",
             "D": "no inode is freed"
         },
-        "answer": "no inode is freed",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -1151,7 +1151,7 @@
             "C": "File blocks",
             "D": "Directory file"
         },
-        "answer": "Inode",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -2943,7 +2943,7 @@
             "C": "0",
             "D": "none of the mentioned"
         },
-        "answer": "exit status of the last command executed",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -2956,7 +2956,7 @@
             "C": "by using the parameter & environment variables",
             "D": "none of the mentioned"
         },
-        "answer": "by using the parameter variables $1, $2, $3.......",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -2969,7 +2969,7 @@
             "C": "both declare -f and -F",
             "D": "none of the mentioned"
         },
-        "answer": "both declare -f and -F",
+        "answer": "C",
         "explanation": "‘declare -F’ provides just the name of the functions and ‘declare -f’ provides their definitions also."
     },
     {
@@ -2982,7 +2982,7 @@
             "C": "this is not a valid keyword",
             "D": "none of the mentioned"
         },
-        "answer": "to define a variable within a function for its local scope",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -2995,7 +2995,7 @@
             "C": "all of the mentioned",
             "D": "none of the mentioned"
         },
-        "answer": "when we invoke a function, it is already in the shell’s memory, therefore a function runs faster than seperate scripts...",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3008,7 +3008,7 @@
             "C": "Command not found",
             "D": "None of the mentioned"
         },
-        "answer": "Linux",
+        "answer": "B",
         "explanation": "If local variable name is same as the global variable, it overlays the variable, but only within the function.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nLinux\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3021,7 +3021,7 @@
             "C": "both Welcome to the Sanfoundry and World of Linux",
             "D": "nothing will print"
         },
-        "answer": "nothing will print",
+        "answer": "D",
         "explanation": "Function definition was deleted before calling the function. command ‘unset -f function_name’ deletes the function definition.... Output:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n./test.sh: 6: san_function: not found\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3034,7 +3034,7 @@
             "C": "This is the first function\nThis is the second function",
             "D": "program will generate error because first function definition is not correct"
         },
-        "answer": "This is the first function\nThis is the second function",
+        "answer": "C",
         "explanation": "In bash shell, functions can be defined in both the ways, used in the script.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nThis is first function\n\nThis is second function\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3047,7 +3047,7 @@
             "C": "both strings will print",
             "D": "none of the mentioned"
         },
-        "answer": "only first string will print without any error",
+        "answer": "A",
         "explanation": "Function must be defined prior to call. Hence only first string will print and program will generate an error also.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nJust call the function\n\n./test.sh: 3: san_function: not found\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3060,7 +3060,7 @@
             "C": "This is the second function\nThis is the first function\nThis is the third function",
             "D": "This is the third function\nThis is the first function\nThis is the second function"
         },
-        "answer": "This is the first function\nThis is the second function\nThis is the third function",
+        "answer": "A",
         "explanation": "None.\n\nOutput: root@ubuntu:/home/sanfoundry# ./test.sh\n\nThis is the first function\n\nThis is the second function\n\nThis is the third function\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3073,7 +3073,7 @@
             "C": "character",
             "D": "float"
         },
-        "answer": "string",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3086,7 +3086,7 @@
             "C": "declare",
             "D": "set"
         },
-        "answer": "read",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3099,7 +3099,7 @@
             "C": "to extract the contents of a variable, we have to provide the variable a preceding $",
             "D": "all of the mentioned"
         },
-        "answer": "all of the mentioned",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -3112,7 +3112,7 @@
             "C": "_san_2",
             "D": "2_san"
         },
-        "answer": "2_san",
+        "answer": "D",
         "explanation": "The shell variable can contain only letters(a to z or A to Z), numbers(0 to 9), or a underscore character(_) and a variable can not start with a number."
     },
     {
@@ -3125,7 +3125,7 @@
             "C": "remove",
             "D": "clear"
         },
-        "answer": "unset",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3138,7 +3138,7 @@
             "C": "program will generate an error message",
             "D": "program will print nothing"
         },
-        "answer": "Sanfoundry\n$san_var\n“$san_var”\n‘Sanfoundry’\n$san_var",
+        "answer": "A",
         "explanation": "Using double quotes does not affect the substitution of the variable, while single quotes and backslash do.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nSanfoundry\n\n$san_var\n\n“$san_var”\n\n‘Sanfoundry’\n\n$san_var\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3151,7 +3151,7 @@
             "C": "program will print 20",
             "D": "program will print 10 & 20"
         },
-        "answer": "program will print 10",
+        "answer": "A",
         "explanation": "The doller sign ($) is used to access a variable’s value, not to define it.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n./test.sh: line 3: 10=20: command not found\n\n10\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3164,7 +3164,7 @@
             "C": "san_3",
             "D": "san_1 san_2 san_3"
         },
-        "answer": "san_1 san_2 san_3",
+        "answer": "D",
         "explanation": "All items of an array can be accessed by using ${[*]} or ${[@]}.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nsan_1 san_2 san_3\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3177,7 +3177,7 @@
             "C": "nothing will print",
             "D": "none of the mentioned"
         },
-        "answer": "hello",
+        "answer": "A",
         "explanation": "After the execution of the ‘readonly’ command, shell will not provide the permission to overwrite the value stored in variable ‘san_var’.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n./test.sh: line 4: san_var: readonly variable\n\nhello\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3190,7 +3190,7 @@
             "C": "the value of san_var is $san_var",
             "D": "the value of “san_var” is $san_var"
         },
-        "answer": "the value of “san_var” is 10",
+        "answer": "A",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nthe value of “san_var” is 10\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3203,7 +3203,7 @@
             "C": "set",
             "D": "none of the mentioned"
         },
-        "answer": "let",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3216,7 +3216,7 @@
             "C": "${}",
             "D": "$[]"
         },
-        "answer": "$(( ))",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3227,9 +3227,9 @@
             "A": "b = a << b",
             "B": "a = a << b",
             "C": "b = b << a",
-            "D": "a = a << b"
+            "D": "a = b << a"
         },
-        "answer": "a = a << b",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3242,7 +3242,7 @@
             "C": "!=",
             "D": "none of the mentioned"
         },
-        "answer": "^=",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3255,7 +3255,7 @@
             "C": "=<<",
             "D": "-="
         },
-        "answer": "=<<",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -3268,7 +3268,7 @@
             "C": "32",
             "D": "none of the mentioned"
         },
-        "answer": "16",
+        "answer": "B",
         "explanation": "'**' is the exponentation operator in bash shell.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry#./test.sh\n\n16\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3281,7 +3281,7 @@
             "C": "program will generate an error message",
             "D": "none of the mentioned"
         },
-        "answer": "22",
+        "answer": "B",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry#./test.sh\n\n22\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3294,7 +3294,7 @@
             "C": "1",
             "D": "0"
         },
-        "answer": "1",
+        "answer": "C",
         "explanation": "Firstly the ‘$a<0’ condition has been checked. Because it is false hence the right hand side condition of the colon (:) has been checked and this is true so program output is 1.... Output:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n1\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3307,7 +3307,7 @@
             "C": "1",
             "D": "none of the mentioned"
         },
-        "answer": "0",
+        "answer": "B",
         "explanation": "The condition ‘$a<0’ is false so logical and operator provides the output 0.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n0\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3320,7 +3320,7 @@
             "C": "program will generate an error message",
             "D": "none of the mentioned"
         },
-        "answer": "14",
+        "answer": "A",
         "explanation": "The operators in decreasing order of precedence are ++, **, *, +.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\n14\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3333,7 +3333,7 @@
             "C": "new",
             "D": "echo"
         },
-        "answer": "alias",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3346,7 +3346,7 @@
             "C": "dumping the installed key bindings",
             "D": "all of the mentioned"
         },
-        "answer": "all of the mentioned",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -3359,7 +3359,7 @@
             "C": "full list of all commands",
             "D": "none of the mentioned"
         },
-        "answer": "full list of all commands",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -3372,7 +3372,7 @@
             "C": "complete",
             "D": "command"
         },
-        "answer": "continue",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3385,7 +3385,7 @@
             "C": "popd",
             "D": "pushd"
         },
-        "answer": "dirs",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3398,7 +3398,7 @@
             "C": "marks jobs to not receive SIGHUP when bash exits",
             "D": "marks all jobs"
         },
-        "answer": "removes all running jobs",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3411,7 +3411,7 @@
             "C": "print the status of the command",
             "D": "none of the mentioned"
         },
-        "answer": "disables the specified built-in command",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3424,7 +3424,7 @@
             "C": "read",
             "D": "none of the mentioned"
         },
-        "answer": "export",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3437,7 +3437,7 @@
             "C": "exec",
             "D": "getopts"
         },
-        "answer": "eval",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3450,7 +3450,7 @@
             "C": "displays used command names and the number of hits",
             "D": "all of the mentioned"
         },
-        "answer": "all of the mentioned",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -3463,7 +3463,7 @@
             "C": "logout the current user",
             "D": "to exit the current shell"
         },
-        "answer": "logoff of the computer",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3476,7 +3476,7 @@
             "C": "sets the mask to 000",
             "D": "sets the mask to 777"
         },
-        "answer": "prints the current mask using symbolic notation",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3489,7 +3489,7 @@
             "C": "reads lines of standard error file",
             "D": "none of the mentioned"
         },
-        "answer": "reads lines of standard input and assigns each to the element of an indexed array",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3502,7 +3502,7 @@
             "C": "-s",
             "D": "-a"
         },
-        "answer": "-s",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -3515,7 +3515,7 @@
             "C": "pushd",
             "D": "rm"
         },
-        "answer": "popd",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3528,7 +3528,7 @@
             "C": "disown",
             "D": "break"
         },
-        "answer": "suspend",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3541,7 +3541,7 @@
             "C": "set a limit on specified resource for system users & set/show process resource limit",
             "D": "none of the mentioned"
         },
-        "answer": "set/show process resource limit",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3554,7 +3554,7 @@
             "C": "select",
             "D": "source"
         },
-        "answer": "type",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3567,7 +3567,7 @@
             "C": "delay",
             "D": "stop"
         },
-        "answer": "wait",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3580,7 +3580,7 @@
             "C": "both time and times",
             "D": "none of the mentioned"
         },
-        "answer": "times",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3593,7 +3593,7 @@
             "C": "there is no command present for this purpose",
             "D": "none of the mentioned"
         },
-        "answer": "builtin",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3606,7 +3606,7 @@
             "C": "-p",
             "D": "-P"
         },
-        "answer": "-P",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -3619,7 +3619,7 @@
             "C": "continue",
             "D": "none of the mentioned"
         },
-        "answer": "compgen",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3632,7 +3632,7 @@
             "C": "trap",
             "D": "none of the mentioned"
         },
-        "answer": "exec",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3645,7 +3645,7 @@
             "C": "Program will generate an error message",
             "D": "None of the mentioned"
         },
-        "answer": "Program will generate an error message",
+        "answer": "C",
         "explanation": "The condition of if statement must be in square brackets.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry#./test.sh\n\npress ‘s’ to print Sanfoundry\n\ns\n\n./test.sh: line 4: s=s: command not found\n\nYou did not press s"
     },
     {
@@ -3658,7 +3658,7 @@
             "C": "‘Sanfoudry’ will print 5 times",
             "D": "Program will generate an error message"
         },
-        "answer": "‘Sanfoudry’ will print 4 times",
+        "answer": "A",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh... How many times you want to print ‘Sanfoundry’\n\n4\n\nSanfoundry\n\nSanfoundry\n\nSanfoundry\n\nSanfoundry\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3671,7 +3671,7 @@
             "C": "Program will generate an error message",
             "D": "None of the mentioned"
         },
-        "answer": "‘Sanfoundry’ will print 3 times",
+        "answer": "A",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nSanfoundry\n\nSanfoundry\n\nSanfoundry\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3684,7 +3684,7 @@
             "C": "it is not possible",
             "D": "none of the mentioned"
         },
-        "answer": "by entering “hello”",
+        "answer": "A",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nhi\n\nTry to come out of the loop\n\nhey\n\nTry to come out of the loop\n\nhello\n\nWelcome\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3697,7 +3697,7 @@
             "C": "program runs untill you create the file",
             "D": "all of the mentioned"
         },
-        "answer": "all of the mentioned",
+        "answer": "D",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nWhich file do you want to check\n\nsan.c\n\nThe file does not exist. Do you want to create? y/n\n\nn... The file does not exist. Do you want to create? y/n\n\nn\n\nThe file does not exist. Do you want to create? y/n\n\ny\n\nYour file has been created successfully.\n\nThe file is present in this directory\n\nroot@ubuntu:/home/sanfoundry# ls\n\nsan.c test2.txt test2.txt~ test.sh test.sh~ test.txt test.txt~\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3710,7 +3710,7 @@
             "C": "It is equal to 1000",
             "D": "None of then mentioned"
         },
-        "answer": "It is greater than 1000",
+        "answer": "A",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# ./test.sh\n\nPlease enter a number... 1000\n\nIt is greater than 1000\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -3723,7 +3723,7 @@
             "C": "vi editor has two modes of operation: command mode and insert mode",
             "D": "vi stands for visual editor"
         },
-        "answer": "vi editor commands are not case sensitive",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3736,7 +3736,7 @@
             "C": "both q and wq",
             "D": "none of the mentioned"
         },
-        "answer": "both q and wq",
+        "answer": "C",
         "explanation": "The command ‘q’ just closes the file and ‘wq’ saves and closes the file."
     },
     {
@@ -3749,7 +3749,7 @@
             "C": "moves screen up one line",
             "D": "moves screen down one line"
         },
-        "answer": "moves screen down one page",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3762,7 +3762,7 @@
             "C": "yc",
             "D": "none of the mentioned"
         },
-        "answer": "yy",
+        "answer": "A",
         "explanation": "The command ‘p’ puts the copied text after the cursor."
     },
     {
@@ -3775,7 +3775,7 @@
             "C": "D",
             "D": "d"
         },
-        "answer": "X",
+        "answer": "A",
         "explanation": "The command ‘x’ is used to delete the character under the cursor locarion."
     },
     {
@@ -3788,7 +3788,7 @@
             "C": "autoindentation can be set using the command ‘:set noai’",
             "D": "autoindentation is set by default in vi editor"
         },
-        "answer": "autoindentation can be set using the command ‘:set ai’",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3801,7 +3801,7 @@
             "C": "t or T",
             "D": "none of the mentioned"
         },
-        "answer": "/ or ?",
+        "answer": "A",
         "explanation": "The command ‘/’ searches downward in the file and command ‘?’ searches upward in the file."
     },
     {
@@ -3814,7 +3814,7 @@
             "C": "ex",
             "D": "none of the mentioned"
         },
-        "answer": "r",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3827,7 +3827,7 @@
             "C": "show",
             "D": "none of the mentioned"
         },
-        "answer": "ab",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3840,7 +3840,7 @@
             "C": ":set nu",
             "D": ":set nl"
         },
-        "answer": ":set nu",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -3853,7 +3853,7 @@
             "C": "a hex editor",
             "D": "none of the mentioned"
         },
-        "answer": "a non-interactive stream editor",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3866,7 +3866,7 @@
             "C": "copy the each line of input & save the data for later retrieval",
             "D": "none of the mentioned"
         },
-        "answer": "save the data for later retrieval",
+        "answer": "B",
         "explanation": "To copy the each line of input, sed maintains the pattern space."
     },
     {
@@ -3879,7 +3879,7 @@
             "C": "sed [filename] [options] ‘[command]’",
             "D": "sed ‘[command]’ [filename] [options]."
         },
-        "answer": "sed [options] ‘[command]’ [filename].",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3892,7 +3892,7 @@
             "C": "last input line",
             "D": "none of the mentioned"
         },
-        "answer": "each input line",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3905,7 +3905,7 @@
             "C": "sed reads the data already present in buffer",
             "D": "it is necessary to provide the filename"
         },
-        "answer": "sed reads from standard input",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3918,7 +3918,7 @@
             "C": "[address range]/d",
             "D": "[address range]/y"
         },
-        "answer": "[address range]/d",
+        "answer": "C",
         "explanation": "To use the command correct syntax specified for sed editor should be followed."
     },
     {
@@ -3931,7 +3931,7 @@
             "C": "sed ‘/s/cat/mouse/g’ old.txt new.txt",
             "D": "sed ‘/s/cat/mouse’ old.txt > new.txt"
         },
-        "answer": "sed ‘s/cat/mouce/g’ old.txt > new.txt",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3944,7 +3944,7 @@
             "C": "sed ‘/^$/d’ old.txt",
             "D": "sed ‘/^*/d’ old.txt"
         },
-        "answer": "sed ‘/^$/d’ old.txt",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -3957,7 +3957,7 @@
             "C": "will generate an error message",
             "D": "none of the mentioned"
         },
-        "answer": "print the lines containing the word ‘sanfoundry’ in file old.txt",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -3970,7 +3970,7 @@
             "C": "-f",
             "D": "-i"
         },
-        "answer": "-e",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -3983,7 +3983,7 @@
             "C": "linux users have the gawk",
             "D": "nawk does not provide the additional capabilities in comparison of awk"
         },
-        "answer": "nawk does not provide the additional capabilities in comparison of awk",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -3996,7 +3996,7 @@
             "C": "running an executable awk script",
             "D": "all of the mentioned"
         },
-        "answer": "all of the mentioned",
+        "answer": "D",
         "explanation": "The method used to run awk program depends on the program size and input files."
     },
     {
@@ -4009,7 +4009,7 @@
             "C": "awk reads an input record and the record is automatically seperated by the interpreter into pieces called “fields”",
             "D": "the number of fields need to be a constant"
         },
-        "answer": "the number of fields need to be a constant",
+        "answer": "D",
         "explanation": "The number of fields does not need to be a constant."
     },
     {
@@ -4022,7 +4022,7 @@
             "C": "$ sign is used for comment",
             "D": "none of the mentioned"
         },
-        "answer": "we are refering to a field or column in the current line...",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -4035,7 +4035,7 @@
             "C": "is equivalent to “print $0” & prints the entire current record",
             "D": "none of the mentioned"
         },
-        "answer": "is equivalent to “print $0” & prints the entire current record",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -4048,7 +4048,7 @@
             "C": "reinsertion",
             "D": "none of the mentioned"
         },
-        "answer": "redirection",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -4061,7 +4061,7 @@
             "C": "generate syntax error",
             "D": "none of the mentioned"
         },
-        "answer": "print the first field of every line in san.txt",
+        "answer": "B",
         "explanation": "None."
     },
     {
@@ -4087,7 +4087,7 @@
             "C": "“h” prints an unsigned hexadecimal integer",
             "D": "“o” prints an unsigned octal integer"
         },
-        "answer": "“h” prints an unsigned hexadecimal integer",
+        "answer": "C",
         "explanation": "“x” prints and unsigned hexadecimal integer"
     },
     {
@@ -4100,7 +4100,7 @@
             "C": "awk ‘print {sanfoundry}’",
             "D": "none of the mentioned"
         },
-        "answer": "awk ‘BEGIN {print “sanfoundry”}’",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -4113,7 +4113,7 @@
             "C": "expression evaluates a value to print, test or pass to a function & also assigns a new value to a variable or field",
             "D": "none of the mentioned"
         },
-        "answer": "expression evaluates a value to print, test or pass to a function & also assigns a new value to a variable or field",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -4126,7 +4126,7 @@
             "C": "assignment expression is an expression that stores a value into a variable",
             "D": "comparison expressions does not compare strings for relationship"
         },
-        "answer": "comparison expressions does not compare strings for relationship",
+        "answer": "D",
         "explanation": "None."
     },
     {
@@ -4139,7 +4139,7 @@
             "C": "exponential notation",
             "D": "fixed point"
         },
-        "answer": "double precision floating point",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -4152,7 +4152,7 @@
             "C": "relational operator",
             "D": "matching operator"
         },
-        "answer": "writing expressions next to one another, with no operator",
+        "answer": "A",
         "explanation": "None."
     },
     {
@@ -4165,7 +4165,7 @@
             "C": "the string x matches the regular expression denoted by y",
             "D": "none of the mentioned"
         },
-        "answer": "the string x matches the regular expression denoted by y",
+        "answer": "C",
         "explanation": "None."
     },
     {
@@ -4178,7 +4178,7 @@
             "C": "syntax error",
             "D": "none of the mentioned"
         },
-        "answer": "true",
+        "answer": "A",
         "explanation": "The operands of relational operators are converted to, and compared as string if both are not numbers. Strings are compared by comparing the characters of each. Hence 20 is less then 9.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\ntrue\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -4191,7 +4191,7 @@
             "C": "syntax error",
             "D": "none of the mentioned"
         },
-        "answer": "true",
+        "answer": "A",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\ntrue\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -4204,7 +4204,7 @@
             "C": "provides MCQs",
             "D": "syntax error"
         },
-        "answer": "sanfoundry provides linux MCQs",
+        "answer": "A",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\nsanfoundry provides linux MCQs\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -4217,7 +4217,7 @@
             "C": "2",
             "D": "3"
         },
-        "answer": "3",
+        "answer": "D",
         "explanation": "None.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\n3\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
@@ -4230,7 +4230,7 @@
             "C": "11",
             "D": "syntax error"
         },
-        "answer": "11",
+        "answer": "C",
         "explanation": "The remainder of 10/3 is 1. remainder is added to 10.\n\nOutput:\n\nroot@ubuntu:/home/sanfoundry# chmod +x test.awk\n\nroot@ubuntu:/home/sanfoundry# ./test.awk\n\n11\n\nroot@ubuntu:/home/sanfoundry#"
     },
     {
