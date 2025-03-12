@@ -39,6 +39,18 @@ class HomeView(ft.View):
                             # on_click=lambda _: page.go("/docker"),
                             trailing=ft.IconButton(ft.Icons.QUIZ_ROUNDED, on_click=lambda _: page.go("/python_quiz_list")),
                         ),
+                        ft.ListTile(
+                            title=ft.Text("MongoDB"), 
+                            leading=ft.Image(src="icons/icons8-mongo-db-48.png", width=40, height=40, border_radius=50),
+                            # on_click=lambda _: page.go("/docker"),
+                            trailing=ft.IconButton(ft.Icons.QUIZ_ROUNDED, on_click=lambda _: page.go("/mongodb_quiz_list")),
+                        ),
+                        ft.ListTile(
+                            title=ft.Text("Linux"), 
+                            leading=ft.Image(src="icons/icons8-linux-64.png", width=40, height=40, border_radius=50),
+                            # on_click=lambda _: page.go("/docker"),
+                            trailing=ft.IconButton(ft.Icons.QUIZ_ROUNDED, on_click=lambda _: page.go("/linux_quiz_list")),
+                        ),
                 
                     ],
                     

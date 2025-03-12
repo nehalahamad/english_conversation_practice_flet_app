@@ -4,14 +4,14 @@ from typing import List, Dict
 class TopicView(ft.View):
     def __init__(self, page:ft.Page, my_theme_color, topics: List[Dict]):
         super().__init__()
-        self.route = "/python_quiz_list"
+        self.route = "/quiz_list"
         self.page = page
         self.scroll = True
         self.horizontal_alignment = 'center'
         self.my_theme_color = my_theme_color
 
         self.appbar = ft.AppBar(
-            title=ft.Text('Python', size=15),
+            title=ft.Text('Topics', size=15),
             center_title=False,
             bgcolor=self.my_theme_color,
         )

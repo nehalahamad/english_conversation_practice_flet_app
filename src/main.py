@@ -47,6 +47,7 @@ class MyApp:
             self.page.theme = ft.Theme(color_scheme_seed=ft.Colors.ORANGE,)
             self.page.views.append(QuizView(self.page, file_path, my_theme_color))
 
+        # -------------------------------------------------------------------------------------------
         elif self.page.route == "/python_quiz_list":
             my_theme_color = '#e9c93a'
             topics = [{"topic_name": "Regular Expression", "topic_route": "/python_regex_quiz"}]
@@ -56,6 +57,30 @@ class MyApp:
             file_path = "src/assets/regex_python_question_new.json"
             my_theme_color = '#e9c93a'
             self.page.theme = ft.Theme(color_scheme_seed=ft.Colors.GREEN,)
+            self.page.views.append(QuizView(self.page, file_path, my_theme_color))
+
+        # -------------------------------------------------------------------------------------------
+        elif self.page.route == "/mongodb_quiz_list":
+            my_theme_color = '#ff99be'
+            topics = [{"topic_name": "Mongo DB", "topic_route": "/mongodb_quiz"}]
+            self.page.views.append(TopicView(self.page, my_theme_color, topics))
+
+        elif self.page.route == "/mongodb_quiz":
+            file_path = "src/assets/mongodb_question_new.json"
+            my_theme_color = '#ff99be'
+            self.page.theme = ft.Theme(color_scheme_seed="#FF99BE",)
+            self.page.views.append(QuizView(self.page, file_path, my_theme_color))
+        
+        # -------------------------------------------------------------------------------------------
+        elif self.page.route == "/linux_quiz_list":
+            my_theme_color = '#eab676'
+            topics = [{"topic_name": "Linux", "topic_route": "/linux_quiz"}]
+            self.page.views.append(TopicView(self.page, my_theme_color, topics))
+
+        elif self.page.route == "/linux_quiz":
+            file_path = "src/assets/linux_question_new.json"
+            my_theme_color = '#eab676'
+            self.page.theme = ft.Theme(color_scheme_seed="#eab676",)
             self.page.views.append(QuizView(self.page, file_path, my_theme_color))
 
         self.page.update()
