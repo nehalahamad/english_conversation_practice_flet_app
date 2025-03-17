@@ -2,10 +2,18 @@ import flet as ft
 from controls.my_conversation import Conversation
 from controls.my_exercise import Exercise
 from controls.custom_progressbar import CustomProgressBar
+from my_utility.ecp_mongo import MongoDBHandler
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 from my_utility.my_functions import load_json_data
-
 english_conversation_practice = load_json_data("src/assets/english_conversation_practice.json")
-
+# ---------------
+# mongo_handler = MongoDBHandler(os.getenv("MONGODB_URI"), "ecpdb")
+# english_conversation_practice = mongo_handler.find_all_records("ecp")   
+# if mongo_handler:
+#     mongo_handler.close_connection()
 
 class ECPView(ft.View):
     def __init__(self, page: ft.Page):
@@ -14,8 +22,7 @@ class ECPView(ft.View):
         self.page = page
         self.scroll = True
         self.bgcolor = ft.Colors.GREY_200
-        self.selected_index = 0
-        self.selected_chapter = 0
+        self.selected_chapter: int = 0
 
         self.conversation_obj = Conversation()
         self.exercise_obj = Exercise()
@@ -23,13 +30,13 @@ class ECPView(ft.View):
         self.drawer = ft.NavigationDrawer(
             on_dismiss=self.handle_dismissal, 
             on_change=self.handle_change, 
-            selected_index=0
+            selected_index=self.selected_chapter
         )
 
         self.current_conversations_list = english_conversation_practice[self.selected_chapter]["conversations"]
         self.current_exercises_list = english_conversation_practice[self.selected_chapter]["exercises"]
-        self.conversation_exercise_list = self.get_conversation_exercise_list(self.current_conversations_list, self.current_exercises_list)
-        self.current_conversation_exercise = 0
+        self.conversation_exercise_list: list = self.get_conversation_exercise_list(self.current_conversations_list, self.current_exercises_list)
+        self.current_conversation_exercise: int = 0
 
         self.pb = CustomProgressBar(
             len(self.current_conversations_list), 
@@ -123,7 +130,8 @@ class ECPView(ft.View):
         self.appbar.title = ft.Text(english_conversation_practice[self.selected_chapter]["chapter"], size=15)
         self.drawer.selected_index = self.selected_chapter
         self.update_pb()
-        self.page.update()
+        # self.page.update()
+        self.update()
     
     def get_previous_chapter(self, e):
         self.selected_chapter -= 1

@@ -1,0 +1,1380 @@
+[
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which command is used to list all pods in the current namespace?",
+        "options": {
+            "A": "kubectl list pods",
+            "B": "kubectl get pods",
+            "C": "kubectl show pods",
+            "D": "kubectl describe pods"
+        },
+        "answer": "B",
+        "explanation": "The correct command is 'kubectl get pods'. This command lists all pods in the current namespace. 'kubectl list pods' and 'kubectl show pods' are not valid commands. 'kubectl describe pods' provides detailed information about a specific pod, not a list."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "What command is used to create a new deployment from a YAML file?",
+        "options": {
+            "A": "kubectl create deployment -f file.yaml",
+            "B": "kubectl apply -f file.yaml",
+            "C": "kubectl start deployment -f file.yaml",
+            "D": "kubectl run deployment -f file.yaml"
+        },
+        "answer": "B",
+        "explanation": "The correct command is 'kubectl apply -f file.yaml'. This command is used to create or update resources defined in a YAML file. 'kubectl create deployment -f file.yaml' is incorrect because 'create' is not used with YAML files for deployments. 'kubectl start deployment' and 'kubectl run deployment' are not valid commands."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which command is used to view the logs of a specific pod?",
+        "options": {
+            "A": "kubectl logs <pod-name>",
+            "B": "kubectl view logs <pod-name>",
+            "C": "kubectl get logs <pod-name>",
+            "D": "kubectl describe logs <pod-name>"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl logs <pod-name>'. This command displays the logs of the specified pod. 'kubectl view logs', 'kubectl get logs', and 'kubectl describe logs' are not valid commands."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "How do you scale a deployment named 'web' to 5 replicas?",
+        "options": {
+            "A": "kubectl scale deployment web --replicas=5",
+            "B": "kubectl resize deployment web --replicas=5",
+            "C": "kubectl update deployment web --replicas=5",
+            "D": "kubectl modify deployment web --replicas=5"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl scale deployment web --replicas=5'. This command scales the 'web' deployment to 5 replicas. 'kubectl resize', 'kubectl update', and 'kubectl modify' are not valid commands for scaling deployments."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which command is used to delete a pod named 'nginx-pod'?",
+        "options": {
+            "A": "kubectl remove pod nginx-pod",
+            "B": "kubectl delete pod nginx-pod",
+            "C": "kubectl destroy pod nginx-pod",
+            "D": "kubectl erase pod nginx-pod"
+        },
+        "answer": "B",
+        "explanation": "The correct command is 'kubectl delete pod nginx-pod'. This command deletes the specified pod. 'kubectl remove', 'kubectl destroy', and 'kubectl erase' are not valid commands."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What command is used to describe the details of a node named 'node-1'?",
+        "options": {
+            "A": "kubectl describe node node-1",
+            "B": "kubectl get node node-1",
+            "C": "kubectl show node node-1",
+            "D": "kubectl inspect node node-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe node node-1'. This command provides detailed information about the specified node. 'kubectl get node' lists nodes but does not provide detailed information. 'kubectl show node' and 'kubectl inspect node' are not valid commands."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which command is used to switch the current context to 'dev-context'?",
+        "options": {
+            "A": "kubectl use-context dev-context",
+            "B": "kubectl config use-context dev-context",
+            "C": "kubectl switch-context dev-context",
+            "D": "kubectl set-context dev-context"
+        },
+        "answer": "B",
+        "explanation": "The correct command is 'kubectl config use-context dev-context'. This command switches the current context to 'dev-context'. 'kubectl use-context', 'kubectl switch-context', and 'kubectl set-context' are not valid commands."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "How do you create a secret named 'db-secret' with a key 'password' and value 'secret-password'?",
+        "options": {
+            "A": "kubectl create secret generic db-secret --from-literal=password=secret-password",
+            "B": "kubectl generate secret generic db-secret --from-literal=password=secret-password",
+            "C": "kubectl add secret generic db-secret --from-literal=password=secret-password",
+            "D": "kubectl make secret generic db-secret --from-literal=password=secret-password"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl create secret generic db-secret --from-literal=password=secret-password'. This command creates a secret with the specified key-value pair. 'kubectl generate', 'kubectl add', and 'kubectl make' are not valid commands for creating secrets."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which command is used to view the current cluster information?",
+        "options": {
+            "A": "kubectl cluster-info",
+            "B": "kubectl get cluster",
+            "C": "kubectl describe cluster",
+            "D": "kubectl show cluster"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl cluster-info'. This command displays the current cluster information. 'kubectl get cluster', 'kubectl describe cluster', and 'kubectl show cluster' are not valid commands."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What command is used to edit a deployment named 'frontend'?",
+        "options": {
+            "A": "kubectl modify deployment frontend",
+            "B": "kubectl edit deployment frontend",
+            "C": "kubectl update deployment frontend",
+            "D": "kubectl change deployment frontend"
+        },
+        "answer": "B",
+        "explanation": "The correct command is 'kubectl edit deployment frontend'. This command opens the deployment configuration in the default editor for editing. 'kubectl modify', 'kubectl update', and 'kubectl change' are not valid commands."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "Which command is used to list all namespaces in the cluster?",
+        "options": {
+            "A": "kubectl get namespaces",
+            "B": "kubectl list namespaces",
+            "C": "kubectl show namespaces",
+            "D": "kubectl describe namespaces"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl get namespaces'. This command lists all namespaces in the cluster. 'kubectl list namespaces', 'kubectl show namespaces', and 'kubectl describe namespaces' are not valid commands."
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "How do you create a ConfigMap named 'app-config' from a file named 'config.properties'?",
+        "options": {
+            "A": "kubectl create configmap app-config --from-file=config.properties",
+            "B": "kubectl generate configmap app-config --from-file=config.properties",
+            "C": "kubectl add configmap app-config --from-file=config.properties",
+            "D": "kubectl make configmap app-config --from-file=config.properties"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl create configmap app-config --from-file=config.properties'. This command creates a ConfigMap from the specified file. 'kubectl generate', 'kubectl add', and 'kubectl make' are not valid commands for creating ConfigMaps."
+    },
+    {
+        "QN": "13",
+        "type": "mcq",
+        "question": "Which command is used to view the events in the current namespace?",
+        "options": {
+            "A": "kubectl get events",
+            "B": "kubectl list events",
+            "C": "kubectl show events",
+            "D": "kubectl describe events"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl get events'. This command lists the events in the current namespace. 'kubectl list events', 'kubectl show events', and 'kubectl describe events' are not valid commands."
+    },
+    {
+        "QN": "14",
+        "type": "mcq",
+        "question": "What command is used to view the details of a service named 'web-service'?",
+        "options": {
+            "A": "kubectl describe service web-service",
+            "B": "kubectl get service web-service",
+            "C": "kubectl show service web-service",
+            "D": "kubectl inspect service web-service"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe service web-service'. This command provides detailed information about the specified service. 'kubectl get service' lists services but does not provide detailed information. 'kubectl show service' and 'kubectl inspect service' are not valid commands."
+    },
+    {
+        "QN": "15",
+        "type": "mcq",
+        "question": "Which command is used to delete a deployment named 'api'?",
+        "options": {
+            "A": "kubectl remove deployment api",
+            "B": "kubectl delete deployment api",
+            "C": "kubectl destroy deployment api",
+            "D": "kubectl erase deployment api"
+        },
+        "answer": "B",
+        "explanation": "The correct command is 'kubectl delete deployment api'. This command deletes the specified deployment. 'kubectl remove', 'kubectl destroy', and 'kubectl erase' are not valid commands."
+    },
+    {
+        "QN": "16",
+        "type": "mcq",
+        "question": "How do you view the resource usage of nodes in the cluster?",
+        "options": {
+            "A": "kubectl top nodes",
+            "B": "kubectl get nodes --usage",
+            "C": "kubectl describe nodes --usage",
+            "D": "kubectl show nodes --usage"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl top nodes'. This command displays the resource usage (CPU and memory) of nodes in the cluster. 'kubectl get nodes --usage', 'kubectl describe nodes --usage', and 'kubectl show nodes --usage' are not valid commands."
+    },
+    {
+        "QN": "17",
+        "type": "mcq",
+        "question": "Which command is used to create a pod from a YAML file named 'pod.yaml'?",
+        "options": {
+            "A": "kubectl create -f pod.yaml",
+            "B": "kubectl apply -f pod.yaml",
+            "C": "kubectl start -f pod.yaml",
+            "D": "kubectl run -f pod.yaml"
+        },
+        "answer": "B",
+        "explanation": "The correct command is 'kubectl apply -f pod.yaml'. This command creates or updates resources defined in the YAML file. 'kubectl create -f pod.yaml' is also valid but is typically used for one-time creation. 'kubectl start' and 'kubectl run' are not valid commands for creating pods from YAML files."
+    },
+    {
+        "QN": "18",
+        "type": "mcq",
+        "question": "What command is used to view the status of all pods in all namespaces?",
+        "options": {
+            "A": "kubectl get pods --all-namespaces",
+            "B": "kubectl list pods --all-namespaces",
+            "C": "kubectl show pods --all-namespaces",
+            "D": "kubectl describe pods --all-namespaces"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl get pods --all-namespaces'. This command lists all pods in all namespaces. 'kubectl list pods --all-namespaces', 'kubectl show pods --all-namespaces', and 'kubectl describe pods --all-namespaces' are not valid commands."
+    },
+    {
+        "QN": "19",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a ConfigMap named 'app-config'?",
+        "options": {
+            "A": "kubectl describe configmap app-config",
+            "B": "kubectl get configmap app-config",
+            "C": "kubectl show configmap app-config",
+            "D": "kubectl inspect configmap app-config"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe configmap app-config'. This command provides detailed information about the specified ConfigMap. 'kubectl get configmap' lists ConfigMaps but does not provide detailed information. 'kubectl show configmap' and 'kubectl inspect configmap' are not valid commands."
+    },
+    {
+        "QN": "20",
+        "type": "mcq",
+        "question": "How do you delete a namespace named 'test-ns'?",
+        "options": {
+            "A": "kubectl remove namespace test-ns",
+            "B": "kubectl delete namespace test-ns",
+            "C": "kubectl destroy namespace test-ns",
+            "D": "kubectl erase namespace test-ns"
+        },
+        "answer": "B",
+        "explanation": "The correct command is 'kubectl delete namespace test-ns'. This command deletes the specified namespace. 'kubectl remove', 'kubectl destroy', and 'kubectl erase' are not valid commands."
+    },
+    {
+        "QN": "21",
+        "type": "mcq",
+        "question": "Which command is used to view the logs of a specific container within a pod?",
+        "options": {
+            "A": "kubectl logs <pod-name> -c <container-name>",
+            "B": "kubectl view logs <pod-name> -c <container-name>",
+            "C": "kubectl get logs <pod-name> -c <container-name>",
+            "D": "kubectl describe logs <pod-name> -c <container-name>"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl logs <pod-name> -c <container-name>'. This command displays the logs of the specified container within the pod. 'kubectl view logs', 'kubectl get logs', and 'kubectl describe logs' are not valid commands."
+    },
+    {
+        "QN": "22",
+        "type": "mcq",
+        "question": "What command is used to view the details of a PersistentVolumeClaim named 'pvc-1'?",
+        "options": {
+            "A": "kubectl describe pvc pvc-1",
+            "B": "kubectl get pvc pvc-1",
+            "C": "kubectl show pvc pvc-1",
+            "D": "kubectl inspect pvc pvc-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe pvc pvc-1'. This command provides detailed information about the specified PersistentVolumeClaim. 'kubectl get pvc' lists PersistentVolumeClaims but does not provide detailed information. 'kubectl show pvc' and 'kubectl inspect pvc' are not valid commands."
+    },
+    {
+        "QN": "23",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a PersistentVolume named 'pv-1'?",
+        "options": {
+            "A": "kubectl describe pv pv-1",
+            "B": "kubectl get pv pv-1",
+            "C": "kubectl show pv pv-1",
+            "D": "kubectl inspect pv pv-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe pv pv-1'. This command provides detailed information about the specified PersistentVolume. 'kubectl get pv' lists PersistentVolumes but does not provide detailed information. 'kubectl show pv' and 'kubectl inspect pv' are not valid commands."
+    },
+    {
+        "QN": "24",
+        "type": "mcq",
+        "question": "How do you create a service from a YAML file named 'service.yaml'?",
+        "options": {
+            "A": "kubectl create -f service.yaml",
+            "B": "kubectl apply -f service.yaml",
+            "C": "kubectl start -f service.yaml",
+            "D": "kubectl run -f service.yaml"
+        },
+        "answer": "B",
+        "explanation": "The correct command is 'kubectl apply -f service.yaml'. This command creates or updates resources defined in the YAML file. 'kubectl create -f service.yaml' is also valid but is typically used for one-time creation. 'kubectl start' and 'kubectl run' are not valid commands for creating services from YAML files."
+    },
+    {
+        "QN": "25",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a ReplicaSet named 'rs-1'?",
+        "options": {
+            "A": "kubectl describe rs rs-1",
+            "B": "kubectl get rs rs-1",
+            "C": "kubectl show rs rs-1",
+            "D": "kubectl inspect rs rs-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe rs rs-1'. This command provides detailed information about the specified ReplicaSet. 'kubectl get rs' lists ReplicaSets but does not provide detailed information. 'kubectl show rs' and 'kubectl inspect rs' are not valid commands."
+    },
+    {
+        "QN": "26",
+        "type": "mcq",
+        "question": "What command is used to view the details of a DaemonSet named 'ds-1'?",
+        "options": {
+            "A": "kubectl describe ds ds-1",
+            "B": "kubectl get ds ds-1",
+            "C": "kubectl show ds ds-1",
+            "D": "kubectl inspect ds ds-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe ds ds-1'. This command provides detailed information about the specified DaemonSet. 'kubectl get ds' lists DaemonSets but does not provide detailed information. 'kubectl show ds' and 'kubectl inspect ds' are not valid commands."
+    },
+    {
+        "QN": "27",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a StatefulSet named 'sts-1'?",
+        "options": {
+            "A": "kubectl describe sts sts-1",
+            "B": "kubectl get sts sts-1",
+            "C": "kubectl show sts sts-1",
+            "D": "kubectl inspect sts sts-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe sts sts-1'. This command provides detailed information about the specified StatefulSet. 'kubectl get sts' lists StatefulSets but does not provide detailed information. 'kubectl show sts' and 'kubectl inspect sts' are not valid commands."
+    },
+    {
+        "QN": "28",
+        "type": "mcq",
+        "question": "How do you view the details of a Job named 'job-1'?",
+        "options": {
+            "A": "kubectl describe job job-1",
+            "B": "kubectl get job job-1",
+            "C": "kubectl show job job-1",
+            "D": "kubectl inspect job job-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe job job-1'. This command provides detailed information about the specified Job. 'kubectl get job' lists Jobs but does not provide detailed information. 'kubectl show job' and 'kubectl inspect job' are not valid commands."
+    },
+    {
+        "QN": "29",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a CronJob named 'cronjob-1'?",
+        "options": {
+            "A": "kubectl describe cronjob cronjob-1",
+            "B": "kubectl get cronjob cronjob-1",
+            "C": "kubectl show cronjob cronjob-1",
+            "D": "kubectl inspect cronjob cronjob-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe cronjob cronjob-1'. This command provides detailed information about the specified CronJob. 'kubectl get cronjob' lists CronJobs but does not provide detailed information. 'kubectl show cronjob' and 'kubectl inspect cronjob' are not valid commands."
+    },
+    {
+        "QN": "30",
+        "type": "mcq",
+        "question": "What command is used to view the details of a Role named 'role-1'?",
+        "options": {
+            "A": "kubectl describe role role-1",
+            "B": "kubectl get role role-1",
+            "C": "kubectl show role role-1",
+            "D": "kubectl inspect role role-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe role role-1'. This command provides detailed information about the specified Role. 'kubectl get role' lists Roles but does not provide detailed information. 'kubectl show role' and 'kubectl inspect role' are not valid commands."
+    },
+    {
+        "QN": "31",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a RoleBinding named 'rolebinding-1'?",
+        "options": {
+            "A": "kubectl describe rolebinding rolebinding-1",
+            "B": "kubectl get rolebinding rolebinding-1",
+            "C": "kubectl show rolebinding rolebinding-1",
+            "D": "kubectl inspect rolebinding rolebinding-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe rolebinding rolebinding-1'. This command provides detailed information about the specified RoleBinding. 'kubectl get rolebinding' lists RoleBindings but does not provide detailed information. 'kubectl show rolebinding' and 'kubectl inspect rolebinding' are not valid commands."
+    },
+    {
+        "QN": "32",
+        "type": "mcq",
+        "question": "How do you view the details of a ClusterRole named 'clusterrole-1'?",
+        "options": {
+            "A": "kubectl describe clusterrole clusterrole-1",
+            "B": "kubectl get clusterrole clusterrole-1",
+            "C": "kubectl show clusterrole clusterrole-1",
+            "D": "kubectl inspect clusterrole clusterrole-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe clusterrole clusterrole-1'. This command provides detailed information about the specified ClusterRole. 'kubectl get clusterrole' lists ClusterRoles but does not provide detailed information. 'kubectl show clusterrole' and 'kubectl inspect clusterrole' are not valid commands."
+    },
+    {
+        "QN": "33",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a ClusterRoleBinding named 'clusterrolebinding-1'?",
+        "options": {
+            "A": "kubectl describe clusterrolebinding clusterrolebinding-1",
+            "B": "kubectl get clusterrolebinding clusterrolebinding-1",
+            "C": "kubectl show clusterrolebinding clusterrolebinding-1",
+            "D": "kubectl inspect clusterrolebinding clusterrolebinding-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe clusterrolebinding clusterrolebinding-1'. This command provides detailed information about the specified ClusterRoleBinding. 'kubectl get clusterrolebinding' lists ClusterRoleBindings but does not provide detailed information. 'kubectl show clusterrolebinding' and 'kubectl inspect clusterrolebinding' are not valid commands."
+    },
+    {
+        "QN": "34",
+        "type": "mcq",
+        "question": "What command is used to view the details of a ServiceAccount named 'sa-1'?",
+        "options": {
+            "A": "kubectl describe serviceaccount sa-1",
+            "B": "kubectl get serviceaccount sa-1",
+            "C": "kubectl show serviceaccount sa-1",
+            "D": "kubectl inspect serviceaccount sa-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe serviceaccount sa-1'. This command provides detailed information about the specified ServiceAccount. 'kubectl get serviceaccount' lists ServiceAccounts but does not provide detailed information. 'kubectl show serviceaccount' and 'kubectl inspect serviceaccount' are not valid commands."
+    },
+    {
+        "QN": "35",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a NetworkPolicy named 'netpol-1'?",
+        "options": {
+            "A": "kubectl describe networkpolicy netpol-1",
+            "B": "kubectl get networkpolicy netpol-1",
+            "C": "kubectl show networkpolicy netpol-1",
+            "D": "kubectl inspect networkpolicy netpol-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe networkpolicy netpol-1'. This command provides detailed information about the specified NetworkPolicy. 'kubectl get networkpolicy' lists NetworkPolicies but does not provide detailed information. 'kubectl show networkpolicy' and 'kubectl inspect networkpolicy' are not valid commands."
+    },
+    {
+        "QN": "36",
+        "type": "mcq",
+        "question": "How do you view the details of a PodSecurityPolicy named 'psp-1'?",
+        "options": {
+            "A": "kubectl describe podsecuritypolicy psp-1",
+            "B": "kubectl get podsecuritypolicy psp-1",
+            "C": "kubectl show podsecuritypolicy psp-1",
+            "D": "kubectl inspect podsecuritypolicy psp-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe podsecuritypolicy psp-1'. This command provides detailed information about the specified PodSecurityPolicy. 'kubectl get podsecuritypolicy' lists PodSecurityPolicies but does not provide detailed information. 'kubectl show podsecuritypolicy' and 'kubectl inspect podsecuritypolicy' are not valid commands."
+    },
+    {
+        "QN": "37",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a HorizontalPodAutoscaler named 'hpa-1'?",
+        "options": {
+            "A": "kubectl describe hpa hpa-1",
+            "B": "kubectl get hpa hpa-1",
+            "C": "kubectl show hpa hpa-1",
+            "D": "kubectl inspect hpa hpa-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe hpa hpa-1'. This command provides detailed information about the specified HorizontalPodAutoscaler. 'kubectl get hpa' lists HorizontalPodAutoscalers but does not provide detailed information. 'kubectl show hpa' and 'kubectl inspect hpa' are not valid commands."
+    },
+    {
+        "QN": "38",
+        "type": "mcq",
+        "question": "What command is used to view the details of a CustomResourceDefinition named 'crd-1'?",
+        "options": {
+            "A": "kubectl describe crd crd-1",
+            "B": "kubectl get crd crd-1",
+            "C": "kubectl show crd crd-1",
+            "D": "kubectl inspect crd crd-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe crd crd-1'. This command provides detailed information about the specified CustomResourceDefinition. 'kubectl get crd' lists CustomResourceDefinitions but does not provide detailed information. 'kubectl show crd' and 'kubectl inspect crd' are not valid commands."
+    },
+    {
+        "QN": "39",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a ResourceQuota named 'quota-1'?",
+        "options": {
+            "A": "kubectl describe quota quota-1",
+            "B": "kubectl get quota quota-1",
+            "C": "kubectl show quota quota-1",
+            "D": "kubectl inspect quota quota-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe quota quota-1'. This command provides detailed information about the specified ResourceQuota. 'kubectl get quota' lists ResourceQuotas but does not provide detailed information. 'kubectl show quota' and 'kubectl inspect quota' are not valid commands."
+    },
+    {
+        "QN": "40",
+        "type": "mcq",
+        "question": "How do you view the details of a LimitRange named 'limit-1'?",
+        "options": {
+            "A": "kubectl describe limitrange limit-1",
+            "B": "kubectl get limitrange limit-1",
+            "C": "kubectl show limitrange limit-1",
+            "D": "kubectl inspect limitrange limit-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe limitrange limit-1'. This command provides detailed information about the specified LimitRange. 'kubectl get limitrange' lists LimitRanges but does not provide detailed information. 'kubectl show limitrange' and 'kubectl inspect limitrange' are not valid commands."
+    },
+    {
+        "QN": "41",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a PriorityClass named 'priority-1'?",
+        "options": {
+            "A": "kubectl describe priorityclass priority-1",
+            "B": "kubectl get priorityclass priority-1",
+            "C": "kubectl show priorityclass priority-1",
+            "D": "kubectl inspect priorityclass priority-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe priorityclass priority-1'. This command provides detailed information about the specified PriorityClass. 'kubectl get priorityclass' lists PriorityClasses but does not provide detailed information. 'kubectl show priorityclass' and 'kubectl inspect priorityclass' are not valid commands."
+    },
+    {
+        "QN": "42",
+        "type": "mcq",
+        "question": "What command is used to view the details of a StorageClass named 'storage-1'?",
+        "options": {
+            "A": "kubectl describe storageclass storage-1",
+            "B": "kubectl get storageclass storage-1",
+            "C": "kubectl show storageclass storage-1",
+            "D": "kubectl inspect storageclass storage-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe storageclass storage-1'. This command provides detailed information about the specified StorageClass. 'kubectl get storageclass' lists StorageClasses but does not provide detailed information. 'kubectl show storageclass' and 'kubectl inspect storageclass' are not valid commands."
+    },
+    {
+        "QN": "43",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a VolumeAttachment named 'volume-1'?",
+        "options": {
+            "A": "kubectl describe volumeattachment volume-1",
+            "B": "kubectl get volumeattachment volume-1",
+            "C": "kubectl show volumeattachment volume-1",
+            "D": "kubectl inspect volumeattachment volume-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe volumeattachment volume-1'. This command provides detailed information about the specified VolumeAttachment. 'kubectl get volumeattachment' lists VolumeAttachments but does not provide detailed information. 'kubectl show volumeattachment' and 'kubectl inspect volumeattachment' are not valid commands."
+    },
+    {
+        "QN": "44",
+        "type": "mcq",
+        "question": "How do you view the details of a CSIDriver named 'csi-1'?",
+        "options": {
+            "A": "kubectl describe csidriver csi-1",
+            "B": "kubectl get csidriver csi-1",
+            "C": "kubectl show csidriver csi-1",
+            "D": "kubectl inspect csidriver csi-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe csidriver csi-1'. This command provides detailed information about the specified CSIDriver. 'kubectl get csidriver' lists CSIDrivers but does not provide detailed information. 'kubectl show csidriver' and 'kubectl inspect csidriver' are not valid commands."
+    },
+    {
+        "QN": "45",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a CSINode named 'csi-node-1'?",
+        "options": {
+            "A": "kubectl describe csinode csi-node-1",
+            "B": "kubectl get csinode csi-node-1",
+            "C": "kubectl show csinode csi-node-1",
+            "D": "kubectl inspect csinode csi-node-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe csinode csi-node-1'. This command provides detailed information about the specified CSINode. 'kubectl get csinode' lists CSINodes but does not provide detailed information. 'kubectl show csinode' and 'kubectl inspect csinode' are not valid commands."
+    },
+    {
+        "QN": "46",
+        "type": "mcq",
+        "question": "What command is used to view the details of a RuntimeClass named 'runtime-1'?",
+        "options": {
+            "A": "kubectl describe runtimeclass runtime-1",
+            "B": "kubectl get runtimeclass runtime-1",
+            "C": "kubectl show runtimeclass runtime-1",
+            "D": "kubectl inspect runtimeclass runtime-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe runtimeclass runtime-1'. This command provides detailed information about the specified RuntimeClass. 'kubectl get runtimeclass' lists RuntimeClasses but does not provide detailed information. 'kubectl show runtimeclass' and 'kubectl inspect runtimeclass' are not valid commands."
+    },
+    {
+        "QN": "47",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a Lease named 'lease-1'?",
+        "options": {
+            "A": "kubectl describe lease lease-1",
+            "B": "kubectl get lease lease-1",
+            "C": "kubectl show lease lease-1",
+            "D": "kubectl inspect lease lease-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe lease lease-1'. This command provides detailed information about the specified Lease. 'kubectl get lease' lists Leases but does not provide detailed information. 'kubectl show lease' and 'kubectl inspect lease' are not valid commands."
+    },
+    {
+        "QN": "48",
+        "type": "mcq",
+        "question": "How do you view the details of a EndpointSlice named 'endpointslice-1'?",
+        "options": {
+            "A": "kubectl describe endpointslices endpointslice-1",
+            "B": "kubectl get endpointslices endpointslice-1",
+            "C": "kubectl show endpointslices endpointslice-1",
+            "D": "kubectl inspect endpointslices endpointslice-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe endpointslices endpointslice-1'. This command provides detailed information about the specified EndpointSlice. 'kubectl get endpointslices' lists EndpointSlices but does not provide detailed information. 'kubectl show endpointslices' and 'kubectl inspect endpointslices' are not valid commands."
+    },
+    {
+        "QN": "49",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a Event named 'event-1'?",
+        "options": {
+            "A": "kubectl describe event event-1",
+            "B": "kubectl get event event-1",
+            "C": "kubectl show event event-1",
+            "D": "kubectl inspect event event-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe event event-1'. This command provides detailed information about the specified Event. 'kubectl get event' lists Events but does not provide detailed information. 'kubectl show event' and 'kubectl inspect event' are not valid commands."
+    },
+    {
+        "QN": "50",
+        "type": "mcq",
+        "question": "What command is used to view the details of a APIService named 'apiservice-1'?",
+        "options": {
+            "A": "kubectl describe apiservice apiservice-1",
+            "B": "kubectl get apiservice apiservice-1",
+            "C": "kubectl show apiservice apiservice-1",
+            "D": "kubectl inspect apiservice apiservice-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe apiservice apiservice-1'. This command provides detailed information about the specified APIService. 'kubectl get apiservice' lists APIServices but does not provide detailed information. 'kubectl show apiservice' and 'kubectl inspect apiservice' are not valid commands."
+    },
+    {
+        "QN": "51",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a ControllerRevision named 'controllerrevision-1'?",
+        "options": {
+            "A": "kubectl describe controllerrevision controllerrevision-1",
+            "B": "kubectl get controllerrevision controllerrevision-1",
+            "C": "kubectl show controllerrevision controllerrevision-1",
+            "D": "kubectl inspect controllerrevision controllerrevision-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe controllerrevision controllerrevision-1'. This command provides detailed information about the specified ControllerRevision. 'kubectl get controllerrevision' lists ControllerRevisions but does not provide detailed information. 'kubectl show controllerrevision' and 'kubectl inspect controllerrevision' are not valid commands."
+    },
+    {
+        "QN": "52",
+        "type": "mcq",
+        "question": "How do you view the details of a TokenReview named 'tokenreview-1'?",
+        "options": {
+            "A": "kubectl describe tokenreview tokenreview-1",
+            "B": "kubectl get tokenreview tokenreview-1",
+            "C": "kubectl show tokenreview tokenreview-1",
+            "D": "kubectl inspect tokenreview tokenreview-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe tokenreview tokenreview-1'. This command provides detailed information about the specified TokenReview. 'kubectl get tokenreview' lists TokenReviews but does not provide detailed information. 'kubectl show tokenreview' and 'kubectl inspect tokenreview' are not valid commands."
+    },
+    {
+        "QN": "53",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a SelfSubjectAccessReview named 'selfsubjectaccessreview-1'?",
+        "options": {
+            "A": "kubectl describe selfsubjectaccessreview selfsubjectaccessreview-1",
+            "B": "kubectl get selfsubjectaccessreview selfsubjectaccessreview-1",
+            "C": "kubectl show selfsubjectaccessreview selfsubjectaccessreview-1",
+            "D": "kubectl inspect selfsubjectaccessreview selfsubjectaccessreview-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe selfsubjectaccessreview selfsubjectaccessreview-1'. This command provides detailed information about the specified SelfSubjectAccessReview. 'kubectl get selfsubjectaccessreview' lists SelfSubjectAccessReviews but does not provide detailed information. 'kubectl show selfsubjectaccessreview' and 'kubectl inspect selfsubjectaccessreview' are not valid commands."
+    },
+    {
+        "QN": "54",
+        "type": "mcq",
+        "question": "What command is used to view the details of a SubjectAccessReview named 'subjectaccessreview-1'?",
+        "options": {
+            "A": "kubectl describe subjectaccessreview subjectaccessreview-1",
+            "B": "kubectl get subjectaccessreview subjectaccessreview-1",
+            "C": "kubectl show subjectaccessreview subjectaccessreview-1",
+            "D": "kubectl inspect subjectaccessreview subjectaccessreview-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe subjectaccessreview subjectaccessreview-1'. This command provides detailed information about the specified SubjectAccessReview. 'kubectl get subjectaccessreview' lists SubjectAccessReviews but does not provide detailed information. 'kubectl show subjectaccessreview' and 'kubectl inspect subjectaccessreview' are not valid commands."
+    },
+    {
+        "QN": "55",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a LocalSubjectAccessReview named 'localsubjectaccessreview-1'?",
+        "options": {
+            "A": "kubectl describe localsubjectaccessreview localsubjectaccessreview-1",
+            "B": "kubectl get localsubjectaccessreview localsubjectaccessreview-1",
+            "C": "kubectl show localsubjectaccessreview localsubjectaccessreview-1",
+            "D": "kubectl inspect localsubjectaccessreview localsubjectaccessreview-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe localsubjectaccessreview localsubjectaccessreview-1'. This command provides detailed information about the specified LocalSubjectAccessReview. 'kubectl get localsubjectaccessreview' lists LocalSubjectAccessReviews but does not provide detailed information. 'kubectl show localsubjectaccessreview' and 'kubectl inspect localsubjectaccessreview' are not valid commands."
+    },
+    {
+        "QN": "56",
+        "type": "mcq",
+        "question": "How do you view the details of a CertificateSigningRequest named 'csr-1'?",
+        "options": {
+            "A": "kubectl describe certificatesigningrequest csr-1",
+            "B": "kubectl get certificatesigningrequest csr-1",
+            "C": "kubectl show certificatesigningrequest csr-1",
+            "D": "kubectl inspect certificatesigningrequest csr-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe certificatesigningrequest csr-1'. This command provides detailed information about the specified CertificateSigningRequest. 'kubectl get certificatesigningrequest' lists CertificateSigningRequests but does not provide detailed information. 'kubectl show certificatesigningrequest' and 'kubectl inspect certificatesigningrequest' are not valid commands."
+    },
+    {
+        "QN": "57",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a FlowSchema named 'flowschema-1'?",
+        "options": {
+            "A": "kubectl describe flowschema flowschema-1",
+            "B": "kubectl get flowschema flowschema-1",
+            "C": "kubectl show flowschema flowschema-1",
+            "D": "kubectl inspect flowschema flowschema-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe flowschema flowschema-1'. This command provides detailed information about the specified FlowSchema. 'kubectl get flowschema' lists FlowSchemas but does not provide detailed information. 'kubectl show flowschema' and 'kubectl inspect flowschema' are not valid commands."
+    },
+    {
+        "QN": "58",
+        "type": "mcq",
+        "question": "What command is used to view the details of a PriorityLevelConfiguration named 'prioritylevelconfiguration-1'?",
+        "options": {
+            "A": "kubectl describe prioritylevelconfiguration prioritylevelconfiguration-1",
+            "B": "kubectl get prioritylevelconfiguration prioritylevelconfiguration-1",
+            "C": "kubectl show prioritylevelconfiguration prioritylevelconfiguration-1",
+            "D": "kubectl inspect prioritylevelconfiguration prioritylevelconfiguration-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe prioritylevelconfiguration prioritylevelconfiguration-1'. This command provides detailed information about the specified PriorityLevelConfiguration. 'kubectl get prioritylevelconfiguration' lists PriorityLevelConfigurations but does not provide detailed information. 'kubectl show prioritylevelconfiguration' and 'kubectl inspect prioritylevelconfiguration' are not valid commands."
+    },
+    {
+        "QN": "59",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a MutatingWebhookConfiguration named 'mutatingwebhookconfiguration-1'?",
+        "options": {
+            "A": "kubectl describe mutatingwebhookconfiguration mutatingwebhookconfiguration-1",
+            "B": "kubectl get mutatingwebhookconfiguration mutatingwebhookconfiguration-1",
+            "C": "kubectl show mutatingwebhookconfiguration mutatingwebhookconfiguration-1",
+            "D": "kubectl inspect mutatingwebhookconfiguration mutatingwebhookconfiguration-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe mutatingwebhookconfiguration mutatingwebhookconfiguration-1'. This command provides detailed information about the specified MutatingWebhookConfiguration. 'kubectl get mutatingwebhookconfiguration' lists MutatingWebhookConfigurations but does not provide detailed information. 'kubectl show mutatingwebhookconfiguration' and 'kubectl inspect mutatingwebhookconfiguration' are not valid commands."
+    },
+    {
+        "QN": "60",
+        "type": "mcq",
+        "question": "How do you view the details of a ValidatingWebhookConfiguration named 'validatingwebhookconfiguration-1'?",
+        "options": {
+            "A": "kubectl describe validatingwebhookconfiguration validatingwebhookconfiguration-1",
+            "B": "kubectl get validatingwebhookconfiguration validatingwebhookconfiguration-1",
+            "C": "kubectl show validatingwebhookconfiguration validatingwebhookconfiguration-1",
+            "D": "kubectl inspect validatingwebhookconfiguration validatingwebhookconfiguration-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe validatingwebhookconfiguration validatingwebhookconfiguration-1'. This command provides detailed information about the specified ValidatingWebhookConfiguration. 'kubectl get validatingwebhookconfiguration' lists ValidatingWebhookConfigurations but does not provide detailed information. 'kubectl show validatingwebhookconfiguration' and 'kubectl inspect validatingwebhookconfiguration' are not valid commands."
+    },
+    {
+        "QN": "61",
+        "type": "mcq",
+        "question": "Which command is used to view the details of a CustomResourceDefinition named 'crd-1'?",
+        "options": {
+            "A": "kubectl describe crd crd-1",
+            "B": "kubectl get crd crd-1",
+            "C": "kubectl show crd crd-1",
+            "D": "kubectl inspect crd crd-1"
+        },
+        "answer": "A",
+        "explanation": "The correct command is 'kubectl describe crd crd-1'. This command provides detailed information about the specified CustomResourceDefinition. 'kubectl get crd' lists CustomResourceDefinitions but does not provide detailed information. 'kubectl show crd' and 'kubectl inspect crd' are not valid commands."
+    },
+    {
+        "QN": "62",
+        "type": "mcq",
+        "question": "What is Kubernetes?",
+        "options": {
+            "A": "A programming language for developing applications",
+            "B": "A storage management system",
+            "C": "A tool for managing virtual machines",
+            "D": "A container orchestration platform"
+        },
+        "answer": "D",
+        "explanation": "Kubernetes is an open-source platform designed for managing, scaling, and automating the deployment of containerized applications. It abstracts away the underlying infrastructure and provides tools for automating deployments, scaling, and ensuring the availability of applications."
+    },
+    {
+        "QN": "63",
+        "type": "mcq",
+        "question": "What is a Pod in Kubernetes?",
+        "options": {
+            "A": "A network configuration",
+            "B": "A group of one or more containers",
+            "C": "A storage unit",
+            "D": "A single container"
+        },
+        "answer": "B",
+        "explanation": "A Pod is the smallest and most basic deployable unit in Kubernetes. It can contain one or more containers that share the same network and storage resources. Pods are used to run applications and manage containers together within a single unit."
+    },
+    {
+        "QN": "64",
+        "type": "mcq",
+        "question": "Which component of Kubernetes manages the desired state of the cluster?",
+        "options": {
+            "A": "kube-apiserver",
+            "B": "kube-controller-manager",
+            "C": "etcd",
+            "D": "kube-scheduler"
+        },
+        "answer": "B",
+        "explanation": "The kube-controller-manager is responsible for managing the desired state of the cluster, including ensuring that the number of Pods matches the desired count and that updates are applied correctly."
+    },
+    {
+        "QN": "65",
+        "type": "mcq",
+        "question": "What is a Kubernetes Cluster?",
+        "options": {
+            "A": "A group of machines running Kubernetes components",
+            "B": "A single container",
+            "C": "A network switch",
+            "D": "An application repository"
+        },
+        "answer": "A",
+        "explanation": "A Kubernetes Cluster is a collection of machines (nodes) running Kubernetes components, responsible for running containerized applications."
+    },
+    {
+        "QN": "66",
+        "type": "mcq",
+        "question": "What is a Service in Kubernetes?",
+        "options": {
+            "A": "A tool for managing containers",
+            "B": "A container registry",
+            "C": "A way to expose Pods to the network",
+            "D": "A way to manage storage volumes"
+        },
+        "answer": "C",
+        "explanation": "A Service is an abstraction that allows Pods to be accessed over the network. It provides a stable endpoint (IP address and DNS name) for communication, enabling load balancing and routing traffic to the correct Pods."
+    },
+    {
+        "QN": "67",
+        "type": "mcq",
+        "question": "What is a Kubernetes Deployment?",
+        "options": {
+            "A": "A set of instructions for application deployment",
+            "B": "A configuration object for resource limits",
+            "C": "A Pod replication controller",
+            "D": "A group of containers running together"
+        },
+        "answer": "A",
+        "explanation": "A Deployment in Kubernetes defines how to deploy and scale a set of Pods, managing updates and rollouts."
+    },
+    {
+        "QN": "68",
+        "type": "mcq",
+        "question": "What is a Node in a Kubernetes Cluster?",
+        "options": {
+            "A": "A worker machine where containers run",
+            "B": "A database server",
+            "C": "A networking component",
+            "D": "A storage device"
+        },
+        "answer": "A",
+        "explanation": "A Node is a worker machine in a Kubernetes cluster where containers are deployed and run. It hosts one or more containers and communicates with the control plane."
+    },
+    {
+        "QN": "69",
+        "type": "mcq",
+        "question": "What is a Namespace in Kubernetes?",
+        "options": {
+            "A": "A method for controlling access to resources",
+            "B": "A tool for managing logs",
+            "C": "A way to group related objects in a cluster",
+            "D": "A type of network protocol"
+        },
+        "answer": "C",
+        "explanation": "A Namespace in Kubernetes is a way to partition and organize resources within a cluster. It allows multiple users or teams to work in the same cluster without interfering with each other, and also enables the management of resources at a finer granularity."
+    },
+    {
+        "QN": "70",
+        "type": "mcq",
+        "question": "What does a ConfigMap in Kubernetes do?",
+        "options": {
+            "A": "Manages network traffic",
+            "B": "Stores large datasets",
+            "C": "Manages application secrets",
+            "D": "Decouples configuration from the application code"
+        },
+        "answer": "D",
+        "explanation": "A ConfigMap stores non-sensitive configuration data, decoupling it from the application code for easier updates."
+    },
+    {
+        "QN": "71",
+        "type": "mcq",
+        "question": "Which API server endpoint exposes Kubernetes functionality to developers?",
+        "options": {
+            "A": "kube-apiserver",
+            "B": "controller-manager",
+            "C": "kubelet",
+            "D": "scheduler"
+        },
+        "answer": "A",
+        "explanation": "The kube-apiserver acts as the central interface to communicate with Kubernetes clusters, exposing Kubernetes functionality."
+    },
+    {
+        "QN": "72",
+        "type": "mcq",
+        "question": "What is a ReplicaSet in Kubernetes?",
+        "options": {
+            "A": "A method to ensure a specified number of Pod copies",
+            "B": "A deployment strategy",
+            "C": "A network policy manager",
+            "D": "A storage component"
+        },
+        "answer": "A",
+        "explanation": "A ReplicaSet ensures that a specified number of identical Pods are running at all times. It is commonly used to provide high availability for applications by maintaining the desired number of Pod replicas."
+    },
+    {
+        "QN": "73",
+        "type": "mcq",
+        "question": "What does the kubectl delete command do?",
+        "options": {
+            "A": "Lists resources",
+            "B": "Deletes a specified resource",
+            "C": "Applies a configuration change",
+            "D": "Displays resource details"
+        },
+        "answer": "B",
+        "explanation": "The \u201ckubectl delete\u201d command is used to delete a specified resource, such as a Pod, Deployment, or Service, from the Kubernetes cluster."
+    },
+    {
+        "QN": "74",
+        "type": "mcq",
+        "question": "What is a common reason for container startup failures in Kubernetes?",
+        "options": {
+            "A": "Corrupted images",
+            "B": "Network misconfiguration",
+            "C": "Insufficient resources",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "Container startup failures can be due to issues with corrupted images, networking, or insufficient node resources."
+    },
+    {
+        "QN": "75",
+        "type": "mcq",
+        "question": "What is a Kubernetes Secret?",
+        "options": {
+            "A": "A secure storage for sensitive information",
+            "B": "A load balancer",
+            "C": "A container replica",
+            "D": "A tool for deployment"
+        },
+        "answer": "A",
+        "explanation": "Secrets store confidential information like passwords and API tokens in Kubernetes, ensuring data security."
+    },
+    {
+        "QN": "76",
+        "type": "mcq",
+        "question": "What is the use of kubectl exec in troubleshooting?",
+        "options": {
+            "A": "Enable auto-scaling",
+            "B": "Access a running container\u2019s shell to debug issues",
+            "C": "Configure storage manually",
+            "D": "Restart nodes"
+        },
+        "answer": "B",
+        "explanation": "kubectl exec allows you to access a container\u2019s shell, which is useful for debugging and checking logs interactively."
+    },
+    {
+        "QN": "77",
+        "type": "mcq",
+        "question": "What is the role of the Kubernetes API Server?",
+        "options": {
+            "A": "Acting as the main control point for communication in the cluster",
+            "B": "Scheduling and deploying containers",
+            "C": "Managing storage volumes",
+            "D": "Load balancing within pods"
+        },
+        "answer": "A",
+        "explanation": "The API Server is the central control plane component in Kubernetes. It serves as the communication hub where all interactions with the cluster occur, including requests from kubectl commands, controllers, and other components."
+    },
+    {
+        "QN": "78",
+        "type": "mcq",
+        "question": "What is the function of a Kubernetes Ingress?",
+        "options": {
+            "A": "Store logs for pods",
+            "B": "Expose services to external users and provide HTTP routing",
+            "C": "Control memory usage across nodes",
+            "D": "Deploy pods across multiple nodes"
+        },
+        "answer": "B",
+        "explanation": "The Ingress resource in Kubernetes allows you to expose multiple services through a single IP address. It handles external access, provides HTTP routing, and often includes features like SSL termination and URL-based routing."
+    },
+    {
+        "QN": "79",
+        "type": "mcq",
+        "question": "What happens when you use the kubectl scale command?",
+        "options": {
+            "A": "Automatically upgrades the cluster nodes",
+            "B": "Increases or decreases the number of replicas for a deployment",
+            "C": "Deletes unused services",
+            "D": "Updates Kubernetes API components"
+        },
+        "answer": "B",
+        "explanation": "The kubectl scale command adjusts the number of replicas for a deployment, statefulset, or daemonset. This allows you to scale applications up or down based on traffic or resource availability."
+    },
+    {
+        "QN": "80",
+        "type": "mcq",
+        "question": "What is the purpose of a Kubernetes Network Policy?",
+        "options": {
+            "A": "To set storage limits for containers",
+            "B": "To allocate CPU resources",
+            "C": "To control network traffic to and from Pods",
+            "D": "To monitor cluster performance"
+        },
+        "answer": "C",
+        "explanation": "Kubernetes Network Policies define how Pods communicate with each other and external services. These policies enable fine-grained control over network traffic within a cluster."
+    },
+    {
+        "QN": "81",
+        "type": "mcq",
+        "question": "What is a Persistent Volume (PV) in Kubernetes?",
+        "options": {
+            "A": "Temporary storage for Pods",
+            "B": "A volume specific to a single container",
+            "C": "A cluster-wide storage resource",
+            "D": "A network policy configuration"
+        },
+        "answer": "C",
+        "explanation": "A Persistent Volume (PV) is a cluster-wide resource that provides durable storage independent of the Pod lifecycle. Pods can claim this storage using Persistent Volume Claims (PVCs)."
+    },
+    {
+        "QN": "82",
+        "type": "mcq",
+        "question": "What is the purpose of Kubernetes Labels?",
+        "options": {
+            "A": "Store environment variables",
+            "B": "Encrypt container data",
+            "C": "Define application architecture",
+            "D": "Group and organize pods and other resources"
+        },
+        "answer": "D",
+        "explanation": "Labels in Kubernetes are key-value pairs that group and organize resources. They help with querying and filtering, enabling you to select and operate on subsets of pods, services, and other Kubernetes objects."
+    },
+    {
+        "QN": "83",
+        "type": "mcq",
+        "question": "How do you check the status of pods in your Kubernetes cluster?",
+        "options": {
+            "A": "kubectl monitor pod",
+            "B": "kubectl create pod",
+            "C": "kubectl start pod",
+            "D": "kubectl get pods"
+        },
+        "answer": "D",
+        "explanation": "The kubectl get pods command provides a list of all pods running in the cluster along with their status, IP addresses, and resource usage information, which helps in monitoring and troubleshooting."
+    },
+    {
+        "QN": "84",
+        "type": "mcq",
+        "question": "What is a DaemonSet in Kubernetes?",
+        "options": {
+            "A": "Stores cluster logs",
+            "B": "Provides database backups",
+            "C": "Deploys a pod on all nodes in a cluster",
+            "D": "Manages service discovery"
+        },
+        "answer": "C",
+        "explanation": "A DaemonSet ensures that a pod is running on every node in the cluster. It is typically used for cluster-wide services such as logging, monitoring, or network tools."
+    },
+    {
+        "QN": "85",
+        "type": "mcq",
+        "question": "What does the kubectl describe command do?",
+        "options": {
+            "A": "Provides detailed information about a Kubernetes resource",
+            "B": "Creates a new node",
+            "C": "Deploys applications automatically",
+            "D": "Deletes a pod"
+        },
+        "answer": "A",
+        "explanation": "The kubectl describe command displays detailed information about Kubernetes resources like pods, services, deployments, and nodes, including their configurations and status."
+    },
+    {
+        "QN": "86",
+        "type": "mcq",
+        "question": "What is a Blue-Green deployment in Kubernetes?",
+        "options": {
+            "A": "A strategy that keeps two environments: current (blue) and new (green)",
+            "B": "Deploying to all Pods simultaneously",
+            "C": "Using multiple replicas of the same Pod",
+            "D": "Scaling resources up and down automatically"
+        },
+        "answer": "A",
+        "explanation": "A Blue-Green deployment strategy involves maintaining two environments: the current one (blue) and the new one (green). Traffic is switched to the green environment once it is verified, ensuring zero downtime."
+    },
+    {
+        "QN": "87",
+        "type": "mcq",
+        "question": "What does a Rolling Update do in Kubernetes?",
+        "options": {
+            "A": "Scales down the cluster",
+            "B": "Updates Pods incrementally",
+            "C": "Deletes all Pods and deploys new ones",
+            "D": "Deploys only one replica"
+        },
+        "answer": "B",
+        "explanation": "Rolling Update ensures that Pods are updated incrementally, replacing old Pods with new ones gradually to ensure minimal downtime and uninterrupted service."
+    },
+    {
+        "QN": "88",
+        "type": "mcq",
+        "question": "What is the purpose of the CNI (Container Network Interface) plugin in Kubernetes?",
+        "options": {
+            "A": "Deploying configuration files",
+            "B": "Managing storage operations",
+            "C": "Connecting containers to a network",
+            "D": "Handling application secrets"
+        },
+        "answer": "C",
+        "explanation": "The CNI plugin connects Pods and containers to Kubernetes networks, ensuring proper communication."
+    },
+    {
+        "QN": "89",
+        "type": "mcq",
+        "question": "Which command is used to create a resource in Kubernetes?",
+        "options": {
+            "A": "kubectl get",
+            "B": "kubectl create",
+            "C": "kubectl apply",
+            "D": "kubectl start"
+        },
+        "answer": "B",
+        "explanation": "The kubectl create command is used to create a resource, such as pods or deployments."
+    },
+    {
+        "QN": "90",
+        "type": "mcq",
+        "question": "What does the term \u201ck8s\u201d stand for?",
+        "options": {
+            "A": "Kubernetes clusters",
+            "B": "Kubernetes orchestration",
+            "C": "Kubernetes (with 8 letters removed)",
+            "D": "Kubernetes container system"
+        },
+        "answer": "C",
+        "explanation": "\u201cK8s\u201d is a shorthand for Kubernetes, where 8 letters are replaced by the number 8."
+    },
+    {
+        "QN": "91",
+        "type": "mcq",
+        "question": "What is a Local Volume in Kubernetes?",
+        "options": {
+            "A": "A volume stored on the same node as the Pod",
+            "B": "A database storage solution",
+            "C": "An external network volume",
+            "D": "Remote cloud storage"
+        },
+        "answer": "A",
+        "explanation": "Local volumes in Kubernetes provide storage located directly on the node where the Pod is running, ensuring high-speed access."
+    },
+    {
+        "QN": "92",
+        "type": "mcq",
+        "question": "What is the purpose of Volume Mounts in Kubernetes?",
+        "options": {
+            "A": "Connecting database clusters",
+            "B": "Managing Pod metadata",
+            "C": "Linking storage resources to Pods",
+            "D": "Handling network routes"
+        },
+        "answer": "C",
+        "explanation": "Volume mounts link Persistent Volumes or StorageClasses to Pods, allowing access to data storage."
+    },
+    {
+        "QN": "93",
+        "type": "mcq",
+        "question": "Why do organizations prefer Canary Deployments?",
+        "options": {
+            "A": "Avoiding all network latency issues",
+            "B": "Strictly random updates",
+            "C": "Complete system resets",
+            "D": "Faster deployment with fewer interruptions"
+        },
+        "answer": "D",
+        "explanation": "Canary deployments enable organizations to expose changes incrementally, ensuring monitoring and quick rollback if issues arise."
+    },
+    {
+        "QN": "94",
+        "type": "mcq",
+        "question": "What are Helm Charts in Kubernetes?",
+        "options": {
+            "A": "A package manager for Kubernetes applications",
+            "B": "Simple storage interfaces",
+            "C": "An API endpoint",
+            "D": "Networking protocols"
+        },
+        "answer": "A",
+        "explanation": "Helm Charts package Kubernetes applications and resources, making deployment and configuration management easier."
+    },
+    {
+        "QN": "95",
+        "type": "mcq",
+        "question": "What is Cluster Autoscaler in Kubernetes?",
+        "options": {
+            "A": "Orchestrating network updates",
+            "B": "A tool for managing internal DNS",
+            "C": "Automatically adjusting the number of nodes in a cluster",
+            "D": "Managing Kubernetes logs"
+        },
+        "answer": "C",
+        "explanation": "Cluster Autoscaler dynamically scales up or down the number of nodes in a Kubernetes cluster based on demand."
+    },
+    {
+        "QN": "96",
+        "type": "mcq",
+        "question": "Why is scaling important in a Kubernetes environment?",
+        "options": {
+            "A": "Restricting network access",
+            "B": "Complete node shutdown",
+            "C": "Optimizing resource usage and ensuring application availability",
+            "D": "Faster startup times"
+        },
+        "answer": "C",
+        "explanation": "Scaling optimizes resource efficiency and ensures that applications remain highly available and fault-tolerant."
+    },
+    {
+        "QN": "97",
+        "type": "mcq",
+        "question": "What is Prometheus in Kubernetes?",
+        "options": {
+            "A": "A network routing controller",
+            "B": "A scheduling component",
+            "C": "A tool for service discovery",
+            "D": "A monitoring system and time-series database"
+        },
+        "answer": "D",
+        "explanation": "Prometheus is a widely used open-source monitoring system for collecting and analyzing cluster metrics."
+    },
+    {
+        "QN": "98",
+        "type": "mcq",
+        "question": "What are Kubernetes Events?",
+        "options": {
+            "A": "Temporary containers",
+            "B": "Inactive storage nodes",
+            "C": "Logs for cluster state changes and errors",
+            "D": "API service failures"
+        },
+        "answer": "C",
+        "explanation": "Events in Kubernetes provide insights into changes, errors, and cluster state updates for monitoring."
+    },
+    {
+        "QN": "99",
+        "type": "mcq",
+        "question": "What is a Kubernetes Pod Security Policy (PSP)?",
+        "options": {
+            "A": "A method for storing application logs",
+            "B": "A networking configuration tool",
+            "C": "A built-in scheduler",
+            "D": "A deprecated feature to control security constraints for Pods"
+        },
+        "answer": "D",
+        "explanation": "Kubernetes Pod Security Policy (PSP) was a feature that provided control over Pod-level security constraints but is now deprecated."
+    },
+    {
+        "QN": "100",
+        "type": "mcq",
+        "question": "What is Kubernetes Audit Logging?",
+        "options": {
+            "A": "A scheduler for container startup",
+            "B": "Logs that record all interactions with the Kubernetes API",
+            "C": "A tool for data visualization",
+            "D": "A tool to optimize networking interfaces"
+        },
+        "answer": "B",
+        "explanation": "Kubernetes Audit Logs capture every interaction with the Kubernetes API server, ensuring accountability and security monitoring."
+    },
+    {
+        "QN": "101",
+        "type": "mcq",
+        "question": "What is the purpose of Kubernetes CronJobs?",
+        "options": {
+            "A": "Automating scheduled tasks in a cluster",
+            "B": "Deploying containers manually",
+            "C": "Managing network routing",
+            "D": "For scaling nodes dynamically"
+        },
+        "answer": "A",
+        "explanation": "Kubernetes CronJobs allow you to run jobs on a scheduled basis, similar to cron jobs in Unix-like operating systems."
+    },
+    {
+        "QN": "102",
+        "type": "mcq",
+        "question": "What are Kubernetes Controllers?",
+        "options": {
+            "A": "A manual scheduling service",
+            "B": "A networking load balancer",
+            "C": "Components that manage and automate the lifecycle of resources",
+            "D": "Tools for configuring local storage"
+        },
+        "answer": "C",
+        "explanation": "Kubernetes Controllers maintain the desired state of resources (like Deployments and ReplicaSets) by automatically managing changes."
+    },
+    {
+        "QN": "103",
+        "type": "mcq",
+        "question": "What are Kubernetes Operators?",
+        "options": {
+            "A": "A scaling component",
+            "B": "A logging service",
+            "C": "Custom controllers that automate application management",
+            "D": "Manual deployment tools"
+        },
+        "answer": "C",
+        "explanation": "Kubernetes Operators extend the Kubernetes API to automate application lifecycle management and custom operations."
+    },
+    {
+        "QN": "104",
+        "type": "mcq",
+        "question": "What are Taints and Tolerations in Kubernetes?",
+        "options": {
+            "A": "Database storage optimization",
+            "B": "Control node affinity and pod placement",
+            "C": "Logging interface",
+            "D": "Network configuration settings"
+        },
+        "answer": "B",
+        "explanation": "Taints and tolerations control pod placement across nodes, ensuring proper resource scheduling and availability."
+    },
+    {
+        "QN": "105",
+        "type": "mcq",
+        "question": "What are Kubernetes Annotations?",
+        "options": {
+            "A": "For managing storage replicas",
+            "B": "A networking configuration tool",
+            "C": "A logging and debugging service",
+            "D": "Key-value pairs attached to Kubernetes resources for metadata"
+        },
+        "answer": "D",
+        "explanation": "Annotations in Kubernetes store metadata about resources that can be used for configuration and identification."
+    },
+    {
+        "QN": "106",
+        "type": "mcq",
+        "question": "What is a StatefulSet in Kubernetes?",
+        "options": {
+            "A": "A type of pod",
+            "B": "A way to expose services",
+            "C": "A controller for managing stateful applications",
+            "D": "A resource for managing network policies"
+        },
+        "answer": "C",
+        "explanation": "A StatefulSet is a controller used for managing stateful applications that require stable, unique network identifiers and persistent storage."
+    }
+]

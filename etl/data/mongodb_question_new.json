@@ -1,0 +1,2498 @@
+[
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "What is MongoDB?",
+        "options": {
+            "A": "A relational database",
+            "B": "A document-oriented NoSQL database",
+            "C": "A key-value store",
+            "D": "A file storage system"
+        },
+        "answer": "B",
+        "explanation": "MongoDB is a NoSQL database that stores data in a flexible, document-oriented format, ideal for handling unstructured or semi-structured data."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Which of the following language is MongoDB written in?",
+        "options": {
+            "A": "C",
+            "B": "C++",
+            "C": "Javascript",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "MongoDB (from humongous) is a cross-platform, document-oriented database written in C, C++, and JavaScript."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following format is supported by MongoDB?",
+        "options": {
+            "A": "BSON",
+            "B": "XML",
+            "C": "SQL",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "MongoDB eschews the traditional table-based relational database structure in favor of JSON-like documents with dynamic schemas."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which of the following is true about MongoDB indexes?",
+        "options": {
+            "A": "They improve query performance",
+            "B": "They increase disk usage",
+            "C": "They can be created on any field",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "Indexes in MongoDB are used to speed up query processing, though they use extra disk space and can be created on any field in a document."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "With what feature does MongoDB support a complete backup solution and full deployment monitoring?",
+        "options": {
+            "A": "MMS",
+            "B": "AMS",
+            "C": "CMS",
+            "D": "DMS"
+        },
+        "answer": "A",
+        "explanation": "MMS stands for MongoDB Management Service and is available to all users in the cloud and on-premises as part of MongoDB Standard and Enterprise Subscriptions."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "In MongoDB, what is a “collection”?",
+        "options": {
+            "A": "A group of tables",
+            "B": "A group of documents",
+            "C": "A single document",
+            "D": "A type of index"
+        },
+        "answer": "B",
+        "explanation": "A collection in MongoDB is a grouping of documents, similar to a table in relational databases."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "How does MongoDB scale horizontally for load balancing purposes?",
+        "options": {
+            "A": "Replication",
+            "B": "Sharding",
+            "C": "Partitioning",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The user chooses a shard key, which determines how the data in a collection will be distributed."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following sorting is not supported by MongoDB?",
+        "options": {
+            "A": "heap",
+            "B": "collection",
+            "C": "collation",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "MongoDB does not support collation-based sorting and is limited to byte-wise comparison via memcmp."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "What type of data storage does MongoDB use?",
+        "options": {
+            "A": "Column-based storage",
+            "B": "Key-value storage",
+            "C": "Relational table storage",
+            "D": "Document-based storage"
+        },
+        "answer": "D",
+        "explanation": "MongoDB is a document-based NoSQL database, which stores data in JSON-like documents."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which of the following is a wide-column store?",
+        "options": {
+            "A": "Riak",
+            "B": "Cassandra",
+            "C": "Redis",
+            "D": "MongoDB"
+        },
+        "answer": "B",
+        "explanation": "Wide-column stores such as Cassandra and HBase are optimized for queries over large datasets, and store columns of data together, instead of rows."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "Which of the following is web-based client software for MongoDB?",
+        "options": {
+            "A": "BI Studio",
+            "B": "Fang of Mongo",
+            "C": "Database Master",
+            "D": "Mongo3"
+        },
+        "answer": "B",
+        "explanation": "Futon4Mongo is a clone of the CouchDB-Futon-Web-Interface for MongoDB."
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "What command is used to insert a document into a collection in MongoDB?",
+        "options": {
+            "A": "db.collection.put()",
+            "B": "db.collection.add()",
+            "C": "db.collection.insertDocument()",
+            "D": "db.collection.insertOne()"
+        },
+        "answer": "D",
+        "explanation": "insertOne() is used to add a single document to a MongoDB collection."
+    },
+    {
+        "QN": "13",
+        "type": "mcq",
+        "question": "Which MongoDB command removes all documents from a collection without dropping it?",
+        "options": {
+            "A": "db.collection.truncate()",
+            "B": "db.collection.remove({})",
+            "C": "db.collection.delete()",
+            "D": "db.collection.drop()"
+        },
+        "answer": "B",
+        "explanation": "remove({}) deletes all documents in a collection but does not delete the collection itself."
+    },
+    {
+        "QN": "14",
+        "type": "mcq",
+        "question": "Which of the following tool is similar to the UNIX/Linux top utility?",
+        "options": {
+            "A": "mongofiles",
+            "B": "mongooplog",
+            "C": "mongotop",
+            "D": "mongosniff"
+        },
+        "answer": "C",
+        "explanation": "By default, mongotop returns values every second."
+    },
+    {
+        "QN": "15",
+        "type": "mcq",
+        "question": "Which of the following network analyzer fully supports MongoDB?",
+        "options": {
+            "A": "Suricata",
+            "B": "Snort",
+            "C": "Riakshark",
+            "D": "Wireshark"
+        },
+        "answer": "D",
+        "explanation": "Wireshark is cross platform and open source network sniffer."
+    },
+    {
+        "QN": "16",
+        "type": "mcq",
+        "question": "Which command-line utility is used to import content from a JSON, CSV, or TSV.",
+        "options": {
+            "A": "mongosupport",
+            "B": "mongorestore",
+            "C": "mongoimport",
+            "D": "mongofiles"
+        },
+        "answer": "C",
+        "explanation": "Import content from a JSON, CSV, or TSV export is created by mongoexport."
+    },
+    {
+        "QN": "17",
+        "type": "mcq",
+        "question": "Which of the following is used for creating a binary export of the contents of a Mongo database?",
+        "options": {
+            "A": "mongofiles",
+            "B": "mongodump",
+            "C": "mongoimport",
+            "D": "mongosupport"
+        },
+        "answer": "B",
+        "explanation": "mongodump is a utility for creating a binary export of the contents of a database."
+    },
+    {
+        "QN": "18",
+        "type": "mcq",
+        "question": "What is the purpose of MongoDB’s replication feature?",
+        "options": {
+            "A": "To create multiple copies of data for high availability",
+            "B": "To improve data consistency in queries",
+            "C": "To backup data to external storage",
+            "D": "To distribute data across various regions"
+        },
+        "answer": "A",
+        "explanation": "Replication in MongoDB creates multiple copies of data to ensure availability in case of hardware failure."
+    },
+    {
+        "QN": "19",
+        "type": "mcq",
+        "question": "Which of the following file is not a MongoDB configuration file?",
+        "options": {
+            "A": "mongodb.conf",
+            "B": "mongodb.con",
+            "C": "mongod.conf",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The Enterprise packages include an example SNMP configuration file named mongod.conf."
+    },
+    {
+        "QN": "20",
+        "type": "mcq",
+        "question": "What is the default port for MongoDB?",
+        "options": {
+            "A": "3306",
+            "B": "8080",
+            "C": "5432",
+            "D": "27017"
+        },
+        "answer": "D",
+        "explanation": "MongoDB uses port 27017 by default to connect to its database."
+    },
+    {
+        "QN": "21",
+        "type": "mcq",
+        "question": "Which is the primary daemon process for the MongoDB system?",
+        "options": {
+            "A": "mongod",
+            "B": "mongos",
+            "C": "syspathlog",
+            "D": "logpath"
+        },
+        "answer": "A",
+        "explanation": "It handles data requests, manages data access, and performs background management operations."
+    },
+    {
+        "QN": "22",
+        "type": "mcq",
+        "question": "What file does the mongo shell load and parse on startup?",
+        "options": {
+            "A": "mongoc.js",
+            "B": "mongorc.js",
+            "C": "mongo.js",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Store the function in your .mongorc.js file."
+    },
+    {
+        "QN": "23",
+        "type": "mcq",
+        "question": "What is a MongoDB “shard”?",
+        "options": {
+            "A": "An index type that speeds up queries",
+            "B": "A type of collection used for caching",
+            "C": "A copy of the database used for backup",
+            "D": "A smaller part of a larger dataset used to distribute data across multiple servers"
+        },
+        "answer": "D",
+        "explanation": "Sharding in MongoDB divides large datasets into smaller parts, distributing them across multiple servers for improved performance and scalability."
+    },
+    {
+        "QN": "24",
+        "type": "mcq",
+        "question": "Which of the following pipeline is used for aggregation in MongoDB?",
+        "options": {
+            "A": "knowledge processing",
+            "B": "information processing",
+            "C": "data processing",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "MongoDB can return counts of the number of documents that match a query, or return the number of distinct values for a field."
+    },
+    {
+        "QN": "25",
+        "type": "mcq",
+        "question": "Which of the following is used to avoid the repetition of data in MongoDB schema?",
+        "options": {
+            "A": "Cursor",
+            "B": "Collectors",
+            "C": "DeReferences",
+            "D": "References"
+        },
+        "answer": "D",
+        "explanation": "When using references, the growth of the relationships determine where to store the reference."
+    },
+    {
+        "QN": "26",
+        "type": "mcq",
+        "question": "Which of the following statement is incorrect about documents in MongoDB?",
+        "options": {
+            "A": "The field names cannot contain the null character",
+            "B": "The field names cannot contain the dot (.) character",
+            "C": "The field names cannot start with the dollar sign ($) character",
+            "D": "None of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "BSON documents may have more than one field with the same name."
+    },
+    {
+        "QN": "27",
+        "type": "mcq",
+        "question": "MongoDB documents are composed of field-and-value pairs and have the following structure?",
+        "options": {
+            "A": "field1: value1",
+            "B": "field1: value1;",
+            "C": "field1:; value1",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "The value of a field can be any of the BSON data types, including other documents, arrays, and arrays of documents."
+    },
+    {
+        "QN": "28",
+        "type": "mcq",
+        "question": "Which of the following statements is true about MongoDB’s schema design?",
+        "options": {
+            "A": "MongoDB only supports simple data types",
+            "B": "MongoDB enforces primary keys on all documents",
+            "C": "MongoDB requires a fixed schema for all collections",
+            "D": "MongoDB collections have no fixed schema, allowing flexible document structures"
+        },
+        "answer": "D",
+        "explanation": "MongoDB is schema-less, meaning documents within a collection can have varied structures, offering flexibility."
+    },
+    {
+        "QN": "29",
+        "type": "mcq",
+        "question": "What does BSON stand for in MongoDB?",
+        "options": {
+            "A": "Binary JSON",
+            "B": "Binary Serialized Object Notation",
+            "C": "Basic Standard Object Notation",
+            "D": "Binary Structure Object Network"
+        },
+        "answer": "A",
+        "explanation": "BSON stands for Binary JSON, which is MongoDB’s format for encoding JSON-like documents for storage."
+    },
+    {
+        "QN": "30",
+        "type": "mcq",
+        "question": "Which of the following best describes MongoDB’s data storage format?",
+        "options": {
+            "A": "Flat files",
+            "B": "JSON-like documents",
+            "C": "Key-value pairs",
+            "D": "Rows and columns"
+        },
+        "answer": "B",
+        "explanation": "MongoDB stores data in a flexible, JSON-like format called BSON (Binary JSON), allowing for nested and varied data structures."
+    },
+    {
+        "QN": "31",
+        "type": "mcq",
+        "question": "Which of the following command returns quickly and does not impact MongoDB performance?",
+        "options": {
+            "A": "dbStats",
+            "B": "db.stats()",
+            "C": "db.serverStatus()",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "serverStatus outputs an account of the state of a MongoDB instance."
+    },
+    {
+        "QN": "32",
+        "type": "mcq",
+        "question": "Which of the following should be avoided with MongoDB Deployments?",
+        "options": {
+            "A": "RAID-0",
+            "B": "RAID-7",
+            "C": "RAID-10",
+            "D": "RAID-5"
+        },
+        "answer": "A",
+        "explanation": "While RAID-0 provides good write performance, it also provides limited availability and can lead to reduced performance on read operations, particularly when using Amazon’s EBS volumes."
+    },
+    {
+        "QN": "33",
+        "type": "mcq",
+        "question": "Which of the following is especially important in Sharded Clusters?",
+        "options": {
+            "A": "NTP",
+            "B": "SSD",
+            "C": "NSS",
+            "D": "STP"
+        },
+        "answer": "A",
+        "explanation": "Use the Network Time Protocol (NTP) to synchronize time among your hosts."
+    },
+    {
+        "QN": "34",
+        "type": "mcq",
+        "question": "Which of the following provides information on the MongoDB instance?",
+        "options": {
+            "A": "serverInfo",
+            "B": "executeStats",
+            "C": "queryPlanner",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The verbosity mode (i.e., queryPlanner, executionStats, allPlansExecution) determines whether the results include executionStats and whether executionStats includes data captured during plan selection."
+    },
+    {
+        "QN": "35",
+        "type": "mcq",
+        "question": "Which of the following method is used for managing users?",
+        "options": {
+            "A": "db.User()",
+            "B": "db.superuser()",
+            "C": "db.createUser()",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "MongoDB provides the db.createUser() method to add and manage user information."
+    },
+    {
+        "QN": "36",
+        "type": "mcq",
+        "question": "Which of the following authentication methods is used by default by MongoDB?",
+        "options": {
+            "A": "LDAP",
+            "B": "SCRAM-SHA-1",
+            "C": "MONGODB-CR",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "SCRAM-SHA-1 verifies supplied user credentials against the user’s name, password, and database."
+    },
+    {
+        "QN": "37",
+        "type": "mcq",
+        "question": "If a .mongorc.js file exists, what file will the mongo shell evaluate before starting?",
+        "options": {
+            "A": ".mongorc.js",
+            "B": ".mongo.js",
+            "C": ".mongorc.jscript",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "You can disable this behavior by passing the mongo –norc option."
+    },
+    {
+        "QN": "38",
+        "type": "mcq",
+        "question": "For which server-side operations does MongoDB support the execution of JavaScript code?",
+        "options": {
+            "A": "group",
+            "B": "mapreduce",
+            "C": "where",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "If you do not use these operations, disable server-side scripting by using the –noscripting option on the command line."
+    },
+    {
+        "QN": "39",
+        "type": "mcq",
+        "question": "Which of the following database commands is used for the mapreduce function?",
+        "options": {
+            "A": "redmap",
+            "B": "mapReduce",
+            "C": "mapperRed",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "For map-reduce operations, MongoDB provides the mapReduce database command."
+    },
+    {
+        "QN": "40",
+        "type": "mcq",
+        "question": "Which of the following stages cannot appear multiple times in a pipeline?",
+        "options": {
+            "A": "$reg",
+            "B": "$out",
+            "C": "$regex",
+            "D": "$match"
+        },
+        "answer": "B",
+        "explanation": "To use the $out stage, it must be the last stage in the pipeline."
+    },
+    {
+        "QN": "41",
+        "type": "mcq",
+        "question": "What type of field does MongoDB support for creating user-defined ascending or descending indexes?",
+        "options": {
+            "A": "Non Unique",
+            "B": "Single",
+            "C": "Compound",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "If applications do not specify a value for _id, the driver or the mongod will create an _id field with an ObjectId value."
+    },
+    {
+        "QN": "42",
+        "type": "mcq",
+        "question": "Which of the following methods is used to verify whether MongoDB used index intersection?",
+        "options": {
+            "A": "explain()",
+            "B": "intersect()",
+            "C": "analyze()",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "To determine if MongoDB used index intersection, run explain(); the results of explain() will include either an AND_SORTED stage or an AND_HASH stage."
+    },
+    {
+        "QN": "43",
+        "type": "mcq",
+        "question": "Which of the following GeoJSON objects is not supported in MongoDB?",
+        "options": {
+            "A": "Point",
+            "B": "MultiPoint",
+            "C": "None of the mentioned",
+            "D": "LineString"
+        },
+        "answer": "C",
+        "explanation": "In version 2.2 and newer, capped collections do have an _id field, except those in the local database."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which of the following language is MongoDB written in?",
+        "options": {
+            "A": "Javascript",
+            "B": "C",
+            "C": "C++",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "MongoDB (from humongous) is a cross-platform document-oriented database."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "MongoDB is classified as a NoSQL database",
+            "B": "MongoDB favours XML format more than JSON",
+            "C": "MongoDB is column oriented database store",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "MongoDB supports JSON format compared to XML."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following format is supported by MongoDB?",
+        "options": {
+            "A": "SQL",
+            "B": "XML",
+            "C": "BSON",
+            "D": "All of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "MongoDB eschews the traditional table-based relational database structure in favor of JSON-like documents with dynamic schemas."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "MongoDB Queries can return specific fields of documents which also include user-defined __________ functions.",
+        "options": {
+            "A": "Javascript",
+            "B": "C",
+            "C": "C++",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "MongoDB supports search by field, range queries, regular expression searches."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Secondary indices are not available in MongoDB",
+            "B": "MongoDB supports search by field, range queries, regular expression searches",
+            "C": "MongoDB can store the business subject in the minimal number of documents",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Any field in a MongoDB document can be indexed."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Initial release of MongoDB was in the year?",
+        "options": {
+            "A": "2000",
+            "B": "2005",
+            "C": "2009",
+            "D": "2011"
+        },
+        "answer": "C",
+        "explanation": "MongoDB is developed by the software company 10gen in October 2007 as a component of a planned platform as a service product."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "MongoDB has been adopted as ________ software by a number of major websites and services.",
+        "options": {
+            "A": "frontend",
+            "B": "backend",
+            "C": "proprietary",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "MongoDB is the most popular NoSQL database system."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "MongoDB is a _________ database that provides high performance, high availability, and easy scalability.",
+        "options": {
+            "A": "graph",
+            "B": "key value",
+            "C": "document",
+            "D": "all of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "Documents (objects) map nicely to programming language data types."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Dynamic schema in MongoDB makes ____________ easier for applications.",
+        "options": {
+            "A": "inheritance",
+            "B": "polymorphism",
+            "C": "encapsulation",
+            "D": "none of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "Relational databases require that schemas be defined before you can add data."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "With ________ MongoDB supports a complete backup solution and full deployment monitoring.",
+        "options": {
+            "A": "MMS",
+            "B": "AMS",
+            "C": "CMS",
+            "D": "DMS"
+        },
+        "answer": "A",
+        "explanation": "MMS stands for MongoDB Management Service and is available to all users in the cloud and on-premises as part of MongoDB Standard and Enterprise Subscriptions."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "MongoDB provides high ____________ with replica sets.",
+        "options": {
+            "A": "performance",
+            "B": "availability",
+            "C": "scalability",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "A replica set consists of two or more copies of the data."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "MongoDB cannot be used as a file system",
+            "B": "MongoDB can run over single servers only",
+            "C": "Embedded documents and arrays reduce need for joins",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "MongoDB can run over multiple servers, balancing the load and/or duplicating data to keep the system up and running in case of hardware failure."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "___________ replicas maintain a copy of the data on the primary using built-in replication.",
+        "options": {
+            "A": "Primary",
+            "B": "Secondary",
+            "C": "Backup",
+            "D": "All of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "When a primary replica fails, the replica set automatically conducts an election process to determine which secondary should become the primary."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "MongoDB scales horizontally using _________ for load balancing purpose.",
+        "options": {
+            "A": "Replication",
+            "B": "Partitioning",
+            "C": "Sharding",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "The user chooses a shard key, which determines how the data in a collection will be distributed."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Each replica set member will act in the role of primary replica only",
+            "B": "The primary replica performs all writes and reads by default",
+            "C": "Secondaries can also perform read operations, but the data is eventually consistent by default",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Each replica set member may act in the role of the primary or secondary replica at any time."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "MongoDB can be used as a ____________ taking advantage of load balancing and data replication features over multiple machines for storing files.",
+        "options": {
+            "A": "AMS",
+            "B": "CMS",
+            "C": "File system",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "The data is split into ranges (based on the shard key) and distributed across multiple shards."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "_____________ can be used for batch processing of data and aggregation operations.",
+        "options": {
+            "A": "Hive",
+            "B": "MapReduce",
+            "C": "Oozie",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The aggregation framework enables users to obtain the kind of results for which the SQL GROUP BY clause is used."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "MongoDB supports fixed-size collections called ____________ collections.",
+        "options": {
+            "A": "primary",
+            "B": "secondary",
+            "C": "capped",
+            "D": "all of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "This type of collection maintains insertion order and, once the specified size has been reached, behaves like a circular queue."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "MongoDB uses a ____________ lock that allows concurrent read access to a database but exclusive write access to a single write operation.",
+        "options": {
+            "A": "readers",
+            "B": "readers-writer",
+            "C": "writer",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Before version 2.2, this lock was implemented on a per-mongod basis. Since version 2.2, the lock has been implemented at the database level."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which of the following sorting is not supported by MongoDB?",
+        "options": {
+            "A": "collation",
+            "B": "collection",
+            "C": "heap",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "MongoDB does not support collation-based sorting and is limited to byte-wise comparison via memcmp."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which of the following is not a NoSQL database?",
+        "options": {
+            "A": "SQL Server",
+            "B": "MongoDB",
+            "C": "Cassandra",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Microsoft SQL Server is a relational database management system developed by Microsoft."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "Documents can contain many different key-value pairs, or key-array pairs, or even nested documents",
+            "B": "MongoDB has official drivers for a variety of popular programming languages and development environments",
+            "C": "When compared to relational databases, NoSQL databases are more scalable and provide superior performance",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "There are also a large number of unofficial or community-supported drivers for other programming languages and frameworks."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following is a NoSQL Database Type?",
+        "options": {
+            "A": "SQL",
+            "B": "Document databases",
+            "C": "JSON",
+            "D": "All of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Document databases pair each key with a complex data structure known as a document."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which of the following is a wide-column store?",
+        "options": {
+            "A": "Cassandra",
+            "B": "Riak",
+            "C": "MongoDB",
+            "D": "Redis"
+        },
+        "answer": "A",
+        "explanation": "Wide-column stores such as Cassandra and HBase are optimized for queries over large datasets, and store columns of data together, instead of rows."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Non Relational databases require that schemas be defined before you can add data",
+            "B": "NoSQL databases are built to allow the insertion of data without a predefined schema",
+            "C": "NewSQL databases are built to allow the insertion of data without a predefined schema",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "There’s also no way, using a relational database, to effectively address data that’s completely unstructured or unknown in advance."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "“Sharding” a database across many server instances can be achieved with _______________",
+        "options": {
+            "A": "LAN",
+            "B": "SAN",
+            "C": "MAN",
+            "D": "All of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "“Sharding” a database across many server instances can be achieved with SQL databases, but usually is accomplished through SANs and other complex arrangements for making hardware act as a single server."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Most NoSQL databases support automatic __________ meaning that you get high availability and disaster recovery.",
+        "options": {
+            "A": "processing",
+            "B": "scalability",
+            "C": "replication",
+            "D": "all of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "The storage environment is essentially virtualized from the developer’s perspective."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following are the simplest NoSQL databases?",
+        "options": {
+            "A": "Key-value",
+            "B": "Wide-column",
+            "C": "Document",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Every single item in the database is stored as an attribute name (or “key”), together with its value in Key-value stores."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "________ stores are used to store information about networks, such as social connections.",
+        "options": {
+            "A": "Key-value",
+            "B": "Wide-column",
+            "C": "Document",
+            "D": "Graph"
+        },
+        "answer": "D",
+        "explanation": "Graph stores include Neo4J and HyperGraphDB."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "NoSQL databases is used mainly for handling large volumes of ______________ data.",
+        "options": {
+            "A": "unstructured",
+            "B": "structured",
+            "C": "semi-structured",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "MongoDB is an a typical choice for unstructured data storage."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "__________ is a part of the standard MongoDB distribution and provides a full JavaScript environment.",
+        "options": {
+            "A": "mongod",
+            "B": "mongodb",
+            "C": "mongo",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "mongo provides complete access to the JavaScript language and all standard functions as well as a full database interface for MongoDB."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "MMS provides backup and monitoring",
+            "B": "MongoDB can also be configured for data replication",
+            "C": "MMS is available to all users in the cloud and on-premises as part of MongoDB Standard and Enterprise Subscriptions",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "MongoDB is limited to a total data size of about 2GB for all databases in 32-bit mode."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "mongo looks for a database server listening on port 27017 on the ________ interface.",
+        "options": {
+            "A": "web",
+            "B": "localhost",
+            "C": "web host",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "To connect to a server on a different port or interface, use the –port and –host options."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "After starting the mongo shell, your session will use the ________ database by default.",
+        "options": {
+            "A": "mongo",
+            "B": "master",
+            "C": "test",
+            "D": "primary"
+        },
+        "answer": "C",
+        "explanation": "At any time, db operation at the mongo shell is used to report the name of the current database."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "MongoDB works right out of the box, and you can dive right into developing your application, instead of spending a lot of time fine-tuning obscure database configurations",
+            "B": "MongoDB works hard to be very easy to install, configure, maintain, and use",
+            "C": "MongoDB does not provide a lot of the features of a traditional RDBMS",
+            "D": "None of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "MongoDB focuses on flexibility, power, speed, and ease of use."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "___________ command display the list of databases.",
+        "options": {
+            "A": "show db",
+            "B": "show dbs",
+            "C": "show data",
+            "D": "display dbs"
+        },
+        "answer": "B",
+        "explanation": "Show dbs print a list of all databases on the server."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which of the following operation is used to switch to new database mydb?",
+        "options": {
+            "A": "use dbs",
+            "B": "use db",
+            "C": "use mydb",
+            "D": "use mydbs"
+        },
+        "answer": "C",
+        "explanation": "Confirm that your session has the mydb database as context, by checking the value of the db object, which returns the name of the current database."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following also returns a list of databases?",
+        "options": {
+            "A": "show databases",
+            "B": "show database",
+            "C": "display dbs",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "show databases is new in version 2.4."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Command to check existence of collection is _____________.",
+        "options": {
+            "A": "show collection",
+            "B": "show collections",
+            "C": "show collect",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The mongo shell will return the list of the collections in the current database."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which of the following method is used to query documents in collections?",
+        "options": {
+            "A": "find",
+            "B": "move",
+            "C": "shell",
+            "D": "replace"
+        },
+        "answer": "A",
+        "explanation": "The find() method with no parameters returns all documents from a collection and returns all fields for the documents."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "When you query a collection, MongoDB returns a ________ object that contains the results of the query.",
+        "options": {
+            "A": "row",
+            "B": "cursor",
+            "C": "colums",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The mongo shell then iterates over the cursor to display the results."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "A database is a set of key-value pairs",
+            "B": "A MongoDB deployment hosts a number of databases",
+            "C": "A document holds a set of collections",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "A database holds a set of collections. A collection holds a set of documents."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following method returns true if the cursor has documents?",
+        "options": {
+            "A": "hasMethod()",
+            "B": "hasNext()",
+            "C": "hasDoc()",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "hasNext() returns true if the cursor returned by the db.collection.find() query can iterate further to return more documents."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "____________ method renders the document in a JSON-like format.",
+        "options": {
+            "A": "displayjson",
+            "B": "print",
+            "C": "printjson",
+            "D": "printdoc"
+        },
+        "answer": "C",
+        "explanation": "printjson() operation displays all documents."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Documents have static schema in MongoDB",
+            "B": "Eventually-consistent reads can be distributed over replicated servers",
+            "C": "Indexes can include keys from embedded documents and arrays",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Dynamic schema means that documents in the same collection do not need to have the same set of fields or structure, and common fields in a collection’s documents may hold different types of data."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which of the following method is called while accessing documents using the array index notation?",
+        "options": {
+            "A": "cur.toArray()",
+            "B": "cursor.toArray()",
+            "C": "doc.toArray()",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The toArray() method returns an array that contains all the documents from a cursor."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The mongo shell and the drivers provide several cursor methods that call on the cursor returned by the _______ method to modify its behavior.",
+        "options": {
+            "A": "cursor()",
+            "B": "find()",
+            "C": "findc()",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The method iterates completely the cursor, loading all the documents."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following method corresponds to Order by clause in SQL?",
+        "options": {
+            "A": "sort()",
+            "B": "order()",
+            "C": "orderby()",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "The sort() method orders the documents in the result set."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The __________ method limits the number of documents in the result set.",
+        "options": {
+            "A": "limit()",
+            "B": "limitOf()",
+            "C": "limitBy()",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "limit() corresponds to the LIMIT statement in SQL."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which of the following line skips the first 5 documents in the bios collection and returns all remaining documents?",
+        "options": {
+            "A": "db.bios.find().limit( 5 )",
+            "B": "db.bios.find().skip( 1 )",
+            "C": "db.bios.find().skip( 5 )",
+            "D": "db.bios.find().sort( 5 )"
+        },
+        "answer": "C",
+        "explanation": "The skip() method controls the starting point of the results set."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "Which of the following is a MongoDB CRUD operation?",
+        "options": {
+            "A": "Create",
+            "B": "Read",
+            "C": "Update",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "CRUD stands for Create, Read, Update, and Delete."
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "What is the purpose of the $ne operator in MongoDB?",
+        "options": {
+            "A": "Selects values that are equal to the specified value",
+            "B": "Selects values that are not equal to the specified value",
+            "C": "Selects values that are greater than the specified value",
+            "D": "Selects values that are less than the specified value"
+        },
+        "answer": "B",
+        "explanation": "The $ne operator selects documents where the value of the field is not equal to the specified value."
+    },
+    {
+        "QN": "13",
+        "type": "mcq",
+        "question": "What is the primary function of the db.collection.find() method?",
+        "options": {
+            "A": "To insert new documents into a collection",
+            "B": "To update existing documents in a collection",
+            "C": "To retrieve documents from a collection",
+            "D": "To delete documents from a collection"
+        },
+        "answer": "C",
+        "explanation": "The db.collection.find() method retrieves documents from a collection."
+    },
+    {
+        "QN": "14",
+        "type": "mcq",
+        "question": "Which of the following MongoDB data types is used to store dates?",
+        "options": {
+            "A": "String",
+            "B": "Integer",
+            "C": "Date",
+            "D": "Boolean"
+        },
+        "answer": "C",
+        "explanation": "MongoDB uses the Date data type to store dates."
+    },
+    {
+        "QN": "15",
+        "type": "mcq",
+        "question": "What is the purpose of the $in operator in MongoDB?",
+        "options": {
+            "A": "Selects values that are equal to at least one value in the specified array",
+            "B": "Selects values that are not equal to any value in the specified array",
+            "C": "Selects values that are greater than all values in the specified array",
+            "D": "Selects values that are less than all values in the specified array"
+        },
+        "answer": "A",
+        "explanation": "The $in operator selects documents where the value of the field is equal to at least one value in the specified array."
+    },
+    {
+        "QN": "16",
+        "type": "mcq",
+        "question": "What is the primary function of the db.collection.updateOne() method?",
+        "options": {
+            "A": "To insert new documents into a collection",
+            "B": "To update a single existing document in a collection",
+            "C": "To retrieve documents from a collection",
+            "D": "To delete documents from a collection"
+        },
+        "answer": "B",
+        "explanation": "The db.collection.updateOne() method updates a single existing document in a collection."
+    },
+    {
+        "QN": "17",
+        "type": "mcq",
+        "question": "Which of the following MongoDB data types is used to store arrays?",
+        "options": {
+            "A": "Array",
+            "B": "Object",
+            "C": "String",
+            "D": "Integer"
+        },
+        "answer": "A",
+        "explanation": "MongoDB uses the Array data type to store arrays."
+    },
+    {
+        "QN": "18",
+        "type": "mcq",
+        "question": "What is the purpose of the $exists operator in MongoDB?",
+        "options": {
+            "A": "Selects documents where the specified field exists",
+            "B": "Selects documents where the specified field does not exist",
+            "C": "Selects documents where the specified field is equal to a specific value",
+            "D": "Selects documents where the specified field is not equal to a specific value"
+        },
+        "answer": "A",
+        "explanation": "The $exists operator selects documents where the specified field exists."
+    },
+    {
+        "QN": "19",
+        "type": "mcq",
+        "question": "What is the primary function of the db.collection.remove() method?",
+        "options": {
+            "A": "To insert new documents into a collection",
+            "B": "To update existing documents in a collection",
+            "C": "To retrieve documents from a collection",
+            "D": "To delete documents from a collection"
+        },
+        "answer": "D",
+        "explanation": "The db.collection.remove() method deletes documents from a collection."
+    },
+    {
+        "QN": "20",
+        "type": "mcq",
+        "question": "Which of the following MongoDB data types is used to store objects?",
+        "options": {
+            "A": "Object",
+            "B": "Array",
+            "C": "String",
+            "D": "Integer"
+        },
+        "answer": "A",
+        "explanation": "MongoDB uses the Object data type to store objects."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which of the following flag can be set by mongo shell?",
+        "options": {
+            "A": "Timeout",
+            "B": "noTimeout",
+            "C": "Time",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "By default, the server will automatically close the cursor after 10 minutes of inactivity or if client has exhausted the cursor."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "Intervening read operations on a document may result in a cursor that returns a document more than once if that document has changed",
+            "B": "The MongoDB server returns the query results in batches",
+            "C": "Subsequent batch size is 50 megabytes",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "For most queries, the first batch returns 101 documents or just enough documents to exceed 1 megabyte."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following will display complete list of available cursor flags?",
+        "options": {
+            "A": "cursor.Option()",
+            "B": "cursor.addOption()",
+            "C": "cursor.addOptions()",
+            "D": "all of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "You should either close the cursor manually or exhaust the cursor."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "To describe the message structure, a ________ like struct is used.",
+        "options": {
+            "A": "Pascal",
+            "B": "C++",
+            "C": "C",
+            "D": "Java"
+        },
+        "answer": "C",
+        "explanation": "The standard message header is typed as MsgHeader. Integer constants are in capitals (e.g. ZERO for the integer value of 0)."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "The MongoDB Wire Protocol is a simple socket-based, request-response style protocol",
+            "B": "For queries that include a sort operation without an index, the server must load all the documents in memory to perform the sort before returning any results",
+            "C": "Clients communicate with the database server through a regular TCP/IP socket",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "MongoDB can perform sort operations without an index, but if an index is not available, it will perform an in-memory sort on the result set. All the other options are correct, such as the MongoDB Wire Protocol is a socket-based protocol, clients communicate with MongoDB servers through a regular TCP/IP socket."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "______________ specifies the number of documents to return in each batch of the response from the MongoDB instance.",
+        "options": {
+            "A": "cursor.batchSize(size)",
+            "B": "cursor.Size(size)",
+            "C": "cursor.batch(size)",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Specifying 1 or a negative number is analogous to using the limit() method."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The __________ method returns a document that includes a metrics field.",
+        "options": {
+            "A": "db.serverStats()",
+            "B": "db.serverStatus()",
+            "C": "db.status()",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The metrics field contains a cursor with number of timed out cursors since the last server restart."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "____________ is a client or database-generated identifier that uniquely identifies this message.",
+        "options": {
+            "A": "messageLength",
+            "B": "responseTo",
+            "C": "requestID",
+            "D": "all of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "For the case of client-generated messages, it will be returned in the responseTo field of the OP_REPLY message."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which of the following operator is not very selective?",
+        "options": {
+            "A": "$nine",
+            "B": "$nin",
+            "C": "$ain",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The inequality operators $nin and $ne are not very selective since they often match a large portion of the index."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "An index cannot cover a query on a _______ collection when run against a mongos if the index does not contain the shard key.",
+        "options": {
+            "A": "vertical",
+            "B": "sharded",
+            "C": "horizontal",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "MongoDB can both match the query conditions and return the results using only the index."
+    },
+    {
+      "QN": "1",
+      "type": "mcq",
+      "question": "___________ concern describes the guarantee that MongoDB provides when reporting on the success of a write operation.",
+      "options": {
+        "A": "Write",
+        "B": "Read",
+        "C": "Update",
+        "D": "None of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "The strength of the write concerns determine the level of guarantee."
+    },
+    {
+      "QN": "2",
+      "type": "mcq",
+      "question": "Point out the correct statement.",
+      "options": {
+        "A": "Read operations on sharded clusters are most efficient when directed to a specific shard",
+        "B": "Sharded clusters allow you to partition a data set among a cluster of mongod instances in a way that is nearly transparent to the application",
+        "C": "For a sharded cluster, applications issue operations to one of the mongos instances associated with the cluster",
+        "D": "All of the mentioned"
+      },
+      "answer": "D",
+      "explanation": "Queries to sharded collections should include the collection’s shard key."
+    },
+    {
+      "QN": "3",
+      "type": "mcq",
+      "question": "When inserts, updates and deletes have a _________ write concern, write operations return quickly.",
+      "options": {
+        "A": "strong",
+        "B": "weak",
+        "C": "average",
+        "D": "very strong"
+      },
+      "answer": "B",
+      "explanation": "With stronger write concerns, clients wait after sending a write operation for MongoDB to confirm the write operations."
+    },
+    {
+      "QN": "4",
+      "type": "mcq",
+      "question": "The mongo shell and the MongoDB drivers use __________ as the default write concern.",
+      "options": {
+        "A": "Nacknowledged",
+        "B": "Acknowledgement",
+        "C": "Acknowledged",
+        "D": "All of the mentioned"
+      },
+      "answer": "C",
+      "explanation": "MongoDB allows clients to read documents inserted or modified before it commits these modifications to disk, regardless of write concern level or journaling configuration."
+    },
+    {
+      "QN": "5",
+      "type": "mcq",
+      "question": "Point out the wrong statement.",
+      "options": {
+        "A": "When a query does not include a shard key, the mongos can use cluster metadata from the config database to route the queries to shards",
+        "B": "On larger clusters, scatter gather queries are unfeasible for routine operations",
+        "C": "Replica sets use read preferences to determine where and how to route read operations to members of the replica set",
+        "D": "None of the mwntioned"
+      },
+      "answer": "A",
+      "explanation": "If a query does not include the shard key, the mongos must direct the query to all shards in the cluster."
+    },
+    {
+      "QN": "6",
+      "type": "mcq",
+      "question": "_____________ is used to control mongod commits in the journal.",
+      "options": {
+        "A": "commitIntervMs",
+        "B": "commitInterval",
+        "C": "commitIntervalMs",
+        "D": "all of the mentioned"
+      },
+      "answer": "C",
+      "explanation": "For replica sets, write operations are durable only after a write replicates and commits to the journal on a majority of the voting members of the set."
+    },
+    {
+      "QN": "7",
+      "type": "mcq",
+      "question": "Clients can set a __________ value as part of a replica acknowledged write concern.",
+      "options": {
+        "A": "timeout",
+        "B": "wtimeout",
+        "C": "waittimeout",
+        "D": "none of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "If the write concern is not satisfied in the specified interval, the operation returns an error, even if the write concern will eventually succeed."
+    },
+    {
+      "QN": "8",
+      "type": "mcq",
+      "question": "MongoDB does not ___________ modifications made before the wtimeout interval expired.",
+      "options": {
+        "A": "commit",
+        "B": "rollback",
+        "C": "save",
+        "D": "all of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "The driver’s ability to detect network errors depends on the system’s networking configuration."
+    },
+    {
+      "QN": "9",
+      "type": "mcq",
+      "question": "With an __________ write concern, MongoDB does not acknowledge the receipt of write operations.",
+      "options": {
+        "A": "Nacknowledged",
+        "B": "Acknowledgement",
+        "C": "Acknowledged",
+        "D": "Unacknowledged"
+      },
+      "answer": "D",
+      "explanation": "Unacknowledged is similar to errors ignored."
+    },
+    {
+      "QN": "10",
+      "type": "mcq",
+      "question": "With a receipt acknowledged write concern, the _________confirms that it received the write operation and applied the change to the in-memory view of data.",
+      "options": {
+        "A": "mongod",
+        "B": "mongos",
+        "C": "mongo",
+        "D": "mongoc"
+      },
+      "answer": "A",
+      "explanation": "Acknowledged write concern allows clients to catch network, duplicate key, and other errors."
+    },
+    {
+      "QN": "1",
+      "type": "mcq",
+      "question": "Indexes are typically available in ______ or located sequentially on disk.",
+      "options": {
+        "A": "RAM",
+        "B": "ROM",
+        "C": "CMOS",
+        "D": "None of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "Querying only the index can be much faster than querying documents outside of the index."
+    },
+    {
+      "QN": "2",
+      "type": "mcq",
+      "question": "Point out the wrong statement.",
+      "options": {
+        "A": "Query selectivity refers to how well the query predicate excludes or filters out documents in a collection",
+        "B": "Query selectivity can determine whether or not queries can use indexes effectively or even use indexes at all",
+        "C": "More selective queries match a larger percentage of documents",
+        "D": "All of the mentioned"
+      },
+      "answer": "C",
+      "explanation": "More selective queries match a smaller percentage of documents."
+    },
+    {
+      "QN": "3",
+      "type": "mcq",
+      "question": "___________ is used to determine whether a query is a covered query.",
+      "options": {
+        "A": "explainstats()",
+        "B": "explain()",
+        "C": "explainall()",
+        "D": "all of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "db.collection.explain() provides information on the execution of other operations, such as db.collection.update()."
+    },
+    {
+      "QN": "4",
+      "type": "mcq",
+      "question": "The ________ message is used to update a document in a collection.",
+      "options": {
+        "A": "UPDATE",
+        "B": "OP_UPDATE",
+        "C": "OP_UPDATES",
+        "D": "All of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "Only the OP_QUERY and OP_GET_MORE messages result in a response from the database."
+    },
+    {
+      "QN": "5",
+      "type": "mcq",
+      "question": "Point out the correct statement.",
+      "options": {
+        "A": "An equality match on the unique _id field is less selective as it can match at most one document",
+        "B": "The selectivity of regular expressions depends on the expressions themselves",
+        "C": "Less selective queries can use indexes effectively or even at all",
+        "D": "All of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "If an index exists for the field, then MongoDB matches the regular expression against the values in the index, which can be faster than a collection scan."
+    },
+    {
+      "QN": "6",
+      "type": "mcq",
+      "question": "_____ can modify specific fields of an existing document or documents or replace an existing document entirely, depending on the update parameter.",
+      "options": {
+        "A": "modify()",
+        "B": "update()",
+        "C": "find()",
+        "D": "none of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "By default, the update() method updates a single document."
+    },
+    {
+      "QN": "7",
+      "type": "mcq",
+      "question": "The update() method uses the _______ command, which uses the default write concern.",
+      "options": {
+        "A": "find",
+        "B": "read",
+        "C": "update",
+        "D": "modify"
+      },
+      "answer": "C",
+      "explanation": "The update() method returns an object that contains the status of the operation."
+    },
+    {
+      "QN": "8",
+      "type": "mcq",
+      "question": "_________ is used to view statistics about the query plan for a given query.",
+      "options": {
+        "A": "db.explain()",
+        "B": "cursor.explain()",
+        "C": "cursor.explainstats()",
+        "D": "all of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "This information can help as you develop indexing strategies."
+    },
+    {
+      "QN": "9",
+      "type": "mcq",
+      "question": "A ________ query plan has returned a threshold number of matching results.",
+      "options": {
+        "A": "execution",
+        "B": "unordered",
+        "C": "ordered",
+        "D": "none of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "An ordered query plan has returned all the matching results."
+    },
+    {
+      "QN": "10",
+      "type": "mcq",
+      "question": "A query _______ consists of a combination of query, sort, and projection specifications.",
+      "options": {
+        "A": "plan",
+        "B": "shape",
+        "C": "stats",
+        "D": "all of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "Index filters determine which indexes the optimizer evaluates for a query shape."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "_________ store the relationships between data by including links or references from one document to another.",
+        "options": {
+            "A": "Capped",
+            "B": "Embedded",
+            "C": "External",
+            "D": "References"
+        },
+        "answer": "D",
+        "explanation": "Applications can resolve these references to access the related data. Broadly, these are normalized data models."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "In practice, the documents in a collection share a different structure",
+            "B": "Data in MongoDB has a flexible schema",
+            "C": "The key challenge in data modeling is balancing the needs of the application, the performance characteristics of the database engine, and the data retrieval patterns",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "MongoDB’s collections do not enforce document structure."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "In MongoDB, write operations are atomic at the __________ level.",
+        "options": {
+            "A": "collection",
+            "B": "document",
+            "C": "row",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "No single write operation can atomically affect more than one document or more than one collection."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "______________ documents capture relationships between data by storing related data in a single document structure.",
+        "options": {
+            "A": "Capped",
+            "B": "Embedded",
+            "C": "External",
+            "D": "Internal"
+        },
+        "answer": "B",
+        "explanation": "MongoDB documents make it possible to embed document structures in a field or array within a document."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "The key decision in designing data models for MongoDB applications revolves around the structure of documents and how the application represents relationships between data",
+            "B": "There are two tools that allow applications to represent these relationships: references and embedded documents",
+            "C": "When designing data models, always consider the application usage of the data (i.e. queries, updates, and processing of the data) as well as the inherent structure of the data itself",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "Denormalized data models allow applications to retrieve and manipulate related data in a single database operation."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "A ____________ data model with embedded data combines all related data for a represented entity in a single document.",
+        "options": {
+            "A": "normalized",
+            "B": "denormalized",
+            "C": "non relational",
+            "D": "relational"
+        },
+        "answer": "B",
+        "explanation": "This facilitates atomic write operations since a single write operation can insert or update the data for an entity."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "For the __________ storage engine, if the document size exceeds the allocated space for that document, MongoDB relocates the document on disk.",
+        "options": {
+            "A": "MAPv1",
+            "B": "MAPv2",
+            "C": "MAPv3",
+            "D": "MAPv4"
+        },
+        "answer": "A",
+        "explanation": "Normalizing the data would split the data across multiple collections and would require multiple write operations that are not atomic collectively."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "With MongoDB 3.0.0, the default use of the Power of _________ Allocations minimizes the occurrences of re-allocations as well as allows for the effective reuse of the freed record space.",
+        "options": {
+            "A": "2 Sized",
+            "B": "3 Sized",
+            "C": "4 Sized",
+            "D": "5 Sized"
+        },
+        "answer": "A",
+        "explanation": "When using MMAPv1, if your applications require updates that will frequently cause document growth to exceeds the current power of 2 allocation, you may want to refactor your data model to use references between data in distinct documents rather than a denormalized data model."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "___________ strategy is used to explicitly avoid document growth.",
+        "options": {
+            "A": "deallocation",
+            "B": "allocation",
+            "C": "pre-allocation",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "A data model that embeds related data in a single document facilitates atomic operations."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Each index in MongoDB requires at least _________ of data space.",
+        "options": {
+            "A": "8KB",
+            "B": "28KB",
+            "C": "68KB",
+            "D": "108KB"
+        },
+        "answer": "A",
+        "explanation": "Adding an index has some negative performance impact for write operations."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "___________ data models allow applications to store related pieces of information in the same database record.",
+        "options": {
+            "A": "Reference",
+            "B": "Embedded",
+            "C": "External",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "As a result, applications may need to issue fewer queries and updates to complete common operations."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "With MongoDB, you cannot embed related data in a single structure or document",
+            "B": "The key consideration for the structure of your documents is the decision to embed or to use references",
+            "C": "Reference schema is generally known as “denormalized” models",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Effective data models support your application needs."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Embedded data model is used when you have _________ relationships between entities.",
+        "options": {
+            "A": "contains",
+            "B": "isa",
+            "C": "inheritance",
+            "D": "all of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "Embedding provides better performance for read operations."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Normalized data models describe relationships using ___________ between documents.",
+        "options": {
+            "A": "relativeness",
+            "B": "references",
+            "C": "evaluation",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Normalized data models can require more round trips to the server."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Embedded data models make it possible to update related data in a single atomic write operation",
+            "B": "Embedding related data in documents may lead to situations where documents grow after creation",
+            "C": "With the MMAPv1 storage engine, document growth can impact write performance and lead to data fragmentation",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "In version 3.0.0, MongoDB uses Power of 2 Sized Allocations as the default allocation strategy for MMAPv1 in order to account for document growth, minimizing the likelihood of data fragmentation."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "To interact with embedded documents, use ___________ notation to “reach into” embedded documents.",
+        "options": {
+            "A": "period",
+            "B": "dot",
+            "C": "comma",
+            "D": "colon"
+        },
+        "answer": "B",
+        "explanation": "References provides more flexibility than embedding."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "MongoDB using the mmapv1 storage engine has limits on the number of __________",
+        "options": {
+            "A": "namespaces",
+            "B": "collections",
+            "C": "documents",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "The namespace file defaults to 16 MB."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "To get the current number of namespaces in the mongo shell, use ________________",
+        "options": {
+            "A": "db.system.namespaces.countc()",
+            "B": "db.system.namespaces.count(*)",
+            "C": "db.system.namespaces.count()",
+            "D": "all of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "The limit on the number of namespaces depend on the <database>.ns size."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The __________ feature of collections expires documents after a period of time.",
+        "options": {
+            "A": "TEL",
+            "B": "TTL",
+            "C": "TPL",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Consider using the TTL feature if your application requires some data to persist in the database for a limited period of time."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Capped collections provide __________ management of inserted documents in MongoDB.",
+        "options": {
+            "A": "FIFO",
+            "B": "LIFO",
+            "C": "LRU",
+            "D": "MRU"
+        },
+        "answer": "A",
+        "explanation": "Capped collections efficiently support operations that insert and read documents based on insertion order."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "_______________ is a specification for storing and retrieving files that exceed the BSON-document size limit of 16MB.",
+        "options": {
+            "A": "DataFS",
+            "B": "GridFS",
+            "C": "ReadFS",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Instead of storing a file in a single document, GridFS divides a file into parts, or chunks."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "By default GridFS limits chunk size to 255k",
+            "B": "GridFS is useful only for storing files that exceed 16MB",
+            "C": "When you query a GridFS store for a file, the driver or client will reassemble the chunks as needed",
+            "D": "All of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "GridFS is useful not only for storing files that exceed 16MB but also for storing any files for which you want to access without having to load the entire file into memory."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "How many does collections GridFS use to store files?",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "answer": "B",
+        "explanation": "One collection stores the file chunks, and the other stores file metadata."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "The default chunk size is changed from 256k to 255k in which version?",
+        "options": {
+            "A": "3.0",
+            "B": "2.4.9",
+            "C": "2.4.10",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "The use of the term chunks in the context of GridFS is not related to the use of the term chunks in the context of sharding."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Client libraries provide a convenient, injection free, process to build these objects",
+            "B": "MongoDB represents queries as BSON objects",
+            "C": "Field names in MongoDB’s query language have semantic meaning",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "If you need to use db.eval() with user supplied values, you can either use a CodeWScope or you can supply extra arguments to your function."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which of the collection in GridFS stores the binary chunks?",
+        "options": {
+            "A": "chunks",
+            "B": "files",
+            "C": "data",
+            "D": "log"
+        },
+        "answer": "A",
+        "explanation": "GridFS places the collections in a common bucket by prefixing each with the bucket name."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "___________ is the _id is of the data type chosen for the original document in files collections.",
+        "options": {
+            "A": "files._id",
+            "B": "file._id",
+            "C": "fileobj._id",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "The default type for MongoDB documents is BSON ObjectId."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following checks and repairs errors and inconsistencies in data storage?",
+        "options": {
+            "A": "repairDatabase",
+            "B": "repairedDatabase",
+            "C": "recoverDatabase",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "repairDatabase is analogous to an fsck command for file systems."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The files_id field contains the _id of the chunk’s __________ document.",
+        "options": {
+            "A": "parent",
+            "B": "child",
+            "C": "top",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "GridFS uses a unique, compound index on the chunks collection for the files_id and n fields."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which of the following field allows efficient retrieval of chunks?",
+        "options": {
+            "A": "n",
+            "B": "name",
+            "C": "object",
+            "D": "2n"
+        },
+        "answer": "A",
+        "explanation": "The GridFS index allows efficient retrieval of chunks using the files_id and n values."
+    },
+    {
+      "QN": "1",
+      "type": "mcq",
+      "question": "The ________ References pattern stores each tree node in a document; in addition to the tree node, the document stores the id of the node’s parent.",
+      "options": {
+        "A": "Child",
+        "B": "Parent",
+        "C": "Root",
+        "D": "None of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "Data model that describes a tree-like structure in MongoDB documents by storing references to “parent” nodes in children nodes."
+    },
+    {
+      "QN": "2",
+      "type": "mcq",
+      "question": "Point out the correct statement.",
+      "options": {
+        "A": "The query to retrieve the parent of a node is fast and straightforward",
+        "B": "The query to retrieve the parent of a node is slow and straightforward",
+        "C": "The query to retrieve the parent of a node is slow and complex",
+        "D": "All of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "You can create an index on the field to enable fast search by the parent node."
+    },
+    {
+      "QN": "3",
+      "type": "mcq",
+      "question": "The ________ Links pattern provides a simple solution to tree storage but requires multiple queries to retrieve subtrees.",
+      "options": {
+        "A": "Child",
+        "B": "Parent",
+        "C": "Root",
+        "D": "All of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "You can query by the parent field to find its immediate children nodes."
+    },
+    {
+      "QN": "4",
+      "type": "mcq",
+      "question": "The _________ References pattern stores each tree node in array the id(s) of the node’s children.",
+      "options": {
+        "A": "Child",
+        "B": "Parent",
+        "C": "Root",
+        "D": "None of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "In addition to the tree node, document stores in an array the id(s) of the node’s children."
+    },
+    {
+      "QN": "5",
+      "type": "mcq",
+      "question": "Point out the wrong statement.",
+      "options": {
+        "A": "You cannot query for a node in the children field to find its parent node only",
+        "B": "You can query for a node in the children field to find its parent node as well as its siblings",
+        "C": "You can query for a node in the children field to find its siblings only",
+        "D": "None of the mentioned"
+      },
+      "answer": "D",
+      "explanation": "The Child References pattern provides a suitable solution to tree storage as long as no operations on subtrees are necessary."
+    },
+    {
+      "QN": "6",
+      "type": "mcq",
+      "question": "Which of the following pattern may provide a suitable solution for storing graphs?",
+      "options": {
+        "A": "Child",
+        "B": "Parent",
+        "C": "Root",
+        "D": "None of the mentioned"
+      },
+      "answer": "D",
+      "explanation": "Node may have multiple parents for Child Parents."
+    },
+    {
+      "QN": "7",
+      "type": "mcq",
+      "question": "Which of the following pattern is more straightforward to use?",
+      "options": {
+        "A": "Materialized Paths",
+        "B": "Array of Ancestors",
+        "C": "Nested Sets",
+        "D": "None of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "The Array of Ancestors pattern stores each tree node in a document; in addition to the tree node, document stores in an array the id(s) of the node’s ancestors or path."
+    },
+    {
+      "QN": "8",
+      "type": "mcq",
+      "question": "The Array of Ancestors pattern is slightly slower than the ________________ pattern.",
+      "options": {
+        "A": "Materialized Paths",
+        "B": "Array of Ancestors",
+        "C": "Nested Sets",
+        "D": "None of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "The Array of Ancestors pattern provides a fast and efficient solution to find the descendants and the ancestors of a node by creating an index on the elements of the ancestors field."
+    },
+    {
+      "QN": "9",
+      "type": "mcq",
+      "question": "The ____________ pattern identifies each node in the tree as stops in a round-trip traversal of the tree.",
+      "options": {
+        "A": "Materialized Paths",
+        "B": "Array of Ancestors",
+        "C": "Nested Sets",
+        "D": "None of the mentioned"
+      },
+      "answer": "C",
+      "explanation": "The Nested Sets pattern stores each tree node in a document; in addition to the tree node, document stores the id of node’s parent, the node’s initial stop in the left field, and its return stop in the right field."
+    },
+    {
+      "QN": "10",
+      "type": "mcq",
+      "question": "____________ pattern requires additional steps of working with strings and regular expressions.",
+      "options": {
+        "A": "Materialized Paths",
+        "B": "Array of Ancestors",
+        "C": "Nested Sets",
+        "D": "None of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "The Materialized Paths pattern stores each tree node in a document; in addition to the tree node, document stores as a string the id(s) of the node’s ancestors or path."
+    },
+    {
+      "QN": "11",
+      "type": "mcq",
+      "question": "Which of the following pattern is best for static trees that do not change?",
+      "options": {
+        "A": "Child",
+        "B": "Parent",
+        "C": "Root",
+        "D": "None of the mentioned"
+      },
+      "answer": "D",
+      "explanation": "The Nested Sets pattern provides a fast and efficient solution for finding subtrees but is inefficient for modifying the tree structure."
+    },
+    {
+      "QN": "12",
+      "type": "mcq",
+      "question": "Point out the correct statement.",
+      "options": {
+        "A": "$regex is used for regular expression pattern matches",
+        "B": "$like is used for regular expression pattern matches",
+        "C": "$reg is used for regular expression pattern matches",
+        "D": "All of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "If your application needs to perform queries on the content of a field that holds text you can perform exact matches on the text."
+    },
+    {
+      "QN": "13",
+      "type": "mcq",
+      "question": "Which of the following operations are atomic on document level?",
+      "options": {
+        "A": "update",
+        "B": "remove",
+        "C": "findAndModify",
+        "D": "all of the mentioned"
+      },
+      "answer": "D",
+      "explanation": "In MongoDB, write operations, e.g. db.collection.update(), db.collection.findAndModify(), db.collection.remove(), are atomic on the level of a single document."
+    },
+    {
+      "QN": "14",
+      "type": "mcq",
+      "question": "___________ bulk indexes may be more efficient for some kinds of content and workloads in real time.",
+      "options": {
+        "A": "Synchronous",
+        "B": "Asynchronous",
+        "C": "Unique",
+        "D": "None of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "MongoDB can support keyword searches using specific data models and multi-key indexes;"
+    },
+    {
+      "QN": "15",
+      "type": "mcq",
+      "question": "Point out the correct statement.",
+      "options": {
+        "A": "An array with a large number of elements will incur greater indexing costs on insertion",
+        "B": "An array with a large number of elements will incur smaller indexing costs on updates",
+        "C": "An array with a small number of elements will incur greater indexing costs on insertion",
+        "D": "None of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "An array with a large number of elements, such as one with several hundred or thousands of keywords will incur greater indexing costs on insertion."
+    },
+    {
+      "QN": "16",
+      "type": "mcq",
+      "question": "_________ indexes can include any field whose value is a string or an array of string elements.",
+      "options": {
+        "A": "text",
+        "B": "string",
+        "C": "char",
+        "D": "none of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "MongoDB provides text indexes to support text search of string content in documents of a collection."
+    },
+    {
+      "QN": "17",
+      "type": "mcq",
+      "question": "Which of the following is related to document that do not provide a way to weight results?",
+      "options": {
+        "A": "Stemming",
+        "B": "Synonyms",
+        "C": "Ranking",
+        "D": "None of the mentioned"
+      },
+      "answer": "C",
+      "explanation": "The keyword look ups described in this document do not provide a way to weight results."
+    },
+    {
+      "QN": "18",
+      "type": "mcq",
+      "question": "Which of the following is related to document that provide support for synonym or related queries in the application layer?",
+      "options": {
+        "A": "Stemming",
+        "B": "Synonyms",
+        "C": "Ranking",
+        "D": "None of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "MongoDB can support keyword searches using specific data models and multi-key indexes."
+    },
+    {
+      "QN": "19",
+      "type": "mcq",
+      "question": "Which of the following is related to the parsing of document for root?",
+      "options": {
+        "A": "Stemming",
+        "B": "Synonyms",
+        "C": "Ranking",
+        "D": "None of the mentioned"
+      },
+      "answer": "A",
+      "explanation": "Keyword queries in MongoDB can not parse keywords for root or related words."
+    },
+    {
+      "QN": "20",
+      "type": "mcq",
+      "question": "To add structures to your document to support keyword-based queries add the keywords as ______ in the array.",
+      "options": {
+        "A": "number",
+        "B": "strings",
+        "C": "character",
+        "D": "none of the mentioned"
+      },
+      "answer": "B",
+      "explanation": "You can then create a multi-key index on the array and create queries that select values from the array."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "__________ precision multiplies the monetary value by a power of 10.",
+        "options": {
+            "A": "Exact",
+            "B": "Accurate",
+            "C": "Ambiguity",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "MongoDB stores numeric data as either IEEE 754 standard 64-bit floating point numbers or as 32-bit or 64-bit signed integers."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "Applications that handle monetary data often require capturing fractional units of currency",
+            "B": "Applications that handle time data often require capturing fractional units of currency",
+            "C": "Applications that handle temporal and spatial data often require capturing fractional units of currency",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Some fractional numeric quantities, such as one third and one tenth, have no exact representation in binary floating point numbers."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following precision uses two values for the field?",
+        "options": {
+            "A": "Exact",
+            "B": "Accurate",
+            "C": "Ambiguity",
+            "D": "None of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "Arbitrary Precision which uses two fields for the value: one field to store the exact monetary value as a non-numeric and another field to store a floating point approximation of the value."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "MongoDB stores times in _____ by default, and will convert any local time representations into this form.",
+        "options": {
+            "A": "UTC",
+            "B": "GMT",
+            "C": "IST",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Applications that must operate or report on some unmodified local time value may store the time zone alongside the UTC timestamp, and compute the original local time in their application logic."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "If you need to query the database for exact, mathematically valid matches, use Exact Precision",
+            "B": "If you regularly need to perform server-side arithmetic on monetary data, the exact precision model may be appropriate",
+            "C": "If you need to query the database for exact, mathematically valid matches, use Ambiguity Precision",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "If you need to be able to do server-side arithmetic, e.g., $inc, $mul, and aggregation framework arithmetic, use Exact Precision."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which of the following is used to handle arbitrary or unforeseen number of precision?",
+        "options": {
+            "A": "Exact",
+            "B": "Accurate",
+            "C": "Ambiguity",
+            "D": "None of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "If there is no need to perform server-side arithmetic on monetary data, modeling monetary data using the arbitrary precision model may be suitable."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Use of the approximation field for the query and sort operations requires that applications perform _______ side post-processing.",
+        "options": {
+            "A": "client",
+            "B": "server",
+            "C": "application",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Client side processing is used to decode the non-numeric representation of the exact value and then filter out the returned documents based on the exact monetary value."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "The ______ factor is a constant and known property of the currency.",
+        "options": {
+            "A": "rank",
+            "B": "scale",
+            "C": "high",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Applications can determine the scale factor from the currency."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "In one field, exact monetary value is encoded as a _________ data type.",
+        "options": {
+            "A": "numeric",
+            "B": "character",
+            "C": "non numeric",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "In one field, exact monetary value is encoded as a non-numeric data type; e.g., BinData or a string."
+    }
+]

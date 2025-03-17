@@ -1,0 +1,2585 @@
+[
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which command is used to initialize a new Git repository?",
+        "options": {
+            "A": "git start",
+            "B": "git init",
+            "C": "git create",
+            "D": "git new"
+        },
+        "answer": "B",
+        "explanation": "The 'git init' command is used to initialize a new Git repository. It creates a new .git subdirectory in the current working directory."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "What does the 'git add' command do?",
+        "options": {
+            "A": "Commits changes to the repository",
+            "B": "Adds files to the staging area",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git add' command adds changes in the working directory to the staging area, preparing them for the next commit."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which command is used to commit changes with a message?",
+        "options": {
+            "A": "git commit -m",
+            "B": "git save -m",
+            "C": "git update -m",
+            "D": "git push -m"
+        },
+        "answer": "A",
+        "explanation": "The 'git commit -m' command is used to commit changes with a message. The message describes the changes made in the commit."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "What does the 'git status' command show?",
+        "options": {
+            "A": "The current branch",
+            "B": "The commit history",
+            "C": "The status of the working directory and staging area",
+            "D": "The remote repositories"
+        },
+        "answer": "C",
+        "explanation": "The 'git status' command shows the status of the working directory and the staging area, including which changes are staged, unstaged, and untracked."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Which command is used to switch to a different branch?",
+        "options": {
+            "A": "git switch",
+            "B": "git checkout",
+            "C": "git change",
+            "D": "git branch"
+        },
+        "answer": "B",
+        "explanation": "The 'git checkout' command is used to switch to a different branch. It updates the files in the working directory to match the version in the specified branch."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "What does the 'git push' command do?",
+        "options": {
+            "A": "Downloads changes from a remote repository",
+            "B": "Uploads changes to a remote repository",
+            "C": "Creates a new branch",
+            "D": "Merges branches"
+        },
+        "answer": "B",
+        "explanation": "The 'git push' command uploads local repository content to a remote repository, sharing the changes with others."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which command is used to create a new branch?",
+        "options": {
+            "A": "git create",
+            "B": "git branch",
+            "C": "git new",
+            "D": "git switch"
+        },
+        "answer": "B",
+        "explanation": "The 'git branch' command is used to create a new branch. It creates a new branch pointer but does not switch to it."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "What does the 'git pull' command do?",
+        "options": {
+            "A": "Uploads changes to a remote repository",
+            "B": "Downloads changes from a remote repository",
+            "C": "Creates a new branch",
+            "D": "Merges branches"
+        },
+        "answer": "B",
+        "explanation": "The 'git pull' command downloads changes from a remote repository and integrates them into the current branch."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Which command is used to view the commit history?",
+        "options": {
+            "A": "git log",
+            "B": "git history",
+            "C": "git commits",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git log' command is used to view the commit history. It shows a list of commits made in the repository."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "What does the 'git merge' command do?",
+        "options": {
+            "A": "Creates a new branch",
+            "B": "Combines changes from different branches",
+            "C": "Deletes a branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git merge' command combines changes from different branches. It integrates changes from one branch into another."
+    },
+    {
+        "QN": "11",
+        "type": "mcq",
+        "question": "Which command is used to delete a branch?",
+        "options": {
+            "A": "git delete",
+            "B": "git remove",
+            "C": "git branch -d",
+            "D": "git branch -r"
+        },
+        "answer": "C",
+        "explanation": "The 'git branch -d' command is used to delete a branch. It deletes the specified branch if it has been fully merged."
+    },
+    {
+        "QN": "12",
+        "type": "mcq",
+        "question": "What does the 'git clone' command do?",
+        "options": {
+            "A": "Creates a new branch",
+            "B": "Copies a remote repository to your local machine",
+            "C": "Merges branches",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git clone' command copies a remote repository to your local machine, creating a working directory with the repository's contents."
+    },
+    {
+        "QN": "13",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the staging area?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the staging area, showing what has changed but not yet staged."
+    },
+    {
+        "QN": "14",
+        "type": "mcq",
+        "question": "What does the 'git reset' command do?",
+        "options": {
+            "A": "Undoes changes in the working directory",
+            "B": "Moves the HEAD pointer to a different commit",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git reset' command moves the HEAD pointer to a different commit, optionally resetting the staging area and working directory to match."
+    },
+    {
+        "QN": "15",
+        "type": "mcq",
+        "question": "Which command is used to apply changes from a specific commit?",
+        "options": {
+            "A": "git apply",
+            "B": "git cherry-pick",
+            "C": "git patch",
+            "D": "git merge"
+        },
+        "answer": "B",
+        "explanation": "The 'git cherry-pick' command is used to apply changes from a specific commit to the current branch."
+    },
+    {
+        "QN": "16",
+        "type": "mcq",
+        "question": "What does the 'git rebase' command do?",
+        "options": {
+            "A": "Merges branches",
+            "B": "Reapplies commits on top of another base tip",
+            "C": "Deletes a branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git rebase' command reapplies commits on top of another base tip, allowing for a linear project history."
+    },
+    {
+        "QN": "17",
+        "type": "mcq",
+        "question": "Which command is used to list all remote repositories?",
+        "options": {
+            "A": "git remote -v",
+            "B": "git list",
+            "C": "git show",
+            "D": "git log"
+        },
+        "answer": "A",
+        "explanation": "The 'git remote -v' command is used to list all remote repositories, showing their URLs."
+    },
+    {
+        "QN": "18",
+        "type": "mcq",
+        "question": "What does the 'git fetch' command do?",
+        "options": {
+            "A": "Uploads changes to a remote repository",
+            "B": "Downloads changes from a remote repository",
+            "C": "Creates a new branch",
+            "D": "Merges branches"
+        },
+        "answer": "B",
+        "explanation": "The 'git fetch' command downloads changes from a remote repository but does not integrate them into the current branch."
+    },
+    {
+        "QN": "19",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two branches, showing what has changed between them."
+    },
+    {
+        "QN": "20",
+        "type": "mcq",
+        "question": "What does the 'git stash' command do?",
+        "options": {
+            "A": "Saves changes in a dirty working directory",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git stash' command saves changes in a dirty working directory, allowing you to switch branches without committing the changes."
+    },
+    {
+        "QN": "21",
+        "type": "mcq",
+        "question": "Which command is used to apply stashed changes?",
+        "options": {
+            "A": "git apply",
+            "B": "git stash apply",
+            "C": "git patch",
+            "D": "git merge"
+        },
+        "answer": "B",
+        "explanation": "The 'git stash apply' command is used to apply stashed changes to the working directory."
+    },
+    {
+        "QN": "22",
+        "type": "mcq",
+        "question": "What does the 'git tag' command do?",
+        "options": {
+            "A": "Creates a new branch",
+            "B": "Marks a specific point in history as important",
+            "C": "Deletes a branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git tag' command marks a specific point in history as important, typically used for marking release points."
+    },
+    {
+        "QN": "23",
+        "type": "mcq",
+        "question": "Which command is used to view the changes introduced by a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git show",
+            "C": "git log",
+            "D": "git status"
+        },
+        "answer": "B",
+        "explanation": "The 'git show' command is used to view the changes introduced by a specific commit."
+    },
+    {
+        "QN": "24",
+        "type": "mcq",
+        "question": "What does the 'git bisect' command do?",
+        "options": {
+            "A": "Merges branches",
+            "B": "Finds the commit that introduced a bug",
+            "C": "Deletes a branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "B",
+        "explanation": "The 'git bisect' command uses binary search to find the commit that introduced a bug."
+    },
+    {
+        "QN": "25",
+        "type": "mcq",
+        "question": "Which command is used to rename a branch?",
+        "options": {
+            "A": "git branch -m",
+            "B": "git rename",
+            "C": "git switch",
+            "D": "git change"
+        },
+        "answer": "A",
+        "explanation": "The 'git branch -m' command is used to rename a branch."
+    },
+    {
+        "QN": "26",
+        "type": "mcq",
+        "question": "What does the 'git clean' command do?",
+        "options": {
+            "A": "Removes untracked files from the working directory",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git clean' command removes untracked files from the working directory."
+    },
+    {
+        "QN": "27",
+        "type": "mcq",
+        "question": "Which command is used to view the configuration settings?",
+        "options": {
+            "A": "git config --list",
+            "B": "git show",
+            "C": "git log",
+            "D": "git status"
+        },
+        "answer": "A",
+        "explanation": "The 'git config --list' command is used to view the configuration settings."
+    },
+    {
+        "QN": "28",
+        "type": "mcq",
+        "question": "What does the 'git revert' command do?",
+        "options": {
+            "A": "Undoes a specific commit by creating a new commit",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git revert' command undoes a specific commit by creating a new commit that reverses the changes."
+    },
+    {
+        "QN": "29",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the last commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and the last commit."
+    },
+    {
+        "QN": "30",
+        "type": "mcq",
+        "question": "What does the 'git reflog' command do?",
+        "options": {
+            "A": "Shows a log of all reference updates",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reflog' command shows a log of all reference updates, including branch checkouts and resets."
+    },
+    {
+        "QN": "31",
+        "type": "mcq",
+        "question": "Which command is used to create a new tag?",
+        "options": {
+            "A": "git tag",
+            "B": "git create",
+            "C": "git new",
+            "D": "git switch"
+        },
+        "answer": "A",
+        "explanation": "The 'git tag' command is used to create a new tag."
+    },
+    {
+        "QN": "32",
+        "type": "mcq",
+        "question": "What does the 'git blame' command do?",
+        "options": {
+            "A": "Shows who last modified each line of a file",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git blame' command shows who last modified each line of a file and when."
+    },
+    {
+        "QN": "33",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two commits?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two commits."
+    },
+    {
+        "QN": "34",
+        "type": "mcq",
+        "question": "What does the 'git archive' command do?",
+        "options": {
+            "A": "Creates an archive of files from a named tree",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git archive' command creates an archive of files from a named tree, typically used for creating release tarballs."
+    },
+    {
+        "QN": "35",
+        "type": "mcq",
+        "question": "Which command is used to view the changes made in the last commit?",
+        "options": {
+            "A": "git show",
+            "B": "git log",
+            "C": "git status",
+            "D": "git diff"
+        },
+        "answer": "A",
+        "explanation": "The 'git show' command is used to view the changes made in the last commit."
+    },
+    {
+        "QN": "36",
+        "type": "mcq",
+        "question": "What does the 'git submodule' command do?",
+        "options": {
+            "A": "Manages submodules within a repository",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git submodule' command manages submodules within a repository, allowing you to include other repositories as subdirectories."
+    },
+    {
+        "QN": "37",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and the last commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and the last commit."
+    },
+    {
+        "QN": "38",
+        "type": "mcq",
+        "question": "What does the 'git grep' command do?",
+        "options": {
+            "A": "Searches for a string in the repository",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git grep' command searches for a string in the repository, including all tracked files."
+    },
+    {
+        "QN": "39",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and the working directory?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the staging area and the working directory."
+    },
+    {
+        "QN": "40",
+        "type": "mcq",
+        "question": "What does the 'git fsck' command do?",
+        "options": {
+            "A": "Verifies the integrity of the repository",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git fsck' command verifies the integrity of the repository, checking for corrupted objects."
+    },
+    {
+        "QN": "41",
+        "type": "mcq",
+        "question": "What does the 'git rebase --interactive' command do?",
+        "options": {
+            "A": "Allows interactive rebasing",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --interactive' command allows interactive rebasing, enabling you to edit, reorder, and squash commits."
+    },
+    {
+        "QN": "42",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the working directory and a specific commit?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between the working directory and a specific commit."
+    },
+    {
+        "QN": "43",
+        "type": "mcq",
+        "question": "What does the 'git cherry-pick' command do?",
+        "options": {
+            "A": "Applies changes from a specific commit",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git cherry-pick' command applies changes from a specific commit to the current branch."
+    },
+    {
+        "QN": "44",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between the staging area and a specific commit?",
+        "options": {
+            "A": "git diff --cached",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff --cached' command is used to view the differences between the staging area and a specific commit."
+    },
+    {
+        "QN": "45",
+        "type": "mcq",
+        "question": "What does the 'git reset --hard' command do?",
+        "options": {
+            "A": "Resets the working directory and staging area to match the last commit",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard' command resets the working directory and staging area to match the last commit, discarding all changes."
+    },
+    {
+        "QN": "46",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific commits?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific commits."
+    },
+    {
+        "QN": "47",
+        "type": "mcq",
+        "question": "What does the 'git rebase --continue' command do?",
+        "options": {
+            "A": "Continues an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --continue' command continues an interrupted rebase after resolving conflicts."
+    },
+    {
+        "QN": "48",
+        "type": "mcq",
+        "question": "What does the 'git reset --soft' command do?",
+        "options": {
+            "A": "Resets the HEAD to a specific commit without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft' command resets the HEAD to a specific commit without changing the working directory or staging area."
+    },
+    {
+        "QN": "49",
+        "type": "mcq",
+        "question": "What does the 'git reset --mixed' command do?",
+        "options": {
+            "A": "Resets the HEAD and staging area to a specific commit",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --mixed' command resets the HEAD and staging area to a specific commit, but leaves the working directory unchanged."
+    },
+    {
+        "QN": "50",
+        "type": "mcq",
+        "question": "What does the 'git rebase --abort' command do?",
+        "options": {
+            "A": "Aborts an interrupted rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --abort' command aborts an interrupted rebase, restoring the repository to its state before the rebase started."
+    },
+    {
+        "QN": "51",
+        "type": "mcq",
+        "question": "Which command is used to view the differences between two specific branches?",
+        "options": {
+            "A": "git diff",
+            "B": "git status",
+            "C": "git log",
+            "D": "git show"
+        },
+        "answer": "A",
+        "explanation": "The 'git diff' command is used to view the differences between two specific branches."
+    },
+    {
+        "QN": "52",
+        "type": "mcq",
+        "question": "What does the 'git rebase --skip' command do?",
+        "options": {
+            "A": "Skips the current commit during a rebase",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git rebase --skip' command skips the current commit during a rebase, typically used when a conflict cannot be resolved."
+    },
+    {
+        "QN": "53",
+        "type": "mcq",
+        "question": "What does the 'git reset --hard HEAD~7' command do?",
+        "options": {
+            "A": "Resets the HEAD to seven commits ago, discarding all changes",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --hard HEAD~7' command resets the HEAD to seven commits ago, discarding all changes in the working directory and staging area."
+    },
+    {
+        "QN": "54",
+        "type": "mcq",
+        "question": "What does the 'git reset --soft HEAD~7' command do?",
+        "options": {
+            "A": "Resets the HEAD to seven commits ago without changing the working directory or staging area",
+            "B": "Deletes a branch",
+            "C": "Creates a new branch",
+            "D": "Pushes changes to a remote repository"
+        },
+        "answer": "A",
+        "explanation": "The 'git reset --soft HEAD~7' command resets the HEAD to seven commits ago without changing the working directory or staging area."
+    },
+    {
+        "QN": "55",
+        "type": "mcq",
+        "question": "Which of the following CLI command can also be used to rename files?",
+        "options": {
+            "A": "rm",
+            "B": "mv",
+            "C": "rm -r",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "mv stands for move."
+    },
+    {
+        "QN": "56",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "CLI can help you to organize messages",
+            "B": "CLI can help you to organize files and folders",
+            "C": "Navigation of directory is possible using CLI",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "CLI stands for Command Line Interface."
+    },
+    {
+        "QN": "57",
+        "type": "mcq",
+        "question": "Which of the following command allows you to change directory to one level above your parent directory?",
+        "options": {
+            "A": "cd",
+            "B": "cd.",
+            "C": "cd..",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "cd stands for change directory."
+    },
+    {
+        "QN": "58",
+        "type": "mcq",
+        "question": "Which of the following is not a CLI command?",
+        "options": {
+            "A": "delete",
+            "B": "rm",
+            "C": "clear",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "rm can be used to remove files and directories."
+    },
+    {
+        "QN": "59",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Command is the CLI command which does a specific task",
+            "B": "There is one and only flag for every command in CLI",
+            "C": "Flags are the options given to command for activating particular behaviour",
+            "D": "All of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Depending on the command, there can be zero or more flags and arguments."
+    },
+    {
+        "QN": "60",
+        "type": "mcq",
+        "question": "Which of the following systems record changes to a file over time?",
+        "options": {
+            "A": "Record Control",
+            "B": "Version Control",
+            "C": "Forecast Control",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Version control is also known as revision control."
+    },
+    {
+        "QN": "61",
+        "type": "mcq",
+        "question": "Which of the following is a revision control system?",
+        "options": {
+            "A": "Git",
+            "B": "NumPy",
+            "C": "Slidify",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+    },
+    {
+        "QN": "62",
+        "type": "mcq",
+        "question": "Which of the following command line environment is used for interacting with Git?",
+        "options": {
+            "A": "GitHub",
+            "B": "Git Bash",
+            "C": "Git Boot",
+            "D": "All of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Git for Windows provides a BASH emulation used to run Git from the command line."
+    },
+    {
+        "QN": "63",
+        "type": "mcq",
+        "question": "Which of the following web hosting service use Git control system?",
+        "options": {
+            "A": "GitHub",
+            "B": "Open Hash",
+            "C": "Git Bash",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "GitHub is a Web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git."
+    },
+    {
+        "QN": "64",
+        "type": "mcq",
+        "question": "cp command can be used to copy the content of directories.",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "answer": "B",
+        "explanation": "-r flag should be used for copying the content."
+    },
+    {
+        "QN": "65",
+        "type": "mcq",
+        "question": "Which of the following adds all new files to local repository?",
+        "options": {
+            "A": "git add .",
+            "B": "git add -u",
+            "C": "git add -A",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "You should do this before committing."
+    },
+    {
+        "QN": "66",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "You don\u00e2\u20ac\u2122t need GitHub to use Git",
+            "B": "CLI can help you to organize files and folders",
+            "C": "Navigation of directory is possible using CLI",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "CLI stands for Command Line Interface."
+    },
+    {
+        "QN": "67",
+        "type": "mcq",
+        "question": "Which of the following command updates tracking for files that are modified?",
+        "options": {
+            "A": "git add .",
+            "B": "git add -u",
+            "C": "git add -A",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The git add command adds a change in the working directory to the staging area."
+    },
+    {
+        "QN": "68",
+        "type": "mcq",
+        "question": "Which of the following command is used to give a message description?",
+        "options": {
+            "A": "git command -m",
+            "B": "git command -d",
+            "C": "git command -message",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "This only updates your local repository."
+    },
+    {
+        "QN": "69",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "You need GitHub to use Git",
+            "B": "GitHub allows you to share repositories with others",
+            "C": "GitHub allows you to access others repositories",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "GitHub can store a remote copy of your repository."
+    },
+    {
+        "QN": "70",
+        "type": "mcq",
+        "question": "Which of the following command allows you to update the repository?",
+        "options": {
+            "A": "push",
+            "B": "pop",
+            "C": "update",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "The git branch command is your general-purpose branch administration tool."
+    },
+    {
+        "QN": "71",
+        "type": "mcq",
+        "question": "Which of the following is the correct way of creating GitHub repository in to well labelled commits?",
+        "options": {
+            "A": "Fork another user\u00e2\u20ac\u2122s repository",
+            "B": "Pop another user\u00e2\u20ac\u2122s repository",
+            "C": "Zip another user\u00e2\u20ac\u2122s repository",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "A fork is a copy of a repository."
+    },
+    {
+        "QN": "72",
+        "type": "mcq",
+        "question": "Which of the following command is used to squash the commits?",
+        "options": {
+            "A": "rebase",
+            "B": "squash",
+            "C": "boot",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase."
+    },
+    {
+        "QN": "73",
+        "type": "mcq",
+        "question": "Which of the following statement would create branch named as \u00e2\u20ac\u02dcsanfoundry\u00e2\u20ac\u2122?",
+        "options": {
+            "A": "git checkout -b sanfoundry",
+            "B": "git checkout -c sanfoundry",
+            "C": "git check -b sanfoundry",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "A branch in Git is simply a lightweight movable pointer to one of these commits."
+    },
+    {
+        "QN": "74",
+        "type": "mcq",
+        "question": "branch command is used to determine which branch you are currently in.",
+        "options": {
+            "A": "True",
+            "B": "False"
+        },
+        "answer": "B",
+        "explanation": "-r flag should be used for copying the content."
+    },
+    {
+        "QN": "75",
+        "type": "mcq",
+        "question": "What is Git?",
+        "options": {
+            "A": "A programming language",
+            "B": "A version control system",
+            "C": "An operating system",
+            "D": "A text editor"
+        },
+        "answer": "B",
+        "explanation": "Git is a distributed version control system that allows multiple users to track and manage changes in software projects."
+    },
+    {
+        "QN": "76",
+        "type": "mcq",
+        "question": "Which command initializes a new Git repository?",
+        "options": {
+            "A": "git create",
+            "B": "git init",
+            "C": "git start",
+            "D": "git new"
+        },
+        "answer": "B",
+        "explanation": "The `git init` command is used to initialize a new Git repository and begin tracking an existing directory."
+    },
+    {
+        "QN": "77",
+        "type": "mcq",
+        "question": "How can you view the commit history in Git?",
+        "options": {
+            "A": "git history",
+            "B": "git log",
+            "C": "git commits",
+            "D": "git show"
+        },
+        "answer": "B",
+        "explanation": "The `git log` command displays the commit history, showing various details about each commit."
+    },
+    {
+        "QN": "78",
+        "type": "mcq",
+        "question": "Which command adds changes to the staging area in Git?",
+        "options": {
+            "A": "git stage",
+            "B": "git track",
+            "C": "git add",
+            "D": "git commit"
+        },
+        "answer": "C",
+        "explanation": "The `git add` command stages the changes for commit, which means it tracks the new and modified files to be committed."
+    },
+    {
+        "QN": "79",
+        "type": "mcq",
+        "question": "Which command shows the status of changes in the repository?",
+        "options": {
+            "A": "git status",
+            "B": "git check",
+            "C": "git changes",
+            "D": "git info"
+        },
+        "answer": "A",
+        "explanation": "The `git status` command displays the list of changed files that are staged, unstaged, and untracked."
+    },
+    {
+        "QN": "80",
+        "type": "mcq",
+        "question": "How do you commit the staged changes?",
+        "options": {
+            "A": "git save",
+            "B": "git commit",
+            "C": "git push",
+            "D": "git apply"
+        },
+        "answer": "B",
+        "explanation": "The `git commit` command captures a snapshot of the changes made and saves it to the version history with a unique ID."
+    },
+    {
+        "QN": "81",
+        "type": "mcq",
+        "question": "What does the .git directory store?",
+        "options": {
+            "A": "Temporary files",
+            "B": "User preferences",
+            "C": "The Git repository metadata and object database",
+            "D": "Log files"
+        },
+        "answer": "C",
+        "explanation": "The `.git` directory contains all the metadata and the object database for the repository. It's the heart of Git, and the repository itself."
+    },
+    {
+        "QN": "82",
+        "type": "mcq",
+        "question": "Which command creates a new branch in Git?",
+        "options": {
+            "A": "git branch new",
+            "B": "git create branch",
+            "C": "git new branch",
+            "D": "git branch <branch-name>"
+        },
+        "answer": "D",
+        "explanation": "Using `git branch <branch-name>`, you can create a new branch. This doesn't switch to the new branch; you'd use git checkout or git switch for that."
+    },
+    {
+        "QN": "83",
+        "type": "mcq",
+        "question": "How do you switch to a different branch in Git?",
+        "options": {
+            "A": "git change <branch-name>",
+            "B": "git switch <branch-name>",
+            "C": "git move <branch-name>",
+            "D": "git branch switch <branch-name>"
+        },
+        "answer": "B",
+        "explanation": "The `git switch <branch-name>` command allows you to switch to a different branch. Before Git version 2.23, the common approach was git checkout <branch-name>."
+    },
+    {
+        "QN": "84",
+        "type": "mcq",
+        "question": "Which command merges one branch into another?",
+        "options": {
+            "A": "git combine",
+            "B": "git merge",
+            "C": "git integrate",
+            "D": "git join"
+        },
+        "answer": "B",
+        "explanation": "The `git merge` command integrates changes from one branch into another. This is commonly used when features or bug fixes from one branch need to be brought into the main branch."
+    },
+    {
+        "QN": "85",
+        "type": "mcq",
+        "question": "What is a merge conflict?",
+        "options": {
+            "A": "A successful merge",
+            "B": "A merge that is automatically resolved",
+            "C": "A merge that requires manual resolution due to conflicting changes",
+            "D": "A merge that is not allowed"
+        },
+        "answer": "C",
+        "explanation": "A *merge conflict* occurs when there are changes in the same part of a file in both the current branch and the branch to be merged. Git cannot decide which change should take precedence, so it asks the user to resolve the conflict."
+    },
+    {
+        "QN": "86",
+        "type": "mcq",
+        "question": "Which command is used to clone a remote repository?",
+        "options": {
+            "A": "git copy",
+            "B": "git clone",
+            "C": "git download",
+            "D": "git import"
+        },
+        "answer": "B",
+        "explanation": "The `git clone` command is used to clone (or copy) a remote repository onto your local machine."
+    },
+    {
+        "QN": "87",
+        "type": "mcq",
+        "question": "Which command connects a local repository to a remote server?",
+        "options": {
+            "A": "git remote connect",
+            "B": "git remote add",
+            "C": "git connect remote",
+            "D": "git link remote"
+        },
+        "answer": "B",
+        "explanation": "The `git remote add` command connects a local repository to a remote server. This is often followed by a URL representing the location of the remote repository."
+    },
+    {
+        "QN": "88",
+        "type": "mcq",
+        "question": "How do you fetch the latest updates from a remote repository without merging them?",
+        "options": {
+            "A": "git update",
+            "B": "git fetch",
+            "C": "git sync",
+            "D": "git pull"
+        },
+        "answer": "B",
+        "explanation": "The `git fetch` command fetches updates from a remote repository but doesn't merge them. It allows you to review changes before integrating them."
+    },
+    {
+        "QN": "89",
+        "type": "mcq",
+        "question": "How do you push changes from a local branch to a remote repository?",
+        "options": {
+            "A": "git upload",
+            "B": "git push",
+            "C": "git sync",
+            "D": "git commit"
+        },
+        "answer": "B",
+        "explanation": "The `git push` command pushes changes from your local branch to a remote repository. This updates the remote branch with your local changes."
+    },
+    {
+        "QN": "90",
+        "type": "mcq",
+        "question": "What does the HEAD in Git represent?",
+        "options": {
+            "A": "The first commit in the repository",
+            "B": "The current branch",
+            "C": "A pointer to the current commit",
+            "D": "A pointer to the remote repository"
+        },
+        "answer": "C",
+        "explanation": "In Git, HEAD is a special pointer or reference that points to the currently checked-out commit in the repository."
+    },
+    {
+        "QN": "91",
+        "type": "mcq",
+        "question": "How can you undo the most recent commit?",
+        "options": {
+            "A": "git revert HEAD",
+            "B": "git undo",
+            "C": "git reset HEAD~1",
+            "D": "git delete commit"
+        },
+        "answer": "C",
+        "explanation": "The `git reset HEAD~1` command moves the current branch pointer back to the previous commit, effectively undoing the most recent commit. Note that there are different modes (like --soft, --hard) which decide the fate of changes during this operation."
+    },
+    {
+        "QN": "92",
+        "type": "mcq",
+        "question": "Which command is used to stash changes in Git?",
+        "options": {
+            "A": "git hide",
+            "B": "git mask",
+            "C": "git stash",
+            "D": "git store"
+        },
+        "answer": "C",
+        "explanation": "The `git stash` command temporarily saves changes that are not yet ready for a commit, allowing you to switch to another branch without committing the current changes."
+    },
+    {
+        "QN": "93",
+        "type": "mcq",
+        "question": "How do you create a tag in Git?",
+        "options": {
+            "A": "git mark",
+            "B": "git label",
+            "C": "git tag",
+            "D": "git release"
+        },
+        "answer": "C",
+        "explanation": "In Git, the `git tag` command creates a reference point (or marker) for specific points in your project history. It's often used to mark release points."
+    },
+    {
+        "QN": "94",
+        "type": "mcq",
+        "question": "Which of the following is not a valid merge strategy in Git?",
+        "options": {
+            "A": "fast-forward",
+            "B": "recursive",
+            "C": "octopus",
+            "D": "squid"
+        },
+        "answer": "D",
+        "explanation": "Git supports various merge strategies like fast-forward, recursive, and octopus. \"squid\" is not a merge strategy in Git."
+    },
+    {
+        "QN": "95",
+        "type": "mcq",
+        "question": "Which command lists all the branches in a Git repository?",
+        "options": {
+            "A": "git list branches",
+            "B": "git show branches",
+            "C": "git branch",
+            "D": "git all branches"
+        },
+        "answer": "C",
+        "explanation": "The `git branch` command, when used without any arguments, lists all the branches in a Git repository."
+    },
+    {
+        "QN": "96",
+        "type": "mcq",
+        "question": "What does the git cherry-pick command do?",
+        "options": {
+            "A": "Merges all branches into the current branch",
+            "B": "Deletes a branch",
+            "C": "Applies a specific commit from one branch to another",
+            "D": "Lists all commits"
+        },
+        "answer": "C",
+        "explanation": "The `git cherry-pick` command allows you to take a commit from another branch and apply it to your current branch."
+    },
+    {
+        "QN": "97",
+        "type": "mcq",
+        "question": "How do you remove untracked files from your working directory?",
+        "options": {
+            "A": "git delete",
+            "B": "git clean",
+            "C": "git remove",
+            "D": "git erase"
+        },
+        "answer": "B",
+        "explanation": "The `git clean` command removes untracked files from your working directory, ensuring your workspace is tidy."
+    },
+    {
+        "QN": "98",
+        "type": "mcq",
+        "question": "What is a bare repository in Git?",
+        "options": {
+            "A": "A repository with no commits",
+            "B": "A repository with no working directory",
+            "C": "A repository with only the latest version of the files",
+            "D": "A temporary repository"
+        },
+        "answer": "B",
+        "explanation": "A bare repository in Git is a repository that contains only the .git directory and no working directory. It's typically used for shared repositories and remotes."
+    },
+    {
+        "QN": "99",
+        "type": "mcq",
+        "question": "How do you view the differences between the working directory and the last commit?",
+        "options": {
+            "A": "git show",
+            "B": "git diff",
+            "C": "git changes",
+            "D": "git view"
+        },
+        "answer": "B",
+        "explanation": "The `git diff` command shows the differences between the working directory and the last commit. It's a useful tool to see the changes made before committing them."
+    },
+    {
+        "QN": "100",
+        "type": "mcq",
+        "question": "What is Git?",
+        "options": {
+            "A": "A web-based platform for hosting Git repositories",
+            "B": "A distributed version control system",
+            "C": "An Integrated Development Environment",
+            "D": "A project management tool"
+        },
+        "answer": "B",
+        "explanation": "Git is a distributed version control system that allows multiple developers to collaborate on a project. Each developer has a full copy of the project history locally. It is designed to track changes in source code and manage project versions."
+    },
+    {
+        "QN": "101",
+        "type": "mcq",
+        "question": "What is the primary purpose of GitHub?",
+        "options": {
+            "A": "To manage operating systems",
+            "B": "To provide cloud storage",
+            "C": "To host Git repositories and facilitate collaboration",
+            "D": "To create mobile applications"
+        },
+        "answer": "C",
+        "explanation": "GitHub is a web-based platform used for hosting Git repositories. It enables collaboration by providing tools for version control, issue tracking, and project management, making it easier for teams to work together."
+    },
+    {
+        "QN": "102",
+        "type": "mcq",
+        "question": "What is the command to initialize a new Git repository?",
+        "options": {
+            "A": "git init",
+            "B": "git start",
+            "C": "git create",
+            "D": "git begin"
+        },
+        "answer": "A",
+        "explanation": "The `git init` command initializes a new Git repository in the current directory. It creates a hidden `.git` folder that stores the repository\u00e2\u20ac\u2122s metadata, including history and configuration."
+    },
+    {
+        "QN": "103",
+        "type": "mcq",
+        "question": "What is a commit in Git?",
+        "options": {
+            "A": "A command to start a new project",
+            "B": "A snapshot of the project at a specific point in time",
+            "C": "A way to delete files",
+            "D": "A method for merging branches"
+        },
+        "answer": "B",
+        "explanation": "A commit in Git is a snapshot of the project at a specific point in time. It captures the changes made to files and directories, storing them in the repository's history. Each commit has a unique identifier (SHA) and contains metadata such as the author, date, and commit message."
+    },
+    {
+        "QN": "104",
+        "type": "mcq",
+        "question": "How do you check the status of your Git repository?",
+        "options": {
+            "A": "git check",
+            "B": "git status",
+            "C": "git info",
+            "D": "git log"
+        },
+        "answer": "B",
+        "explanation": "The `git status` command displays the state of your working directory and staging area. It shows which files are staged for the next commit, which are modified but not yet staged, and which are untracked by Git."
+    },
+    {
+        "QN": "105",
+        "type": "mcq",
+        "question": "How do you add changes to the staging area in Git?",
+        "options": {
+            "A": "git add",
+            "B": "git commit",
+            "C": "git stage",
+            "D": "git push"
+        },
+        "answer": "A",
+        "explanation": "The `git add` command is used to add changes to the staging area in Git. This prepares the files for the next commit. You can add individual files, multiple files, or all changes using commands like `git add filename` or `git add .` to stage everything."
+    },
+    {
+        "QN": "106",
+        "type": "mcq",
+        "question": "How do you commit changes in Git?",
+        "options": {
+            "A": "git add",
+            "B": "git commit",
+            "C": "git push",
+            "D": "git save"
+        },
+        "answer": "B",
+        "explanation": "The `git commit` command is used to save changes to the local repository. After staging changes with `git add`, you can use `git commit -m \"message\"` to create a commit with a message describing the changes."
+    },
+    {
+        "QN": "107",
+        "type": "mcq",
+        "question": "What is the command to view the commit history in Git?",
+        "options": {
+            "A": "git history",
+            "B": "git log",
+            "C": "git commit",
+            "D": "git show"
+        },
+        "answer": "B",
+        "explanation": "The `git log` command displays the commit history of the repository. It shows details like the commit hash, author, date, and the commit message. By default, it lists all the commits in reverse chronological order."
+    },
+    {
+        "QN": "108",
+        "type": "mcq",
+        "question": "How do you remove a file from the staging area in Git?",
+        "options": {
+            "A": "git reset",
+            "B": "git delete",
+            "C": "git remove",
+            "D": "git rm --cached"
+        },
+        "answer": "D",
+        "explanation": "The `git rm --cached` command is used to remove a file from the staging area without deleting it from the working directory. This command only unstages the file, so it will not be included in the next commit, but it remains in the directory."
+    },
+    {
+        "QN": "109",
+        "type": "mcq",
+        "question": "What is a branch in Git?",
+        "options": {
+            "A": "A way to manage files",
+            "B": "A pointer to a specific commit in the repository",
+            "C": "A tool for merging code",
+            "D": "A method to create backups"
+        },
+        "answer": "B",
+        "explanation": "A branch in Git is a pointer to a specific commit in the repository. It allows developers to work on different features, bug fixes, or experiments independently without affecting the main project."
+    },
+    {
+        "QN": "110",
+        "type": "mcq",
+        "question": "What is the command to create a new branch in Git?",
+        "options": {
+            "A": "git branch new-branch",
+            "B": "git new-branch",
+            "C": "git checkout branch",
+            "D": "git switch branch"
+        },
+        "answer": "A",
+        "explanation": "The `git branch new-branch` command creates a new branch named \"new-branch\" in the current repository. This branch is based on the current commit and allows you to work on changes independently from other branches."
+    },
+    {
+        "QN": "111",
+        "type": "mcq",
+        "question": "What is the command to switch to another branch in Git?",
+        "options": {
+            "A": "git checkout branch-name",
+            "B": "git switch branch-name",
+            "C": "git change branch-name",
+            "D": "Both A and B"
+        },
+        "answer": "D",
+        "explanation": "In Git, you can switch to another branch using either `git checkout branch-name` or `git switch branch-name`. The `checkout` command was traditionally used for this purpose, but newer versions of Git introduced the `switch` command for clarity."
+    },
+    {
+        "QN": "112",
+        "type": "mcq",
+        "question": "How do you merge a branch into the current branch in Git?",
+        "options": {
+            "A": "git merge branch-name",
+            "B": "git merge commit",
+            "C": "git combine branch-name",
+            "D": "git rebase branch-name"
+        },
+        "answer": "A",
+        "explanation": "The `git merge branch-name` command is used to merge another branch into the current branch. For example, if you're on the main branch and want to merge a feature branch, you would run `git merge feature-branch`."
+    },
+    {
+        "QN": "113",
+        "type": "mcq",
+        "question": "What is a conflict in Git?",
+        "options": {
+            "A": "A type of commit",
+            "B": "An error in the code",
+            "C": "A situation where two branches have made changes to the same lines of code",
+            "D": "A problem with the Git installation"
+        },
+        "answer": "C",
+        "explanation": "A conflict in Git occurs when two branches have made changes to the same lines of code or the same file, and Git is unable to automatically merge them. This typically happens when different developers make changes to the same part of the codebase."
+    },
+    {
+        "QN": "114",
+        "type": "mcq",
+        "question": "What is a pull request in GitHub?",
+        "options": {
+            "A": "A request to download a repository",
+            "B": "A request to merge changes from one branch into another",
+            "C": "A command to update Git",
+            "D": "A feature to create a new repository"
+        },
+        "answer": "B",
+        "explanation": "A pull request in GitHub is a request to merge changes from one branch into another, typically from a feature branch to the main branch. It allows developers to review, discuss, and approve changes before they are merged into the main project."
+    },
+    {
+        "QN": "115",
+        "type": "mcq",
+        "question": "How do you clone a Git repository?",
+        "options": {
+            "A": "git clone",
+            "B": "git pull",
+            "C": "git fetch",
+            "D": "git copy"
+        },
+        "answer": "A",
+        "explanation": "The `git clone` command is used to copy a Git repository from a remote server to your local machine. It downloads the entire history of the repository and creates a working directory for you to start working on the project."
+    },
+    {
+        "QN": "116",
+        "type": "mcq",
+        "question": "What is the command to fetch changes from a remote repository without merging them?",
+        "options": {
+            "A": "git pull",
+            "B": "git fetch",
+            "C": "git merge",
+            "D": "git update"
+        },
+        "answer": "B",
+        "explanation": "The `git fetch` command retrieves updates from a remote repository but does not automatically merge them into your working directory. This allows you to review the changes before deciding whether to merge them into your branch."
+    },
+    {
+        "QN": "117",
+        "type": "mcq",
+        "question": "How do you push your changes to a remote repository?",
+        "options": {
+            "A": "git commit",
+            "B": "git push",
+            "C": "git send",
+            "D": "git upload"
+        },
+        "answer": "B",
+        "explanation": "The `git push` command is used to upload local repository changes to a remote repository. It transfers commits from your local branch to the corresponding branch on the remote server, making your changes available to other collaborators."
+    },
+    {
+        "QN": "118",
+        "type": "mcq",
+        "question": "What is a fork in GitHub?",
+        "options": {
+            "A": "A type of branch",
+            "B": "A personal copy of someone else's repository",
+            "C": "A tool for merging code",
+            "D": "A way to create a new project"
+        },
+        "answer": "B",
+        "explanation": "A fork in GitHub is a personal copy of someone else's repository that you create in your GitHub account. Forking a repository allows you to experiment with changes without affecting the original project."
+    },
+    {
+        "QN": "119",
+        "type": "mcq",
+        "question": "How do you pull changes from a remote repository and merge them into your local branch?",
+        "options": {
+            "A": "git fetch",
+            "B": "git pull",
+            "C": "git merge",
+            "D": "git checkout"
+        },
+        "answer": "B",
+        "explanation": "The `git pull` command is used to fetch changes from a remote repository and automatically merge them into your local branch. It combines the functionality of `git fetch` and `git merge` in a single step."
+    },
+    {
+        "QN": "120",
+        "type": "mcq",
+        "question": "How do you delete a branch locally in Git?",
+        "options": {
+            "A": "git branch -d branch-name",
+            "B": "git remove branch-name",
+            "C": "git delete branch-name",
+            "D": "git erase branch-name"
+        },
+        "answer": "A",
+        "explanation": "The `git branch -d branch-name` command is used to delete a branch locally in Git. It removes the specified branch from your local repository but does not affect any remote branches."
+    },
+    {
+        "QN": "121",
+        "type": "mcq",
+        "question": "What does `git stash` do in Git?",
+        "options": {
+            "A": "Deletes a branch",
+            "B": "Saves uncommitted changes temporarily",
+            "C": "Merges two branches",
+            "D": "Initializes a repository"
+        },
+        "answer": "B",
+        "explanation": "The `git stash` command temporarily saves uncommitted changes in your working directory without committing them. It allows you to clean your working directory without losing changes and later restore them when needed."
+    },
+    {
+        "QN": "122",
+        "type": "mcq",
+        "question": "How do you list all the branches in a Git repository?",
+        "options": {
+            "A": "git list",
+            "B": "git branches",
+            "C": "git show-branches",
+            "D": "git branch"
+        },
+        "answer": "D",
+        "explanation": "The `git branch` command lists all the branches in your repository. It shows the currently checked-out branch with an asterisk (`*`) next to it."
+    },
+    {
+        "QN": "123",
+        "type": "mcq",
+        "question": "How do you reset the current branch to a specific commit?",
+        "options": {
+            "A": "git revert commit-hash",
+            "B": "git reset commit-hash",
+            "C": "git delete commit-hash",
+            "D": "git undo commit-hash"
+        },
+        "answer": "B",
+        "explanation": "The `git reset commit-hash` command resets the current branch to a specific commit. It modifies the commit history by moving the current branch pointer to the specified commit and optionally changing the working directory and index."
+    },
+    {
+        "QN": "124",
+        "type": "mcq",
+        "question": "What is the command to undo the last commit in Git?",
+        "options": {
+            "A": "git reset --hard HEAD^",
+            "B": "git revert HEAD",
+            "C": "git delete HEAD",
+            "D": "Both A and B"
+        },
+        "answer": "D",
+        "explanation": "In Git, you can undo the last commit using either `git reset --hard HEAD^` or `git revert HEAD`. The `git reset` command removes the commit and changes, while `git revert` creates a new commit that undoes the changes made by the last commit."
+    },
+    {
+        "QN": "125",
+        "type": "mcq",
+        "question": "What is the purpose of a GitHub repository's `README.md` file?",
+        "options": {
+            "A": "To store code files",
+            "B": "To describe the project and provide relevant information",
+            "C": "To manage project dependencies",
+            "D": "To store user settings"
+        },
+        "answer": "B",
+        "explanation": "A `README.md` file in a GitHub repository is used to describe the project, provide installation instructions, usage details, and any other relevant information. It is written in Markdown and typically serves as the first document users see when they visit the repository."
+    },
+    {
+        "QN": "126",
+        "type": "mcq",
+        "question": "How do you remove a file from both the working directory and Git index?",
+        "options": {
+            "A": "git delete file",
+            "B": "git rm file",
+            "C": "git remove file",
+            "D": "git reset file"
+        },
+        "answer": "B",
+        "explanation": "The `git rm file` command removes a file from both the working directory and the Git index (staging area). This means the file will no longer be tracked by Git, and it will also be deleted from your local file system."
+    },
+    {
+        "QN": "127",
+        "type": "mcq",
+        "question": "What is a Git tag?",
+        "options": {
+            "A": "A type of branch",
+            "B": "A label to mark a specific commit",
+            "C": "A way to ignore files",
+            "D": "A command to merge code"
+        },
+        "answer": "B",
+        "explanation": "A Git tag is a label used to mark a specific commit in the repository's history. Tags are typically used to indicate important milestones, such as software releases"
+    },
+    {
+        "QN": "128",
+        "type": "mcq",
+        "question": "What is the purpose of `git cherry-pick`?",
+        "options": {
+            "A": "To merge two branches",
+            "B": "To apply a commit from one branch to another",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "B",
+        "explanation": "The `git cherry-pick` command applies a commit from one branch to another. It allows you to take a specific commit and apply its changes to the current branch."
+    },
+    {
+        "QN": "129",
+        "type": "mcq",
+        "question": "What is the difference between `git fetch` and `git pull`?",
+        "options": {
+            "A": "Fetch updates but does not merge, while pull fetches and merges",
+            "B": "Fetch merges but does not update, while pull updates but does not merge",
+            "C": "Fetch is used for branches, while pull is used for tags",
+            "D": "Fetch is used for tags, while pull is used for branches"
+        },
+        "answer": "A",
+        "explanation": "`git fetch` retrieves updates from a remote repository but does not automatically merge them into your local branch. In contrast, `git pull` fetches updates and merges them into your current branch."
+    },
+    {
+        "QN": "130",
+        "type": "mcq",
+        "question": "What is a Git hook?",
+        "options": {
+            "A": "A script that runs automatically at certain points in a Git workflow",
+            "B": "A tool for managing branches",
+            "C": "A method for merging code",
+            "D": "A way to create backups"
+        },
+        "answer": "A",
+        "explanation": "Git hooks are scripts that run automatically at specific points in a Git workflow. They can be used to enforce coding standards, validate commit messages, or perform other tasks before or after certain Git operations."
+    },
+    {
+        "QN": "131",
+        "type": "mcq",
+        "question": "How do you rename a branch in Git?",
+        "options": {
+            "A": "git rename branch-name",
+            "B": "git branch -m old-name new-name",
+            "C": "git change branch-name",
+            "D": "git update branch-name"
+        },
+        "answer": "B",
+        "explanation": "The `git branch -m old-name new-name` command is used to rename a branch in Git. It changes the name of the branch from `old-name` to `new-name`."
+    },
+    {
+        "QN": "132",
+        "type": "mcq",
+        "question": "What is the purpose of `git bisect`?",
+        "options": {
+            "A": "To find the commit that introduced a bug",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git bisect` command is used to find the commit that introduced a bug. It performs a binary search through the commit history to identify the problematic commit."
+    },
+    {
+        "QN": "133",
+        "type": "mcq",
+        "question": "How do you delete a remote branch in Git?",
+        "options": {
+            "A": "git branch -d branch-name",
+            "B": "git push origin --delete branch-name",
+            "C": "git delete branch-name",
+            "D": "git remove branch-name"
+        },
+        "answer": "B",
+        "explanation": "The `git push origin --delete branch-name` command is used to delete a remote branch in Git. It removes the specified branch from the remote repository."
+    },
+    {
+        "QN": "134",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Issues?",
+        "options": {
+            "A": "To manage project dependencies",
+            "B": "To track bugs and feature requests",
+            "C": "To create new repositories",
+            "D": "To manage user accounts"
+        },
+        "answer": "B",
+        "explanation": "GitHub Issues are used to track bugs, feature requests, and other tasks related to a project. They provide a way to organize and prioritize work within a repository."
+    },
+    {
+        "QN": "135",
+        "type": "mcq",
+        "question": "What is a Git rebase?",
+        "options": {
+            "A": "A method to merge two branches",
+            "B": "A way to reorder commits in a branch",
+            "C": "A command to delete a commit",
+            "D": "A tool to create a new branch"
+        },
+        "answer": "B",
+        "explanation": "A Git rebase is a way to reorder commits in a branch. It replays your local commits on top of the updated branch from the remote repository, creating a linear commit history."
+    },
+    {
+        "QN": "136",
+        "type": "mcq",
+        "question": "What is the difference between `git rebase` and `git merge`?",
+        "options": {
+            "A": "Rebase replays commits, while merge creates a new merge commit",
+            "B": "Rebase creates a new merge commit, while merge replays commits",
+            "C": "Rebase is used for local changes, while merge is used for remote changes",
+            "D": "Rebase is used for remote changes, while merge is used for local changes"
+        },
+        "answer": "A",
+        "explanation": "`git rebase` replays your local commits on top of the updated branch, maintaining a linear history. In contrast, `git merge` creates a new merge commit that combines the histories of the two branches."
+    },
+    {
+        "QN": "137",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Projects?",
+        "options": {
+            "A": "To manage project dependencies",
+            "B": "To track progress and organize tasks",
+            "C": "To create new repositories",
+            "D": "To manage user accounts"
+        },
+        "answer": "B",
+        "explanation": "GitHub Projects are used to track progress and organize tasks within a repository. They provide boards for managing workflows and tracking issues and pull requests."
+    },
+    {
+        "QN": "138",
+        "type": "mcq",
+        "question": "How do you undo changes in a file without affecting the Git index?",
+        "options": {
+            "A": "git checkout -- file",
+            "B": "git reset file",
+            "C": "git revert file",
+            "D": "git restore file"
+        },
+        "answer": "A",
+        "explanation": "The `git checkout -- file` command (or `git restore file` in newer Git versions) is used to undo changes in a file without affecting the Git index. It discards changes made to the file in the working directory."
+    },
+    {
+        "QN": "139",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Gists?",
+        "options": {
+            "A": "To share small code snippets",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Gists are used to share small code snippets or other text files. They provide a simple way to share code without creating a full repository."
+    },
+    {
+        "QN": "140",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Pages?",
+        "options": {
+            "A": "To host static websites",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Pages is a service that allows you to host static websites directly from your GitHub repository. It supports HTML, CSS, and JavaScript files."
+    },
+    {
+        "QN": "141",
+        "type": "mcq",
+        "question": "What is the difference between `git fetch` and `git pull --rebase`?",
+        "options": {
+            "A": "Fetch updates but does not merge, while pull --rebase fetches and rebases",
+            "B": "Fetch merges but does not update, while pull --rebase updates but does not merge",
+            "C": "Fetch is used for branches, while pull --rebase is used for tags",
+            "D": "Fetch is used for tags, while pull --rebase is used for branches"
+        },
+        "answer": "A",
+        "explanation": "`git fetch` retrieves updates but does not merge them into your branch. In contrast, `git pull --rebase` fetches updates and rebases your local branch on top of the updated branch from the remote repository."
+    },
+    {
+        "QN": "142",
+        "type": "mcq",
+        "question": "What is the purpose of `git diff`?",
+        "options": {
+            "A": "To show differences between files",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git diff` command is used to show differences between files in your working directory and the staging area or between different commits."
+    },
+    {
+        "QN": "143",
+        "type": "mcq",
+        "question": "What is the purpose of `git remote`?",
+        "options": {
+            "A": "To manage remote repositories",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git remote` command is used to manage remote repositories. It allows you to add, remove, or rename remotes, which are references to remote repositories."
+    },
+    {
+        "QN": "144",
+        "type": "mcq",
+        "question": "How do you view the commit history with a graphical representation?",
+        "options": {
+            "A": "git log --graph",
+            "B": "git history --graph",
+            "C": "git show --graph",
+            "D": "git view --graph"
+        },
+        "answer": "A",
+        "explanation": "The `git log --graph` command displays the commit history with a graphical representation, showing the relationships between branches."
+    },
+    {
+        "QN": "145",
+        "type": "mcq",
+        "question": "What is the purpose of `git tag -a`?",
+        "options": {
+            "A": "To create a lightweight tag",
+            "B": "To create an annotated tag",
+            "C": "To delete a tag",
+            "D": "To merge two branches"
+        },
+        "answer": "B",
+        "explanation": "The `git tag -a` command is used to create an annotated tag. Annotated tags include additional information like the tagger's name, email, and date, making them more informative than lightweight tags."
+    },
+    {
+        "QN": "146",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Actions?",
+        "options": {
+            "A": "To automate workflows and build processes",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Actions is a CI/CD tool that automates workflows and build processes. It allows you to define custom workflows that run on specific events, such as pushing code to a repository."
+    },
+    {
+        "QN": "147",
+        "type": "mcq",
+        "question": "What is the purpose of `git config`?",
+        "options": {
+            "A": "To manage Git settings and configurations",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git config` command is used to manage Git settings and configurations. It allows you to set or retrieve configuration values for your Git installation, such as user name, email, and editor preferences."
+    },
+    {
+        "QN": "148",
+        "type": "mcq",
+        "question": "What is the difference between `git merge` and `git merge --no-ff`?",
+        "options": {
+            "A": "Merge creates a fast-forward merge, while --no-ff always creates a merge commit",
+            "B": "Merge creates a merge commit, while --no-ff does a fast-forward merge",
+            "C": "Merge is used for local changes, while --no-ff is used for remote changes",
+            "D": "Merge is used for remote changes, while --no-ff is used for local changes"
+        },
+        "answer": "A",
+        "explanation": "`git merge` may perform a fast-forward merge if possible, while `git merge --no-ff` always creates a new merge commit, even if a fast-forward merge is possible."
+    },
+    {
+        "QN": "149",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Codespaces?",
+        "options": {
+            "A": "To provide cloud-based development environments",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Codespaces provides cloud-based development environments. It allows developers to create and work on projects directly in the cloud, eliminating the need for local setup."
+    },
+    {
+        "QN": "150",
+        "type": "mcq",
+        "question": "What is the purpose of `git submodule`?",
+        "options": {
+            "A": "To manage subprojects within a main project",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git submodule` command is used to manage subprojects within a main project. It allows you to include other Git repositories as subdirectories within your main repository."
+    },
+    {
+        "QN": "151",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Packages?",
+        "options": {
+            "A": "To host and manage packages for your projects",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Packages is a service that allows you to host and manage packages for your projects. It supports various package formats and integrates with GitHub repositories."
+    },
+    {
+        "QN": "152",
+        "type": "mcq",
+        "question": "What is the purpose of `git archive`?",
+        "options": {
+            "A": "To create an archive of a Git repository",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git archive` command is used to create an archive of a Git repository. It allows you to export a snapshot of your repository at a specific commit or branch."
+    },
+    {
+        "QN": "153",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Discussions?",
+        "options": {
+            "A": "To facilitate community discussions and Q&A",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Discussions is a feature that facilitates community discussions and Q&A within a repository. It provides a space for users to engage with each other and share knowledge."
+    },
+    {
+        "QN": "154",
+        "type": "mcq",
+        "question": "What is the purpose of `git worktree`?",
+        "options": {
+            "A": "To manage multiple working directories for a single repository",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git worktree` command is used to manage multiple working directories for a single repository. It allows you to work on different branches or projects simultaneously without switching between them."
+    },
+    {
+        "QN": "155",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Sponsors?",
+        "options": {
+            "A": "To support open-source developers financially",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Sponsors is a program that allows users to financially support open-source developers and maintainers. It provides a way for contributors to receive funding for their work."
+    },
+    {
+        "QN": "156",
+        "type": "mcq",
+        "question": "What is the purpose of `git notes`?",
+        "options": {
+            "A": "To add additional information to commits",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git notes` command is used to add additional information"
+    },
+    {
+        "QN": "157",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Learning Lab?",
+        "options": {
+            "A": "To provide interactive learning paths for GitHub skills",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Learning Lab offers interactive learning paths to help users develop skills related to GitHub and software development."
+    },
+    {
+        "QN": "158",
+        "type": "mcq",
+        "question": "What is the purpose of `git filter-branch`?",
+        "options": {
+            "A": "To rewrite the commit history",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git filter-branch` command is used to rewrite the commit history. It allows you to modify commits, such as changing commit messages or author information."
+    },
+    {
+        "QN": "159",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Desktop?",
+        "options": {
+            "A": "A graphical user interface for Git",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Desktop is a graphical user interface (GUI) for Git. It simplifies Git operations by providing a visual interface for managing repositories, branches, and commits."
+    },
+    {
+        "QN": "160",
+        "type": "mcq",
+        "question": "What is the purpose of `git fsck`?",
+        "options": {
+            "A": "To check the integrity of a Git repository",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git fsck` command is used to check the integrity of a Git repository. It verifies the consistency of the repository's data structures and can help identify and repair corruption."
+    },
+    {
+        "QN": "161",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Code Search?",
+        "options": {
+            "A": "To search for code across GitHub repositories",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Code Search allows users to search for code across GitHub repositories. It provides a powerful tool for finding specific code snippets or patterns."
+    },
+    {
+        "QN": "162",
+        "type": "mcq",
+        "question": "What is the purpose of `git rev-parse`?",
+        "options": {
+            "A": "To parse Git revisions and references",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git rev-parse` command is used to parse Git revisions and references. It helps in resolving symbolic references to actual commit hashes or other Git objects."
+    },
+    {
+        "QN": "163",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Copilot?",
+        "options": {
+            "A": "An AI-powered coding assistant",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Copilot is an AI-powered coding assistant that helps developers write code more efficiently. It provides suggestions and completes code snippets based on context."
+    },
+    {
+        "QN": "164",
+        "type": "mcq",
+        "question": "What is the purpose of `git bundle`?",
+        "options": {
+            "A": "To create a portable bundle of commits",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git bundle` command is used to create a portable bundle of commits. It allows you to transfer commits between repositories without requiring network access."
+    },
+    {
+        "QN": "165",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Security Advisories?",
+        "options": {
+            "A": "To report and manage security vulnerabilities",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Security Advisories are used to report and manage security vulnerabilities in open-source projects. They provide a centralized way to disclose and track security issues."
+    },
+    {
+        "QN": "166",
+        "type": "mcq",
+        "question": "What is the purpose of `git grep`?",
+        "options": {
+            "A": "To search for patterns in the working directory",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git grep` command is used to search for patterns in the working directory, staging area, or specific commits. It helps in finding specific text within files tracked by Git."
+    },
+    {
+        "QN": "167",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Code Scanning?",
+        "options": {
+            "A": "To identify security vulnerabilities and coding errors",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Code Scanning is a tool that identifies security vulnerabilities and coding errors in your repository. It provides insights into potential issues before they become major problems."
+    },
+    {
+        "QN": "168",
+        "type": "mcq",
+        "question": "What is the purpose of `git verify-commit`?",
+        "options": {
+            "A": "To verify the integrity of commits",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git verify-commit` command is used to verify the integrity of commits. It checks the commit's GPG signature to ensure authenticity."
+    },
+    {
+        "QN": "169",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Dependabot?",
+        "options": {
+            "A": "To manage and update dependencies in your project",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Dependabot is a tool that helps manage and update dependencies in your project. It automates the process of keeping your dependencies secure and up-to-date."
+    },
+    {
+        "QN": "170",
+        "type": "mcq",
+        "question": "What is the purpose of `git reflog`?",
+        "options": {
+            "A": "To display a log of all references that have been updated",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git reflog` command displays a log of all references that have been updated. It helps in tracking changes to branches, tags, and other references."
+    },
+    {
+        "QN": "171",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Code Review?",
+        "options": {
+            "A": "To facilitate code review and feedback",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Code Review is a feature that facilitates code review and feedback. It allows developers to examine changes, provide comments, and approve pull requests."
+    },
+    {
+        "QN": "172",
+        "type": "mcq",
+        "question": "What is the purpose of `git ls-remote`?",
+        "options": {
+            "A": "To list references in a remote repository",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git ls-remote` command lists references in a remote repository. It displays the branches, tags, and other references available on the remote server."
+    },
+    {
+        "QN": "173",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Team?",
+        "options": {
+            "A": "To manage team access and permissions",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Teams allow you to manage team access and permissions within an organization. It simplifies collaboration by organizing users into groups with specific roles."
+    },
+    {
+        "QN": "174",
+        "type": "mcq",
+        "question": "What is the purpose of `git rev-list`?",
+        "options": {
+            "A": "To list commit hashes in reverse chronological order",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git rev-list` command lists commit hashes in reverse chronological order. It is often used to retrieve a list of commits between two points in the commit history."
+    },
+    {
+        "QN": "175",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Organization?",
+        "options": {
+            "A": "To manage multiple repositories and teams",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "A GitHub Organization is used to manage multiple repositories and teams. It provides features like centralized billing, team management, and access control."
+    },
+    {
+        "QN": "176",
+        "type": "mcq",
+        "question": "What is the purpose of `git show`?",
+        "options": {
+            "A": "To display information about a commit or object",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git show` command displays information about a commit or object. It can show details like the commit message, author, and changes made in the commit."
+    },
+    {
+        "QN": "177",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Marketplace?",
+        "options": {
+            "A": "To find and purchase integrations for GitHub",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Marketplace is a platform where you can find and purchase integrations for GitHub. It offers tools and services that enhance your GitHub workflow."
+    },
+    {
+        "QN": "178",
+        "type": "mcq",
+        "question": "What is the purpose of `git shortlog`?",
+        "options": {
+            "A": "To summarize commit history by author",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git shortlog` command summarizes the commit history by author. It groups commits by the person who made them, providing a concise overview of contributions."
+    },
+    {
+        "QN": "179",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub API?",
+        "options": {
+            "A": "To interact with GitHub programmatically",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "The GitHub API allows developers to interact with GitHub programmatically. It provides endpoints for creating, reading, and updating repository data, issues, and more."
+    },
+    {
+        "QN": "180",
+        "type": "mcq",
+        "question": "What is the purpose of `git bisect --skip`?",
+        "options": {
+            "A": "To skip a commit during a bisect operation",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git bisect --skip` command is used to skip a commit during a bisect operation. It tells Git to ignore the current commit and continue the binary search with the next one."
+    },
+    {
+        "QN": "181",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Webhooks?",
+        "options": {
+            "A": "To notify external services of GitHub events",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Webhooks are used to notify external services of GitHub events, such as push events or pull requests. They allow you to automate workflows based on these events."
+    },
+    {
+        "QN": "182",
+        "type": "mcq",
+        "question": "What is the purpose of `git describe`?",
+        "options": {
+            "A": "To describe a commit using the nearest tag",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git describe` command describes a commit using the nearest tag. It provides a human-readable name for a commit based on the closest annotated tag."
+    },
+    {
+        "QN": "183",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Apps?",
+        "options": {
+            "A": "To integrate third-party services with GitHub",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Apps are used to integrate third-party services with GitHub. They provide a way to automate workflows, enhance collaboration, and extend GitHub's functionality."
+    },
+    {
+        "QN": "184",
+        "type": "mcq",
+        "question": "What is the purpose of `git instaweb`?",
+        "options": {
+            "A": "To start a web server for browsing the Git repository",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git instaweb` command starts a web server for browsing the Git repository. It provides a simple way to view the repository's history and structure in a web interface."
+    },
+    {
+        "QN": "185",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub OAuth?",
+        "options": {
+            "A": "To provide secure authentication for GitHub integrations",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub OAuth is used to provide secure authentication for GitHub integrations. It allows applications to access GitHub resources on behalf of users without exposing passwords."
+    },
+    {
+        "QN": "186",
+        "type": "mcq",
+        "question": "What is the purpose of `git whatchanged`?",
+        "options": {
+            "A": "To show changes made to files",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git whatchanged` command shows changes made to files. It lists the files that have been modified, added, or deleted between commits."
+    },
+    {
+        "QN": "187",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub GraphQL API?",
+        "options": {
+            "A": "To provide a flexible query-based API for GitHub data",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "The GitHub GraphQL API provides a flexible query-based interface for accessing GitHub data. It allows developers to specify exactly"
+    },
+    {
+        "QN": "188",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub REST API?",
+        "options": {
+            "A": "To provide a traditional request-response API for GitHub data",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "The GitHub REST API provides a traditional request-response interface for accessing GitHub data. It allows developers to interact with GitHub resources using standard HTTP methods."
+    },
+    {
+        "QN": "189",
+        "type": "mcq",
+        "question": "What is the purpose of `git credential-cache`?",
+        "options": {
+            "A": "To cache credentials for Git operations",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git credential-cache` command caches credentials for Git operations. It stores authentication credentials temporarily to avoid repeated prompts for login information."
+    },
+    {
+        "QN": "190",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Enterprise?",
+        "options": {
+            "A": "To provide a self-hosted version of GitHub for enterprises",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Enterprise is a self-hosted version of GitHub designed for enterprises. It provides a secure and customizable platform for managing code and collaboration within an organization."
+    },
+    {
+        "QN": "191",
+        "type": "mcq",
+        "question": "What is the purpose of `git credential-store`?",
+        "options": {
+            "A": "To store credentials securely for Git operations",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git credential-store` command stores credentials securely for Git operations. It saves authentication credentials in a file or system keychain to avoid repeated login prompts."
+    },
+    {
+        "QN": "192",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Student Developer Pack?",
+        "options": {
+            "A": "To provide free tools and services for student developers",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "The GitHub Student Developer Pack offers free tools and services for student developers. It includes access to various software and platforms to help students learn and build projects."
+    },
+    {
+        "QN": "193",
+        "type": "mcq",
+        "question": "What is the purpose of `git credential-helper`?",
+        "options": {
+            "A": "To manage credential helpers for Git operations",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git credential-helper` command manages credential helpers for Git operations. It allows you to integrate external tools for storing and retrieving credentials."
+    },
+    {
+        "QN": "194",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Community Forum?",
+        "options": {
+            "A": "To facilitate community discussions and support",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "The GitHub Community Forum is a platform for facilitating community discussions and support. It allows users to ask questions, share knowledge, and engage with each other."
+    },
+    {
+        "QN": "195",
+        "type": "mcq",
+        "question": "What is the purpose of `git credential-cache--daemon`?",
+        "options": {
+            "A": "To cache credentials using a daemon process",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git credential-cache--daemon` command caches credentials using a daemon process. It runs in the background to store and retrieve credentials for Git operations."
+    },
+    {
+        "QN": "196",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Open Source Guides?",
+        "options": {
+            "A": "To provide resources for open-source projects",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "GitHub Open Source Guides offer resources and best practices for open-source projects. They help maintainers and contributors manage their projects effectively."
+    },
+    {
+        "QN": "197",
+        "type": "mcq",
+        "question": "What is the purpose of `git credential-store--daemon`?",
+        "options": {
+            "A": "To store credentials using a daemon process",
+            "B": "To merge two branches",
+            "C": "To create a new branch",
+            "D": "To delete a commit"
+        },
+        "answer": "A",
+        "explanation": "The `git credential-store--daemon` command stores credentials using a daemon process. It securely manages credentials in the background for Git operations."
+    },
+    {
+        "QN": "198",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Open Source Initiative?",
+        "options": {
+            "A": "To support and promote open-source software",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "The GitHub Open Source Initiative supports and promotes open-source software. It provides resources and tools to help open-source projects succeed."
+    },
+    {
+        "QN": "199",
+        "type": "mcq",
+        "question": "What is the purpose of GitHub Developer Program?",
+        "options": {
+            "A": "To support developers with tools and resources",
+            "B": "To manage project dependencies",
+            "C": "To create new repositories",
+            "D": "To track bugs and feature requests"
+        },
+        "answer": "A",
+        "explanation": "The GitHub Developer Program supports developers with tools and resources. It offers benefits like access to GitHub features, support, and community engagement to help developers build and grow their projects."
+    }
+]

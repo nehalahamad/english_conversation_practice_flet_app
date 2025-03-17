@@ -34,31 +34,21 @@ class TimerProgressBar(ft.ProgressBar):
         self.next_question(ft.ControlEvent(name='click', data=None, target='_54',page=self.page, control=MyOutlinedButton('next', 'red', f1)))
 
 
-class Question:
-    def __init__(self, question):
-        self.question = question
-
-    def display(self, page):
-        pass
-
-    def get_answer(self):
-        return None
-
-class MCQQuestion(Question):
-    def __init__(self, question, page:ft.Page, my_theme_color, next_question=None):
-        super().__init__(question)
+class MCQQuestion():
+    def __init__(self, question, page:ft.Page, my_theme_color):
+        self.question = question["question"]
+        self.options = question["options"]
+        self.answer = self.options[question["answer"]]
+        self.explanation = question.get("explanation", "")
         self.page = page
         self.selected_option = None
         self.my_theme_color = my_theme_color
-        # self.next_question = next_question
 
-    def display(self, page, options):
+    def display(self):
         column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
-        column.controls.append(ft.Divider(color=self.my_theme_color)) ##########################
-        # column.controls.append(TimerProgressBar(self.my_theme_color, self.page, self.next_question))
+        column.controls.append(ft.Divider(color=self.my_theme_color))
 
-
-        for key, option in options.items():
+        for key, option in self.options.items():
             column.controls.append(
                 ft.Stack(
                     controls=[
@@ -81,7 +71,6 @@ class MCQQuestion(Question):
                 )
             )
 
-
             column.controls.append(ft.Divider(color=self.my_theme_color))
 
         # Create a RadioGroup with an on_change callback to update selected_option
@@ -100,12 +89,53 @@ class MCQQuestion(Question):
             width=self.page.window.width
         )
 
+
+    def show_result(self):
+        answer_match: bool = self.selected_option==self.answer
+        return ft.Container(
+            content=ft.Column(
+                controls=[
+                    ft.Container(
+                        content=ft.Text(f"{self.question}", width=self.page.width, selectable=True),
+                        border=ft.border.all(1, self.my_theme_color),
+                        border_radius=5,
+                        padding=5,
+                    ),
+                    ft.Container(
+                        content=ft.Column(
+                            controls=[
+                                ft.Text(f"{k}: {v}", width=self.page.width, size=12, selectable=True) for k, v in self.options.items()
+                            ],
+                            spacing=0
+                        ),
+                        border=ft.border.all(1, self.my_theme_color),
+                        border_radius=5,
+                        padding=5,
+                    ),
+                    ft.Text(f"Your Answer: {self.selected_option}", color=ft.Colors.BLUE, selectable=True),
+                    ft.Text(f"Correct Answer: {self.answer}", color=ft.Colors.GREEN, selectable=True) if not answer_match else ft.Container(),
+                    ft.Container(
+                        content=ft.Text(f"{self.explanation}", size=12, width=self.page.width, selectable=True),
+                        border=ft.border.all(1, self.my_theme_color),
+                        border_radius=5,
+                        padding=5,
+                    )
+                ],
+                scroll=True
+            ),
+            border=ft.border.all(1, self.my_theme_color),
+            padding=5,
+            margin=5,
+            border_radius=5,
+            bgcolor=["#FDEFEF", "#EFFDEF"][answer_match] #['red', 'green']
+        )
+
+
     def get_answer(self):
         return self.selected_option
 
-class TrueFalseQuestion(Question):
+class TrueFalseQuestion():
     def __init__(self, question):
-        super().__init__(question)
         self.selected_option = None
         self.radio_group = None
 
@@ -131,9 +161,8 @@ class TrueFalseQuestion(Question):
     def get_answer(self):
         return self.selected_option
 
-class ShortAnswerQuestion(Question):
+class ShortAnswerQuestion():
     def __init__(self, question):
-        super().__init__(question)
         self.text_field = None
 
     def display(self, page):
@@ -182,7 +211,7 @@ class QuizView(ft.View):
 
         self.questions: list = random.sample(self.questions_json, self.num_questions)
 
-        self.current_question_widget = None
+        self.current_question_obj = None
 
         # ==================== Question ======================
         self.question_ref = ft.Ref[ft.Text]()
@@ -190,7 +219,7 @@ class QuizView(ft.View):
         self.question_text = ft.Stack(
             controls=[
                 ft.Container(
-                    content=ft.Text(text_align=ft.TextAlign.LEFT, no_wrap=False, max_lines=5, width=self.page.width, size=15, ref=self.question_ref),
+                    content=ft.Text(text_align=ft.TextAlign.LEFT, no_wrap=False, width=self.page.width, size=15, ref=self.question_ref, selectable=True),
                     padding=10,
                     margin=ft.margin.only(left=5, right=5, top=12, bottom=5),
                     border_radius=5,
@@ -242,35 +271,27 @@ class QuizView(ft.View):
         
         q_type = question["type"]
         if q_type == "mcq":
-            q = MCQQuestion(question["question"], self.page, self.my_theme_color)
-            # q = MCQQuestion(question["question"], self.page, self.my_theme_color, self.next_question)
-            widget = q.display(self.page, question["options"])
+            q = MCQQuestion(question, self.page, self.my_theme_color)
+            widget = q.display()
             self.options.controls.append(widget)
-            self.current_question_widget = q
+            self.current_question_obj = q
         elif q_type == "true_false":
             q = TrueFalseQuestion(question["question"])
             widget = q.display(self.page)
             self.options.controls.append(widget)
-            self.current_question_widget = q
+            self.current_question_obj = q
 
         self.page.update()
     
     def next_question(self, e):
         # Capture the answer using the question widget's get_answer method
-        user_answer: str = self.current_question_widget.get_answer() if self.current_question_widget else None
-        correct_answer: str = self.questions[self.current_question]['options'][self.questions[self.current_question]["answer"]]
-        explanation: str = self.questions[self.current_question].get("explanation", "")
+        user_answer: str = self.current_question_obj.get_answer() if self.current_question_obj else None
         
         # Update score if the answer is correct
-        if user_answer is not None and user_answer == correct_answer:
+        if user_answer is not None and user_answer == self.current_question_obj.answer:
             self.score += 1
         
-        self.selected_answers.append({
-            "question": self.questions[self.current_question]["question"],
-            "selected": user_answer if user_answer is not None else "",
-            "correct": correct_answer,
-            "explanation": explanation
-        })
+        self.selected_answers.append(self.current_question_obj)
         
         if self.current_question < len(self.questions) - 1:
             self.current_question += 1
@@ -284,35 +305,8 @@ class QuizView(ft.View):
             ft.Text(f"Quiz Completed! Your score: {self.score}/{self.num_questions}", text_align=ft.TextAlign.CENTER)
         )
         for result in self.selected_answers:
-            answer_match: bool = result['selected']==result['correct']
-            self.controls.append(
-                ft.Container(
-                    content=ft.Column(
-                        controls=[
-                            ft.Container(
-                                content=ft.Text(f"{result['question']}", width=self.page.width),
-                                border=ft.border.all(1, self.my_theme_color),
-                                border_radius=5,
-                                padding=5,
-                            ),
-                            ft.Text(f"Your Answer: {result['selected']}", color=ft.Colors.BLUE),
-                            ft.Text(f"Correct Answer: {result['correct']}", color=ft.Colors.GREEN) if not answer_match else ft.Container(),
-                            ft.Container(
-                                content=ft.Text(f"{result['explanation']}", size=12, width=self.page.width),
-                                border=ft.border.all(1, self.my_theme_color),
-                                border_radius=5,
-                                padding=5,
-                            )
-                        ],
-                        scroll=True
-                    ),
-                    border=ft.border.all(1, self.my_theme_color),
-                    padding=5,
-                    margin=5,
-                    border_radius=5,
-                    bgcolor=["#FDEFEF", "#EFFDEF"][answer_match] #['red', 'green']
-                )
-            )
+            self.controls.append(result.show_result())
+
         self.try_again_button = MyOutlinedButton("Try Again", self.my_theme_color, on_click=self.try_again)
         self.controls.append(self.try_again_button)
         self.update()
