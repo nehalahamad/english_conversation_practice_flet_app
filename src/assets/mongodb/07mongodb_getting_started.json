@@ -1,0 +1,262 @@
+[
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "__________ is a part of the standard MongoDB distribution and provides a full JavaScript environment.",
+        "options": {
+            "A": "mongod",
+            "B": "mongodb",
+            "C": "mongo",
+            "D": "none of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "mongo provides complete access to the JavaScript language and all standard functions as well as a full database interface for MongoDB."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "MMS provides backup and monitoring",
+            "B": "MongoDB can also be configured for data replication",
+            "C": "MMS is available to all users in the cloud and on-premises as part of MongoDB Standard and Enterprise Subscriptions",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "MongoDB is limited to a total data size of about 2GB for all databases in 32-bit mode."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "mongo looks for a database server listening on port 27017 on the ________ interface.",
+        "options": {
+            "A": "web",
+            "B": "localhost",
+            "C": "web host",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "To connect to a server on a different port or interface, use the –port and –host options."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "After starting the mongo shell, your session will use the ________ database by default.",
+        "options": {
+            "A": "mongo",
+            "B": "master",
+            "C": "test",
+            "D": "primary"
+        },
+        "answer": "C",
+        "explanation": "At any time, db operation at the mongo shell is used to report the name of the current database."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "MongoDB works right out of the box, and you can dive right into developing your application, instead of spending a lot of time fine-tuning obscure database configurations",
+            "B": "MongoDB works hard to be very easy to install, configure, maintain, and use",
+            "C": "MongoDB does not provide a lot of the features of a traditional RDBMS",
+            "D": "None of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "MongoDB focuses on flexibility, power, speed, and ease of use."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "___________ command display the list of databases.",
+        "options": {
+            "A": "show db",
+            "B": "show dbs",
+            "C": "show data",
+            "D": "display dbs"
+        },
+        "answer": "B",
+        "explanation": "Show dbs print a list of all databases on the server."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Which of the following operation is used to switch to new database mydb?",
+        "options": {
+            "A": "use dbs",
+            "B": "use db",
+            "C": "use mydb",
+            "D": "use mydbs"
+        },
+        "answer": "C",
+        "explanation": "Confirm that your session has the mydb database as context, by checking the value of the db object, which returns the name of the current database."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following also returns a list of databases?",
+        "options": {
+            "A": "show databases",
+            "B": "show database",
+            "C": "display dbs",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "show databases is new in version 2.4."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "Command to check existence of collection is _____________.",
+        "options": {
+            "A": "show collection",
+            "B": "show collections",
+            "C": "show collect",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The mongo shell will return the list of the collections in the current database."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which of the following method is used to query documents in collections?",
+        "options": {
+            "A": "find",
+            "B": "move",
+            "C": "shell",
+            "D": "replace"
+        },
+        "answer": "A",
+        "explanation": "The find() method with no parameters returns all documents from a collection and returns all fields for the documents."
+    },
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "When you query a collection, MongoDB returns a ________ object that contains the results of the query.",
+        "options": {
+            "A": "row",
+            "B": "cursor",
+            "C": "colums",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The mongo shell then iterates over the cursor to display the results."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "A database is a set of key-value pairs",
+            "B": "A MongoDB deployment hosts a number of databases",
+            "C": "A document holds a set of collections",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "A database holds a set of collections. A collection holds a set of documents."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following method returns true if the cursor has documents?",
+        "options": {
+            "A": "hasMethod()",
+            "B": "hasNext()",
+            "C": "hasDoc()",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "hasNext() returns true if the cursor returned by the db.collection.find() query can iterate further to return more documents."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "____________ method renders the document in a JSON-like format.",
+        "options": {
+            "A": "displayjson",
+            "B": "print",
+            "C": "printjson",
+            "D": "printdoc"
+        },
+        "answer": "C",
+        "explanation": "printjson() operation displays all documents."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Documents have static schema in MongoDB",
+            "B": "Eventually-consistent reads can be distributed over replicated servers",
+            "C": "Indexes can include keys from embedded documents and arrays",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Dynamic schema means that documents in the same collection do not need to have the same set of fields or structure, and common fields in a collection’s documents may hold different types of data."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "Which of the following method is called while accessing documents using the array index notation?",
+        "options": {
+            "A": "cur.toArray()",
+            "B": "cursor.toArray()",
+            "C": "doc.toArray()",
+            "D": "all of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The toArray() method returns an array that contains all the documents from a cursor."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "The mongo shell and the drivers provide several cursor methods that call on the cursor returned by the _______ method to modify its behavior.",
+        "options": {
+            "A": "cursor()",
+            "B": "find()",
+            "C": "findc()",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The method iterates completely the cursor, loading all the documents."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following method corresponds to Order by clause in SQL?",
+        "options": {
+            "A": "sort()",
+            "B": "order()",
+            "C": "orderby()",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "The sort() method orders the documents in the result set."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "The __________ method limits the number of documents in the result set.",
+        "options": {
+            "A": "limit()",
+            "B": "limitOf()",
+            "C": "limitBy()",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "limit() corresponds to the LIMIT statement in SQL."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which of the following line skips the first 5 documents in the bios collection and returns all remaining documents?",
+        "options": {
+            "A": "db.bios.find().limit( 5 )",
+            "B": "db.bios.find().skip( 1 )",
+            "C": "db.bios.find().skip( 5 )",
+            "D": "db.bios.find().sort( 5 )"
+        },
+        "answer": "C",
+        "explanation": "The skip() method controls the starting point of the results set."
+    }
+]

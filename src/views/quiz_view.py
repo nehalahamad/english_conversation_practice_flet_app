@@ -40,14 +40,14 @@ class MCQQuestion():
         self.options = question["options"]
         self.answer = self.options[question["answer"]]
         self.explanation = question.get("explanation", "")
-        self.page = page
         self.selected_option = None
+        self.page = page
         self.my_theme_color = my_theme_color
 
     def display(self):
         column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
-        column.controls.append(ft.Divider(color=self.my_theme_color))
 
+        column.controls.append(ft.Divider(color=self.my_theme_color))
         for key, option in self.options.items():
             column.controls.append(
                 ft.Stack(

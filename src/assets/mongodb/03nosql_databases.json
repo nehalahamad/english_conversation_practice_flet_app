@@ -1,0 +1,132 @@
+[
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "Which of the following is not a NoSQL database?",
+        "options": {
+            "A": "SQL Server",
+            "B": "MongoDB",
+            "C": "Cassandra",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Microsoft SQL Server is a relational database management system developed by Microsoft."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "Documents can contain many different key-value pairs, or key-array pairs, or even nested documents",
+            "B": "MongoDB has official drivers for a variety of popular programming languages and development environments",
+            "C": "When compared to relational databases, NoSQL databases are more scalable and provide superior performance",
+            "D": "All of the mentioned"
+        },
+        "answer": "D",
+        "explanation": "There are also a large number of unofficial or community-supported drivers for other programming languages and frameworks."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "Which of the following is a NoSQL Database Type?",
+        "options": {
+            "A": "SQL",
+            "B": "Document databases",
+            "C": "JSON",
+            "D": "All of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Document databases pair each key with a complex data structure known as a document."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "Which of the following is a wide-column store?",
+        "options": {
+            "A": "Cassandra",
+            "B": "Riak",
+            "C": "MongoDB",
+            "D": "Redis"
+        },
+        "answer": "A",
+        "explanation": "Wide-column stores such as Cassandra and HBase are optimized for queries over large datasets, and store columns of data together, instead of rows."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Non Relational databases require that schemas be defined before you can add data",
+            "B": "NoSQL databases are built to allow the insertion of data without a predefined schema",
+            "C": "NewSQL databases are built to allow the insertion of data without a predefined schema",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "There’s also no way, using a relational database, to effectively address data that’s completely unstructured or unknown in advance."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "“Sharding” a database across many server instances can be achieved with _______________",
+        "options": {
+            "A": "LAN",
+            "B": "SAN",
+            "C": "MAN",
+            "D": "All of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "“Sharding” a database across many server instances can be achieved with SQL databases, but usually is accomplished through SANs and other complex arrangements for making hardware act as a single server."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "Most NoSQL databases support automatic __________ meaning that you get high availability and disaster recovery.",
+        "options": {
+            "A": "processing",
+            "B": "scalability",
+            "C": "replication",
+            "D": "all of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "The storage environment is essentially virtualized from the developer’s perspective."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "Which of the following are the simplest NoSQL databases?",
+        "options": {
+            "A": "Key-value",
+            "B": "Wide-column",
+            "C": "Document",
+            "D": "All of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Every single item in the database is stored as an attribute name (or “key”), together with its value in Key-value stores."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "________ stores are used to store information about networks, such as social connections.",
+        "options": {
+            "A": "Key-value",
+            "B": "Wide-column",
+            "C": "Document",
+            "D": "Graph"
+        },
+        "answer": "D",
+        "explanation": "Graph stores include Neo4J and HyperGraphDB."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "NoSQL databases is used mainly for handling large volumes of ______________ data.",
+        "options": {
+            "A": "unstructured",
+            "B": "structured",
+            "C": "semi-structured",
+            "D": "all of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "MongoDB is an a typical choice for unstructured data storage."
+    }
+]

@@ -3,3 +3,10 @@ Manually add the directory to your $HOME/.bash_profile (or similar)
   export FLYCTL_INSTALL="/home/karki/.fly"
   export PATH="$FLYCTL_INSTALL/bin:$PATH"
 Run '/home/karki/.fly/bin/flyctl --help' to get started
+
+
+--------create the app on the server
+fly apps create --name <your-app-name>
+
+--------deploy the app on the server
+fly deploy

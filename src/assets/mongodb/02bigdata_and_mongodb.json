@@ -1,0 +1,132 @@
+[
+    {
+        "QN": "1",
+        "type": "mcq",
+        "question": "MongoDB provides high ____________ with replica sets.",
+        "options": {
+            "A": "performance",
+            "B": "availability",
+            "C": "scalability",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "A replica set consists of two or more copies of the data."
+    },
+    {
+        "QN": "2",
+        "type": "mcq",
+        "question": "Point out the correct statement.",
+        "options": {
+            "A": "MongoDB cannot be used as a file system",
+            "B": "MongoDB can run over single servers only",
+            "C": "Embedded documents and arrays reduce need for joins",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "MongoDB can run over multiple servers, balancing the load and/or duplicating data to keep the system up and running in case of hardware failure."
+    },
+    {
+        "QN": "3",
+        "type": "mcq",
+        "question": "___________ replicas maintain a copy of the data on the primary using built-in replication.",
+        "options": {
+            "A": "Primary",
+            "B": "Secondary",
+            "C": "Backup",
+            "D": "All of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "When a primary replica fails, the replica set automatically conducts an election process to determine which secondary should become the primary."
+    },
+    {
+        "QN": "4",
+        "type": "mcq",
+        "question": "MongoDB scales horizontally using _________ for load balancing purpose.",
+        "options": {
+            "A": "Replication",
+            "B": "Partitioning",
+            "C": "Sharding",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "The user chooses a shard key, which determines how the data in a collection will be distributed."
+    },
+    {
+        "QN": "5",
+        "type": "mcq",
+        "question": "Point out the wrong statement.",
+        "options": {
+            "A": "Each replica set member will act in the role of primary replica only",
+            "B": "The primary replica performs all writes and reads by default",
+            "C": "Secondaries can also perform read operations, but the data is eventually consistent by default",
+            "D": "None of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "Each replica set member may act in the role of the primary or secondary replica at any time."
+    },
+    {
+        "QN": "6",
+        "type": "mcq",
+        "question": "MongoDB can be used as a ____________ taking advantage of load balancing and data replication features over multiple machines for storing files.",
+        "options": {
+            "A": "AMS",
+            "B": "CMS",
+            "C": "File system",
+            "D": "None of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "The data is split into ranges (based on the shard key) and distributed across multiple shards."
+    },
+    {
+        "QN": "7",
+        "type": "mcq",
+        "question": "_____________ can be used for batch processing of data and aggregation operations.",
+        "options": {
+            "A": "Hive",
+            "B": "MapReduce",
+            "C": "Oozie",
+            "D": "None of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "The aggregation framework enables users to obtain the kind of results for which the SQL GROUP BY clause is used."
+    },
+    {
+        "QN": "8",
+        "type": "mcq",
+        "question": "MongoDB supports fixed-size collections called ____________ collections.",
+        "options": {
+            "A": "primary",
+            "B": "secondary",
+            "C": "capped",
+            "D": "all of the mentioned"
+        },
+        "answer": "C",
+        "explanation": "This type of collection maintains insertion order and, once the specified size has been reached, behaves like a circular queue."
+    },
+    {
+        "QN": "9",
+        "type": "mcq",
+        "question": "MongoDB uses a ____________ lock that allows concurrent read access to a database but exclusive write access to a single write operation.",
+        "options": {
+            "A": "readers",
+            "B": "readers-writer",
+            "C": "writer",
+            "D": "none of the mentioned"
+        },
+        "answer": "B",
+        "explanation": "Before version 2.2, this lock was implemented on a per-mongod basis. Since version 2.2, the lock has been implemented at the database level."
+    },
+    {
+        "QN": "10",
+        "type": "mcq",
+        "question": "Which of the following sorting is not supported by MongoDB?",
+        "options": {
+            "A": "collation",
+            "B": "collection",
+            "C": "heap",
+            "D": "none of the mentioned"
+        },
+        "answer": "A",
+        "explanation": "MongoDB does not support collation-based sorting and is limited to byte-wise comparison via memcmp."
+    }
+]

@@ -2,7 +2,7 @@ import flet as ft
 from controls.my_conversation import Conversation
 from controls.my_exercise import Exercise
 from controls.custom_progressbar import CustomProgressBar
-from my_utility.ecp_mongo import MongoDBHandler
+# from my_utility.ecp_mongo import MongoDBHandler
 import os
 from dotenv import load_dotenv
 load_dotenv()

@@ -1,6 +1,7 @@
 import flet as ft
 from views.ecp_view import ECPView
 from views.docker_view import DockerView
+from views.git_commands import GitView
 from views.quiz_view import QuizView
 from views.home_view import HomeView
 from views.topic_view import TopicView
@@ -28,6 +29,9 @@ class MyApp:
 
         elif self.page.route == "/docker":
             self.page.views.append(DockerView(self.page))
+
+        elif self.page.route == "/git":
+            self.page.views.append(GitView(self.page))
 
         elif self.page.route == "/docker_quiz":
             file_path = "src/assets/docker_question_new.json"
