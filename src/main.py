@@ -91,11 +91,12 @@ class MyApp:
 
     def view_pop(self, view):
         """Handles back navigation."""
-        if len(self.page.views) > 1:
-            self.page.views.pop()
-            self.page.update()
+        self.page.views.pop()
+        top_view = self.page.views[-1]
+        self.page.go(top_view.route)
 
-def main(page: ft.Page):
+
+async def main(page: ft.Page):
     MyApp(page)  # Create an instance of MyApp
 
 # ft.app(main, view=ft.AppView.WEB_BROWSER)
